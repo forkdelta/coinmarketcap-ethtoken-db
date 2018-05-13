@@ -13,11 +13,15 @@ The base of the URLs for the following examples is https://forkdelta.github.io/.
 ## REST-like API
 
 ### `GET /coinmarketcap-ethtoken-db/tokens/index.json`
-The `index.json` file contains abridged entries for every token, sorted by token address (effectively random):
+The `index.json` file contains abridged entries for every token, sorted by token address (effectively random).
+
+Request:
 ```
 GET /coinmarketcap-ethtoken-db/tokens/index.json
+```
 
-
+Response:
+```json
 [
   {
     "id": 2617,
@@ -33,10 +37,13 @@ GET /coinmarketcap-ethtoken-db/tokens/index.json
 ### `GET /coinmarketcap-ethtoken-db/tokens/:address.json`
 A separate JSON file is available for every token, accessible as `:address.json`:
 
+Request:
 ```
 GET /coinmarketcap-ethtoken-db/tokens/0x001f0aa5da15585e5b2305dbab2bac425ea71007.json
+```
 
-
+Response:
+```json
 {
   "address": "0x001f0aa5da15585e5b2305dbab2bac425ea71007",
   "id": 2617,
@@ -67,10 +74,13 @@ GET /coinmarketcap-ethtoken-db/tokens/0x001f0aa5da15585e5b2305dbab2bac425ea71007
 The entire database is available as `bundle.json`, which contains a JSON array of all data included 
 in the individual files.
 
+Request:
 ```
 GET /coinmarketcap-ethtoken-db/tokens/bundle.json
+```
 
-
+Response:
+```json
 [
   {
     "address": "0x001f0aa5da15585e5b2305dbab2bac425ea71007",
