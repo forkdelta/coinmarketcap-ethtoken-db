@@ -229,7 +229,7 @@ if __name__ == "__main__":
             with open("tokens/{}.yaml".format(address), "w") as outfile:
                 outfile.write(
                     yaml.dump(
-                        listing,
+                        dict(address=address, **listing),
                         explicit_start=True,
                         width=YAML_WIDTH,
                         indent=YAML_INDENT,
