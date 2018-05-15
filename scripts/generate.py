@@ -171,7 +171,7 @@ def get_markets(slug, soup=None):
             "pair": pair_link.text.strip(),
             "url": pair_link["href"]
         })
-    return markets
+    return sorted(markets, key=lambda m: m["exchange_name"] + m["pair"])
 
 
 REDDIT_URL_RE = re.compile('reddit.com/(?:u|r)/(.+)\.embed', re.I)
@@ -200,7 +200,7 @@ def get_social(slug, soup=None):
 
 if __name__ == "__main__":
     from time import sleep
-    logging.getLogger().setLevel(logging.INFO)
+    logging.getLogger().setLevel(logging.DEBUG)
 
     YAML_WIDTH = 100
     YAML_INDENT = 2
