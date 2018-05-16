@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.6"
+install:
+  - pip install -r scripts/requirements.txt
+script: python scripts/build_json.py
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
