@@ -1,3 +1,9 @@
+# ⚠️ DO NOT send token addition requests ⚠️
+
+Only tokens listed on coinmarketcap.com appear here. All token information is automatically collected from coinmarketcap.com. If you want to add or update a token on CoinMarketCap, go to https://coinmarketcap.com and find the "Request Form" link at the bottom of the page. DO NOT send requests to add or update tokens here.
+
+If you believe information in this repository does not accurately reflect information on coinmarketcap.com, feel free to open an issue or a pull request with code changes to the scraping script _only_.
+
 # coinmarketcap-ethtoken-db
 A database of Ethereum tokens on [CoinMarketCap.com](https://coinmarketcap.com) in a machine-friendly format. Contains CoinMarketCap 
 listings that link to an Ethereum tracker. Each entry includes basic information (name, symbol, CoinMarketCap 
