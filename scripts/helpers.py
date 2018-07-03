@@ -74,7 +74,7 @@ def fetch_currency_page(slug,
 
 
 def get_links_block(soup):
-    selector = "body > div.container > div > div.col-lg-10 > div.row.bottom-margin-2x > div.col-sm-4.col-sm-pull-8 > ul"
+    selector = ".details-panel-item--links"
     links_block = soup.select(selector)
     assert (links_block is not None and len(links_block) == 1)
     return links_block[0]
