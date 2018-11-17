@@ -23,3 +23,4 @@ if __name__ == "__main__":
 
     for listing in get_listings():
         process_listing(listing)
+        sleep(2)
