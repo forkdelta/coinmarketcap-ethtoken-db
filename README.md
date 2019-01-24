@@ -14,7 +14,7 @@ Contributions welcome.
 
 ## How to access the data
 
-The base of the URLs for the following examples is https://forkdelta.github.io/.
+The base of the URLs for the following examples is https://forkdelta.app/.
 
 ## REST-like API
 
