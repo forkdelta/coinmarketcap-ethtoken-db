@@ -41,7 +41,11 @@ def main(listings):
     id_to_address = map_existing_entries(sorted(glob("tokens/0x*.yaml")))
 
     for listing in listings:
-        (updated_listing, current_addresses) = process_listing(listing)
+        result = process_listing(listing)
+        if result is None:
+            continue
+
+        (updated_listing, current_addresses) = result
 
         existing_addresses = id_to_address[listing["id"]]
         for address in existing_addresses - current_addresses:
