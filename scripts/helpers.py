@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import copy
 from eth_utils import is_hex_address
 import logging
 from os.path import getmtime, isfile, join
@@ -199,6 +200,11 @@ def get_social(slug, soup=None):
     return social_links
 
 
+def read_entry(fn):
+    with open(fn) as infile:
+        return yaml.safe_load(infile)
+
+
 YAML_WIDTH = 100
 YAML_INDENT = 2
 
@@ -234,7 +240,7 @@ def process_listing(listing):
 
     soup = BeautifulSoup(html_doc, 'html.parser')
 
-    eth_addresses = get_ethereum_addresses(slug, soup=soup)
+    eth_addresses = set(get_ethereum_addresses(slug, soup=soup))
     if len(eth_addresses) == 0:
         logging.debug("'%s' has no Ethereum address", slug)
         return
@@ -242,6 +248,6 @@ def process_listing(listing):
         logging.info("'%s' has %i Ethereum addresses", slug,
                      len(eth_addresses))
 
-    listing.update(get_listing_details(slug, soup))
-    for address in eth_addresses:
-        write_token_entry(address, listing)
+    updated_listing = copy.deepcopy(listing)
+    updated_listing.update(get_listing_details(slug, soup))
+    return (updated_listing, eth_addresses)

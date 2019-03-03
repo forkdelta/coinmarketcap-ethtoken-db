@@ -1,7 +1,10 @@
+from glob import glob
+from itertools import groupby
 import logging
 import requests
 
-from helpers import (DEFAULT_HEADERS, process_listing)
+from helpers import (DEFAULT_HEADERS, process_listing, read_entry,
+                     write_token_entry)
 
 CMC_LISTINGS_API_URL = "https://api.coinmarketcap.com/v2/listings/"
 
@@ -17,10 +20,45 @@ def get_listings():
     return r.json()["data"]
 
 
-if __name__ == "__main__":
+def map_existing_entries(files, exclude_deprecated=True):
+    """
+    Returns a hash keyed by CoinMarketCap asset ID with sets of Ethereum addresses
+    known to be associated with that asset ID.
+    """
+    entries = ((entry["id"], entry["address"])
+               for entry in (read_entry(fn) for fn in files)
+               if not (exclude_deprecated and entry.get("_DEPRECATED", False)))
+
+    return {
+        e[0]: set(g[1] for g in e[1])
+        for e in groupby(sorted(entries), key=lambda e: e[0])
+    }
+
+
+def main(listings):
     from time import sleep
+
+    id_to_address = map_existing_entries(sorted(glob("tokens/0x*.yaml")))
+
+    for listing in listings:
+        (updated_listing, current_addresses) = process_listing(listing)
+
+        existing_addresses = id_to_address[listing["id"]]
+        for address in existing_addresses - current_addresses:
+            logging.warning("'%s' has deprecated %s", listing["website_slug"],
+                            address)
+            old_listing = read_entry("tokens/{}.yaml".format(address))
+            old_listing.update({"_DEPRECATED": True})
+            del old_listing["address"]
+            write_token_entry(address, old_listing)
+
+        for address in current_addresses:
+            write_token_entry(address, updated_listing)
+
+        sleep(2)
+
+
+if __name__ == "__main__":
     logging.getLogger().setLevel(logging.DEBUG)
 
-    for listing in get_listings():
-        process_listing(listing)
-        sleep(2)
+    main(get_listings())
