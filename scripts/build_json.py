@@ -24,6 +24,16 @@ if __name__ == "__main__":
 
     with open("tokens/index.json", "w") as outfile:
         json.dump(
-            list(abridged_entry(entry) for entry in entries),
+            list(
+                abridged_entry(entry) for entry in entries
+                if not entry.get("_DEPRECATED", False)),
+            outfile,
+            separators=(',', ':'))
+
+    with open("tokens/deprecated.json", "w") as outfile:
+        json.dump(
+            list(
+                abridged_entry(entry) for entry in entries
+                if entry.get("_DEPRECATED", False)),
             outfile,
             separators=(',', ':'))
