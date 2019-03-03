@@ -41,7 +41,7 @@ def main(listings):
     id_to_address = map_existing_entries(sorted(glob("tokens/0x*.yaml")))
 
     for listing in listings:
-        sleep(12)
+        sleep(6)
 
         result = process_listing(listing)
         if result is None:
