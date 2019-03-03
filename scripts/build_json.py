@@ -2,11 +2,7 @@ from glob import glob
 import json
 import yaml
 
-
-def read_entry(fn):
-    with open(fn) as infile:
-        return yaml.safe_load(infile)
-
+from helpers import read_entry
 
 INDEX_KEYS = ["id", "address", "name", "symbol", "website_slug"]
 
@@ -17,7 +13,6 @@ def abridged_entry(entry):
 
 if __name__ == "__main__":
     files = sorted(glob("tokens/0x*.yaml"))
-
     entries = list(read_entry(fn) for fn in files)
     for entry in entries:
         json_fn = "tokens/{}.json".format(entry["address"])
