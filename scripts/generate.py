@@ -35,6 +35,13 @@ def map_existing_entries(files, exclude_deprecated=True):
     }
 
 
+def deprecate_token_entry(address):
+    old_listing = read_entry("tokens/{}.yaml".format(address))
+    old_listing.update({"_DEPRECATED": True})
+    del old_listing["address"]
+    write_token_entry(address, old_listing)
+
+
 def main(listings):
     from time import sleep
 
@@ -49,14 +56,11 @@ def main(listings):
 
         (updated_listing, current_addresses) = result
 
-        existing_addresses = id_to_address[listing["id"]]
+        existing_addresses = id_to_address.get(listing["id"], set())
         for address in existing_addresses - current_addresses:
             logging.warning("'%s' has deprecated %s", listing["website_slug"],
                             address)
-            old_listing = read_entry("tokens/{}.yaml".format(address))
-            old_listing.update({"_DEPRECATED": True})
-            del old_listing["address"]
-            write_token_entry(address, old_listing)
+            deprecate_token_entry(address)
 
         for address in current_addresses:
             write_token_entry(address, updated_listing)
