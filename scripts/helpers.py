@@ -243,7 +243,7 @@ def process_listing(listing):
     eth_addresses = set(get_ethereum_addresses(slug, soup=soup))
     if len(eth_addresses) == 0:
         logging.debug("'%s' has no Ethereum address", slug)
-        return
+        return (copy.deepcopy(listing), [])
     elif len(eth_addresses) > 1:
         logging.info("'%s' has %i Ethereum addresses", slug,
                      len(eth_addresses))
