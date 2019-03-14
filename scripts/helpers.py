@@ -18,23 +18,11 @@ DEFAULT_HEADERS = {"User-Agent": USER_AGENT}
 ETHERSCAN_TOKEN_URL = "https://etherscan.io/token/{}"
 
 
-def get_etherscan_token_page(addr):
-    r = requests.get(ETHERSCAN_TOKEN_URL.format(addr), headers=DEFAULT_HEADERS)
-    return r.text
-
-
-def get_etherscan_contract_address(addr, html_doc=None):
-    if not html_doc:
-        html_doc = get_etherscan_token_page(addr)
-
-    soup = BeautifulSoup(html_doc, 'html.parser')
-    selector = "#ContentPlaceHolder1_trContract a"
-    try:
-        eth_address = soup.select(selector)[0].text.strip()
-        assert (is_hex_address(eth_address))
-        return eth_address
-    except (IndexError, AssertionError):
-        return None
+def get_etherescan_redirect_url(from_url):
+    return requests.head(
+        ETHERSCAN_TOKEN_URL.format(from_url),
+        allow_redirects=True,
+        headers=DEFAULT_HEADERS).url
 
 
 ##
@@ -117,8 +105,9 @@ def resolve_tracker_addresses(trackers):
             logging.debug(
                 "Trying to resolve '%s' as a custom etherscan.io address",
                 tracker)
-            resolved_address = get_etherscan_contract_address(presumed_address)
-            if resolved_address:
+            redirect_url = get_etherescan_redirect_url(presumed_address)
+            resolved_address = redirect_url.strip('/').split('/')[-1]
+            if is_hex_address(resolved_address):
                 logging.debug("Resolved '%s' as %s", tracker, resolved_address)
                 addresses.add(resolved_address.lower())
             else:
