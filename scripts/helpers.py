@@ -5,7 +5,7 @@ import logging
 from os.path import getmtime, isfile, join
 import re
 import requests
-from time import time
+from time import time, sleep
 from urllib.parse import urlparse
 import yaml
 
@@ -31,8 +31,25 @@ def get_etherescan_redirect_url(from_url):
 CACHE_PATH = ".cache"
 CMC_LISTING_PAGE_URL = "https://coinmarketcap.com/currencies/{slug}/"
 CMC_LISTING_PAGE_CACHE_AGE = 18 * 3600
+MAX_FETCH_RETRIES = 3
+FETCH_ERROR_DELAY = 8
 
 requests_session = requests.Session()
+
+
+def fetch_currency_page_with_requests(slug, cache=True, cache_file=None):
+    logging.debug("Fetching page for '%s'", slug)
+
+    page_url = CMC_LISTING_PAGE_URL.format(slug=slug)
+    r = requests_session.get(page_url, headers=DEFAULT_HEADERS)
+    r.raise_for_status()  # Raise error if status is not 200
+
+    text = r.text
+
+    if cache:
+        with open(cache_file, "w") as f:
+            f.write(text)
+    return text
 
 
 def fetch_currency_page(slug,
@@ -50,18 +67,28 @@ def fetch_currency_page(slug,
     elif cache_only:
         raise Exception("cache_only and no cache file available")
 
-    logging.debug("Fetching page for '%s'", slug)
+    html_doc = None
+    retries = 0
 
-    page_url = CMC_LISTING_PAGE_URL.format(slug=slug)
-    r = requests_session.get(page_url, headers=DEFAULT_HEADERS)
-    r.raise_for_status()  # Raise error if status is not 200
+    sleep(6)  # Ensure we sleep before making network requests
 
-    text = r.text
+    while not html_doc:
+        try:
+            html_doc = fetch_currency_page_with_requests(
+                slug, cache, cache_file)
+        except requests.HTTPError:
+            retries += 1
+            logging.exception(
+                "Error occurred while fetching page for '%s', sleeping %i, %s",
+                slug, FETCH_ERROR_DELAY**retries,
+                "retrying" if retries <= MAX_FETCH_RETRIES else "aborting")
+            sleep(FETCH_ERROR_DELAY**retries)  # Sleep even if we are aborting
 
-    if cache:
-        with open(cache_file, "w") as f:
-            f.write(text)
-    return text
+            if retries <= MAX_FETCH_RETRIES:
+                continue
+            else:
+                raise
+    return html_doc
 
 
 def get_links_block(soup):
@@ -221,10 +248,6 @@ def get_listing_details(slug, soup):
         markets=markets)
 
 
-MAX_FETCH_RETRIES = 3
-FETCH_ERROR_DELAY = 8
-
-from time import sleep
 
 
 def process_listing(listing):
@@ -248,7 +271,7 @@ def process_listing(listing):
             else:
                 raise
 
-        soup = BeautifulSoup(html_doc, 'html.parser')
+    soup = BeautifulSoup(html_doc, 'html.parser')
 
     eth_addresses = set(get_ethereum_addresses(slug, soup=soup))
     if len(eth_addresses) == 0:
