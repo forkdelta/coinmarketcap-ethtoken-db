@@ -176,6 +176,47 @@ def get_listing_links(slug, soup=None):
     return list(map(get_text_href_tuple, links_block.find_all('a', href=True)))
 
 
+import bleach
+
+
+def get_listing_description(slug, soup=None):
+    if soup is None:
+        html_doc = fetch_currency_page(slug)
+        soup = BeautifulSoup(html_doc, 'html.parser')
+
+    description_header_predicate = lambda tag: tag.name == "h2" and "About " in tag.text
+    about_container = soup.find(description_header_predicate)
+    if about_container:
+        about_html_content = "\n".join(
+            [str(el) for el in about_container.parent.find_all("p")])
+        bleached_content = bleach.clean(about_html_content, strip=True)
+        return bleached_content.strip()
+    logging.debug("Unable to find description for '%s'", slug)
+
+
+def get_listing_tags(slug, soup=None):
+    if soup is None:
+        html_doc = fetch_currency_page(slug)
+        soup = BeautifulSoup(html_doc, 'html.parser')
+
+    links_block = get_links_block(soup)
+    return list(
+        map(lambda node: node.text.strip(),
+            links_block.find_all('span', class_="label-warning")))
+
+
+def get_listing_rank(slug, soup=None):
+    if soup is None:
+        html_doc = fetch_currency_page(slug)
+        soup = BeautifulSoup(html_doc, 'html.parser')
+
+    links_block = get_links_block(soup)
+    rank_text = links_block.find('span', class_="label-success")
+    if rank_text:
+        rank_value = rank_text.text.strip().split(' ')[-1]
+        return int(rank_value)
+
+
 def get_markets(slug, soup=None):
     if soup is None:
         html_doc = fetch_currency_page(slug)
@@ -241,12 +282,23 @@ def write_token_entry(address, listing):
 
 
 def get_listing_details(slug, soup):
+    description = get_listing_description(slug, soup=soup)
     listing_links = get_listing_links(slug, soup=soup)
     social_links = get_social(slug, soup=soup)
     markets = get_markets(slug, soup=soup)
-    return dict(
+    rank = get_listing_rank(slug, soup=soup)
+    tags = get_listing_tags(slug, soup=soup)
+
+    details = dict(
         links=dict(**dict(listing_links), **dict(social_links)),
+        tags=tags,
+        rank=rank,
         markets=markets)
+
+    if description:
+        details["description"] = description
+
+    return details
 
 
 def process_listing(listing):
