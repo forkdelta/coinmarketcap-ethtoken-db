@@ -1,11 +1,11 @@
 from bs4 import BeautifulSoup
 import copy
-from eth_utils import is_hex_address
+from eth_utils import is_hex_address, to_checksum_address
 import logging
 from os.path import getmtime, isfile, join
 import re
 import requests
-from time import time
+from time import time, sleep
 from urllib.parse import urlparse
 import yaml
 
@@ -30,7 +30,26 @@ def get_etherescan_redirect_url(from_url):
 
 CACHE_PATH = ".cache"
 CMC_LISTING_PAGE_URL = "https://coinmarketcap.com/currencies/{slug}/"
-CMC_LISTING_PAGE_CACHE_AGE = 86400
+CMC_LISTING_PAGE_CACHE_AGE = 18 * 3600
+MAX_FETCH_RETRIES = 3
+FETCH_ERROR_DELAY = 8
+
+requests_session = requests.Session()
+
+
+def fetch_currency_page_with_requests(slug, cache=True, cache_file=None):
+    logging.debug("Fetching page for '%s'", slug)
+
+    page_url = CMC_LISTING_PAGE_URL.format(slug=slug)
+    r = requests_session.get(page_url, headers=DEFAULT_HEADERS)
+    r.raise_for_status()  # Raise error if status is not 200
+
+    text = r.text
+
+    if cache:
+        with open(cache_file, "w") as f:
+            f.write(text)
+    return text
 
 
 def fetch_currency_page(slug,
@@ -48,18 +67,28 @@ def fetch_currency_page(slug,
     elif cache_only:
         raise Exception("cache_only and no cache file available")
 
-    logging.debug("Fetching page for '%s'", slug)
+    html_doc = None
+    retries = 0
 
-    page_url = CMC_LISTING_PAGE_URL.format(slug=slug)
-    r = requests.get(page_url, headers=DEFAULT_HEADERS)
-    r.raise_for_status()  # Raise error if status is not 200
+    sleep(6)  # Ensure we sleep before making network requests
 
-    text = r.text
+    while not html_doc:
+        try:
+            html_doc = fetch_currency_page_with_requests(
+                slug, cache, cache_file)
+        except requests.HTTPError:
+            retries += 1
+            logging.exception(
+                "Error occurred while fetching page for '%s', sleeping %i, %s",
+                slug, FETCH_ERROR_DELAY**retries,
+                "retrying" if retries <= MAX_FETCH_RETRIES else "aborting")
+            sleep(FETCH_ERROR_DELAY**retries)  # Sleep even if we are aborting
 
-    if cache:
-        with open(cache_file, "w") as f:
-            f.write(text)
-    return text
+            if retries <= MAX_FETCH_RETRIES:
+                continue
+            else:
+                raise
+    return html_doc
 
 
 def get_links_block(soup):
@@ -114,7 +143,8 @@ def resolve_tracker_addresses(trackers):
                 logging.error("Could not resolve etherscan.io: '%s'", tracker)
         else:
             logging.warn("Unknown tracker URL format: %s", tracker)
-    return addresses
+
+    return set([to_checksum_address(address) for address in addresses])
 
 
 def get_ethereum_addresses(slug, soup=None):
@@ -144,6 +174,47 @@ def get_listing_links(slug, soup=None):
     links_block = get_links_block(soup)
     get_text_href_tuple = lambda node: (node.text.strip(), node["href"])
     return list(map(get_text_href_tuple, links_block.find_all('a', href=True)))
+
+
+import bleach
+
+
+def get_listing_description(slug, soup=None):
+    if soup is None:
+        html_doc = fetch_currency_page(slug)
+        soup = BeautifulSoup(html_doc, 'html.parser')
+
+    description_header_predicate = lambda tag: tag.name == "h2" and "About " in tag.text
+    about_container = soup.find(description_header_predicate)
+    if about_container:
+        about_html_content = "\n".join(
+            [str(el) for el in about_container.parent.find_all("p")])
+        bleached_content = bleach.clean(about_html_content, strip=True)
+        return bleached_content.strip()
+    logging.debug("Unable to find description for '%s'", slug)
+
+
+def get_listing_tags(slug, soup=None):
+    if soup is None:
+        html_doc = fetch_currency_page(slug)
+        soup = BeautifulSoup(html_doc, 'html.parser')
+
+    links_block = get_links_block(soup)
+    return list(
+        map(lambda node: node.text.strip(),
+            links_block.find_all('span', class_="label-warning")))
+
+
+def get_listing_rank(slug, soup=None):
+    if soup is None:
+        html_doc = fetch_currency_page(slug)
+        soup = BeautifulSoup(html_doc, 'html.parser')
+
+    links_block = get_links_block(soup)
+    rank_text = links_block.find('span', class_="label-success")
+    if rank_text:
+        rank_value = rank_text.text.strip().split(' ')[-1]
+        return int(rank_value)
 
 
 def get_markets(slug, soup=None):
@@ -211,21 +282,45 @@ def write_token_entry(address, listing):
 
 
 def get_listing_details(slug, soup):
+    description = get_listing_description(slug, soup=soup)
     listing_links = get_listing_links(slug, soup=soup)
     social_links = get_social(slug, soup=soup)
     markets = get_markets(slug, soup=soup)
-    return dict(
+    rank = get_listing_rank(slug, soup=soup)
+    tags = get_listing_tags(slug, soup=soup)
+
+    details = dict(
         links=dict(**dict(listing_links), **dict(social_links)),
+        tags=tags,
+        rank=rank,
         markets=markets)
+
+    if description:
+        details["description"] = description
+
+    return details
 
 
 def process_listing(listing):
     slug = listing["website_slug"]
-    try:
-        html_doc = fetch_currency_page(slug)
-    except requests.HTTPError:
-        logging.exception("Error occurred while fetching page for '%s'", slug)
-        return
+
+    html_doc = None
+    retries = 0
+    while not html_doc:
+        try:
+            html_doc = fetch_currency_page(slug)
+        except requests.HTTPError:
+            retries += 1
+            logging.exception(
+                "Error occurred while fetching page for '%s', sleeping %i, %s",
+                slug, FETCH_ERROR_DELAY**retries,
+                "retrying" if retries <= MAX_FETCH_RETRIES else "aborting")
+            sleep(FETCH_ERROR_DELAY**retries)  # Sleep even if we are aborting
+
+            if retries <= MAX_FETCH_RETRIES:
+                continue
+            else:
+                raise
 
     soup = BeautifulSoup(html_doc, 'html.parser')
 
@@ -233,7 +328,7 @@ def process_listing(listing):
     if len(eth_addresses) == 0:
         logging.debug("'%s' has no Ethereum address", slug)
         return (copy.deepcopy(listing), set())
-    elif len(eth_addresses) > 1:
+    if len(eth_addresses) > 1:
         logging.info("'%s' has %i Ethereum addresses", slug,
                      len(eth_addresses))
 
