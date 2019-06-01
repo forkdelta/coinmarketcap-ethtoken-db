@@ -50,8 +50,12 @@ def main(listings):
     for listing in listings:
         sleep(6)
 
-        result = process_listing(listing)
-        if result is None:
+        try:
+            result = process_listing(listing)
+        except:
+            logging.exception(
+                "Final error when trying to process listing for '%s'",
+                listing["website_slug"])
             continue
 
         (updated_listing, current_addresses) = result

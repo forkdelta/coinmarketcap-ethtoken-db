@@ -30,7 +30,9 @@ def get_etherescan_redirect_url(from_url):
 
 CACHE_PATH = ".cache"
 CMC_LISTING_PAGE_URL = "https://coinmarketcap.com/currencies/{slug}/"
-CMC_LISTING_PAGE_CACHE_AGE = 86400
+CMC_LISTING_PAGE_CACHE_AGE = 18 * 3600
+
+requests_session = requests.Session()
 
 
 def fetch_currency_page(slug,
@@ -51,7 +53,7 @@ def fetch_currency_page(slug,
     logging.debug("Fetching page for '%s'", slug)
 
     page_url = CMC_LISTING_PAGE_URL.format(slug=slug)
-    r = requests.get(page_url, headers=DEFAULT_HEADERS)
+    r = requests_session.get(page_url, headers=DEFAULT_HEADERS)
     r.raise_for_status()  # Raise error if status is not 200
 
     text = r.text
@@ -219,21 +221,40 @@ def get_listing_details(slug, soup):
         markets=markets)
 
 
+MAX_FETCH_RETRIES = 3
+FETCH_ERROR_DELAY = 8
+
+from time import sleep
+
+
 def process_listing(listing):
     slug = listing["website_slug"]
-    try:
-        html_doc = fetch_currency_page(slug)
-    except requests.HTTPError:
-        logging.exception("Error occurred while fetching page for '%s'", slug)
-        return
 
-    soup = BeautifulSoup(html_doc, 'html.parser')
+    html_doc = None
+    retries = 0
+    while not html_doc:
+        try:
+            html_doc = fetch_currency_page(slug)
+        except requests.HTTPError:
+            retries += 1
+            logging.exception(
+                "Error occurred while fetching page for '%s', sleeping %i, %s",
+                slug, FETCH_ERROR_DELAY**retries,
+                "retrying" if retries <= MAX_FETCH_RETRIES else "aborting")
+            sleep(FETCH_ERROR_DELAY**retries)  # Sleep even if we are aborting
+
+            if retries <= MAX_FETCH_RETRIES:
+                continue
+            else:
+                raise
+
+        soup = BeautifulSoup(html_doc, 'html.parser')
 
     eth_addresses = set(get_ethereum_addresses(slug, soup=soup))
     if len(eth_addresses) == 0:
         logging.debug("'%s' has no Ethereum address", slug)
         return (copy.deepcopy(listing), set())
-    elif len(eth_addresses) > 1:
+    if len(eth_addresses) > 1:
         logging.info("'%s' has %i Ethereum addresses", slug,
                      len(eth_addresses))
 
