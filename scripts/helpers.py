@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import copy
-from eth_utils import is_hex_address
+from eth_utils import is_hex_address, to_checksum_address
 import logging
 from os.path import getmtime, isfile, join
 import re
@@ -143,7 +143,8 @@ def resolve_tracker_addresses(trackers):
                 logging.error("Could not resolve etherscan.io: '%s'", tracker)
         else:
             logging.warn("Unknown tracker URL format: %s", tracker)
-    return addresses
+
+    return set([to_checksum_address(address) for address in addresses])
 
 
 def get_ethereum_addresses(slug, soup=None):
@@ -246,8 +247,6 @@ def get_listing_details(slug, soup):
     return dict(
         links=dict(**dict(listing_links), **dict(social_links)),
         markets=markets)
-
-
 
 
 def process_listing(listing):
