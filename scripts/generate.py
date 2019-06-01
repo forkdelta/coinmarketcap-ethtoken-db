@@ -48,10 +48,12 @@ def main(listings):
     id_to_address = map_existing_entries(sorted(glob("tokens/0x*.yaml")))
 
     for listing in listings:
-        sleep(6)
-
-        result = process_listing(listing)
-        if result is None:
+        try:
+            result = process_listing(listing)
+        except:
+            logging.exception(
+                "Final error when trying to process listing for '%s'",
+                listing["website_slug"])
             continue
 
         (updated_listing, current_addresses) = result
@@ -64,6 +66,12 @@ def main(listings):
 
         for address in current_addresses:
             write_token_entry(address, updated_listing)
+
+    listings_ids = [e["id"] for e in listings]
+    ids_removed_from_listings = id_to_address.keys() - listings_ids
+    for removed_id in ids_removed_from_listings:
+        for removed_asset_address in id_to_address[removed_id]:
+            deprecate_token_entry(removed_asset_address)
 
 
 if __name__ == "__main__":
