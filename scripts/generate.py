@@ -67,6 +67,12 @@ def main(listings):
         for address in current_addresses:
             write_token_entry(address, updated_listing)
 
+    listings_ids = [e["id"] for e in listings]
+    ids_removed_from_listings = id_to_address.keys() - listings_ids
+    for removed_id in ids_removed_from_listings:
+        for removed_asset_address in id_to_address[removed_id]:
+            deprecate_token_entry(removed_asset_address)
+
 
 if __name__ == "__main__":
     logging.getLogger().setLevel(logging.DEBUG)
