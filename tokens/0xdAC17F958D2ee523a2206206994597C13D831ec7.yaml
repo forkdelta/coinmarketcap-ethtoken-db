@@ -42,9 +42,9 @@ markets:
 - exchange_name: 55.com
   pair: ETH/USDT
   url: https://www.55.com/#/exchange?symbol=ETHUSDT&site=B
-- exchange_name: 55.com
-  pair: LTC/USDT
-  url: https://www.55.com/#/exchange?symbol=LTCUSDT&site=B
+- exchange_name: Alterdice
+  pair: BTC/USDT
+  url: https://alterdice.com/trading/BTCUSDT
 - exchange_name: BCEX
   pair: BTC/USDT
   url: https://www.bcex.ca/trade/btc_usdt
@@ -90,6 +90,9 @@ markets:
 - exchange_name: BKEX
   pair: HT/USDT
   url: https://www.bkex.com/trade/HT_USDT
+- exchange_name: BKEX
+  pair: IOST/USDT
+  url: https://www.bkex.com/trade/IOST_USDT
 - exchange_name: BKEX
   pair: LTC/USDT
   url: https://www.bkex.com/trade/LTC_USDT
@@ -144,9 +147,6 @@ markets:
 - exchange_name: BW.com
   pair: ZB/USDT
   url: https://www.bw.com/trade/zb_usdt
-- exchange_name: Bgogo
-  pair: BGG/USDT
-  url: https://bgogo.com/exchange/BGG/USDT
 - exchange_name: Bgogo
   pair: BTC/USDT
   url: https://bgogo.com/exchange/BTC/USDT
@@ -265,6 +265,9 @@ markets:
   pair: ETH/USDT
   url: https://www.binance.com/en/trade/ETH_USDT
 - exchange_name: Binance
+  pair: IOST/USDT
+  url: https://www.binance.com/en/trade/IOST_USDT
+- exchange_name: Binance
   pair: LINK/USDT
   url: https://www.binance.com/en/trade/LINK_USDT
 - exchange_name: Binance
@@ -316,9 +319,6 @@ markets:
   pair: BCH/USDT
   url: https://www.bitasset.com/ktrade/BCH-USDT
 - exchange_name: BitAsset
-  pair: BSV/USDT
-  url: https://www.bitasset.com/ktrade/BSV-USDT
-- exchange_name: BitAsset
   pair: BTC/USDT
   url: https://www.bitasset.com/ktrade/BTC-USDT
 - exchange_name: BitAsset
@@ -330,9 +330,6 @@ markets:
 - exchange_name: BitForex
   pair: ATOM/USDT
   url: https://www.bitforex.com/en/spot/atom_usdt
-- exchange_name: BitForex
-  pair: BCH/USDT
-  url: https://www.bitforex.com/en/spot/bch_usdt
 - exchange_name: BitForex
   pair: BSV/USDT
   url: https://www.bitforex.com/en/spot/bsv_usdt
@@ -349,8 +346,8 @@ markets:
   pair: LTC/USDT
   url: https://www.bitforex.com/en/spot/ltc_usdt
 - exchange_name: BitForex
-  pair: XRP/USDT
-  url: https://www.bitforex.com/en/spot/xrp_usdt
+  pair: NEO/USDT
+  url: https://www.bitforex.com/en/spot/neo_usdt
 - exchange_name: BitMart
   pair: BCH/USDT
   url: https://www.bitmart.com/trade?symbol=BCH_USDT
@@ -360,6 +357,9 @@ markets:
 - exchange_name: BitMart
   pair: BTC/USDT
   url: https://www.bitmart.com/trade?symbol=BTC_USDT
+- exchange_name: BitMart
+  pair: DASH/USDT
+  url: https://www.bitmart.com/trade?symbol=DASH_USDT
 - exchange_name: BitMart
   pair: EOS/USDT
   url: https://www.bitmart.com/trade?symbol=EOS_USDT
@@ -375,9 +375,6 @@ markets:
 - exchange_name: BitMax
   pair: ETH/USDT
   url: https://bitmax.io/#/trade/usdt/eth
-- exchange_name: Bithumb Global
-  pair: BCH/USDT
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=BCH_USDT
 - exchange_name: Bitinka
   pair: EOS/USDT
   url: https://www.bitinka.com/
@@ -399,9 +396,6 @@ markets:
 - exchange_name: Bitrue
   pair: TRX/USDT
   url: https://www.bitrue.com/trade/trx_usdt
-- exchange_name: Bitrue
-  pair: XRP/USDT
-  url: https://www.bitrue.com/trade/xrp_usdt
 - exchange_name: CBX
   pair: BCHABC/USDT
   url: https://www.cbx.one/trade/BCHABC-USDT
@@ -426,12 +420,18 @@ markets:
 - exchange_name: CHAOEX
   pair: BTC/USDT
   url: https://www.chaoex.com/dealcenter
+- exchange_name: CHAOEX
+  pair: HT/USDT
+  url: https://www.chaoex.com/dealcenter
 - exchange_name: CROSS exchange
   pair: BTC/USDT
   url: https://www.crossexchange.io/cross/exchange/BTC_USDT
 - exchange_name: Cat.Ex
   pair: BTC/USDT
   url: https://www.catex.io/trading/BTC/USDT
+- exchange_name: Cat.Ex
+  pair: EOS/USDT
+  url: https://www.catex.io/trading/EOS/USDT
 - exchange_name: Cat.Ex
   pair: ETH/USDT
   url: https://www.catex.io/trading/ETH/USDT
@@ -493,9 +493,6 @@ markets:
   pair: BTC/USDT
   url: https://www.coinex.com/trading?currency=usdt&dest=btc&tab=limit
 - exchange_name: CoinEx
-  pair: DASH/USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=dash&tab=limit
-- exchange_name: CoinEx
   pair: DOGE/USDT
   url: https://www.coinex.com/trading?currency=usdt&dest=doge&tab=limit
 - exchange_name: CoinEx
@@ -519,6 +516,9 @@ markets:
 - exchange_name: CoinEx
   pair: TRX/USDT
   url: https://www.coinex.com/trading?currency=usdt&dest=trx&tab=limit
+- exchange_name: CoinEx
+  pair: XMR/USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=xmr&tab=limit
 - exchange_name: CoinEx
   pair: XRP/USDT
   url: https://www.coinex.com/trading?currency=usdt&dest=xrp&tab=limit
@@ -572,9 +572,6 @@ markets:
   url: https://hk.coineal.com/trade_center.html?s=yta-usdt#en_US
 - exchange_name: Coinlim
   pair: BTC/USDT
-  url: https://www.coinlim.com/#/dashboard
-- exchange_name: Coinlim
-  pair: ETH/USDT
   url: https://www.coinlim.com/#/dashboard
 - exchange_name: Coinsuper
   pair: BTC/USDT
@@ -637,6 +634,12 @@ markets:
   pair: ETH/USDT
   url: https://www.digifinex.com/trade/USDT/ETH
 - exchange_name: DigiFinex
+  pair: IOST/USDT
+  url: https://www.digifinex.com/trade/USDT/IOST
+- exchange_name: DigiFinex
+  pair: LAMB/USDT
+  url: https://www.digifinex.com/trade/USDT/LAMB
+- exchange_name: DigiFinex
   pair: LTC/USDT
   url: https://www.digifinex.com/trade/USDT/LTC
 - exchange_name: DigiFinex
@@ -653,9 +656,6 @@ markets:
   url: https://www.digifinex.com/trade/USDT/XRP
 - exchange_name: DragonEX
   pair: BCHABC/USDT
-  url: https://dragonex.io
-- exchange_name: DragonEX
-  pair: BSV/USDT
   url: https://dragonex.io
 - exchange_name: DragonEX
   pair: BTC/USDT
@@ -735,9 +735,6 @@ markets:
 - exchange_name: FCoin
   pair: ETH/USDT
   url: https://exchange.fcoin.com/ex/main/eth-usdt
-- exchange_name: FCoin
-  pair: LTC/USDT
-  url: https://exchange.fcoin.com/ex/main/ltc-usdt
 - exchange_name: FEX
   pair: BTC/USDT
   url: https://fexpro.net/exchange?TradingOnType=btc_usdt
@@ -757,14 +754,8 @@ markets:
   pair: XRP/USDT
   url: https://www.fatbtc.com/
 - exchange_name: Gate.io
-  pair: BCH/USDT
-  url: https://gate.io/trade/bch_usdt
-- exchange_name: Gate.io
   pair: BTC/USDT
   url: https://gate.io/trade/btc_usdt
-- exchange_name: Gate.io
-  pair: ETH/USDT
-  url: https://gate.io/trade/eth_usdt
 - exchange_name: HCoin
   pair: AT/USDT
   url: https://www.hcoin.com/trade/usdt/at
@@ -805,9 +796,6 @@ markets:
   pair: BTC/USDT
   url: https://hitbtc.com/BTC-to-USDT
 - exchange_name: HitBTC
-  pair: DASH/USDT
-  url: https://hitbtc.com/DASH-to-USDT
-- exchange_name: HitBTC
   pair: EOS/USDT
   url: https://hitbtc.com/EOS-to-USDT
 - exchange_name: HitBTC
@@ -816,6 +804,9 @@ markets:
 - exchange_name: HitBTC
   pair: LTC/USDT
   url: https://hitbtc.com/LTC-to-USDT
+- exchange_name: HitBTC
+  pair: ONT/USDT
+  url: https://hitbtc.com/ONT-to-USDT
 - exchange_name: HitBTC
   pair: TRX/USDT
   url: https://hitbtc.com/TRX-to-USDT
@@ -877,8 +868,17 @@ markets:
   pair: ETH/USDT
   url: https://www.hbg.com/en-us/exchange/eth_usdt/
 - exchange_name: Huobi Global
+  pair: FTT/USDT
+  url: https://www.hbg.com/en-us/exchange/ftt_usdt/
+- exchange_name: Huobi Global
   pair: HT/USDT
   url: https://www.hbg.com/en-us/exchange/ht_usdt/
+- exchange_name: Huobi Global
+  pair: IOST/USDT
+  url: https://www.hbg.com/en-us/exchange/iost_usdt/
+- exchange_name: Huobi Global
+  pair: LAMB/USDT
+  url: https://www.hbg.com/en-us/exchange/lamb_usdt/
 - exchange_name: Huobi Global
   pair: LTC/USDT
   url: https://www.hbg.com/en-us/exchange/ltc_usdt/
@@ -895,8 +895,8 @@ markets:
   pair: USDT/HUSD
   url: https://www.hbg.com/en-us/exchange/usdt_husd/
 - exchange_name: Huobi Global
-  pair: WXT/USDT
-  url: https://www.hbg.com/en-us/exchange/wxt_usdt/
+  pair: XMR/USDT
+  url: https://www.hbg.com/en-us/exchange/xmr_usdt/
 - exchange_name: Huobi Global
   pair: XRP/USDT
   url: https://www.hbg.com/en-us/exchange/xrp_usdt/
@@ -961,6 +961,9 @@ markets:
   pair: ETH/USDT
   url: ''
 - exchange_name: LATOKEN
+  pair: ATOM/USDT
+  url: https://latoken.com/exchange/USDT-ATOM
+- exchange_name: LATOKEN
   pair: BCH/USDT
   url: https://latoken.com/exchange/USDT-BCH
 - exchange_name: LATOKEN
@@ -976,8 +979,14 @@ markets:
   pair: LTC/USDT
   url: https://latoken.com/exchange/USDT-LTC
 - exchange_name: LATOKEN
+  pair: ONT/USDT
+  url: https://latoken.com/exchange/USDT-ONT
+- exchange_name: LATOKEN
   pair: TRX/USDT
   url: https://latoken.com/exchange/USDT-TRX
+- exchange_name: LATOKEN
+  pair: USDC/USDT
+  url: https://latoken.com/exchange/USDT-USDC
 - exchange_name: LATOKEN
   pair: XLM/USDT
   url: https://latoken.com/exchange/USDT-XLM
@@ -1008,9 +1017,6 @@ markets:
 - exchange_name: MXC
   pair: BCH/USDT
   url: https://www.mxc.com/trade/easy#BCH_USDT
-- exchange_name: MXC
-  pair: BNB/USDT
-  url: https://www.mxc.com/trade/easy#BNB_USDT
 - exchange_name: MXC
   pair: BSV/USDT
   url: https://www.mxc.com/trade/easy#BSV_USDT
@@ -1072,17 +1078,23 @@ markets:
   pair: ETH/USDT
   url: https://www.okex.com/market?product=eth_usdt
 - exchange_name: OKEx
+  pair: IOST/USDT
+  url: https://www.okex.com/market?product=iost_usdt
+- exchange_name: OKEx
   pair: LTC/USDT
   url: https://www.okex.com/market?product=ltc_usdt
 - exchange_name: OKEx
   pair: MOF/USDT
   url: https://www.okex.com/market?product=mof_usdt
 - exchange_name: OKEx
+  pair: NEO/USDT
+  url: https://www.okex.com/market?product=neo_usdt
+- exchange_name: OKEx
   pair: OKB/USDT
   url: https://www.okex.com/market?product=okb_usdt
 - exchange_name: OKEx
-  pair: ORS/USDT
-  url: https://www.okex.com/market?product=ors_usdt
+  pair: ONT/USDT
+  url: https://www.okex.com/market?product=ont_usdt
 - exchange_name: OKEx
   pair: TRX/USDT
   url: https://www.okex.com/market?product=trx_usdt
@@ -1101,9 +1113,6 @@ markets:
 - exchange_name: P2PB2B
   pair: ETH/USDT
   url: https://p2pb2b.io/trade/ETH_USDT
-- exchange_name: P2PB2B
-  pair: NEO/USDT
-  url: https://p2pb2b.io/trade/NEO_USDT
 - exchange_name: Poloniex
   pair: BTC/USDT
   url: https://poloniex.com/exchange#usdt_btc
@@ -1122,9 +1131,6 @@ markets:
 - exchange_name: RightBTC
   pair: BTC/USDT
   url: https://www.rightbtc.com/trade/BTCUSD
-- exchange_name: RightBTC
-  pair: EOS/USDT
-  url: https://www.rightbtc.com/trade/EOSUSDT
 - exchange_name: RightBTC
   pair: ETH/USDT
   url: https://www.rightbtc.com/trade/ETHUSD
@@ -1167,9 +1173,6 @@ markets:
 - exchange_name: VinDAX
   pair: ETH/USDT
   url: https://vindax.com/exchange-base.html?symbol=ETH_USDT
-- exchange_name: VinDAX
-  pair: XRP/USDT
-  url: https://vindax.com/exchange-base.html?symbol=XRP_USDT
 - exchange_name: ZB.COM
   pair: BTC/USDT
   url: https://trans.zb.com/btcusdt
@@ -1182,9 +1185,6 @@ markets:
 - exchange_name: ZB.COM
   pair: PAX/USDT
   url: https://trans.zb.com/paxusdt
-- exchange_name: ZB.COM
-  pair: SNT/USDT
-  url: https://trans.zb.com/sntusdt
 - exchange_name: ZB.COM
   pair: XEM/USDT
   url: https://trans.zb.com/xemusdt
