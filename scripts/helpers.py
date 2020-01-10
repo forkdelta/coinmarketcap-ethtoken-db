@@ -92,7 +92,7 @@ def fetch_currency_page(slug,
 
 
 def get_links_block(soup):
-    selector = ".details-panel-item--links"
+    selector = ".cmc-details-panel-links"
     links_block = soup.select(selector)
     assert (links_block is not None and len(links_block) == 1)
     return links_block[0]
@@ -202,7 +202,7 @@ def get_listing_tags(slug, soup=None):
     links_block = get_links_block(soup)
     return list(
         map(lambda node: node.text.strip(),
-            links_block.find_all('span', class_="label-warning")))
+            links_block.find_all('span', class_="cmc-label--warning")))
 
 
 def get_listing_rank(slug, soup=None):
@@ -211,7 +211,7 @@ def get_listing_rank(slug, soup=None):
         soup = BeautifulSoup(html_doc, 'html.parser')
 
     links_block = get_links_block(soup)
-    rank_text = links_block.find('span', class_="label-success")
+    rank_text = links_block.find('span', class_="cmc-label--success")
     if rank_text:
         rank_value = rank_text.text.strip().split(' ')[-1]
         return int(rank_value)
