@@ -3,8 +3,8 @@ from itertools import groupby
 import logging
 import requests
 
-from helpers import (DEFAULT_HEADERS, process_listing, read_entry,
-                     write_token_entry)
+from helpers import (DEFAULT_HEADERS, process_listing)
+from entry_io import (read_entry, write_token_entry)
 
 CMC_LISTINGS_API_URL = "https://api.coinmarketcap.com/v2/listings/"
 
@@ -47,25 +47,25 @@ def main(listings):
 
     id_to_address = map_existing_entries(sorted(glob("tokens/0x*.yaml")))
 
-    for listing in listings:
+    for api_listing in listings:
         try:
-            result = process_listing(listing)
+            result = process_listing(api_listing)
         except:
             logging.exception(
                 "Final error when trying to process listing for '%s'",
-                listing["website_slug"])
+                api_listing["website_slug"])
             continue
 
-        (updated_listing, current_addresses) = result
+        (listing, current_addresses) = result
 
-        existing_addresses = id_to_address.get(listing["id"], set())
+        existing_addresses = id_to_address.get(api_listing["id"], set())
         for address in existing_addresses - current_addresses:
-            logging.warning("'%s' has deprecated %s", listing["website_slug"],
-                            address)
+            logging.warning("'%s' has deprecated %s",
+                            api_listing["website_slug"], address)
             deprecate_token_entry(address)
 
         for address in current_addresses:
-            write_token_entry(address, updated_listing)
+            write_token_entry(address, listing)
 
     listings_ids = [e["id"] for e in listings]
     ids_removed_from_listings = id_to_address.keys() - listings_ids

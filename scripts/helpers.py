@@ -1,12 +1,14 @@
-from bs4 import BeautifulSoup
 import copy
-from eth_utils import is_hex_address, to_checksum_address
+import json
 import logging
 from os.path import getmtime, isfile, join
 import re
-import requests
 from time import time, sleep
 from urllib.parse import urlparse
+
+from bs4 import BeautifulSoup
+from eth_utils import is_hex_address, to_checksum_address
+import requests
 import yaml
 
 USER_AGENT = "CoinMarketCap Ethereum Tokens DB Builder (https://github.com/freeatnet/coinmarketcap-ethtoken-db)"
@@ -91,34 +93,6 @@ def fetch_currency_page(slug,
     return html_doc
 
 
-def get_links_block(soup):
-    selector = ".cmc-details-panel-links"
-    links_block = soup.select(selector)
-    assert (links_block is not None and len(links_block) == 1)
-    return links_block[0]
-
-
-KNOWN_TRACKER_SUFFIXES = (
-    "ethplorer.io/address",
-    "ethplorer.io/token",
-    "etherscan.io/address",
-    "etherscan.io/token",
-)
-
-
-def get_tracker_links(soup):
-    """
-    Returns a list of URls
-    """
-    tracker_url_predicate = lambda url: any(True for s in KNOWN_TRACKER_SUFFIXES if s in url)
-
-    links_block = get_links_block(soup)
-    trackers = filter(tracker_url_predicate,
-                      (a["href"]
-                       for a in links_block.find_all('a', href=True)))
-    return list(trackers)
-
-
 def resolve_tracker_addresses(trackers):
     """
     Given a list of Ethereum tracker URLs, returns a set of lowercased,
@@ -142,167 +116,137 @@ def resolve_tracker_addresses(trackers):
             else:
                 logging.error("Could not resolve etherscan.io: '%s'", tracker)
         else:
-            logging.warn("Unknown tracker URL format: %s", tracker)
+            logging.warning("Unknown tracker URL format: %s", tracker)
 
-    return set([to_checksum_address(address) for address in addresses])
+    return {to_checksum_address(address) for address in addresses}
 
 
-def get_ethereum_addresses(slug, soup=None):
+KNOWN_TRACKER_SUFFIXES = (
+    "ethplorer.io/address",
+    "ethplorer.io/token",
+    "etherscan.io/address",
+    "etherscan.io/token",
+    "etherscan.io/token",
+    "blockchair.com/ethereum/erc-20/token",
+)
+
+
+def get_ethereum_addresses(next_data):
     """
-    Returns a set of Ethereum addresses for a CoinMarketCap-listed currency. The
+    Returns a set of Ethereum addresses for a list of explorer links. The
     set may be empty if the CoinMarketCap listing does not link to any supported
     Ethereum chain browsers. The set may contain more than one element if the
     CoinMarketCap listing contains tracker URLs that resolve to different
     Ethereum addresses.
 
-    Ethereum addresses are returned in lowercased 0x-prefixed hex format.
+    Ethereum addresses are returned in checksummed 0x-prefixed hex format.
     """
+    tracker_url_predicate = lambda url: any(True for s in KNOWN_TRACKER_SUFFIXES if s in url)
 
-    if soup is None:
-        html_doc = fetch_currency_page(slug)
-        soup = BeautifulSoup(html_doc, 'html.parser')
+    base_data = get_asset_data(next_data, "info")
+    explorer_links = base_data["urls"]["explorer"]
 
-    tracker_links = get_tracker_links(soup)
-    return resolve_tracker_addresses(tracker_links)
+    ethereum_addresses = resolve_tracker_addresses(
+        filter(tracker_url_predicate, explorer_links))
 
+    if base_data["platform"] and base_data["platform"]["name"] == "Ethereum":
+        token_address = base_data["platform"]["token_address"]
+        if is_hex_address(token_address):
+            ethereum_addresses.add(to_checksum_address(token_address))
 
-def get_listing_links(slug, soup=None):
-    if soup is None:
-        html_doc = fetch_currency_page(slug)
-        soup = BeautifulSoup(html_doc, 'html.parser')
-
-    links_block = get_links_block(soup)
-    get_text_href_tuple = lambda node: (node.text.strip(), node["href"])
-    return list(map(get_text_href_tuple, links_block.find_all('a', href=True)))
+    return ethereum_addresses
 
 
 import bleach
 
-
-def get_listing_description(slug, soup=None):
-    if soup is None:
-        html_doc = fetch_currency_page(slug)
-        soup = BeautifulSoup(html_doc, 'html.parser')
-
-    description_header_predicate = lambda tag: tag.name == "h2" and "About " in tag.text
-    about_container = soup.find(description_header_predicate)
-    if about_container:
-        about_html_content = "\n".join(
-            [str(el) for el in about_container.parent.find_all("p")])
-        bleached_content = bleach.clean(about_html_content, strip=True)
-        return bleached_content.strip()
-    logging.debug("Unable to find description for '%s'", slug)
+STUB_DESCRIPTION_DETERMINANT = "is a cryptocurrency token and operates on the Ethereum platform"
 
 
-def get_listing_tags(slug, soup=None):
-    if soup is None:
-        html_doc = fetch_currency_page(slug)
-        soup = BeautifulSoup(html_doc, 'html.parser')
+def get_listing_description(asset_data):
+    description = asset_data["description"]
+    if STUB_DESCRIPTION_DETERMINANT in description:
+        return None
 
-    links_block = get_links_block(soup)
-    return list(
-        map(lambda node: node.text.strip(),
-            links_block.find_all('span', class_="cmc-label--warning")))
+    bleached_content = bleach.clean(description, strip=True)
+    return bleached_content.strip()
 
 
-def get_listing_rank(slug, soup=None):
-    if soup is None:
-        html_doc = fetch_currency_page(slug)
-        soup = BeautifulSoup(html_doc, 'html.parser')
-
-    links_block = get_links_block(soup)
-    rank_text = links_block.find('span', class_="cmc-label--success")
-    if rank_text:
-        rank_value = rank_text.text.strip().split(' ')[-1]
-        return int(rank_value)
+def get_links(asset_data):
+    return {k: v for (k, v) in asset_data["urls"].items() if v}
 
 
-def get_markets(slug, soup=None):
-    if soup is None:
-        html_doc = fetch_currency_page(slug)
-        soup = BeautifulSoup(html_doc, 'html.parser')
-
-    market_rows = soup.select("#markets-table tbody tr")
-    markets = []
-    for row in market_rows:
-        cells = row.select("td")
-        exchange_link = cells[1].find("a")
-        pair_link = cells[2].find("a")
-        markets.append({
-            "exchange_name": exchange_link.text.strip(),
-            "pair": pair_link.text.strip(),
-            "url": pair_link["href"]
-        })
-    return sorted(markets, key=lambda m: m["exchange_name"] + m["pair"])
+MARKET_PAIRS_API_URL = "https://web-api.coinmarketcap.com/v1/cryptocurrency/market-pairs/latest?aux=market_url,notice&id={asset_id}&limit=100&sort=cmc_rank"
 
 
-REDDIT_URL_RE = re.compile('reddit.com/(?:u|r)/(.+)\.embed', re.I)
+def get_markets(asset_id):
+    markets_url = MARKET_PAIRS_API_URL.format(asset_id=asset_id)
+    r = requests_session.get(markets_url, headers=DEFAULT_HEADERS)
+    r.raise_for_status()
+
+    response_json = r.json()
+
+    markets = response_json["data"]["market_pairs"]
+    pairs = [
+        dict(
+            exchange_id=v["exchange"]["id"],
+            exchange_name=v["exchange"]["name"],
+            pair=v["market_pair"],
+            url=v["market_url"],
+            base=v["market_pair_base"],
+            quote=v["market_pair_quote"],
+        ) for v in markets
+    ]
+
+    return pairs
 
 
-def get_social(slug, soup=None):
-    if soup is None:
-        html_doc = fetch_currency_page(slug)
-        soup = BeautifulSoup(html_doc, 'html.parser')
-
-    social_links = []
-
-    twitter_link = soup.find(id="social").find("a", class_="twitter-timeline")
-    if twitter_link is not None:
-        social_links.append(("Twitter", twitter_link["href"]))
-
-    # Dirty hack to get reddit link out
-    reddit_link = REDDIT_URL_RE.search(str(soup))
-    if reddit_link is not None:
-        subreddit_slug = reddit_link.group(1)
-        social_links.append(
-            ("Reddit", "https://www.reddit.com/r/{}".format(subreddit_slug)))
-
-    return social_links
+BASE_DATA_KEYS = (
+    "id",
+    "name",
+    "symbol",
+    "slug",
+    "notice",
+    "date_added",
+    "tags",
+    "category",
+    "status",
+)
 
 
-def read_entry(fn):
-    with open(fn) as infile:
-        return yaml.safe_load(infile)
+def get_listing_details(next_data):
+    base_data = get_asset_data(next_data, "info")
+    links = get_links(base_data)
+    description = get_listing_description(base_data)
+    markets = get_markets(base_data["id"])
 
+    quotes_latest_data = get_asset_data(next_data, "quotesLatest")
+    rank = quotes_latest_data["cmc_rank"]
 
-YAML_WIDTH = 100
-YAML_INDENT = 2
-
-
-def write_token_entry(address, listing):
-    with open("tokens/{}.yaml".format(address), "w") as outfile:
-        outfile.write(
-            yaml.dump(
-                dict(address=address, **listing),
-                explicit_start=True,
-                width=YAML_WIDTH,
-                indent=YAML_INDENT,
-                default_flow_style=False,
-                allow_unicode=True))
-
-
-def get_listing_details(slug, soup):
-    description = get_listing_description(slug, soup=soup)
-    listing_links = get_listing_links(slug, soup=soup)
-    social_links = get_social(slug, soup=soup)
-    markets = get_markets(slug, soup=soup)
-    rank = get_listing_rank(slug, soup=soup)
-    tags = get_listing_tags(slug, soup=soup)
-
+    base_details = {k: base_data[k] for k in BASE_DATA_KEYS if base_data[k]}
     details = dict(
-        links=dict(**dict(listing_links), **dict(social_links)),
-        tags=tags,
-        rank=rank,
-        markets=markets)
-
-    if description:
-        details["description"] = description
+        **base_details,
+        links=links,
+        description=description,
+        markets=markets,
+        rank=rank)
 
     return details
 
 
-def process_listing(listing):
-    slug = listing["website_slug"]
+def get_next_data(soup):
+    next_data_json = soup.find("script", id="__NEXT_DATA__").text
+    next_data = json.loads(next_data_json)
+    return next_data
+
+
+def get_asset_data(next_data, key):
+    d = next_data["props"]["initialState"]["cryptocurrency"][key]["data"]
+    asset_data = list(d.values())[-1]
+    return asset_data
+
+
+def process_listing(api_details):
+    slug = api_details["website_slug"]
 
     html_doc = None
     retries = 0
@@ -323,15 +267,17 @@ def process_listing(listing):
                 raise
 
     soup = BeautifulSoup(html_doc, 'html.parser')
+    next_data = get_next_data(soup)
 
-    eth_addresses = set(get_ethereum_addresses(slug, soup=soup))
-    if len(eth_addresses) == 0:
+    eth_addresses = get_ethereum_addresses(next_data)
+    if not eth_addresses:
         logging.debug("'%s' has no Ethereum address", slug)
-        return (copy.deepcopy(listing), set())
+        return ({}, set())
     if len(eth_addresses) > 1:
         logging.info("'%s' has %i Ethereum addresses", slug,
                      len(eth_addresses))
 
-    updated_listing = copy.deepcopy(listing)
-    updated_listing.update(get_listing_details(slug, soup))
-    return (updated_listing, eth_addresses)
+    listing = get_listing_details(next_data)
+    assert listing["id"] == api_details["id"]
+
+    return (listing, eth_addresses)
