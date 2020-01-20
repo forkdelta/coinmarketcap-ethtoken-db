@@ -9,7 +9,7 @@ from entry_io import (read_entry, write_token_entry)
 CMC_LISTINGS_API_URL = "https://api.coinmarketcap.com/v2/listings/"
 
 
-def get_listings():
+def get_api_listings():
     """
     Returns a list of CoinMarketCap-listed currencies via /v2/listings/ API endpoint.
 
@@ -20,18 +20,26 @@ def get_listings():
     return r.json()["data"]
 
 
-def map_existing_entries(files, exclude_deprecated=True):
+def map_entries_to_sets(files, key, exclude_deprecated=True):
     """
-    Returns a hash keyed by CoinMarketCap asset ID with sets of Ethereum addresses
-    known to be associated with that asset ID.
+    Returns a dict keyed by CoinMarketCap asset ID with sets of values for
+    the given key known to be associated with that asset ID.
     """
-    entries = ((entry["id"], entry["address"])
+    entries = ((entry["id"], entry[key])
                for entry in (read_entry(fn) for fn in files)
                if not (exclude_deprecated and entry.get("_DEPRECATED", False)))
 
     return {
         e[0]: set(g[1] for g in e[1])
         for e in groupby(sorted(entries), key=lambda e: e[0])
+    }
+
+
+def map_entries_to_discrete(files, key, exclude_deprecated=True):
+    return {
+        entry["id"]: entry[key]
+        for entry in (read_entry(fn) for fn in files)
+        if not (exclude_deprecated and entry.get("_DEPRECATED", False))
     }
 
 
@@ -42,39 +50,43 @@ def deprecate_token_entry(address):
     write_token_entry(address, old_listing)
 
 
-def main(listings):
+def main():
     from time import sleep
 
-    id_to_address = map_existing_entries(sorted(glob("tokens/0x*.yaml")))
+    existing_files = sorted(glob("tokens/0x*.yaml"))
+    slugs = map_entries_to_discrete(existing_files, "slug")
 
-    for api_listing in listings:
+    api_listings = get_api_listings()
+    api_slugs = {e["id"]: e["website_slug"] for e in api_listings}
+
+    slugs.update(api_slugs)
+
+    id_to_addresses = map_entries_to_sets(existing_files, "address")
+
+    for (asset_id, asset_website_slug) in slugs.items():
         try:
-            result = process_listing(api_listing)
+            result = process_listing(asset_website_slug)
         except:
             logging.exception(
                 "Final error when trying to process listing for '%s'",
-                api_listing["website_slug"])
+                asset_website_slug)
             continue
 
         (listing, current_addresses) = result
+        assert not listing or listing["id"] == asset_id
 
-        existing_addresses = id_to_address.get(api_listing["id"], set())
+        existing_addresses = id_to_addresses.get(asset_id, set())
         for address in existing_addresses - current_addresses:
-            logging.warning("'%s' has deprecated %s",
-                            api_listing["website_slug"], address)
+            logging.warning("'%s' has deprecated %s", asset_website_slug,
+                            address)
             deprecate_token_entry(address)
 
         for address in current_addresses:
             write_token_entry(address, listing)
 
-    listings_ids = [e["id"] for e in listings]
-    ids_removed_from_listings = id_to_address.keys() - listings_ids
-    for removed_id in ids_removed_from_listings:
-        for removed_asset_address in id_to_address[removed_id]:
-            deprecate_token_entry(removed_asset_address)
+    # TODO: Update website slugs in older fies when
 
 
 if __name__ == "__main__":
     logging.getLogger().setLevel(logging.DEBUG)
-
-    main(get_listings())
+    main()

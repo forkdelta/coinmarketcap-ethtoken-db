@@ -59,7 +59,8 @@ def fetch_currency_page(slug,
                         cache_only=False,
                         max_cache_age=CMC_LISTING_PAGE_CACHE_AGE):
     """
-    Returns HTML content of the CoinMarketCap
+    Returns HTML content of the CoinMarketCap currency page given its slug.
+    Optionally, uses and/or writes cache.
     """
     cache_file = join(CACHE_PATH, "{}.html".format(slug))
     if isfile(cache_file) and getmtime(cache_file) > time() - max_cache_age:
@@ -78,15 +79,19 @@ def fetch_currency_page(slug,
         try:
             html_doc = fetch_currency_page_with_requests(
                 slug, cache, cache_file)
-        except requests.HTTPError:
+        except requests.HTTPError as err:
             retries += 1
             logging.exception(
                 "Error occurred while fetching page for '%s', sleeping %i, %s",
                 slug, FETCH_ERROR_DELAY**retries,
                 "retrying" if retries <= MAX_FETCH_RETRIES else "aborting")
-            sleep(FETCH_ERROR_DELAY**retries)  # Sleep even if we are aborting
+            # Sleep even if we are aborting
+            sleep(FETCH_ERROR_DELAY**retries)
 
+            if retries > 1 and err.response.status_code == 404:
+                raise
             if retries <= MAX_FETCH_RETRIES:
+                sleep(FETCH_ERROR_DELAY)
                 continue
             else:
                 raise
@@ -219,8 +224,11 @@ def get_listing_details(next_data):
     description = get_listing_description(base_data)
     markets = get_markets(base_data["id"])
 
-    quotes_latest_data = get_asset_data(next_data, "quotesLatest")
-    rank = quotes_latest_data["cmc_rank"]
+    try:
+        quotes_latest_data = get_asset_data(next_data, "quotesLatest")
+        rank = quotes_latest_data["cmc_rank"]
+    except KeyError:
+        rank = None
 
     base_details = {k: base_data[k] for k in BASE_DATA_KEYS if base_data[k]}
     details = dict(
@@ -245,30 +253,11 @@ def get_asset_data(next_data, key):
     return asset_data
 
 
-def process_listing(api_details):
-    slug = api_details["website_slug"]
-
-    html_doc = None
-    retries = 0
-    while not html_doc:
-        try:
-            html_doc = fetch_currency_page(slug)
-        except requests.HTTPError:
-            retries += 1
-            logging.exception(
-                "Error occurred while fetching page for '%s', sleeping %i, %s",
-                slug, FETCH_ERROR_DELAY**retries,
-                "retrying" if retries <= MAX_FETCH_RETRIES else "aborting")
-            sleep(FETCH_ERROR_DELAY**retries)  # Sleep even if we are aborting
-
-            if retries <= MAX_FETCH_RETRIES:
-                continue
-            else:
-                raise
-
+def process_listing(slug):
+    html_doc = fetch_currency_page(slug)
     soup = BeautifulSoup(html_doc, 'html.parser')
-    next_data = get_next_data(soup)
 
+    next_data = get_next_data(soup)
     eth_addresses = get_ethereum_addresses(next_data)
     if not eth_addresses:
         logging.debug("'%s' has no Ethereum address", slug)
@@ -277,7 +266,4 @@ def process_listing(api_details):
         logging.info("'%s' has %i Ethereum addresses", slug,
                      len(eth_addresses))
 
-    listing = get_listing_details(next_data)
-    assert listing["id"] == api_details["id"]
-
-    return (listing, eth_addresses)
+    return (get_listing_details(next_data), eth_addresses)
