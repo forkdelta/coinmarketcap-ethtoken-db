@@ -181,17 +181,26 @@ def get_links(asset_data):
 
 
 MARKET_PAIRS_API_URL = "https://web-api.coinmarketcap.com/v1/cryptocurrency/market-pairs/latest?aux=market_url,notice&id={asset_id}&limit=100&sort=cmc_rank"
+NO_MARKETS_MESSAGE = "No matching markets found."
+
+
+def fetch_markets(asset_id):
+    markets_url = MARKET_PAIRS_API_URL.format(asset_id=asset_id)
+    try:
+        r = requests_session.get(markets_url, headers=DEFAULT_HEADERS)
+        r.raise_for_status()
+
+        response_json = r.json()
+        return response_json["data"]["market_pairs"]
+    except requests.exceptions.HTTPError:
+        if NO_MARKETS_MESSAGE in r.text:
+            return []
+        raise
 
 
 def get_markets(asset_id):
-    markets_url = MARKET_PAIRS_API_URL.format(asset_id=asset_id)
-    r = requests_session.get(markets_url, headers=DEFAULT_HEADERS)
-    r.raise_for_status()
-
-    response_json = r.json()
-
-    markets = response_json["data"]["market_pairs"]
-    pairs = [
+    markets = fetch_markets(asset_id)
+    return [
         dict(
             exchange_id=v["exchange"]["id"],
             exchange_name=v["exchange"]["name"],
@@ -201,8 +210,6 @@ def get_markets(asset_id):
             quote=v["market_pair_quote"],
         ) for v in markets
     ]
-
-    return pairs
 
 
 BASE_DATA_KEYS = (
