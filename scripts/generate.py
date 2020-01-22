@@ -45,7 +45,7 @@ def map_entries_to_discrete(files, key, exclude_deprecated=True):
 
 def deprecate_token_entry(address):
     old_listing = read_entry("tokens/{}.yaml".format(address))
-    old_listing.update({"_DEPRECATED": True})
+    old_listing.update({"_DEPRECATED": True, "markets": [], "rank": None})
     del old_listing["address"]
     write_token_entry(address, old_listing)
 
