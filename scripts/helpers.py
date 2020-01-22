@@ -261,7 +261,12 @@ def get_asset_data(next_data, key):
 
 
 def process_listing(slug):
-    html_doc = fetch_currency_page(slug)
+    try:
+        html_doc = fetch_currency_page(slug)
+    except requests.exceptions.HTTPError as err:
+        logging.info("'%s' returned code %i", slug, err.response.status_code)
+        return ({}, set())
+
     soup = BeautifulSoup(html_doc, 'html.parser')
 
     next_data = get_next_data(soup)
