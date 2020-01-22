@@ -187,8 +187,28 @@ NO_MARKETS_MESSAGE = "No matching markets found."
 def fetch_markets(asset_id):
     markets_url = MARKET_PAIRS_API_URL.format(asset_id=asset_id)
     try:
-        r = requests_session.get(markets_url, headers=DEFAULT_HEADERS)
-        r.raise_for_status()
+        r = None
+        retries = 0
+        while not r:
+            try:
+                r = requests_session.get(markets_url, headers=DEFAULT_HEADERS)
+                r.raise_for_status()
+            except requests.HTTPError as err:
+                retries += 1
+                logging.exception(
+                    "Error occurred while fetching markets for '%i', sleeping %i, %s",
+                    asset_id, FETCH_ERROR_DELAY**retries,
+                    "retrying" if retries <= MAX_FETCH_RETRIES else "aborting")
+                # Sleep even if we are aborting
+                sleep(FETCH_ERROR_DELAY**retries)
+
+                if retries > 1 and err.response.status_code in (400, 404):
+                    raise
+                if retries <= MAX_FETCH_RETRIES:
+                    sleep(FETCH_ERROR_DELAY)
+                    continue
+                else:
+                    raise
 
         response_json = r.json()
         return response_json["data"]["market_pairs"]
@@ -229,13 +249,14 @@ def get_listing_details(next_data):
     base_data = get_asset_data(next_data, "info")
     links = get_links(base_data)
     description = get_listing_description(base_data)
-    markets = get_markets(base_data["id"])
 
-    try:
-        quotes_latest_data = get_asset_data(next_data, "quotesLatest")
+    quotes_latest_data = get_asset_data(next_data, "quotesLatest")
+    rank = None
+    markets = []
+    if quotes_latest_data:
         rank = quotes_latest_data["cmc_rank"]
-    except KeyError:
-        rank = None
+    if quotes_latest_data and quotes_latest_data["num_market_pairs"] > 0:
+        markets = get_markets(base_data["id"])
 
     base_details = {k: base_data[k] for k in BASE_DATA_KEYS if base_data[k]}
     details = dict(
@@ -255,8 +276,9 @@ def get_next_data(soup):
 
 
 def get_asset_data(next_data, key):
-    d = next_data["props"]["initialState"]["cryptocurrency"][key]["data"]
-    asset_data = list(d.values())[-1]
+    data_container = next_data["props"]["initialState"]["cryptocurrency"][key]
+    asset_container = data_container.get("data") or {}
+    asset_data = next(iter(asset_container.values()), None)
     return asset_data
 
 
