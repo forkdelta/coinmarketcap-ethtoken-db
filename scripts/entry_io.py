@@ -22,3 +22,10 @@ def write_token_entry(address, listing):
                 indent=YAML_INDENT,
                 default_flow_style=False,
                 allow_unicode=True))
+
+
+def update_token_entry(address, partial_update):
+    old_listing = read_entry("tokens/{}.yaml".format(address))
+    old_listing.update(partial_update)
+    del old_listing["address"]
+    write_token_entry(address, old_listing)

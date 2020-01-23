@@ -4,7 +4,7 @@ import logging
 import requests
 
 from helpers import (DEFAULT_HEADERS, process_listing)
-from entry_io import (read_entry, write_token_entry)
+from entry_io import (read_entry, write_token_entry, update_token_entry)
 
 CMC_LISTINGS_API_URL = "https://api.coinmarketcap.com/v2/listings/"
 
@@ -43,25 +43,17 @@ def map_entries_to_discrete(files, key, exclude_deprecated=True):
     }
 
 
-def deprecate_token_entry(address):
-    old_listing = read_entry("tokens/{}.yaml".format(address))
-    old_listing.update({"_DEPRECATED": True, "markets": [], "rank": None})
-    del old_listing["address"]
-    write_token_entry(address, old_listing)
-
-
 def main():
     from time import sleep
 
     existing_files = sorted(glob("tokens/0x*.yaml"))
+    id_to_addresses = map_entries_to_sets(existing_files, "address")
     slugs = map_entries_to_discrete(existing_files, "slug")
 
     api_listings = get_api_listings()
     api_slugs = {e["id"]: e["website_slug"] for e in api_listings}
 
     slugs.update(api_slugs)
-
-    id_to_addresses = map_entries_to_sets(existing_files, "address")
 
     for (asset_id, asset_website_slug) in slugs.items():
         try:
@@ -73,18 +65,39 @@ def main():
             continue
 
         (listing, current_addresses) = result
-        assert not listing or listing["id"] == asset_id
+
+        if listing:
+            assert listing["id"] == asset_id
+
+            if asset_website_slug != listing["slug"]:
+                logging.warning("'%s' redirected to slug '%s' when queried",
+                                asset_website_slug, listing['slug'])
 
         existing_addresses = id_to_addresses.get(asset_id, set())
-        for address in existing_addresses - current_addresses:
-            logging.warning("'%s' has deprecated %s", asset_website_slug,
-                            address)
-            deprecate_token_entry(address)
+        # Deal with delisted assets and deprecated addresses
+        if existing_addresses and listing is None:
+            # listing is None when the page failed to fetch (404ed)
+            logging.warning("'%s' has been delisted", asset_website_slug)
+            for address in existing_addresses:
+                update_token_entry(address, {
+                    "status": "delisted",
+                    "markets": [],
+                    "rank": None
+                })
+        else:
+            for address in existing_addresses - current_addresses:
+                logging.warning("'%s' has deprecated %s", asset_website_slug,
+                                address)
+                update_token_entry(
+                    address, {
+                        "_DEPRECATED": True,
+                        "status": "deprecated",
+                        "markets": [],
+                        "rank": None
+                    })
 
         for address in current_addresses:
             write_token_entry(address, listing)
-
-    # TODO: Update website slugs in older fies when
 
 
 if __name__ == "__main__":
