@@ -1,20 +1,18 @@
 ---
 address: '0x182A603541a4483c308475147D621bbB4E2587c6'
+category: token
+date_added: '2019-06-11T00:00:00.000Z'
 description: 'Zerobank envisages itself as a legal ecosystem utilizing blockchain and smart contracts
   to enable the following:
 
-  Zerobank envisages itself as a legal ecosystem utilizing blockchain and smart contracts to enable the
-  following:
 
-  <ul></ul>
+  - Multi-currency wallet and P2P OTC trading and exchange
 
-  <li>Multi-currency wallet and P2P OTC trading and exchange</li>
+  - P2P International Money Transfer
 
-  <li>P2P International Money Transfer</li>
+  - Multi-currency E-Wallet for international tourists
 
-  <li>Multi-currency E-Wallet for international tourists</li>
-
-  <li>Charitable donations</li>'
+  - Charitable donations'
 id: 4004
 links:
   chat:
@@ -25,10 +23,54 @@ links:
   technical_doc:
   - https://zerobank.cash/whitepaper/WHITE-PAPER-2019.pdf
   twitter:
-  - https://twitter.com/zerobank_cash?ref_src=coinmarketcap
+  - https://twitter.com/zerobank_cash
   website:
   - https://zerobank.cash/
+markets:
+- base:
+    currency_id: 4004
+    currency_symbol: ZB
+    currency_type: cryptocurrency
+    exchange_symbol: ZB
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: ZB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/ZB_BTC
+- base:
+    currency_id: 4004
+    currency_symbol: ZB
+    currency_type: cryptocurrency
+    exchange_symbol: ZB
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: ZB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://p2pb2b.io/trade/ZB_ETH
+- base:
+    currency_id: 4004
+    currency_symbol: ZB
+    currency_type: cryptocurrency
+    exchange_symbol: ZB
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: ZB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://p2pb2b.io/trade/ZB_USDT
 name: Zerobank
-rank: 2274
+rank: 2371
 slug: zerobank
+status: active
 symbol: ZB
