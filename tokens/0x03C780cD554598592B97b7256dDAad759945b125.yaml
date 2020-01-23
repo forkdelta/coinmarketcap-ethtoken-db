@@ -1,25 +1,53 @@
 ---
 address: '0x03C780cD554598592B97b7256dDAad759945b125'
+category: token
+date_added: '2018-04-30T00:00:00.000Z'
 id: 2690
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=2941748.0
-  Chat: https://t.me/biotronfoundation
-  Explorer: https://etherscan.io/token/0x03c780cd554598592b97b7256ddaad759945b125
-  Explorer 2: https://ethplorer.io/address/0x03c780cd554598592b97b7256ddaad759945b125
-  Reddit: https://www.reddit.com/r/Biotron
-  Twitter: https://twitter.com/biotron_io?ref_src=coinmarketcap
-  Website: https://biotron.io/
-  Website 2: https://medium.com/biotron
+  announcement:
+  - https://bitcointalk.org/index.php?topic=2941748.0
+  chat:
+  - https://t.me/biotronfoundation
+  explorer:
+  - https://etherscan.io/token/0x03c780cd554598592b97b7256ddaad759945b125
+  - https://ethplorer.io/address/0x03c780cd554598592b97b7256ddaad759945b125
+  reddit:
+  - https://reddit.com/r/Biotron
+  twitter:
+  - https://twitter.com/biotron_io
+  website:
+  - https://biotron.io/
 markets:
-- exchange_name: Liquid
-  pair: BTRN/BTC
-  url: https://app.liquid.com/exchange/BTRNBTC
-- exchange_name: Liquid
+- base:
+    currency_id: 2690
+    currency_symbol: BTRN
+    currency_type: cryptocurrency
+    exchange_symbol: BTRN
+  exchange_id: 112
+  exchange_name: Liquid
   pair: BTRN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://app.liquid.com/exchange/BTRNETH
+- base:
+    currency_id: 2690
+    currency_symbol: BTRN
+    currency_type: cryptocurrency
+    exchange_symbol: BTRN
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: BTRN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/BTRNBTC
 name: Biotron
-rank: 1668
+rank: 1816
+slug: biotron
+status: active
 symbol: BTRN
-tags:
-- Token
-website_slug: biotron

@@ -1,56 +1,113 @@
 ---
 address: '0x168296bb09e24A88805CB9c33356536B980D3fC5'
+category: token
+date_added: '2017-10-06T00:00:00.000Z'
 id: 2021
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=1747033.0
-  Explorer: https://etherscan.io/token/0x168296bb09e24a88805cb9c33356536b980d3fc5
-  Explorer 2: https://ethplorer.io/address/0x168296bb09e24a88805cb9c33356536b980d3fc5
-  Message Board: https://medium.com/rchain-cooperative
-  Reddit: https://www.reddit.com/r/RChain
-  Source Code: https://github.com/rchain/
-  Technical Documentation: https://media.readthedocs.org/pdf/rchain-architecture/stable/rchain-architecture.pdf
-  Twitter: https://twitter.com/rchain_coop?ref_src=coinmarketcap
-  Website: https://www.rchain.coop/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=1747033.0
+  explorer:
+  - https://etherscan.io/token/0x168296bb09e24a88805cb9c33356536b980d3fc5
+  - https://ethplorer.io/address/0x168296bb09e24a88805cb9c33356536b980d3fc5
+  message_board:
+  - https://medium.com/rchain-cooperative
+  reddit:
+  - https://reddit.com/r/RChain
+  source_code:
+  - https://github.com/rchain/
+  technical_doc:
+  - https://media.readthedocs.org/pdf/rchain-architecture/stable/rchain-architecture.pdf
+  twitter:
+  - https://twitter.com/rchain_coop
+  website:
+  - https://www.rchain.coop/
 markets:
-- exchange_name: Bilaxy
-  pair: RHOC/ETH
-  url: https://bilaxy.com/exchange
-- exchange_name: Bitinka
+- base:
+    currency_id: 2021
+    currency_symbol: RHOC
+    currency_type: cryptocurrency
+    exchange_symbol: RHOC
+  exchange_id: 341
+  exchange_name: CHAOEX
   pair: RHOC/BTC
-  url: https://www.bitinka.com/
-- exchange_name: Bitinka
-  pair: RHOC/ETH
-  url: https://www.bitinka.com/
-- exchange_name: Bitinka
-  pair: RHOC/EUR
-  url: https://www.bitinka.com/
-- exchange_name: Bitinka
-  pair: RHOC/USD
-  url: https://www.bitinka.com/
-- exchange_name: Bitinka
-  pair: RHOC/USDT
-  url: https://www.bitinka.com/
-- exchange_name: CHAOEX
-  pair: RHOC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://www.chaoex.com/dealcenter
-- exchange_name: CoinPlace
-  pair: RHOC/BTC
-  url: https://coinplace.pro/
-- exchange_name: Hotbit
-  pair: RHOC/BTC
-  url: https://www.hotbit.io/exchange?symbol=RHOC_BTC
-- exchange_name: Hotbit
+- base:
+    currency_id: 2021
+    currency_symbol: RHOC
+    currency_type: cryptocurrency
+    exchange_symbol: RHOC
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: RHOC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=RHOC_ETH
-- exchange_name: KuCoin
-  pair: RHOC/BTC
-  url: https://www.kucoin.com/trade/RHOC-BTC
-- exchange_name: KuCoin
+- base:
+    currency_id: 2021
+    currency_symbol: RHOC
+    currency_type: cryptocurrency
+    exchange_symbol: RHOC
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: RHOC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://www.kucoin.com/trade/RHOC-ETH
+- base:
+    currency_id: 2021
+    currency_symbol: RHOC
+    currency_type: cryptocurrency
+    exchange_symbol: RHOC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: RHOC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/RHOC-BTC
+- base:
+    currency_id: 2021
+    currency_symbol: RHOC
+    currency_type: cryptocurrency
+    exchange_symbol: RHOC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: RHOC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=RHOC_BTC
+- base:
+    currency_id: 2021
+    currency_symbol: RHOC
+    currency_type: cryptocurrency
+    exchange_symbol: RHOC
+  exchange_id: 451
+  exchange_name: CoinPlace
+  pair: RHOC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coinplace.pro/
 name: RChain
-rank: 361
+rank: 349
+slug: rchain
+status: active
 symbol: RHOC
-tags:
-- Token
-website_slug: rchain

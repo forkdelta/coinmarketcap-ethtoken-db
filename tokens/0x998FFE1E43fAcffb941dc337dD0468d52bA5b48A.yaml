@@ -1,32 +1,59 @@
 ---
 address: '0x998FFE1E43fAcffb941dc337dD0468d52bA5b48A'
-description: 'Rupiah Token (IDRT) is a stablecoin that is pegged at 1:1 ratio to the Rupiah.
-
-  Rupiah Token (IDRT) is a stablecoin that is pegged at 1:1 ratio to the Rupiah.'
+category: token
+date_added: '2019-09-24T00:00:00.000Z'
+description: Rupiah Token (IDRT) is a stablecoin that is pegged at 1:1 ratio to the Rupiah.
 id: 4702
 links:
-  Chat: https://t.me/rupiahtokenindonesia
-  Chat 2: https://t.me/RupiahTokenInternational
-  Explorer: https://etherscan.io/token/0x998FFE1E43fAcffb941dc337dD0468d52bA5b48A
-  Explorer 2: https://ethplorer.io/address/0x998FFE1E43fAcffb941dc337dD0468d52bA5b48A
-  Explorer 3: https://explorer.binance.org/asset/IDRTB-178
-  Learn more: /methodology/#rank
-  Message Board: https://medium.com/rupiahtoken-blog
-  Message Board 2: https://medium.com/rupiahtoken-blog
-  Source Code: https://github.com/rupiah-token
-  Technical Documentation: http://idrt.link/whitepaper
-  Twitter: https://twitter.com/rupiahtokenidrt?ref_src=coinmarketcap
-  Website: http://idrt.link/whitepaper
+  chat:
+  - https://t.me/rupiahtokenindonesia
+  - https://t.me/RupiahTokenInternational
+  explorer:
+  - https://etherscan.io/token/0x998FFE1E43fAcffb941dc337dD0468d52bA5b48A
+  - https://ethplorer.io/address/0x998FFE1E43fAcffb941dc337dD0468d52bA5b48A
+  - https://explorer.binance.org/asset/IDRTB-178
+  message_board:
+  - https://medium.com/rupiahtoken-blog
+  - https://medium.com/rupiahtoken-blog
+  source_code:
+  - https://github.com/rupiah-token
+  technical_doc:
+  - http://idrt.link/whitepaper
+  twitter:
+  - https://twitter.com/rupiahtokenidrt
+  website:
+  - http://idrt.link/whitepaper
 markets:
-- exchange_name: Binance DEX
-  pair: BNB/IDRTB-178
-  url: https://www.binance.org/en/trade/
-- exchange_name: DDEX
+- base:
+    currency_id: 4702
+    currency_symbol: IDRT
+    currency_type: cryptocurrency
+    exchange_symbol: IDRT
+  exchange_id: 367
+  exchange_name: DDEX
   pair: IDRT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
   url: https://ddex.io/trade/IDRT-USDT
+- base:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: BNB/IDRT
+  quote:
+    currency_id: 4702
+    currency_symbol: IDRT
+    currency_type: cryptocurrency
+    exchange_symbol: IDRTB-178
+  url: https://www.binance.org/en/trade/
 name: Rupiah Token
-rank: 1650
+rank: 1467
+slug: rupiah-token
+status: active
 symbol: IDRT
-tags:
-- Token
-website_slug: rupiah-token

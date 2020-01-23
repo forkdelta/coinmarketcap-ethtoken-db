@@ -1,30 +1,81 @@
 ---
 address: '0x5D4d57cd06Fa7fe99e26fdc481b468f77f05073C'
+category: token
+date_added: '2018-08-10T00:00:00.000Z'
 id: 3149
 links:
-  Announcement: https://t.me/netkoin
-  Chat: https://t.me/netkoindiscussion
-  Explorer: https://etherscan.io/token/0x5d4d57cd06fa7fe99e26fdc481b468f77f05073c
-  Explorer 2: https://ethplorer.io/address/0x5d4d57cd06fa7fe99e26fdc481b468f77f05073c
-  Source Code: https://etherscan.io/address/0x5d4d57cd06fa7fe99e26fdc481b468f77f05073c#code
-  Twitter: https://twitter.com/netkoin?ref_src=coinmarketcap
-  Website: https://www.netkoin.com
+  announcement:
+  - https://t.me/netkoin
+  chat:
+  - https://t.me/netkoindiscussion
+  explorer:
+  - https://etherscan.io/token/0x5d4d57cd06fa7fe99e26fdc481b468f77f05073c
+  - https://ethplorer.io/address/0x5d4d57cd06fa7fe99e26fdc481b468f77f05073c
+  source_code:
+  - https://etherscan.io/address/0x5d4d57cd06fa7fe99e26fdc481b468f77f05073c#code
+  twitter:
+  - https://twitter.com/netkoin
+  website:
+  - https://www.netkoin.com
 markets:
-- exchange_name: IDEX
-  pair: NTK2/ETH
-  url: https://idex.market/eth/ntk2
-- exchange_name: Mercatox
-  pair: NTK/BTC
-  url: https://mercatox.com/exchange/NTK/BTC
-- exchange_name: Mercatox
+- base:
+    currency_id: 3149
+    currency_symbol: NTK
+    currency_type: cryptocurrency
+    exchange_symbol: NTK
+  exchange_id: 213
+  exchange_name: Mercatox
   pair: NTK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://mercatox.com/exchange/NTK/ETH
-- exchange_name: TOPBTC
+- base:
+    currency_id: 3149
+    currency_symbol: NTK
+    currency_type: cryptocurrency
+    exchange_symbol: NTK
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: NTK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/NTK/BTC
+- base:
+    currency_id: 3149
+    currency_symbol: NTK
+    currency_type: cryptocurrency
+    exchange_symbol: NTK2
+  exchange_id: 310
+  exchange_name: IDEX
   pair: NTK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/ntk
+- base:
+    currency_id: 3149
+    currency_symbol: NTK
+    currency_type: cryptocurrency
+    exchange_symbol: NTK
+  exchange_id: 317
+  exchange_name: TOPBTC
+  pair: NTK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://topbtc.com/home/Market/index/market/ETH/coin/NTK.html
 name: NetKoin
-rank: 1667
+rank: 1757
+slug: netkoin
+status: active
 symbol: NTK
-tags:
-- Token
-website_slug: netkoin

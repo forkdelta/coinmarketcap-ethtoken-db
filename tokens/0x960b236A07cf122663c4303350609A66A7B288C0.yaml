@@ -1,64 +1,211 @@
 ---
 address: '0x960b236A07cf122663c4303350609A66A7B288C0'
+category: token
+date_added: '2017-05-18T00:00:00.000Z'
 description: 'Aragon (ANT) is a decentralized platform built on the Ethereum network that offers a modularized
   way to create and manage dApps, cryptoprotocols, and decentralized autonomous organizations (DAO). The
   ANT ERC-20 token will enable its holders to govern the Aragon Network.
 
-  Aragon (ANT) is a decentralized platform built on the Ethereum network that offers a modularized way
-  to create and manage dApps, cryptoprotocols, and decentralized autonomous organizations (DAO). The ANT
-  ERC-20 token will enable its holders to govern the Aragon Network.
-
-  The project is led by Luis Cuende, who was featured on the ''Forbes 30 under 30'' category in ''Technology''.
 
   The project is led by Luis Cuende, who was featured on the ''Forbes 30 under 30'' category in ''Technology''.'
 id: 1680
 links:
-  Explorer: https://etherscan.io/token/Aragon
-  Explorer 2: https://ethplorer.io/address/0x960b236a07cf122663c4303350609a66a7b288c0
-  Message Board: https://blog.aragon.org/
-  Technical Documentation: https://wiki.aragon.org/documentation/whitepaper/
-  Twitter: https://twitter.com/AragonProject?ref_src=coinmarketcap
-  Website: https://aragon.org/
+  explorer:
+  - https://etherscan.io/token/Aragon
+  - https://ethplorer.io/address/0x960b236a07cf122663c4303350609a66a7b288c0
+  message_board:
+  - https://blog.aragon.org/
+  technical_doc:
+  - https://wiki.aragon.org/documentation/whitepaper/
+  twitter:
+  - https://twitter.com/AragonProject
+  website:
+  - https://aragon.org/
 markets:
-- exchange_name: Bancor Network
-  pair: ANT/BNT
-  url: https://www.bancor.network/token/ANT
-- exchange_name: Bitfinex
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 733
+  exchange_name: VCC Exchange
   pair: ANT/BTC
-  url: https://www.bitfinex.com/t/ANT:BTC
-- exchange_name: Bitfinex
-  pair: ANT/ETH
-  url: https://www.bitfinex.com/t/ANT:ETH
-- exchange_name: Bitfinex
-  pair: ANT/USD
-  url: https://www.bitfinex.com/t/ANT:USD
-- exchange_name: Bittrex
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=ant
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: ANT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-ANT
-- exchange_name: Bittrex
-  pair: ANT/ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-ANT
-- exchange_name: Bitvavo
-  pair: ANT/EUR
-  url: https://account.bitvavo.com/markets/ANT-EUR
-- exchange_name: CredoEx
-  pair: ANT/CREDO
-  url: https://credoex.com/
-- exchange_name: GOPAX
-  pair: ANT/KRW
-  url: https://www.gopax.co.kr/exchange/ant-krw
-- exchange_name: HitBTC
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 37
+  exchange_name: Bitfinex
   pair: ANT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/ANT:BTC
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: ANT/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/ANT
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: ANT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitfinex.com/t/ANT:ETH
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: ANT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/ANT:USD
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: ANT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://hitbtc.com/ANT-to-BTC
-- exchange_name: IDEX
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 733
+  exchange_name: VCC Exchange
   pair: ANT/ETH
-  url: https://idex.market/eth/ant
-- exchange_name: Livecoin
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vcc.exchange/exchange/basic?currency=eth&coin=ant
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: ANT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-ANT
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 520
+  exchange_name: Bitvavo
+  pair: ANT/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://account.bitvavo.com/markets/ANT-EUR
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: ANT/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/ant-krw
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 107
+  exchange_name: Livecoin
   pair: ANT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://www.livecoin.net/en/trading/ANT_BTC
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: ANT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/ant
 name: Aragon
-rank: 150
+rank: 153
+slug: aragon
+status: active
 symbol: ANT
-tags:
-- Token
-website_slug: aragon

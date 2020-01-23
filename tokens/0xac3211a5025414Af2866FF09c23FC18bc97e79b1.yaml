@@ -1,27 +1,59 @@
 ---
 address: '0xac3211a5025414Af2866FF09c23FC18bc97e79b1'
+category: token
+date_added: '2017-10-27T00:00:00.000Z'
 id: 2110
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=2116249.0
-  Chat: https://t.me/dovuofficial
-  Explorer: https://etherscan.io/token/0xac3211a5025414af2866ff09c23fc18bc97e79b1
-  Explorer 2: https://ethplorer.io/address/0xac3211a5025414af2866ff09c23fc18bc97e79b1
-  Message Board: https://blog.dovu.io/
-  Reddit: https://www.reddit.com/r/dovu
-  Source Code: https://github.com/TokenMarketNet/ico
-  Technical Documentation: https://dovu.io/whitepaper.pdf
-  Twitter: https://twitter.com/dovuofficial?ref_src=coinmarketcap
-  Website: https://dovu.io/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=2116249.0
+  chat:
+  - https://t.me/dovuofficial
+  explorer:
+  - https://etherscan.io/token/0xac3211a5025414af2866ff09c23fc18bc97e79b1
+  - https://ethplorer.io/address/0xac3211a5025414af2866ff09c23fc18bc97e79b1
+  message_board:
+  - https://blog.dovu.io/
+  reddit:
+  - https://reddit.com/r/dovu
+  source_code:
+  - https://github.com/TokenMarketNet/ico
+  technical_doc:
+  - https://dovu.io/whitepaper.pdf
+  twitter:
+  - https://twitter.com/dovuofficial
+  website:
+  - https://dovu.io/
 markets:
-- exchange_name: HitBTC
-  pair: DOV/BTC
-  url: https://hitbtc.com/DOV-to-BTC
-- exchange_name: HitBTC
+- base:
+    currency_id: 2110
+    currency_symbol: DOV
+    currency_type: cryptocurrency
+    exchange_symbol: DOV
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: DOV/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://hitbtc.com/DOV-to-ETH
+- base:
+    currency_id: 2110
+    currency_symbol: DOV
+    currency_type: cryptocurrency
+    exchange_symbol: DOV
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: DOV/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/DOV-to-BTC
 name: Dovu
-rank: 1283
+rank: 1169
+slug: dovu
+status: active
 symbol: DOV
-tags:
-- Token
-website_slug: dovu

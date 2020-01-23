@@ -1,29 +1,55 @@
 ---
 address: '0xe577e0B200d00eBdecbFc1cd3F7E8E04C70476BE'
-description: 'xEURO (xEUR) is a token on the Ethereum blockchain that represents the EUR. xEuro.online
+category: token
+date_added: '2019-08-13T00:00:00.000Z'
+description: xEURO (xEUR) is a token on the Ethereum blockchain that represents the EUR. xEuro.online
   is maintained and service provided by Etna Development OÜ.
-
-  xEURO (xEUR) is a token on the Ethereum blockchain that represents the EUR. xEuro.online is maintained
-  and service provided by Etna Development OÜ.'
 id: 4109
 links:
-  Chat: https://t.me/xeuro
-  Explorer: https://etherscan.io/token/0xe577e0B200d00eBdecbFc1cd3F7E8E04C70476BE
-  Explorer 2: https://ethplorer.io/address/0xe577e0B200d00eBdecbFc1cd3F7E8E04C70476BE
-  Source Code: https://github.com/xeuro/xeuro.online
-  Technical Documentation: http://bit.ly/xEuroWhitePaper
-  Twitter: https://twitter.com/xEuroOnline?ref_src=coinmarketcap
-  Website: https://xeuro.online
+  chat:
+  - https://t.me/xeuro
+  explorer:
+  - https://etherscan.io/token/0xe577e0B200d00eBdecbFc1cd3F7E8E04C70476BE
+  - https://ethplorer.io/address/0xe577e0B200d00eBdecbFc1cd3F7E8E04C70476BE
+  source_code:
+  - https://github.com/xeuro/xeuro.online
+  technical_doc:
+  - http://bit.ly/xEuroWhitePaper
+  twitter:
+  - https://twitter.com/xEuroOnline
+  website:
+  - https://xeuro.online
 markets:
-- exchange_name: Crex24
-  pair: XEUR/BTC
-  url: https://crex24.com/exchange/XEUR-BTC
-- exchange_name: STEX
-  pair: BTC/xEUR
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 245
+  exchange_name: STEX
+  pair: BTC/XEUR
+  quote:
+    currency_id: 4109
+    currency_symbol: XEUR
+    currency_type: cryptocurrency
+    exchange_symbol: XEUR
   url: https://app.stex.com/en/basic-trade/pair/XEUR/BTC/1D
+- base:
+    currency_id: 4109
+    currency_symbol: XEUR
+    currency_type: cryptocurrency
+    exchange_symbol: XEUR
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: XEUR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://crex24.com/exchange/XEUR-BTC
 name: xEURO
-rank: 1768
+rank: 1757
+slug: xeuro
+status: active
 symbol: xEUR
-tags:
-- Token
-website_slug: xeuro

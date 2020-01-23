@@ -1,32 +1,85 @@
 ---
 address: '0xeC46f8207D766012454c408De210BCBc2243E71c'
+category: token
+date_added: '2018-01-18T00:00:00.000Z'
 id: 2420
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=2254986.0
-  Chat: https://t.me/NitroToken_NOX
-  Explorer: https://etherscan.io/token/0xec46f8207d766012454c408de210bcbc2243e71c
-  Explorer 2: https://ethplorer.io/address/0xec46f8207d766012454c408de210bcbc2243e71c
-  Reddit: https://www.reddit.com/r/nitrotoken
-  Source Code: https://github.com/nitrotoken/nitro-crowdsale
-  Technical Documentation: https://www.nitro.live/files/en/Nitro%20Whitepaper%20v4.0.5.pdf
-  Twitter: https://twitter.com/nitrotoken?ref_src=coinmarketcap
-  Website: https://www.nitro.live/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=2254986.0
+  chat:
+  - https://t.me/NitroToken_NOX
+  explorer:
+  - https://etherscan.io/token/0xec46f8207d766012454c408de210bcbc2243e71c
+  - https://ethplorer.io/address/0xec46f8207d766012454c408de210bcbc2243e71c
+  reddit:
+  - https://reddit.com/r/nitrotoken
+  source_code:
+  - https://github.com/nitrotoken/nitro-crowdsale
+  technical_doc:
+  - https://www.nitro.live/files/en/Nitro%20Whitepaper%20v4.0.5.pdf
+  twitter:
+  - https://twitter.com/nitrotoken
+  website:
+  - https://www.nitro.live/
 markets:
-- exchange_name: COSS
-  pair: NOX/BTC
-  url: https://coss.io/c/trade?s=NOX_BTC
-- exchange_name: COSS
+- base:
+    currency_id: 2420
+    currency_symbol: NOX
+    currency_type: cryptocurrency
+    exchange_symbol: NOX
+  exchange_id: 107
+  exchange_name: Livecoin
   pair: NOX/ETH
-  url: https://coss.io/c/trade?s=NOX_ETH
-- exchange_name: Livecoin
-  pair: NOX/BTC
-  url: https://www.livecoin.net/en/trading/NOX_BTC
-- exchange_name: Livecoin
-  pair: NOX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://www.livecoin.net/en/trading/NOX_ETH
+- base:
+    currency_id: 2420
+    currency_symbol: NOX
+    currency_type: cryptocurrency
+    exchange_symbol: NOX
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: NOX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/NOX_BTC
+- base:
+    currency_id: 2420
+    currency_symbol: NOX
+    currency_type: cryptocurrency
+    exchange_symbol: NOX
+  exchange_id: 242
+  exchange_name: COSS
+  pair: NOX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coss.io/c/trade?s=NOX_ETH
+- base:
+    currency_id: 2420
+    currency_symbol: NOX
+    currency_type: cryptocurrency
+    exchange_symbol: NOX
+  exchange_id: 242
+  exchange_name: COSS
+  pair: NOX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coss.io/c/trade?s=NOX_BTC
 name: Nitro
-rank: 1421
+rank: 1736
+slug: nitro
+status: active
 symbol: NOX
-tags:
-- Token
-website_slug: nitro

@@ -1,31 +1,84 @@
 ---
 address: '0x2Fc246aA66F0da5bB1368F688548ecBBE9bdee5d'
+category: token
+date_added: '2019-02-04T00:00:00.000Z'
 id: 3722
 links:
-  Announcement: https://medium.com/temcolabs
-  Chat: https://t.me/temcolabs
-  Explorer: https://etherscan.io/address/0x2fc246aa66f0da5bb1368f688548ecbbe9bdee5d
-  Message Board: https://medium.com/temcolabs
-  Reddit: https://www.reddit.com/r/temcolabs
-  Source Code: https://github.com/temcolabs/token
-  Twitter: https://twitter.com/TEMCOLABS?ref_src=coinmarketcap
-  Website: https://www.temco.io
+  announcement:
+  - https://medium.com/temcolabs
+  chat:
+  - https://t.me/temcolabs
+  explorer:
+  - https://etherscan.io/address/0x2fc246aa66f0da5bb1368f688548ecbbe9bdee5d
+  message_board:
+  - https://medium.com/temcolabs
+  reddit:
+  - https://reddit.com/r/temcolabs
+  source_code:
+  - https://github.com/temcolabs/token
+  twitter:
+  - https://twitter.com/TEMCOLABS
+  website:
+  - https://www.temco.io
 markets:
-- exchange_name: Bittrex
-  pair: TEMCO/BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-TEMCO
-- exchange_name: Cashierest
+- base:
+    currency_id: 3722
+    currency_symbol: TEMCO
+    currency_type: cryptocurrency
+    exchange_symbol: TEMCO
+  exchange_id: 174
+  exchange_name: Coinone
   pair: TEMCO/KRW
-  url: https://www.cashierest.com/Stock/CoinStock
-- exchange_name: CoinBene
-  pair: TEMCO/USDT
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=TEMCOUSDT
-- exchange_name: Coinone
-  pair: TEMCO/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
   url: https://coinone.co.kr/exchange/trade/temco/
+- base:
+    currency_id: 3722
+    currency_symbol: TEMCO
+    currency_type: cryptocurrency
+    exchange_symbol: TEMCO
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: TEMCO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-TEMCO
+- base:
+    currency_id: 3722
+    currency_symbol: TEMCO
+    currency_type: cryptocurrency
+    exchange_symbol: TEMCO
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: TEMCO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=TEMCOUSDT
+- base:
+    currency_id: 3722
+    currency_symbol: TEMCO
+    currency_type: cryptocurrency
+    exchange_symbol: TEMCO
+  exchange_id: 428
+  exchange_name: Cashierest
+  pair: TEMCO/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.cashierest.com/Stock/CoinStock
 name: TEMCO
-rank: 684
+rank: 819
+slug: temco
+status: active
 symbol: TEMCO
-tags:
-- Token
-website_slug: temco

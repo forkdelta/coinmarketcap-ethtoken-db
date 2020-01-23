@@ -1,31 +1,83 @@
 ---
 address: '0x78c292D1445E6b9558bf42e8BC369271DeD062eA'
+category: token
+date_added: '2018-09-07T00:00:00.000Z'
 id: 3255
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=5028091
-  Chat: https://t.me/cymtofficial
-  Explorer: https://etherscan.io/token/0x78c292d1445e6b9558bf42e8bc369271ded062ea
-  Explorer 2: https://etherscan.io/address/0x78c292d1445e6b9558bf42e8bc369271ded062ea
-  Message Board: https://medium.com/@cybermusicio
-  Source Code: https://github.com/cybermusicio/ico
-  Twitter: https://twitter.com/CyberMusicIO?ref_src=coinmarketcap
-  Website: https://cybermusic.io
+  announcement:
+  - https://bitcointalk.org/index.php?topic=5028091
+  chat:
+  - https://t.me/cymtofficial
+  explorer:
+  - https://etherscan.io/token/0x78c292d1445e6b9558bf42e8bc369271ded062ea
+  - https://etherscan.io/address/0x78c292d1445e6b9558bf42e8bc369271ded062ea
+  message_board:
+  - https://medium.com/@cybermusicio
+  source_code:
+  - https://github.com/cybermusicio/ico
+  twitter:
+  - https://twitter.com/CyberMusicIO
+  website:
+  - https://cybermusic.io
 markets:
-- exchange_name: Crex24
+- base:
+    currency_id: 3255
+    currency_symbol: CYMT
+    currency_type: cryptocurrency
+    exchange_symbol: CYMT
+  exchange_id: 382
+  exchange_name: Crex24
   pair: CYMT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://crex24.com/exchange/CYMT-BTC
-- exchange_name: Hotbit
+- base:
+    currency_id: 3255
+    currency_symbol: CYMT
+    currency_type: cryptocurrency
+    exchange_symbol: CYMT
+  exchange_id: 213
+  exchange_name: Mercatox
   pair: CYMT/ETH
-  url: https://www.hotbit.io/exchange?symbol=CYMT_ETH
-- exchange_name: Mercatox
-  pair: CYMT/BTC
-  url: https://mercatox.com/exchange/CYMT/BTC
-- exchange_name: Mercatox
-  pair: CYMT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://mercatox.com/exchange/CYMT/ETH
+- base:
+    currency_id: 3255
+    currency_symbol: CYMT
+    currency_type: cryptocurrency
+    exchange_symbol: CYMT
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: CYMT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/CYMT/BTC
+- base:
+    currency_id: 3255
+    currency_symbol: CYMT
+    currency_type: cryptocurrency
+    exchange_symbol: CYMT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: CYMT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=CYMT_ETH
 name: CyberMusic
-rank: 954
+rank: 808
+slug: cybermusic
+status: active
 symbol: CYMT
-tags:
-- Token
-website_slug: cybermusic

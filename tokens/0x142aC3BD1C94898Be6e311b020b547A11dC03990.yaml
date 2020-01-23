@@ -1,33 +1,51 @@
 ---
 address: '0x142aC3BD1C94898Be6e311b020b547A11dC03990'
+category: token
+date_added: '2019-10-30T00:00:00.000Z'
 id: 4854
 links:
-  Chat: https://t.me/HelloLambda
-  Explorer: https://etherscan.io/token/0x142ac3bd1c94898be6e311b020b547a11dc03990
-  Explorer 2: https://ethplorer.io/address/0x142ac3bd1c94898be6e311b020b547a11dc03990
-  Learn more: /methodology/#rank
-  Source Code: https://github.com/LambdaIM
-  Twitter: https://twitter.com/Lambdaim?ref_src=coinmarketcap
-  Website: https://www.lambdastorage.com/
+  chat:
+  - https://t.me/HelloLambda
+  explorer:
+  - https://etherscan.io/token/0x142ac3bd1c94898be6e311b020b547a11dc03990
+  - https://ethplorer.io/address/0x142ac3bd1c94898be6e311b020b547a11dc03990
+  source_code:
+  - https://github.com/LambdaIM
+  twitter:
+  - https://twitter.com/Lambdaim
+  website:
+  - https://www.lambdastorage.com/
 markets:
-- exchange_name: BHEX
+- base:
+    currency_id: 4854
+    currency_symbol: LAMBS
+    currency_type: cryptocurrency
+    exchange_symbol: LAMBS
+  exchange_id: 453
+  exchange_name: BitMax
   pair: LAMBS/BTC
-  url: https://www.bhex.com/exchange/301/lambs/btc
-- exchange_name: BHEX
-  pair: LAMBS/USDT
-  url: https://www.bhex.com/exchange/301/lambs/usdt
-- exchange_name: BitMax
-  pair: LAMBS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://bitmax.io/#/trade/btc/lambs
-- exchange_name: BitMax
-  pair: LAMBS/ETH
-  url: https://bitmax.io/#/trade/eth/lambs
-- exchange_name: BitMax
+- base:
+    currency_id: 4854
+    currency_symbol: LAMBS
+    currency_type: cryptocurrency
+    exchange_symbol: LAMBS
+  exchange_id: 453
+  exchange_name: BitMax
   pair: LAMBS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
   url: https://bitmax.io/#/trade/usdt/lambs
 name: Lambda Space Token
-rank: 2087
+rank: 2377
+slug: lambda-space-token
+status: active
 symbol: LAMBS
-tags:
-- Token
-website_slug: lambda-space-token

@@ -1,24 +1,51 @@
 ---
 address: '0xa249F0E9A464b9685F66992f41e1012388e39e81'
+category: token
+date_added: '2019-10-31T00:00:00.000Z'
 id: 4634
 links:
-  Chat: https://t.me/aerum_official
-  Explorer: https://etherscan.io/token/0xa249f0e9a464b9685f66992f41e1012388e39e81
-  Explorer 2: https://ethplorer.io/address/0xa249f0e9a464b9685f66992f41e1012388e39e81
-  Learn more: /methodology/#rank
-  Source Code: https://github.com/aerumtechnology
-  Twitter: https://twitter.com/aerum_official?ref_src=coinmarketcap
-  Website: https://aerum.com
+  chat:
+  - https://t.me/aerum_official
+  explorer:
+  - https://etherscan.io/token/0xa249f0e9a464b9685f66992f41e1012388e39e81
+  - https://ethplorer.io/address/0xa249f0e9a464b9685f66992f41e1012388e39e81
+  source_code:
+  - https://github.com/aerumtechnology
+  twitter:
+  - https://twitter.com/aerum_official
+  website:
+  - https://aerum.com
 markets:
-- exchange_name: ExMarkets
+- base:
+    currency_id: 4634
+    currency_symbol: XRM
+    currency_type: cryptocurrency
+    exchange_symbol: XRM
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: XRM/ETH
-  url: https://exmarkets.com/trade/xrm-eth
-- exchange_name: LATOKEN
-  pair: XRM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://latoken.com/exchange/ETH-XRM
+- base:
+    currency_id: 4634
+    currency_symbol: XRM
+    currency_type: cryptocurrency
+    exchange_symbol: XRM
+  exchange_id: 535
+  exchange_name: ExMarkets
+  pair: XRM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://exmarkets.com/trade/xrm-eth
 name: AERUM
-rank: 2194
+rank: 2296
+slug: aerum
+status: active
 symbol: XRM
-tags:
-- Token
-website_slug: aerum

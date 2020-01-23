@@ -1,25 +1,55 @@
 ---
 address: '0xc42209aCcC14029c1012fB5680D95fBd6036E2a0'
+category: token
+date_added: '2017-10-10T00:00:00.000Z'
 id: 2036
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=2061671.0
-  Chat: https://t.me/PayPie
-  Explorer: https://etherscan.io/token/0xc42209aCcC14029c1012fB5680D95fBd6036E2a0
-  Explorer 2: https://ethplorer.io/address/0xc42209accc14029c1012fb5680d95fbd6036e2a0
-  Reddit: https://www.reddit.com/r/PayPie
-  Technical Documentation: https://www.paypie.bb/content/uploads/Whitepaper.pdf
-  Twitter: https://twitter.com/PayPiePlatform?ref_src=coinmarketcap
-  Website: https://www.paypie.bb/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=2061671.0
+  chat:
+  - https://t.me/PayPie
+  explorer:
+  - https://etherscan.io/token/0xc42209aCcC14029c1012fB5680D95fBd6036E2a0
+  - https://ethplorer.io/address/0xc42209accc14029c1012fb5680d95fbd6036e2a0
+  reddit:
+  - https://reddit.com/r/PayPie
+  technical_doc:
+  - https://www.paypie.bb/content/uploads/Whitepaper.pdf
+  twitter:
+  - https://twitter.com/PayPiePlatform
+  website:
+  - https://www.paypie.bb/
 markets:
-- exchange_name: EtherDelta (ForkDelta)
+- base:
+    currency_id: 2036
+    currency_symbol: PPP
+    currency_type: cryptocurrency
+    exchange_symbol: PPP
+  exchange_id: 363
+  exchange_name: Fatbtc
   pair: PPP/ETH
-  url: https://forkdelta.github.io/#!/trade/PPP-ETH
-- exchange_name: Fatbtc
-  pair: PPP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 2036
+    currency_symbol: PPP
+    currency_type: cryptocurrency
+    exchange_symbol: PPP
+  exchange_id: 372
+  exchange_name: EtherDelta (ForkDelta)
+  pair: PPP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://forkdelta.github.io/#!/trade/PPP-ETH
 name: PayPie
-rank: 390
+rank: 348
+slug: paypie
+status: active
 symbol: PPP
-tags:
-- Token
-website_slug: paypie

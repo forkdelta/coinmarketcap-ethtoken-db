@@ -1,24 +1,47 @@
 ---
 address: '0x174BfA6600Bf90C885c7c01C7031389ed1461Ab9'
+category: token
+date_added: '2019-06-24T00:00:00.000Z'
 id: 4048
 links:
-  Explorer: https://etherscan.io/token/0x174BfA6600Bf90C885c7c01C7031389ed1461Ab9
-  Explorer 2: https://ethplorer.io/address/0x174BfA6600Bf90C885c7c01C7031389ed1461Ab9
-  Technical Documentation: http://www.mgctoken.io/index/img/MGCTOKEN%20WHITEPAPER.pdf
-  Website: http://www.mgctoken.io/
+  explorer:
+  - https://etherscan.io/token/0x174BfA6600Bf90C885c7c01C7031389ed1461Ab9
+  - https://ethplorer.io/address/0x174BfA6600Bf90C885c7c01C7031389ed1461Ab9
+  technical_doc:
+  - http://www.mgctoken.io/index/img/MGCTOKEN%20WHITEPAPER.pdf
+  website:
+  - http://www.mgctoken.io/
 markets:
-- exchange_name: CoinBene
-  pair: MGC/USDT
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=MGCUSDT
-- exchange_name: Hotbit
-  pair: MGC/BTC
-  url: https://www.hotbit.io/exchange?symbol=MGC_BTC
-- exchange_name: Hotbit
+- base:
+    currency_id: 4048
+    currency_symbol: MGC
+    currency_type: cryptocurrency
+    exchange_symbol: MGC
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: MGC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=MGC_ETH
+- base:
+    currency_id: 4048
+    currency_symbol: MGC
+    currency_type: cryptocurrency
+    exchange_symbol: MGC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: MGC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=MGC_BTC
 name: MGC Token
-rank: 2221
+rank: 2241
+slug: mgc-token
+status: active
 symbol: MGC
-tags:
-- Token
-website_slug: mgc-token

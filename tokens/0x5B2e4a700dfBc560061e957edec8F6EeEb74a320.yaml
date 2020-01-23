@@ -1,76 +1,155 @@
 ---
 address: '0x5B2e4a700dfBc560061e957edec8F6EeEb74a320'
+category: token
+date_added: '2018-01-11T00:00:00.000Z'
 description: 'Insolar is a global technology company building public and private blockchain solutions
   on the Insolar Blockchain Platform, which is a reportedly secure, flexible, and scalable blockchain
   for business.
 
-  Insolar is a global technology company building public and private blockchain solutions on the Insolar
-  Blockchain Platform, which is a reportedly secure, flexible, and scalable blockchain for business.
 
   Insolar Blockchain Platform is a solution which streamlines interactions between companies. The platform’s
   key features, as described by the team, are unlimited scalability, security, simplified development,
   interoperability, user protection, and regulatory compliance.
 
-  Insolar Blockchain Platform is a solution which streamlines interactions between companies. The platform’s
-  key features, as described by the team, are unlimited scalability, security, simplified development,
-  interoperability, user protection, and regulatory compliance.
-
-  The Insolar team consists of 70 people (of which 45 are engineers and researchers) in 5 countries, including
-  the US and Switzerland. The team utilizes the knowledge of engineers and industry veterans to help organizations
-  explore blockchain use cases and tackle technological, operational, and strategic risks.
 
   The Insolar team consists of 70 people (of which 45 are engineers and researchers) in 5 countries, including
   the US and Switzerland. The team utilizes the knowledge of engineers and industry veterans to help organizations
   explore blockchain use cases and tackle technological, operational, and strategic risks.'
 id: 2369
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=2208591.0
-  Chat: https://t.me/insolar
-  Chat 2: https://t.me/InsolarAnnouncements
-  Explorer: https://etherscan.io/token/0x5b2e4a700dfbc560061e957edec8f6eeeb74a320
-  Explorer 2: https://ethplorer.io/address/0x5b2e4a700dfbc560061e957edec8f6eeeb74a320
-  Message Board: https://medium.com/insolar
-  Reddit: https://www.reddit.com/r/insolar
-  Source Code: https://github.com/insolar/insolar
-  Twitter: https://twitter.com/insolario?ref_src=coinmarketcap
-  Website: https://insolar.io/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=2208591.0
+  chat:
+  - https://t.me/insolar
+  - https://t.me/InsolarAnnouncements
+  explorer:
+  - https://etherscan.io/token/0x5b2e4a700dfbc560061e957edec8f6eeeb74a320
+  - https://ethplorer.io/address/0x5b2e4a700dfbc560061e957edec8f6eeeb74a320
+  message_board:
+  - https://medium.com/insolar
+  reddit:
+  - https://reddit.com/r/insolar
+  source_code:
+  - https://github.com/insolar/insolar
+  twitter:
+  - https://twitter.com/insolario
+  website:
+  - https://insolar.io/
 markets:
-- exchange_name: Binance
+- base:
+    currency_id: 2369
+    currency_symbol: INS
+    currency_type: cryptocurrency
+    exchange_symbol: INS
+  exchange_id: 270
+  exchange_name: Binance
   pair: INS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://www.binance.com/en/trade/INS_BTC
-- exchange_name: Binance
-  pair: INS/ETH
-  url: https://www.binance.com/en/trade/INS_ETH
-- exchange_name: Bithumb Global
-  pair: INS/USDT
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=INS_USDT
-- exchange_name: Bithumb
+- base:
+    currency_id: 2369
+    currency_symbol: INS
+    currency_type: cryptocurrency
+    exchange_symbol: INS
+  exchange_id: 200
+  exchange_name: Bithumb
   pair: INS/KRW
-  url: https://www.bithumb.com/
-- exchange_name: IDEX
-  pair: INS/ETH
-  url: https://idex.market/eth/ins
-- exchange_name: KuCoin
-  pair: INS/BTC
-  url: https://www.kucoin.com/trade/INS-BTC
-- exchange_name: KuCoin
-  pair: INS/ETH
-  url: https://www.kucoin.com/trade/INS-ETH
-- exchange_name: Mercatox
-  pair: INS/BTC
-  url: https://mercatox.com/exchange/INS/BTC
-- exchange_name: OKEx
-  pair: INS/BTC
-  url: https://www.okex.com/market?product=ins_btc
-- exchange_name: OKEx
-  pair: INS/ETH
-  url: https://www.okex.com/market?product=ins_eth
-- exchange_name: OKEx
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/INSKRW
+- base:
+    currency_id: 2369
+    currency_symbol: INS
+    currency_type: cryptocurrency
+    exchange_symbol: INS
+  exchange_id: 489
+  exchange_name: Bithumb Global
   pair: INS/USDT
-  url: https://www.okex.com/market?product=ins_usdt
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=INS_USDT
+- base:
+    currency_id: 2369
+    currency_symbol: INS
+    currency_type: cryptocurrency
+    exchange_symbol: INS
+  exchange_id: 270
+  exchange_name: Binance
+  pair: INS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.binance.com/en/trade/INS_ETH
+- base:
+    currency_id: 2369
+    currency_symbol: INS
+    currency_type: cryptocurrency
+    exchange_symbol: INS
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: INS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/INS-BTC
+- base:
+    currency_id: 2369
+    currency_symbol: INS
+    currency_type: cryptocurrency
+    exchange_symbol: INS
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: INS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/INS/BTC
+- base:
+    currency_id: 2369
+    currency_symbol: INS
+    currency_type: cryptocurrency
+    exchange_symbol: INS
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: INS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.kucoin.com/trade/INS-ETH
+- base:
+    currency_id: 2369
+    currency_symbol: INS
+    currency_type: cryptocurrency
+    exchange_symbol: INS
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: INS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/ins
 name: Insolar
-rank: 400
+rank: 428
+slug: insolar
+status: active
 symbol: INS
-tags:
-- Token
-website_slug: insolar

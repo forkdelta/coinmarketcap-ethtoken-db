@@ -1,68 +1,227 @@
 ---
 address: '0x80fB784B7eD66730e8b1DBd9820aFD29931aab03'
+category: token
+date_added: '2017-11-30T00:00:00.000Z'
 id: 2239
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=2090735.0
-  Chat: https://t.me/ETHLend
-  Chat 2: https://discord.gg/CvKUrqM
-  Explorer: https://etherscan.io/token/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03
-  Explorer 2: https://ethplorer.io/address/0x80fb784b7ed66730e8b1dbd9820afd29931aab03
-  Message Board: https://medium.com/aave
-  Reddit: https://www.reddit.com/r/ETHlend
-  Source Code: https://github.com/aave
-  Technical Documentation: https://github.com/aave/dlp-docs-abi
-  Twitter: https://twitter.com/AaveAave?ref_src=coinmarketcap
-  Website: https://aave.com/
-  Website 2: https://ethlend.io
+  announcement:
+  - https://bitcointalk.org/index.php?topic=2090735.0
+  chat:
+  - https://aave.com/discord
+  explorer:
+  - https://etherscan.io/token/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03
+  - https://ethplorer.io/address/0x80fb784b7ed66730e8b1dbd9820afd29931aab03
+  message_board:
+  - https://medium.com/aave
+  reddit:
+  - https://reddit.com/r/Aave_Official
+  source_code:
+  - https://github.com/aave
+  technical_doc:
+  - https://github.com/aave/aave-protocol/blob/master/docs/Aave_Protocol_Whitepaper_v1_0.pdf
+  twitter:
+  - https://twitter.com/AaveAave
+  website:
+  - https://aave.com/
 markets:
-- exchange_name: ABCC
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 270
+  exchange_name: Binance
   pair: LEND/BTC
-  url: https://abcc.com/markets/lendbtc
-- exchange_name: ABCC
-  pair: LEND/ETH
-  url: https://abcc.com/markets/lendeth
-- exchange_name: Alterdice
-  pair: LEND/BTC
-  url: https://alterdice.com/trading/LENDBTC
-- exchange_name: Alterdice
-  pair: LEND/ETH
-  url: https://alterdice.com/trading/LENDETH
-- exchange_name: Bibox
-  pair: LEND/BTC
-  url: https://www.bibox.com/exchange?coinPair=LEND_BTC
-- exchange_name: Bibox
-  pair: LEND/ETH
-  url: https://www.bibox.com/exchange?coinPair=LEND_ETH
-- exchange_name: Binance
-  pair: LEND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://www.binance.com/en/trade/LEND_BTC
-- exchange_name: Binance
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 270
+  exchange_name: Binance
   pair: LEND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://www.binance.com/en/trade/LEND_ETH
-- exchange_name: Dex-Trade
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 481
+  exchange_name: Alterdice
   pair: LEND/BTC
-  url: https://dex-trade.com/en?currencyIn=LEND&currencyTo=BTC
-- exchange_name: Dex-Trade
-  pair: LEND/ETH
-  url: https://dex-trade.com/en?currencyIn=LEND&currencyTo=ETH
-- exchange_name: Gate.io
-  pair: LEND/ETH
-  url: https://gate.io/trade/lend_eth
-- exchange_name: Gate.io
-  pair: LEND/USDT
-  url: https://gate.io/trade/lend_usdt
-- exchange_name: HitBTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://alterdice.com/trading/LENDBTC
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 415
+  exchange_name: Bilaxy
   pair: LEND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bilaxy.com/trade/LEND_BTC
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: LEND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://hitbtc.com/LEND-to-BTC
-- exchange_name: HitBTC
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: LEND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bibox.com/exchange?coinPair=LEND_BTC
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: LEND/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/lend_usdt
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 302
+  exchange_name: Gate.io
   pair: LEND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/lend_eth
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: LEND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://dex-trade.com/en?currencyIn=LEND&currencyTo=BTC
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: LEND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bibox.com/exchange?coinPair=LEND_ETH
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: LEND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://alterdice.com/trading/LENDETH
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: LEND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://dex-trade.com/en?currencyIn=LEND&currencyTo=ETH
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: LEND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://hitbtc.com/LEND-to-ETH
-- exchange_name: IDEX
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 310
+  exchange_name: IDEX
   pair: LEND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://idex.market/eth/lend
 name: Aave
-rank: 195
+rank: 125
+slug: aave
+status: active
 symbol: LEND
-tags:
-- Token
-website_slug: aave

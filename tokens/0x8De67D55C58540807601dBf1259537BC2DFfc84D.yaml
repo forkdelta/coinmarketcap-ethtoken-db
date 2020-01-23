@@ -1,27 +1,66 @@
 ---
 address: '0x8De67D55C58540807601dBf1259537BC2DFfc84D'
+category: token
+date_added: '2019-01-07T00:00:00.000Z'
 id: 3671
 links:
-  Chat: https://t.me/almeelaeng
-  Chat 2: https://t.me/almeeChannel
-  Explorer: https://etherscan.io/token/0x8de67d55c58540807601dbf1259537bc2dffc84d
-  Explorer 2: https://ethplorer.io/address/0x8de67d55c58540807601dbf1259537bc2dffc84d
-  Technical Documentation: https://www.almeela.com/almeela.pdf
-  Twitter: https://twitter.com/almeelatoken?ref_src=coinmarketcap
-  Website: https://www.almeela.com
+  chat:
+  - https://t.me/almeelaeng
+  - https://t.me/almeeChannel
+  explorer:
+  - https://etherscan.io/token/0x8de67d55c58540807601dbf1259537bc2dffc84d
+  - https://ethplorer.io/address/0x8de67d55c58540807601dbf1259537bc2dffc84d
+  technical_doc:
+  - https://www.almeela.com/almeela.pdf
+  twitter:
+  - https://twitter.com/almeelatoken
+  website:
+  - https://www.almeela.com
 markets:
-- exchange_name: IDAX
-  pair: KZE/ETH
-  url: https://www.idax.mn/#/exchange?pairname=KZE_ETH
-- exchange_name: IDAX
-  pair: KZE/USDT
-  url: https://www.idax.mn/#/exchange?pairname=KZE_USDT
-- exchange_name: Vebitcoin
+- base:
+    currency_id: 3671
+    currency_symbol: KZE
+    currency_type: cryptocurrency
+    exchange_symbol: KZE
+  exchange_id: 355
+  exchange_name: Vebitcoin
   pair: KZE/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
   url: https://www.vebitcoin.com/
+- base:
+    currency_id: 3671
+    currency_symbol: KZE
+    currency_type: cryptocurrency
+    exchange_symbol: KZE
+  exchange_id: 368
+  exchange_name: IDAX
+  pair: KZE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.idax.mn/#/exchange?pairname=KZE_ETH
+- base:
+    currency_id: 3671
+    currency_symbol: KZE
+    currency_type: cryptocurrency
+    exchange_symbol: KZE
+  exchange_id: 368
+  exchange_name: IDAX
+  pair: KZE/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.idax.mn/#/exchange?pairname=KZE_USDT
 name: Almeela
-rank: 1181
+rank: 1147
+slug: almeela
+status: active
 symbol: KZE
-tags:
-- Token
-website_slug: almeela

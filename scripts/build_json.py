@@ -2,13 +2,13 @@ from glob import glob
 import json
 import yaml
 
-from helpers import read_entry
+from entry_io import read_entry
 
-INDEX_KEYS = ["id", "address", "name", "symbol", "website_slug"]
+INDEX_KEYS = ["id", "address", "name", "symbol", "slug", "status", "rank"]
 
 
 def abridged_entry(entry):
-    return {k: entry[k] for k in INDEX_KEYS}
+    return {k: entry.get(k) for k in INDEX_KEYS}
 
 
 if __name__ == "__main__":

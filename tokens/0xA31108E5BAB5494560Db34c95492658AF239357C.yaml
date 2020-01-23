@@ -1,22 +1,35 @@
 ---
 address: '0xA31108E5BAB5494560Db34c95492658AF239357C'
+category: token
+date_added: '2018-08-02T00:00:00.000Z'
 id: 3054
 links:
-  Chat: https://t.me/DACSEEofficial
-  Explorer: https://etherscan.io/token/0xa31108e5bab5494560db34c95492658af239357c
-  Explorer 2: https://ethplorer.io/address/0xa31108e5bab5494560db34c95492658af239357c
-  Twitter: https://twitter.com/DACSEEOFFICIAL?ref_src=coinmarketcap
-  Website: https://dacsee.io/#/
+  chat:
+  - https://t.me/DACSEEofficial
+  explorer:
+  - https://etherscan.io/token/0xa31108e5bab5494560db34c95492658af239357c
+  - https://ethplorer.io/address/0xa31108e5bab5494560db34c95492658af239357c
+  twitter:
+  - https://twitter.com/DACSEEOFFICIAL
+  website:
+  - https://dacsee.io/#/
 markets:
-- exchange_name: Liquid
+- base:
+    currency_id: 3054
+    currency_symbol: DACS
+    currency_type: cryptocurrency
+    exchange_symbol: DACS
+  exchange_id: 112
+  exchange_name: Liquid
   pair: DACS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://app.liquid.com/exchange/DACSBTC
-- exchange_name: Liquid
-  pair: DACS/ETH
-  url: https://app.liquid.com/exchange/DACSETH
 name: DACSEE
-rank: 706
+rank: 744
+slug: dacsee
+status: active
 symbol: DACS
-tags:
-- Token
-website_slug: dacsee

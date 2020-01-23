@@ -1,66 +1,150 @@
 ---
 address: '0xa3d58c4E56fedCae3a7c43A725aeE9A71F0ece4e'
-description: 'Metronome aims to optimize for self-governance, reliability, and portability. Founded by
-  a number of veterans in the space (e.g. Jeff Garzik, Matthew Roszak), Metronome is founded on three
-  key design principles:
-
-  Metronome aims to optimize for self-governance, reliability, and portability. Founded by a number of
-  veterans in the space (e.g. Jeff Garzik, Matthew Roszak), Metronome is founded on three key design principles:
-
-  <ul></ul>
-
-  <li>Self-governance with no undue influence from founders after initial launch and public access — contract
-  governance starts at launch.</li>
-
-  <li>Reliability and predictability where issuance and supply are immutable</li>
-
-  <li>Portability to enable maximum decentralization, even across different blockchains. The first ''chainhop''
-  took place in summer 2019, between Ethereum and Ethereum Classic</li>'
+category: token
+date_added: '2018-06-26T00:00:00.000Z'
+description: "Metronome aims to optimize for self-governance, reliability, and portability. Founded by\
+  \ a number of veterans in the space (e.g. Jeff Garzik, Matthew Roszak), Metronome is founded on three\
+  \ key design principles:\n\n- Self-governance with no undue influence from founders after initial launch\
+  \ and public access — contract governance starts at launch.\n- Reliability and predictability where\
+  \ issuance and supply are immutable\n- Portability to enable maximum decentralization, even across different\
+  \ blockchains. The first 'chainhop' took place in summer 2019, between Ethereum and Ethereum Classic\n\
+  \nAdditionally, Metronome reportedly offers advanced payment features as programmable money.\n\n- Mass\
+  \ pay: The ability to send MET to multiple addresses in a single transaction to save on transaction\
+  \ fees. \n- Subscriptions: The ability to authorize a set amount of MET to move between two addresses\
+  \ on a recurring basis."
 id: 2873
 links:
-  Chat: https://t.me/metronometoken
-  Explorer: https://etherscan.io/token/0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e
-  Explorer 2: https://ethplorer.io/address/0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e
-  Explorer 3: https://blockscout.com/etc/mainnet/address/0xa4d3a7b00056cc5d8206b3b2983bfe0c107d90da/transactions
-  Message Board: https://medium.com/@MetronomeToken
-  Reddit: https://www.reddit.com/r/metronometoken
-  Source Code: https://github.com/autonomoussoftware
-  Twitter: https://twitter.com/MET_Token?ref_src=coinmarketcap
-  Website: https://www.metronome.io/
+  chat:
+  - https://t.me/metronometoken
+  explorer:
+  - https://etherscan.io/token/0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e
+  - https://ethplorer.io/address/0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e
+  - https://blockscout.com/etc/mainnet/address/0xa4d3a7b00056cc5d8206b3b2983bfe0c107d90da/transactions
+  message_board:
+  - https://medium.com/@MetronomeToken
+  reddit:
+  - https://reddit.com/r/metronometoken
+  source_code:
+  - https://github.com/autonomoussoftware
+  twitter:
+  - https://twitter.com/MET_Token
+  website:
+  - https://www.metronome.io/
 markets:
-- exchange_name: Bilaxy
+- base:
+    currency_id: 2873
+    currency_symbol: MET
+    currency_type: cryptocurrency
+    exchange_symbol: MET
+  exchange_id: 415
+  exchange_name: Bilaxy
   pair: MET/ETH
-  url: https://bilaxy.com/exchange
-- exchange_name: Bittrex
-  pair: MET/BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-MET
-- exchange_name: DDEX
-  pair: MET/WETH
-  url: https://ddex.io/trade/MET-WETH
-- exchange_name: Gate.io
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/MET_ETH
+- base:
+    currency_id: 2873
+    currency_symbol: MET
+    currency_type: cryptocurrency
+    exchange_symbol: MET
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: MET/ETH
-  url: https://gate.io/trade/met_eth
-- exchange_name: Gate.io
-  pair: MET/USDT
-  url: https://gate.io/trade/met_usdt
-- exchange_name: Hotbit
-  pair: MET/BTC
-  url: https://www.hotbit.io/exchange?symbol=MET_BTC
-- exchange_name: Hotbit
-  pair: MET/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=MET_ETH
-- exchange_name: IDEX
-  pair: MET/ETH
-  url: https://idex.market/eth/met
-- exchange_name: YoBit
+- base:
+    currency_id: 2873
+    currency_symbol: MET
+    currency_type: cryptocurrency
+    exchange_symbol: MET
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: MET/BTC
-  url: https://yobit.net/en/trade/MET/BTC
-- exchange_name: YoBit
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=MET_BTC
+- base:
+    currency_id: 2873
+    currency_symbol: MET
+    currency_type: cryptocurrency
+    exchange_symbol: MET
+  exchange_id: 310
+  exchange_name: IDEX
   pair: MET/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/met
+- base:
+    currency_id: 2873
+    currency_symbol: MET
+    currency_type: cryptocurrency
+    exchange_symbol: MET
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: MET/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/met_eth
+- base:
+    currency_id: 2873
+    currency_symbol: MET
+    currency_type: cryptocurrency
+    exchange_symbol: MET
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: MET/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/met_usdt
+- base:
+    currency_id: 2873
+    currency_symbol: MET
+    currency_type: cryptocurrency
+    exchange_symbol: MET
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: MET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/MET/BTC
+- base:
+    currency_id: 2873
+    currency_symbol: MET
+    currency_type: cryptocurrency
+    exchange_symbol: MET
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: MET/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://yobit.net/en/trade/MET/ETH
 name: Metronome
-rank: 445
+rank: 465
+slug: metronome
+status: active
 symbol: MET
-tags:
-- Token
-website_slug: metronome

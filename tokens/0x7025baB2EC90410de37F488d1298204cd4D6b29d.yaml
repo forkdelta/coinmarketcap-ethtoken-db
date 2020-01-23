@@ -1,25 +1,53 @@
 ---
 address: '0x7025baB2EC90410de37F488d1298204cd4D6b29d'
+category: token
+date_added: '2018-08-30T00:00:00.000Z'
 id: 3234
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=3432618.0
-  Chat: https://t.me/xriba
-  Explorer: https://etherscan.io/token/0x7025bab2ec90410de37f488d1298204cd4d6b29d
-  Explorer 2: https://ethplorer.io/address/0x7025bab2ec90410de37f488d1298204cd4d6b29d
-  Source Code: https://github.com/Xriba/
-  Twitter: https://twitter.com/xribapay?ref_src=coinmarketcap
-  Website: https://xriba.com/
-  Website 2: https://www.xribapay.com/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=3432618.0
+  chat:
+  - https://t.me/xriba
+  explorer:
+  - https://etherscan.io/token/0x7025bab2ec90410de37f488d1298204cd4d6b29d
+  - https://ethplorer.io/address/0x7025bab2ec90410de37f488d1298204cd4d6b29d
+  source_code:
+  - https://github.com/Xriba/
+  twitter:
+  - https://twitter.com/xribapay
+  website:
+  - https://xriba.com/
 markets:
-- exchange_name: Bitfinex
-  pair: XRA/ETH
-  url: https://www.bitfinex.com/t/XRA:ETH
-- exchange_name: Bitfinex
+- base:
+    currency_id: 3234
+    currency_symbol: XRA
+    currency_type: cryptocurrency
+    exchange_symbol: XRA
+  exchange_id: 37
+  exchange_name: Bitfinex
   pair: XRA/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
   url: https://www.bitfinex.com/t/XRA:USD
+- base:
+    currency_id: 3234
+    currency_symbol: XRA
+    currency_type: cryptocurrency
+    exchange_symbol: XRA
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: XRA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitfinex.com/t/XRA:ETH
 name: Xriba
-rank: 986
+rank: 1004
+slug: xriba
+status: active
 symbol: XRA
-tags:
-- Token
-website_slug: xriba

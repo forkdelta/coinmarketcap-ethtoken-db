@@ -1,60 +1,176 @@
 ---
 address: '0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9'
+category: token
+date_added: '2019-08-26T00:00:00.000Z'
 description: "The Swipe Wallet has been designed to require Swipe Tokens SXP to perform all functions\
   \ of the Wallet. Users on the Swipe Wallet will be able to buy, sell, and pay with their cryptocurrencies\
   \ to fiat directly within the wallet application as well as purchase Gift Cards and make instant exchanges\
-  \ between all supported assets. \nThe Swipe Wallet has been designed to require Swipe Tokens SXP to\
-  \ perform all functions of the Wallet. Users on the Swipe Wallet will be able to buy, sell, and pay\
-  \ with their cryptocurrencies to fiat directly within the wallet application as well as purchase Gift\
-  \ Cards and make instant exchanges between all supported assets. \nUsers will be able to use their SXP\
-  \ tokens at launch with tiered benefits based on the SXP balance in the Wallet Contract. All Swipe Wallets\
-  \ require a 1 SXP deposit to activate and utilize on-chain functions based on an audited Smart Wallet-Contract\
-  \ to perform its duties. The protocol has been designed and built on Ethereum.\nUsers will be able to\
-  \ use their SXP tokens at launch with tiered benefits based on the SXP balance in the Wallet Contract.\
-  \ All Swipe Wallets require a 1 SXP deposit to activate and utilize on-chain functions based on an audited\
-  \ Smart Wallet-Contract to perform its duties. The protocol has been designed and built on Ethereum."
+  \ between all supported assets. \n\nUsers will be able to use their SXP tokens at launch with tiered\
+  \ benefits based on the SXP balance in the Wallet Contract. All Swipe Wallets require a 1 SXP deposit\
+  \ to activate and utilize on-chain functions based on an audited Smart Wallet-Contract to perform its\
+  \ duties. The protocol has been designed and built on Ethereum."
 id: 4279
 links:
-  Chat: Https://t.me/SwipeWallet
-  Explorer: https://etherscan.io/token/0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9
-  Explorer 2: https://ethplorer.io/address/0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9
-  Message Board: https://blog.swipe.io/
-  Reddit: https://www.reddit.com/r/Swipe_io
-  Source Code: https://github.com/SwipeWallet
-  Technical Documentation: https://swipe.io/Whitepaper.pdf
-  Twitter: https://twitter.com/SwipeWallet?ref_src=coinmarketcap
-  Website: https://swipe.io/token
+  chat:
+  - Https://t.me/SwipeWallet
+  explorer:
+  - https://etherscan.io/token/0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9
+  - https://ethplorer.io/address/0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9
+  message_board:
+  - https://medium.com/SwipeWallet
+  reddit:
+  - https://reddit.com/r/Swipe_io
+  source_code:
+  - https://github.com/SwipeWallet
+  technical_doc:
+  - https://swipe.io/Whitepaper.pdf
+  twitter:
+  - https://twitter.com/SwipeWallet
+  website:
+  - https://swipe.io/token
 markets:
-- exchange_name: Bilaxy
-  pair: SXP/BTC
-  url: https://bilaxy.com/exchange
-- exchange_name: Bilaxy
-  pair: SXP/ETH
-  url: https://bilaxy.com/exchange
-- exchange_name: Bilaxy
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 415
+  exchange_name: Bilaxy
   pair: SXP/USDT
-  url: https://bilaxy.com/exchange
-- exchange_name: Bithumb Global
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bilaxy.com/trade/SXP_USDT
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 415
+  exchange_name: Bilaxy
   pair: SXP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bilaxy.com/trade/SXP_BTC
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: SXP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=SXP_BTC
-- exchange_name: Bithumb Global
-  pair: SXP/USDT
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=SXP_USDT
-- exchange_name: CoinTiger
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: SXP/BTC
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=sxp_btc
-- exchange_name: CoinTiger
-  pair: SXP/USDT
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=sxp_usdt
-- exchange_name: KuCoin
-  pair: SXP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://www.kucoin.com/trade/SXP-BTC
-- exchange_name: KuCoin
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 391
+  exchange_name: CoinTiger
   pair: SXP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=sxp_usdt
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 391
+  exchange_name: CoinTiger
+  pair: SXP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=sxp_btc
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: SXP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
   url: https://www.kucoin.com/trade/SXP-USDT
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: SXP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=SXP_USDT
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: SXP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/SXP_ETH
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: SXP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/sxp
 name: Swipe
-rank: 74
+rank: 51
+slug: swipe
+status: active
 symbol: SXP
-tags:
-- Token
-website_slug: swipe

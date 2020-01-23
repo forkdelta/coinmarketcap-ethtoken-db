@@ -1,44 +1,155 @@
 ---
 address: '0x543Ff227F64Aa17eA132Bf9886cAb5DB55DCAddf'
+category: token
+date_added: '2018-05-10T00:00:00.000Z'
 id: 2726
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=3334795.0
-  Chat: https://t.me/daostackcommunity
-  Explorer: https://etherscan.io/token/0x543ff227f64aa17ea132bf9886cab5db55dcaddf
-  Explorer 2: https://ethplorer.io/address/0x543ff227f64aa17ea132bf9886cab5db55dcaddf
-  Reddit: https://www.reddit.com/r/daostack
-  Source Code: https://github.com/daostack
-  Technical Documentation: https://daostack.io/wp/DAOstack-White-Paper-en.pdf
-  Twitter: https://twitter.com/daostack?ref_src=coinmarketcap
-  Website: https://daostack.io
+  announcement:
+  - https://bitcointalk.org/index.php?topic=3334795.0
+  chat:
+  - https://t.me/daostackcommunity
+  explorer:
+  - https://etherscan.io/token/0x543ff227f64aa17ea132bf9886cab5db55dcaddf
+  - https://ethplorer.io/address/0x543ff227f64aa17ea132bf9886cab5db55dcaddf
+  reddit:
+  - https://reddit.com/r/daostack
+  source_code:
+  - https://github.com/daostack
+  technical_doc:
+  - https://daostack.io/wp/DAOstack-White-Paper-en.pdf
+  twitter:
+  - https://twitter.com/daostack
+  website:
+  - https://daostack.io
 markets:
-- exchange_name: Bitfinex
+- base:
+    currency_id: 2726
+    currency_symbol: GEN
+    currency_type: cryptocurrency
+    exchange_symbol: GEN
+  exchange_id: 404
+  exchange_name: Kyber Network
   pair: GEN/ETH
-  url: https://www.bitfinex.com/t/GEN:ETH
-- exchange_name: Bitfinex
-  pair: GEN/USD
-  url: https://www.bitfinex.com/t/GEN:USD
-- exchange_name: Hotbit
-  pair: GEN/BTC
-  url: https://www.hotbit.io/exchange?symbol=GEN_BTC
-- exchange_name: Hotbit
-  pair: GEN/ETH
-  url: https://www.hotbit.io/exchange?symbol=GEN_ETH
-- exchange_name: IDEX
-  pair: GEN/ETH
-  url: https://idex.market/eth/gen
-- exchange_name: Kyber Network
-  pair: GEN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://kyberswap.com/swap/gen-eth
-- exchange_name: Liquid
-  pair: GEN/BTC
-  url: https://app.liquid.com/exchange/GENBTC
-- exchange_name: Liquid
+- base:
+    currency_id: 2726
+    currency_symbol: GEN
+    currency_type: cryptocurrency
+    exchange_symbol: GEN
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: GEN/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/GEN:USD
+- base:
+    currency_id: 2726
+    currency_symbol: GEN
+    currency_type: cryptocurrency
+    exchange_symbol: GEN
+  exchange_id: 37
+  exchange_name: Bitfinex
   pair: GEN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitfinex.com/t/GEN:ETH
+- base:
+    currency_id: 2726
+    currency_symbol: GEN
+    currency_type: cryptocurrency
+    exchange_symbol: GEN
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: GEN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/gen
+- base:
+    currency_id: 2726
+    currency_symbol: GEN
+    currency_type: cryptocurrency
+    exchange_symbol: GEN
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: GEN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=GEN_ETH
+- base:
+    currency_id: 2726
+    currency_symbol: GEN
+    currency_type: cryptocurrency
+    exchange_symbol: GEN
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: GEN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=GEN_BTC
+- base:
+    currency_id: 2726
+    currency_symbol: GEN
+    currency_type: cryptocurrency
+    exchange_symbol: GEN
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: GEN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://app.liquid.com/exchange/GENETH
+- base:
+    currency_id: 2726
+    currency_symbol: GEN
+    currency_type: cryptocurrency
+    exchange_symbol: GEN
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: GEN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/GENBTC
+- base:
+    currency_id: 2726
+    currency_symbol: GEN
+    currency_type: cryptocurrency
+    exchange_symbol: GEN
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: GEN/QASH
+  quote:
+    currency_id: 2213
+    currency_symbol: QASH
+    currency_type: cryptocurrency
+    exchange_symbol: QASH
+  url: https://app.liquid.com/exchange/GENQASH
 name: DAOstack
-rank: 574
+rank: 399
+slug: daostack
+status: active
 symbol: GEN
-tags:
-- Token
-website_slug: daostack

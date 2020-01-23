@@ -1,39 +1,109 @@
 ---
 address: '0xf8e386EDa857484f5a12e4B5DAa9984E06E73705'
+category: token
+date_added: '2017-09-19T00:00:00.000Z'
 id: 1967
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=2047503.0
-  Explorer: https://etherscan.io/token/0xf8e386eda857484f5a12e4b5daa9984e06e73705
-  Explorer 2: https://ethplorer.io/address/0xf8e386eda857484f5a12e4b5daa9984e06e73705
-  Reddit: https://www.reddit.com/r/indorse
-  Technical Documentation: https://indorse.io/static/media/Indorse-Whitepaper-v1.1.a733cc8e.pdf
-  Twitter: https://twitter.com/joinindorse?ref_src=coinmarketcap
-  Website: https://indorse.io/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=2047503.0
+  explorer:
+  - https://etherscan.io/token/0xf8e386eda857484f5a12e4b5daa9984e06e73705
+  - https://ethplorer.io/address/0xf8e386eda857484f5a12e4b5daa9984e06e73705
+  reddit:
+  - https://reddit.com/r/indorse
+  technical_doc:
+  - https://indorse.io/static/media/Indorse-Whitepaper-v1.1.a733cc8e.pdf
+  twitter:
+  - https://twitter.com/joinindorse
+  website:
+  - https://indorse.io/
 markets:
-- exchange_name: Bancor Network
-  pair: IND/BNT
-  url: https://www.bancor.network/token/IND
-- exchange_name: COSS
+- base:
+    currency_id: 1967
+    currency_symbol: IND
+    currency_type: cryptocurrency
+    exchange_symbol: IND
+  exchange_id: 100
+  exchange_name: YoBit
   pair: IND/BTC
-  url: https://coss.io/c/trade?s=IND_BTC
-- exchange_name: COSS
-  pair: IND/ETH
-  url: https://coss.io/c/trade?s=IND_ETH
-- exchange_name: COSS
-  pair: IND/USDT
-  url: https://coss.io/c/trade?s=IND_USDT
-- exchange_name: DDEX
-  pair: IND/WETH
-  url: https://ddex.io/trade/IND-WETH
-- exchange_name: HitBTC
-  pair: IND/ETH
-  url: https://hitbtc.com/IND-to-ETH
-- exchange_name: YoBit
-  pair: IND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://yobit.net/en/trade/IND/BTC
+- base:
+    currency_id: 1967
+    currency_symbol: IND
+    currency_type: cryptocurrency
+    exchange_symbol: IND
+  exchange_id: 242
+  exchange_name: COSS
+  pair: IND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coss.io/c/trade?s=IND_BTC
+- base:
+    currency_id: 1967
+    currency_symbol: IND
+    currency_type: cryptocurrency
+    exchange_symbol: IND
+  exchange_id: 242
+  exchange_name: COSS
+  pair: IND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coss.io/c/trade?s=IND_ETH
+- base:
+    currency_id: 1967
+    currency_symbol: IND
+    currency_type: cryptocurrency
+    exchange_symbol: IND
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: IND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/IND-to-ETH
+- base:
+    currency_id: 1967
+    currency_symbol: IND
+    currency_type: cryptocurrency
+    exchange_symbol: IND
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: IND/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/IND
+- base:
+    currency_id: 1967
+    currency_symbol: IND
+    currency_type: cryptocurrency
+    exchange_symbol: IND
+  exchange_id: 242
+  exchange_name: COSS
+  pair: IND/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coss.io/c/trade?s=IND_USDT
 name: Indorse Token
-rank: 1337
+rank: 1486
+slug: indorse-token
+status: active
 symbol: IND
-tags:
-- Token
-website_slug: indorse-token

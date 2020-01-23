@@ -1,51 +1,94 @@
 ---
 address: '0x58c69ed6cd6887c0225D1FcCEcC055127843c69b'
+category: token
+date_added: '2018-01-29T00:00:00.000Z'
 description: 'Qitmeer is a public chain based on Block DAG which is dedicated to serving the ecosystem
   of Inclusive finance and Islamic Finance.
 
-  Qitmeer is a public chain based on Block DAG which is dedicated to serving the ecosystem of Inclusive
-  finance and Islamic Finance.
 
   In contrast to the competition model, BlockDAG’s collaboration model in the mining achieves a desirable
   balance of typical blockchain metrics among the security, openness, fairness and scalability.
 
-  In contrast to the competition model, BlockDAG’s collaboration model in the mining achieves a desirable
-  balance of typical blockchain metrics among the security, openness, fairness and scalability.
 
   Qitmeer adopts a classic POW consensus and UTXO data model and designs a unique asset issuing mechanism
   which requires the reserve of base currency, which is in line with core ethical financial values.
 
-  Qitmeer adopts a classic POW consensus and UTXO data model and designs a unique asset issuing mechanism
-  which requires the reserve of base currency, which is in line with core ethical financial values.
-
-  HLC is ERC20 Token of Qitmeer Network.
 
   HLC is ERC20 Token of Qitmeer Network.'
 id: 2480
 links:
-  Chat: https://t.me/HalalChainGroup
-  Explorer: https://etherscan.io/token/0x58c69ed6cd6887c0225d1fccecc055127843c69b
-  Explorer 2: https://ethplorer.io/address/0x58c69ed6cd6887c0225d1fccecc055127843c69b
-  Reddit: https://www.reddit.com/r/halalchain
-  Source Code: https://github.com/halalchain
-  Technical Documentation: https://github.com/HalalChain/whitepaper/releases
-  Website: https://www.qitmeer.io/
+  chat:
+  - https://t.me/HalalChainGroup
+  explorer:
+  - https://etherscan.io/token/0x58c69ed6cd6887c0225d1fccecc055127843c69b
+  - https://ethplorer.io/address/0x58c69ed6cd6887c0225d1fccecc055127843c69b
+  reddit:
+  - https://reddit.com/r/halalchain
+  source_code:
+  - https://github.com/halalchain
+  technical_doc:
+  - https://github.com/HalalChain/whitepaper/releases
+  website:
+  - https://www.qitmeer.io/
 markets:
-- exchange_name: Allcoin
-  pair: HLC/ETH
-  url: https://www.allcoin.com/trade/hlc2eth
-- exchange_name: CoinBene
+- base:
+    currency_id: 2480
+    currency_symbol: HLC
+    currency_type: cryptocurrency
+    exchange_symbol: HLC
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: HLC/QC
+  quote:
+    currency_id: 2319
+    currency_symbol: QC
+    currency_type: cryptocurrency
+    exchange_symbol: QC
+  url: https://trans.zb.com/hlcqc
+- base:
+    currency_id: 2480
+    currency_symbol: HLC
+    currency_type: cryptocurrency
+    exchange_symbol: HLC
+  exchange_id: 328
+  exchange_name: CoinEgg
   pair: HLC/BTC
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=HLCBTC
-- exchange_name: CoinEgg
-  pair: HLC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://www.coinegg.com/btc/hlc/
-- exchange_name: ZB.COM
-  pair: HLC/USDT
-  url: https://trans.zb.com/hlcusdt
+- base:
+    currency_id: 2480
+    currency_symbol: HLC
+    currency_type: cryptocurrency
+    exchange_symbol: HLC
+  exchange_id: 196
+  exchange_name: Allcoin
+  pair: HLC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.allcoin.com/trade/hlc2eth
+- base:
+    currency_id: 2480
+    currency_symbol: HLC
+    currency_type: cryptocurrency
+    exchange_symbol: HLC
+  exchange_id: 196
+  exchange_name: Allcoin
+  pair: HLC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.allcoin.com/trade/hlc2btc
 name: Qitmeer
-rank: 658
+rank: 835
+slug: qitmeer
+status: active
 symbol: HLC
-tags:
-- Token
-website_slug: qitmeer
