@@ -1,63 +1,177 @@
 ---
 address: '0x3DB6Ba6ab6F95efed1a6E794caD492fAAabF294D'
-description: 'LTO Network bills itself as a hybrid blockchain designed for trustless B2B collaboration.
+category: token
+date_added: '2019-02-05T00:00:00.000Z'
+description: LTO Network bills itself as a hybrid blockchain designed for trustless B2B collaboration.
   The private layer is for data sharing and process automation (each process residing on its own miniature
   ad-hoc permissionless private chain). The public layer acts as a global security settlement layer —
   an immutable digital notary. This hybrid approach reportedly makes LTO Network GDPR and data privacy
   compliant, as well as scalable and ready for adoption.
-
-  LTO Network bills itself as a hybrid blockchain designed for trustless B2B collaboration. The private
-  layer is for data sharing and process automation (each process residing on its own miniature ad-hoc
-  permissionless private chain). The public layer acts as a global security settlement layer — an immutable
-  digital notary. This hybrid approach reportedly makes LTO Network GDPR and data privacy compliant, as
-  well as scalable and ready for adoption.'
 id: 3714
 links:
-  Announcement: https://t.me/ltoinfo
-  Chat: https://t.me/joinchat/AJWQTUDKtDlsuGHVFb40eQ
-  Explorer: https://etherscan.io/token/0x3db6ba6ab6f95efed1a6e794cad492faaabf294d
-  Explorer 2: https://explorer.lto.network/
-  Message Board: https://blog.lto.network
-  Message Board 2: https://medium.com/ltonetwork
-  Reddit: https://www.reddit.com/r/LTONetwork
-  Source Code: https://github.com/legalthings
-  Technical Documentation: https://lto.network/documents/LTO%20Network%20-%20Technical%20Paper.pdf
-  Twitter: https://twitter.com/ltonetwork?ref_src=coinmarketcap
-  Website: https://lto.network/
+  announcement:
+  - https://t.me/ltoinfo
+  chat:
+  - https://t.me/joinchat/AJWQTUDKtDlsuGHVFb40eQ
+  explorer:
+  - https://etherscan.io/token/0x3db6ba6ab6f95efed1a6e794cad492faaabf294d
+  - https://explorer.lto.network/
+  message_board:
+  - https://blog.lto.network
+  - https://medium.com/ltonetwork
+  reddit:
+  - https://reddit.com/r/LTONetwork
+  source_code:
+  - https://github.com/legalthings
+  technical_doc:
+  - https://lto.network/documents/LTO%20Network%20-%20Technical%20Paper.pdf
+  twitter:
+  - https://twitter.com/ltonetwork
+  website:
+  - https://lto.network/
 markets:
-- exchange_name: Bilaxy
-  pair: LTO/ETH
-  url: https://bilaxy.com/exchange
-- exchange_name: Binance DEX
-  pair: LTO/BNB
-  url: https://www.binance.org/en/trade/LTO-BDF_BNB
-- exchange_name: BitMax
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 453
+  exchange_name: BitMax
   pair: LTO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://bitmax.io/#/trade/btc/lto
-- exchange_name: BitMax
-  pair: LTO/USDT
-  url: https://bitmax.io/#/trade/usdt/lto
-- exchange_name: Fatbtc
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 453
+  exchange_name: BitMax
   pair: LTO/ETH
-  url: https://www.fatbtc.com/
-- exchange_name: Hotbit
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bitmax.io/#/trade/eth/lto
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: LTO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=LTO_BTC
-- exchange_name: Hotbit
-  pair: LTO/ETH
-  url: https://www.hotbit.io/exchange?symbol=LTO_ETH
-- exchange_name: Hotbit
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 453
+  exchange_name: BitMax
   pair: LTO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/lto
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: LTO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
   url: https://www.hotbit.io/exchange?symbol=LTO_USDT
-- exchange_name: IDEX
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: LTO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=LTO_ETH
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: LTO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: LTO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/LTO_ETH
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: LTO/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/LTO-BDF_BNB
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: LTO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://idex.market/eth/lto
-- exchange_name: Trade.io
-  pair: LTO/ETH
-  url: https://exchange.trade.io/trade/guest?pair=lto_eth
 name: LTO Network
-rank: 315
+rank: 323
+slug: lto-network
+status: active
 symbol: LTO
-tags:
-- Token
-website_slug: lto-network

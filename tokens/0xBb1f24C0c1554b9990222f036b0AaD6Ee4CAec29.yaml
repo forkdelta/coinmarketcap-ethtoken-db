@@ -1,28 +1,69 @@
 ---
 address: '0xBb1f24C0c1554b9990222f036b0AaD6Ee4CAec29'
+category: token
+date_added: '2018-10-25T00:00:00.000Z'
 id: 3501
 links:
-  Chat: https://t.me/CryptoSoulENG
-  Explorer: https://etherscan.io/token/0xbb1f24c0c1554b9990222f036b0aad6ee4caec29
-  Explorer 2: https://ethplorer.io/address/0xbb1f24c0c1554b9990222f036b0aad6ee4caec29
-  Message Board: https://medium.com/@cryptosoul
-  Reddit: https://www.reddit.com/r/CryptoSoul
-  Technical Documentation: https://cryptosoul.io/whitepaper/en
-  Twitter: https://twitter.com/CryptoSoul_?ref_src=coinmarketcap
-  Website: https://cryptosoul.io/
+  chat:
+  - https://t.me/CryptoSoulENG
+  explorer:
+  - https://etherscan.io/token/0xbb1f24c0c1554b9990222f036b0aad6ee4caec29
+  - https://ethplorer.io/address/0xbb1f24c0c1554b9990222f036b0aad6ee4caec29
+  message_board:
+  - https://medium.com/@cryptosoul
+  reddit:
+  - https://reddit.com/r/CryptoSoul
+  technical_doc:
+  - https://cryptosoul.io/whitepaper/en
+  twitter:
+  - https://twitter.com/CryptoSoul_
+  website:
+  - https://cryptosoul.io/
 markets:
-- exchange_name: Hotbit
-  pair: CSOUL/ETH
-  url: https://www.hotbit.io/exchange?symbol=CSOUL_ETH
-- exchange_name: Mercatox
-  pair: SOUL/BTC
-  url: https://mercatox.com/exchange/SOUL/BTC
-- exchange_name: Mercatox
+- base:
+    currency_id: 3501
+    currency_symbol: SOUL
+    currency_type: cryptocurrency
+    exchange_symbol: SOUL
+  exchange_id: 213
+  exchange_name: Mercatox
   pair: SOUL/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://mercatox.com/exchange/SOUL/ETH
+- base:
+    currency_id: 3501
+    currency_symbol: SOUL
+    currency_type: cryptocurrency
+    exchange_symbol: CSOUL
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: SOUL/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=SOUL_ETH
+- base:
+    currency_id: 3501
+    currency_symbol: SOUL
+    currency_type: cryptocurrency
+    exchange_symbol: SOUL
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: SOUL/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/SOUL/BTC
 name: CryptoSoul
-rank: 1650
+rank: 1683
+slug: cryptosoul
+status: active
 symbol: SOUL
-tags:
-- Token
-website_slug: cryptosoul

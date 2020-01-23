@@ -1,38 +1,113 @@
 ---
 address: '0xdA6cb58A0D0C01610a29c5A65c303e13e885887C'
+category: token
+date_added: '2018-01-22T00:00:00.000Z'
 id: 2450
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=2561085
-  Chat: https://t.me/carVerticalio
-  Explorer: https://etherscan.io/token/0xda6cb58a0d0c01610a29c5a65c303e13e885887c
-  Explorer 2: https://ethplorer.io/address/0xda6cb58a0d0c01610a29c5a65c303e13e885887c
-  Reddit: https://www.reddit.com/r/carvertical
-  Source Code: https://github.com/carVertical
-  Technical Documentation: https://www.carvertical.com/files/carvertical-whitepaper.pdf
-  Twitter: https://twitter.com/carVertical_com?ref_src=coinmarketcap
-  Website: https://www.carvertical.com/investors
+  announcement:
+  - https://bitcointalk.org/index.php?topic=2561085
+  chat:
+  - https://t.me/carVerticalio
+  explorer:
+  - https://etherscan.io/token/0xda6cb58a0d0c01610a29c5a65c303e13e885887c
+  - https://ethplorer.io/address/0xda6cb58a0d0c01610a29c5a65c303e13e885887c
+  reddit:
+  - https://reddit.com/r/carvertical
+  source_code:
+  - https://github.com/carVertical
+  technical_doc:
+  - https://www.carvertical.com/files/carvertical-whitepaper.pdf
+  twitter:
+  - https://twitter.com/carVertical_com
+  website:
+  - https://www.carvertical.com/investors
 markets:
-- exchange_name: BitMart
+- base:
+    currency_id: 2450
+    currency_symbol: CV
+    currency_type: cryptocurrency
+    exchange_symbol: CV
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: CV/BTC
-  url: https://www.bitmart.com/trade?symbol=CV_BTC
-- exchange_name: BitMart
-  pair: CV/ETH
-  url: https://www.bitmart.com/trade?symbol=CV_ETH
-- exchange_name: ChainX
-  pair: CV/KRW
-  url: https://chainx.kr/exchange/CV-KRW
-- exchange_name: IDEX
-  pair: CV/ETH
-  url: https://idex.market/eth/cv
-- exchange_name: KuCoin
-  pair: CV/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://www.kucoin.com/trade/CV-BTC
-- exchange_name: KuCoin
+- base:
+    currency_id: 2450
+    currency_symbol: CV
+    currency_type: cryptocurrency
+    exchange_symbol: CV
+  exchange_id: 406
+  exchange_name: BitMart
   pair: CV/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitmart.com/trade?symbol=CV_ETH
+- base:
+    currency_id: 2450
+    currency_symbol: CV
+    currency_type: cryptocurrency
+    exchange_symbol: CV
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CV/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://www.kucoin.com/trade/CV-ETH
+- base:
+    currency_id: 2450
+    currency_symbol: CV
+    currency_type: cryptocurrency
+    exchange_symbol: CV
+  exchange_id: 506
+  exchange_name: ChainX
+  pair: CV/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://chainx.kr/exchange/CV-KRW
+- base:
+    currency_id: 2450
+    currency_symbol: CV
+    currency_type: cryptocurrency
+    exchange_symbol: CV
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: CV/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/cv
+- base:
+    currency_id: 2450
+    currency_symbol: CV
+    currency_type: cryptocurrency
+    exchange_symbol: CV
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: CV/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitmart.com/trade?symbol=CV_BTC
 name: carVertical
-rank: 752
+rank: 805
+slug: carvertical
+status: active
 symbol: CV
-tags:
-- Token
-website_slug: carvertical

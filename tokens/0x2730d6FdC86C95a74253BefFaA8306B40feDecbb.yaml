@@ -1,29 +1,53 @@
 ---
 address: '0x2730d6FdC86C95a74253BefFaA8306B40feDecbb'
-description: 'UNI aims to create a non-probable cross-chain environment. It is working on the UNI main
+category: token
+date_added: '2019-08-29T00:00:00.000Z'
+description: UNI aims to create a non-probable cross-chain environment. It is working on the UNI main
   chain and Phoenix cross-chain system.
-
-  UNI aims to create a non-probable cross-chain environment. It is working on the UNI main chain and Phoenix
-  cross-chain system.'
 id: 4307
 links:
-  Explorer: https://etherscan.io/token/0x2730d6fdc86c95a74253beffaa8306b40fedecbb
-  Explorer 2: https://ethplorer.io/address/0x2730d6fdc86c95a74253beffaa8306b40fedecbb
-  Learn more: /methodology/#rank
-  Source Code: https://github.com/uni-official
-  Technical Documentation: https://unicorn.cm/static/Unicorn.pdf
-  Twitter: https://twitter.com/unicorn_unx?ref_src=coinmarketcap
-  Website: https://unicorn.cm/
+  explorer:
+  - https://etherscan.io/token/0x2730d6fdc86c95a74253beffaa8306b40fedecbb
+  - https://ethplorer.io/address/0x2730d6fdc86c95a74253beffaa8306b40fedecbb
+  source_code:
+  - https://github.com/uni-official
+  technical_doc:
+  - https://unicorn.cm/static/Unicorn.pdf
+  twitter:
+  - https://twitter.com/unicorn_unx
+  website:
+  - https://unicorn.cm/
 markets:
-- exchange_name: CoinBene
+- base:
+    currency_id: 4307
+    currency_symbol: UNI
+    currency_type: cryptocurrency
+    exchange_symbol: UNI
+  exchange_id: 343
+  exchange_name: CoinBene
   pair: UNI/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=UNIUSDT
-- exchange_name: Hoo
+- base:
+    currency_id: 4307
+    currency_symbol: UNI
+    currency_type: cryptocurrency
+    exchange_symbol: UNI
+  exchange_id: 424
+  exchange_name: Hoo
   pair: UNI/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
   url: https://hoo.com/trade/uni-usdt
 name: UNICORN Token
-rank: 887
+rank: 1106
+slug: unicorn-token
+status: active
 symbol: UNI
-tags:
-- Token
-website_slug: unicorn-token

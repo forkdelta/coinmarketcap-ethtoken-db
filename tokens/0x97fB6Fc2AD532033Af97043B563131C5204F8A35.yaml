@@ -1,28 +1,55 @@
 ---
 address: '0x97fB6Fc2AD532033Af97043B563131C5204F8A35'
+category: token
+date_added: '2018-12-26T00:00:00.000Z'
 id: 3649
 links:
-  Chat: https://t.me/Official_PlusCoin
-  Explorer: https://etherscan.io/token/0x97fb6fc2ad532033af97043b563131c5204f8a35
-  Explorer 2: https://ethplorer.io/address/0x97fb6fc2ad532033af97043b563131c5204f8a35
-  Message Board: https://medium.com/@pluscoin
-  Source Code: https://github.com/upxide/NPLC/
-  Technical Documentation: https://www.plus-coin.com/pdf_en.asp
-  Twitter: https://twitter.com/pluscoin?ref_src=coinmarketcap
-  Website: https://www.plus-coin.com/en/
+  chat:
+  - https://t.me/Official_PlusCoin
+  explorer:
+  - https://etherscan.io/token/0x97fb6fc2ad532033af97043b563131c5204f8a35
+  - https://ethplorer.io/address/0x97fb6fc2ad532033af97043b563131c5204f8a35
+  message_board:
+  - https://medium.com/@pluscoin
+  source_code:
+  - https://github.com/upxide/NPLC/
+  technical_doc:
+  - https://www.plus-coin.com/pdf_en.asp
+  twitter:
+  - https://twitter.com/pluscoin
+  website:
+  - https://www.plus-coin.com/en/
 markets:
-- exchange_name: HitBTC
+- base:
+    currency_id: 3649
+    currency_symbol: NPLC
+    currency_type: cryptocurrency
+    exchange_symbol: NPLC
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: NPLC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://hitbtc.com/NPLC-to-BTC
-- exchange_name: HitBTC
+- base:
+    currency_id: 3649
+    currency_symbol: NPLC
+    currency_type: cryptocurrency
+    exchange_symbol: NPLC
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: NPLC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://hitbtc.com/NPLC-to-ETH
-- exchange_name: Liquid
-  pair: NPLC/QASH
-  url: https://app.liquid.com/exchange/NPLCQASH
 name: Plus-Coin
-rank: 1331
+rank: 1317
+slug: plus-coin
+status: active
 symbol: NPLC
-tags:
-- Token
-website_slug: plus-coin

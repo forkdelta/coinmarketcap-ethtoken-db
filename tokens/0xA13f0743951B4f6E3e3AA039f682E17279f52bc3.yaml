@@ -1,34 +1,83 @@
 ---
 address: '0xA13f0743951B4f6E3e3AA039f682E17279f52bc3'
+category: token
+date_added: '2018-04-02T00:00:00.000Z'
 id: 2624
 links:
-  Chat: https://t.me/sentinelchain
-  Explorer: https://etherscan.io/token/0xa13f0743951b4f6e3e3aa039f682e17279f52bc3
-  Explorer 2: https://ethplorer.io/address/0xa13f0743951b4f6e3e3aa039f682e17279f52bc3
-  Message Board: https://www.medium.com/sentinelchain
-  Reddit: https://www.reddit.com/r/sentinelchain
-  Technical Documentation: https://sentinel-chain.org/Sentinel.Chain.Whitepaper.v0_31.1.pdf
-  Twitter: https://twitter.com/sentinelchain?ref_src=coinmarketcap
-  Website: https://www.sentinel-chain.org/
+  chat:
+  - https://t.me/sentinelchain
+  explorer:
+  - https://etherscan.io/token/0xa13f0743951b4f6e3e3aa039f682e17279f52bc3
+  - https://ethplorer.io/address/0xa13f0743951b4f6e3e3aa039f682e17279f52bc3
+  message_board:
+  - https://www.medium.com/sentinelchain
+  reddit:
+  - https://reddit.com/r/sentinelchain
+  technical_doc:
+  - https://sentinel-chain.org/Sentinel.Chain.Whitepaper.v0_31.1.pdf
+  twitter:
+  - https://twitter.com/sentinelchain
+  website:
+  - https://www.sentinel-chain.org/
 markets:
-- exchange_name: COSS
-  pair: SENC/BTC
-  url: https://coss.io/c/trade?s=SENC_BTC
-- exchange_name: COSS
-  pair: SENC/ETH
-  url: https://coss.io/c/trade?s=SENC_ETH
-- exchange_name: CoinBene
-  pair: SENC/ETH
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=SENCETH
-- exchange_name: Gate.io
-  pair: SENC/ETH
-  url: https://gate.io/trade/senc_eth
-- exchange_name: Gate.io
+- base:
+    currency_id: 2624
+    currency_symbol: SENC
+    currency_type: cryptocurrency
+    exchange_symbol: SENC
+  exchange_id: 302
+  exchange_name: Gate.io
   pair: SENC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
   url: https://gate.io/trade/senc_usdt
+- base:
+    currency_id: 2624
+    currency_symbol: SENC
+    currency_type: cryptocurrency
+    exchange_symbol: SENC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: SENC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/senc_eth
+- base:
+    currency_id: 2624
+    currency_symbol: SENC
+    currency_type: cryptocurrency
+    exchange_symbol: SENC
+  exchange_id: 242
+  exchange_name: COSS
+  pair: SENC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coss.io/c/trade?s=SENC_BTC
+- base:
+    currency_id: 2624
+    currency_symbol: SENC
+    currency_type: cryptocurrency
+    exchange_symbol: SENC
+  exchange_id: 242
+  exchange_name: COSS
+  pair: SENC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coss.io/c/trade?s=SENC_ETH
 name: Sentinel Chain
-rank: 1049
+rank: 1214
+slug: sentinel-chain
+status: active
 symbol: SENC
-tags:
-- Token
-website_slug: sentinel-chain

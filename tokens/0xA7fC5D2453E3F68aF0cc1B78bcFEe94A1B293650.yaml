@@ -1,37 +1,87 @@
 ---
 address: '0xA7fC5D2453E3F68aF0cc1B78bcFEe94A1B293650'
-description: 'The Spiking Platform aims to allow its users to mirror the trading activity of any whale
+category: token
+date_added: '2019-07-15T00:00:00.000Z'
+description: The Spiking Platform aims to allow its users to mirror the trading activity of any whale
   and control their own segregated trading accounts directly. SPIKE will be the token that fuels the Spiking
   Platform (gas). For new traders, Spiking will offer the assistance of RoboBull, a proprietary AI Robot
   that is able to create a portfolio of different whales based on the trader’s risk/reward ratio.
-
-  The Spiking Platform aims to allow its users to mirror the trading activity of any whale and control
-  their own segregated trading accounts directly. SPIKE will be the token that fuels the Spiking Platform
-  (gas). For new traders, Spiking will offer the assistance of RoboBull, a proprietary AI Robot that is
-  able to create a portfolio of different whales based on the trader’s risk/reward ratio.'
 id: 4094
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=3629292.0
-  Chat: https://t.me/SpikingOfficial
-  Explorer: https://etherscan.io/token/0xa7fc5d2453e3f68af0cc1b78bcfee94a1b293650
-  Explorer 2: https://ethplorer.io/address/0xa7fc5d2453e3f68af0cc1b78bcfee94a1b293650
-  Message Board: https://blog.spiking.com/
-  Reddit: https://www.reddit.com/r/stockspiking
-  Twitter: https://twitter.com/StockSpiking?ref_src=coinmarketcap
-  Website: https://spiking.com/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=3629292.0
+  chat:
+  - https://t.me/SpikingOfficial
+  explorer:
+  - https://etherscan.io/token/0xa7fc5d2453e3f68af0cc1b78bcfee94a1b293650
+  - https://ethplorer.io/address/0xa7fc5d2453e3f68af0cc1b78bcfee94a1b293650
+  message_board:
+  - https://blog.spiking.com/
+  reddit:
+  - https://reddit.com/r/stockspiking
+  twitter:
+  - https://twitter.com/StockSpiking
+  website:
+  - https://spiking.com/
 markets:
-- exchange_name: COSS
+- base:
+    currency_id: 4094
+    currency_symbol: SPIKE
+    currency_type: cryptocurrency
+    exchange_symbol: SPIKE
+  exchange_id: 420
+  exchange_name: Kryptono
   pair: SPIKE/BTC
-  url: https://coss.io/c/trade?s=SPIKE_BTC
-- exchange_name: COSS
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://kryptono.exchange/k/accounts/trade?s=SPIKE_BTC
+- base:
+    currency_id: 4094
+    currency_symbol: SPIKE
+    currency_type: cryptocurrency
+    exchange_symbol: SPIKE
+  exchange_id: 242
+  exchange_name: COSS
+  pair: SPIKE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coss.io/c/trade?s=SPIKE_BTC
+- base:
+    currency_id: 4094
+    currency_symbol: SPIKE
+    currency_type: cryptocurrency
+    exchange_symbol: SPIKE
+  exchange_id: 242
+  exchange_name: COSS
   pair: SPIKE/ETH
-  url: https://coss.io/c/trade?s=SPIKE_ETH
-- exchange_name: Kryptono
-  pair: SPIKE/BTC
-  url: ''
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coss.io/c/trade?s=SPIKE_ETH
+- base:
+    currency_id: 4094
+    currency_symbol: SPIKE
+    currency_type: cryptocurrency
+    exchange_symbol: SPIKE
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: SPIKE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/spike-eth
 name: Spiking
-rank: 967
+rank: 955
+slug: spiking
+status: active
 symbol: SPIKE
-tags:
-- Token
-website_slug: spiking

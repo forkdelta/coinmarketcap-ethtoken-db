@@ -1,25 +1,56 @@
 ---
 address: '0x8aA33A7899FCC8eA5fBe6A608A109c3893A1B8b2'
+category: token
+date_added: '2017-07-02T00:00:00.000Z'
 id: 1771
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=1928183.0
-  Chat: https://t.me/daocasino
-  Explorer: https://etherscan.io/token/0x8aA33A7899FCC8eA5fBe6A608A109c3893A1B8b2
-  Message Board: https://dao.casino/blog/
-  Source Code: https://github.com/daocasino
-  Technical Documentation: https://github.com/DaoCasino/Whitepaper/blob/master/DAO.Casino%20WP.md
-  Twitter: https://twitter.com/daocasino?ref_src=coinmarketcap
-  Website: https://dao.casino/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=1928183.0
+  chat:
+  - https://t.me/daocasino
+  explorer:
+  - https://etherscan.io/token/0x8aA33A7899FCC8eA5fBe6A608A109c3893A1B8b2
+  message_board:
+  - https://dao.casino/blog/
+  source_code:
+  - https://github.com/daocasino
+  technical_doc:
+  - https://github.com/DaoCasino/Whitepaper/blob/master/DAO.Casino%20WP.md
+  twitter:
+  - https://twitter.com/daocasino
+  website:
+  - https://dao.casino/
 markets:
-- exchange_name: HitBTC
+- base:
+    currency_id: 1771
+    currency_symbol: BET
+    currency_type: cryptocurrency
+    exchange_symbol: BET
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: BET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://hitbtc.com/BET-to-BTC
-- exchange_name: HitBTC
+- base:
+    currency_id: 1771
+    currency_symbol: BET
+    currency_type: cryptocurrency
+    exchange_symbol: BET
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: BET/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://hitbtc.com/BET-to-ETH
 name: DAO.Casino
-rank: 407
+rank: 485
+slug: dao-casino
+status: active
 symbol: BET
-tags:
-- Token
-website_slug: dao-casino

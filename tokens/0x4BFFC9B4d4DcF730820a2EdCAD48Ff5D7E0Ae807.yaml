@@ -1,29 +1,79 @@
 ---
 address: '0x4BFFC9B4d4DcF730820a2EdCAD48Ff5D7E0Ae807'
+category: token
+date_added: '2018-05-15T00:00:00.000Z'
 id: 2740
 links:
-  Explorer: https://etherscan.io/token/0x4bffc9b4d4dcf730820a2edcad48ff5d7e0ae807
-  Explorer 2: https://ethplorer.io/address/0x4bffc9b4d4dcf730820a2edcad48ff5d7e0ae807
-  Source Code: https://github.com/InfluenceChain
-  Technical Documentation: http://www.influencechain.org/home-assets/download/INC_WhitePaper_en.pdf
-  Twitter: https://twitter.com/InfluencerChain?ref_src=coinmarketcap
-  Website: http://www.influencechain.org/
+  explorer:
+  - https://etherscan.io/token/0x4bffc9b4d4dcf730820a2edcad48ff5d7e0ae807
+  - https://ethplorer.io/address/0x4bffc9b4d4dcf730820a2edcad48ff5d7e0ae807
+  source_code:
+  - https://github.com/InfluenceChain
+  technical_doc:
+  - http://www.influencechain.org/home-assets/download/INC_WhitePaper_en.pdf
+  twitter:
+  - https://twitter.com/InfluencerChain
+  website:
+  - http://www.influencechain.org/
 markets:
-- exchange_name: Bit-Z
-  pair: INC/BTC
-  url: https://www.bit-z.com/exchange/inc_btc
-- exchange_name: Bit-Z
+- base:
+    currency_id: 2740
+    currency_symbol: INC
+    currency_type: cryptocurrency
+    exchange_symbol: INC
+  exchange_id: 391
+  exchange_name: CoinTiger
   pair: INC/ETH
-  url: https://www.bit-z.com/exchange/inc_eth
-- exchange_name: CoinTiger
-  pair: INC/BTC
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=inc_btc
-- exchange_name: CoinTiger
-  pair: INC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://www.cointiger.com/en-us/#/trade_pro?coin=inc_eth
+- base:
+    currency_id: 2740
+    currency_symbol: INC
+    currency_type: cryptocurrency
+    exchange_symbol: INC
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: INC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bit-z.com/exchange/inc_eth
+- base:
+    currency_id: 2740
+    currency_symbol: INC
+    currency_type: cryptocurrency
+    exchange_symbol: INC
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: INC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bit-z.com/exchange/inc_btc
+- base:
+    currency_id: 2740
+    currency_symbol: INC
+    currency_type: cryptocurrency
+    exchange_symbol: INC
+  exchange_id: 391
+  exchange_name: CoinTiger
+  pair: INC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=inc_btc
 name: Influence Chain
-rank: 2223
+rank: 2260
+slug: influence-chain
+status: active
 symbol: INC
-tags:
-- Token
-website_slug: influence-chain

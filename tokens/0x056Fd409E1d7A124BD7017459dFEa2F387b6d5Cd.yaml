@@ -1,137 +1,468 @@
 ---
 address: '0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd'
-description: 'The Gemini dollar (GUSD) issued by Gemini Trust Company LLC is meant to provide tokens built
+category: token
+date_added: '2018-10-05T00:00:00.000Z'
+description: The Gemini dollar (GUSD) issued by Gemini Trust Company LLC is meant to provide tokens built
   on the Ethereum network according to ERC20 standards corresponding 1:1 with holdings of traditional
   fiat USD held at State Street Bank and Trust Company. Intended to provide creditworthiness and price
   stability that mimics the U.S Dollar, code within the GUSD contracts were audited by a firm specializing
   in information security research &amp; development. To verify the necessary 1:1 peg, the deposit balance
   at the U.S. Bank is examined monthly by BPM, LLP an independently registered public accounting firm.
-
-  The Gemini dollar (GUSD) issued by Gemini Trust Company LLC is meant to provide tokens built on the
-  Ethereum network according to ERC20 standards corresponding 1:1 with holdings of traditional fiat USD
-  held at State Street Bank and Trust Company. Intended to provide creditworthiness and price stability
-  that mimics the U.S Dollar, code within the GUSD contracts were audited by a firm specializing in information
-  security research &amp; development. To verify the necessary 1:1 peg, the deposit balance at the U.S.
-  Bank is examined monthly by BPM, LLP an independently registered public accounting firm.'
 id: 3306
 links:
-  Explorer: https://etherscan.io/token/0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd
-  Explorer 2: https://ethplorer.io/address/0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd
-  Message Board: https://gemini.com/blog/
-  Reddit: https://www.reddit.com/r/Gemini
-  Source Code: https://github.com/gemini/dollar
-  Technical Documentation: https://gemini.com/wp-content/themes/gemini/assets/img/dollar/gemini-dollar-whitepaper.pdf
-  Twitter: https://twitter.com/geminitrust?ref_src=coinmarketcap
-  Website: https://gemini.com/dollar/
+  explorer:
+  - https://etherscan.io/token/0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd
+  - https://ethplorer.io/address/0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd
+  - https://blockchair.com/ethereum/erc-20/token/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd
+  message_board:
+  - https://gemini.com/blog/
+  reddit:
+  - https://reddit.com/r/Gemini
+  source_code:
+  - https://github.com/gemini/dollar
+  technical_doc:
+  - https://gemini.com/wp-content/themes/gemini/assets/img/dollar/gemini-dollar-whitepaper.pdf
+  twitter:
+  - https://twitter.com/geminitrust
+  website:
+  - https://gemini.com/dollar/
 markets:
-- exchange_name: BCEX
-  pair: GUSD/USDT
-  url: https://www.bcex.ca/trade/gusd_usdt
-- exchange_name: BW.com
-  pair: GUSD/USDT
-  url: https://www.bw.com/trade/gusd_usdt
-- exchange_name: BitForex
-  pair: GUSD/USDT
-  url: https://www.bitforex.com/en/spot/gusd_usdt
-- exchange_name: BitMart
-  pair: GUSD/USDT
-  url: https://www.bitmart.com/trade?symbol=GUSD_USDT
-- exchange_name: Bitfinex
-  pair: GSD/USD
-  url: https://www.bitfinex.com/t/GSD:USD
-- exchange_name: CEX.IO
-  pair: GUSD/EUR
-  url: https://cex.io/#gusd-eur
-- exchange_name: CEX.IO
-  pair: GUSD/USD
-  url: https://cex.io/#gusd-usd
-- exchange_name: COSS
-  pair: GUSD/USD
-  url: https://coss.io/c/trade?s=GUSD_USD
-- exchange_name: COSS
-  pair: XRP/GUSD
-  url: https://coss.io/c/trade?s=XRP_GUSD
-- exchange_name: CoinBene
-  pair: GUSD/USDT
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=GUSDUSDT
-- exchange_name: CoinEx
-  pair: GUSD/USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=gusd&tab=limit
-- exchange_name: Coinsuper
-  pair: GUSD/USD
-  url: https://www.coinsuper.com/#/actionDeal
-- exchange_name: DigiFinex
-  pair: GUSD/USDT
-  url: https://www.digifinex.com/trade/USDT/GUSD
-- exchange_name: Exmo
-  pair: GUSD/BTC
-  url: https://exmo.com/en/trade#?pair=GUSD_BTC
-- exchange_name: Exmo
-  pair: GUSD/RUB
-  url: https://exmo.com/en/trade#?pair=GUSD_RUB
-- exchange_name: Exmo
-  pair: GUSD/USD
-  url: https://exmo.com/en/trade#?pair=GUSD_USD
-- exchange_name: FCoin
-  pair: GUSD/USDT
-  url: https://exchange.fcoin.com/ex/main/gusd-usdt
-- exchange_name: Fatbtc
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 363
+  exchange_name: Fatbtc
   pair: BTC/GUSD
+  quote:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
   url: https://www.fatbtc.com/
-- exchange_name: HCoin
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 403
+  exchange_name: BitForex
   pair: GUSD/USDT
-  url: https://www.hcoin.com/trade/usdt/gusd
-- exchange_name: HitBTC
-  pair: BTC/GUSD
-  url: https://hitbtc.com/BTC-to-GUSD
-- exchange_name: HitBTC
-  pair: EOS/GUSD
-  url: https://hitbtc.com/EOS-to-GUSD
-- exchange_name: HitBTC
-  pair: ETH/GUSD
-  url: https://hitbtc.com/ETH-to-GUSD
-- exchange_name: Hotbit
-  pair: GUSD/BTC
-  url: https://www.hotbit.io/exchange?symbol=GUSD_BTC
-- exchange_name: Hotbit
-  pair: GUSD/ETH
-  url: https://www.hotbit.io/exchange?symbol=GUSD_ETH
-- exchange_name: Hotbit
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitforex.com/en/spot/gusd_usdt
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 459
+  exchange_name: BW.com
   pair: GUSD/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bw.com/trade/gusd_usdt
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: GUSD/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
   url: https://www.hotbit.io/exchange?symbol=GUSD_USDT
-- exchange_name: Liquid
-  pair: BTC/GUSD
-  url: https://app.liquid.com/exchange/BTCGUSD
-- exchange_name: OKCoin
-  pair: BTC/GUSD
-  url: https://www.okcoin.com/spot/trade#product=btc_gusd
-- exchange_name: OKCoin
-  pair: GUSD/USD
-  url: https://www.okcoin.com/spot/trade#product=gusd_usd
-- exchange_name: OKEx
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: GUSD/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=gusd&tab=limit
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: GUSD/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=GUSD_ETH
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: GUSD/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitmart.com/trade?symbol=GUSD_USDT
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: GUSD/BTC
-  url: https://www.okex.com/market?product=gusd_btc
-- exchange_name: OKEx
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=GUSD_BTC
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 446
+  exchange_name: TOKOK
   pair: GUSD/USDT
-  url: https://www.okex.com/market?product=gusd_usdt
-- exchange_name: TOKOK
-  pair: GUSD/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
   url: https://www.tokok.com/market?symbol=GUSD_USDT
-- exchange_name: The Rock Trading
-  pair: BTC/GUSD
-  url: https://therocktrading.com/en/offers/BTCGUSD
-- exchange_name: The Rock Trading
-  pair: GUSD/EUR
-  url: https://therocktrading.com/en/offers/GUSDEUR
-- exchange_name: YoBit
-  pair: GUSD/DOGE
-  url: https://yobit.net/en/trade/GUSD/DOGE
-- exchange_name: YoBit
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 602
+  exchange_name: HCoin
+  pair: GUSD/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hcoin.com/trade/usdt/gusd
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: GUSD/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=gusd_usdt
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: GUSD/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.digifinex.com/en-ww/trade/USDT/GUSD
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 50
+  exchange_name: Exmo
+  pair: GUSD/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exmo.com/en/trade#?pair=GUSD_BTC
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 50
+  exchange_name: Exmo
   pair: GUSD/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://exmo.com/en/trade#?pair=GUSD_USD
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 50
+  exchange_name: Exmo
+  pair: GUSD/RUB
+  quote:
+    currency_id: 2806
+    currency_symbol: RUB
+    currency_type: fiat
+    exchange_symbol: RUB
+  url: https://exmo.com/en/trade#?pair=GUSD_RUB
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: GUSD/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=gusd_btc
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 36
+  exchange_name: CEX.IO
+  pair: GUSD/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://cex.io/#gusd-usd
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 36
+  exchange_name: CEX.IO
+  pair: GUSD/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://cex.io/#gusd-eur
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GSD
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: GUSD/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/GUSD:USD
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: GUSD/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
   url: https://yobit.net/en/trade/GUSD/USD
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BTC/GUSD
+  quote:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  url: https://hitbtc.com/BTC-to-GUSD
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: ETH/GUSD
+  quote:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  url: https://hitbtc.com/ETH-to-GUSD
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 77
+  exchange_name: The Rock Trading
+  pair: GUSD/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://therocktrading.com/en/offers/GUSDEUR
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 77
+  exchange_name: The Rock Trading
+  pair: BTC/GUSD
+  quote:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  url: https://therocktrading.com/en/offers/BTCGUSD
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: GUSD/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=GUSDUSDT
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: GUSD/DOGE
+  quote:
+    currency_id: 74
+    currency_symbol: DOGE
+    currency_type: cryptocurrency
+    exchange_symbol: DOGE
+  url: https://yobit.net/en/trade/GUSD/DOGE
+- base:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  exchange_id: 242
+  exchange_name: COSS
+  pair: XRP/GUSD
+  quote:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  url: https://www.coss.io/c/trade?s=XRP_GUSD
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 242
+  exchange_name: COSS
+  pair: GUSD/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.coss.io/c/trade?s=GUSD_USD
+- base:
+    currency_id: 1765
+    currency_symbol: EOS
+    currency_type: cryptocurrency
+    exchange_symbol: EOS
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: EOS/GUSD
+  quote:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  url: https://hitbtc.com/EOS-to-GUSD
+- base:
+    currency_id: 2306
+    currency_symbol: BRD
+    currency_type: cryptocurrency
+    exchange_symbol: BRD
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BRD/GUSD
+  quote:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  url: https://hitbtc.com/BRD-to-GUSD
+- base:
+    currency_id: 3306
+    currency_symbol: GUSD
+    currency_type: cryptocurrency
+    exchange_symbol: GUSD
+  exchange_id: 410
+  exchange_name: FCoin
+  pair: GUSD/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://exchange.fcoin.com/ex/main/gusd-usdt
 name: Gemini Dollar
-rank: 474
+rank: 479
+slug: gemini-dollar
+status: active
 symbol: GUSD
-tags:
-- Token
-website_slug: gemini-dollar

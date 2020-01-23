@@ -1,27 +1,58 @@
 ---
 address: '0xDd6C68bb32462e01705011a4e2Ad1a60740f217F'
+category: token
+date_added: '2017-10-09T00:00:00.000Z'
 id: 2031
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=2041531.0
-  Chat: https://t.me/hubiinetwork
-  Chat 2: https://discord.gg/Nt35Qzt
-  Explorer: https://etherscan.io/token/0xdd6c68bb32462e01705011a4e2ad1a60740f217f
-  Explorer 2: https://ethplorer.io/address/0xdd6c68bb32462e01705011a4e2ad1a60740f217f
-  Message Board: https://medium.com/@jacobotoll
-  Reddit: https://www.reddit.com/r/hubiinetwork
-  Technical Documentation: https://www.hubii.network/hubii-network-whitepaper-en.pdf
-  Twitter: https://twitter.com/hubiinetwork?ref_src=coinmarketcap
-  Website: https://www.hubii.network/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=2041531.0
+  chat:
+  - https://t.me/hubiinetwork
+  - https://discord.gg/Nt35Qzt
+  explorer:
+  - https://etherscan.io/token/0xdd6c68bb32462e01705011a4e2ad1a60740f217f
+  - https://ethplorer.io/address/0xdd6c68bb32462e01705011a4e2ad1a60740f217f
+  message_board:
+  - https://medium.com/@jacobotoll
+  reddit:
+  - https://reddit.com/r/hubiinetwork
+  technical_doc:
+  - https://www.hubii.network/hubii-network-whitepaper-en.pdf
+  twitter:
+  - https://twitter.com/hubiinetwork
+  website:
+  - https://www.hubii.network/
 markets:
-- exchange_name: HitBTC
+- base:
+    currency_id: 2031
+    currency_symbol: HBT
+    currency_type: cryptocurrency
+    exchange_symbol: HBT
+  exchange_id: 310
+  exchange_name: IDEX
   pair: HBT/ETH
-  url: https://hitbtc.com/HBT-to-ETH
-- exchange_name: IDEX
-  pair: HBT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://idex.market/eth/hbt
+- base:
+    currency_id: 2031
+    currency_symbol: HBT
+    currency_type: cryptocurrency
+    exchange_symbol: HBT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: HBT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/HBT-to-ETH
 name: Hubii Network
-rank: 546
+rank: 662
+slug: hubii-network
+status: active
 symbol: HBT
-tags:
-- Token
-website_slug: hubii-network

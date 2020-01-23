@@ -1,43 +1,128 @@
 ---
 address: '0x0BEf619cF38cF0c22967289b8419720fBd1Db9f7'
+category: token
+date_added: '2019-01-09T00:00:00.000Z'
 id: 3683
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=3710692.new#new
-  Chat: https://t.me/AENCO
-  Chat 2: https://discordapp.com/invite/KXZzqgS
-  Explorer: https://etherscan.io/token/0x0bef619cf38cf0c22967289b8419720fbd1db9f7
-  Explorer 2: https://ethplorer.io/address/0x0bef619cf38cf0c22967289b8419720fbd1db9f7
-  Reddit: https://www.reddit.com/r/Aenco
-  Source Code: https://github.com/AENCO-Global/AENToken
-  Technical Documentation: https://www.aencoin.com/assets/docs/aenco-whitepaper.pdf
-  Twitter: https://twitter.com/aencoin?ref_src=coinmarketcap
-  Website: https://www.aencoin.com
-  Website 2: https://medium.com/@aencoin
+  announcement:
+  - https://bitcointalk.org/index.php?topic=3710692.new#new
+  chat:
+  - https://t.me/AENCO
+  - https://discordapp.com/invite/KXZzqgS
+  explorer:
+  - https://etherscan.io/token/0x0bef619cf38cf0c22967289b8419720fbd1db9f7
+  - https://ethplorer.io/address/0x0bef619cf38cf0c22967289b8419720fbd1db9f7
+  reddit:
+  - https://reddit.com/r/Aenco
+  source_code:
+  - https://github.com/AENCO-Global/AENToken
+  technical_doc:
+  - https://www.aencoin.com/assets/docs/aenco-whitepaper.pdf
+  twitter:
+  - https://twitter.com/aencoin
+  website:
+  - https://www.aencoin.com
 markets:
-- exchange_name: DigiFinex
-  pair: AEN/BTC
-  url: https://www.digifinex.com/trade/BTC/AEN
-- exchange_name: DigiFinex
+- base:
+    currency_id: 3683
+    currency_symbol: AEN
+    currency_type: cryptocurrency
+    exchange_symbol: AEN
+  exchange_id: 407
+  exchange_name: DigiFinex
   pair: AEN/ETH
-  url: https://www.digifinex.com/trade/ETH/AEN
-- exchange_name: IDAX
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.digifinex.com/en-ww/trade/ETH/AEN
+- base:
+    currency_id: 3683
+    currency_symbol: AEN
+    currency_type: cryptocurrency
+    exchange_symbol: AEN
+  exchange_id: 407
+  exchange_name: DigiFinex
   pair: AEN/BTC
-  url: https://www.idax.mn/#/exchange?pairname=AEN_BTC
-- exchange_name: IDAX
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.digifinex.com/en-ww/trade/BTC/AEN
+- base:
+    currency_id: 3683
+    currency_symbol: AEN
+    currency_type: cryptocurrency
+    exchange_symbol: AEN
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: AEN/ETH
-  url: https://www.idax.mn/#/exchange?pairname=AEN_ETH
-- exchange_name: LATOKEN
-  pair: AEN/BTC
-  url: https://latoken.com/exchange/BTC-AEN
-- exchange_name: LATOKEN
-  pair: AEN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://latoken.com/exchange/ETH-AEN
-- exchange_name: LATOKEN
+- base:
+    currency_id: 3683
+    currency_symbol: AEN
+    currency_type: cryptocurrency
+    exchange_symbol: AEN
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: AEN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
   url: https://latoken.com/exchange/USDT-AEN
+- base:
+    currency_id: 3683
+    currency_symbol: AEN
+    currency_type: cryptocurrency
+    exchange_symbol: AEN
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: AEN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://latoken.com/exchange/BTC-AEN
+- base:
+    currency_id: 3683
+    currency_symbol: AEN
+    currency_type: cryptocurrency
+    exchange_symbol: AEN
+  exchange_id: 368
+  exchange_name: IDAX
+  pair: AEN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.idax.mn/#/exchange?pairname=AEN_BTC
+- base:
+    currency_id: 3683
+    currency_symbol: AEN
+    currency_type: cryptocurrency
+    exchange_symbol: AEN
+  exchange_id: 368
+  exchange_name: IDAX
+  pair: AEN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.idax.mn/#/exchange?pairname=AEN_ETH
 name: Aencoin
-rank: 331
+rank: 309
+slug: aencoin
+status: active
 symbol: AEN
-tags:
-- Token
-website_slug: aencoin

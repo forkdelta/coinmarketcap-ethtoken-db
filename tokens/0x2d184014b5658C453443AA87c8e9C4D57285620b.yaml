@@ -1,31 +1,60 @@
 ---
 address: '0x2d184014b5658C453443AA87c8e9C4D57285620b'
+category: token
+date_added: '2018-10-18T00:00:00.000Z'
 id: 3472
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=2398571.0
-  Chat: https://t.me/jsetelegram
-  Chat 2: https://discord.gg/3gBZsA4
-  Explorer: https://etherscan.io/token/0x2d184014b5658c453443aa87c8e9c4d57285620b
-  Explorer 2: https://ethplorer.io/address/0x2d184014b5658c453443aa87c8e9c4d57285620b
-  Message Board: http://jsecoin.com/blog/
-  Reddit: https://www.reddit.com/r/JSEcoin_Official
-  Source Code: https://github.com/jsecoin
-  Technical Documentation: https://jsecoin.com/whitepaper.pdf
-  Twitter: https://twitter.com/jsecoin?ref_src=coinmarketcap
-  Website: https://jsecoin.com/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=2398571.0
+  chat:
+  - https://t.me/jsetelegram
+  - https://discord.gg/3gBZsA4
+  explorer:
+  - https://etherscan.io/token/0x2d184014b5658c453443aa87c8e9c4d57285620b
+  - https://ethplorer.io/address/0x2d184014b5658c453443aa87c8e9c4d57285620b
+  message_board:
+  - http://jsecoin.com/blog/
+  reddit:
+  - https://reddit.com/r/JSEcoin_Official
+  source_code:
+  - https://github.com/jsecoin
+  technical_doc:
+  - https://jsecoin.com/whitepaper.pdf
+  twitter:
+  - https://twitter.com/jsecoin
+  website:
+  - https://jsecoin.com/
 markets:
-- exchange_name: IDEX
+- base:
+    currency_id: 3472
+    currency_symbol: JSE
+    currency_type: cryptocurrency
+    exchange_symbol: JSE
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: JSE/ETH
-  url: https://idex.market/eth/jse
-- exchange_name: LATOKEN
-  pair: JSE/BTC
-  url: https://latoken.com/exchange/BTC-JSE
-- exchange_name: LATOKEN
-  pair: JSE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://latoken.com/exchange/ETH-JSE
+- base:
+    currency_id: 3472
+    currency_symbol: JSE
+    currency_type: cryptocurrency
+    exchange_symbol: JSE
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: JSE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/jse
 name: JSECOIN
-rank: 1480
+rank: 1486
+slug: jsecoin
+status: active
 symbol: JSE
-tags:
-- Token
-website_slug: jsecoin

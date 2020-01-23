@@ -1,19 +1,49 @@
 ---
 address: '0x4b317864a05c91225ab8f401EC7be0AeB87e9c12'
+category: token
+date_added: '2018-08-08T00:00:00.000Z'
 id: 3107
 links:
-  Chat: https://t.me/BingoCoin_BOC
-  Explorer: https://etherscan.io/token/0x4b317864a05c91225ab8f401ec7be0aeb87e9c12
-  Explorer 2: https://ethplorer.io/address/0x4b317864a05c91225ab8f401ec7be0aeb87e9c12
-  Twitter: https://twitter.com/BingoCoinLive?ref_src=coinmarketcap
-  Website: https://www.bocfun.com
+  chat:
+  - https://t.me/BingoCoin_BOC
+  explorer:
+  - https://etherscan.io/token/0x4b317864a05c91225ab8f401ec7be0aeb87e9c12
+  - https://ethplorer.io/address/0x4b317864a05c91225ab8f401ec7be0aeb87e9c12
+  twitter:
+  - https://twitter.com/BingoCoinLive
+  website:
+  - https://www.bocfun.com
 markets:
-- exchange_name: IDAX
+- base:
+    currency_id: 3107
+    currency_symbol: BOC
+    currency_type: cryptocurrency
+    exchange_symbol: BOC
+  exchange_id: 368
+  exchange_name: IDAX
   pair: BOC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://www.idax.mn/#/exchange?pairname=BOC_ETH
+- base:
+    currency_id: 3107
+    currency_symbol: BOC
+    currency_type: cryptocurrency
+    exchange_symbol: BOC
+  exchange_id: 410
+  exchange_name: FCoin
+  pair: BOC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://exchange.fcoin.com/ex/main/boc-usdt
 name: BingoCoin
-rank: 2323
+rank: 2345
+slug: bingocoin
+status: active
 symbol: BOC
-tags:
-- Token
-website_slug: bingocoin

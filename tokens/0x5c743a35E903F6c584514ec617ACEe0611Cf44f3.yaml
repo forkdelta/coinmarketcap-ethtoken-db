@@ -1,37 +1,97 @@
 ---
 address: '0x5c743a35E903F6c584514ec617ACEe0611Cf44f3'
+category: token
+date_added: '2018-02-26T00:00:00.000Z'
 id: 2547
 links:
-  Chat: https://t.me/experty_io
-  Explorer: https://etherscan.io/token/0x5c743a35e903f6c584514ec617acee0611cf44f3
-  Explorer 2: https://ethplorer.io/address/0x5c743a35e903f6c584514ec617acee0611cf44f3
-  Message Board: https://medium.com/@experty_io
-  Source Code: https://github.com/Experty
-  Technical Documentation: https://experty.io/docs/Experty-whitepaper-v2.6.pdf
-  Twitter: https://twitter.com/experty_io?ref_src=coinmarketcap
-  Website: https://experty.io/en
+  chat:
+  - https://t.me/experty_io
+  explorer:
+  - https://etherscan.io/token/0x5c743a35e903f6c584514ec617acee0611cf44f3
+  - https://ethplorer.io/address/0x5c743a35e903f6c584514ec617acee0611cf44f3
+  message_board:
+  - https://medium.com/@experty_io
+  source_code:
+  - https://github.com/Experty
+  technical_doc:
+  - https://experty.io/docs/Experty-whitepaper-v2.6.pdf
+  twitter:
+  - https://twitter.com/experty_io
+  website:
+  - https://experty.io/en
 markets:
-- exchange_name: BitBay
+- base:
+    currency_id: 2547
+    currency_symbol: EXY
+    currency_type: cryptocurrency
+    exchange_symbol: EXY
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: EXY/BTC
-  url: https://bitbay.net/en/exchange-rate/experty-price-btc
-- exchange_name: BitBay
-  pair: EXY/EUR
-  url: https://bitbay.net/en/exchange-rate/experty-price-eur
-- exchange_name: BitBay
-  pair: EXY/PLN
-  url: https://bitbay.net/en/exchange-rate/experty-price-pln
-- exchange_name: IDEX
-  pair: EXY/ETH
-  url: https://idex.market/eth/exy
-- exchange_name: KuCoin
-  pair: EXY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://www.kucoin.com/trade/EXY-BTC
-- exchange_name: KuCoin
+- base:
+    currency_id: 2547
+    currency_symbol: EXY
+    currency_type: cryptocurrency
+    exchange_symbol: EXY
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: EXY/PLN
+  quote:
+    currency_id: 2805
+    currency_symbol: PLN
+    currency_type: fiat
+    exchange_symbol: PLN
+  url: https://bitbay.net/en/exchange-rate/experty-price-pln
+- base:
+    currency_id: 2547
+    currency_symbol: EXY
+    currency_type: cryptocurrency
+    exchange_symbol: EXY
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: EXY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitbay.net/en/exchange-rate/experty-price-btc
+- base:
+    currency_id: 2547
+    currency_symbol: EXY
+    currency_type: cryptocurrency
+    exchange_symbol: EXY
+  exchange_id: 310
+  exchange_name: IDEX
   pair: EXY/ETH
-  url: https://www.kucoin.com/trade/EXY-ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/exy
+- base:
+    currency_id: 2547
+    currency_symbol: EXY
+    currency_type: cryptocurrency
+    exchange_symbol: EXY
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: EXY/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://bitbay.net/en/exchange-rate/experty-price-eur
 name: Experty
-rank: 1206
+rank: 1081
+slug: experty
+status: active
 symbol: EXY
-tags:
-- Token
-website_slug: experty

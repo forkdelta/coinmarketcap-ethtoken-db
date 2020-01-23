@@ -1,29 +1,65 @@
 ---
 address: '0xB5Ca46cF1da09248126682a7bd72401fd7A6b151'
+category: token
+date_added: '2018-10-26T00:00:00.000Z'
 id: 3509
 links:
-  Chat: https://t.me/provoco_me
-  Explorer: https://etherscan.io/token/0xb5ca46cf1da09248126682a7bd72401fd7a6b151
-  Explorer 2: https://etherscan.io/address/0xb5ca46cf1da09248126682a7bd72401fd7a6b151
-  Source Code: https://github.com/provocome
-  Twitter: https://twitter.com/provocome?ref_src=coinmarketcap
-  Website: https://provoco.me/
+  chat:
+  - https://t.me/provoco_me
+  explorer:
+  - https://etherscan.io/token/0xb5ca46cf1da09248126682a7bd72401fd7a6b151
+  - https://etherscan.io/address/0xb5ca46cf1da09248126682a7bd72401fd7a6b151
+  source_code:
+  - https://github.com/provocome
+  twitter:
+  - https://twitter.com/provocome
+  website:
+  - https://provoco.me/
 markets:
-- exchange_name: HitBTC
-  pair: VOCO/BTC
-  url: https://hitbtc.com/VOCO-to-BTC
-- exchange_name: HitBTC
-  pair: VOCO/ETH
-  url: https://hitbtc.com/VOCO-to-ETH
-- exchange_name: HitBTC
+- base:
+    currency_id: 3509
+    currency_symbol: VOCO
+    currency_type: cryptocurrency
+    exchange_symbol: VOCO
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: VOCO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
   url: https://hitbtc.com/VOCO-to-USDT
-- exchange_name: STEX
-  pair: VOCO/USDT
-  url: https://app.stex.com/en/basic-trade/pair/USDT/VOCO/1D
+- base:
+    currency_id: 3509
+    currency_symbol: VOCO
+    currency_type: cryptocurrency
+    exchange_symbol: VOCO
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: VOCO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/VOCO-to-BTC
+- base:
+    currency_id: 3509
+    currency_symbol: VOCO
+    currency_type: cryptocurrency
+    exchange_symbol: VOCO
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: VOCO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/VOCO-to-ETH
 name: Provoco Token
-rank: 2001
+rank: 1555
+slug: provoco-token
+status: active
 symbol: VOCO
-tags:
-- Token
-website_slug: provoco-token

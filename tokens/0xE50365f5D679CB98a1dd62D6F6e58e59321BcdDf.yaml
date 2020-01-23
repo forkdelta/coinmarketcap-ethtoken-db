@@ -1,55 +1,107 @@
 ---
 address: '0xE50365f5D679CB98a1dd62D6F6e58e59321BcdDf'
+category: token
+date_added: '2017-10-25T00:00:00.000Z'
 description: "According to the research firm InWara, LATOKEN is the largest IEO (Initial Exchange Offering)\
   \ market. Since 2017, LATOKEN has reportedly connected 130+ startups with 400,000 platform users and\
   \ 1.5 million visitors per month. LA serves as the native asset for the LATOKEN exchange and is used\
-  \ for trading cryptoassets while enhancing liquidity on the LATOKEN exchange. \nAccording to the research\
-  \ firm InWara, LATOKEN is the largest IEO (Initial Exchange Offering) market. Since 2017, LATOKEN has\
-  \ reportedly connected 130+ startups with 400,000 platform users and 1.5 million visitors per month.\
-  \ LA serves as the native asset for the LATOKEN exchange and is used for trading cryptoassets while\
-  \ enhancing liquidity on the LATOKEN exchange. \nLATOKEN aims to be the top digital asset exchange.\
-  \ It has launched an ERC20 decentralized exchange, LADEX, and is building LACHAIN for the security tokens\
-  \ market and HFT DEX. LATOKEN mission is to connect investors and entrepreneurs globally. It is running\
-  \ the Blockchain Economic Forum with government officials, entrepreneurs, and investors.\nLATOKEN aims\
-  \ to be the top digital asset exchange. It has launched an ERC20 decentralized exchange, LADEX, and\
-  \ is building LACHAIN for the security tokens market and HFT DEX. LATOKEN mission is to connect investors\
-  \ and entrepreneurs globally. It is running the Blockchain Economic Forum with government officials,\
-  \ entrepreneurs, and investors.\n<ul></ul>\n<li>Entrepreneurs looking for funding can consider the LATOKEN\
-  \ IEO Launchpad.</li>\n<li>Traders on LATOKEN can access 350+ digital assets, with the option of connecting\
-  \ using RESTful or WebSocket APIs.</li>"
+  \ for trading cryptoassets while enhancing liquidity on the LATOKEN exchange. \n\nLATOKEN aims to be\
+  \ the top digital asset exchange. It has launched an ERC20 decentralized exchange, LADEX, and is building\
+  \ LACHAIN for the security tokens market and HFT DEX. LATOKEN mission is to connect investors and entrepreneurs\
+  \ globally. It is running the Blockchain Economic Forum with government officials, entrepreneurs, and\
+  \ investors.\n\n- Entrepreneurs looking for funding can consider the LATOKEN IEO Launchpad.\n- Traders\
+  \ on LATOKEN can access 350+ digital assets, with the option of connecting using RESTful or WebSocket\
+  \ APIs."
 id: 2090
 links:
-  Chat: https://t.me/latoken
-  Explorer: https://etherscan.io/token/0xe50365f5d679cb98a1dd62d6f6e58e59321bcddf
-  Explorer 2: https://ethplorer.io/address/0xe50365f5d679cb98a1dd62d6f6e58e59321bcddf
-  Learn more: /methodology/#rank
-  Reddit: https://www.reddit.com/r/latoken
-  Source Code: https://github.com/ElKornacio/contracts-early
-  Technical Documentation: https://cdn-new.latoken.com/common/files/whitepaper/latoken-whitepaper-en.pdf
-  Twitter: https://twitter.com/latokens?ref_src=coinmarketcap
-  Website: https://latoken.com/
+  chat:
+  - https://t.me/latoken
+  explorer:
+  - https://etherscan.io/token/0xe50365f5d679cb98a1dd62d6f6e58e59321bcddf
+  - https://ethplorer.io/address/0xe50365f5d679cb98a1dd62d6f6e58e59321bcddf
+  reddit:
+  - https://reddit.com/r/latoken
+  source_code:
+  - https://github.com/ElKornacio/contracts-early
+  technical_doc:
+  - https://cdn-new.latoken.com/common/files/whitepaper/latoken-whitepaper-en.pdf
+  twitter:
+  - https://twitter.com/latokens
+  website:
+  - https://latoken.com/
 markets:
-- exchange_name: HitBTC
+- base:
+    currency_id: 2090
+    currency_symbol: LA
+    currency_type: cryptocurrency
+    exchange_symbol: LA
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: LA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://hitbtc.com/LA-to-ETH
-- exchange_name: LATOKEN
-  pair: EVY/LA
-  url: https://latoken.com/exchange/LA-EVY
-- exchange_name: LATOKEN
-  pair: KNT/LA
-  url: https://latoken.com/exchange/LA-KNT
-- exchange_name: LATOKEN
-  pair: LA/BTC
-  url: https://latoken.com/exchange/BTC-LA
-- exchange_name: LATOKEN
+- base:
+    currency_id: 2090
+    currency_symbol: LA
+    currency_type: cryptocurrency
+    exchange_symbol: LA
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: LA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://latoken.com/exchange/ETH-LA
-- exchange_name: LATOKEN
+- base:
+    currency_id: 2090
+    currency_symbol: LA
+    currency_type: cryptocurrency
+    exchange_symbol: LA
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: LA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://latoken.com/exchange/BTC-LA
+- base:
+    currency_id: 2090
+    currency_symbol: LA
+    currency_type: cryptocurrency
+    exchange_symbol: LA
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: LA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
   url: https://latoken.com/exchange/USDT-LA
+- base:
+    currency_id: 3754
+    currency_symbol: EVY
+    currency_type: cryptocurrency
+    exchange_symbol: EVY
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: EVY/LA
+  quote:
+    currency_id: 2090
+    currency_symbol: LA
+    currency_type: cryptocurrency
+    exchange_symbol: LA
+  url: https://latoken.com/exchange/LA-EVY
 name: LATOKEN
-rank: 236
+rank: 252
+slug: latoken
+status: active
 symbol: LA
-tags:
-- Token
-website_slug: latoken

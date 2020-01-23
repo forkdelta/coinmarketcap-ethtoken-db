@@ -1,37 +1,113 @@
 ---
 address: '0xC28e931814725BbEB9e670676FaBBCb694Fe7DF2'
+category: token
+date_added: '2018-12-04T00:00:00.000Z'
 id: 3625
 links:
-  Chat: https://t.me/quadrantprotocol
-  Explorer: https://etherscan.io/token/0xc28e931814725bbeb9e670676fabbcb694fe7df2
-  Explorer 2: https://ethplorer.io/address/0xc28e931814725bbeb9e670676fabbcb694fe7df2
-  Message Board: https://medium.com/quadrantprotocol
-  Reddit: https://www.reddit.com/r/quadrantprotocol
-  Technical Documentation: https://www.quadrantprotocol.com/whitepaper.pdf
-  Twitter: https://twitter.com/explorequadrant?ref_src=coinmarketcap
-  Website: https://www.quadrantprotocol.com/
+  chat:
+  - https://t.me/quadrantprotocol
+  explorer:
+  - https://etherscan.io/token/0xc28e931814725bbeb9e670676fabbcb694fe7df2
+  - https://ethplorer.io/address/0xc28e931814725bbeb9e670676fabbcb694fe7df2
+  message_board:
+  - https://medium.com/quadrantprotocol
+  reddit:
+  - https://reddit.com/r/quadrantprotocol
+  technical_doc:
+  - https://www.quadrantprotocol.com/whitepaper.pdf
+  twitter:
+  - https://twitter.com/explorequadrant
+  website:
+  - https://www.quadrantprotocol.com/
 markets:
-- exchange_name: Bilaxy
-  pair: eQUAD/ETH
-  url: https://bilaxy.com/exchange
-- exchange_name: CoinBene
+- base:
+    currency_id: 3625
+    currency_symbol: EQUAD
+    currency_type: cryptocurrency
+    exchange_symbol: EQUAD
+  exchange_id: 343
+  exchange_name: CoinBene
   pair: EQUAD/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=EQUADBTC
-- exchange_name: Hotbit
-  pair: EQUAD/BTC
-  url: https://www.hotbit.io/exchange?symbol=EQUAD_BTC
-- exchange_name: Hotbit
+- base:
+    currency_id: 3625
+    currency_symbol: EQUAD
+    currency_type: cryptocurrency
+    exchange_symbol: EQUAD
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: EQUAD/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=EQUAD_ETH
-- exchange_name: IDEX
+- base:
+    currency_id: 3625
+    currency_symbol: EQUAD
+    currency_type: cryptocurrency
+    exchange_symbol: EQUAD
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: EQUAD/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=EQUAD_BTC
+- base:
+    currency_id: 3625
+    currency_symbol: EQUAD
+    currency_type: cryptocurrency
+    exchange_symbol: eQUAD
+  exchange_id: 415
+  exchange_name: Bilaxy
   pair: EQUAD/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/EQUAD_ETH
+- base:
+    currency_id: 3625
+    currency_symbol: EQUAD
+    currency_type: cryptocurrency
+    exchange_symbol: EQUAD
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: EQUAD/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://idex.market/eth/equad
-- exchange_name: Kyber Network
+- base:
+    currency_id: 3625
+    currency_symbol: EQUAD
+    currency_type: cryptocurrency
+    exchange_symbol: EQUAD
+  exchange_id: 404
+  exchange_name: Kyber Network
   pair: EQUAD/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://kyberswap.com/swap/equad-eth
 name: QuadrantProtocol
-rank: 1076
+notice: We have received reports of impeded withdrawals for EQUAD on Coinbene. Please perform your own
+  due diligence.
+rank: 1065
+slug: quadrantprotocol
+status: active
 symbol: EQUAD
-tags:
-- Token
-website_slug: quadrantprotocol

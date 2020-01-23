@@ -1,25 +1,54 @@
 ---
 address: '0x9E77D5a1251b6F7D456722A6eaC6D2d5980bd891'
+category: token
+date_added: '2017-08-27T00:00:00.000Z'
 id: 1926
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=2026798.0
-  Chat: https://t.me/brotherenglish
-  Chat 2: https://t.me/brotherrussia
-  Explorer: https://etherscan.io/token/0x9e77d5a1251b6f7d456722a6eac6d2d5980bd891
-  Explorer 2: https://ethplorer.io/address/0x9e77d5a1251b6f7d456722a6eac6d2d5980bd891
-  Technical Documentation: http://brat.red/WHITE_PAPER_TOKEN_BRAT-EN.pdf
-  Twitter: https://twitter.com/coinBrat?ref_src=coinmarketcap
-  Website: http://bro-consortium.io/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=2026798.0
+  chat:
+  - https://t.me/brotherenglish
+  - https://t.me/brotherrussia
+  explorer:
+  - https://etherscan.io/token/0x9e77d5a1251b6f7d456722a6eac6d2d5980bd891
+  - https://ethplorer.io/address/0x9e77d5a1251b6f7d456722a6eac6d2d5980bd891
+  technical_doc:
+  - http://brat.red/WHITE_PAPER_TOKEN_BRAT-EN.pdf
+  twitter:
+  - https://twitter.com/coinBrat
+  website:
+  - http://bro-consortium.io/
 markets:
-- exchange_name: YoBit
+- base:
+    currency_id: 1926
+    currency_symbol: BRAT
+    currency_type: cryptocurrency
+    exchange_symbol: BRAT
+  exchange_id: 100
+  exchange_name: YoBit
   pair: BRAT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://yobit.net/en/trade/BRAT/BTC
-- exchange_name: YoBit
+- base:
+    currency_id: 1926
+    currency_symbol: BRAT
+    currency_type: cryptocurrency
+    exchange_symbol: BRAT
+  exchange_id: 100
+  exchange_name: YoBit
   pair: BRAT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
   url: https://yobit.net/en/trade/BRAT/USD
 name: BROTHER
-rank: 1924
+rank: 1965
+slug: brat
+status: active
 symbol: BRAT
-tags:
-- Token
-website_slug: brat

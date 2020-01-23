@@ -1,27 +1,59 @@
 ---
 address: '0x755eb14D2fefF2939EB3026f5CaD9D03775b9fF4'
+category: token
+date_added: '2018-09-20T00:00:00.000Z'
 id: 3321
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=3046746
-  Chat: https://t.me/BunnyToken
-  Explorer: https://etherscan.io/token/0x755eb14D2fefF2939EB3026f5CaD9D03775b9fF4
-  Explorer 2: https://ethplorer.io/address/0x755eb14D2fefF2939EB3026f5CaD9D03775b9fF4
-  Message Board: https://medium.com/@BunnyToken
-  Reddit: https://www.reddit.com/r/BunnyToken
-  Source Code: https://github.com/BunnyToken/smartcontracts
-  Technical Documentation: https://bunnytoken.com/data/BunnyToken_whitepaper.pdf
-  Twitter: https://twitter.com/bunnytoken?ref_src=coinmarketcap
-  Website: https://bunnytoken.com/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=3046746
+  chat:
+  - https://t.me/BunnyToken
+  explorer:
+  - https://etherscan.io/token/0x755eb14D2fefF2939EB3026f5CaD9D03775b9fF4
+  - https://ethplorer.io/address/0x755eb14D2fefF2939EB3026f5CaD9D03775b9fF4
+  message_board:
+  - https://medium.com/@BunnyToken
+  reddit:
+  - https://reddit.com/r/BunnyToken
+  source_code:
+  - https://github.com/BunnyToken/smartcontracts
+  technical_doc:
+  - https://bunnytoken.com/data/BunnyToken_whitepaper.pdf
+  twitter:
+  - https://twitter.com/bunnytoken
+  website:
+  - https://bunnytoken.com/
 markets:
-- exchange_name: YoBit
-  pair: BUNNY/BTC
-  url: https://yobit.net/en/trade/BUNNY/BTC
-- exchange_name: YoBit
+- base:
+    currency_id: 3321
+    currency_symbol: BUNNY
+    currency_type: cryptocurrency
+    exchange_symbol: BUNNY
+  exchange_id: 100
+  exchange_name: YoBit
   pair: BUNNY/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://yobit.net/en/trade/BUNNY/ETH
+- base:
+    currency_id: 3321
+    currency_symbol: BUNNY
+    currency_type: cryptocurrency
+    exchange_symbol: BUNNY
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: BUNNY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/BUNNY/BTC
 name: BunnyToken
-rank: 1929
+rank: 1885
+slug: bunnytoken
+status: active
 symbol: BUNNY
-tags:
-- Token
-website_slug: bunnytoken

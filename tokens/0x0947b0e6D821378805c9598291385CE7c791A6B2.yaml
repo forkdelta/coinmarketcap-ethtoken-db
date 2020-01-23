@@ -1,35 +1,85 @@
 ---
 address: '0x0947b0e6D821378805c9598291385CE7c791A6B2'
+category: token
+date_added: '2018-04-30T00:00:00.000Z'
 id: 2686
 links:
-  Chat: https://t.me/lendingblock
-  Explorer: https://etherscan.io/token/0x0947b0e6d821378805c9598291385ce7c791a6b2
-  Explorer 2: https://ethplorer.io/address/0x0947b0e6d821378805c9598291385ce7c791a6b2
-  Message Board: https://www.lendingblocklibrary.com/
-  Reddit: https://www.reddit.com/r/Lendingblock
-  Source Code: https://github.com/lendingblock
-  Technical Documentation: https://lendingblock.com/#section-whitepaper
-  Twitter: https://twitter.com/lendingblock?ref_src=coinmarketcap
-  Website: https://lendingblock.com/
+  chat:
+  - https://t.me/lendingblock
+  explorer:
+  - https://etherscan.io/token/0x0947b0e6d821378805c9598291385ce7c791a6b2
+  - https://ethplorer.io/address/0x0947b0e6d821378805c9598291385ce7c791a6b2
+  message_board:
+  - https://www.lendingblocklibrary.com/
+  reddit:
+  - https://reddit.com/r/Lendingblock
+  source_code:
+  - https://github.com/lendingblock
+  technical_doc:
+  - https://lendingblock.com/#section-whitepaper
+  twitter:
+  - https://twitter.com/lendingblock
+  website:
+  - https://lendingblock.com/
 markets:
-- exchange_name: Bilaxy
+- base:
+    currency_id: 2686
+    currency_symbol: LND
+    currency_type: cryptocurrency
+    exchange_symbol: LND
+  exchange_id: 415
+  exchange_name: Bilaxy
   pair: LND/ETH
-  url: https://bilaxy.com/exchange
-- exchange_name: HitBTC
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/LND_ETH
+- base:
+    currency_id: 2686
+    currency_symbol: LND
+    currency_type: cryptocurrency
+    exchange_symbol: LND
+  exchange_id: 310
+  exchange_name: IDEX
   pair: LND/ETH
-  url: https://hitbtc.com/LND-to-ETH
-- exchange_name: IDEX
-  pair: LND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://idex.market/eth/lnd
-- exchange_name: Liquid
-  pair: LND/BTC
-  url: https://app.liquid.com/exchange/LNDBTC
-- exchange_name: Liquid
+- base:
+    currency_id: 2686
+    currency_symbol: LND
+    currency_type: cryptocurrency
+    exchange_symbol: LND
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: LND/ETH
-  url: https://app.liquid.com/exchange/LNDETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/LND-to-ETH
+- base:
+    currency_id: 2686
+    currency_symbol: LND
+    currency_type: cryptocurrency
+    exchange_symbol: LND
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: LND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/LNDBTC
 name: Lendingblock
-rank: 586
+rank: 780
+slug: lendingblock
+status: active
 symbol: LND
-tags:
-- Token
-website_slug: lendingblock

@@ -1,57 +1,94 @@
 ---
 address: '0x624d520BAB2E4aD83935Fa503fB130614374E850'
+category: token
+date_added: '2018-06-14T00:00:00.000Z'
 id: 2862
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=3329997.0
-  Chat: https://t.me/SmartshareOfficial
-  Chat 2: https://t.me/SmartshareOfficialEN
-  Explorer: https://etherscan.io/token/0x624d520bab2e4ad83935fa503fb130614374e850
-  Explorer 2: https://ethplorer.io/address/0x624d520bab2e4ad83935fa503fb130614374e850
-  Twitter: https://twitter.com/Smartshare_vip?ref_src=coinmarketcap
-  Website: https://smartshare.vip/#/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=3329997.0
+  chat:
+  - https://t.me/SmartshareOfficial
+  - https://t.me/SmartshareOfficialEN
+  explorer:
+  - https://etherscan.io/token/0x624d520bab2e4ad83935fa503fb130614374e850
+  - https://ethplorer.io/address/0x624d520bab2e4ad83935fa503fb130614374e850
+  twitter:
+  - https://twitter.com/Smartshare_vip
+  website:
+  - https://smartshare.vip/#/
 markets:
-- exchange_name: Bitinka
+- base:
+    currency_id: 2862
+    currency_symbol: SSP
+    currency_type: fiat
+    exchange_symbol: SSP
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: SSP/BTC
-  url: https://www.bitinka.com/
-- exchange_name: Bitinka
-  pair: SSP/ETH
-  url: https://www.bitinka.com/
-- exchange_name: Bitinka
-  pair: SSP/EUR
-  url: https://www.bitinka.com/
-- exchange_name: Bitinka
-  pair: SSP/USD
-  url: https://www.bitinka.com/
-- exchange_name: Bitinka
-  pair: SSP/USDT
-  url: https://www.bitinka.com/
-- exchange_name: CoinEgg
-  pair: SSP/BTC
-  url: https://www.coinegg.com/btc/ssp/
-- exchange_name: DigiFinex
-  pair: SSP/ETH
-  url: https://www.digifinex.com/trade/ETH/SSP
-- exchange_name: Huobi Global
-  pair: SSP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://www.hbg.com/en-us/exchange/ssp_btc/
-- exchange_name: Huobi Global
+- base:
+    currency_id: 2862
+    currency_symbol: SSP
+    currency_type: fiat
+    exchange_symbol: SSP
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: SSP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/ssp_eth/
-- exchange_name: Indodax
-  pair: SSP/IDR
-  url: https://indodax.com/market/SSPIDR
-- exchange_name: OKEx
+- base:
+    currency_id: 2862
+    currency_symbol: SSP
+    currency_type: fiat
+    exchange_symbol: SSP
+  exchange_id: 328
+  exchange_name: CoinEgg
   pair: SSP/BTC
-  url: https://www.okex.com/market?product=ssp_btc
-- exchange_name: OKEx
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinegg.com/btc/ssp/
+- base:
+    currency_id: 2862
+    currency_symbol: SSP
+    currency_type: fiat
+    exchange_symbol: SSP
+  exchange_id: 407
+  exchange_name: DigiFinex
   pair: SSP/ETH
-  url: https://www.okex.com/market?product=ssp_eth
-- exchange_name: OKEx
-  pair: SSP/USDT
-  url: https://www.okex.com/market?product=ssp_usdt
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.digifinex.com/en-ww/trade/ETH/SSP
+- base:
+    currency_id: 2862
+    currency_symbol: SSP
+    currency_type: fiat
+    exchange_symbol: SSP
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: SSP/IDR
+  quote:
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/SSPIDR
 name: Smartshare
-rank: 757
+rank: 934
+slug: smartshare
+status: active
 symbol: SSP
-tags:
-- Token
-website_slug: smartshare

@@ -1,32 +1,83 @@
 ---
 address: '0xC38f1fb49acDf2f1213CAf3319F6Eb3ea2cB7527'
+category: token
+date_added: '2018-10-17T00:00:00.000Z'
 id: 3460
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=2795842.0
-  Chat: https://t.me/joinchat/EArupgwBjB7GZFJSodtRHg
-  Explorer: https://etherscan.io/token/0xc38f1fb49acdf2f1213caf3319f6eb3ea2cb7527
-  Explorer 2: https://ethplorer.io/address/0xc38f1fb49acdf2f1213caf3319f6eb3ea2cb7527
-  Message Board: https://www.bitcoinus.com/blog/
-  Source Code: https://github.com/Bitcoinus
-  Twitter: https://twitter.com/bitcoinus_io?ref_src=coinmarketcap
-  Website: https://www.bitcoinus.com/
-  Website 2: https://www.bitcoinus.com/our-token/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=2795842.0
+  chat:
+  - https://t.me/joinchat/EArupgwBjB7GZFJSodtRHg
+  explorer:
+  - https://etherscan.io/token/0xc38f1fb49acdf2f1213caf3319f6eb3ea2cb7527
+  - https://ethplorer.io/address/0xc38f1fb49acdf2f1213caf3319f6eb3ea2cb7527
+  message_board:
+  - https://www.bitcoinus.com/blog/
+  source_code:
+  - https://github.com/Bitcoinus
+  twitter:
+  - https://twitter.com/bitcoinus_io
+  website:
+  - https://www.bitcoinus.com/
 markets:
-- exchange_name: HitBTC
-  pair: BITS/BTC
-  url: https://hitbtc.com/BITS-to-BTC
-- exchange_name: HitBTC
-  pair: BITS/ETH
-  url: https://hitbtc.com/BITS-to-ETH
-- exchange_name: HitBTC
+- base:
+    currency_id: 3460
+    currency_symbol: BITS
+    currency_type: cryptocurrency
+    exchange_symbol: BITS
+  exchange_id: 245
+  exchange_name: STEX
   pair: BITS/USDT
-  url: https://hitbtc.com/BITS-to-USDT
-- exchange_name: STEX
-  pair: BITS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
   url: https://app.stex.com/en/basic-trade/pair/USDT/BITS/1D
+- base:
+    currency_id: 3460
+    currency_symbol: BITS
+    currency_type: cryptocurrency
+    exchange_symbol: BITS
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BITS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/BITS-to-USDT
+- base:
+    currency_id: 3460
+    currency_symbol: BITS
+    currency_type: cryptocurrency
+    exchange_symbol: BITS
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BITS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/BITS-to-BTC
+- base:
+    currency_id: 3460
+    currency_symbol: BITS
+    currency_type: cryptocurrency
+    exchange_symbol: BITS
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BITS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/BITS-to-ETH
 name: Bitcoinus
-rank: 2005
+rank: 1705
+slug: bitcoinus
+status: active
 symbol: BITS
-tags:
-- Token
-website_slug: bitcoinus

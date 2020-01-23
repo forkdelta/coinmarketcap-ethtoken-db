@@ -1,32 +1,65 @@
 ---
 address: '0x2AEC18c5500f21359CE1BEA5Dc1777344dF4C0Dc'
+category: token
+date_added: '2018-08-14T00:00:00.000Z'
 id: 3168
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=2496382
-  Explorer: https://etherscan.io/token/0x2aec18c5500f21359ce1bea5dc1777344df4c0dc
-  Explorer 2: https://ethplorer.io/address/0x2aec18c5500f21359ce1bea5dc1777344df4c0dc
-  Reddit: https://www.reddit.com/r/FarmaTrust
-  Twitter: https://twitter.com/farmatrust?ref_src=coinmarketcap
-  Website: https://www.farmatrust.com/
+  announcement:
+  - https://bitcointalk.org/index.php?topic=2496382
+  explorer:
+  - https://etherscan.io/token/0x2aec18c5500f21359ce1bea5dc1777344df4c0dc
+  - https://ethplorer.io/address/0x2aec18c5500f21359ce1bea5dc1777344df4c0dc
+  reddit:
+  - https://reddit.com/r/FarmaTrust
+  twitter:
+  - https://twitter.com/farmatrust
+  website:
+  - https://www.farmatrust.com/
 markets:
-- exchange_name: CoinBene
-  pair: FTT/BTC
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=FTTBTC
-- exchange_name: IDEX
+- base:
+    currency_id: 3168
+    currency_symbol: FTT
+    currency_type: cryptocurrency
+    exchange_symbol: FTT
+  exchange_id: 310
+  exchange_name: IDEX
   pair: FTT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://idex.market/eth/ftt
-- exchange_name: Liquid
+- base:
+    currency_id: 3168
+    currency_symbol: FTT
+    currency_type: cryptocurrency
+    exchange_symbol: FTT
+  exchange_id: 112
+  exchange_name: Liquid
   pair: FTT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://app.liquid.com/exchange/FTTBTC
-- exchange_name: Liquid
-  pair: FTT/ETH
-  url: https://app.liquid.com/exchange/FTTETH
-- exchange_name: Liquid
-  pair: FTT/QASH
-  url: https://app.liquid.com/exchange/FTTQASH
+- base:
+    currency_id: 3168
+    currency_symbol: FTT
+    currency_type: cryptocurrency
+    exchange_symbol: FTT
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: FTT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=FTTBTC
 name: FarmaTrust
-rank: 1014
+rank: 932
+slug: farmatrust
+status: active
 symbol: FTT
-tags:
-- Token
-website_slug: farmatrust

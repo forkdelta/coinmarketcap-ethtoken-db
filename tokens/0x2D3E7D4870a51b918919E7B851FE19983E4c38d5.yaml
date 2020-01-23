@@ -1,25 +1,55 @@
 ---
 address: '0x2D3E7D4870a51b918919E7B851FE19983E4c38d5'
+category: token
+date_added: '2018-09-05T00:00:00.000Z'
 id: 3245
 links:
-  Announcement: https://bitcointalk.org/index.php?topic=3109856.0
-  Chat: https://t.me/ubcoinmarket
-  Explorer: https://etherscan.io/token/0x2d3e7d4870a51b918919e7b851fe19983e4c38d5
-  Explorer 2: https://ethplorer.io/address/0x2d3e7d4870a51b918919e7b851fe19983e4c38d5
-  Message Board: https://medium.com/@ubcoin
-  Source Code: https://github.com/ubcoin/ubcoin
-  Twitter: https://twitter.com/ubcoin?ref_src=coinmarketcap
-  Website: https://ubcoin.io/en
+  announcement:
+  - https://bitcointalk.org/index.php?topic=3109856.0
+  chat:
+  - https://t.me/ubcoinmarket
+  explorer:
+  - https://etherscan.io/token/0x2d3e7d4870a51b918919e7b851fe19983e4c38d5
+  - https://ethplorer.io/address/0x2d3e7d4870a51b918919e7b851fe19983e4c38d5
+  message_board:
+  - https://medium.com/@ubcoin
+  source_code:
+  - https://github.com/ubcoin/ubcoin
+  twitter:
+  - https://twitter.com/ubcoin
+  website:
+  - https://ubcoin.io/en
 markets:
-- exchange_name: COSS
+- base:
+    currency_id: 3245
+    currency_symbol: UBC
+    currency_type: cryptocurrency
+    exchange_symbol: UBC
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: UBC/ETH
-  url: https://coss.io/c/trade?s=UBC_ETH
-- exchange_name: LATOKEN
-  pair: UBC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   url: https://latoken.com/exchange/ETH-UBC
+- base:
+    currency_id: 3245
+    currency_symbol: UBC
+    currency_type: cryptocurrency
+    exchange_symbol: UBC
+  exchange_id: 242
+  exchange_name: COSS
+  pair: UBC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coss.io/c/trade?s=UBC_ETH
 name: Ubcoin Market
-rank: 1009
+rank: 1117
+slug: ubcoin-market
+status: active
 symbol: UBC
-tags:
-- Token
-website_slug: ubcoin-market
