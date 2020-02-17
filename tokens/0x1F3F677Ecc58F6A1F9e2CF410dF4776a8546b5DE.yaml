@@ -39,20 +39,6 @@ markets:
     exchange_symbol: VNDC
   url: https://exmarkets.com/trade/usdt-vndc
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 535
-  exchange_name: ExMarkets
-  pair: BTC/VNDC
-  quote:
-    currency_id: 4805
-    currency_symbol: VNDC
-    currency_type: cryptocurrency
-    exchange_symbol: VNDC
-  url: https://exmarkets.com/trade/btc-vndc
-- base:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
@@ -95,20 +81,6 @@ markets:
     exchange_symbol: USDT
   url: https://vindax.com/exchange-base.html?symbol=VNDC_USDT
 - base:
-    currency_id: 4805
-    currency_symbol: VNDC
-    currency_type: cryptocurrency
-    exchange_symbol: VNDC
-  exchange_id: 487
-  exchange_name: VinDAX
-  pair: VNDC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vindax.com/exchange-base.html?symbol=VNDC_ETH
-- base:
     currency_id: 4180
     currency_symbol: DDK
     currency_type: cryptocurrency
@@ -122,6 +94,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: VNDC
   url: https://exmarkets.com/trade/ddk-vndc
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 535
+  exchange_name: ExMarkets
+  pair: BTC/VNDC
+  quote:
+    currency_id: 4805
+    currency_symbol: VNDC
+    currency_type: cryptocurrency
+    exchange_symbol: VNDC
+  url: https://exmarkets.com/trade/btc-vndc
+- base:
+    currency_id: 4805
+    currency_symbol: VNDC
+    currency_type: cryptocurrency
+    exchange_symbol: VNDC
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: VNDC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vindax.com/exchange-base.html?symbol=VNDC_ETH
 - base:
     currency_id: 4805
     currency_symbol: VNDC
@@ -137,7 +137,7 @@ markets:
     exchange_symbol: BTC
   url: https://vindax.com/exchange-base.html?symbol=VNDC_BTC
 name: VNDC
-rank: 765
+rank: 690
 slug: vndc
 status: active
 symbol: VNDC

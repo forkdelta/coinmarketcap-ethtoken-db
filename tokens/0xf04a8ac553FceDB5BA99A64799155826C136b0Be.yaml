@@ -30,15 +30,15 @@ markets:
     currency_symbol: FLIXX
     currency_type: cryptocurrency
     exchange_symbol: FLIXX
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: FLIXX/BTC
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: FLIXX/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/FLIXX_BTC
+    exchange_symbol: ETH
+  url: https://app.liquid.com/exchange/FLIXXETH
 - base:
     currency_id: 2231
     currency_symbol: FLIXX
@@ -60,20 +60,6 @@ markets:
     exchange_symbol: FLIXX
   exchange_id: 112
   exchange_name: Liquid
-  pair: FLIXX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://app.liquid.com/exchange/FLIXXETH
-- base:
-    currency_id: 2231
-    currency_symbol: FLIXX
-    currency_type: cryptocurrency
-    exchange_symbol: FLIXX
-  exchange_id: 112
-  exchange_name: Liquid
   pair: FLIXX/BTC
   quote:
     currency_id: 1
@@ -81,6 +67,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://app.liquid.com/exchange/FLIXXBTC
+- base:
+    currency_id: 2231
+    currency_symbol: FLIXX
+    currency_type: cryptocurrency
+    exchange_symbol: FLIXX
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: FLIXX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/FLIXX_BTC
 - base:
     currency_id: 2231
     currency_symbol: FLIXX
@@ -96,7 +96,7 @@ markets:
     exchange_symbol: QASH
   url: https://app.liquid.com/exchange/FLIXXQASH
 name: Flixxo
-rank: 1061
+rank: 1036
 slug: flixxo
 status: active
 symbol: FLIXX

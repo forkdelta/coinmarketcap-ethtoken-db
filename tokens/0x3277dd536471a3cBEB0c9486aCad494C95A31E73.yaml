@@ -31,20 +31,6 @@ markets:
     exchange_symbol: CHT
   exchange_id: 640
   exchange_name: CoinHe
-  pair: CHT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coinhe.io/trading/usdt-cht
-- base:
-    currency_id: 4701
-    currency_symbol: CHT
-    currency_type: cryptocurrency
-    exchange_symbol: CHT
-  exchange_id: 640
-  exchange_name: CoinHe
   pair: CHT/BTC
   quote:
     currency_id: 1
@@ -52,8 +38,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coinhe.io/trading/btc-cht
+- base:
+    currency_id: 4701
+    currency_symbol: CHT
+    currency_type: cryptocurrency
+    exchange_symbol: CHT
+  exchange_id: 640
+  exchange_name: CoinHe
+  pair: CHT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coinhe.io/trading/usdt-cht
 name: CoinHe Token
-rank: 2052
+rank: 2053
 slug: coinhe-token
 status: active
 symbol: CHT

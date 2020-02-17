@@ -35,20 +35,6 @@ markets:
     currency_symbol: XMX
     currency_type: cryptocurrency
     exchange_symbol: XMX
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: XMX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=XMX_ETH
-- base:
-    currency_id: 2859
-    currency_symbol: XMX
-    currency_type: cryptocurrency
-    exchange_symbol: XMX
   exchange_id: 544
   exchange_name: MXC
   pair: XMX/USDT
@@ -79,27 +65,13 @@ markets:
     exchange_symbol: XMX
   exchange_id: 400
   exchange_name: Hotbit
-  pair: XMX/BTC
+  pair: XMX/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=XMX_BTC
-- base:
-    currency_id: 2859
-    currency_symbol: XMX
-    currency_type: cryptocurrency
-    exchange_symbol: XMX
-  exchange_id: 468
-  exchange_name: OceanEx
-  pair: XMX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://oceanex.pro/trades/xmxbtc
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=XMX_ETH
 - base:
     currency_id: 2859
     currency_symbol: XMX
@@ -119,15 +91,15 @@ markets:
     currency_symbol: XMX
     currency_type: cryptocurrency
     exchange_symbol: XMX
-  exchange_id: 468
-  exchange_name: OceanEx
-  pair: XMX/VET
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: XMX/BTC
   quote:
-    currency_id: 3077
-    currency_symbol: VET
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: VET
-  url: https://oceanex.pro/trades/xmxvet
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=XMX_BTC
 - base:
     currency_id: 2859
     currency_symbol: XMX
@@ -147,15 +119,29 @@ markets:
     currency_symbol: XMX
     currency_type: cryptocurrency
     exchange_symbol: XMX
-  exchange_id: 528
-  exchange_name: BiKi
+  exchange_id: 468
+  exchange_name: OceanEx
   pair: XMX/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.biki.com/trade/XMX_BTC
+  url: https://oceanex.pro/trades/xmxbtc
+- base:
+    currency_id: 2859
+    currency_symbol: XMX
+    currency_type: cryptocurrency
+    exchange_symbol: XMX
+  exchange_id: 468
+  exchange_name: OceanEx
+  pair: XMX/VET
+  quote:
+    currency_id: 3077
+    currency_symbol: VET
+    currency_type: cryptocurrency
+    exchange_symbol: VET
+  url: https://oceanex.pro/trades/xmxvet
 - base:
     currency_id: 2859
     currency_symbol: XMX
@@ -175,6 +161,20 @@ markets:
     currency_symbol: XMX
     currency_type: cryptocurrency
     exchange_symbol: XMX
+  exchange_id: 528
+  exchange_name: BiKi
+  pair: XMX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.biki.com/trade/XMX_BTC
+- base:
+    currency_id: 2859
+    currency_symbol: XMX
+    currency_type: cryptocurrency
+    exchange_symbol: XMX
   exchange_id: 353
   exchange_name: OTCBTC
   pair: XMX/BTC
@@ -185,7 +185,7 @@ markets:
     exchange_symbol: BTC
   url: https://bb.otcbtc.com/exchange/markets/xmxbtc
 name: XMax
-rank: 152
+rank: 148
 slug: xmax
 status: active
 symbol: XMX

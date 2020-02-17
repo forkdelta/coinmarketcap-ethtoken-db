@@ -29,20 +29,6 @@ markets:
     currency_symbol: CELR
     currency_type: cryptocurrency
     exchange_symbol: CELR
-  exchange_id: 174
-  exchange_name: Coinone
-  pair: CELR/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://coinone.co.kr/exchange/trade/celr/
-- base:
-    currency_id: 3814
-    currency_symbol: CELR
-    currency_type: cryptocurrency
-    exchange_symbol: CELR
   exchange_id: 544
   exchange_name: MXC
   pair: CELR/ETH
@@ -57,15 +43,29 @@ markets:
     currency_symbol: CELR
     currency_type: cryptocurrency
     exchange_symbol: CELR
-  exchange_id: 398
-  exchange_name: DragonEX
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CELR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/CELR_BTC
+- base:
+    currency_id: 3814
+    currency_symbol: CELR
+    currency_type: cryptocurrency
+    exchange_symbol: CELR
+  exchange_id: 270
+  exchange_name: Binance
   pair: CELR/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://dragonex.io
+  url: https://www.binance.com/en/trade/CELR_USDT
 - base:
     currency_id: 3814
     currency_symbol: CELR
@@ -85,6 +85,20 @@ markets:
     currency_symbol: CELR
     currency_type: cryptocurrency
     exchange_symbol: CELR
+  exchange_id: 398
+  exchange_name: DragonEX
+  pair: CELR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://dragonex.io
+- base:
+    currency_id: 3814
+    currency_symbol: CELR
+    currency_type: cryptocurrency
+    exchange_symbol: CELR
   exchange_id: 415
   exchange_name: Bilaxy
   pair: CELR/USDT
@@ -94,6 +108,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bilaxy.com/trade/CELR_USDT
+- base:
+    currency_id: 3814
+    currency_symbol: CELR
+    currency_type: cryptocurrency
+    exchange_symbol: CELR
+  exchange_id: 174
+  exchange_name: Coinone
+  pair: CELR/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://coinone.co.kr/exchange/trade/celr/
 - base:
     currency_id: 3814
     currency_symbol: CELR
@@ -129,55 +157,13 @@ markets:
     exchange_symbol: CELR
   exchange_id: 270
   exchange_name: Binance
-  pair: CELR/BTC
+  pair: CELR/BNB
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/CELR_BTC
-- base:
-    currency_id: 3814
-    currency_symbol: CELR
-    currency_type: cryptocurrency
-    exchange_symbol: CELR
-  exchange_id: 270
-  exchange_name: Binance
-  pair: CELR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/CELR_USDT
-- base:
-    currency_id: 3814
-    currency_symbol: CELR
-    currency_type: cryptocurrency
-    exchange_symbol: CELR
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: CELR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/celr
-- base:
-    currency_id: 3814
-    currency_symbol: CELR
-    currency_type: cryptocurrency
-    exchange_symbol: CELR
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: CELR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=CELR_USDT
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/CELR_BNB
 - base:
     currency_id: 3814
     currency_symbol: CELR
@@ -197,15 +183,15 @@ markets:
     currency_symbol: CELR
     currency_type: cryptocurrency
     exchange_symbol: CELR
-  exchange_id: 270
-  exchange_name: Binance
-  pair: CELR/BNB
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: CELR/USDT
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/CELR_BNB
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=CELR_USDT
 - base:
     currency_id: 3814
     currency_symbol: CELR
@@ -239,15 +225,15 @@ markets:
     currency_symbol: CELR
     currency_type: cryptocurrency
     exchange_symbol: CELR
-  exchange_id: 446
-  exchange_name: TOKOK
-  pair: CELR/USDT
+  exchange_id: 539
+  exchange_name: BitAsset
+  pair: CELR/TWD
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.tokok.com/market?symbol=CELR_USDT
+    currency_id: 2811
+    currency_symbol: TWD
+    currency_type: fiat
+    exchange_symbol: TWD
+  url: https://www.bitasset.com/ktrade/CELR-TWD
 - base:
     currency_id: 3814
     currency_symbol: CELR
@@ -267,15 +253,43 @@ markets:
     currency_symbol: CELR
     currency_type: cryptocurrency
     exchange_symbol: CELR
-  exchange_id: 539
-  exchange_name: BitAsset
-  pair: CELR/TWD
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: CELR/USDT
   quote:
-    currency_id: 2811
-    currency_symbol: TWD
-    currency_type: fiat
-    exchange_symbol: TWD
-  url: https://www.bitasset.com/ktrade/CELR-TWD
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/celr
+- base:
+    currency_id: 3814
+    currency_symbol: CELR
+    currency_type: cryptocurrency
+    exchange_symbol: CELR
+  exchange_id: 446
+  exchange_name: TOKOK
+  pair: CELR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.tokok.com/market?symbol=CELR_USDT
+- base:
+    currency_id: 3814
+    currency_symbol: CELR
+    currency_type: cryptocurrency
+    exchange_symbol: CELR
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: CELR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/CELR-USDT
 - base:
     currency_id: 3814
     currency_symbol: CELR
@@ -295,6 +309,34 @@ markets:
     currency_symbol: CELR
     currency_type: cryptocurrency
     exchange_symbol: CELR
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: CELR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://wazirx.com/exchange/CELR-BTC
+- base:
+    currency_id: 3814
+    currency_symbol: CELR
+    currency_type: cryptocurrency
+    exchange_symbol: CELR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: CELR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/CELR-to-BTC
+- base:
+    currency_id: 3814
+    currency_symbol: CELR
+    currency_type: cryptocurrency
+    exchange_symbol: CELR
   exchange_id: 302
   exchange_name: Gate.io
   pair: CELR/ETH
@@ -304,20 +346,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/celr_eth
-- base:
-    currency_id: 3814
-    currency_symbol: CELR
-    currency_type: cryptocurrency
-    exchange_symbol: CELR
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: CELR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/CELR-USDT
 - base:
     currency_id: 3814
     currency_symbol: CELR
@@ -360,22 +388,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.coinall.com/market?product=celr_usdt
-- base:
-    currency_id: 3814
-    currency_symbol: CELR
-    currency_type: cryptocurrency
-    exchange_symbol: CELR
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: CELR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://wazirx.com/exchange/CELR-BTC
 name: Celer Network
-rank: 198
+rank: 199
 slug: celer-network
 status: active
 symbol: CELR

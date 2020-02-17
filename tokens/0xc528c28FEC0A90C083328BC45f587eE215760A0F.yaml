@@ -42,34 +42,6 @@ markets:
     currency_symbol: EDR
     currency_type: cryptocurrency
     exchange_symbol: EDR
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: EDR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=EDR_ETH
-- base:
-    currency_id: 2835
-    currency_symbol: EDR
-    currency_type: cryptocurrency
-    exchange_symbol: EDR
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: EDR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=EDR_BTC
-- base:
-    currency_id: 2835
-    currency_symbol: EDR
-    currency_type: cryptocurrency
-    exchange_symbol: EDR
   exchange_id: 403
   exchange_name: BitForex
   pair: EDR/ETH
@@ -84,15 +56,15 @@ markets:
     currency_symbol: EDR
     currency_type: cryptocurrency
     exchange_symbol: EDR
-  exchange_id: 391
-  exchange_name: CoinTiger
-  pair: EDR/USDT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: EDR/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=edr_usdt
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=EDR_ETH
 - base:
     currency_id: 2835
     currency_symbol: EDR
@@ -112,15 +84,43 @@ markets:
     currency_symbol: EDR
     currency_type: cryptocurrency
     exchange_symbol: EDR
-  exchange_id: 442
-  exchange_name: Coinbit
-  pair: EDR/KRW
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: EDR/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.coinbit.co.kr/trade/order/krw-edr
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=EDR_BTC
+- base:
+    currency_id: 2835
+    currency_symbol: EDR
+    currency_type: cryptocurrency
+    exchange_symbol: EDR
+  exchange_id: 391
+  exchange_name: CoinTiger
+  pair: EDR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=edr_usdt
+- base:
+    currency_id: 2835
+    currency_symbol: EDR
+    currency_type: cryptocurrency
+    exchange_symbol: EDR
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: EDR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/edr
 - base:
     currency_id: 2835
     currency_symbol: EDR
@@ -140,20 +140,6 @@ markets:
     currency_symbol: EDR
     currency_type: cryptocurrency
     exchange_symbol: EDR
-  exchange_id: 407
-  exchange_name: DigiFinex
-  pair: EDR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.digifinex.com/en-ww/trade/USDT/EDR
-- base:
-    currency_id: 2835
-    currency_symbol: EDR
-    currency_type: cryptocurrency
-    exchange_symbol: EDR
   exchange_id: 415
   exchange_name: Bilaxy
   pair: EDR/ETH
@@ -168,15 +154,15 @@ markets:
     currency_symbol: EDR
     currency_type: cryptocurrency
     exchange_symbol: EDR
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: EDR/ETH
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: EDR/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/edr
+    exchange_symbol: USDT
+  url: https://www.digifinex.com/en-ww/trade/USDT/EDR
 - base:
     currency_id: 2835
     currency_symbol: EDR
@@ -303,8 +289,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/edr_btc/
+- base:
+    currency_id: 2835
+    currency_symbol: EDR
+    currency_type: cryptocurrency
+    exchange_symbol: EDR
+  exchange_id: 442
+  exchange_name: Coinbit
+  pair: EDR/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.coinbit.co.kr/trade/order/krw-edr
 name: Endor Protocol
-rank: 587
+rank: 471
 slug: endor-protocol
 status: active
 symbol: EDR

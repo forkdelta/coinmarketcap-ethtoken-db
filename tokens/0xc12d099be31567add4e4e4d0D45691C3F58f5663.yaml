@@ -30,43 +30,15 @@ markets:
     currency_symbol: AUC
     currency_type: cryptocurrency
     exchange_symbol: AUC
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: AUC/BTC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: AUC/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/AUC:BTC
-- base:
-    currency_id: 2653
-    currency_symbol: AUC
-    currency_type: cryptocurrency
-    exchange_symbol: AUC
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: AUC/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/AUC
-- base:
-    currency_id: 2653
-    currency_symbol: AUC
-    currency_type: cryptocurrency
-    exchange_symbol: AUC
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: AUC/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/AUC:USD
+    exchange_symbol: ETH
+  url: https://hitbtc.com/AUC-to-ETH
 - base:
     currency_id: 2653
     currency_symbol: AUC
@@ -88,6 +60,20 @@ markets:
     exchange_symbol: AUC
   exchange_id: 37
   exchange_name: Bitfinex
+  pair: AUC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/AUC:BTC
+- base:
+    currency_id: 2653
+    currency_symbol: AUC
+    currency_type: cryptocurrency
+    exchange_symbol: AUC
+  exchange_id: 37
+  exchange_name: Bitfinex
   pair: AUC/ETH
   quote:
     currency_id: 1027
@@ -95,6 +81,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitfinex.com/t/AUC:ETH
+- base:
+    currency_id: 2653
+    currency_symbol: AUC
+    currency_type: cryptocurrency
+    exchange_symbol: AUC
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: AUC/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/AUC:USD
 - base:
     currency_id: 2653
     currency_symbol: AUC
@@ -128,17 +128,17 @@ markets:
     currency_symbol: AUC
     currency_type: cryptocurrency
     exchange_symbol: AUC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: AUC/ETH
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: AUC/BNT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1727
+    currency_symbol: BNT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/AUC-to-ETH
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/AUC
 name: Auctus
-rank: 1193
+rank: 1200
 slug: auctus
 status: active
 symbol: AUC

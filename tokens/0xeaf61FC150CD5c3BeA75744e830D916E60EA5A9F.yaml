@@ -26,34 +26,6 @@ markets:
     currency_symbol: TYPE
     currency_type: cryptocurrency
     exchange_symbol: TYPE
-  exchange_id: 480
-  exchange_name: Cat.Ex
-  pair: TYPE/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.catex.io/trading/TYPE/ETH
-- base:
-    currency_id: 3505
-    currency_symbol: TYPE
-    currency_type: cryptocurrency
-    exchange_symbol: TYPE
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: TYPE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/TYPE_BTC
-- base:
-    currency_id: 3505
-    currency_symbol: TYPE
-    currency_type: cryptocurrency
-    exchange_symbol: TYPE
   exchange_id: 193
   exchange_name: Trade Satoshi
   pair: TYPE/BTC
@@ -140,6 +112,20 @@ markets:
     exchange_symbol: TYPE
   exchange_id: 215
   exchange_name: P2PB2B
+  pair: TYPE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/TYPE_BTC
+- base:
+    currency_id: 3505
+    currency_symbol: TYPE
+    currency_type: cryptocurrency
+    exchange_symbol: TYPE
+  exchange_id: 215
+  exchange_name: P2PB2B
   pair: TYPE/ETH
   quote:
     currency_id: 1027
@@ -147,6 +133,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://p2pb2b.io/trade/TYPE_ETH
+- base:
+    currency_id: 3505
+    currency_symbol: TYPE
+    currency_type: cryptocurrency
+    exchange_symbol: TYPE
+  exchange_id: 480
+  exchange_name: Cat.Ex
+  pair: TYPE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.catex.io/trading/TYPE/ETH
 - base:
     currency_id: 3505
     currency_symbol: TYPE
@@ -176,7 +176,7 @@ markets:
     exchange_symbol: TRX
   url: https://www.catex.io/trading/TYPE/TRX
 name: Typerium
-rank: 1382
+rank: 1113
 slug: typerium
 status: active
 symbol: TYPE

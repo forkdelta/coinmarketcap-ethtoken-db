@@ -21,34 +21,6 @@ markets:
     currency_symbol: FREE
     currency_type: cryptocurrency
     exchange_symbol: FREE
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: FREE/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://latoken.com/exchange/USDT-FREE
-- base:
-    currency_id: 3388
-    currency_symbol: FREE
-    currency_type: cryptocurrency
-    exchange_symbol: FREE
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: FREE/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://crex24.com/exchange/FREE-USD
-- base:
-    currency_id: 3388
-    currency_symbol: FREE
-    currency_type: cryptocurrency
-    exchange_symbol: FREE
   exchange_id: 460
   exchange_name: Coinsbit
   pair: FREE/USD
@@ -77,15 +49,29 @@ markets:
     currency_symbol: FREE
     currency_type: cryptocurrency
     exchange_symbol: FREE
-  exchange_id: 477
-  exchange_name: ProBit Exchange
+  exchange_id: 245
+  exchange_name: STEX
   pair: FREE/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.probit.com/app/exchange/FREE-USDT
+  url: https://app.stex.com/en/basic-trade/pair/USDT/FREE/1D
+- base:
+    currency_id: 3388
+    currency_symbol: FREE
+    currency_type: cryptocurrency
+    exchange_symbol: FREE
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: FREE/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://latoken.com/exchange/USDT-FREE
 - base:
     currency_id: 3388
     currency_symbol: FREE
@@ -105,15 +91,43 @@ markets:
     currency_symbol: FREE
     currency_type: cryptocurrency
     exchange_symbol: FREE
-  exchange_id: 245
-  exchange_name: STEX
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: FREE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://latoken.com/exchange/ETH-FREE
+- base:
+    currency_id: 3388
+    currency_symbol: FREE
+    currency_type: cryptocurrency
+    exchange_symbol: FREE
+  exchange_id: 477
+  exchange_name: ProBit Exchange
   pair: FREE/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://app.stex.com/en/basic-trade/pair/USDT/FREE/1D
+  url: https://www.probit.com/app/exchange/FREE-USDT
+- base:
+    currency_id: 3388
+    currency_symbol: FREE
+    currency_type: cryptocurrency
+    exchange_symbol: FREE
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: FREE/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://crex24.com/exchange/FREE-USD
 - base:
     currency_id: 3388
     currency_symbol: FREE
@@ -147,20 +161,6 @@ markets:
     currency_symbol: FREE
     currency_type: cryptocurrency
     exchange_symbol: FREE
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: FREE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://crex24.com/exchange/FREE-BTC
-- base:
-    currency_id: 3388
-    currency_symbol: FREE
-    currency_type: cryptocurrency
-    exchange_symbol: FREE
   exchange_id: 400
   exchange_name: Hotbit
   pair: FREE/ETH
@@ -189,29 +189,15 @@ markets:
     currency_symbol: FREE
     currency_type: cryptocurrency
     exchange_symbol: FREE
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: FREE/USD
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: FREE/BTC
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/FREE_USD
-- base:
-    currency_id: 3388
-    currency_symbol: FREE
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: FREE
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: FREE/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/FREE/ETH
+    exchange_symbol: BTC
+  url: https://crex24.com/exchange/FREE-BTC
 - base:
     currency_id: 3388
     currency_symbol: FREE
@@ -231,6 +217,20 @@ markets:
     currency_symbol: FREE
     currency_type: cryptocurrency
     exchange_symbol: FREE
+  exchange_id: 460
+  exchange_name: Coinsbit
+  pair: FREE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://coinsbit.io/trade/FREE_ETH
+- base:
+    currency_id: 3388
+    currency_symbol: FREE
+    currency_type: cryptocurrency
+    exchange_symbol: FREE
   exchange_id: 245
   exchange_name: STEX
   pair: FREE/NXT
@@ -245,29 +245,15 @@ markets:
     currency_symbol: FREE
     currency_type: cryptocurrency
     exchange_symbol: FREE
-  exchange_id: 461
-  exchange_name: Altilly
-  pair: FREE/DOGE
-  quote:
-    currency_id: 74
-    currency_symbol: DOGE
-    currency_type: cryptocurrency
-    exchange_symbol: DOGE
-  url: https://www.altilly.com/market/FREE_DOGE
-- base:
-    currency_id: 3388
-    currency_symbol: FREE
-    currency_type: cryptocurrency
-    exchange_symbol: FREE
-  exchange_id: 460
-  exchange_name: Coinsbit
+  exchange_id: 487
+  exchange_name: VinDAX
   pair: FREE/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://coinsbit.io/trade/FREE_ETH
+  url: https://vindax.com/exchange-base.html?symbol=FREE_ETH
 - base:
     currency_id: 3388
     currency_symbol: FREE
@@ -289,41 +275,27 @@ markets:
     exchange_symbol: FREE
   exchange_id: 461
   exchange_name: Altilly
-  pair: FREE/USDT
+  pair: FREE/DOGE
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 74
+    currency_symbol: DOGE
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.altilly.com/market/FREE_USDT
+    exchange_symbol: DOGE
+  url: https://www.altilly.com/market/FREE_DOGE
 - base:
     currency_id: 3388
     currency_symbol: FREE
     currency_type: cryptocurrency
     exchange_symbol: FREE
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: FREE/BTC
+  exchange_id: 461
+  exchange_name: Altilly
+  pair: FREE/XQR
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 3821
+    currency_symbol: XQR
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/FREE/BTC
-- base:
-    currency_id: 3388
-    currency_symbol: FREE
-    currency_type: cryptocurrency
-    exchange_symbol: FREE
-  exchange_id: 487
-  exchange_name: VinDAX
-  pair: FREE/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vindax.com/exchange-base.html?symbol=FREE_ETH
+    exchange_symbol: XQR
+  url: https://www.altilly.com/market/FREE_XQR
 - base:
     currency_id: 3388
     currency_symbol: FREE
@@ -343,15 +315,71 @@ markets:
     currency_symbol: FREE
     currency_type: cryptocurrency
     exchange_symbol: FREE
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: FREE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://mercatox.com/exchange/FREE/ETH
+- base:
+    currency_id: 3388
+    currency_symbol: FREE
+    currency_type: cryptocurrency
+    exchange_symbol: FREE
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: FREE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/FREE/BTC
+- base:
+    currency_id: 3388
+    currency_symbol: FREE
+    currency_type: cryptocurrency
+    exchange_symbol: FREE
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: FREE/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/FREE_USD
+- base:
+    currency_id: 3388
+    currency_symbol: FREE
+    currency_type: cryptocurrency
+    exchange_symbol: FREE
   exchange_id: 461
   exchange_name: Altilly
-  pair: FREE/XQR
+  pair: FREE/USDT
   quote:
-    currency_id: 3821
-    currency_symbol: XQR
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: XQR
-  url: https://www.altilly.com/market/FREE_XQR
+    exchange_symbol: USDT
+  url: https://www.altilly.com/market/FREE_USDT
+- base:
+    currency_id: 3388
+    currency_symbol: FREE
+    currency_type: cryptocurrency
+    exchange_symbol: FREE
+  exchange_id: 460
+  exchange_name: Coinsbit
+  pair: FREE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coinsbit.io/trade/FREE_BTC
 - base:
     currency_id: 3388
     currency_symbol: FREE
@@ -381,7 +409,7 @@ markets:
     exchange_symbol: ETH
   url: https://trade.tagz.com/trade/view
 name: FREE Coin
-rank: 898
+rank: 946
 slug: free-coin
 status: active
 symbol: FREE

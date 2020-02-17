@@ -99,20 +99,6 @@ markets:
     currency_symbol: VITE
     currency_type: cryptocurrency
     exchange_symbol: VITE
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: VITE/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=VITE_ETH
-- base:
-    currency_id: 2937
-    currency_symbol: VITE
-    currency_type: cryptocurrency
-    exchange_symbol: VITE
   exchange_id: 270
   exchange_name: Binance
   pair: VITE/USDT
@@ -141,15 +127,29 @@ markets:
     currency_symbol: VITE
     currency_type: cryptocurrency
     exchange_symbol: VITE
-  exchange_id: 756
-  exchange_name: ViteX
-  pair: VITE/USDT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: VITE/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://x.vite.net/trade?symbol=VITE-000_USDT-000&category={{baseu}}
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=VITE_ETH
+- base:
+    currency_id: 2937
+    currency_symbol: VITE
+    currency_type: cryptocurrency
+    exchange_symbol: VITE
+  exchange_id: 270
+  exchange_name: Binance
+  pair: VITE/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/VITE_BNB
 - base:
     currency_id: 2937
     currency_symbol: VITE
@@ -169,15 +169,15 @@ markets:
     currency_symbol: VITE
     currency_type: cryptocurrency
     exchange_symbol: VITE
-  exchange_id: 270
-  exchange_name: Binance
-  pair: VITE/BNB
+  exchange_id: 756
+  exchange_name: ViteX
+  pair: VITE/USDT
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/VITE_BNB
+    exchange_symbol: USDT
+  url: https://x.vite.net/trade?symbol=VITE-000_USDT-000&category={{baseu}}
 - base:
     currency_id: 2937
     currency_symbol: VITE
@@ -291,7 +291,7 @@ markets:
     exchange_symbol: VITE
   url: https://x.vite.net/trade?symbol=TERA-000_VITE-000&category={{baseu}}
 name: VITE
-rank: 450
+rank: 456
 slug: vite
 status: active
 symbol: VITE

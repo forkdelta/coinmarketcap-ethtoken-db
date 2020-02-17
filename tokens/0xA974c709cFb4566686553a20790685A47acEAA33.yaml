@@ -48,20 +48,6 @@ markets:
     currency_symbol: XIN
     currency_type: cryptocurrency
     exchange_symbol: XIN
-  exchange_id: 505
-  exchange_name: CBX
-  pair: XIN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.cbx.one/trade/XIN-USDT
-- base:
-    currency_id: 2349
-    currency_symbol: XIN
-    currency_type: cryptocurrency
-    exchange_symbol: XIN
   exchange_id: 330
   exchange_name: BigONE
   pair: XIN/EOS
@@ -85,20 +71,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://big.one/trade/XIN-BTC
-- base:
-    currency_id: 2349
-    currency_symbol: XIN
-    currency_type: cryptocurrency
-    exchange_symbol: XIN
-  exchange_id: 505
-  exchange_name: CBX
-  pair: XIN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.cbx.one/trade/XIN-BTC
 - base:
     currency_id: 2349
     currency_symbol: XIN
@@ -146,6 +118,34 @@ markets:
     currency_symbol: XIN
     currency_type: cryptocurrency
     exchange_symbol: XIN
+  exchange_id: 505
+  exchange_name: CBX
+  pair: XIN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.cbx.one/trade/XIN-BTC
+- base:
+    currency_id: 2349
+    currency_symbol: XIN
+    currency_type: cryptocurrency
+    exchange_symbol: XIN
+  exchange_id: 505
+  exchange_name: CBX
+  pair: XIN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.cbx.one/trade/XIN-USDT
+- base:
+    currency_id: 2349
+    currency_symbol: XIN
+    currency_type: cryptocurrency
+    exchange_symbol: XIN
   exchange_id: 410
   exchange_name: FCoin
   pair: XIN/ETH
@@ -156,7 +156,7 @@ markets:
     exchange_symbol: ETH
   url: https://exchange.fcoin.com/ex/rc4/xin-eth
 name: Mixin
-rank: 210
+rank: 211
 slug: mixin
 status: active
 symbol: XIN

@@ -26,20 +26,6 @@ markets:
     currency_symbol: ARCT
     currency_type: cryptocurrency
     exchange_symbol: ARCT
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: ARCT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/ARCT/BTC
-- base:
-    currency_id: 2415
-    currency_symbol: ARCT
-    currency_type: cryptocurrency
-    exchange_symbol: ARCT
   exchange_id: 213
   exchange_name: Mercatox
   pair: ARCT/BTC
@@ -49,8 +35,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/ARCT/BTC
+- base:
+    currency_id: 2415
+    currency_symbol: ARCT
+    currency_type: cryptocurrency
+    exchange_symbol: ARCT
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: ARCT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/ARCT/BTC
 name: ArbitrageCT
-rank: 1790
+rank: 1813
 slug: arbitragect
 status: active
 symbol: ARCT

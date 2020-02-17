@@ -126,20 +126,6 @@ markets:
     currency_symbol: QBIT
     currency_type: cryptocurrency
     exchange_symbol: QBIT
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: QBIT/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/QBIT_USD
-- base:
-    currency_id: 3224
-    currency_symbol: QBIT
-    currency_type: cryptocurrency
-    exchange_symbol: QBIT
   exchange_id: 107
   exchange_name: Livecoin
   pair: QBIT/BTC
@@ -154,15 +140,15 @@ markets:
     currency_symbol: QBIT
     currency_type: cryptocurrency
     exchange_symbol: QBIT
-  exchange_id: 733
-  exchange_name: VCC Exchange
+  exchange_id: 107
+  exchange_name: Livecoin
   pair: QBIT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://vcc.exchange/exchange/basic?currency=eth&coin=qbit
+  url: https://www.livecoin.net/en/trading/QBIT_ETH
 - base:
     currency_id: 3224
     currency_symbol: QBIT
@@ -182,17 +168,31 @@ markets:
     currency_symbol: QBIT
     currency_type: cryptocurrency
     exchange_symbol: QBIT
-  exchange_id: 107
-  exchange_name: Livecoin
+  exchange_id: 733
+  exchange_name: VCC Exchange
   pair: QBIT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.livecoin.net/en/trading/QBIT_ETH
+  url: https://vcc.exchange/exchange/basic?currency=eth&coin=qbit
+- base:
+    currency_id: 3224
+    currency_symbol: QBIT
+    currency_type: cryptocurrency
+    exchange_symbol: QBIT
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: QBIT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/QBIT_USD
 name: Qubitica
-rank: 251
+rank: 239
 slug: qubitica
 status: active
 symbol: QBIT

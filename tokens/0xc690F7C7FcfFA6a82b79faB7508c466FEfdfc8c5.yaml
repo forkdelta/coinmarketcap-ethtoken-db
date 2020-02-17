@@ -27,20 +27,6 @@ markets:
     currency_symbol: LYM
     currency_type: cryptocurrency
     exchange_symbol: LYM
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: LYM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/lym_usdt
-- base:
-    currency_id: 2554
-    currency_symbol: LYM
-    currency_type: cryptocurrency
-    exchange_symbol: LYM
   exchange_id: 102
   exchange_name: Huobi Global
   pair: LYM/BTC
@@ -64,6 +50,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.kucoin.com/trade/LYM-BTC
+- base:
+    currency_id: 2554
+    currency_symbol: LYM
+    currency_type: cryptocurrency
+    exchange_symbol: LYM
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: LYM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/lym_usdt
 - base:
     currency_id: 2554
     currency_symbol: LYM
@@ -97,15 +97,15 @@ markets:
     currency_symbol: LYM
     currency_type: cryptocurrency
     exchange_symbol: LYM
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: LYM/KRW
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: LYM/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/lym-krw
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://gate.io/trade/lym_btc
 - base:
     currency_id: 2554
     currency_symbol: LYM
@@ -125,15 +125,15 @@ markets:
     currency_symbol: LYM
     currency_type: cryptocurrency
     exchange_symbol: LYM
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: LYM/BTC
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: LYM/KRW
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://gate.io/trade/lym_btc
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/lym-krw
 - base:
     currency_id: 2554
     currency_symbol: LYM
@@ -148,20 +148,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/lym_eth
-- base:
-    currency_id: 2554
-    currency_symbol: LYM
-    currency_type: cryptocurrency
-    exchange_symbol: LYM
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: LYM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/LYM:BTC
 - base:
     currency_id: 2554
     currency_symbol: LYM
@@ -190,8 +176,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitfinex.com/t/LYM:ETH
+- base:
+    currency_id: 2554
+    currency_symbol: LYM
+    currency_type: cryptocurrency
+    exchange_symbol: LYM
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: LYM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/LYM:BTC
 name: Lympo
-rank: 619
+rank: 643
 slug: lympo
 status: active
 symbol: LYM

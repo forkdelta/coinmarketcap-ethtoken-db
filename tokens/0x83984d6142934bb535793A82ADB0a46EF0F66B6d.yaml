@@ -4,7 +4,9 @@ category: token
 date_added: '2018-02-26T00:00:00.000Z'
 description: 'Remme is an ecosystem of Identity and Access Management products with a digital key at its
   heart. Founded in 2015, Remme is building the decentralized Public Key Infrastructure protocol and PKI-enabled
-  apps to address the challenges of Web 3.0.
+  apps to address the challenges of Web 3.0. Remme blockchain consensus is achieved via Delegated Proof
+  of Stake. With the REMChain mainnet launched end of 2019 currently there are 2 key roles tokenholders
+  can take up on REMChain: Block Producers and Guardians.
 
 
   Remme Protocol aims to become the next-generation blockchain-based PKI alternative. It is open-source
@@ -21,23 +23,57 @@ description: 'Remme is an ecosystem of Identity and Access Management products w
   native tokens in both directions.'
 id: 2546
 links:
+  announcement:
+  - https://remme.io/blog/remchain-mainnet-live
   chat:
   - https://t.me/remme
   explorer:
+  - https://remchain.remme.io/
   - https://etherscan.io/token/0x83984d6142934bb535793a82adb0a46ef0f66b6d
   - https://ethplorer.io/address/0x83984d6142934bb535793a82adb0a46ef0f66b6d
-  - https://blockexplorer.remme.io/
+  - https://testchain.remme.io/
   message_board:
-  - https://medium.com/remme
+  - https://remme.io/blog
   reddit:
   - https://reddit.com/r/remme
   source_code:
-  - https://github.com/Remmeauth
+  - https://github.com/Remmeauth/remprotocol
+  technical_doc:
+  - https://github.com/Remmeauth/Documentation/blob/master/RemmeProtocolTechPaper.md
   twitter:
   - https://twitter.com/remme_io
   website:
   - https://remme.io/
+  - https://tokensale.remme.io/
 markets:
+- base:
+    currency_id: 2546
+    currency_symbol: REM
+    currency_type: cryptocurrency
+    exchange_symbol: REM
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: REM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/REM-to-BTC
+- base:
+    currency_id: 2546
+    currency_symbol: REM
+    currency_type: cryptocurrency
+    exchange_symbol: REM
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: REM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/REM-to-ETH
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -71,34 +107,6 @@ markets:
     currency_symbol: REM
     currency_type: cryptocurrency
     exchange_symbol: REM
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: REM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/REM-to-BTC
-- base:
-    currency_id: 2546
-    currency_symbol: REM
-    currency_type: cryptocurrency
-    exchange_symbol: REM
-  exchange_id: 219
-  exchange_name: Tidex
-  pair: REM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://tidex.com/exchange/rem/eth
-- base:
-    currency_id: 2546
-    currency_symbol: REM
-    currency_type: cryptocurrency
-    exchange_symbol: REM
   exchange_id: 400
   exchange_name: Hotbit
   pair: REM/BTC
@@ -127,20 +135,6 @@ markets:
     currency_symbol: REM
     currency_type: cryptocurrency
     exchange_symbol: REM
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: REM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/rem_eth
-- base:
-    currency_id: 2546
-    currency_symbol: REM
-    currency_type: cryptocurrency
-    exchange_symbol: REM
   exchange_id: 42
   exchange_name: HitBTC
   pair: REM/USDT
@@ -150,6 +144,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/REM-to-USDT
+- base:
+    currency_id: 2546
+    currency_symbol: REM
+    currency_type: cryptocurrency
+    exchange_symbol: REM
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: REM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/rem_eth
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -169,34 +177,6 @@ markets:
     currency_symbol: REM
     currency_type: cryptocurrency
     exchange_symbol: REM
-  exchange_id: 228
-  exchange_name: BTC-Alpha
-  pair: REM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://btc-alpha.com/exchange/REM_BTC/
-- base:
-    currency_id: 2546
-    currency_symbol: REM
-    currency_type: cryptocurrency
-    exchange_symbol: REM
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: REM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/REM-to-ETH
-- base:
-    currency_id: 2546
-    currency_symbol: REM
-    currency_type: cryptocurrency
-    exchange_symbol: REM
   exchange_id: 209
   exchange_name: Kuna
   pair: REM/UAH
@@ -206,20 +186,6 @@ markets:
     currency_type: fiat
     exchange_symbol: UAH
   url: https://kuna.io/markets/remuah
-- base:
-    currency_id: 2546
-    currency_symbol: REM
-    currency_type: cryptocurrency
-    exchange_symbol: REM
-  exchange_id: 228
-  exchange_name: BTC-Alpha
-  pair: REM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://btc-alpha.com/exchange/REM_USDT/
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -239,6 +205,48 @@ markets:
     currency_symbol: REM
     currency_type: cryptocurrency
     exchange_symbol: REM
+  exchange_id: 228
+  exchange_name: BTC-Alpha
+  pair: REM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://btc-alpha.com/exchange/REM_BTC/
+- base:
+    currency_id: 2546
+    currency_symbol: REM
+    currency_type: cryptocurrency
+    exchange_symbol: REM
+  exchange_id: 228
+  exchange_name: BTC-Alpha
+  pair: REM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://btc-alpha.com/exchange/REM_USDT/
+- base:
+    currency_id: 2546
+    currency_symbol: REM
+    currency_type: cryptocurrency
+    exchange_symbol: REM
+  exchange_id: 219
+  exchange_name: Tidex
+  pair: REM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://tidex.com/exchange/rem/eth
+- base:
+    currency_id: 2546
+    currency_symbol: REM
+    currency_type: cryptocurrency
+    exchange_symbol: REM
   exchange_id: 310
   exchange_name: IDEX
   pair: REM/ETH
@@ -249,7 +257,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/rem
 name: Remme
-rank: 522
+rank: 654
 slug: remme
 status: active
 symbol: REM

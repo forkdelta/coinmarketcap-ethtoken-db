@@ -54,20 +54,6 @@ markets:
     currency_symbol: HEDG
     currency_type: cryptocurrency
     exchange_symbol: HEDG
-  exchange_id: 245
-  exchange_name: STEX
-  pair: HEDG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.stex.com/en/basic-trade/pair/BTC/HEDG/1D
-- base:
-    currency_id: 3662
-    currency_symbol: HEDG
-    currency_type: cryptocurrency
-    exchange_symbol: HEDG
   exchange_id: 22
   exchange_name: Bittrex
   pair: HEDG/BTC
@@ -110,6 +96,20 @@ markets:
     currency_symbol: HEDG
     currency_type: cryptocurrency
     exchange_symbol: HEDG
+  exchange_id: 245
+  exchange_name: STEX
+  pair: HEDG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.stex.com/en/basic-trade/pair/BTC/HEDG/1D
+- base:
+    currency_id: 3662
+    currency_symbol: HEDG
+    currency_type: cryptocurrency
+    exchange_symbol: HEDG
   exchange_id: 107
   exchange_name: Livecoin
   pair: HEDG/BTC
@@ -124,20 +124,6 @@ markets:
     currency_symbol: HEDG
     currency_type: cryptocurrency
     exchange_symbol: HEDG
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: HEDG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.livecoin.net/en/trading/HEDG_ETH
-- base:
-    currency_id: 3662
-    currency_symbol: HEDG
-    currency_type: cryptocurrency
-    exchange_symbol: HEDG
   exchange_id: 267
   exchange_name: Bancor Network
   pair: HEDG/ETH
@@ -147,8 +133,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bancor.network/token/HEDG
+- base:
+    currency_id: 3662
+    currency_symbol: HEDG
+    currency_type: cryptocurrency
+    exchange_symbol: HEDG
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: HEDG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.livecoin.net/en/trading/HEDG_ETH
 name: HedgeTrade
-rank: 22
+rank: 23
 slug: hedgetrade
 status: active
 symbol: HEDG

@@ -21,6 +21,7 @@ links:
   - https://twitter.com/gelert
   website:
   - http://game.com/
+  - https://gtc.game.com/
 markets:
 - base:
     currency_id: 2336
@@ -85,20 +86,6 @@ markets:
     exchange_symbol: GTC
   exchange_id: 302
   exchange_name: Gate.io
-  pair: GTC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/gtc_eth
-- base:
-    currency_id: 2336
-    currency_symbol: GTC
-    currency_type: cryptocurrency
-    exchange_symbol: GTC
-  exchange_id: 302
-  exchange_name: Gate.io
   pair: GTC/BTC
   quote:
     currency_id: 1
@@ -106,8 +93,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://gate.io/trade/gtc_btc
+- base:
+    currency_id: 2336
+    currency_symbol: GTC
+    currency_type: cryptocurrency
+    exchange_symbol: GTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: GTC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/gtc_eth
 name: Game.com
-rank: 547
+rank: 532
 slug: game
 status: active
 symbol: GTC

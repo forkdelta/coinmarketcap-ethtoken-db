@@ -28,6 +28,7 @@ links:
   - https://twitter.com/curio_invest
   website:
   - https://curioinvest.com/
+  - https://curiocar.com/
 markets:
 - base:
     currency_id: 5083
@@ -36,13 +37,13 @@ markets:
     exchange_symbol: CUR
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: CUR/ETH
+  pair: CUR/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.probit.com/app/exchange/CUR-ETH
+    exchange_symbol: BTC
+  url: https://www.probit.com/app/exchange/CUR-BTC
 - base:
     currency_id: 5083
     currency_symbol: CUR
@@ -57,8 +58,22 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/CUR-KRW
+- base:
+    currency_id: 5083
+    currency_symbol: CUR
+    currency_type: cryptocurrency
+    exchange_symbol: CUR
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: CUR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.probit.com/app/exchange/CUR-ETH
 name: Curio
-rank: 2163
+rank: 2161
 slug: curio
 status: active
 symbol: CUR
