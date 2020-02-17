@@ -24,20 +24,6 @@ links:
   - https://usdq.platinum.fund/
 markets:
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 228
-  exchange_name: BTC-Alpha
-  pair: BTC/USDQ
-  quote:
-    currency_id: 4020
-    currency_symbol: USDQ
-    currency_type: cryptocurrency
-    exchange_symbol: USDQ
-  url: https://btc-alpha.com/exchange/BTC_USDQ/
-- base:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
@@ -56,29 +42,15 @@ markets:
     currency_symbol: USDQ
     currency_type: cryptocurrency
     exchange_symbol: USDQ
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: USDQ/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/usdq
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
   exchange_id: 400
   exchange_name: Hotbit
-  pair: ETH/USDQ
+  pair: USDQ/USDT
   quote:
-    currency_id: 4020
-    currency_symbol: USDQ
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: USDQ
-  url: https://www.hotbit.io/exchange?symbol=ETH_USDQ
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=USDQ_USDT
 - base:
     currency_id: 1027
     currency_symbol: ETH
@@ -98,29 +70,29 @@ markets:
     currency_symbol: USDQ
     currency_type: cryptocurrency
     exchange_symbol: USDQ
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: USDQ/USDT
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: USDQ/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=USDQ_USDT
+    exchange_symbol: ETH
+  url: https://idex.market/eth/usdq
 - base:
-    currency_id: 4053
-    currency_symbol: QDAO
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: QDAO
+    exchange_symbol: BTC
   exchange_id: 228
   exchange_name: BTC-Alpha
-  pair: QDAO/USDQ
+  pair: BTC/USDQ
   quote:
     currency_id: 4020
     currency_symbol: USDQ
     currency_type: cryptocurrency
     exchange_symbol: USDQ
-  url: https://btc-alpha.com/exchange/QDAO_USDQ/
+  url: https://btc-alpha.com/exchange/BTC_USDQ/
 - base:
     currency_id: 4020
     currency_symbol: USDQ
@@ -136,6 +108,34 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/USDQ
 - base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: ETH/USDQ
+  quote:
+    currency_id: 4020
+    currency_symbol: USDQ
+    currency_type: cryptocurrency
+    exchange_symbol: USDQ
+  url: https://www.hotbit.io/exchange?symbol=ETH_USDQ
+- base:
+    currency_id: 4053
+    currency_symbol: QDAO
+    currency_type: cryptocurrency
+    exchange_symbol: QDAO
+  exchange_id: 228
+  exchange_name: BTC-Alpha
+  pair: QDAO/USDQ
+  quote:
+    currency_id: 4020
+    currency_symbol: USDQ
+    currency_type: cryptocurrency
+    exchange_symbol: USDQ
+  url: https://btc-alpha.com/exchange/QDAO_USDQ/
+- base:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
@@ -150,7 +150,7 @@ markets:
     exchange_symbol: USDQ
   url: https://www.hotbit.io/exchange?symbol=BTC_USDQ
 name: USDQ
-rank: 416
+rank: 476
 slug: usdq
 status: active
 symbol: USDQ

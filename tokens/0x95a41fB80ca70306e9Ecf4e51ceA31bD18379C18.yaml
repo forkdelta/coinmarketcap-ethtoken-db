@@ -24,34 +24,6 @@ markets:
     currency_symbol: ADN
     currency_type: cryptocurrency
     exchange_symbol: ADN
-  exchange_id: 403
-  exchange_name: BitForex
-  pair: ADN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitforex.com/en/spot/adn_eth
-- base:
-    currency_id: 4057
-    currency_symbol: ADN
-    currency_type: cryptocurrency
-    exchange_symbol: ADN
-  exchange_id: 448
-  exchange_name: Coinall
-  pair: ADN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coinall.com/market?product=adn_eth
-- base:
-    currency_id: 4057
-    currency_symbol: ADN
-    currency_type: cryptocurrency
-    exchange_symbol: ADN
   exchange_id: 409
   exchange_name: DOBI Exchange
   pair: ADN/ETH
@@ -94,15 +66,29 @@ markets:
     currency_symbol: ADN
     currency_type: cryptocurrency
     exchange_symbol: ADN
-  exchange_id: 343
-  exchange_name: CoinBene
-  pair: ADN/BTC
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: ADN/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=ADNBTC
+    exchange_symbol: ETH
+  url: https://www.bitforex.com/en/spot/adn_eth
+- base:
+    currency_id: 4057
+    currency_symbol: ADN
+    currency_type: cryptocurrency
+    exchange_symbol: ADN
+  exchange_id: 448
+  exchange_name: Coinall
+  pair: ADN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coinall.com/market?product=adn_eth
 - base:
     currency_id: 4057
     currency_symbol: ADN
@@ -117,6 +103,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://p2pb2b.io/trade/ADN_BTC
+- base:
+    currency_id: 4057
+    currency_symbol: ADN
+    currency_type: cryptocurrency
+    exchange_symbol: ADN
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: ADN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=ADNBTC
 - base:
     currency_id: 4057
     currency_symbol: ADN
@@ -146,7 +146,7 @@ markets:
     exchange_symbol: BTC
   url: https://topbtc.com/home/Market/index/market/BTC/coin/ADN.html
 name: Aladdin
-rank: 377
+rank: 353
 slug: aladdin
 status: active
 symbol: ADN

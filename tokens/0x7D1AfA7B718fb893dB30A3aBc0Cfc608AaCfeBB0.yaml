@@ -77,20 +77,6 @@ markets:
     currency_symbol: MATIC
     currency_type: cryptocurrency
     exchange_symbol: MATIC
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: MATIC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bilaxy.com/trade/MATIC_USDT
-- base:
-    currency_id: 3890
-    currency_symbol: MATIC
-    currency_type: cryptocurrency
-    exchange_symbol: MATIC
   exchange_id: 403
   exchange_name: BitForex
   pair: MATIC/USDT
@@ -105,15 +91,15 @@ markets:
     currency_symbol: MATIC
     currency_type: cryptocurrency
     exchange_symbol: MATIC
-  exchange_id: 406
-  exchange_name: BitMart
+  exchange_id: 415
+  exchange_name: Bilaxy
   pair: MATIC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bitmart.com/trade?symbol=MATIC_USDT
+  url: https://bilaxy.com/trade/MATIC_USDT
 - base:
     currency_id: 3890
     currency_symbol: MATIC
@@ -135,13 +121,27 @@ markets:
     exchange_symbol: MATIC
   exchange_id: 406
   exchange_name: BitMart
-  pair: MATIC/BTC
+  pair: MATIC/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitmart.com/trade?symbol=MATIC_BTC
+    exchange_symbol: USDT
+  url: https://www.bitmart.com/trade?symbol=MATIC_USDT
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: MATIC/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://whitebit.com/trade/MATIC_USD
 - base:
     currency_id: 3890
     currency_symbol: MATIC
@@ -161,15 +161,57 @@ markets:
     currency_symbol: MATIC
     currency_type: cryptocurrency
     exchange_symbol: MATIC
-  exchange_id: 453
-  exchange_name: BitMax
+  exchange_id: 270
+  exchange_name: Binance
+  pair: MATIC/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/MATIC_BNB
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: MATIC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitmart.com/trade?symbol=MATIC_BTC
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 459
+  exchange_name: BW.com
   pair: MATIC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/matic
+  url: https://www.bw.com/trade/matic_usdt
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: MATIC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=matic&tab=limit
 - base:
     currency_id: 3890
     currency_symbol: MATIC
@@ -203,99 +245,29 @@ markets:
     currency_symbol: MATIC
     currency_type: cryptocurrency
     exchange_symbol: MATIC
-  exchange_id: 459
-  exchange_name: BW.com
+  exchange_id: 453
+  exchange_name: BitMax
   pair: MATIC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bw.com/trade/matic_usdt
+  url: https://bitmax.io/#/trade/usdt/matic
 - base:
     currency_id: 3890
     currency_symbol: MATIC
     currency_type: cryptocurrency
     exchange_symbol: MATIC
-  exchange_id: 270
-  exchange_name: Binance
-  pair: MATIC/BNB
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: MATIC/USDT
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/MATIC_BNB
-- base:
-    currency_id: 3890
-    currency_symbol: MATIC
-    currency_type: cryptocurrency
-    exchange_symbol: MATIC
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: MATIC/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://whitebit.com/trade/MATIC_USD
-- base:
-    currency_id: 3890
-    currency_symbol: MATIC
-    currency_type: cryptocurrency
-    exchange_symbol: MATIC
-  exchange_id: 174
-  exchange_name: Coinone
-  pair: MATIC/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://coinone.co.kr/exchange/trade/matic/
-- base:
-    currency_id: 3890
-    currency_symbol: MATIC
-    currency_type: cryptocurrency
-    exchange_symbol: MATIC
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: MATIC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=MATIC_ETH
-- base:
-    currency_id: 3890
-    currency_symbol: MATIC
-    currency_type: cryptocurrency
-    exchange_symbol: MATIC
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: MATIC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://omgfin.com/exchange/trade/market/MATICBTC
-- base:
-    currency_id: 3890
-    currency_symbol: MATIC
-    currency_type: cryptocurrency
-    exchange_symbol: MATIC
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: MATIC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=MATIC_BTC
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=matic&tab=limit
 - base:
     currency_id: 3890
     currency_symbol: MATIC
@@ -315,6 +287,118 @@ markets:
     currency_symbol: MATIC
     currency_type: cryptocurrency
     exchange_symbol: MATIC
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: MATIC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitrue.com/trade/matic_usdt
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 174
+  exchange_name: Coinone
+  pair: MATIC/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://coinone.co.kr/exchange/trade/matic/
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: MATIC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://omgfin.com/exchange/trade/market/MATICBTC
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 402
+  exchange_name: Coinsuper
+  pair: MATIC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coinsuper.com/#/actionDeal
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 465
+  exchange_name: ExtStock
+  pair: MATIC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://extstock.com/markets/matic_eth
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: MATIC/XRP
+  quote:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  url: https://www.bitrue.com/trade/matic_xrp
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: MATIC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=MATIC_ETH
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: MATIC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=MATIC_BTC
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
   exchange_id: 363
   exchange_name: Fatbtc
   pair: MATIC/USDT
@@ -324,6 +408,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: MATIC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://whitebit.com/trade/MATIC_BTC
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: MATIC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitrue.com/trade/matic_btc
 - base:
     currency_id: 3890
     currency_symbol: MATIC
@@ -343,6 +455,20 @@ markets:
     currency_symbol: MATIC
     currency_type: cryptocurrency
     exchange_symbol: MATIC
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: MATIC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://omgfin.com/exchange/trade/market/MATICUSDT
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
   exchange_id: 425
   exchange_name: WazirX
   pair: MATIC/USDT
@@ -357,15 +483,15 @@ markets:
     currency_symbol: MATIC
     currency_type: cryptocurrency
     exchange_symbol: MATIC
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: MATIC/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: MATIC/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/MATICUSDT
+    exchange_symbol: BTC
+  url: https://hitbtc.com/MATIC-to-BTC
 - base:
     currency_id: 3890
     currency_symbol: MATIC
@@ -384,16 +510,16 @@ markets:
     currency_id: 3890
     currency_symbol: MATIC
     currency_type: cryptocurrency
-    exchange_symbol: MATIC
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: MATIC/BTC
+    exchange_symbol: MATIC-84A
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: MATIC/BNB
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://whitebit.com/trade/MATIC_BTC
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/MATIC-84A_BNB
 - base:
     currency_id: 3890
     currency_symbol: MATIC
@@ -415,20 +541,6 @@ markets:
     exchange_symbol: MATIC
   exchange_id: 480
   exchange_name: Cat.Ex
-  pair: MATIC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.catex.io/trading/MATIC/ETH
-- base:
-    currency_id: 3890
-    currency_symbol: MATIC
-    currency_type: cryptocurrency
-    exchange_symbol: MATIC
-  exchange_id: 480
-  exchange_name: Cat.Ex
   pair: MATIC/BTC
   quote:
     currency_id: 1
@@ -440,16 +552,30 @@ markets:
     currency_id: 3890
     currency_symbol: MATIC
     currency_type: cryptocurrency
-    exchange_symbol: MATIC-84A
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: MATIC/BNB
+    exchange_symbol: MATIC
+  exchange_id: 402
+  exchange_name: Coinsuper
+  pair: MATIC/BTC
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/MATIC-84A_BNB
+    exchange_symbol: BTC
+  url: https://www.coinsuper.com/#/actionDeal
+- base:
+    currency_id: 3890
+    currency_symbol: MATIC
+    currency_type: cryptocurrency
+    exchange_symbol: MATIC
+  exchange_id: 480
+  exchange_name: Cat.Ex
+  pair: MATIC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.catex.io/trading/MATIC/ETH
 - base:
     currency_id: 3890
     currency_symbol: MATIC
@@ -464,34 +590,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/matic
-- base:
-    currency_id: 3890
-    currency_symbol: MATIC
-    currency_type: cryptocurrency
-    exchange_symbol: MATIC
-  exchange_id: 402
-  exchange_name: Coinsuper
-  pair: MATIC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coinsuper.com/#/actionDeal
-- base:
-    currency_id: 3890
-    currency_symbol: MATIC
-    currency_type: cryptocurrency
-    exchange_symbol: MATIC
-  exchange_id: 402
-  exchange_name: Coinsuper
-  pair: MATIC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinsuper.com/#/actionDeal
 - base:
     currency_id: 3890
     currency_symbol: MATIC
@@ -535,7 +633,7 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/matic-network
 name: Matic Network
-rank: 89
+rank: 98
 slug: matic-network
 status: active
 symbol: MATIC

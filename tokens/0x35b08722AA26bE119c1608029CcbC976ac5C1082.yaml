@@ -23,6 +23,20 @@ markets:
     currency_symbol: EM
     currency_type: cryptocurrency
     exchange_symbol: EM
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: EM/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/EMKRW
+- base:
+    currency_id: 4215
+    currency_symbol: EM
+    currency_type: cryptocurrency
+    exchange_symbol: EM
   exchange_id: 102
   exchange_name: Huobi Global
   pair: EM/USDT
@@ -32,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hbg.com/en-us/exchange/em_usdt/
+- base:
+    currency_id: 4215
+    currency_symbol: EM
+    currency_type: cryptocurrency
+    exchange_symbol: EM
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: EM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/em_btc/
 - base:
     currency_id: 4215
     currency_symbol: EM
@@ -53,20 +81,6 @@ markets:
     exchange_symbol: EM
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: EM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/em_btc/
-- base:
-    currency_id: 4215
-    currency_symbol: EM
-    currency_type: cryptocurrency
-    exchange_symbol: EM
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: EM/HT
   quote:
     currency_id: 2502
@@ -74,34 +88,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: HT
   url: https://www.hbg.com/en-us/exchange/em_ht/
-- base:
-    currency_id: 4215
-    currency_symbol: EM
-    currency_type: cryptocurrency
-    exchange_symbol: EM
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: EM/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=em_usdk
-- base:
-    currency_id: 4215
-    currency_symbol: EM
-    currency_type: cryptocurrency
-    exchange_symbol: EM
-  exchange_id: 528
-  exchange_name: BiKi
-  pair: EM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.biki.com/trade/EM_USDT
 - base:
     currency_id: 4215
     currency_symbol: EM
@@ -130,8 +116,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.huobi.co.kr/en-US/exchange/em_usdt/
+- base:
+    currency_id: 4215
+    currency_symbol: EM
+    currency_type: cryptocurrency
+    exchange_symbol: EM
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: EM/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=em_usdk
+- base:
+    currency_id: 4215
+    currency_symbol: EM
+    currency_type: cryptocurrency
+    exchange_symbol: EM
+  exchange_id: 528
+  exchange_name: BiKi
+  pair: EM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.biki.com/trade/EM_USDT
 name: Eminer
-rank: 634
+rank: 616
 slug: eminer
 status: active
 symbol: EM

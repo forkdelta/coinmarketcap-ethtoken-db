@@ -52,13 +52,13 @@ markets:
     exchange_symbol: BF
   exchange_id: 100
   exchange_name: YoBit
-  pair: BF/USD
+  pair: BF/DOGE
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://yobit.net/en/trade/BF/USD
+    currency_id: 74
+    currency_symbol: DOGE
+    currency_type: cryptocurrency
+    exchange_symbol: DOGE
+  url: https://yobit.net/en/trade/BF/DOGE
 - base:
     currency_id: 4283
     currency_symbol: BF
@@ -80,20 +80,6 @@ markets:
     exchange_symbol: BF
   exchange_id: 100
   exchange_name: YoBit
-  pair: BF/DOGE
-  quote:
-    currency_id: 74
-    currency_symbol: DOGE
-    currency_type: cryptocurrency
-    exchange_symbol: DOGE
-  url: https://yobit.net/en/trade/BF/DOGE
-- base:
-    currency_id: 4283
-    currency_symbol: BF
-    currency_type: cryptocurrency
-    exchange_symbol: BF
-  exchange_id: 100
-  exchange_name: YoBit
   pair: BF/ETH
   quote:
     currency_id: 1027
@@ -101,8 +87,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://yobit.net/en/trade/BF/ETH
+- base:
+    currency_id: 4283
+    currency_symbol: BF
+    currency_type: cryptocurrency
+    exchange_symbol: BF
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: BF/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://yobit.net/en/trade/BF/USD
 name: BitForex Token
-rank: 239
+rank: 248
 slug: bitforex-token
 status: active
 symbol: BF

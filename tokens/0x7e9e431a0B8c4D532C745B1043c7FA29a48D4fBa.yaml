@@ -28,6 +28,20 @@ markets:
     currency_symbol: EOSDAC
     currency_type: cryptocurrency
     exchange_symbol: EOSDAC
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: EOSDAC/QC
+  quote:
+    currency_id: 2319
+    currency_symbol: QC
+    currency_type: cryptocurrency
+    exchange_symbol: QC
+  url: https://trans.zb.com/eosdacqc
+- base:
+    currency_id: 2644
+    currency_symbol: EOSDAC
+    currency_type: cryptocurrency
+    exchange_symbol: EOSDAC
   exchange_id: 400
   exchange_name: Hotbit
   pair: EOSDAC/EOS
@@ -84,34 +98,6 @@ markets:
     currency_symbol: EOSDAC
     currency_type: cryptocurrency
     exchange_symbol: EOSDAC
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: EOSDAC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=EOSDAC_BTC
-- base:
-    currency_id: 2644
-    currency_symbol: EOSDAC
-    currency_type: cryptocurrency
-    exchange_symbol: EOSDAC
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: EOSDAC/QC
-  quote:
-    currency_id: 2319
-    currency_symbol: QC
-    currency_type: cryptocurrency
-    exchange_symbol: QC
-  url: https://trans.zb.com/eosdacqc
-- base:
-    currency_id: 2644
-    currency_symbol: EOSDAC
-    currency_type: cryptocurrency
-    exchange_symbol: EOSDAC
   exchange_id: 302
   exchange_name: Gate.io
   pair: EOSDAC/USDT
@@ -121,6 +107,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/eosdac_usdt
+- base:
+    currency_id: 2644
+    currency_symbol: EOSDAC
+    currency_type: cryptocurrency
+    exchange_symbol: EOSDAC
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: EOSDAC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://trans.zb.com/eosdacusdt
 - base:
     currency_id: 2644
     currency_symbol: EOSDAC
@@ -154,15 +154,15 @@ markets:
     currency_symbol: EOSDAC
     currency_type: cryptocurrency
     exchange_symbol: EOSDAC
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: EOSDAC/USDT
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: EOSDAC/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trans.zb.com/eosdacusdt
+    exchange_symbol: BTC
+  url: https://www.bibox.com/exchange?coinPair=EOSDAC_BTC
 - base:
     currency_id: 2644
     currency_symbol: EOSDAC
@@ -220,7 +220,7 @@ markets:
     exchange_symbol: ETH
   url: https://gate.io/trade/eosdac_eth
 name: eosDAC
-rank: 693
+rank: 400
 slug: eosdac
 status: active
 symbol: EOSDAC

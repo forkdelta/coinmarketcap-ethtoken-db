@@ -27,20 +27,6 @@ markets:
     exchange_symbol: TCAT
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: TCAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/TCAT_BTC
-- base:
-    currency_id: 3730
-    currency_symbol: TCAT
-    currency_type: cryptocurrency
-    exchange_symbol: TCAT
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: TCAT/ETH
   quote:
     currency_id: 1027
@@ -48,6 +34,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://p2pb2b.io/trade/TCAT_ETH
+- base:
+    currency_id: 3730
+    currency_symbol: TCAT
+    currency_type: cryptocurrency
+    exchange_symbol: TCAT
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: TCAT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/TCAT_BTC
 - base:
     currency_id: 3730
     currency_symbol: TCAT
@@ -91,7 +91,7 @@ markets:
     exchange_symbol: ETH
   url: https://localtrade.pro
 name: The Currency Analytics
-rank: 1504
+rank: 1523
 slug: the-currency-analytics
 status: active
 symbol: TCAT

@@ -75,20 +75,6 @@ markets:
     currency_symbol: POA
     currency_type: cryptocurrency
     exchange_symbol: POA
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: POA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitfinex.com/t/POA:ETH
-- base:
-    currency_id: 2548
-    currency_symbol: POA
-    currency_type: cryptocurrency
-    exchange_symbol: POA
   exchange_id: 42
   exchange_name: HitBTC
   pair: POA/BTC
@@ -117,15 +103,15 @@ markets:
     currency_symbol: POA
     currency_type: cryptocurrency
     exchange_symbol: POA
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: POA/ETH
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: POA/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/POA-to-ETH
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/POA:BTC
 - base:
     currency_id: 2548
     currency_symbol: POA
@@ -145,29 +131,15 @@ markets:
     currency_symbol: POA
     currency_type: cryptocurrency
     exchange_symbol: POA
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: POA/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://hitbtc.com/POA-to-DAI
-- base:
-    currency_id: 2548
-    currency_symbol: POA
-    currency_type: cryptocurrency
-    exchange_symbol: POA
   exchange_id: 37
   exchange_name: Bitfinex
-  pair: POA/BTC
+  pair: POA/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/POA:BTC
+    exchange_symbol: ETH
+  url: https://www.bitfinex.com/t/POA:ETH
 - base:
     currency_id: 2548
     currency_symbol: POA
@@ -196,10 +168,38 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/poa
+- base:
+    currency_id: 2548
+    currency_symbol: POA
+    currency_type: cryptocurrency
+    exchange_symbol: POA
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: POA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/POA-to-ETH
+- base:
+    currency_id: 2548
+    currency_symbol: POA
+    currency_type: cryptocurrency
+    exchange_symbol: POA
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: POA/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://hitbtc.com/POA-to-DAI
 name: POA
 notice: 'POA Network has launched POA Bridge & POA20 tokens. For more information please <a href="https://medium.com/poa-network/introducing-poa-bridge-and-poa20-55d8b78058ac">read
   the official blog post.</a> '
-rank: 606
+rank: 586
 slug: poa
 status: active
 symbol: POA

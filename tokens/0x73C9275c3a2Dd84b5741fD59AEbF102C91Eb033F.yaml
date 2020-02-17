@@ -31,13 +31,27 @@ markets:
     exchange_symbol: BTRS
   exchange_id: 193
   exchange_name: Trade Satoshi
+  pair: BTRS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://tradesatoshi.com/Exchange?market=BTRS_BTC
+- base:
+    currency_id: 4257
+    currency_symbol: BTRS
+    currency_type: cryptocurrency
+    exchange_symbol: BTRS
+  exchange_id: 340
+  exchange_name: token.store
   pair: BTRS/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://tradesatoshi.com/Exchange?market=BTRS_ETH
+  url: https://token.store/trade/BTRS
 - base:
     currency_id: 4257
     currency_symbol: BTRS
@@ -52,8 +66,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://ccxcanada.com/markets/btrsbtc
+- base:
+    currency_id: 4257
+    currency_symbol: BTRS
+    currency_type: cryptocurrency
+    exchange_symbol: BTRS
+  exchange_id: 193
+  exchange_name: Trade Satoshi
+  pair: BTRS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://tradesatoshi.com/Exchange?market=BTRS_ETH
 name: Bitball Treasure
-rank: 668
+rank: 319
 slug: bitball-treasure
 status: active
 symbol: BTRS

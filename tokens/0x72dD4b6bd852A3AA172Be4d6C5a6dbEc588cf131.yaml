@@ -30,15 +30,29 @@ markets:
     currency_symbol: NGC
     currency_type: cryptocurrency
     exchange_symbol: NGC
-  exchange_id: 388
-  exchange_name: Sistemkoin
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: NGC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://sistemkoin.com/#/
+  url: https://hitbtc.com/NGC-to-BTC
+- base:
+    currency_id: 2305
+    currency_symbol: NGC
+    currency_type: cryptocurrency
+    exchange_symbol: NGC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: NGC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/NGC-to-USDT
 - base:
     currency_id: 2305
     currency_symbol: NGC
@@ -58,15 +72,15 @@ markets:
     currency_symbol: NGC
     currency_type: cryptocurrency
     exchange_symbol: NGC
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 388
+  exchange_name: Sistemkoin
   pair: NGC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/NGC-to-BTC
+  url: https://sistemkoin.com/#/
 - base:
     currency_id: 2305
     currency_symbol: NGC
@@ -81,20 +95,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/NGC-to-ETH
-- base:
-    currency_id: 2305
-    currency_symbol: NGC
-    currency_type: cryptocurrency
-    exchange_symbol: NGC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: NGC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/NGC-to-USDT
 - base:
     currency_id: 2305
     currency_symbol: NGC
@@ -152,19 +152,19 @@ markets:
     exchange_symbol: USD
   url: https://nagax.com/exchange/NGCUSD
 - base:
-    currency_id: 52
-    currency_symbol: XRP
+    currency_id: 1831
+    currency_symbol: BCH
     currency_type: cryptocurrency
-    exchange_symbol: XRP
+    exchange_symbol: BCH
   exchange_id: 484
   exchange_name: NAGAX
-  pair: XRP/NGC
+  pair: BCH/NGC
   quote:
     currency_id: 2305
     currency_symbol: NGC
     currency_type: cryptocurrency
     exchange_symbol: NGC
-  url: https://nagax.com/exchange/XRPNGC
+  url: https://nagax.com/exchange/BCHNGC
 - base:
     currency_id: 2305
     currency_symbol: NGC
@@ -180,6 +180,20 @@ markets:
     exchange_symbol: ETH
   url: https://nagax.com/exchange/NGCETH
 - base:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  exchange_id: 484
+  exchange_name: NAGAX
+  pair: XRP/NGC
+  quote:
+    currency_id: 2305
+    currency_symbol: NGC
+    currency_type: cryptocurrency
+    exchange_symbol: NGC
+  url: https://nagax.com/exchange/XRPNGC
+- base:
     currency_id: 131
     currency_symbol: DASH
     currency_type: cryptocurrency
@@ -193,20 +207,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: NGC
   url: https://nagax.com/exchange/DASHNGC
-- base:
-    currency_id: 1831
-    currency_symbol: BCH
-    currency_type: cryptocurrency
-    exchange_symbol: BCH
-  exchange_id: 484
-  exchange_name: NAGAX
-  pair: BCH/NGC
-  quote:
-    currency_id: 2305
-    currency_symbol: NGC
-    currency_type: cryptocurrency
-    exchange_symbol: NGC
-  url: https://nagax.com/exchange/BCHNGC
 - base:
     currency_id: 2
     currency_symbol: LTC
@@ -222,7 +222,7 @@ markets:
     exchange_symbol: NGC
   url: https://nagax.com/exchange/LTCNGC
 name: NAGA
-rank: 705
+rank: 744
 slug: naga
 status: active
 symbol: NGC

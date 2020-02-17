@@ -23,20 +23,6 @@ markets:
     currency_symbol: IND
     currency_type: cryptocurrency
     exchange_symbol: IND
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: IND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/IND/BTC
-- base:
-    currency_id: 1967
-    currency_symbol: IND
-    currency_type: cryptocurrency
-    exchange_symbol: IND
   exchange_id: 242
   exchange_name: COSS
   pair: IND/BTC
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.coss.io/c/trade?s=IND_ETH
+- base:
+    currency_id: 1967
+    currency_symbol: IND
+    currency_type: cryptocurrency
+    exchange_symbol: IND
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: IND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/IND/BTC
 - base:
     currency_id: 1967
     currency_symbol: IND
@@ -103,7 +103,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.coss.io/c/trade?s=IND_USDT
 name: Indorse Token
-rank: 1486
+rank: 1376
 slug: indorse-token
 status: active
 symbol: IND

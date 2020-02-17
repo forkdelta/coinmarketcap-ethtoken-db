@@ -37,20 +37,6 @@ markets:
     exchange_symbol: DPT
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: DPT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://p2pb2b.io/trade/DPT_USDT
-- base:
-    currency_id: 3920
-    currency_symbol: DPT
-    currency_type: cryptocurrency
-    exchange_symbol: DPT
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: DPT/ETH
   quote:
     currency_id: 1027
@@ -77,15 +63,29 @@ markets:
     currency_symbol: DPT
     currency_type: cryptocurrency
     exchange_symbol: DPT
-  exchange_id: 419
-  exchange_name: Graviex
-  pair: DPT/ETH
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: DPT/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://graviex.net/markets/dpteth
+    exchange_symbol: USDT
+  url: https://p2pb2b.io/trade/DPT_USDT
+- base:
+    currency_id: 3920
+    currency_symbol: DPT
+    currency_type: cryptocurrency
+    exchange_symbol: DPT
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: DPT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://latoken.com/exchange/USDT-DPT
 - base:
     currency_id: 3920
     currency_symbol: DPT
@@ -107,27 +107,13 @@ markets:
     exchange_symbol: DPT
   exchange_id: 419
   exchange_name: Graviex
-  pair: DPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://graviex.net/markets/dptbtc
-- base:
-    currency_id: 3920
-    currency_symbol: DPT
-    currency_type: cryptocurrency
-    exchange_symbol: DPT
-  exchange_id: 380
-  exchange_name: LATOKEN
   pair: DPT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://latoken.com/exchange/ETH-DPT
+  url: https://graviex.net/markets/dpteth
 - base:
     currency_id: 3920
     currency_symbol: DPT
@@ -147,15 +133,15 @@ markets:
     currency_symbol: DPT
     currency_type: cryptocurrency
     exchange_symbol: DPT
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: DPT/USDT
+  exchange_id: 419
+  exchange_name: Graviex
+  pair: DPT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://latoken.com/exchange/USDT-DPT
+    exchange_symbol: BTC
+  url: https://graviex.net/markets/dptbtc
 - base:
     currency_id: 3920
     currency_symbol: DPT
@@ -213,7 +199,7 @@ markets:
     exchange_symbol: USD
   url: https://localtrade.pro
 name: Diamond Platform Token
-rank: 148
+rank: 200
 slug: diamond-platform-token
 status: active
 symbol: DPT

@@ -17,7 +17,22 @@ links:
   - https://twitter.com/teamchromia
   website:
   - https://chromia.com/
+  - https://chromapolis.com/
 markets:
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: CHR/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/CHRKRW
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -65,29 +80,15 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 489
-  exchange_name: Bithumb Global
-  pair: CHR/USDT
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CHR/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=CHR_USDT
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: CHR/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/CHRKRW
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/CHR-BTC
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -102,6 +103,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.kucoin.com/trade/CHR-USDT
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: CHR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=CHR_USDT
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -135,20 +150,6 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CHR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/CHR-BTC
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
   exchange_id: 453
   exchange_name: BitMax
   pair: CHR/ETH
@@ -159,7 +160,7 @@ markets:
     exchange_symbol: ETH
   url: https://bitmax.io/#/trade/eth/chr
 name: Chromia
-rank: 758
+rank: 611
 slug: chromia
 status: active
 symbol: CHR
