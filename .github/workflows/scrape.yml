@@ -1,0 +1,50 @@
+on:
+  schedule:
+  - cron: "30 18 * * *"
+
+jobs:
+  build:
+    runs-on: [self-hosted, scraper]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+    - name: Use pip cache
+      uses: actions/cache@v1
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install dependencies
+      run: cd scripts/ && pip install -r requirements.txt
+    - name: Use scraper cache
+      uses: actions/cache@v1
+      with:
+        path: .cache
+        key: scraper-cache
+    - name: Run scraper
+      run: mkdir -p .cache && python scripts/generate.py
+      env:
+        CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
+    - uses: stefanzweifel/git-auto-commit-action@v4.1.6
+      with:
+        commit_message: Update database
+
+        # Optional name of the branch the commit should be pushed to
+        # Required if Action is used in Workflow listening to the `pull_request` event.
+        # Also required for almost all other events (eg. `schedule`)
+        branch: ${{ github.head_ref }}
+
+        # Optional git params
+        commit_options: '--no-verify'
+
+        # Optional glob pattern of files which should be added to the commit
+        file_pattern: tokens/*.yaml
+
+        # Optional commit user and author settings
+        commit_user_name: ForkDelta Bot
+        commit_user_email: developers@forkdelta.com
+        commit_author: ForkDelta Bot <developers@forkdelta.com>
