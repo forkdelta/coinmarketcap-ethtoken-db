@@ -11,6 +11,7 @@ jobs:
     # They're working on it
     # see https://github.com/actions/python-versions/commit/f75c0e6e4b33d1d070936b35d682b7c9efceaa4b
     - run: echo "::set-env name=AGENT_TOOLSDIRECTORY::${RUNNER_TOOL_CACHE}"
+    - run: env
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
