@@ -1,12 +1,13 @@
 from glob import glob
 from itertools import groupby
 import logging
+from os import environ
 import requests
 
 from helpers import (DEFAULT_HEADERS, process_listing)
 from entry_io import (read_entry, write_token_entry, update_token_entry)
 
-CMC_LISTINGS_API_URL = "https://api.coinmarketcap.com/v2/listings/"
+CMC_LISTINGS_API_URL = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map"
 
 
 def get_api_listings():
@@ -16,7 +17,7 @@ def get_api_listings():
     Returns: a list of dicts like so:
         [{'id': 1, 'name': 'Bitcoin', 'symbol': 'BTC', 'website_slug': 'bitcoin'}, ...]
     """
-    r = requests.get(CMC_LISTINGS_API_URL, headers=DEFAULT_HEADERS)
+    r = requests.get(CMC_LISTINGS_API_URL, headers={**DEFAULT_HEADERS, "X-CMC_PRO_API_KEY": environ["CMC_PRO_API_KEY"]})
     return r.json()["data"]
 
 
@@ -51,7 +52,7 @@ def main():
     slugs = map_entries_to_discrete(existing_files, "slug")
 
     api_listings = get_api_listings()
-    api_slugs = {e["id"]: e["website_slug"] for e in api_listings}
+    api_slugs = {e["id"]: e["slug"] for e in api_listings}
 
     slugs.update(api_slugs)
 
@@ -61,7 +62,7 @@ def main():
         except:
             logging.exception(
                 "Final error when trying to process listing for '%s'",
-                asset_website_slug)
+                 asset_website_slug)
             continue
 
         (listing, current_addresses) = result
