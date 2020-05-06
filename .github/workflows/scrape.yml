@@ -1,16 +1,16 @@
 on:
   schedule:
-  - cron: "30 18 * * *"
+  - cron: "20 17 * * *"
 
 jobs:
   build:
     runs-on: [self-hosted, scraper]
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.8
+    - name: Set up pypy3
       uses: actions/setup-python@v2
       with:
-        python-version: '3.8'
+        python-version: 'pypy3'
     - name: Use pip cache
       uses: actions/cache@v1
       with:
