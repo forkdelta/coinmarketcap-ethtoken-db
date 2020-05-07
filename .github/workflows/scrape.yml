@@ -9,10 +9,12 @@ jobs:
     runs-on: [self-hosted, scraper]
     steps:
     - uses: actions/checkout@v2
-    - name: Set up pypy3
+    - run: env
+    - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.8'
+    - run: env
     - name: Use pip cache
       uses: actions/cache@v1
       with:
