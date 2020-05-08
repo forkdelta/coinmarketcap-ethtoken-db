@@ -8,8 +8,9 @@ env:
   LD_LIBRARY_PATH: /home/runner/actions-runner/_work/_tool/Python/3.8.2/x64/lib
 
 jobs:
-  build:
+  scrape:
     runs-on: [self-hosted, scraper]
+    timeout-minutes: 1080 # 18 hours
     steps:
     - uses: actions/checkout@v2
     - run: env
