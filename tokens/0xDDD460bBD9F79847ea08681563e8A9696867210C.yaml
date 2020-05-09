@@ -25,6 +25,7 @@ links:
   explorer:
   - https://etherscan.io/token/0xddd460bbd9f79847ea08681563e8a9696867210c
   - https://ethplorer.io/address/0xddd460bbd9f79847ea08681563e8a9696867210c
+  - https://explorer.binance.org/asset/SPNDB-916
   message_board:
   - https://medium.com/Spend
   reddit:
@@ -44,20 +45,6 @@ markets:
     currency_symbol: SPND
     currency_type: cryptocurrency
     exchange_symbol: SPND
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: SPND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-SPND
-- base:
-    currency_id: 3307
-    currency_symbol: SPND
-    currency_type: cryptocurrency
-    exchange_symbol: SPND
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: SPND/BTC
@@ -67,34 +54,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=spnd
-- base:
-    currency_id: 3307
-    currency_symbol: SPND
-    currency_type: cryptocurrency
-    exchange_symbol: SPND
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: SPND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bilaxy.com/trade/SPND_BTC
-- base:
-    currency_id: 3307
-    currency_symbol: SPND
-    currency_type: cryptocurrency
-    exchange_symbol: SPND
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: SPND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-SPND
 - base:
     currency_id: 3307
     currency_symbol: SPND
@@ -114,15 +73,29 @@ markets:
     currency_symbol: SPND
     currency_type: cryptocurrency
     exchange_symbol: SPND
-  exchange_id: 311
-  exchange_name: KuCoin
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: SPND/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/SPND-BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-SPND
+- base:
+    currency_id: 3307
+    currency_symbol: SPND
+    currency_type: cryptocurrency
+    exchange_symbol: SPND
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: SPND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-SPND
 - base:
     currency_id: 3307
     currency_symbol: SPND
@@ -137,48 +110,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.okex.com/market?product=spnd_btc
-- base:
-    currency_id: 3307
-    currency_symbol: SPND
-    currency_type: cryptocurrency
-    exchange_symbol: SPND
-  exchange_id: 407
-  exchange_name: DigiFinex
-  pair: SPND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.digifinex.com/en-ww/trade/BTC/SPND
-- base:
-    currency_id: 3307
-    currency_symbol: SPND
-    currency_type: cryptocurrency
-    exchange_symbol: SPND
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: SPND/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=spnd_usdk
-- base:
-    currency_id: 3307
-    currency_symbol: SPND
-    currency_type: cryptocurrency
-    exchange_symbol: SPND
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: SPND/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.kucoin.com/trade/SPND-ETH
 - base:
     currency_id: 3307
     currency_symbol: SPND
@@ -198,6 +129,62 @@ markets:
     currency_symbol: SPND
     currency_type: cryptocurrency
     exchange_symbol: SPND
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: SPND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/SPND-BTC
+- base:
+    currency_id: 3307
+    currency_symbol: SPND
+    currency_type: cryptocurrency
+    exchange_symbol: SPND
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: SPND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.digifinex.com/en-ww/trade/BTC/SPND
+- base:
+    currency_id: 3307
+    currency_symbol: SPND
+    currency_type: cryptocurrency
+    exchange_symbol: SPND
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: SPND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.kucoin.com/trade/SPND-ETH
+- base:
+    currency_id: 3307
+    currency_symbol: SPND
+    currency_type: cryptocurrency
+    exchange_symbol: SPND
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: SPND/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=spnd_usdk
+- base:
+    currency_id: 3307
+    currency_symbol: SPND
+    currency_type: cryptocurrency
+    exchange_symbol: SPND
   exchange_id: 490
   exchange_name: OKEx Korea
   pair: SPND/BTC
@@ -206,9 +193,9 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://okex.co.kr/kr/view/trade/order
+  url: https://okex.co.kr/kr/view/exchange?coin=SPND&market=BTC
 name: Spendcoin
-rank: 814
+rank: 675
 slug: spendcoin
 status: active
 symbol: SPND

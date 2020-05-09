@@ -35,20 +35,6 @@ markets:
     currency_symbol: LA
     currency_type: cryptocurrency
     exchange_symbol: LA
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: LA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/LA-to-ETH
-- base:
-    currency_id: 2090
-    currency_symbol: LA
-    currency_type: cryptocurrency
-    exchange_symbol: LA
   exchange_id: 380
   exchange_name: LATOKEN
   pair: LA/BTC
@@ -86,8 +72,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://latoken.com/exchange/USDT-LA
+- base:
+    currency_id: 2090
+    currency_symbol: LA
+    currency_type: cryptocurrency
+    exchange_symbol: LA
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: LA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/LA-to-ETH
+- base:
+    currency_id: 3754
+    currency_symbol: EVY
+    currency_type: cryptocurrency
+    exchange_symbol: EVY
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: EVY/LA
+  quote:
+    currency_id: 2090
+    currency_symbol: LA
+    currency_type: cryptocurrency
+    exchange_symbol: LA
+  url: https://latoken.com/exchange/LA-EVY
 name: LATOKEN
-rank: 249
+rank: 290
 slug: latoken
 status: active
 symbol: LA

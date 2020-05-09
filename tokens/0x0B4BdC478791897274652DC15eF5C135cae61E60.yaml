@@ -24,20 +24,6 @@ markets:
     exchange_symbol: DAX
   exchange_id: 333
   exchange_name: LBank
-  pair: DAX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.lbank.info/trading/dax/btc
-- base:
-    currency_id: 2696
-    currency_symbol: DAX
-    currency_type: cryptocurrency
-    exchange_symbol: DAX
-  exchange_id: 333
-  exchange_name: LBank
   pair: DAX/ETH
   quote:
     currency_id: 1027
@@ -45,6 +31,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.lbank.info/trading/dax/eth
+- base:
+    currency_id: 2696
+    currency_symbol: DAX
+    currency_type: cryptocurrency
+    exchange_symbol: DAX
+  exchange_id: 333
+  exchange_name: LBank
+  pair: DAX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.lbank.info/trading/dax/btc
 - base:
     currency_id: 2696
     currency_symbol: DAX
@@ -60,7 +60,7 @@ markets:
     exchange_symbol: IDR
   url: https://indodax.com/market/DAXIDR
 name: DAEX
-rank: 797
+rank: 928
 slug: daex
 status: active
 symbol: DAX

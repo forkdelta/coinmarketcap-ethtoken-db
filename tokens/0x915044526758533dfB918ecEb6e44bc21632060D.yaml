@@ -9,16 +9,46 @@ links:
   explorer:
   - https://etherscan.io/token/0x915044526758533dfB918ecEb6e44bc21632060D
   - https://ethplorer.io/address/0x915044526758533dfB918ecEb6e44bc21632060D
+  reddit:
+  - https://reddit.com/r/Teamchromia
   source_code:
   - https://bitbucket.com/chromawallet
   technical_doc:
   - https://chromia.com/documents/Chromia-_-Platform-white-paper2019.pdf
   twitter:
-  - https://twitter.com/teamchromia
+  - https://twitter.com/Chromia
   website:
   - https://chromia.com/
   - https://chromapolis.com/
 markets:
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CHR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/CHR_BTC
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CHR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/CHR_USDT
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -52,15 +82,57 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 453
-  exchange_name: BitMax
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: CHR/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/chr
+  url: https://www.kucoin.com/trade/CHR-BTC
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 615
+  exchange_name: Binance JEX
+  pair: CHR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.jex.com/en/spot
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 615
+  exchange_name: Binance JEX
+  pair: CHR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.jex.com/en/spot
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CHR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.kucoin.com/trade/CHR-USDT
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -80,29 +152,29 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 311
-  exchange_name: KuCoin
+  exchange_id: 453
+  exchange_name: BitMax
   pair: CHR/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/CHR-BTC
+  url: https://bitmax.io/#/trade/btc/chr
 - base:
     currency_id: 3978
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CHR/USDT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CHR/BNB
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.kucoin.com/trade/CHR-USDT
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/CHR_BNB
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -145,22 +217,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=CHR_ETH
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: CHR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bitmax.io/#/trade/eth/chr
 name: Chromia
-rank: 611
+rank: 375
 slug: chromia
 status: active
 symbol: CHR

@@ -69,13 +69,27 @@ markets:
     exchange_symbol: ORS
   exchange_id: 490
   exchange_name: OKEx Korea
+  pair: ORS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://okex.co.kr/kr/view/exchange?coin=ORS&market=BTC
+- base:
+    currency_id: 2879
+    currency_symbol: ORS
+    currency_type: cryptocurrency
+    exchange_symbol: ORS
+  exchange_id: 490
+  exchange_name: OKEx Korea
   pair: ORS/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://okex.co.kr/kr/view/trade/order
+  url: https://okex.co.kr/kr/view/exchange?coin=ORS&market=ETH
 - base:
     currency_id: 2879
     currency_symbol: ORS
@@ -89,23 +103,9 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://okex.co.kr/kr/view/trade/order
-- base:
-    currency_id: 2879
-    currency_symbol: ORS
-    currency_type: cryptocurrency
-    exchange_symbol: ORS
-  exchange_id: 490
-  exchange_name: OKEx Korea
-  pair: ORS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://okex.co.kr/kr/view/trade/order
+  url: https://okex.co.kr/kr/view/exchange?coin=ORS&market=USDT
 name: Origin Sport
-rank: 700
+rank: 858
 slug: origin-sport
 status: active
 symbol: ORS

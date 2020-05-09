@@ -53,34 +53,6 @@ markets:
     exchange_symbol: VNDC
   url: https://exmarkets.com/trade/usdc-vndc
 - base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 535
-  exchange_name: ExMarkets
-  pair: ETH/VNDC
-  quote:
-    currency_id: 4805
-    currency_symbol: VNDC
-    currency_type: cryptocurrency
-    exchange_symbol: VNDC
-  url: https://exmarkets.com/trade/eth-vndc
-- base:
-    currency_id: 4805
-    currency_symbol: VNDC
-    currency_type: cryptocurrency
-    exchange_symbol: VNDC
-  exchange_id: 487
-  exchange_name: VinDAX
-  pair: VNDC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://vindax.com/exchange-base.html?symbol=VNDC_USDT
-- base:
     currency_id: 4180
     currency_symbol: DDK
     currency_type: cryptocurrency
@@ -95,19 +67,33 @@ markets:
     exchange_symbol: VNDC
   url: https://exmarkets.com/trade/ddk-vndc
 - base:
+    currency_id: 4805
+    currency_symbol: VNDC
+    currency_type: cryptocurrency
+    exchange_symbol: VNDC
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: VNDC/BTC
+  quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 535
-  exchange_name: ExMarkets
-  pair: BTC/VNDC
+  url: https://vindax.com/exchange-base.html?symbol=VNDC_BTC
+- base:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: USDT/VNDC
   quote:
     currency_id: 4805
     currency_symbol: VNDC
     currency_type: cryptocurrency
     exchange_symbol: VNDC
-  url: https://exmarkets.com/trade/btc-vndc
+  url: https://whitebit.com/trade/USDT_VNDC
 - base:
     currency_id: 4805
     currency_symbol: VNDC
@@ -127,17 +113,59 @@ markets:
     currency_symbol: VNDC
     currency_type: cryptocurrency
     exchange_symbol: VNDC
-  exchange_id: 487
-  exchange_name: VinDAX
+  exchange_id: 514
+  exchange_name: Finexbox
   pair: VNDC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://vindax.com/exchange-base.html?symbol=VNDC_BTC
+  url: https://www.finexbox.com/market/pair/VNDC-BTC.html
+- base:
+    currency_id: 4805
+    currency_symbol: VNDC
+    currency_type: cryptocurrency
+    exchange_symbol: VNDC
+  exchange_id: 514
+  exchange_name: Finexbox
+  pair: VNDC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.finexbox.com/market/pair/VNDC-USDT.html
+- base:
+    currency_id: 4805
+    currency_symbol: VNDC
+    currency_type: cryptocurrency
+    exchange_symbol: VNDC
+  exchange_id: 514
+  exchange_name: Finexbox
+  pair: VNDC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.finexbox.com/market/pair/VNDC-ETH.html
+- base:
+    currency_id: 4805
+    currency_symbol: VNDC
+    currency_type: cryptocurrency
+    exchange_symbol: VNDC
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: VNDC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://vindax.com/exchange-base.html?symbol=VNDC_USDT
 name: VNDC
-rank: 690
+rank: 822
 slug: vndc
 status: active
 symbol: VNDC

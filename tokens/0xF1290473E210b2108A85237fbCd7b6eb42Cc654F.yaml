@@ -14,6 +14,7 @@ links:
   - https://etherscan.io/token/0xF1290473E210b2108A85237fbCd7b6eb42Cc654F
   - https://ethplorer.io/address/0xF1290473E210b2108A85237fbCd7b6eb42Cc654F
   - https://blockchair.com/ethereum/erc-20/token/0xF1290473E210b2108A85237fbCd7b6eb42Cc654F
+  - https://eth.tokenview.com/en/token/0xf1290473e210b2108a85237fbcd7b6eb42cc654f
   source_code:
   - https://github.com/rublixdev/hedgtokenmint
   twitter:
@@ -49,6 +50,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.cointiger.com/en-us/#/trade_pro?coin=hedg_eth
+- base:
+    currency_id: 3662
+    currency_symbol: HEDG
+    currency_type: cryptocurrency
+    exchange_symbol: HEDG
+  exchange_id: 245
+  exchange_name: STEX
+  pair: HEDG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.stex.com/en/basic-trade/pair/BTC/HEDG/1D
 - base:
     currency_id: 3662
     currency_symbol: HEDG
@@ -96,15 +111,57 @@ markets:
     currency_symbol: HEDG
     currency_type: cryptocurrency
     exchange_symbol: HEDG
-  exchange_id: 245
-  exchange_name: STEX
+  exchange_id: 857
+  exchange_name: Bitcoin.com
   pair: HEDG/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://app.stex.com/en/basic-trade/pair/BTC/HEDG/1D
+  url: null
+- base:
+    currency_id: 3662
+    currency_symbol: HEDG
+    currency_type: cryptocurrency
+    exchange_symbol: HEDG
+  exchange_id: 857
+  exchange_name: Bitcoin.com
+  pair: HEDG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: null
+- base:
+    currency_id: 3662
+    currency_symbol: HEDG
+    currency_type: cryptocurrency
+    exchange_symbol: HEDG
+  exchange_id: 857
+  exchange_name: Bitcoin.com
+  pair: HEDG/BCH
+  quote:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  url: null
+- base:
+    currency_id: 3662
+    currency_symbol: HEDG
+    currency_type: cryptocurrency
+    exchange_symbol: HEDG
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: HEDG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.livecoin.net/en/trading/HEDG_ETH
 - base:
     currency_id: 3662
     currency_symbol: HEDG
@@ -124,6 +181,20 @@ markets:
     currency_symbol: HEDG
     currency_type: cryptocurrency
     exchange_symbol: HEDG
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: HEDG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 3662
+    currency_symbol: HEDG
+    currency_type: cryptocurrency
+    exchange_symbol: HEDG
   exchange_id: 267
   exchange_name: Bancor Network
   pair: HEDG/ETH
@@ -138,15 +209,15 @@ markets:
     currency_symbol: HEDG
     currency_type: cryptocurrency
     exchange_symbol: HEDG
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: HEDG/ETH
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: HEDG/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.livecoin.net/en/trading/HEDG_ETH
+    exchange_symbol: USDT
+  url: https://www.probit.com/app/exchange/HEDG-USDT
 name: HedgeTrade
 rank: 23
 slug: hedgetrade

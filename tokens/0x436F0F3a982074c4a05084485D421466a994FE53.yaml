@@ -29,20 +29,6 @@ markets:
     exchange_symbol: RTE
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: RTE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/rte_btc/
-- base:
-    currency_id: 2880
-    currency_symbol: RTE
-    currency_type: cryptocurrency
-    exchange_symbol: RTE
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: RTE/ETH
   quote:
     currency_id: 1027
@@ -55,15 +41,15 @@ markets:
     currency_symbol: RTE
     currency_type: cryptocurrency
     exchange_symbol: RTE
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: RTE/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=RTE_BTC
+  url: https://www.hbg.com/en-us/exchange/rte_btc/
 - base:
     currency_id: 2880
     currency_symbol: RTE
@@ -83,6 +69,20 @@ markets:
     currency_symbol: RTE
     currency_type: cryptocurrency
     exchange_symbol: RTE
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: RTE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=RTE_BTC
+- base:
+    currency_id: 2880
+    currency_symbol: RTE
+    currency_type: cryptocurrency
+    exchange_symbol: RTE
   exchange_id: 37
   exchange_name: Bitfinex
   pair: RTE/USD
@@ -92,20 +92,6 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/RTE:USD
-- base:
-    currency_id: 2880
-    currency_symbol: RTE
-    currency_type: cryptocurrency
-    exchange_symbol: RTE
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: RTE/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitfinex.com/t/RTE:ETH
 - base:
     currency_id: 2880
     currency_symbol: RTE
@@ -134,22 +120,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/rte
-- base:
-    currency_id: 2880
-    currency_symbol: RTE
-    currency_type: cryptocurrency
-    exchange_symbol: RTE
-  exchange_id: 410
-  exchange_name: FCoin
-  pair: RTE/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://exchange.fcoin.com/ex/main/rte-eth
 name: Rate3
-rank: 998
+rank: 1061
 slug: rate3
 status: active
 symbol: RTE

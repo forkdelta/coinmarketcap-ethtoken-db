@@ -23,20 +23,6 @@ markets:
     exchange_symbol: UC
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: UC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/uc_btc/
-- base:
-    currency_id: 3259
-    currency_symbol: UC
-    currency_type: cryptocurrency
-    exchange_symbol: UC
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: UC/ETH
   quote:
     currency_id: 1027
@@ -44,6 +30,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/uc_eth/
+- base:
+    currency_id: 3259
+    currency_symbol: UC
+    currency_type: cryptocurrency
+    exchange_symbol: UC
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: UC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/uc_btc/
 - base:
     currency_id: 3259
     currency_symbol: UC
@@ -72,22 +72,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bcex.ca/trade/uc_eth
-- base:
-    currency_id: 3259
-    currency_symbol: UC
-    currency_type: cryptocurrency
-    exchange_symbol: UC
-  exchange_id: 430
-  exchange_name: ZBG
-  pair: UC/ZT
-  quote:
-    currency_id: 3458
-    currency_symbol: ZT
-    currency_type: cryptocurrency
-    exchange_symbol: ZT
-  url: https://www.zbg.com/trade/uc_zt
 name: YouLive Coin
-rank: 2142
+rank: 2164
 slug: youlive-coin
 status: active
 symbol: UC

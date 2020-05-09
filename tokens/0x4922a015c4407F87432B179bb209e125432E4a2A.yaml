@@ -29,13 +29,13 @@ markets:
     exchange_symbol: XAUT
   exchange_id: 37
   exchange_name: Bitfinex
-  pair: XAUT/USDT
+  pair: XAUT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: UST
-  url: https://www.bitfinex.com/t/XAUT:USDT
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/XAUT:BTC
 - base:
     currency_id: 5176
     currency_symbol: XAUT
@@ -57,15 +57,57 @@ markets:
     exchange_symbol: XAUT
   exchange_id: 37
   exchange_name: Bitfinex
-  pair: XAUT/BTC
+  pair: XAUT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/XAUT:BTC
+    exchange_symbol: UST
+  url: https://www.bitfinex.com/t/XAUT:USDT
+- base:
+    currency_id: 5176
+    currency_symbol: XAUT
+    currency_type: cryptocurrency
+    exchange_symbol: XAUT
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: XAUT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 5176
+    currency_symbol: XAUT
+    currency_type: cryptocurrency
+    exchange_symbol: XAUT
+  exchange_id: 524
+  exchange_name: FTX
+  pair: XAUT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://ftx.com/trade/XAUT/USDT
+- base:
+    currency_id: 5176
+    currency_symbol: XAUT
+    currency_type: cryptocurrency
+    exchange_symbol: XAUT
+  exchange_id: 524
+  exchange_name: FTX
+  pair: XAUT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://ftx.com/trade/XAUT/USD
 name: Tether Gold
-rank: 2222
+rank: 2123
 slug: tether-gold
 status: active
 symbol: XAUT
