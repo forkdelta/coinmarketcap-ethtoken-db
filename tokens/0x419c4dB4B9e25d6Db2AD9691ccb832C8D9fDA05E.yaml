@@ -48,34 +48,6 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: DRGN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: DRGN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
   exchange_id: 311
   exchange_name: KuCoin
   pair: DRGN/ETH
@@ -90,15 +62,15 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: DRGN/BNT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: DRGN/BTC
   quote:
-    currency_id: 1727
-    currency_symbol: BNT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/DRGN
+    exchange_symbol: BTC
+  url: https://international.bittrex.com/Market/Index?MarketName=BTC-DRGN
 - base:
     currency_id: 2243
     currency_symbol: DRGN
@@ -118,15 +90,29 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
-  exchange_id: 22
-  exchange_name: Bittrex
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: DRGN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/drgn
+- base:
+    currency_id: 2243
+    currency_symbol: DRGN
+    currency_type: cryptocurrency
+    exchange_symbol: DRGN
+  exchange_id: 363
+  exchange_name: Fatbtc
   pair: DRGN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://international.bittrex.com/Market/Index?MarketName=BTC-DRGN
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 2243
     currency_symbol: DRGN
@@ -160,20 +146,6 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: DRGN/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/DRGN:USD
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
   exchange_id: 302
   exchange_name: Gate.io
   pair: DRGN/ETH
@@ -188,71 +160,29 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: DRGN/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/DRGN
+- base:
+    currency_id: 2243
+    currency_symbol: DRGN
+    currency_type: cryptocurrency
+    exchange_symbol: DRGN
   exchange_id: 37
   exchange_name: Bitfinex
-  pair: DRGN/ETH
+  pair: DRGN/USD
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitfinex.com/t/DRGN:ETH
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
-  exchange_id: 219
-  exchange_name: Tidex
-  pair: DRGN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://tidex.com/exchange/drgn/btc
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
-  exchange_id: 219
-  exchange_name: Tidex
-  pair: DRGN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://tidex.com/exchange/drgn/eth
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: DRGN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/drgn
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
-  exchange_id: 219
-  exchange_name: Tidex
-  pair: DRGN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://tidex.com/exchange/drgn/usdt
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/DRGN:USD
 - base:
     currency_id: 2243
     currency_symbol: DRGN
@@ -314,59 +244,17 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
-  exchange_id: 253
-  exchange_name: LocalTrade
-  pair: DRGN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://localtrade.pro
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
-  exchange_id: 253
-  exchange_name: LocalTrade
+  exchange_id: 524
+  exchange_name: FTX
   pair: DRGN/USD
   quote:
     currency_id: 2781
     currency_symbol: USD
     currency_type: fiat
     exchange_symbol: USD
-  url: https://localtrade.pro
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
-  exchange_id: 253
-  exchange_name: LocalTrade
-  pair: DRGN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://localtrade.pro
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
-  exchange_id: 253
-  exchange_name: LocalTrade
-  pair: DRGN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://localtrade.pro
+  url: https://ftx.com/trade/DRGN/USD
 name: Dragonchain
-rank: 328
+rank: 183
 slug: dragonchain
 status: active
 symbol: DRGN

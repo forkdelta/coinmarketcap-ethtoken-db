@@ -27,20 +27,6 @@ markets:
     exchange_symbol: GAP
   exchange_id: 403
   exchange_name: BitForex
-  pair: GAP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitforex.com/en/spot/gap_btc
-- base:
-    currency_id: 4694
-    currency_symbol: GAP
-    currency_type: cryptocurrency
-    exchange_symbol: GAP
-  exchange_id: 403
-  exchange_name: BitForex
   pair: GAP/ETH
   quote:
     currency_id: 1027
@@ -48,6 +34,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitforex.com/en/spot/gap_eth
+- base:
+    currency_id: 4694
+    currency_symbol: GAP
+    currency_type: cryptocurrency
+    exchange_symbol: GAP
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: GAP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitforex.com/en/spot/gap_btc
 - base:
     currency_id: 4694
     currency_symbol: GAP
@@ -76,8 +76,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://latoken.com/exchange/ETH-GAP
+- base:
+    currency_id: 4694
+    currency_symbol: GAP
+    currency_type: cryptocurrency
+    exchange_symbol: GAP
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: GAP/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/GAP-KRW
 name: GAPS
-rank: 219
+rank: 251
 slug: gaps
 status: active
 symbol: GAP

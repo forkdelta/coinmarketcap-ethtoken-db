@@ -43,29 +43,15 @@ markets:
     currency_symbol: MFT
     currency_type: cryptocurrency
     exchange_symbol: MFT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: MFT/BTC
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: MFT/KRW
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/MFT_BTC
-- base:
-    currency_id: 2896
-    currency_symbol: MFT
-    currency_type: cryptocurrency
-    exchange_symbol: MFT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: MFT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/MFT_USDT
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-MFT
 - base:
     currency_id: 2896
     currency_symbol: MFT
@@ -80,6 +66,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.mxc.com/trade/easy#MFT_ETH
+- base:
+    currency_id: 2896
+    currency_symbol: MFT
+    currency_type: cryptocurrency
+    exchange_symbol: MFT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: MFT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/MFT_USDT
 - base:
     currency_id: 2896
     currency_symbol: MFT
@@ -113,29 +113,15 @@ markets:
     currency_symbol: MFT
     currency_type: cryptocurrency
     exchange_symbol: MFT
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 545
+  exchange_name: Bitsdaq
   pair: MFT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=MFT_BTC
-- base:
-    currency_id: 2896
-    currency_symbol: MFT
-    currency_type: cryptocurrency
-    exchange_symbol: MFT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: MFT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=MFT_ETH
+  url: https://bitsdaq.com/exchange/MFT-BTC
 - base:
     currency_id: 2896
     currency_symbol: MFT
@@ -169,15 +155,15 @@ markets:
     currency_symbol: MFT
     currency_type: cryptocurrency
     exchange_symbol: MFT
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: MFT/BTC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: MFT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/MFT-BTC
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=MFT_ETH
 - base:
     currency_id: 2896
     currency_symbol: MFT
@@ -197,6 +183,20 @@ markets:
     currency_symbol: MFT
     currency_type: cryptocurrency
     exchange_symbol: MFT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: MFT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=MFT_BTC
+- base:
+    currency_id: 2896
+    currency_symbol: MFT
+    currency_type: cryptocurrency
+    exchange_symbol: MFT
   exchange_id: 310
   exchange_name: IDEX
   pair: MFT/ETH
@@ -206,36 +206,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/mft
-- base:
-    currency_id: 2896
-    currency_symbol: MFT
-    currency_type: cryptocurrency
-    exchange_symbol: MFT
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: MFT/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-MFT
-- base:
-    currency_id: 2896
-    currency_symbol: MFT
-    currency_type: cryptocurrency
-    exchange_symbol: MFT
-  exchange_id: 451
-  exchange_name: CoinPlace
-  pair: MFT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coinplace.pro/
 name: Mainframe
-rank: 351
+rank: 430
 slug: mainframe
 status: active
 symbol: MFT

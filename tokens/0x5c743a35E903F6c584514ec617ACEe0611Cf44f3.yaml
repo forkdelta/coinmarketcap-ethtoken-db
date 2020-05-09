@@ -47,7 +47,21 @@ markets:
     currency_symbol: PLN
     currency_type: fiat
     exchange_symbol: PLN
-  url: https://bitbay.net/en/exchange-rate/experty-price-pln
+  url: https://bitbay.net/en/exchange-rate/EXY-PLN
+- base:
+    currency_id: 2547
+    currency_symbol: EXY
+    currency_type: cryptocurrency
+    exchange_symbol: EXY
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: EXY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitbay.net/en/exchange-rate/EXY-BTC
 - base:
     currency_id: 2547
     currency_symbol: EXY
@@ -69,29 +83,15 @@ markets:
     exchange_symbol: EXY
   exchange_id: 82
   exchange_name: BitBay
-  pair: EXY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitbay.net/en/exchange-rate/experty-price-btc
-- base:
-    currency_id: 2547
-    currency_symbol: EXY
-    currency_type: cryptocurrency
-    exchange_symbol: EXY
-  exchange_id: 82
-  exchange_name: BitBay
   pair: EXY/EUR
   quote:
     currency_id: 2790
     currency_symbol: EUR
     currency_type: fiat
     exchange_symbol: EUR
-  url: https://bitbay.net/en/exchange-rate/experty-price-eur
+  url: https://bitbay.net/en/exchange-rate/EXY-EUR
 name: Experty
-rank: 988
+rank: 970
 slug: experty
 status: active
 symbol: EXY

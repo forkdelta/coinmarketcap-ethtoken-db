@@ -39,6 +39,20 @@ markets:
     exchange_symbol: MLN
   exchange_id: 24
   exchange_name: Kraken
+  pair: MLN/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://trade.kraken.com/markets/kraken/mln/usd
+- base:
+    currency_id: 1552
+    currency_symbol: MLN
+    currency_type: cryptocurrency
+    exchange_symbol: MLN
+  exchange_id: 24
+  exchange_name: Kraken
   pair: MLN/ETH
   quote:
     currency_id: 1027
@@ -79,34 +93,6 @@ markets:
     currency_symbol: MLN
     currency_type: cryptocurrency
     exchange_symbol: MLN
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: MLN/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://trade.kraken.com/markets/kraken/mln/usd
-- base:
-    currency_id: 1552
-    currency_symbol: MLN
-    currency_type: cryptocurrency
-    exchange_symbol: MLN
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: MLN/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/MLN:USD
-- base:
-    currency_id: 1552
-    currency_symbol: MLN
-    currency_type: cryptocurrency
-    exchange_symbol: MLN
   exchange_id: 107
   exchange_name: Livecoin
   pair: MLN/BTC
@@ -123,13 +109,13 @@ markets:
     exchange_symbol: MLN
   exchange_id: 37
   exchange_name: Bitfinex
-  pair: MLN/ETH
+  pair: MLN/USD
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitfinex.com/t/MLN:ETH
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/MLN:USD
 - base:
     currency_id: 1552
     currency_symbol: MLN
@@ -158,8 +144,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/MLN-to-ETH
+- base:
+    currency_id: 1552
+    currency_symbol: MLN
+    currency_type: cryptocurrency
+    exchange_symbol: MLN
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: MLN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 name: Melon
-rank: 414
+rank: 520
 slug: melon
 status: active
 symbol: MLN

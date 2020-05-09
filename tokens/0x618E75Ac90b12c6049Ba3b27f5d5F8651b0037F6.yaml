@@ -27,19 +27,33 @@ links:
   - https://www.liquid.com/
 markets:
 - base:
+    currency_id: 2447
+    currency_symbol: CRPT
+    currency_type: cryptocurrency
+    exchange_symbol: CRPT
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: CRPT/QASH
+  quote:
     currency_id: 2213
     currency_symbol: QASH
     currency_type: cryptocurrency
     exchange_symbol: QASH
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: QASH/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
+  url: https://app.liquid.com/exchange/CRPTQASH
+- base:
+    currency_id: 2213
+    currency_symbol: QASH
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=QASH_ETH
+    exchange_symbol: QASH
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: QASH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/QASHBTC
 - base:
     currency_id: 2213
     currency_symbol: QASH
@@ -73,57 +87,15 @@ markets:
     currency_symbol: QASH
     currency_type: cryptocurrency
     exchange_symbol: QASH
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: QASH/BTC
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: QASH/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=QASH_BTC
-- base:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: QASH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/QASHBTC
-- base:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: XRP/QASH
-  quote:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
-  url: https://app.liquid.com/exchange/XRPQASH
-- base:
-    currency_id: 2447
-    currency_symbol: CRPT
-    currency_type: cryptocurrency
-    exchange_symbol: CRPT
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: CRPT/QASH
-  quote:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
-  url: https://app.liquid.com/exchange/CRPTQASH
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/qash_eth/
 - base:
     currency_id: 2213
     currency_symbol: QASH
@@ -138,6 +110,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://app.liquid.com/exchange/QASHUSD
+- base:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: XRP/QASH
+  quote:
+    currency_id: 2213
+    currency_symbol: QASH
+    currency_type: cryptocurrency
+    exchange_symbol: QASH
+  url: https://app.liquid.com/exchange/XRPQASH
 - base:
     currency_id: 2213
     currency_symbol: QASH
@@ -157,62 +143,6 @@ markets:
     currency_symbol: QASH
     currency_type: cryptocurrency
     exchange_symbol: QASH
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: QASH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/qash_btc/
-- base:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: QASH/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/qash_eth/
-- base:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: QASH/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://app.liquid.com/exchange/QASHEUR
-- base:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
-  exchange_id: 483
-  exchange_name: Hanbitco
-  pair: QASH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hanbitco.com/exchange-basic/qash_btc
-- base:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
   exchange_id: 302
   exchange_name: Gate.io
   pair: QASH/USDT
@@ -222,20 +152,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/qash_usdt
-- base:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: QASH/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/qash-krw
 - base:
     currency_id: 2213
     currency_symbol: QASH
@@ -251,33 +167,19 @@ markets:
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/QASH:USD
 - base:
-    currency_id: 2137
-    currency_symbol: ETN
-    currency_type: cryptocurrency
-    exchange_symbol: ETN
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: ETN/QASH
-  quote:
     currency_id: 2213
     currency_symbol: QASH
     currency_type: cryptocurrency
     exchange_symbol: QASH
-  url: https://app.liquid.com/exchange/ETNQASH
-- base:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: QASH/AUD
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: QASH/ETH
   quote:
-    currency_id: 2782
-    currency_symbol: AUD
-    currency_type: fiat
-    exchange_symbol: AUD
-  url: https://app.liquid.com/exchange/QASHAUD
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=QASH_ETH
 - base:
     currency_id: 2213
     currency_symbol: QASH
@@ -297,15 +199,71 @@ markets:
     currency_symbol: QASH
     currency_type: cryptocurrency
     exchange_symbol: QASH
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: QASH/ETH
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: QASH/SGD
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 2808
+    currency_symbol: SGD
+    currency_type: fiat
+    exchange_symbol: SGD
+  url: https://app.liquid.com/exchange/QASHSGD
+- base:
+    currency_id: 2213
+    currency_symbol: QASH
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitfinex.com/t/QASH:ETH
+    exchange_symbol: QASH
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: QASH/AUD
+  quote:
+    currency_id: 2782
+    currency_symbol: AUD
+    currency_type: fiat
+    exchange_symbol: AUD
+  url: https://app.liquid.com/exchange/QASHAUD
+- base:
+    currency_id: 2213
+    currency_symbol: QASH
+    currency_type: cryptocurrency
+    exchange_symbol: QASH
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: QASH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=QASH_BTC
+- base:
+    currency_id: 2213
+    currency_symbol: QASH
+    currency_type: cryptocurrency
+    exchange_symbol: QASH
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: QASH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://gate.io/trade/qash_btc
+- base:
+    currency_id: 2213
+    currency_symbol: QASH
+    currency_type: cryptocurrency
+    exchange_symbol: QASH
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: QASH/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/qash-krw
 - base:
     currency_id: 2213
     currency_symbol: QASH
@@ -339,29 +297,29 @@ markets:
     currency_symbol: QASH
     currency_type: cryptocurrency
     exchange_symbol: QASH
-  exchange_id: 302
-  exchange_name: Gate.io
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: QASH/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://gate.io/trade/qash_btc
+  url: https://www.huobi.co.kr/en-US/exchange/qash_btc/
 - base:
     currency_id: 2213
     currency_symbol: QASH
     currency_type: cryptocurrency
     exchange_symbol: QASH
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: QASH/BTC
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: QASH/EUR
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/QASH:BTC
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://app.liquid.com/exchange/QASHEUR
 - base:
     currency_id: 2213
     currency_symbol: QASH
@@ -377,6 +335,20 @@ markets:
     exchange_symbol: BTC
   url: https://www.gopax.co.kr/exchange/qash-btc
 - base:
+    currency_id: 2137
+    currency_symbol: ETN
+    currency_type: cryptocurrency
+    exchange_symbol: ETN
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: ETN/QASH
+  quote:
+    currency_id: 2213
+    currency_symbol: QASH
+    currency_type: cryptocurrency
+    exchange_symbol: QASH
+  url: https://app.liquid.com/exchange/ETNQASH
+- base:
     currency_id: 2213
     currency_symbol: QASH
     currency_type: cryptocurrency
@@ -391,34 +363,6 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/qash
 - base:
-    currency_id: 2726
-    currency_symbol: GEN
-    currency_type: cryptocurrency
-    exchange_symbol: GEN
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: GEN/QASH
-  quote:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
-  url: https://app.liquid.com/exchange/GENQASH
-- base:
-    currency_id: 2231
-    currency_symbol: FLIXX
-    currency_type: cryptocurrency
-    exchange_symbol: FLIXX
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: FLIXX/QASH
-  quote:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
-  url: https://app.liquid.com/exchange/FLIXXQASH
-- base:
     currency_id: 2213
     currency_symbol: QASH
     currency_type: cryptocurrency
@@ -432,22 +376,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/qash_eth/
-- base:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
-  exchange_id: 331
-  exchange_name: EXX
-  pair: QASH/QC
-  quote:
-    currency_id: 2319
-    currency_symbol: QC
-    currency_type: cryptocurrency
-    exchange_symbol: QC
-  url: https://www.exx.com/tradeCoding/qash_qc
 name: QASH
-rank: 167
+rank: 199
 slug: qash
 status: active
 symbol: QASH

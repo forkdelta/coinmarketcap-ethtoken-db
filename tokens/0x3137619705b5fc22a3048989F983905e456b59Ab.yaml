@@ -27,20 +27,6 @@ markets:
     currency_symbol: EVR
     currency_type: cryptocurrency
     exchange_symbol: EVR
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: EVR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/EVR_BTC
-- base:
-    currency_id: 2066
-    currency_symbol: EVR
-    currency_type: cryptocurrency
-    exchange_symbol: EVR
   exchange_id: 382
   exchange_name: Crex24
   pair: EVR/BTC
@@ -50,48 +36,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://crex24.com/exchange/EVR-BTC
-- base:
-    currency_id: 2066
-    currency_symbol: EVR
-    currency_type: cryptocurrency
-    exchange_symbol: EVR
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: EVR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://crex24.com/exchange/EVR-ETH
-- base:
-    currency_id: 2066
-    currency_symbol: EVR
-    currency_type: cryptocurrency
-    exchange_symbol: EVR
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: EVR/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://crex24.com/exchange/EVR-EUR
-- base:
-    currency_id: 2066
-    currency_symbol: EVR
-    currency_type: cryptocurrency
-    exchange_symbol: EVR
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: EVR/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/EVR_USD
 - base:
     currency_id: 2066
     currency_symbol: EVR
@@ -111,17 +55,45 @@ markets:
     currency_symbol: EVR
     currency_type: cryptocurrency
     exchange_symbol: EVR
-  exchange_id: 382
-  exchange_name: Crex24
+  exchange_id: 215
+  exchange_name: P2PB2B
   pair: EVR/USD
   quote:
     currency_id: 2781
     currency_symbol: USD
     currency_type: fiat
     exchange_symbol: USD
-  url: https://crex24.com/exchange/EVR-USD
+  url: https://p2pb2b.io/trade/EVR_USD
+- base:
+    currency_id: 2066
+    currency_symbol: EVR
+    currency_type: cryptocurrency
+    exchange_symbol: EVR
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: EVR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://crex24.com/exchange/EVR-ETH
+- base:
+    currency_id: 2066
+    currency_symbol: EVR
+    currency_type: cryptocurrency
+    exchange_symbol: EVR
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: EVR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/EVR_BTC
 name: Everus
-rank: 265
+rank: 529
 slug: everus
 status: active
 symbol: EVR
