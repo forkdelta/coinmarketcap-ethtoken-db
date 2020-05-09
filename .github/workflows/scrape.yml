@@ -39,6 +39,7 @@ jobs:
         CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
     - uses: stefanzweifel/git-auto-commit-action@v4.1.6
       with:
+        token: ${{ secrets.FORKDELTA_BOT_TOKEN }}
         commit_message: Update database
 
         # Optional name of the branch the commit should be pushed to
