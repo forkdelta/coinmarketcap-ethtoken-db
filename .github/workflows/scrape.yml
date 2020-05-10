@@ -13,12 +13,12 @@ jobs:
     timeout-minutes: 1080 # 18 hours
     steps:
     - uses: actions/checkout@v2
-    - run: env
+      with:
+        token: ${{ secrets.FORKDELTA_BOT_TOKEN }}
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.8'
-    - run: env
     - name: Use pip cache
       uses: actions/cache@v1
       with:
