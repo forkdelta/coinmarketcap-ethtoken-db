@@ -13,8 +13,6 @@ jobs:
     timeout-minutes: 1080 # 18 hours
     steps:
     - uses: actions/checkout@v2
-      with:
-        token: ${{ secrets.FORKDELTA_BOT_TOKEN }}
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
@@ -39,7 +37,6 @@ jobs:
         CMC_PRO_API_KEY: ${{ secrets.CMC_PRO_API_KEY }}
     - uses: stefanzweifel/git-auto-commit-action@v4.1.6
       with:
-        token: ${{ secrets.FORKDELTA_BOT_TOKEN }}
         commit_message: Update database
 
         # Optional name of the branch the commit should be pushed to
