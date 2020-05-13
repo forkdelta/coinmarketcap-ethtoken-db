@@ -62,20 +62,6 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: DRGN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://international.bittrex.com/Market/Index?MarketName=BTC-DRGN
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: DRGN/BTC
@@ -85,6 +71,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=drgn
+- base:
+    currency_id: 2243
+    currency_symbol: DRGN
+    currency_type: cryptocurrency
+    exchange_symbol: DRGN
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: DRGN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://international.bittrex.com/Market/Index?MarketName=BTC-DRGN
 - base:
     currency_id: 2243
     currency_symbol: DRGN
@@ -160,20 +160,6 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: DRGN/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/DRGN
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
   exchange_id: 37
   exchange_name: Bitfinex
   pair: DRGN/USD
@@ -183,6 +169,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/DRGN:USD
+- base:
+    currency_id: 2243
+    currency_symbol: DRGN
+    currency_type: cryptocurrency
+    exchange_symbol: DRGN
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: DRGN/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/DRGN
 - base:
     currency_id: 2243
     currency_symbol: DRGN
@@ -254,7 +254,7 @@ markets:
     exchange_symbol: USD
   url: https://ftx.com/trade/DRGN/USD
 name: Dragonchain
-rank: 183
+rank: 166
 slug: dragonchain
 status: active
 symbol: DRGN

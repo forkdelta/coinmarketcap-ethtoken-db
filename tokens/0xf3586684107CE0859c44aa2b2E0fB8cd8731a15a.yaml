@@ -30,20 +30,6 @@ markets:
     exchange_symbol: KBC
   exchange_id: 403
   exchange_name: BitForex
-  pair: KBC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitforex.com/en/spot/kbc_btc
-- base:
-    currency_id: 2907
-    currency_symbol: KBC
-    currency_type: cryptocurrency
-    exchange_symbol: KBC
-  exchange_id: 403
-  exchange_name: BitForex
   pair: KBC/USDT
   quote:
     currency_id: 825
@@ -70,29 +56,43 @@ markets:
     currency_symbol: KBC
     currency_type: cryptocurrency
     exchange_symbol: KBC
-  exchange_id: 300
-  exchange_name: BitZ
+  exchange_id: 403
+  exchange_name: BitForex
   pair: KBC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bit-z.com/exchange/kbc_btc
+  url: https://www.bitforex.com/en/spot/kbc_btc
 - base:
     currency_id: 2907
     currency_symbol: KBC
     currency_type: cryptocurrency
     exchange_symbol: KBC
-  exchange_id: 402
-  exchange_name: Coinsuper
+  exchange_id: 343
+  exchange_name: CoinBene
   pair: KBC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.coinsuper.com/#/actionDeal
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=KBCBTC
+- base:
+    currency_id: 2907
+    currency_symbol: KBC
+    currency_type: cryptocurrency
+    exchange_symbol: KBC
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: KBC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/KBC_BTC
 - base:
     currency_id: 2907
     currency_symbol: KBC
@@ -112,15 +112,15 @@ markets:
     currency_symbol: KBC
     currency_type: cryptocurrency
     exchange_symbol: KBC
-  exchange_id: 300
-  exchange_name: BitZ
-  pair: KBC/USDT
+  exchange_id: 402
+  exchange_name: Coinsuper
+  pair: KBC/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bit-z.com/exchange/kbc_usdt
+    exchange_symbol: BTC
+  url: https://www.coinsuper.com/#/actionDeal
 - base:
     currency_id: 2907
     currency_symbol: KBC
@@ -128,13 +128,27 @@ markets:
     exchange_symbol: KBC
   exchange_id: 300
   exchange_name: BitZ
-  pair: KBC/ETH
+  pair: KBC/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bit-z.com/exchange/kbc_eth
+    exchange_symbol: BTC
+  url: https://www.bit-z.com/exchange/kbc_btc
+- base:
+    currency_id: 2907
+    currency_symbol: KBC
+    currency_type: cryptocurrency
+    exchange_symbol: KBC
+  exchange_id: 333
+  exchange_name: LBank
+  pair: KBC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.lbank.info/trading/kbc/usdt
 - base:
     currency_id: 2907
     currency_symbol: KBC
@@ -154,15 +168,15 @@ markets:
     currency_symbol: KBC
     currency_type: cryptocurrency
     exchange_symbol: KBC
-  exchange_id: 100
-  exchange_name: YoBit
+  exchange_id: 300
+  exchange_name: BitZ
   pair: KBC/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://yobit.net/en/trade/KBC/ETH
+  url: https://www.bit-z.com/exchange/kbc_eth
 - base:
     currency_id: 2907
     currency_symbol: KBC
@@ -182,29 +196,15 @@ markets:
     currency_symbol: KBC
     currency_type: cryptocurrency
     exchange_symbol: KBC
-  exchange_id: 343
-  exchange_name: CoinBene
+  exchange_id: 300
+  exchange_name: BitZ
   pair: KBC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=KBCUSDT
-- base:
-    currency_id: 2907
-    currency_symbol: KBC
-    currency_type: cryptocurrency
-    exchange_symbol: KBC
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: KBC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.fatbtc.com/
+  url: https://www.bit-z.com/exchange/kbc_usdt
 - base:
     currency_id: 2907
     currency_symbol: KBC
@@ -224,29 +224,29 @@ markets:
     currency_symbol: KBC
     currency_type: cryptocurrency
     exchange_symbol: KBC
-  exchange_id: 407
-  exchange_name: DigiFinex
+  exchange_id: 333
+  exchange_name: LBank
   pair: KBC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.digifinex.com/en-ww/trade/BTC/KBC
+  url: https://www.lbank.info/trading/kbc/btc
 - base:
     currency_id: 2907
     currency_symbol: KBC
     currency_type: cryptocurrency
     exchange_symbol: KBC
-  exchange_id: 459
-  exchange_name: BW.com
-  pair: KBC/BTC
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: KBC/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bw.com/trade/kbc_btc
+    exchange_symbol: ETH
+  url: https://yobit.net/en/trade/KBC/ETH
 - base:
     currency_id: 2907
     currency_symbol: KBC
@@ -268,6 +268,20 @@ markets:
     exchange_symbol: KBC
   exchange_id: 407
   exchange_name: DigiFinex
+  pair: KBC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.digifinex.com/en-ww/trade/BTC/KBC
+- base:
+    currency_id: 2907
+    currency_symbol: KBC
+    currency_type: cryptocurrency
+    exchange_symbol: KBC
+  exchange_id: 407
+  exchange_name: DigiFinex
   pair: KBC/ETH
   quote:
     currency_id: 1027
@@ -282,41 +296,13 @@ markets:
     exchange_symbol: KBC
   exchange_id: 343
   exchange_name: CoinBene
-  pair: KBC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=KBCBTC
-- base:
-    currency_id: 2907
-    currency_symbol: KBC
-    currency_type: cryptocurrency
-    exchange_symbol: KBC
-  exchange_id: 333
-  exchange_name: LBank
-  pair: KBC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.lbank.info/trading/kbc/btc
-- base:
-    currency_id: 2907
-    currency_symbol: KBC
-    currency_type: cryptocurrency
-    exchange_symbol: KBC
-  exchange_id: 333
-  exchange_name: LBank
   pair: KBC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.lbank.info/trading/kbc/usdt
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=KBCUSDT
 - base:
     currency_id: 2907
     currency_symbol: KBC
@@ -352,20 +338,6 @@ markets:
     exchange_symbol: KBC
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: KBC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/KBC_BTC
-- base:
-    currency_id: 2907
-    currency_symbol: KBC
-    currency_type: cryptocurrency
-    exchange_symbol: KBC
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: KBC/ETH
   quote:
     currency_id: 1027
@@ -392,6 +364,34 @@ markets:
     currency_symbol: KBC
     currency_type: cryptocurrency
     exchange_symbol: KBC
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: KBC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 2907
+    currency_symbol: KBC
+    currency_type: cryptocurrency
+    exchange_symbol: KBC
+  exchange_id: 459
+  exchange_name: BW.com
+  pair: KBC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bw.com/trade/kbc_btc
+- base:
+    currency_id: 2907
+    currency_symbol: KBC
+    currency_type: cryptocurrency
+    exchange_symbol: KBC
   exchange_id: 459
   exchange_name: BW.com
   pair: KBC/USDT
@@ -404,7 +404,7 @@ markets:
 name: Karatgold Coin
 notice: '[Bafin](https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/Verbrauchermitteilung/unerlaubte/2019/meldung_191111_Karatbit_Foundation_en.html)
   has issued a statement on the entities affiliated with this project.'
-rank: 269
+rank: 271
 slug: karatgold-coin
 status: active
 symbol: KBC

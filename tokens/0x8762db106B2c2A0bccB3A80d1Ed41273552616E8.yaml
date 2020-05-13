@@ -157,20 +157,6 @@ markets:
     currency_symbol: RSR
     currency_type: cryptocurrency
     exchange_symbol: RSR
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: RSR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/rsr_btc/
-- base:
-    currency_id: 3964
-    currency_symbol: RSR
-    currency_type: cryptocurrency
-    exchange_symbol: RSR
   exchange_id: 302
   exchange_name: Gate.io
   pair: RSR/USDT
@@ -180,6 +166,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/rsr_usdt
+- base:
+    currency_id: 3964
+    currency_symbol: RSR
+    currency_type: cryptocurrency
+    exchange_symbol: RSR
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: RSR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/rsr_btc/
 - base:
     currency_id: 3964
     currency_symbol: RSR
@@ -223,7 +223,7 @@ markets:
     exchange_symbol: ETH
   url: https://extstock.com/markets/rsr_eth
 name: Reserve Rights
-rank: 157
+rank: 148
 slug: reserve-rights
 status: active
 symbol: RSR

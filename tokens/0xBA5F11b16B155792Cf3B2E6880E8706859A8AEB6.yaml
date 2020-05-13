@@ -37,6 +37,20 @@ markets:
     currency_symbol: ARN
     currency_type: cryptocurrency
     exchange_symbol: ARN
+  exchange_id: 270
+  exchange_name: Binance
+  pair: ARN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/ARN_BTC?ref=WN7TW21W
+- base:
+    currency_id: 2153
+    currency_symbol: ARN
+    currency_type: cryptocurrency
+    exchange_symbol: ARN
   exchange_id: 155
   exchange_name: Exrates
   pair: ARN/BTC
@@ -46,34 +60,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://exrates.me/markets/ARN-BTC
-- base:
-    currency_id: 2153
-    currency_symbol: ARN
-    currency_type: cryptocurrency
-    exchange_symbol: ARN
-  exchange_id: 270
-  exchange_name: Binance
-  pair: ARN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/ARN_BTC
-- base:
-    currency_id: 2153
-    currency_symbol: ARN
-    currency_type: cryptocurrency
-    exchange_symbol: ARN
-  exchange_id: 155
-  exchange_name: Exrates
-  pair: ARN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://exrates.me/markets/ARN-ETH
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -93,6 +79,20 @@ markets:
     currency_symbol: ARN
     currency_type: cryptocurrency
     exchange_symbol: ARN
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: ARN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://exrates.me/markets/ARN-ETH
+- base:
+    currency_id: 2153
+    currency_symbol: ARN
+    currency_type: cryptocurrency
+    exchange_symbol: ARN
   exchange_id: 270
   exchange_name: Binance
   pair: ARN/ETH
@@ -101,21 +101,21 @@ markets:
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.binance.com/en/trade/ARN_ETH
+  url: https://www.binance.com/en/trade/ARN_ETH?ref=WN7TW21W
 - base:
     currency_id: 2153
     currency_symbol: ARN
     currency_type: cryptocurrency
     exchange_symbol: ARN
-  exchange_id: 341
-  exchange_name: CHAOEX
+  exchange_id: 949
+  exchange_name: CoinDCX
   pair: ARN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.chaoex.com/dealcenter
+  url: https://coindcx.com/trade/ARNBTC
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -149,34 +149,6 @@ markets:
     currency_symbol: ARN
     currency_type: cryptocurrency
     exchange_symbol: ARN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: ARN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/ARNBTC
-- base:
-    currency_id: 2153
-    currency_symbol: ARN
-    currency_type: cryptocurrency
-    exchange_symbol: ARN
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: ARN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://crex24.com/exchange/ARN-BTC
-- base:
-    currency_id: 2153
-    currency_symbol: ARN
-    currency_type: cryptocurrency
-    exchange_symbol: ARN
   exchange_id: 42
   exchange_name: HitBTC
   pair: ARN/BTC
@@ -200,6 +172,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/ARN-to-ETH
+- base:
+    currency_id: 2153
+    currency_symbol: ARN
+    currency_type: cryptocurrency
+    exchange_symbol: ARN
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: ARN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://crex24.com/exchange/ARN-BTC
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -289,15 +275,15 @@ markets:
     currency_symbol: ARN
     currency_type: cryptocurrency
     exchange_symbol: ARN
-  exchange_id: 477
-  exchange_name: ProBit Exchange
+  exchange_id: 341
+  exchange_name: CHAOEX
   pair: ARN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.probit.com/app/exchange/ARN-BTC
+  url: https://www.chaoex.com/dealcenter
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -312,6 +298,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/ARN-KRW
+- base:
+    currency_id: 2153
+    currency_symbol: ARN
+    currency_type: cryptocurrency
+    exchange_symbol: ARN
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: ARN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.probit.com/app/exchange/ARN-BTC
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -355,7 +355,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.idax.mn/#/exchange?pairname=ARN_ETH
 name: Aeron
-rank: 691
+rank: 676
 slug: aeron
 status: active
 symbol: ARN

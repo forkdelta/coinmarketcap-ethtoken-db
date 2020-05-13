@@ -27,20 +27,6 @@ markets:
     currency_symbol: STX
     currency_type: cryptocurrency
     exchange_symbol: STX
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: STX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/stx_usdt
-- base:
-    currency_id: 1861
-    currency_symbol: STX
-    currency_type: cryptocurrency
-    exchange_symbol: STX
   exchange_id: 42
   exchange_name: HitBTC
   pair: STX/BTC
@@ -50,6 +36,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/STX-to-BTC
+- base:
+    currency_id: 1861
+    currency_symbol: STX
+    currency_type: cryptocurrency
+    exchange_symbol: STX
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: STX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/stx_usdt
 - base:
     currency_id: 1861
     currency_symbol: STX
@@ -121,7 +121,7 @@ markets:
     exchange_symbol: ETH
   url: https://gate.io/trade/stx_eth
 name: Stox
-rank: 1171
+rank: 1191
 slug: stox
 status: active
 symbol: STX

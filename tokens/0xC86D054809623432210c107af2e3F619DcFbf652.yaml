@@ -82,20 +82,6 @@ markets:
     currency_symbol: UPP
     currency_type: cryptocurrency
     exchange_symbol: UPP
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: UPP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-UPP
-- base:
-    currency_id: 2866
-    currency_symbol: UPP
-    currency_type: cryptocurrency
-    exchange_symbol: UPP
   exchange_id: 415
   exchange_name: Bilaxy
   pair: UPP/BTC
@@ -133,8 +119,22 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.gdac.co.kr/exchange/UPP/KRW
+- base:
+    currency_id: 2866
+    currency_symbol: UPP
+    currency_type: cryptocurrency
+    exchange_symbol: UPP
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: UPP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-UPP
 name: Sentinel Protocol
-rank: 445
+rank: 460
 slug: sentinel-protocol
 status: active
 symbol: UPP

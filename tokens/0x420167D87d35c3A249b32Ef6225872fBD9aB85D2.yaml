@@ -49,20 +49,6 @@ markets:
     exchange_symbol: MESG
   exchange_id: 403
   exchange_name: BitForex
-  pair: MESG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitforex.com/en/spot/mesg_btc
-- base:
-    currency_id: 3796
-    currency_symbol: MESG
-    currency_type: cryptocurrency
-    exchange_symbol: MESG
-  exchange_id: 403
-  exchange_name: BitForex
   pair: MESG/ETH
   quote:
     currency_id: 1027
@@ -70,6 +56,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitforex.com/en/spot/mesg_eth
+- base:
+    currency_id: 3796
+    currency_symbol: MESG
+    currency_type: cryptocurrency
+    exchange_symbol: MESG
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: MESG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitforex.com/en/spot/mesg_btc
 - base:
     currency_id: 3796
     currency_symbol: MESG
@@ -127,7 +127,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.digifinex.com/en-ww/trade/USDT/MESG
 name: MESG
-rank: 1441
+rank: 1442
 slug: mesg
 status: active
 symbol: MESG
