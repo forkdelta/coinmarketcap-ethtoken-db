@@ -35,7 +35,21 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/POE_BTC
+  url: https://www.binance.com/en/trade/POE_BTC?ref=WN7TW21W
+- base:
+    currency_id: 1937
+    currency_symbol: POE
+    currency_type: cryptocurrency
+    exchange_symbol: POE
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: POE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/POE-to-BTC
 - base:
     currency_id: 1937
     currency_symbol: POE
@@ -55,20 +69,6 @@ markets:
     currency_symbol: POE
     currency_type: cryptocurrency
     exchange_symbol: POE
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: POE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/POEBTC
-- base:
-    currency_id: 1937
-    currency_symbol: POE
-    currency_type: cryptocurrency
-    exchange_symbol: POE
   exchange_id: 425
   exchange_name: WazirX
   pair: POE/BTC
@@ -78,20 +78,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://wazirx.com/exchange/POE-BTC
-- base:
-    currency_id: 1937
-    currency_symbol: POE
-    currency_type: cryptocurrency
-    exchange_symbol: POE
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: POE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/POE-to-BTC
 - base:
     currency_id: 1937
     currency_symbol: POE
@@ -148,8 +134,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/poe
+- base:
+    currency_id: 1937
+    currency_symbol: POE
+    currency_type: cryptocurrency
+    exchange_symbol: POE
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: POE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/POEBTC
 name: Po.et
-rank: 565
+rank: 556
 slug: poet
 status: active
 symbol: POE

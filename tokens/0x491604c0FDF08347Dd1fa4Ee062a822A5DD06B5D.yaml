@@ -1,6 +1,6 @@
 ---
 address: '0x491604c0FDF08347Dd1fa4Ee062a822A5DD06B5D'
-category: coin
+category: token
 date_added: '2020-04-23T00:00:00.000Z'
 description: Cartesi is building an operating system for dApps. The project enables complex and intensive
   computations run in a Linux environment, outside the blockchain, without compromising decentralization.
@@ -30,27 +30,13 @@ markets:
     exchange_symbol: CTSI
   exchange_id: 270
   exchange_name: Binance
-  pair: CTSI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/CTSI_BTC
-- base:
-    currency_id: 5444
-    currency_symbol: CTSI
-    currency_type: cryptocurrency
-    exchange_symbol: CTSI
-  exchange_id: 270
-  exchange_name: Binance
   pair: CTSI/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/CTSI_USDT
+  url: https://www.binance.com/en/trade/CTSI_USDT?ref=WN7TW21W
 - base:
     currency_id: 5444
     currency_symbol: CTSI
@@ -58,13 +44,13 @@ markets:
     exchange_symbol: CTSI
   exchange_id: 270
   exchange_name: Binance
-  pair: CTSI/BUSD
+  pair: CTSI/BTC
   quote:
-    currency_id: 4687
-    currency_symbol: BUSD
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BUSD
-  url: https://www.binance.com/en/trade/CTSI_BUSD
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/CTSI_BTC?ref=WN7TW21W
 - base:
     currency_id: 5444
     currency_symbol: CTSI
@@ -78,7 +64,21 @@ markets:
     currency_symbol: BNB
     currency_type: cryptocurrency
     exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/CTSI_BNB
+  url: https://www.binance.com/en/trade/CTSI_BNB?ref=WN7TW21W
+- base:
+    currency_id: 5444
+    currency_symbol: CTSI
+    currency_type: cryptocurrency
+    exchange_symbol: CTSI
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CTSI/BUSD
+  quote:
+    currency_id: 4687
+    currency_symbol: BUSD
+    currency_type: cryptocurrency
+    exchange_symbol: BUSD
+  url: https://www.binance.com/en/trade/CTSI_BUSD?ref=WN7TW21W
 - base:
     currency_id: 5444
     currency_symbol: CTSI
@@ -126,6 +126,20 @@ markets:
     currency_symbol: CTSI
     currency_type: cryptocurrency
     exchange_symbol: CTSI
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: CTSI/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 5444
+    currency_symbol: CTSI
+    currency_type: cryptocurrency
+    exchange_symbol: CTSI
   exchange_id: 949
   exchange_name: CoinDCX
   pair: CTSI/USDT
@@ -136,7 +150,7 @@ markets:
     exchange_symbol: USDT
   url: https://coindcx.com/trade/CTSIUSDT
 name: Cartesi
-rank: 2074
+rank: 522
 slug: cartesi
 status: active
 symbol: CTSI

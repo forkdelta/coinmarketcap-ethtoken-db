@@ -27,6 +27,20 @@ markets:
     currency_symbol: FTX
     currency_type: cryptocurrency
     exchange_symbol: FTX
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: FTX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/ftx
+- base:
+    currency_id: 2667
+    currency_symbol: FTX
+    currency_type: cryptocurrency
+    exchange_symbol: FTX
   exchange_id: 267
   exchange_name: Bancor Network
   pair: FTX/BNT
@@ -36,6 +50,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNT
   url: https://www.bancor.network/token/FTX
+- base:
+    currency_id: 2667
+    currency_symbol: FTX
+    currency_type: cryptocurrency
+    exchange_symbol: FTX
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: FTX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/FTXBTC
 - base:
     currency_id: 2667
     currency_symbol: FTX
@@ -64,36 +92,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/FTX-to-ETH
-- base:
-    currency_id: 2667
-    currency_symbol: FTX
-    currency_type: cryptocurrency
-    exchange_symbol: FTX
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: FTX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/ftx
-- base:
-    currency_id: 2667
-    currency_symbol: FTX
-    currency_type: cryptocurrency
-    exchange_symbol: FTX
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: FTX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/FTXBTC
 name: FintruX Network
-rank: 919
+rank: 938
 slug: fintrux-network
 status: active
 symbol: FTX

@@ -25,20 +25,6 @@ markets:
     exchange_symbol: MLN
   exchange_id: 24
   exchange_name: Kraken
-  pair: MLN/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://trade.kraken.com/markets/kraken/mln/eur
-- base:
-    currency_id: 1552
-    currency_symbol: MLN
-    currency_type: cryptocurrency
-    exchange_symbol: MLN
-  exchange_id: 24
-  exchange_name: Kraken
   pair: MLN/USD
   quote:
     currency_id: 2781
@@ -53,13 +39,13 @@ markets:
     exchange_symbol: MLN
   exchange_id: 24
   exchange_name: Kraken
-  pair: MLN/ETH
+  pair: MLN/EUR
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.kraken.com/markets/kraken/mln/eth
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://trade.kraken.com/markets/kraken/mln/eur
 - base:
     currency_id: 1552
     currency_symbol: MLN
@@ -74,6 +60,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://trade.kraken.com/markets/kraken/mln/btc
+- base:
+    currency_id: 1552
+    currency_symbol: MLN
+    currency_type: cryptocurrency
+    exchange_symbol: MLN
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: MLN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://trade.kraken.com/markets/kraken/mln/eth
 - base:
     currency_id: 1552
     currency_symbol: MLN
@@ -159,7 +159,7 @@ markets:
     exchange_symbol: ETH
   url: https://uniswap.exchange/
 name: Melon
-rank: 520
+rank: 535
 slug: melon
 status: active
 symbol: MLN

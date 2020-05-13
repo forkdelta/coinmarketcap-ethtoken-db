@@ -40,7 +40,7 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/DUSK_BTC
+  url: https://www.binance.com/en/trade/DUSK_BTC?ref=WN7TW21W
 - base:
     currency_id: 4092
     currency_symbol: DUSK
@@ -54,21 +54,35 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/DUSK_USDT
+  url: https://www.binance.com/en/trade/DUSK_USDT?ref=WN7TW21W
 - base:
     currency_id: 4092
     currency_symbol: DUSK
     currency_type: cryptocurrency
     exchange_symbol: DUSK
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: DUSK/BNB
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: DUSK/BTC
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/DUSK-45E_BNB
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/DUSKBTC
+- base:
+    currency_id: 4092
+    currency_symbol: DUSK
+    currency_type: cryptocurrency
+    exchange_symbol: DUSK
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: DUSK/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/DUSK:USD
 - base:
     currency_id: 4092
     currency_symbol: DUSK
@@ -83,6 +97,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-DUSK
+- base:
+    currency_id: 4092
+    currency_symbol: DUSK
+    currency_type: cryptocurrency
+    exchange_symbol: DUSK
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: DUSK/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/DUSK-45E_BNB
 - base:
     currency_id: 4092
     currency_symbol: DUSK
@@ -116,20 +144,6 @@ markets:
     currency_symbol: DUSK
     currency_type: cryptocurrency
     exchange_symbol: DUSK
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: DUSK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/DUSKBTC
-- base:
-    currency_id: 4092
-    currency_symbol: DUSK
-    currency_type: cryptocurrency
-    exchange_symbol: DUSK
   exchange_id: 37
   exchange_name: Bitfinex
   pair: DUSK/BTC
@@ -139,20 +153,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bitfinex.com/t/DUSK:BTC
-- base:
-    currency_id: 4092
-    currency_symbol: DUSK
-    currency_type: cryptocurrency
-    exchange_symbol: DUSK
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: DUSK/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/DUSK:USD
 - base:
     currency_id: 4092
     currency_symbol: DUSK
@@ -168,7 +168,7 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/dusk-network
 name: Dusk Network
-rank: 468
+rank: 488
 slug: dusk-network
 status: active
 symbol: DUSK

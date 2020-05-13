@@ -3,9 +3,9 @@ address: '0x589891a198195061Cb8ad1a75357A3b7DbaDD7Bc'
 category: token
 date_added: '2019-06-20T00:00:00.000Z'
 description: Contentos (COS) is a cryptocurrency token and operates on the Binance Coin platform. Contentos
-  has a current supply of 13,500,000,000 with 1,250,189,958.537 in circulation. The last known price of
-  Contentos is $0.005512 USD and is up 1.95% over the last 24 hours. It is currently trading on 14 active
-  market(s) with $1,592,211.393 traded over the last 24 hours. More information can be found at https://www.contentos.io/.
+  has a current supply of 13,500,000,000 with 1,250,191,451.037 in circulation. The last known price of
+  Contentos is $0.005313 USD and is up 10.42% over the last 24 hours. It is currently trading on 14 active
+  market(s) with $2,252,891.968 traded over the last 24 hours. More information can be found at https://www.contentos.io/.
 id: 4036
 links:
   chat:
@@ -31,15 +31,15 @@ markets:
     currency_symbol: COS
     currency_type: cryptocurrency
     exchange_symbol: COS
-  exchange_id: 270
-  exchange_name: Binance
-  pair: COS/BTC
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: COS/KRW
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/COS_BTC
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/COSKRW
 - base:
     currency_id: 4036
     currency_symbol: COS
@@ -61,27 +61,27 @@ markets:
     exchange_symbol: COS
   exchange_id: 270
   exchange_name: Binance
+  pair: COS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/COS_BTC?ref=WN7TW21W
+- base:
+    currency_id: 4036
+    currency_symbol: COS
+    currency_type: cryptocurrency
+    exchange_symbol: COS
+  exchange_id: 270
+  exchange_name: Binance
   pair: COS/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/COS_USDT
-- base:
-    currency_id: 4036
-    currency_symbol: COS
-    currency_type: cryptocurrency
-    exchange_symbol: COS
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: COS/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/COSKRW
+  url: https://www.binance.com/en/trade/COS_USDT?ref=WN7TW21W
 - base:
     currency_id: 4036
     currency_symbol: COS
@@ -109,7 +109,35 @@ markets:
     currency_symbol: BNB
     currency_type: cryptocurrency
     exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/COS_BNB
+  url: https://www.binance.com/en/trade/COS_BNB?ref=WN7TW21W
+- base:
+    currency_id: 4036
+    currency_symbol: COS
+    currency_type: cryptocurrency
+    exchange_symbol: COS
+  exchange_id: 174
+  exchange_name: Coinone
+  pair: COS/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://coinone.co.kr/exchange/trade/cos/
+- base:
+    currency_id: 4036
+    currency_symbol: COS
+    currency_type: cryptocurrency
+    exchange_symbol: COS
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: COS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/COSBTC
 - base:
     currency_id: 4036
     currency_symbol: COS
@@ -157,34 +185,6 @@ markets:
     currency_symbol: COS
     currency_type: cryptocurrency
     exchange_symbol: COS
-  exchange_id: 174
-  exchange_name: Coinone
-  pair: COS/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://coinone.co.kr/exchange/trade/cos/
-- base:
-    currency_id: 4036
-    currency_symbol: COS
-    currency_type: cryptocurrency
-    exchange_symbol: COS
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: COS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/COSBTC
-- base:
-    currency_id: 4036
-    currency_symbol: COS
-    currency_type: cryptocurrency
-    exchange_symbol: COS
   exchange_id: 486
   exchange_name: Binance DEX
   pair: COS/BNB
@@ -223,7 +223,7 @@ markets:
     exchange_symbol: USDSB-1AC
   url: https://www.binance.org/en/trade/COS-2E4_USDSB-1AC
 name: Contentos
-rank: 396
+rank: 389
 slug: contentos
 status: active
 symbol: COS

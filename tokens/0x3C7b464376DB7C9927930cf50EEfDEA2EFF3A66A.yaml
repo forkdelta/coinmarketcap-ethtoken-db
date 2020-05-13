@@ -35,34 +35,6 @@ markets:
     exchange_symbol: USDA
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: USDA/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://p2pb2b.io/trade/USDA_EUR
-- base:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: USDT/USDA
-  quote:
-    currency_id: 5058
-    currency_symbol: USDA
-    currency_type: cryptocurrency
-    exchange_symbol: USDA
-  url: https://coinsbit.io/trade/USDT_USDA
-- base:
-    currency_id: 5058
-    currency_symbol: USDA
-    currency_type: cryptocurrency
-    exchange_symbol: USDA
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: USDA/USDT
   quote:
     currency_id: 825
@@ -85,6 +57,20 @@ markets:
     exchange_symbol: USD
   url: https://p2pb2b.io/trade/USDA_USD
 - base:
+    currency_id: 5058
+    currency_symbol: USDA
+    currency_type: cryptocurrency
+    exchange_symbol: USDA
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: USDA/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://p2pb2b.io/trade/USDA_EUR
+- base:
     currency_id: 2563
     currency_symbol: TUSD
     currency_type: cryptocurrency
@@ -98,6 +84,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDA
   url: https://coinsbit.io/trade/TUSD_USDA
+- base:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  exchange_id: 460
+  exchange_name: Coinsbit
+  pair: USDT/USDA
+  quote:
+    currency_id: 5058
+    currency_symbol: USDA
+    currency_type: cryptocurrency
+    exchange_symbol: USDA
+  url: https://coinsbit.io/trade/USDT_USDA
 - base:
     currency_id: 5058
     currency_symbol: USDA
@@ -140,20 +140,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://simex.global/en/exchange/usda/usdt
-- base:
-    currency_id: 5058
-    currency_symbol: USDA
-    currency_type: cryptocurrency
-    exchange_symbol: USDA
-  exchange_id: 652
-  exchange_name: TAGZ
-  pair: USDA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trade.tagz.com/trade/view
 name: USDA
 rank: 2242
 slug: usda

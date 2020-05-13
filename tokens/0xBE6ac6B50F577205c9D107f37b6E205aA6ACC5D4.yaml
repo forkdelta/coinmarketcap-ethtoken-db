@@ -37,13 +37,27 @@ markets:
     exchange_symbol: UND
   exchange_id: 407
   exchange_name: DigiFinex
+  pair: UND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.digifinex.com/en-ww/trade/BTC/UND
+- base:
+    currency_id: 3854
+    currency_symbol: UND
+    currency_type: cryptocurrency
+    exchange_symbol: UND
+  exchange_id: 310
+  exchange_name: IDEX
   pair: UND/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.digifinex.com/en-ww/trade/ETH/UND
+  url: https://idex.market/eth/und
 - base:
     currency_id: 3854
     currency_symbol: UND
@@ -77,29 +91,15 @@ markets:
     currency_symbol: UND
     currency_type: cryptocurrency
     exchange_symbol: UND
-  exchange_id: 403
-  exchange_name: BitForex
-  pair: UND/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitforex.com/en/spot/und_usdt
-- base:
-    currency_id: 3854
-    currency_symbol: UND
-    currency_type: cryptocurrency
-    exchange_symbol: UND
   exchange_id: 407
   exchange_name: DigiFinex
-  pair: UND/BTC
+  pair: UND/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.digifinex.com/en-ww/trade/BTC/UND
+    exchange_symbol: ETH
+  url: https://www.digifinex.com/en-ww/trade/ETH/UND
 - base:
     currency_id: 3854
     currency_symbol: UND
@@ -119,15 +119,15 @@ markets:
     currency_symbol: UND
     currency_type: cryptocurrency
     exchange_symbol: UND
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: UND/ETH
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: UND/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/und
+    exchange_symbol: USDT
+  url: https://www.bitforex.com/en/spot/und_usdt
 - base:
     currency_id: 3854
     currency_symbol: UND
@@ -143,7 +143,7 @@ markets:
     exchange_symbol: USDSB-1AC
   url: https://www.binance.org/en/trade/UND-EBC_USDSB-1AC
 name: Unification
-rank: 958
+rank: 818
 slug: unification
 status: active
 symbol: UND

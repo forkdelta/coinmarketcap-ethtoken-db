@@ -69,6 +69,34 @@ markets:
     currency_symbol: ELY
     currency_type: cryptocurrency
     exchange_symbol: ELY
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: ELY/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://yobit.net/en/trade/ELY/USD
+- base:
+    currency_id: 2944
+    currency_symbol: ELY
+    currency_type: cryptocurrency
+    exchange_symbol: ELY
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: ELY/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://yobit.net/en/trade/ELY/ETH
+- base:
+    currency_id: 2944
+    currency_symbol: ELY
+    currency_type: cryptocurrency
+    exchange_symbol: ELY
   exchange_id: 310
   exchange_name: IDEX
   pair: ELY/ETH
@@ -113,34 +141,6 @@ markets:
     exchange_symbol: ELY
   exchange_id: 100
   exchange_name: YoBit
-  pair: ELY/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://yobit.net/en/trade/ELY/USD
-- base:
-    currency_id: 2944
-    currency_symbol: ELY
-    currency_type: cryptocurrency
-    exchange_symbol: ELY
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: ELY/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://yobit.net/en/trade/ELY/ETH
-- base:
-    currency_id: 2944
-    currency_symbol: ELY
-    currency_type: cryptocurrency
-    exchange_symbol: ELY
-  exchange_id: 100
-  exchange_name: YoBit
   pair: ELY/DOGE
   quote:
     currency_id: 74
@@ -149,7 +149,7 @@ markets:
     exchange_symbol: DOGE
   url: https://yobit.net/en/trade/ELY/DOGE
 name: Elysian
-rank: 1542
+rank: 1566
 slug: elysian
 status: active
 symbol: ELY
