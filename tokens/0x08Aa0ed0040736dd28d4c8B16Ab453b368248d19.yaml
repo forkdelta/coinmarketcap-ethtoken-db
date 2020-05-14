@@ -43,20 +43,6 @@ markets:
     currency_symbol: XPT
     currency_type: fiat
     exchange_symbol: XPT
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: XPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitmart.com/trade?symbol=XPT_BTC
-- base:
-    currency_id: 5363
-    currency_symbol: XPT
-    currency_type: fiat
-    exchange_symbol: XPT
   exchange_id: 112
   exchange_name: Liquid
   pair: XPT/BTC
@@ -66,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://app.liquid.com/exchange/XPTBTC
+- base:
+    currency_id: 5363
+    currency_symbol: XPT
+    currency_type: fiat
+    exchange_symbol: XPT
+  exchange_id: 473
+  exchange_name: Hubi
+  pair: XPT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hubi.com/#/exchange/xpt_btc
 - base:
     currency_id: 5363
     currency_symbol: XPT
@@ -85,17 +85,17 @@ markets:
     currency_symbol: XPT
     currency_type: fiat
     exchange_symbol: XPT
-  exchange_id: 473
-  exchange_name: Hubi
+  exchange_id: 406
+  exchange_name: BitMart
   pair: XPT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hubi.com/#/exchange/xpt_btc
+  url: https://www.bitmart.com/trade?symbol=XPT_BTC
 name: Cryptobuyer
-rank: 957
+rank: 951
 slug: cryptobuyer
 status: active
 symbol: XPT

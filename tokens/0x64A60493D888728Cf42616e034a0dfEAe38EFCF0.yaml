@@ -68,20 +68,6 @@ markets:
     currency_symbol: OLT
     currency_type: cryptocurrency
     exchange_symbol: OLT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: OLT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=OLT_BTC
-- base:
-    currency_id: 2921
-    currency_symbol: OLT
-    currency_type: cryptocurrency
-    exchange_symbol: OLT
   exchange_id: 311
   exchange_name: KuCoin
   pair: OLT/ETH
@@ -91,6 +77,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.kucoin.com/trade/OLT-ETH
+- base:
+    currency_id: 2921
+    currency_symbol: OLT
+    currency_type: cryptocurrency
+    exchange_symbol: OLT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: OLT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=OLT_BTC
 - base:
     currency_id: 2921
     currency_symbol: OLT
@@ -134,7 +134,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/olt
 name: OneLedger
-rank: 712
+rank: 719
 slug: oneledger
 status: active
 symbol: OLT

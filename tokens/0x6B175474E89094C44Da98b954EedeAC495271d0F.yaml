@@ -42,6 +42,20 @@ markets:
     exchange_symbol: DAI
   url: https://www.fatbtc.com/
 - base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: ETH/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://hitbtc.com/ETH-to-DAI
+- base:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
@@ -55,6 +69,34 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://pro.coinbase.com/trade/DAI-USD
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: ETH/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://pro.coinbase.com/trade/ETH-DAI
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: DAI/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 - base:
     currency_id: 4943
     currency_symbol: DAI
@@ -74,29 +116,15 @@ markets:
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  exchange_id: 595
-  exchange_name: Uniswap
+  exchange_id: 404
+  exchange_name: Kyber Network
   pair: DAI/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: ETH/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://hitbtc.com/ETH-to-DAI
+  url: https://kyberswap.com/swap/dai-eth
 - base:
     currency_id: 2
     currency_symbol: LTC
@@ -112,20 +140,6 @@ markets:
     exchange_symbol: DAI
   url: https://www.fatbtc.com/
 - base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: DAI/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/dai-eth
-- base:
     currency_id: 1765
     currency_symbol: EOS
     currency_type: cryptocurrency
@@ -139,6 +153,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: DAI
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: DAI/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://folgory.com/trade-crypto/DAI_USDC
 - base:
     currency_id: 52
     currency_symbol: XRP
@@ -168,34 +196,6 @@ markets:
     exchange_symbol: USD
   url: https://trade.kraken.com/markets/kraken/dai/usd
 - base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: DAI/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://folgory.com/trade-crypto/DAI_USDC
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: ETH/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://pro.coinbase.com/trade/ETH-DAI
-- base:
     currency_id: 1765
     currency_symbol: EOS
     currency_type: cryptocurrency
@@ -210,19 +210,19 @@ markets:
     exchange_symbol: DAI
   url: https://hitbtc.com/EOS-to-DAI
 - base:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: BTC/DAI
+    exchange_symbol: ETH
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: ETH/DAI
   quote:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  url: https://hitbtc.com/BTC-to-DAI
+  url: https://trade.kraken.com/markets/kraken/eth/dai
 - base:
     currency_id: 4943
     currency_symbol: DAI
@@ -237,6 +237,34 @@ markets:
     currency_type: fiat
     exchange_symbol: EUR
   url: https://trade.kraken.com/markets/kraken/dai/eur
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: DAI/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://sistemkoin.com/#/
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: DAI/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/DAI:USD
 - base:
     currency_id: 4943
     currency_symbol: DAI
@@ -258,20 +286,6 @@ markets:
     exchange_symbol: DAI
   exchange_id: 388
   exchange_name: Sistemkoin
-  pair: DAI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://sistemkoin.com/#/
-- base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 388
-  exchange_name: Sistemkoin
   pair: DAI/TRY
   quote:
     currency_id: 2810
@@ -280,33 +294,19 @@ markets:
     exchange_symbol: TRY
   url: https://sistemkoin.com/#/
 - base:
-    currency_id: 4943
-    currency_symbol: DAI
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: DAI/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/DAI:USD
-- base:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
+    exchange_symbol: BTC
   exchange_id: 42
   exchange_name: HitBTC
-  pair: USDT/DAI
+  pair: BTC/DAI
   quote:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  url: https://hitbtc.com/USDT-to-DAI
+  url: https://hitbtc.com/BTC-to-DAI
 - base:
     currency_id: 4943
     currency_symbol: DAI
@@ -336,34 +336,6 @@ markets:
     exchange_symbol: ETH
   url: https://sistemkoin.com/#/
 - base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: DAI/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bittrex.com/Market/Index?MarketName=USDT-DAI
-- base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: DAI/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://vcc.exchange/exchange/basic?currency=usdt&coin=dai
-- base:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
@@ -378,33 +350,19 @@ markets:
     exchange_symbol: DAI
   url: https://loopring.io/trade/USDT-DAI
 - base:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: ETH/DAI
+    exchange_symbol: USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: USDT/DAI
   quote:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  url: https://trade.kraken.com/markets/kraken/eth/dai
-- base:
-    currency_id: 74
-    currency_symbol: DOGE
-    currency_type: cryptocurrency
-    exchange_symbol: DOGE
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: DOGE/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://www.fatbtc.com/
+  url: https://hitbtc.com/USDT-to-DAI
 - base:
     currency_id: 4943
     currency_symbol: DAI
@@ -420,19 +378,19 @@ markets:
     exchange_symbol: USD
   url: https://gemini.com/
 - base:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: USDT/DAI
+  quote:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: DAI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-DAI
+  url: https://www.kucoin.com/trade/USDT-DAI
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -452,15 +410,43 @@ markets:
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  exchange_id: 50
-  exchange_name: Exmo
-  pair: DAI/BTC
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: DAI/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exmo.com/en/trade#?pair=DAI_BTC
+    exchange_symbol: USDT
+  url: https://vcc.exchange/exchange/basic?currency=usdt&coin=dai
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: DAI/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bittrex.com/Market/Index?MarketName=USDT-DAI
+- base:
+    currency_id: 74
+    currency_symbol: DOGE
+    currency_type: cryptocurrency
+    exchange_symbol: DOGE
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: DOGE/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 4943
     currency_symbol: DAI
@@ -476,19 +462,47 @@ markets:
     exchange_symbol: MXN
   url: https://bitso.com/trade/market/dai/mxn
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: BTC/DAI
-  quote:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  url: https://trade.kraken.com/markets/kraken/btc/dai
+  exchange_id: 50
+  exchange_name: Exmo
+  pair: DAI/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exmo.com/en/trade#?pair=DAI_BTC
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 50
+  exchange_name: Exmo
+  pair: DAI/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://exmo.com/en/trade#?pair=DAI_ETH
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: DAI/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=dai_usdt
 - base:
     currency_id: 1027
     currency_symbol: ETH
@@ -510,34 +524,6 @@ markets:
     exchange_symbol: DAI
   exchange_id: 50
   exchange_name: Exmo
-  pair: DAI/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://exmo.com/en/trade#?pair=DAI_ETH
-- base:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: USDT/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://www.kucoin.com/trade/USDT-DAI
-- base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 50
-  exchange_name: Exmo
   pair: DAI/USD
   quote:
     currency_id: 2781
@@ -545,20 +531,6 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://exmo.com/en/trade#?pair=DAI_USD
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 401
-  exchange_name: Switcheo Network
-  pair: ETH/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://switcheo.exchange/markets/ETH_DAI
 - base:
     currency_id: 4943
     currency_symbol: DAI
@@ -574,61 +546,19 @@ markets:
     exchange_symbol: RUB
   url: https://exmo.com/en/trade#?pair=DAI_RUB
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: BTC/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://www.kucoin.com/trade/BTC-DAI
-- base:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
   exchange_id: 22
   exchange_name: Bittrex
-  pair: DAI/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-DAI
-- base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 37
-  exchange_name: Bitfinex
   pair: DAI/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/DAI:BTC
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: BTC/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://app.liquid.com/exchange/BTCDAI
+  url: https://bittrex.com/Market/Index?MarketName=BTC-DAI
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -644,62 +574,6 @@ markets:
     exchange_symbol: DAI
   url: https://www.okex.com/market?product=btc_dai
 - base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: DAI/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://bittrex.com/Market/Index?MarketName=USD-DAI
-- base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: DAI/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://hitbtc.com/DAI-to-USDC
-- base:
-    currency_id: 1831
-    currency_symbol: BCH
-    currency_type: cryptocurrency
-    exchange_symbol: BCH
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: BCH/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://hitbtc.com/BCH-to-DAI
-- base:
-    currency_id: 1831
-    currency_symbol: BCH
-    currency_type: cryptocurrency
-    exchange_symbol: BCH
-  exchange_id: 857
-  exchange_name: Bitcoin.com
-  pair: BCH/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: null
-- base:
     currency_id: 1518
     currency_symbol: MKR
     currency_type: cryptocurrency
@@ -714,34 +588,6 @@ markets:
     exchange_symbol: DAI
   url: https://exmo.com/en/trade#?pair=MKR_DAI
 - base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: ETH/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://www.kucoin.com/trade/ETH-DAI
-- base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: DAI/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=dai_usdt
-- base:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
@@ -755,76 +601,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://poloniex.com/exchange#usdt_dai
-- base:
-    currency_id: 1376
-    currency_symbol: NEO
-    currency_type: cryptocurrency
-    exchange_symbol: NEO
-  exchange_id: 401
-  exchange_name: Switcheo Network
-  pair: NEO/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://switcheo.exchange/markets/NEO_DAI
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: ETH/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://www.okex.com/market?product=eth_dai
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: ETH/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://idex.market/dai/eth
-- base:
-    currency_id: 1518
-    currency_symbol: MKR
-    currency_type: cryptocurrency
-    exchange_symbol: MKR
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: MKR/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://www.kucoin.com/trade/MKR-DAI
-- base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: DAI/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitfinex.com/t/DAI:ETH
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -844,71 +620,183 @@ markets:
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  exchange_id: 174
-  exchange_name: Coinone
-  pair: DAI/KRW
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: DAI/ETH
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://coinone.co.kr/exchange/trade/dai/
-- base:
-    currency_id: 52
-    currency_symbol: XRP
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: XRP
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: XRP/DAI
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-DAI
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: BTC/DAI
   quote:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  url: https://hitbtc.com/XRP-to-DAI
+  url: https://www.kucoin.com/trade/BTC-DAI
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: BTC/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://trade.kraken.com/markets/kraken/btc/dai
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: DAI/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://bittrex.com/Market/Index?MarketName=USD-DAI
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: DAI/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/DAI:BTC
 - base:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  exchange_id: 112
-  exchange_name: Liquid
+  exchange_id: 310
+  exchange_name: IDEX
   pair: ETH/DAI
   quote:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  url: https://app.liquid.com/exchange/ETHDAI
+  url: https://idex.market/dai/eth
 - base:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: DAI/IDR
-  quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://indodax.com/market/DAIIDR
-- base:
-    currency_id: 328
-    currency_symbol: XMR
-    currency_type: cryptocurrency
-    exchange_symbol: XMR
   exchange_id: 42
   exchange_name: HitBTC
-  pair: XMR/DAI
+  pair: DAI/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://hitbtc.com/DAI-to-USDC
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: ETH/DAI
   quote:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  url: https://hitbtc.com/XMR-to-DAI
+  url: https://www.okex.com/market?product=eth_dai
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: ETH/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://www.kucoin.com/trade/ETH-DAI
+- base:
+    currency_id: 1376
+    currency_symbol: NEO
+    currency_type: cryptocurrency
+    exchange_symbol: NEO
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: NEO/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://hitbtc.com/NEO-to-DAI
+- base:
+    currency_id: 1518
+    currency_symbol: MKR
+    currency_type: cryptocurrency
+    exchange_symbol: MKR
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: MKR/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://www.kucoin.com/trade/MKR-DAI
+- base:
+    currency_id: 1376
+    currency_symbol: NEO
+    currency_type: cryptocurrency
+    exchange_symbol: NEO
+  exchange_id: 401
+  exchange_name: Switcheo Network
+  pair: NEO/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://switcheo.exchange/markets/NEO_DAI
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: DAI/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitfinex.com/t/DAI:ETH
 - base:
     currency_id: 1027
     currency_symbol: ETH
@@ -938,19 +826,103 @@ markets:
     exchange_symbol: DAI
   url: https://oasisdex.com/
 - base:
-    currency_id: 2563
-    currency_symbol: TUSD
+    currency_id: 52
+    currency_symbol: XRP
     currency_type: cryptocurrency
-    exchange_symbol: TUSD
+    exchange_symbol: XRP
   exchange_id: 42
   exchange_name: HitBTC
-  pair: TUSD/DAI
+  pair: XRP/DAI
   quote:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  url: https://hitbtc.com/TUSD-to-DAI
+  url: https://hitbtc.com/XRP-to-DAI
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 174
+  exchange_name: Coinone
+  pair: DAI/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://coinone.co.kr/exchange/trade/dai/
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: DAI/IDR
+  quote:
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/DAIIDR
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: ETH/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://app.liquid.com/exchange/ETHDAI
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: BTC/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://app.liquid.com/exchange/BTCDAI
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 194
+  exchange_name: Korbit
+  pair: DAI/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.korbit.co.kr/
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 321
+  exchange_name: Coinut
+  pair: DAI/SGD
+  quote:
+    currency_id: 2808
+    currency_symbol: SGD
+    currency_type: fiat
+    exchange_symbol: SGD
+  url: https://coinut.com/spot/DAISGD
 - base:
     currency_id: 2
     currency_symbol: LTC
@@ -966,19 +938,61 @@ markets:
     exchange_symbol: DAI
   url: https://hitbtc.com/LTC-to-DAI
 - base:
+    currency_id: 328
+    currency_symbol: XMR
+    currency_type: cryptocurrency
+    exchange_symbol: XMR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: XMR/DAI
+  quote:
     currency_id: 4943
     currency_symbol: DAI
     currency_type: cryptocurrency
     exchange_symbol: DAI
-  exchange_id: 321
-  exchange_name: Coinut
-  pair: DAI/SGD
+  url: https://hitbtc.com/XMR-to-DAI
+- base:
+    currency_id: 2563
+    currency_symbol: TUSD
+    currency_type: cryptocurrency
+    exchange_symbol: TUSD
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: TUSD/DAI
   quote:
-    currency_id: 2808
-    currency_symbol: SGD
-    currency_type: fiat
-    exchange_symbol: SGD
-  url: https://coinut.com/spot/DAISGD
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://hitbtc.com/TUSD-to-DAI
+- base:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BCH/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://hitbtc.com/BCH-to-DAI
+- base:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  exchange_id: 857
+  exchange_name: Bitcoin.com
+  pair: BCH/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: null
 - base:
     currency_id: 2548
     currency_symbol: POA
@@ -1008,20 +1022,6 @@ markets:
     exchange_symbol: DAI
   url: https://hitbtc.com/MKR-to-DAI
 - base:
-    currency_id: 1376
-    currency_symbol: NEO
-    currency_type: cryptocurrency
-    exchange_symbol: NEO
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: NEO/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://hitbtc.com/NEO-to-DAI
-- base:
     currency_id: 2989
     currency_symbol: EURS
     currency_type: cryptocurrency
@@ -1035,6 +1035,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: DAI
   url: https://hitbtc.com/EURS-to-DAI
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 401
+  exchange_name: Switcheo Network
+  pair: ETH/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://switcheo.exchange/markets/ETH_DAI
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -1091,20 +1105,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: DAI
   url: https://www.coss.io/c/trade?s=USDT_DAI
-- base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 194
-  exchange_name: Korbit
-  pair: DAI/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.korbit.co.kr/
 - base:
     currency_id: 4943
     currency_symbol: DAI
@@ -1220,7 +1220,7 @@ markets:
 name: Multi-collateral DAI
 notice: For details on the upgrade from Single-Collateral Dai (Sai) to Multi-Collateral Dai (Dai), please
   click [here](https://blog.makerdao.com/single-collateral-dai-to-multi-collateral-dai-upgrade-timeline-and-actions/)
-rank: 56
+rank: 54
 slug: multi-collateral-dai
 status: active
 symbol: DAI

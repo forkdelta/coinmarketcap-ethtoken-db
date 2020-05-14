@@ -29,6 +29,34 @@ markets:
     currency_symbol: MNC
     currency_type: cryptocurrency
     exchange_symbol: MNC
+  exchange_id: 50
+  exchange_name: Exmo
+  pair: MNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exmo.com/en/trade#?pair=MNC_BTC
+- base:
+    currency_id: 3774
+    currency_symbol: MNC
+    currency_type: cryptocurrency
+    exchange_symbol: MNC
+  exchange_id: 50
+  exchange_name: Exmo
+  pair: MNC/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://exmo.com/en/trade#?pair=MNC_USD
+- base:
+    currency_id: 3774
+    currency_symbol: MNC
+    currency_type: cryptocurrency
+    exchange_symbol: MNC
   exchange_id: 388
   exchange_name: Sistemkoin
   pair: MNC/BTC
@@ -73,13 +101,13 @@ markets:
     exchange_symbol: MNC
   exchange_id: 50
   exchange_name: Exmo
-  pair: MNC/BTC
+  pair: MNC/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exmo.com/en/trade#?pair=MNC_BTC
+    exchange_symbol: ETH
+  url: https://exmo.com/en/trade#?pair=MNC_ETH
 - base:
     currency_id: 3774
     currency_symbol: MNC
@@ -99,48 +127,6 @@ markets:
     currency_symbol: MNC
     currency_type: cryptocurrency
     exchange_symbol: MNC
-  exchange_id: 50
-  exchange_name: Exmo
-  pair: MNC/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://exmo.com/en/trade#?pair=MNC_USD
-- base:
-    currency_id: 3774
-    currency_symbol: MNC
-    currency_type: cryptocurrency
-    exchange_symbol: MNC
-  exchange_id: 50
-  exchange_name: Exmo
-  pair: MNC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://exmo.com/en/trade#?pair=MNC_ETH
-- base:
-    currency_id: 3774
-    currency_symbol: MNC
-    currency_type: cryptocurrency
-    exchange_symbol: MNC
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: MNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://alterdice.com/trading/MNCBTC
-- base:
-    currency_id: 3774
-    currency_symbol: MNC
-    currency_type: cryptocurrency
-    exchange_symbol: MNC
   exchange_id: 245
   exchange_name: STEX
   pair: MNC/USDT
@@ -150,6 +136,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://app.stex.com/en/basic-trade/pair/USDT/MNC/1D
+- base:
+    currency_id: 3774
+    currency_symbol: MNC
+    currency_type: cryptocurrency
+    exchange_symbol: MNC
+  exchange_id: 245
+  exchange_name: STEX
+  pair: MNC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://app.stex.com/en/basic-trade/pair/ETH/MNC/1D
 - base:
     currency_id: 3774
     currency_symbol: MNC
@@ -169,15 +169,29 @@ markets:
     currency_symbol: MNC
     currency_type: cryptocurrency
     exchange_symbol: MNC
-  exchange_id: 245
-  exchange_name: STEX
-  pair: MNC/ETH
+  exchange_id: 228
+  exchange_name: BTC-Alpha
+  pair: MNC/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://app.stex.com/en/basic-trade/pair/ETH/MNC/1D
+    exchange_symbol: USDT
+  url: https://btc-alpha.com/exchange/MNC_USDT/
+- base:
+    currency_id: 3774
+    currency_symbol: MNC
+    currency_type: cryptocurrency
+    exchange_symbol: MNC
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: MNC/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/MNC_USD
 - base:
     currency_id: 3774
     currency_symbol: MNC
@@ -211,20 +225,6 @@ markets:
     currency_symbol: MNC
     currency_type: cryptocurrency
     exchange_symbol: MNC
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: MNC/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/MNC_USD
-- base:
-    currency_id: 3774
-    currency_symbol: MNC
-    currency_type: cryptocurrency
-    exchange_symbol: MNC
   exchange_id: 213
   exchange_name: Mercatox
   pair: MNC/ETH
@@ -253,20 +253,6 @@ markets:
     currency_symbol: MNC
     currency_type: cryptocurrency
     exchange_symbol: MNC
-  exchange_id: 228
-  exchange_name: BTC-Alpha
-  pair: MNC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://btc-alpha.com/exchange/MNC_USDT/
-- base:
-    currency_id: 3774
-    currency_symbol: MNC
-    currency_type: cryptocurrency
-    exchange_symbol: MNC
   exchange_id: 459
   exchange_name: BW.com
   pair: MNC/USDT
@@ -290,8 +276,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bw.com/trade/mnc_eth
+- base:
+    currency_id: 3774
+    currency_symbol: MNC
+    currency_type: cryptocurrency
+    exchange_symbol: MNC
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: MNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://alterdice.com/trading/MNCBTC
 name: Maincoin
-rank: 1067
+rank: 1049
 slug: maincoin
 status: active
 symbol: MNC

@@ -99,6 +99,20 @@ markets:
     currency_symbol: UBEX
     currency_type: cryptocurrency
     exchange_symbol: UBEX
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: UBEX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/UBEX/BTC
+- base:
+    currency_id: 3140
+    currency_symbol: UBEX
+    currency_type: cryptocurrency
+    exchange_symbol: UBEX
   exchange_id: 228
   exchange_name: BTC-Alpha
   pair: UBEX/BTC
@@ -136,20 +150,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://btc-alpha.com/exchange/UBEX_USDT/
-- base:
-    currency_id: 3140
-    currency_symbol: UBEX
-    currency_type: cryptocurrency
-    exchange_symbol: UBEX
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: UBEX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/UBEX/BTC
 - base:
     currency_id: 3140
     currency_symbol: UBEX
@@ -263,7 +263,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.probit.com/app/exchange/UBEX-USDT
 name: Ubex
-rank: 986
+rank: 1010
 slug: ubex
 status: active
 symbol: UBEX

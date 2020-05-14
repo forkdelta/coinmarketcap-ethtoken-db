@@ -29,20 +29,6 @@ markets:
     exchange_symbol: RTE
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: RTE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/rte_btc/
-- base:
-    currency_id: 2880
-    currency_symbol: RTE
-    currency_type: cryptocurrency
-    exchange_symbol: RTE
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: RTE/ETH
   quote:
     currency_id: 1027
@@ -50,6 +36,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/rte_eth/
+- base:
+    currency_id: 2880
+    currency_symbol: RTE
+    currency_type: cryptocurrency
+    exchange_symbol: RTE
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: RTE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/rte_btc/
 - base:
     currency_id: 2880
     currency_symbol: RTE
@@ -121,7 +121,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/rte
 name: Rate3
-rank: 1083
+rank: 1080
 slug: rate3
 status: active
 symbol: RTE

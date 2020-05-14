@@ -73,20 +73,6 @@ markets:
     currency_symbol: GET
     currency_type: cryptocurrency
     exchange_symbol: GET
-  exchange_id: 158
-  exchange_name: Nocks
-  pair: GET/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://nocks.com/
-- base:
-    currency_id: 2354
-    currency_symbol: GET
-    currency_type: cryptocurrency
-    exchange_symbol: GET
   exchange_id: 310
   exchange_name: IDEX
   pair: GET/ETH
@@ -124,8 +110,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://app.liquid.com/exchange/GETETH
+- base:
+    currency_id: 2354
+    currency_symbol: GET
+    currency_type: cryptocurrency
+    exchange_symbol: GET
+  exchange_id: 158
+  exchange_name: Nocks
+  pair: GET/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://nocks.com/
 name: GET Protocol
-rank: 601
+rank: 605
 slug: get-protocol
 status: active
 symbol: GET
