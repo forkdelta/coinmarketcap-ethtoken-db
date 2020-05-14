@@ -26,6 +26,48 @@ links:
   - https://www.bibox.com/
 markets:
 - base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: OMG/BIX
+  quote:
+    currency_id: 2307
+    currency_symbol: BIX
+    currency_type: cryptocurrency
+    exchange_symbol: BIX
+  url: https://www.bibox.com/exchange?coinPair=OMG_BIX
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: LINK/BIX
+  quote:
+    currency_id: 2307
+    currency_symbol: BIX
+    currency_type: cryptocurrency
+    exchange_symbol: BIX
+  url: https://www.bibox.com/exchange?coinPair=LINK_BIX
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: BAT/BIX
+  quote:
+    currency_id: 2307
+    currency_symbol: BIX
+    currency_type: cryptocurrency
+    exchange_symbol: BIX
+  url: https://www.bibox.com/exchange?coinPair=BAT_BIX
+- base:
     currency_id: 3794
     currency_symbol: ATOM
     currency_type: cryptocurrency
@@ -53,48 +95,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BIX
   url: https://www.bibox.com/exchange?coinPair=ALGO_BIX
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: BAT/BIX
-  quote:
-    currency_id: 2307
-    currency_symbol: BIX
-    currency_type: cryptocurrency
-    exchange_symbol: BIX
-  url: https://www.bibox.com/exchange?coinPair=BAT_BIX
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: LINK/BIX
-  quote:
-    currency_id: 2307
-    currency_symbol: BIX
-    currency_type: cryptocurrency
-    exchange_symbol: BIX
-  url: https://www.bibox.com/exchange?coinPair=LINK_BIX
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: OMG/BIX
-  quote:
-    currency_id: 2307
-    currency_symbol: BIX
-    currency_type: cryptocurrency
-    exchange_symbol: BIX
-  url: https://www.bibox.com/exchange?coinPair=OMG_BIX
 - base:
     currency_id: 2307
     currency_symbol: BIX
@@ -152,20 +152,6 @@ markets:
     exchange_symbol: BIX
   url: https://www.bibox.com/exchange?coinPair=ONT_BIX
 - base:
-    currency_id: 74
-    currency_symbol: DOGE
-    currency_type: cryptocurrency
-    exchange_symbol: DOGE
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: DOGE/BIX
-  quote:
-    currency_id: 2307
-    currency_symbol: BIX
-    currency_type: cryptocurrency
-    exchange_symbol: BIX
-  url: https://www.bibox.com/exchange?coinPair=DOGE_BIX
-- base:
     currency_id: 2307
     currency_symbol: BIX
     currency_type: cryptocurrency
@@ -179,6 +165,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hbg.com/en-us/exchange/bix_usdt/
+- base:
+    currency_id: 74
+    currency_symbol: DOGE
+    currency_type: cryptocurrency
+    exchange_symbol: DOGE
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: DOGE/BIX
+  quote:
+    currency_id: 2307
+    currency_symbol: BIX
+    currency_type: cryptocurrency
+    exchange_symbol: BIX
+  url: https://www.bibox.com/exchange?coinPair=DOGE_BIX
 - base:
     currency_id: 2307
     currency_symbol: BIX
@@ -250,19 +250,19 @@ markets:
     exchange_symbol: BIX
   url: https://www.bibox.com/exchange?coinPair=RED_BIX
 - base:
-    currency_id: 2345
-    currency_symbol: HPB
-    currency_type: cryptocurrency
-    exchange_symbol: HPB
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: HPB/BIX
-  quote:
     currency_id: 2307
     currency_symbol: BIX
     currency_type: cryptocurrency
     exchange_symbol: BIX
-  url: https://www.bibox.com/exchange?coinPair=HPB_BIX
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: BIX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/bix_eth/
 - base:
     currency_id: 1998
     currency_symbol: ORMEUS
@@ -282,71 +282,15 @@ markets:
     currency_symbol: BIX
     currency_type: cryptocurrency
     exchange_symbol: BIX
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 730
+  exchange_name: Huobi Russia
   pair: BIX/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/bix_usdt/
-- base:
-    currency_id: 2307
-    currency_symbol: BIX
-    currency_type: cryptocurrency
-    exchange_symbol: BIX
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: BIX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/bix_eth/
-- base:
-    currency_id: 4118
-    currency_symbol: FOR
-    currency_type: cryptocurrency
-    exchange_symbol: FOR
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: FOR/BIX
-  quote:
-    currency_id: 2307
-    currency_symbol: BIX
-    currency_type: cryptocurrency
-    exchange_symbol: BIX
-  url: https://www.bibox.com/exchange?coinPair=FOR_BIX
-- base:
-    currency_id: 2307
-    currency_symbol: BIX
-    currency_type: cryptocurrency
-    exchange_symbol: BIX
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: BIX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/bix_btc/
-- base:
-    currency_id: 2760
-    currency_symbol: LBA
-    currency_type: cryptocurrency
-    exchange_symbol: LBA
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: LBA/BIX
-  quote:
-    currency_id: 2307
-    currency_symbol: BIX
-    currency_type: cryptocurrency
-    exchange_symbol: BIX
-  url: https://www.bibox.com/exchange?coinPair=LBA_BIX
+  url: https://www.huobi.com.ru/exchange/#s=bix_usdt
 - base:
     currency_id: 4205
     currency_symbol: XENO
@@ -362,19 +306,75 @@ markets:
     exchange_symbol: BIX
   url: https://www.bibox.com/exchange?coinPair=XENO_BIX
 - base:
+    currency_id: 4118
+    currency_symbol: FOR
+    currency_type: cryptocurrency
+    exchange_symbol: FOR
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: FOR/BIX
+  quote:
     currency_id: 2307
     currency_symbol: BIX
     currency_type: cryptocurrency
     exchange_symbol: BIX
-  exchange_id: 730
-  exchange_name: Huobi Russia
+  url: https://www.bibox.com/exchange?coinPair=FOR_BIX
+- base:
+    currency_id: 2345
+    currency_symbol: HPB
+    currency_type: cryptocurrency
+    exchange_symbol: HPB
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: HPB/BIX
+  quote:
+    currency_id: 2307
+    currency_symbol: BIX
+    currency_type: cryptocurrency
+    exchange_symbol: BIX
+  url: https://www.bibox.com/exchange?coinPair=HPB_BIX
+- base:
+    currency_id: 2760
+    currency_symbol: LBA
+    currency_type: cryptocurrency
+    exchange_symbol: LBA
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: LBA/BIX
+  quote:
+    currency_id: 2307
+    currency_symbol: BIX
+    currency_type: cryptocurrency
+    exchange_symbol: BIX
+  url: https://www.bibox.com/exchange?coinPair=LBA_BIX
+- base:
+    currency_id: 2307
+    currency_symbol: BIX
+    currency_type: cryptocurrency
+    exchange_symbol: BIX
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: BIX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/bix_btc/
+- base:
+    currency_id: 2307
+    currency_symbol: BIX
+    currency_type: cryptocurrency
+    exchange_symbol: BIX
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: BIX/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.huobi.com.ru/exchange/#s=bix_usdt
+  url: https://www.huobi.co.kr/en-US/exchange/bix_usdt/
 - base:
     currency_id: 2307
     currency_symbol: BIX
@@ -404,7 +404,7 @@ markets:
     exchange_symbol: ETH
   url: https://dex.top/trade/ETH_BIX
 name: Bibox Token
-rank: 332
+rank: 325
 slug: bibox-token
 status: active
 symbol: BIX

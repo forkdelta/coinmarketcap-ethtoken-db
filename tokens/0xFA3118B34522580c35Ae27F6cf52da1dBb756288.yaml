@@ -42,20 +42,6 @@ markets:
     exchange_symbol: LET
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: LET/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/let_btc/
-- base:
-    currency_id: 2468
-    currency_symbol: LET
-    currency_type: cryptocurrency
-    exchange_symbol: LET
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: LET/ETH
   quote:
     currency_id: 1027
@@ -63,6 +49,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/let_eth/
+- base:
+    currency_id: 2468
+    currency_symbol: LET
+    currency_type: cryptocurrency
+    exchange_symbol: LET
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: LET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/let_btc/
 - base:
     currency_id: 2468
     currency_symbol: LET
@@ -124,6 +124,20 @@ markets:
     currency_symbol: LET
     currency_type: cryptocurrency
     exchange_symbol: LET
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: LET/INR
+  quote:
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/let
+- base:
+    currency_id: 2468
+    currency_symbol: LET
+    currency_type: cryptocurrency
+    exchange_symbol: LET
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: LET/BTC
@@ -161,22 +175,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.huobi.co.kr/en-US/exchange/let_usdt/
-- base:
-    currency_id: 2468
-    currency_symbol: LET
-    currency_type: cryptocurrency
-    exchange_symbol: LET
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: LET/INR
-  quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/let
 name: LinkEye
-rank: 799
+rank: 810
 slug: linkeye
 status: active
 symbol: LET

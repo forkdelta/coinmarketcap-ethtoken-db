@@ -75,6 +75,20 @@ markets:
     currency_symbol: KAN
     currency_type: cryptocurrency
     exchange_symbol: KAN
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: KAN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=kan&tab=limit
+- base:
+    currency_id: 2934
+    currency_symbol: KAN
+    currency_type: cryptocurrency
+    exchange_symbol: KAN
   exchange_id: 102
   exchange_name: Huobi Global
   pair: KAN/ETH
@@ -103,20 +117,6 @@ markets:
     currency_symbol: KAN
     currency_type: cryptocurrency
     exchange_symbol: KAN
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: KAN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=kan&tab=limit
-- base:
-    currency_id: 2934
-    currency_symbol: KAN
-    currency_type: cryptocurrency
-    exchange_symbol: KAN
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: KAN/USDT
@@ -126,6 +126,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=KAN_USDT
+- base:
+    currency_id: 2934
+    currency_symbol: KAN
+    currency_type: cryptocurrency
+    exchange_symbol: KAN
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: KAN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.okex.com/market?product=kan_eth
 - base:
     currency_id: 2934
     currency_symbol: KAN
@@ -147,34 +161,6 @@ markets:
     exchange_symbol: KAN
   exchange_id: 294
   exchange_name: OKEx
-  pair: KAN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.okex.com/market?product=kan_eth
-- base:
-    currency_id: 2934
-    currency_symbol: KAN
-    currency_type: cryptocurrency
-    exchange_symbol: KAN
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: KAN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitmart.com/trade?symbol=KAN_ETH
-- base:
-    currency_id: 2934
-    currency_symbol: KAN
-    currency_type: cryptocurrency
-    exchange_symbol: KAN
-  exchange_id: 294
-  exchange_name: OKEx
   pair: KAN/BTC
   quote:
     currency_id: 1
@@ -182,20 +168,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.okex.com/market?product=kan_btc
-- base:
-    currency_id: 2934
-    currency_symbol: KAN
-    currency_type: cryptocurrency
-    exchange_symbol: KAN
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: KAN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/kan_btc/
 - base:
     currency_id: 2934
     currency_symbol: KAN
@@ -217,6 +189,20 @@ markets:
     exchange_symbol: KAN
   exchange_id: 406
   exchange_name: BitMart
+  pair: KAN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitmart.com/trade?symbol=KAN_ETH
+- base:
+    currency_id: 2934
+    currency_symbol: KAN
+    currency_type: cryptocurrency
+    exchange_symbol: KAN
+  exchange_id: 406
+  exchange_name: BitMart
   pair: KAN/BTC
   quote:
     currency_id: 1
@@ -224,6 +210,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bitmart.com/trade?symbol=KAN_BTC
+- base:
+    currency_id: 2934
+    currency_symbol: KAN
+    currency_type: cryptocurrency
+    exchange_symbol: KAN
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: KAN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/kan_btc/
 - base:
     currency_id: 2934
     currency_symbol: KAN
@@ -267,7 +267,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=KAN&market=USDT
 name: BitKan
-rank: 174
+rank: 176
 slug: bitkan
 status: active
 symbol: KAN
