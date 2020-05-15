@@ -37,29 +37,15 @@ markets:
     currency_symbol: ZEON
     currency_type: cryptocurrency
     exchange_symbol: ZEON
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 215
+  exchange_name: P2PB2B
   pair: ZEON/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=ZEON_BTC
-- base:
-    currency_id: 3795
-    currency_symbol: ZEON
-    currency_type: cryptocurrency
-    exchange_symbol: ZEON
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: ZEON/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://p2pb2b.io/trade/ZEON_ETH
+  url: https://p2pb2b.io/trade/ZEON_BTC
 - base:
     currency_id: 3795
     currency_symbol: ZEON
@@ -81,13 +67,27 @@ markets:
     exchange_symbol: ZEON
   exchange_id: 215
   exchange_name: P2PB2B
+  pair: ZEON/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://p2pb2b.io/trade/ZEON_ETH
+- base:
+    currency_id: 3795
+    currency_symbol: ZEON
+    currency_type: cryptocurrency
+    exchange_symbol: ZEON
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: ZEON/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/ZEON_BTC
+  url: https://www.hotbit.io/exchange?symbol=ZEON_BTC
 - base:
     currency_id: 3795
     currency_symbol: ZEON
@@ -131,7 +131,7 @@ markets:
     exchange_symbol: BMX
   url: https://www.bitmart.com/trade?symbol=ZEON_BMX
 name: ZEON
-rank: 259
+rank: 264
 slug: zeon
 status: active
 symbol: ZEON

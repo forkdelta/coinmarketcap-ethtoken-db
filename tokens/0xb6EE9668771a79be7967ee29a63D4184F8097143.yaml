@@ -65,20 +65,6 @@ markets:
     exchange_symbol: CXO
   exchange_id: 311
   exchange_name: KuCoin
-  pair: CXO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/CXO-BTC
-- base:
-    currency_id: 2490
-    currency_symbol: CXO
-    currency_type: cryptocurrency
-    exchange_symbol: CXO
-  exchange_id: 311
-  exchange_name: KuCoin
   pair: CXO/ETH
   quote:
     currency_id: 1027
@@ -86,6 +72,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.kucoin.com/trade/CXO-ETH
+- base:
+    currency_id: 2490
+    currency_symbol: CXO
+    currency_type: cryptocurrency
+    exchange_symbol: CXO
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CXO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/CXO-BTC
 - base:
     currency_id: 2490
     currency_symbol: CXO
@@ -101,7 +101,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/cxo
 name: CargoX
-rank: 655
+rank: 665
 slug: cargox
 status: active
 symbol: CXO

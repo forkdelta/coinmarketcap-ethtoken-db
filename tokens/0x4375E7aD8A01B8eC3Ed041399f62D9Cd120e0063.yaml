@@ -36,20 +36,6 @@ markets:
     exchange_symbol: BZ
   exchange_id: 300
   exchange_name: BitZ
-  pair: BZ/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bit-z.com/exchange/bz_eth
-- base:
-    currency_id: 2918
-    currency_symbol: BZ
-    currency_type: cryptocurrency
-    exchange_symbol: BZ
-  exchange_id: 300
-  exchange_name: BitZ
   pair: BZ/BTC
   quote:
     currency_id: 1
@@ -57,6 +43,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bit-z.com/exchange/bz_btc
+- base:
+    currency_id: 2918
+    currency_symbol: BZ
+    currency_type: cryptocurrency
+    exchange_symbol: BZ
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: BZ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bit-z.com/exchange/bz_eth
 - base:
     currency_id: 52
     currency_symbol: XRP
@@ -114,7 +114,7 @@ markets:
     exchange_symbol: BZ
   url: https://www.bit-z.com/exchange/defi_bz
 name: Bit-Z Token
-rank: 277
+rank: 278
 slug: bit-z-token
 status: active
 symbol: BZ

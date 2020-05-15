@@ -51,20 +51,6 @@ markets:
     currency_symbol: CRPT
     currency_type: cryptocurrency
     exchange_symbol: CRPT
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: CRPT/QASH
-  quote:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
-  url: https://app.liquid.com/exchange/CRPTQASH
-- base:
-    currency_id: 2447
-    currency_symbol: CRPT
-    currency_type: cryptocurrency
-    exchange_symbol: CRPT
   exchange_id: 42
   exchange_name: HitBTC
   pair: CRPT/BTC
@@ -74,6 +60,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/CRPT-to-BTC
+- base:
+    currency_id: 2447
+    currency_symbol: CRPT
+    currency_type: cryptocurrency
+    exchange_symbol: CRPT
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CRPT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.kucoin.com/trade/CRPT-ETH
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -93,15 +93,15 @@ markets:
     currency_symbol: CRPT
     currency_type: cryptocurrency
     exchange_symbol: CRPT
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CRPT/ETH
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: CRPT/QASH
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 2213
+    currency_symbol: QASH
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.kucoin.com/trade/CRPT-ETH
+    exchange_symbol: QASH
+  url: https://app.liquid.com/exchange/CRPTQASH
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -159,7 +159,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/crpt
 name: Crypterium
-rank: 105
+rank: 95
 slug: crpt
 status: active
 symbol: CRPT

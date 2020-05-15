@@ -63,6 +63,20 @@ markets:
     currency_symbol: PPT
     currency_type: cryptocurrency
     exchange_symbol: PPT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: PPT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/PPT_BTC?ref=H31B921U
+- base:
+    currency_id: 1789
+    currency_symbol: PPT
+    currency_type: cryptocurrency
+    exchange_symbol: PPT
   exchange_id: 380
   exchange_name: LATOKEN
   pair: PPT/ETH
@@ -91,20 +105,6 @@ markets:
     currency_symbol: PPT
     currency_type: cryptocurrency
     exchange_symbol: PPT
-  exchange_id: 355
-  exchange_name: Vebitcoin
-  pair: PPT/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.vebitcoin.com/
-- base:
-    currency_id: 1789
-    currency_symbol: PPT
-    currency_type: cryptocurrency
-    exchange_symbol: PPT
   exchange_id: 343
   exchange_name: CoinBene
   pair: PPT/BTC
@@ -119,15 +119,29 @@ markets:
     currency_symbol: PPT
     currency_type: cryptocurrency
     exchange_symbol: PPT
-  exchange_id: 270
-  exchange_name: Binance
+  exchange_id: 355
+  exchange_name: Vebitcoin
+  pair: PPT/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.vebitcoin.com/
+- base:
+    currency_id: 1789
+    currency_symbol: PPT
+    currency_type: cryptocurrency
+    exchange_symbol: PPT
+  exchange_id: 433
+  exchange_name: Bitrue
   pair: PPT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/PPT_BTC?ref=H31B921U
+  url: https://www.bitrue.com/trade/ppt_btc
 - base:
     currency_id: 1789
     currency_symbol: PPT
@@ -161,20 +175,6 @@ markets:
     currency_symbol: PPT
     currency_type: cryptocurrency
     exchange_symbol: PPT
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: PPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/ppt_btc
-- base:
-    currency_id: 1789
-    currency_symbol: PPT
-    currency_type: cryptocurrency
-    exchange_symbol: PPT
   exchange_id: 270
   exchange_name: Binance
   pair: PPT/ETH
@@ -184,20 +184,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.binance.com/en/trade/PPT_ETH?ref=H31B921U
-- base:
-    currency_id: 1789
-    currency_symbol: PPT
-    currency_type: cryptocurrency
-    exchange_symbol: PPT
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: PPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/PPT_BTC
 - base:
     currency_id: 1789
     currency_symbol: PPT
@@ -217,43 +203,15 @@ markets:
     currency_symbol: PPT
     currency_type: cryptocurrency
     exchange_symbol: PPT
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: PPT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://alterdice.com/trading/PPTETH
-- base:
-    currency_id: 1789
-    currency_symbol: PPT
-    currency_type: cryptocurrency
-    exchange_symbol: PPT
-  exchange_id: 107
-  exchange_name: Livecoin
+  exchange_id: 215
+  exchange_name: P2PB2B
   pair: PPT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/PPT_BTC
-- base:
-    currency_id: 1789
-    currency_symbol: PPT
-    currency_type: cryptocurrency
-    exchange_symbol: PPT
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: PPT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.kucoin.com/trade/PPT-ETH
+  url: https://p2pb2b.io/trade/PPT_BTC
 - base:
     currency_id: 1789
     currency_symbol: PPT
@@ -273,15 +231,15 @@ markets:
     currency_symbol: PPT
     currency_type: cryptocurrency
     exchange_symbol: PPT
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 433
+  exchange_name: Bitrue
   pair: PPT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://hitbtc.com/PPT-to-ETH
+  url: https://www.bitrue.com/trade/ppt_eth
 - base:
     currency_id: 1789
     currency_symbol: PPT
@@ -301,15 +259,29 @@ markets:
     currency_symbol: PPT
     currency_type: cryptocurrency
     exchange_symbol: PPT
-  exchange_id: 433
-  exchange_name: Bitrue
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: PPT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.bitrue.com/trade/ppt_eth
+  url: https://www.kucoin.com/trade/PPT-ETH
+- base:
+    currency_id: 1789
+    currency_symbol: PPT
+    currency_type: cryptocurrency
+    exchange_symbol: PPT
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: PPT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://alterdice.com/trading/PPTETH
 - base:
     currency_id: 1789
     currency_symbol: PPT
@@ -324,6 +296,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://dex-trade.com/en?currencyIn=PPT&currencyTo=ETH
+- base:
+    currency_id: 1789
+    currency_symbol: PPT
+    currency_type: cryptocurrency
+    exchange_symbol: PPT
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: PPT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/PPT_BTC
+- base:
+    currency_id: 1789
+    currency_symbol: PPT
+    currency_type: cryptocurrency
+    exchange_symbol: PPT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: PPT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/PPT-to-ETH
 - base:
     currency_id: 1789
     currency_symbol: PPT
@@ -353,7 +353,7 @@ markets:
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/PPT-KRW
 name: Populous
-rank: 182
+rank: 174
 slug: populous
 status: active
 symbol: PPT

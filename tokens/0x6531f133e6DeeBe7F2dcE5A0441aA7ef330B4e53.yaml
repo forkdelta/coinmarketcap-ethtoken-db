@@ -69,20 +69,6 @@ markets:
     exchange_symbol: TIME
   exchange_id: 311
   exchange_name: KuCoin
-  pair: TIME/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.kucoin.com/trade/TIME-ETH
-- base:
-    currency_id: 1556
-    currency_symbol: TIME
-    currency_type: cryptocurrency
-    exchange_symbol: TIME
-  exchange_id: 311
-  exchange_name: KuCoin
   pair: TIME/BTC
   quote:
     currency_id: 1
@@ -90,6 +76,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.kucoin.com/trade/TIME-BTC
+- base:
+    currency_id: 1556
+    currency_symbol: TIME
+    currency_type: cryptocurrency
+    exchange_symbol: TIME
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: TIME/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.kucoin.com/trade/TIME-ETH
 - base:
     currency_id: 1556
     currency_symbol: TIME
@@ -139,20 +139,6 @@ markets:
     exchange_symbol: TIME
   exchange_id: 655
   exchange_name: TimeX
-  pair: TIME/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://timex.io/private/trading/timeeth
-- base:
-    currency_id: 1556
-    currency_symbol: TIME
-    currency_type: cryptocurrency
-    exchange_symbol: TIME
-  exchange_id: 655
-  exchange_name: TimeX
   pair: TIME/BTC
   quote:
     currency_id: 1
@@ -165,15 +151,15 @@ markets:
     currency_symbol: TIME
     currency_type: cryptocurrency
     exchange_symbol: TIME
-  exchange_id: 201
-  exchange_name: Lykke Exchange
-  pair: TIME/BTC
+  exchange_id: 655
+  exchange_name: TimeX
+  pair: TIME/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://lykke.com/exchange.php
+    exchange_symbol: ETH
+  url: https://timex.io/private/trading/timeeth
 - base:
     currency_id: 1556
     currency_symbol: TIME
@@ -195,6 +181,20 @@ markets:
     exchange_symbol: TIME
   exchange_id: 201
   exchange_name: Lykke Exchange
+  pair: TIME/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://lykke.com/exchange.php
+- base:
+    currency_id: 1556
+    currency_symbol: TIME
+    currency_type: cryptocurrency
+    exchange_symbol: TIME
+  exchange_id: 201
+  exchange_name: Lykke Exchange
   pair: TIME/USD
   quote:
     currency_id: 2781
@@ -203,7 +203,7 @@ markets:
     exchange_symbol: USD
   url: https://lykke.com/exchange.php
 name: Chrono.tech
-rank: 1017
+rank: 1045
 slug: chrono-tech
 status: active
 symbol: TIME
