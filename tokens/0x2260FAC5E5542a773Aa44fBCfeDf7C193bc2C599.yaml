@@ -34,6 +34,20 @@ markets:
     currency_symbol: WBTC
     currency_type: cryptocurrency
     exchange_symbol: WBTC
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: WBTC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 3717
+    currency_symbol: WBTC
+    currency_type: cryptocurrency
+    exchange_symbol: WBTC
   exchange_id: 367
   exchange_name: DDEX
   pair: WBTC/USDT
@@ -44,19 +58,19 @@ markets:
     exchange_symbol: USDT
   url: https://ddex.io/margin/WBTC-USDT
 - base:
+    currency_id: 1376
+    currency_symbol: NEO
+    currency_type: cryptocurrency
+    exchange_symbol: NEO
+  exchange_id: 401
+  exchange_name: Switcheo Network
+  pair: NEO/WBTC
+  quote:
     currency_id: 3717
     currency_symbol: WBTC
     currency_type: cryptocurrency
     exchange_symbol: WBTC
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: WBTC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
+  url: https://switcheo.exchange/markets/NEO_WBTC
 - base:
     currency_id: 3717
     currency_symbol: WBTC
@@ -114,20 +128,6 @@ markets:
     exchange_symbol: ETH
   url: https://hitbtc.com/WBTC-to-ETH
 - base:
-    currency_id: 1376
-    currency_symbol: NEO
-    currency_type: cryptocurrency
-    exchange_symbol: NEO
-  exchange_id: 401
-  exchange_name: Switcheo Network
-  pair: NEO/WBTC
-  quote:
-    currency_id: 3717
-    currency_symbol: WBTC
-    currency_type: cryptocurrency
-    exchange_symbol: WBTC
-  url: https://switcheo.exchange/markets/NEO_WBTC
-- base:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
@@ -169,22 +169,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: WETH
   url: https://app.radarrelay.com/WBTC/WETH
-- base:
-    currency_id: 3717
-    currency_symbol: WBTC
-    currency_type: cryptocurrency
-    exchange_symbol: WBTC
-  exchange_id: 417
-  exchange_name: AirSwap
-  pair: WBTC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.airswap.io/trade
 name: Wrapped Bitcoin
-rank: 294
+rank: 291
 slug: wrapped-bitcoin
 status: active
 symbol: WBTC

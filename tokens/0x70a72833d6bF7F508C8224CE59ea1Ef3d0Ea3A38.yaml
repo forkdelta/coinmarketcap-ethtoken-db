@@ -101,20 +101,6 @@ markets:
     exchange_symbol: UTK
   exchange_id: 407
   exchange_name: DigiFinex
-  pair: UTK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.digifinex.com/en-ww/trade/BTC/UTK
-- base:
-    currency_id: 2320
-    currency_symbol: UTK
-    currency_type: cryptocurrency
-    exchange_symbol: UTK
-  exchange_id: 407
-  exchange_name: DigiFinex
   pair: UTK/ETH
   quote:
     currency_id: 1027
@@ -127,15 +113,29 @@ markets:
     currency_symbol: UTK
     currency_type: cryptocurrency
     exchange_symbol: UTK
-  exchange_id: 102
-  exchange_name: Huobi Global
+  exchange_id: 333
+  exchange_name: LBank
+  pair: UTK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.lbank.info/trading/utk/usdt
+- base:
+    currency_id: 2320
+    currency_symbol: UTK
+    currency_type: cryptocurrency
+    exchange_symbol: UTK
+  exchange_id: 407
+  exchange_name: DigiFinex
   pair: UTK/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/utk_btc/
+  url: https://www.digifinex.com/en-ww/trade/BTC/UTK
 - base:
     currency_id: 2320
     currency_symbol: UTK
@@ -155,15 +155,15 @@ markets:
     currency_symbol: UTK
     currency_type: cryptocurrency
     exchange_symbol: UTK
-  exchange_id: 333
-  exchange_name: LBank
-  pair: UTK/USDT
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: UTK/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.lbank.info/trading/utk/usdt
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/utk_btc/
 - base:
     currency_id: 2320
     currency_symbol: UTK
@@ -211,20 +211,6 @@ markets:
     currency_symbol: UTK
     currency_type: cryptocurrency
     exchange_symbol: UTK
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: UTK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-UTK
-- base:
-    currency_id: 2320
-    currency_symbol: UTK
-    currency_type: cryptocurrency
-    exchange_symbol: UTK
   exchange_id: 42
   exchange_name: HitBTC
   pair: UTK/USDT
@@ -253,15 +239,15 @@ markets:
     currency_symbol: UTK
     currency_type: cryptocurrency
     exchange_symbol: UTK
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: UTK/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/utk_btc/
+  url: https://bittrex.com/Market/Index?MarketName=BTC-UTK
 - base:
     currency_id: 2320
     currency_symbol: UTK
@@ -309,6 +295,20 @@ markets:
     currency_symbol: UTK
     currency_type: cryptocurrency
     exchange_symbol: UTK
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: UTK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/utk_btc/
+- base:
+    currency_id: 2320
+    currency_symbol: UTK
+    currency_type: cryptocurrency
+    exchange_symbol: UTK
   exchange_id: 490
   exchange_name: OKEx Korea
   pair: UTK/USDT
@@ -319,7 +319,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=UTK&market=USDT
 name: Utrust
-rank: 492
+rank: 469
 slug: utrust
 status: active
 symbol: UTK

@@ -31,6 +31,20 @@ markets:
     currency_symbol: BAND
     currency_type: cryptocurrency
     exchange_symbol: BAND
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: BAND/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/BAND-USDT
+- base:
+    currency_id: 4679
+    currency_symbol: BAND
+    currency_type: cryptocurrency
+    exchange_symbol: BAND
   exchange_id: 270
   exchange_name: Binance
   pair: BAND/USDT
@@ -40,20 +54,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/BAND_USDT?ref=H31B921U
-- base:
-    currency_id: 4679
-    currency_symbol: BAND
-    currency_type: cryptocurrency
-    exchange_symbol: BAND
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BAND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/BAND_BTC?ref=H31B921U
 - base:
     currency_id: 4679
     currency_symbol: BAND
@@ -75,27 +75,13 @@ markets:
     exchange_symbol: BAND
   exchange_id: 270
   exchange_name: Binance
-  pair: BAND/BNB
+  pair: BAND/BTC
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/BAND_BNB?ref=H31B921U
-- base:
-    currency_id: 4679
-    currency_symbol: BAND
-    currency_type: cryptocurrency
-    exchange_symbol: BAND
-  exchange_id: 479
-  exchange_name: Dcoin
-  pair: BAND/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.dcoin.com/currencyTrading/BAND_USDT
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/BAND_BTC?ref=H31B921U
 - base:
     currency_id: 4679
     currency_symbol: BAND
@@ -124,6 +110,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://folgory.com/trade-crypto/BAND_BTC
+- base:
+    currency_id: 4679
+    currency_symbol: BAND
+    currency_type: cryptocurrency
+    exchange_symbol: BAND
+  exchange_id: 270
+  exchange_name: Binance
+  pair: BAND/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/BAND_BNB?ref=H31B921U
+- base:
+    currency_id: 4679
+    currency_symbol: BAND
+    currency_type: cryptocurrency
+    exchange_symbol: BAND
+  exchange_id: 479
+  exchange_name: Dcoin
+  pair: BAND/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.dcoin.com/currencyTrading/BAND_USDT
 - base:
     currency_id: 4679
     currency_symbol: BAND
@@ -195,7 +209,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/band
 name: Band Protocol
-rank: 142
+rank: 145
 slug: band-protocol
 status: active
 symbol: BAND

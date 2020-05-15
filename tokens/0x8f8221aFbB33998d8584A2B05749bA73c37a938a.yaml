@@ -48,6 +48,20 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: REQ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/REQBTC
+- base:
+    currency_id: 2071
+    currency_symbol: REQ
+    currency_type: cryptocurrency
+    exchange_symbol: REQ
   exchange_id: 213
   exchange_name: Mercatox
   pair: REQ/ETH
@@ -76,20 +90,6 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: REQ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/req_btc/
-- base:
-    currency_id: 2071
-    currency_symbol: REQ
-    currency_type: cryptocurrency
-    exchange_symbol: REQ
   exchange_id: 520
   exchange_name: Bitvavo
   pair: REQ/EUR
@@ -99,6 +99,20 @@ markets:
     currency_type: fiat
     exchange_symbol: EUR
   url: https://account.bitvavo.com/markets/REQ-EUR
+- base:
+    currency_id: 2071
+    currency_symbol: REQ
+    currency_type: cryptocurrency
+    exchange_symbol: REQ
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: REQ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/req_btc/
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -118,15 +132,15 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: REQ/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/REQBTC
+  url: https://www.kucoin.com/trade/REQ-BTC
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -146,6 +160,20 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: REQ/INR
+  quote:
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/req
+- base:
+    currency_id: 2071
+    currency_symbol: REQ
+    currency_type: cryptocurrency
+    exchange_symbol: REQ
   exchange_id: 425
   exchange_name: WazirX
   pair: REQ/USDT
@@ -155,34 +183,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://wazirx.com/exchange/REQ-USDT
-- base:
-    currency_id: 2071
-    currency_symbol: REQ
-    currency_type: cryptocurrency
-    exchange_symbol: REQ
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: REQ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/REQ-BTC
-- base:
-    currency_id: 2071
-    currency_symbol: REQ
-    currency_type: cryptocurrency
-    exchange_symbol: REQ
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: REQ/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/req-krw
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -218,13 +218,13 @@ markets:
     exchange_symbol: REQ
   exchange_id: 335
   exchange_name: GOPAX
-  pair: REQ/BTC
+  pair: REQ/KRW
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.gopax.co.kr/exchange/req-btc
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/req-krw
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -244,15 +244,15 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: REQ/INR
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: REQ/BTC
   quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/req
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.gopax.co.kr/exchange/req-btc
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -366,7 +366,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/REQ/WETH
 name: Request
-rank: 330
+rank: 324
 slug: request
 status: active
 symbol: REQ

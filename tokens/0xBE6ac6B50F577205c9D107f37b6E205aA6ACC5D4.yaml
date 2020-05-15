@@ -62,20 +62,6 @@ markets:
     currency_id: 3854
     currency_symbol: UND
     currency_type: cryptocurrency
-    exchange_symbol: UND-EBC
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: UND/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/UND-EBC_BNB
-- base:
-    currency_id: 3854
-    currency_symbol: UND
-    currency_type: cryptocurrency
     exchange_symbol: UND
   exchange_id: 403
   exchange_name: BitForex
@@ -86,20 +72,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bitforex.com/en/spot/und_usdt
-- base:
-    currency_id: 3854
-    currency_symbol: UND
-    currency_type: cryptocurrency
-    exchange_symbol: UND
-  exchange_id: 849
-  exchange_name: Bidesk
-  pair: UND/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bidesk.com/exchange/715/UND/USDT
 - base:
     currency_id: 3854
     currency_symbol: UND
@@ -121,13 +93,41 @@ markets:
     exchange_symbol: UND-EBC
   exchange_id: 486
   exchange_name: Binance DEX
-  pair: UND/USDS
+  pair: UND/BNB
   quote:
-    currency_id: 3719
-    currency_symbol: USDS
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: USDSB-1AC
-  url: https://www.binance.org/en/trade/UND-EBC_USDSB-1AC
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/UND-EBC_BNB
+- base:
+    currency_id: 3854
+    currency_symbol: UND
+    currency_type: cryptocurrency
+    exchange_symbol: UND
+  exchange_id: 849
+  exchange_name: Bidesk
+  pair: UND/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bidesk.com/exchange/715/UND/USDT
+- base:
+    currency_id: 3854
+    currency_symbol: UND
+    currency_type: cryptocurrency
+    exchange_symbol: UND
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: UND/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.digifinex.com/en-ww/trade/USDT/UND
 - base:
     currency_id: 3854
     currency_symbol: UND
@@ -146,18 +146,18 @@ markets:
     currency_id: 3854
     currency_symbol: UND
     currency_type: cryptocurrency
-    exchange_symbol: UND
-  exchange_id: 407
-  exchange_name: DigiFinex
-  pair: UND/USDT
+    exchange_symbol: UND-EBC
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: UND/USDS
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 3719
+    currency_symbol: USDS
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.digifinex.com/en-ww/trade/USDT/UND
+    exchange_symbol: USDSB-1AC
+  url: https://www.binance.org/en/trade/UND-EBC_USDSB-1AC
 name: Unification
-rank: 786
+rank: 780
 slug: unification
 status: active
 symbol: UND
