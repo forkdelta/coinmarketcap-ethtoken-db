@@ -51,6 +51,48 @@ markets:
     currency_symbol: CRPT
     currency_type: cryptocurrency
     exchange_symbol: CRPT
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: CRPT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://app.liquid.com/exchange/CRPTETH
+- base:
+    currency_id: 2447
+    currency_symbol: CRPT
+    currency_type: cryptocurrency
+    exchange_symbol: CRPT
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: CRPT/QASH
+  quote:
+    currency_id: 2213
+    currency_symbol: QASH
+    currency_type: cryptocurrency
+    exchange_symbol: QASH
+  url: https://app.liquid.com/exchange/CRPTQASH
+- base:
+    currency_id: 2447
+    currency_symbol: CRPT
+    currency_type: cryptocurrency
+    exchange_symbol: CRPT
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: CRPT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/CRPTBTC
+- base:
+    currency_id: 2447
+    currency_symbol: CRPT
+    currency_type: cryptocurrency
+    exchange_symbol: CRPT
   exchange_id: 42
   exchange_name: HitBTC
   pair: CRPT/BTC
@@ -74,48 +116,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.kucoin.com/trade/CRPT-ETH
-- base:
-    currency_id: 2447
-    currency_symbol: CRPT
-    currency_type: cryptocurrency
-    exchange_symbol: CRPT
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: CRPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/CRPTBTC
-- base:
-    currency_id: 2447
-    currency_symbol: CRPT
-    currency_type: cryptocurrency
-    exchange_symbol: CRPT
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: CRPT/QASH
-  quote:
-    currency_id: 2213
-    currency_symbol: QASH
-    currency_type: cryptocurrency
-    exchange_symbol: QASH
-  url: https://app.liquid.com/exchange/CRPTQASH
-- base:
-    currency_id: 2447
-    currency_symbol: CRPT
-    currency_type: cryptocurrency
-    exchange_symbol: CRPT
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: CRPT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://app.liquid.com/exchange/CRPTETH
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -159,7 +159,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/crpt
 name: Crypterium
-rank: 95
+rank: 93
 slug: crpt
 status: active
 symbol: CRPT

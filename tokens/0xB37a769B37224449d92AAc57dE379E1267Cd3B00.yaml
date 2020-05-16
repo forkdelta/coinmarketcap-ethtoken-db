@@ -55,6 +55,20 @@ markets:
     currency_symbol: COVA
     currency_type: cryptocurrency
     exchange_symbol: COVA
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: COVA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/cova
+- base:
+    currency_id: 3650
+    currency_symbol: COVA
+    currency_type: cryptocurrency
+    exchange_symbol: COVA
   exchange_id: 102
   exchange_name: Huobi Global
   pair: COVA/BTC
@@ -64,20 +78,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hbg.com/en-us/exchange/cova_btc/
-- base:
-    currency_id: 3650
-    currency_symbol: COVA
-    currency_type: cryptocurrency
-    exchange_symbol: COVA
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: COVA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/cova
 - base:
     currency_id: 3650
     currency_symbol: COVA
@@ -127,27 +127,13 @@ markets:
     exchange_symbol: COVA
   exchange_id: 453
   exchange_name: BitMax
-  pair: COVA/USDT
+  pair: COVA/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/cova
-- base:
-    currency_id: 3650
-    currency_symbol: COVA
-    currency_type: cryptocurrency
-    exchange_symbol: COVA
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: COVA/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/COVA-218_BNB
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/cova
 - base:
     currency_id: 3650
     currency_symbol: COVA
@@ -162,8 +148,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/cova
+- base:
+    currency_id: 3650
+    currency_symbol: COVA
+    currency_type: cryptocurrency
+    exchange_symbol: COVA
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: COVA/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/COVA-218_BNB
 name: COVA
-rank: 1112
+rank: 1117
 slug: cova
 status: active
 symbol: COVA

@@ -32,6 +32,20 @@ markets:
     exchange_symbol: USDS
   url: https://coinsbit.io/trade/PLC_USDS
 - base:
+    currency_id: 3854
+    currency_symbol: UND
+    currency_type: cryptocurrency
+    exchange_symbol: UND-EBC
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: UND/USDS
+  quote:
+    currency_id: 3719
+    currency_symbol: USDS
+    currency_type: cryptocurrency
+    exchange_symbol: USDSB-1AC
+  url: https://www.binance.org/en/trade/UND-EBC_USDSB-1AC
+- base:
     currency_id: 3719
     currency_symbol: USDS
     currency_type: cryptocurrency
@@ -102,19 +116,19 @@ markets:
     exchange_symbol: USDSB-1AC
   url: https://www.binance.org/en/trade/BTCB-1DE_USDSB-1AC
 - base:
-    currency_id: 3854
-    currency_symbol: UND
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: UND-EBC
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: UND/USDS
+    exchange_symbol: BTC
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: BTC/USDS
   quote:
     currency_id: 3719
     currency_symbol: USDS
     currency_type: cryptocurrency
-    exchange_symbol: USDSB-1AC
-  url: https://www.binance.org/en/trade/UND-EBC_USDSB-1AC
+    exchange_symbol: USDS
+  url: https://crex24.com/exchange/BTC-USDS
 - base:
     currency_id: 4036
     currency_symbol: COS
@@ -143,22 +157,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDSB-1AC
   url: https://www.binance.org/en/trade/ONE-5F9_USDSB-1AC
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: BTC/USDS
-  quote:
-    currency_id: 3719
-    currency_symbol: USDS
-    currency_type: cryptocurrency
-    exchange_symbol: USDS
-  url: https://crex24.com/exchange/BTC-USDS
 name: StableUSD
-rank: 1080
+rank: 1077
 slug: stableusd
 status: active
 symbol: USDS
