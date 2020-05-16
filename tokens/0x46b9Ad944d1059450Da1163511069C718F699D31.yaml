@@ -64,20 +64,6 @@ markets:
     currency_symbol: CS
     currency_type: cryptocurrency
     exchange_symbol: CS
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CS/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.kucoin.com/trade/CS-ETH
-- base:
-    currency_id: 2556
-    currency_symbol: CS
-    currency_type: cryptocurrency
-    exchange_symbol: CS
   exchange_id: 425
   exchange_name: WazirX
   pair: CS/USDT
@@ -94,13 +80,13 @@ markets:
     exchange_symbol: CS
   exchange_id: 311
   exchange_name: KuCoin
-  pair: CS/KCS
+  pair: CS/ETH
   quote:
-    currency_id: 2087
-    currency_symbol: KCS
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: KCS
-  url: https://www.kucoin.com/trade/CS-KCS
+    exchange_symbol: ETH
+  url: https://www.kucoin.com/trade/CS-ETH
 - base:
     currency_id: 2556
     currency_symbol: CS
@@ -120,15 +106,15 @@ markets:
     currency_symbol: CS
     currency_type: cryptocurrency
     exchange_symbol: CS
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: CS/ETH
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CS/KCS
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 2087
+    currency_symbol: KCS
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/cs_eth
+    exchange_symbol: KCS
+  url: https://www.kucoin.com/trade/CS-KCS
 - base:
     currency_id: 2556
     currency_symbol: CS
@@ -150,20 +136,6 @@ markets:
     exchange_symbol: CS
   exchange_id: 343
   exchange_name: CoinBene
-  pair: CS/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=CSETH
-- base:
-    currency_id: 2556
-    currency_symbol: CS
-    currency_type: cryptocurrency
-    exchange_symbol: CS
-  exchange_id: 343
-  exchange_name: CoinBene
   pair: CS/USDT
   quote:
     currency_id: 825
@@ -171,6 +143,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=CSUSDT
+- base:
+    currency_id: 2556
+    currency_symbol: CS
+    currency_type: cryptocurrency
+    exchange_symbol: CS
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: CS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/cs_eth
+- base:
+    currency_id: 2556
+    currency_symbol: CS
+    currency_type: cryptocurrency
+    exchange_symbol: CS
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: CS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=CSETH
 - base:
     currency_id: 2556
     currency_symbol: CS
@@ -242,7 +242,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.cointiger.com/en-us/#/trade_pro?coin=cs_btc
 name: Credits
-rank: 350
+rank: 394
 slug: credits
 status: active
 symbol: CS

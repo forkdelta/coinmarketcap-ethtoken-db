@@ -47,20 +47,6 @@ markets:
     exchange_symbol: STORM
   exchange_id: 270
   exchange_name: Binance
-  pair: STORM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/STORM_BTC?ref=H31B921U
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
-  exchange_id: 270
-  exchange_name: Binance
   pair: STORM/USDT
   quote:
     currency_id: 825
@@ -68,6 +54,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/STORM_USDT?ref=H31B921U
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
+  exchange_id: 270
+  exchange_name: Binance
+  pair: STORM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/STORM_BTC?ref=H31B921U
 - base:
     currency_id: 2297
     currency_symbol: STORM
@@ -129,20 +129,6 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: STORM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/storm_btc
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: STORM/BTC
@@ -152,6 +138,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=storm
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: STORM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitrue.com/trade/storm_btc
 - base:
     currency_id: 2297
     currency_symbol: STORM
@@ -171,20 +171,6 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: STORM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vcc.exchange/exchange/basic?currency=eth&coin=storm
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
   exchange_id: 425
   exchange_name: WazirX
   pair: STORM/USDT
@@ -199,15 +185,15 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: STORM/ETH
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: STORM/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-STORM
+    exchange_symbol: BTC
+  url: https://wazirx.com/exchange/STORM-BTC
 - base:
     currency_id: 2297
     currency_symbol: STORM
@@ -227,15 +213,57 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
-  exchange_id: 425
-  exchange_name: WazirX
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: STORM/INR
+  quote:
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/storm
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: STORM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vcc.exchange/exchange/basic?currency=eth&coin=storm
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: STORM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-STORM
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
+  exchange_id: 100
+  exchange_name: YoBit
   pair: STORM/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://wazirx.com/exchange/STORM-BTC
+  url: https://yobit.net/en/trade/STORM/BTC
 - base:
     currency_id: 2297
     currency_symbol: STORM
@@ -257,20 +285,6 @@ markets:
     exchange_symbol: STORM
   exchange_id: 100
   exchange_name: YoBit
-  pair: STORM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/STORM/BTC
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
-  exchange_id: 100
-  exchange_name: YoBit
   pair: STORM/USD
   quote:
     currency_id: 2781
@@ -278,20 +292,6 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://yobit.net/en/trade/STORM/USD
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: STORM/INR
-  quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/storm
 - base:
     currency_id: 2297
     currency_symbol: STORM
@@ -307,7 +307,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/STORM/WETH
 name: Storm
-rank: 327
+rank: 333
 slug: storm
 status: active
 symbol: STORM

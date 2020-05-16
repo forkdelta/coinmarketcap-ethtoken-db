@@ -97,20 +97,6 @@ markets:
     exchange_symbol: MIX
   exchange_id: 400
   exchange_name: Hotbit
-  pair: MIX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=MIX_BTC
-- base:
-    currency_id: 4366
-    currency_symbol: MIX
-    currency_type: cryptocurrency
-    exchange_symbol: MIX
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: MIX/ETH
   quote:
     currency_id: 1027
@@ -118,6 +104,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=MIX_ETH
+- base:
+    currency_id: 4366
+    currency_symbol: MIX
+    currency_type: cryptocurrency
+    exchange_symbol: MIX
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: MIX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=MIX_BTC
 - base:
     currency_id: 4366
     currency_symbol: MIX
@@ -147,7 +147,7 @@ markets:
     exchange_symbol: USDT
   url: https://bitmax.io/#/trade/usdt/mix
 name: MixMarvel
-rank: 577
+rank: 568
 slug: mixmarvel
 status: active
 symbol: MIX

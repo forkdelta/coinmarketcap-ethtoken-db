@@ -34,6 +34,20 @@ markets:
     exchange_symbol: PLF
   exchange_id: 459
   exchange_name: BW.com
+  pair: PLF/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bw.com/trade/plf_btc
+- base:
+    currency_id: 5084
+    currency_symbol: PLF
+    currency_type: cryptocurrency
+    exchange_symbol: PLF
+  exchange_id: 459
+  exchange_name: BW.com
   pair: PLF/ETH
   quote:
     currency_id: 1027
@@ -55,20 +69,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bw.com/trade/plf_usdt
-- base:
-    currency_id: 5084
-    currency_symbol: PLF
-    currency_type: cryptocurrency
-    exchange_symbol: PLF
-  exchange_id: 459
-  exchange_name: BW.com
-  pair: PLF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bw.com/trade/plf_btc
 - base:
     currency_id: 5084
     currency_symbol: PLF
@@ -102,20 +102,6 @@ markets:
     currency_symbol: PLF
     currency_type: cryptocurrency
     exchange_symbol: PLF
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: PLF/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://crex24.com/exchange/PLF-ETH
-- base:
-    currency_id: 5084
-    currency_symbol: PLF
-    currency_type: cryptocurrency
-    exchange_symbol: PLF
   exchange_id: 415
   exchange_name: Bilaxy
   pair: PLF/USDT
@@ -130,29 +116,15 @@ markets:
     currency_symbol: PLF
     currency_type: cryptocurrency
     exchange_symbol: PLF
-  exchange_id: 402
-  exchange_name: Coinsuper
+  exchange_id: 382
+  exchange_name: Crex24
   pair: PLF/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.coinsuper.com/#/actionDeal
-- base:
-    currency_id: 5084
-    currency_symbol: PLF
-    currency_type: cryptocurrency
-    exchange_symbol: PLF
-  exchange_id: 402
-  exchange_name: Coinsuper
-  pair: PLF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinsuper.com/#/actionDeal
+  url: https://crex24.com/exchange/PLF-ETH
 - base:
     currency_id: 5084
     currency_symbol: PLF
@@ -172,43 +144,29 @@ markets:
     currency_symbol: PLF
     currency_type: cryptocurrency
     exchange_symbol: PLF
-  exchange_id: 415
-  exchange_name: Bilaxy
+  exchange_id: 402
+  exchange_name: Coinsuper
   pair: PLF/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://bilaxy.com/trade/PLF_ETH
+  url: https://www.coinsuper.com/#/actionDeal
 - base:
     currency_id: 5084
     currency_symbol: PLF
     currency_type: cryptocurrency
     exchange_symbol: PLF
-  exchange_id: 415
-  exchange_name: Bilaxy
+  exchange_id: 402
+  exchange_name: Coinsuper
   pair: PLF/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bilaxy.com/trade/PLF_BTC
-- base:
-    currency_id: 5084
-    currency_symbol: PLF
-    currency_type: cryptocurrency
-    exchange_symbol: PLF
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: PLF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=PLF_BTC
+  url: https://www.coinsuper.com/#/actionDeal
 - base:
     currency_id: 5084
     currency_symbol: PLF
@@ -230,6 +188,34 @@ markets:
     exchange_symbol: PLF
   exchange_id: 400
   exchange_name: Hotbit
+  pair: PLF/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=PLF_BTC
+- base:
+    currency_id: 5084
+    currency_symbol: PLF
+    currency_type: cryptocurrency
+    exchange_symbol: PLF
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: PLF/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/PLF_ETH
+- base:
+    currency_id: 5084
+    currency_symbol: PLF
+    currency_type: cryptocurrency
+    exchange_symbol: PLF
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: PLF/ETH
   quote:
     currency_id: 1027
@@ -237,6 +223,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=PLF_ETH
+- base:
+    currency_id: 5084
+    currency_symbol: PLF
+    currency_type: cryptocurrency
+    exchange_symbol: PLF
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: PLF/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bilaxy.com/trade/PLF_BTC
 - base:
     currency_id: 5084
     currency_symbol: PLF
@@ -350,7 +350,7 @@ markets:
     exchange_symbol: ETH
   url: https://mercatox.com/exchange/PLF/ETH
 name: PlayFuel
-rank: 208
+rank: 207
 slug: playfuel
 status: active
 symbol: PLF

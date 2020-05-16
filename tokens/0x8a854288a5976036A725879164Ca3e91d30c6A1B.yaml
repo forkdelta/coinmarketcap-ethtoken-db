@@ -73,15 +73,15 @@ markets:
     currency_symbol: GET
     currency_type: cryptocurrency
     exchange_symbol: GET
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: GET/BTC
+  exchange_id: 158
+  exchange_name: Nocks
+  pair: GET/EUR
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/GETBTC
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://nocks.com/
 - base:
     currency_id: 2354
     currency_symbol: GET
@@ -103,6 +103,20 @@ markets:
     exchange_symbol: GET
   exchange_id: 112
   exchange_name: Liquid
+  pair: GET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/GETBTC
+- base:
+    currency_id: 2354
+    currency_symbol: GET
+    currency_type: cryptocurrency
+    exchange_symbol: GET
+  exchange_id: 112
+  exchange_name: Liquid
   pair: GET/ETH
   quote:
     currency_id: 1027
@@ -110,22 +124,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://app.liquid.com/exchange/GETETH
-- base:
-    currency_id: 2354
-    currency_symbol: GET
-    currency_type: cryptocurrency
-    exchange_symbol: GET
-  exchange_id: 158
-  exchange_name: Nocks
-  pair: GET/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://nocks.com/
 name: GET Protocol
-rank: 620
+rank: 658
 slug: get-protocol
 status: active
 symbol: GET

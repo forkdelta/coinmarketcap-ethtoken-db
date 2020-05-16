@@ -40,6 +40,20 @@ markets:
     currency_symbol: EVX
     currency_type: cryptocurrency
     exchange_symbol: EVX
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: EVX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://dex-trade.com/en?currencyIn=EVX&currencyTo=BTC
+- base:
+    currency_id: 2034
+    currency_symbol: EVX
+    currency_type: cryptocurrency
+    exchange_symbol: EVX
   exchange_id: 102
   exchange_name: Huobi Global
   pair: EVX/BTC
@@ -49,6 +63,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hbg.com/en-us/exchange/evx_btc/
+- base:
+    currency_id: 2034
+    currency_symbol: EVX
+    currency_type: cryptocurrency
+    exchange_symbol: EVX
+  exchange_id: 270
+  exchange_name: Binance
+  pair: EVX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.binance.com/en/trade/EVX_ETH?ref=H31B921U
 - base:
     currency_id: 2034
     currency_symbol: EVX
@@ -70,34 +98,6 @@ markets:
     exchange_symbol: EVX
   exchange_id: 154
   exchange_name: Dex-Trade
-  pair: EVX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://dex-trade.com/en?currencyIn=EVX&currencyTo=BTC
-- base:
-    currency_id: 2034
-    currency_symbol: EVX
-    currency_type: cryptocurrency
-    exchange_symbol: EVX
-  exchange_id: 270
-  exchange_name: Binance
-  pair: EVX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.binance.com/en/trade/EVX_ETH?ref=H31B921U
-- base:
-    currency_id: 2034
-    currency_symbol: EVX
-    currency_type: cryptocurrency
-    exchange_symbol: EVX
-  exchange_id: 154
-  exchange_name: Dex-Trade
   pair: EVX/ETH
   quote:
     currency_id: 1027
@@ -105,20 +105,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://dex-trade.com/en?currencyIn=EVX&currencyTo=ETH
-- base:
-    currency_id: 2034
-    currency_symbol: EVX
-    currency_type: cryptocurrency
-    exchange_symbol: EVX
-  exchange_id: 436
-  exchange_name: Bitkub
-  pair: EVX/THB
-  quote:
-    currency_id: 2809
-    currency_symbol: THB
-    currency_type: fiat
-    exchange_symbol: THB
-  url: https://www.bitkub.com/market/
 - base:
     currency_id: 2034
     currency_symbol: EVX
@@ -138,6 +124,20 @@ markets:
     currency_symbol: EVX
     currency_type: cryptocurrency
     exchange_symbol: EVX
+  exchange_id: 436
+  exchange_name: Bitkub
+  pair: EVX/THB
+  quote:
+    currency_id: 2809
+    currency_symbol: THB
+    currency_type: fiat
+    exchange_symbol: THB
+  url: https://www.bitkub.com/market/
+- base:
+    currency_id: 2034
+    currency_symbol: EVX
+    currency_type: cryptocurrency
+    exchange_symbol: EVX
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: EVX/ETH
@@ -147,20 +147,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/evx_eth/
-- base:
-    currency_id: 2034
-    currency_symbol: EVX
-    currency_type: cryptocurrency
-    exchange_symbol: EVX
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: EVX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/EVX-to-BTC
 - base:
     currency_id: 2034
     currency_symbol: EVX
@@ -196,13 +182,13 @@ markets:
     exchange_symbol: EVX
   exchange_id: 42
   exchange_name: HitBTC
-  pair: EVX/USDT
+  pair: EVX/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/EVX-to-USDT
+    exchange_symbol: BTC
+  url: https://hitbtc.com/EVX-to-BTC
 - base:
     currency_id: 2034
     currency_symbol: EVX
@@ -222,6 +208,20 @@ markets:
     currency_symbol: EVX
     currency_type: cryptocurrency
     exchange_symbol: EVX
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: EVX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/EVX-to-USDT
+- base:
+    currency_id: 2034
+    currency_symbol: EVX
+    currency_type: cryptocurrency
+    exchange_symbol: EVX
   exchange_id: 310
   exchange_name: IDEX
   pair: EVX/ETH
@@ -232,7 +232,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/evx
 name: Everex
-rank: 550
+rank: 546
 slug: everex
 status: active
 symbol: EVX

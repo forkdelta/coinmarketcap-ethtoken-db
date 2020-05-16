@@ -31,20 +31,6 @@ markets:
     exchange_symbol: XYO
   exchange_id: 311
   exchange_name: KuCoin
-  pair: XYO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/XYO-BTC
-- base:
-    currency_id: 2765
-    currency_symbol: XYO
-    currency_type: cryptocurrency
-    exchange_symbol: XYO
-  exchange_id: 311
-  exchange_name: KuCoin
   pair: XYO/ETH
   quote:
     currency_id: 1027
@@ -57,15 +43,15 @@ markets:
     currency_symbol: XYO
     currency_type: cryptocurrency
     exchange_symbol: XYO
-  exchange_id: 100
-  exchange_name: YoBit
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: XYO/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://yobit.net/en/trade/XYO/BTC
+  url: https://www.kucoin.com/trade/XYO-BTC
 - base:
     currency_id: 2765
     currency_symbol: XYO
@@ -80,6 +66,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/xyo
+- base:
+    currency_id: 2765
+    currency_symbol: XYO
+    currency_type: cryptocurrency
+    exchange_symbol: XYO
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: XYO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/XYO/BTC
 - base:
     currency_id: 2765
     currency_symbol: XYO
@@ -109,7 +109,7 @@ markets:
     exchange_symbol: ETH
   url: https://yobit.net/en/trade/XYO/ETH
 name: XYO
-rank: 628
+rank: 616
 slug: xyo
 status: active
 symbol: XYO

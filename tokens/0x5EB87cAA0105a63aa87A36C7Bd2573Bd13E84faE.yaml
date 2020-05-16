@@ -33,20 +33,6 @@ markets:
     exchange_symbol: BQT
   exchange_id: 400
   exchange_name: Hotbit
-  pair: BQT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=BQT_BTC
-- base:
-    currency_id: 3231
-    currency_symbol: BQT
-    currency_type: cryptocurrency
-    exchange_symbol: BQT
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: BQT/ETH
   quote:
     currency_id: 1027
@@ -54,6 +40,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=BQT_ETH
+- base:
+    currency_id: 3231
+    currency_symbol: BQT
+    currency_type: cryptocurrency
+    exchange_symbol: BQT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: BQT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=BQT_BTC
 - base:
     currency_id: 3231
     currency_symbol: BQT
@@ -69,7 +69,7 @@ markets:
     exchange_symbol: ETH
   url: https://dragonex.io
 name: Blockchain Quotations Index Token
-rank: 2163
+rank: 2236
 slug: blockchain-quotations-index-token
 status: active
 symbol: BQT

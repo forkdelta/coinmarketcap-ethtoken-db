@@ -71,20 +71,6 @@ markets:
     currency_symbol: REV
     currency_type: cryptocurrency
     exchange_symbol: REV
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: REV/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bittrex.com/Market/Index?MarketName=USDT-REV
-- base:
-    currency_id: 2135
-    currency_symbol: REV
-    currency_type: cryptocurrency
-    exchange_symbol: REV
   exchange_id: 403
   exchange_name: BitForex
   pair: REV/USDT
@@ -99,15 +85,15 @@ markets:
     currency_symbol: REV
     currency_type: cryptocurrency
     exchange_symbol: REV
-  exchange_id: 311
-  exchange_name: KuCoin
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: REV/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.kucoin.com/trade/REV-USDT
+  url: https://bittrex.com/Market/Index?MarketName=USDT-REV
 - base:
     currency_id: 2135
     currency_symbol: REV
@@ -136,20 +122,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://dragonex.io
-- base:
-    currency_id: 2135
-    currency_symbol: REV
-    currency_type: cryptocurrency
-    exchange_symbol: REV
-  exchange_id: 228
-  exchange_name: BTC-Alpha
-  pair: REV/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://btc-alpha.com/exchange/REV_USDT/
 - base:
     currency_id: 2135
     currency_symbol: REV
@@ -185,6 +157,20 @@ markets:
     exchange_symbol: REV
   exchange_id: 311
   exchange_name: KuCoin
+  pair: REV/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.kucoin.com/trade/REV-USDT
+- base:
+    currency_id: 2135
+    currency_symbol: REV
+    currency_type: cryptocurrency
+    exchange_symbol: REV
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: REV/BTC
   quote:
     currency_id: 1
@@ -197,15 +183,15 @@ markets:
     currency_symbol: REV
     currency_type: cryptocurrency
     exchange_symbol: REV
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: REV/BTC
+  exchange_id: 228
+  exchange_name: BTC-Alpha
+  pair: REV/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/REV/BTC
+    exchange_symbol: USDT
+  url: https://btc-alpha.com/exchange/REV_USDT/
 - base:
     currency_id: 2135
     currency_symbol: REV
@@ -220,6 +206,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://p2pb2b.io/trade/REV_BTC
+- base:
+    currency_id: 2135
+    currency_symbol: REV
+    currency_type: cryptocurrency
+    exchange_symbol: REV
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: REV/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/REV/BTC
 - base:
     currency_id: 2135
     currency_symbol: REV
@@ -277,7 +277,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.probit.com/app/exchange/REV-USDT
 name: Revain
-rank: 468
+rank: 461
 slug: revain
 status: active
 symbol: REV

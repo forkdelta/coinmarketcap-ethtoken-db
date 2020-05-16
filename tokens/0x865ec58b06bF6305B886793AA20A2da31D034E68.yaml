@@ -37,20 +37,6 @@ markets:
     currency_symbol: MOC
     currency_type: cryptocurrency
     exchange_symbol: MOC
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: MOC/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/moc-krw
-- base:
-    currency_id: 2915
-    currency_symbol: MOC
-    currency_type: cryptocurrency
-    exchange_symbol: MOC
   exchange_id: 351
   exchange_name: Upbit
   pair: MOC/BTC
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-MOC
+- base:
+    currency_id: 2915
+    currency_symbol: MOC
+    currency_type: cryptocurrency
+    exchange_symbol: MOC
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: MOC/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/moc-krw
 - base:
     currency_id: 2915
     currency_symbol: MOC
@@ -89,7 +89,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.gopax.co.kr/exchange/moc-btc
 name: Moss Coin
-rank: 401
+rank: 414
 slug: moss-coin
 status: active
 symbol: MOC
