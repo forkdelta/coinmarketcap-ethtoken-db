@@ -64,6 +64,20 @@ markets:
     currency_symbol: ODE
     currency_type: cryptocurrency
     exchange_symbol: ODE
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: ODE/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/ODE:USD
+- base:
+    currency_id: 2631
+    currency_symbol: ODE
+    currency_type: cryptocurrency
+    exchange_symbol: ODE
   exchange_id: 107
   exchange_name: Livecoin
   pair: ODE/BTC
@@ -73,20 +87,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.livecoin.net/en/trading/ODE_BTC
-- base:
-    currency_id: 2631
-    currency_symbol: ODE
-    currency_type: cryptocurrency
-    exchange_symbol: ODE
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: ODE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/ODE:BTC
 - base:
     currency_id: 2631
     currency_symbol: ODE
@@ -122,13 +122,13 @@ markets:
     exchange_symbol: ODE
   exchange_id: 37
   exchange_name: Bitfinex
-  pair: ODE/USD
+  pair: ODE/BTC
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/ODE:USD
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/ODE:BTC
 - base:
     currency_id: 2631
     currency_symbol: ODE
@@ -143,6 +143,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitfinex.com/t/ODE:ETH
+- base:
+    currency_id: 2631
+    currency_symbol: ODE
+    currency_type: cryptocurrency
+    exchange_symbol: ODE
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: ODE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitmart.com/trade?symbol=ODE_BTC
 - base:
     currency_id: 2631
     currency_symbol: ODE
@@ -164,20 +178,6 @@ markets:
     exchange_symbol: ODE
   exchange_id: 406
   exchange_name: BitMart
-  pair: ODE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitmart.com/trade?symbol=ODE_BTC
-- base:
-    currency_id: 2631
-    currency_symbol: ODE
-    currency_type: cryptocurrency
-    exchange_symbol: ODE
-  exchange_id: 406
-  exchange_name: BitMart
   pair: ODE/ETH
   quote:
     currency_id: 1027
@@ -186,7 +186,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.bitmart.com/trade?symbol=ODE_ETH
 name: ODEM
-rank: 348
+rank: 367
 slug: odem
 status: active
 symbol: ODE

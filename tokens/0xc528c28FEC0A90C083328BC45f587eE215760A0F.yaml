@@ -72,20 +72,6 @@ markets:
     exchange_symbol: EDR
   exchange_id: 400
   exchange_name: Hotbit
-  pair: EDR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=EDR_BTC
-- base:
-    currency_id: 2835
-    currency_symbol: EDR
-    currency_type: cryptocurrency
-    exchange_symbol: EDR
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: EDR/ETH
   quote:
     currency_id: 1027
@@ -93,6 +79,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=EDR_ETH
+- base:
+    currency_id: 2835
+    currency_symbol: EDR
+    currency_type: cryptocurrency
+    exchange_symbol: EDR
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: EDR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=EDR_BTC
 - base:
     currency_id: 2835
     currency_symbol: EDR
@@ -276,7 +276,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/edr_btc/
 name: Endor Protocol
-rank: 530
+rank: 536
 slug: endor-protocol
 status: active
 symbol: EDR

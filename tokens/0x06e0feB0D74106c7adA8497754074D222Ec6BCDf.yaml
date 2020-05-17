@@ -85,20 +85,6 @@ markets:
     exchange_symbol: BTB
   exchange_id: 587
   exchange_name: IndoEx
-  pair: BTB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://international.indoex.io/trade/BTB_USDT
-- base:
-    currency_id: 3687
-    currency_symbol: BTB
-    currency_type: cryptocurrency
-    exchange_symbol: BTB
-  exchange_id: 587
-  exchange_name: IndoEx
   pair: BTB/BTC
   quote:
     currency_id: 1
@@ -111,15 +97,43 @@ markets:
     currency_symbol: BTB
     currency_type: cryptocurrency
     exchange_symbol: BTB
-  exchange_id: 419
-  exchange_name: Graviex
-  pair: BTB/USDC
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: BTB/USDT
   quote:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://graviex.net/markets/btbusdc
+    exchange_symbol: USDT
+  url: https://international.indoex.io/trade/BTB_USDT
+- base:
+    currency_id: 3687
+    currency_symbol: BTB
+    currency_type: cryptocurrency
+    exchange_symbol: BTB
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: BTB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://mercatox.com/exchange/BTB/ETH
+- base:
+    currency_id: 3687
+    currency_symbol: BTB
+    currency_type: cryptocurrency
+    exchange_symbol: BTB
+  exchange_id: 585
+  exchange_name: BITStorage
+  pair: BTB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bitstorage.finance/market/BTB-ETH
 - base:
     currency_id: 3687
     currency_symbol: BTB
@@ -134,6 +148,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://graviex.net/markets/btbbtc
+- base:
+    currency_id: 3687
+    currency_symbol: BTB
+    currency_type: cryptocurrency
+    exchange_symbol: BTB
+  exchange_id: 539
+  exchange_name: BitAsset
+  pair: BTB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitasset.com/ktrade/BTB-BTC
 - base:
     currency_id: 3687
     currency_symbol: BTB
@@ -181,15 +209,15 @@ markets:
     currency_symbol: BTB
     currency_type: cryptocurrency
     exchange_symbol: BTB
-  exchange_id: 213
-  exchange_name: Mercatox
+  exchange_id: 419
+  exchange_name: Graviex
   pair: BTB/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://mercatox.com/exchange/BTB/ETH
+  url: https://graviex.net/markets/btbeth
 - base:
     currency_id: 3687
     currency_symbol: BTB
@@ -223,34 +251,6 @@ markets:
     currency_symbol: BTB
     currency_type: cryptocurrency
     exchange_symbol: BTB
-  exchange_id: 585
-  exchange_name: BITStorage
-  pair: BTB/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bitstorage.finance/market/BTB-ETH
-- base:
-    currency_id: 3687
-    currency_symbol: BTB
-    currency_type: cryptocurrency
-    exchange_symbol: BTB
-  exchange_id: 419
-  exchange_name: Graviex
-  pair: BTB/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://graviex.net/markets/btbeth
-- base:
-    currency_id: 3687
-    currency_symbol: BTB
-    currency_type: cryptocurrency
-    exchange_symbol: BTB
   exchange_id: 495
   exchange_name: Folgory
   pair: BTB/ETH
@@ -274,6 +274,34 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://folgory.com/trade-crypto/BTB_USD
+- base:
+    currency_id: 3687
+    currency_symbol: BTB
+    currency_type: cryptocurrency
+    exchange_symbol: BTB
+  exchange_id: 419
+  exchange_name: Graviex
+  pair: BTB/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://graviex.net/markets/btbusdc
+- base:
+    currency_id: 3687
+    currency_symbol: BTB
+    currency_type: cryptocurrency
+    exchange_symbol: BTB
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: BTB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/BTB/BTC
 - base:
     currency_id: 3687
     currency_symbol: BTB
@@ -321,29 +349,15 @@ markets:
     currency_symbol: BTB
     currency_type: cryptocurrency
     exchange_symbol: BTB
-  exchange_id: 539
-  exchange_name: BitAsset
-  pair: BTB/BTC
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: BTB/FLG
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 4842
+    currency_symbol: FLG
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitasset.com/ktrade/BTB-BTC
-- base:
-    currency_id: 3687
-    currency_symbol: BTB
-    currency_type: cryptocurrency
-    exchange_symbol: BTB
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: BTB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/BTB/BTC
+    exchange_symbol: FLG
+  url: https://folgory.com/trade-crypto/BTB_FLG
 - base:
     currency_id: 3687
     currency_symbol: BTB
@@ -358,22 +372,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://ccxcanada.com/markets/btbbtc
-- base:
-    currency_id: 3687
-    currency_symbol: BTB
-    currency_type: cryptocurrency
-    exchange_symbol: BTB
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: BTB/FLG
-  quote:
-    currency_id: 4842
-    currency_symbol: FLG
-    currency_type: cryptocurrency
-    exchange_symbol: FLG
-  url: https://folgory.com/trade-crypto/BTB_FLG
 name: BitBall
-rank: 1215
+rank: 1170
 slug: bitball
 status: active
 symbol: BTB

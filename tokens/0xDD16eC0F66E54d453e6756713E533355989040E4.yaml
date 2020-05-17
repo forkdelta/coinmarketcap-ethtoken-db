@@ -41,6 +41,20 @@ markets:
     exchange_symbol: TEN
   exchange_id: 411
   exchange_name: Tokenomy
+  pair: TEN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: null
+- base:
+    currency_id: 2576
+    currency_symbol: TEN
+    currency_type: cryptocurrency
+    exchange_symbol: TEN
+  exchange_id: 411
+  exchange_name: Tokenomy
   pair: TEN/USDT
   quote:
     currency_id: 825
@@ -53,29 +67,15 @@ markets:
     currency_symbol: TEN
     currency_type: cryptocurrency
     exchange_symbol: TEN
-  exchange_id: 411
-  exchange_name: Tokenomy
-  pair: TEN/BTC
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: TEN/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: null
-- base:
-    currency_id: 2576
-    currency_symbol: TEN
-    currency_type: cryptocurrency
-    exchange_symbol: TEN
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: TEN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://indodax.com/market/TENBTC
+    exchange_symbol: ETH
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=TENETH
 - base:
     currency_id: 2576
     currency_symbol: TEN
@@ -95,17 +95,17 @@ markets:
     currency_symbol: TEN
     currency_type: cryptocurrency
     exchange_symbol: TEN
-  exchange_id: 343
-  exchange_name: CoinBene
-  pair: TEN/ETH
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: TEN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=TENETH
+    exchange_symbol: BTC
+  url: https://indodax.com/market/TENBTC
 name: Tokenomy
-rank: 477
+rank: 484
 slug: tokenomy
 status: active
 symbol: TEN

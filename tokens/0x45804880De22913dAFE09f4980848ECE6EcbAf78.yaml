@@ -26,6 +26,20 @@ markets:
     currency_symbol: PAXG
     currency_type: cryptocurrency
     exchange_symbol: PAXG
+  exchange_id: 537
+  exchange_name: Virtuse Exchange
+  pair: PAXG/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://virtuse.exchange/trading
+- base:
+    currency_id: 4705
+    currency_symbol: PAXG
+    currency_type: cryptocurrency
+    exchange_symbol: PAXG
   exchange_id: 24
   exchange_name: Kraken
   pair: PAXG/EUR
@@ -49,20 +63,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://trade.kraken.com/markets/kraken/paxg/btc
-- base:
-    currency_id: 4705
-    currency_symbol: PAXG
-    currency_type: cryptocurrency
-    exchange_symbol: PAXG
-  exchange_id: 537
-  exchange_name: Virtuse Exchange
-  pair: PAXG/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://virtuse.exchange/trading
 - base:
     currency_id: 4705
     currency_symbol: PAXG
@@ -96,20 +96,6 @@ markets:
     currency_symbol: PAXG
     currency_type: cryptocurrency
     exchange_symbol: PAXG
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: PAXG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.kraken.com/markets/kraken/paxg/eth
-- base:
-    currency_id: 4705
-    currency_symbol: PAXG
-    currency_type: cryptocurrency
-    exchange_symbol: PAXG
   exchange_id: 524
   exchange_name: FTX
   pair: PAXG/USD
@@ -124,15 +110,15 @@ markets:
     currency_symbol: PAXG
     currency_type: cryptocurrency
     exchange_symbol: PAXG
-  exchange_id: 595
-  exchange_name: Uniswap
+  exchange_id: 24
+  exchange_name: Kraken
   pair: PAXG/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://uniswap.exchange/
+  url: https://trade.kraken.com/markets/kraken/paxg/eth
 - base:
     currency_id: 4705
     currency_symbol: PAXG
@@ -161,6 +147,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://ftx.com/trade/PAXG/USDT
+- base:
+    currency_id: 4705
+    currency_symbol: PAXG
+    currency_type: cryptocurrency
+    exchange_symbol: PAXG
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: PAXG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 - base:
     currency_id: 4705
     currency_symbol: PAXG
@@ -218,7 +218,7 @@ markets:
     exchange_symbol: USD
   url: https://ftx.com/trade/PAXG/USD
 name: PAX Gold
-rank: 100
+rank: 102
 slug: pax-gold
 status: active
 symbol: PAXG

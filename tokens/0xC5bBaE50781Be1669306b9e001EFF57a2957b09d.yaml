@@ -38,20 +38,6 @@ markets:
     exchange_symbol: GTO
   exchange_id: 294
   exchange_name: OKEx
-  pair: GTO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=gto_btc
-- base:
-    currency_id: 2289
-    currency_symbol: GTO
-    currency_type: cryptocurrency
-    exchange_symbol: GTO
-  exchange_id: 294
-  exchange_name: OKEx
   pair: GTO/ETH
   quote:
     currency_id: 1027
@@ -59,6 +45,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.okex.com/market?product=gto_eth
+- base:
+    currency_id: 2289
+    currency_symbol: GTO
+    currency_type: cryptocurrency
+    exchange_symbol: GTO
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: GTO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=gto_btc
 - base:
     currency_id: 2289
     currency_symbol: GTO
@@ -120,20 +120,6 @@ markets:
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: GTO/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-GTO
-- base:
-    currency_id: 2289
-    currency_symbol: GTO
-    currency_type: cryptocurrency
-    exchange_symbol: GTO
   exchange_id: 270
   exchange_name: Binance
   pair: GTO/USDT
@@ -143,6 +129,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/GTO_USDT?ref=H31B921U
+- base:
+    currency_id: 2289
+    currency_symbol: GTO
+    currency_type: cryptocurrency
+    exchange_symbol: GTO
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: GTO/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-GTO
 - base:
     currency_id: 2289
     currency_symbol: GTO
@@ -162,20 +162,6 @@ markets:
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: GTO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/gto_btc
-- base:
-    currency_id: 2289
-    currency_symbol: GTO
-    currency_type: cryptocurrency
-    exchange_symbol: GTO
   exchange_id: 270
   exchange_name: Binance
   pair: GTO/BNB
@@ -185,6 +171,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNB
   url: https://www.binance.com/en/trade/GTO_BNB?ref=H31B921U
+- base:
+    currency_id: 2289
+    currency_symbol: GTO
+    currency_type: cryptocurrency
+    exchange_symbol: GTO
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: GTO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitrue.com/trade/gto_btc
 - base:
     currency_id: 2289
     currency_symbol: GTO
@@ -204,29 +204,29 @@ markets:
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: GTO/BTC
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: GTO/BNT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1727
+    currency_symbol: BNT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=gto
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/GTO
 - base:
     currency_id: 2289
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: GTO/BTC
+  exchange_id: 490
+  exchange_name: OKEx Korea
+  pair: GTO/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=GTO_BTC
+    exchange_symbol: USDT
+  url: https://okex.co.kr/kr/view/exchange?coin=GTO&market=USDT
 - base:
     currency_id: 2289
     currency_symbol: GTO
@@ -246,6 +246,20 @@ markets:
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: GTO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=gto
+- base:
+    currency_id: 2289
+    currency_symbol: GTO
+    currency_type: cryptocurrency
+    exchange_symbol: GTO
   exchange_id: 22
   exchange_name: Bittrex
   pair: GTO/BTC
@@ -260,29 +274,15 @@ markets:
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
-  exchange_id: 382
-  exchange_name: Crex24
+  exchange_id: 339
+  exchange_name: Bibox
   pair: GTO/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://crex24.com/exchange/GTO-BTC
-- base:
-    currency_id: 2289
-    currency_symbol: GTO
-    currency_type: cryptocurrency
-    exchange_symbol: GTO
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: GTO/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/GTO
+  url: https://www.bibox.com/exchange?coinPair=GTO_BTC
 - base:
     currency_id: 2289
     currency_symbol: GTO
@@ -302,6 +302,20 @@ markets:
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: GTO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://crex24.com/exchange/GTO-BTC
+- base:
+    currency_id: 2289
+    currency_symbol: GTO
+    currency_type: cryptocurrency
+    exchange_symbol: GTO
   exchange_id: 490
   exchange_name: OKEx Korea
   pair: GTO/BTC
@@ -311,20 +325,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://okex.co.kr/kr/view/exchange?coin=GTO&market=BTC
-- base:
-    currency_id: 2289
-    currency_symbol: GTO
-    currency_type: cryptocurrency
-    exchange_symbol: GTO
-  exchange_id: 490
-  exchange_name: OKEx Korea
-  pair: GTO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://okex.co.kr/kr/view/exchange?coin=GTO&market=USDT
 - base:
     currency_id: 2289
     currency_symbol: GTO
@@ -354,7 +354,7 @@ markets:
     exchange_symbol: BTC
   url: https://allbit.com/exchange/GTO?market=BTC
 name: Gifto
-rank: 417
+rank: 412
 slug: gifto
 status: active
 symbol: GTO

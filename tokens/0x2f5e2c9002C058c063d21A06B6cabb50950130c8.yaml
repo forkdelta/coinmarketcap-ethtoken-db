@@ -45,20 +45,6 @@ markets:
     exchange_symbol: ETHBEAR
   exchange_id: 524
   exchange_name: FTX
-  pair: ETHBEAR/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://ftx.com/trade/ETHBEAR/USD
-- base:
-    currency_id: 5216
-    currency_symbol: ETHBEAR
-    currency_type: cryptocurrency
-    exchange_symbol: ETHBEAR
-  exchange_id: 524
-  exchange_name: FTX
   pair: ETHBEAR/USDT
   quote:
     currency_id: 825
@@ -66,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://ftx.com/trade/ETHBEAR/USDT
+- base:
+    currency_id: 5216
+    currency_symbol: ETHBEAR
+    currency_type: cryptocurrency
+    exchange_symbol: ETHBEAR
+  exchange_id: 524
+  exchange_name: FTX
+  pair: ETHBEAR/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://ftx.com/trade/ETHBEAR/USD
 - base:
     currency_id: 5216
     currency_symbol: ETHBEAR
@@ -137,7 +137,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: 3X Short Ethereum Token
-rank: 2059
+rank: 2063
 slug: 3x-short-ethereum-token
 status: active
 symbol: ETHBEAR

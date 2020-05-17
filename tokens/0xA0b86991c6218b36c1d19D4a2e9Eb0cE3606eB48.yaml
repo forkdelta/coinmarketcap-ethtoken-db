@@ -71,20 +71,6 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BTC/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://www.binance.com/en/trade/BTC_USDC?ref=H31B921U
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
   exchange_id: 415
   exchange_name: Bilaxy
   pair: BTC/USDC
@@ -99,15 +85,15 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 363
-  exchange_name: Fatbtc
+  exchange_id: 270
+  exchange_name: Binance
   pair: BTC/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://www.fatbtc.com/
+  url: https://www.binance.com/en/trade/BTC_USDC?ref=H31B921U
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -123,20 +109,6 @@ markets:
     exchange_symbol: USDC
   url: https://api.shortex.net/trading/btcusdc
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: BTC/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://pro.coinbase.com/trade/BTC-USDC
-- base:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
@@ -150,20 +122,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDC
   url: https://api.shortex.net/trading/ethusdc
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 613
-  exchange_name: Bitvast
-  pair: BTC/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://trade.bitvast.com/trading/btcusdc
 - base:
     currency_id: 3408
     currency_symbol: USDC
@@ -193,19 +151,19 @@ markets:
     exchange_symbol: USDT
   url: https://api.shortex.net/trading/usdcusdt
 - base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: BTC/USDC
+  quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: USDC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitmart.com/trade?symbol=USDC_USDT
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 3408
     currency_symbol: USDC
@@ -221,6 +179,20 @@ markets:
     exchange_symbol: TRY
   url: https://sistemkoin.com/#/
 - base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: BTC/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://www.coinex.com/trading?currency=usdc&dest=btc&tab=limit
+- base:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
@@ -235,19 +207,33 @@ markets:
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/USDC_USDT?ref=H31B921U
 - base:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: USDC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitmart.com/trade?symbol=USDC_USDT
+- base:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 350
-  exchange_name: CoinEx
+  exchange_id: 89
+  exchange_name: Coinbase Pro
   pair: BTC/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://www.coinex.com/trading?currency=usdc&dest=btc&tab=limit
+  url: https://pro.coinbase.com/trade/BTC-USDC
 - base:
     currency_id: 1765
     currency_symbol: EOS
@@ -277,6 +263,20 @@ markets:
     exchange_symbol: USDC
   url: https://bilaxy.com/trade/ETH_USDC
 - base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 613
+  exchange_name: Bitvast
+  pair: BTC/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://trade.bitvast.com/trading/btcusdc
+- base:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
@@ -305,6 +305,20 @@ markets:
     exchange_symbol: USDT
   url: https://bilaxy.com/trade/USDC_USDT
 - base:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: USDC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://sistemkoin.com/#/
+- base:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
@@ -318,20 +332,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDC
   url: https://exmarkets.com/trade/btc-usdc
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: BTC/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://poloniex.com/exchange#usdc_btc
 - base:
     currency_id: 3408
     currency_symbol: USDC
@@ -353,34 +353,6 @@ markets:
     exchange_symbol: USDC
   exchange_id: 388
   exchange_name: Sistemkoin
-  pair: USDC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://sistemkoin.com/#/
-- base:
-    currency_id: 512
-    currency_symbol: XLM
-    currency_type: cryptocurrency
-    exchange_symbol: XLM
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: XLM/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  exchange_id: 388
-  exchange_name: Sistemkoin
   pair: USDC/BTC
   quote:
     currency_id: 1
@@ -389,75 +361,19 @@ markets:
     exchange_symbol: BTC
   url: https://sistemkoin.com/#/
 - base:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: USDC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/usdc
-- base:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: USDC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/USDCUSDT
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: ETH/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://folgory.com/trade-crypto/ETH_USDC
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: BAT/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://pro.coinbase.com/trade/BAT-USDC
-- base:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 453
-  exchange_name: BitMax
+  exchange_id: 16
+  exchange_name: Poloniex
   pair: BTC/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://bitmax.io/#/trade/usdc/btc
+  url: https://poloniex.com/exchange#usdc_btc
 - base:
     currency_id: 1027
     currency_symbol: ETH
@@ -473,19 +389,19 @@ markets:
     exchange_symbol: USDC
   url: https://www.binance.com/en/trade/ETH_USDC?ref=H31B921U
 - base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: ETH/USDC
+  quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: USDC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=usdc_usdt
+  url: https://folgory.com/trade-crypto/ETH_USDC
 - base:
     currency_id: 3408
     currency_symbol: USDC
@@ -519,15 +435,29 @@ markets:
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: USDC/ETH
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: USDC/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
+    exchange_symbol: USDT
+  url: https://omgfin.com/exchange/trade/market/USDCUSDT
+- base:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: USDC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=usdc_usdt
 - base:
     currency_id: 1831
     currency_symbol: BCH
@@ -542,6 +472,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDC
   url: https://www.coinex.com/trading?currency=usdc&dest=bch&tab=limit
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: BAT/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://pro.coinbase.com/trade/BAT-USDC
+- base:
+    currency_id: 512
+    currency_symbol: XLM
+    currency_type: cryptocurrency
+    exchange_symbol: XLM
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: XLM/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 1027
     currency_symbol: ETH
@@ -561,15 +519,57 @@ markets:
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  exchange_id: 587
-  exchange_name: IndoEx
+  exchange_id: 16
+  exchange_name: Poloniex
   pair: ETH/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://international.indoex.io/trade/ETH_USDC
+  url: https://poloniex.com/exchange#usdc_eth
+- base:
+    currency_id: 2
+    currency_symbol: LTC
+    currency_type: cryptocurrency
+    exchange_symbol: LTC
+  exchange_id: 270
+  exchange_name: Binance
+  pair: LTC/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://www.binance.com/en/trade/LTC_USDC?ref=H31B921U
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 613
+  exchange_name: Bitvast
+  pair: ETH/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://trade.bitvast.com/trading/ethusdc
+- base:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: USDC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/usdc
 - base:
     currency_id: 2
     currency_symbol: LTC
@@ -585,19 +585,117 @@ markets:
     exchange_symbol: USDC
   url: https://www.coinex.com/trading?currency=usdc&dest=ltc&tab=limit
 - base:
-    currency_id: 328
-    currency_symbol: XMR
+    currency_id: 3408
+    currency_symbol: USDC
     currency_type: cryptocurrency
-    exchange_symbol: XMR
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: XMR/USDC
+    exchange_symbol: USDC
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: USDC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: BTC/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://international.indoex.io/trade/XMR_USDC
+  url: https://bitmax.io/#/trade/usdc/btc
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: ETH/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://international.indoex.io/trade/ETH_USDC
+- base:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: USDC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://sistemkoin.com/#/
+- base:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  exchange_id: 514
+  exchange_name: Finexbox
+  pair: USDC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.finexbox.com/market/pair/USDC-BTC.html
+- base:
+    currency_id: 3602
+    currency_symbol: BSV
+    currency_type: cryptocurrency
+    exchange_symbol: BSV
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: BSV/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://www.coinex.com/trading?currency=usdc&dest=bsv&tab=limit
+- base:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: XRP/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: DAI/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://folgory.com/trade-crypto/DAI_USDC
 - base:
     currency_id: 2
     currency_symbol: LTC
@@ -627,20 +725,6 @@ markets:
     exchange_symbol: BTC
   url: https://www.okex.com/market?product=usdc_btc
 - base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: ETH/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://poloniex.com/exchange#usdc_eth
-- base:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
@@ -654,20 +738,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDC
   url: https://international.indoex.io/trade/BTC_USDC
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 613
-  exchange_name: Bitvast
-  pair: ETH/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://trade.bitvast.com/trading/ethusdc
 - base:
     currency_id: 3408
     currency_symbol: USDC
@@ -683,173 +753,19 @@ markets:
     exchange_symbol: USD
   url: https://trade.kraken.com/markets/kraken/usdc/usd
 - base:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 328
+    currency_symbol: XMR
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  exchange_id: 514
-  exchange_name: Finexbox
-  pair: USDC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.finexbox.com/market/pair/USDC-BTC.html
-- base:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: USDC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://sistemkoin.com/#/
-- base:
-    currency_id: 1831
-    currency_symbol: BCH
-    currency_type: cryptocurrency
-    exchange_symbol: BCH
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BCH/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://www.binance.com/en/trade/BCH_USDC?ref=H31B921U
-- base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: DAI/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://folgory.com/trade-crypto/DAI_USDC
-- base:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: XRP/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
+    exchange_symbol: XMR
   exchange_id: 587
   exchange_name: IndoEx
-  pair: BNB/USDC
+  pair: XMR/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://international.indoex.io/trade/BNB_USDC
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 392
-  exchange_name: B2BX
-  pair: BTC/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://advanced.b2bx.exchange/?symbol=btcusdc
-- base:
-    currency_id: 1437
-    currency_symbol: ZEC
-    currency_type: cryptocurrency
-    exchange_symbol: ZEC
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: ZEC/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://pro.coinbase.com/trade/ZEC-USDC
-- base:
-    currency_id: 2
-    currency_symbol: LTC
-    currency_type: cryptocurrency
-    exchange_symbol: LTC
-  exchange_id: 270
-  exchange_name: Binance
-  pair: LTC/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://www.binance.com/en/trade/LTC_USDC?ref=H31B921U
-- base:
-    currency_id: 3602
-    currency_symbol: BSV
-    currency_type: cryptocurrency
-    exchange_symbol: BSV
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: BSV/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://www.coinex.com/trading?currency=usdc&dest=bsv&tab=limit
-- base:
-    currency_id: 1274
-    currency_symbol: WAVES
-    currency_type: cryptocurrency
-    exchange_symbol: WAVES
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: WAVES/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://international.indoex.io/trade/WAVES_USDC
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: ETH/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://mercatox.com/exchange/ETH/USDC
+  url: https://international.indoex.io/trade/XMR_USDC
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -865,20 +781,6 @@ markets:
     exchange_symbol: USDC
   url: https://whitebit.com/trade/BTC_USDC
 - base:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: USDT/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://poloniex.com/exchange#usdc_usdt
-- base:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
@@ -893,33 +795,33 @@ markets:
     exchange_symbol: USDT
   url: https://www.crossexchange.io/cross/exchange/USDC_USDT
 - base:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: USDC/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://trade.kraken.com/markets/kraken/usdc/eur
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
+    exchange_symbol: ETH
   exchange_id: 213
   exchange_name: Mercatox
-  pair: BTC/USDC
+  pair: ETH/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://mercatox.com/exchange/BTC/USDC
+  url: https://mercatox.com/exchange/ETH/USDC
+- base:
+    currency_id: 1274
+    currency_symbol: WAVES
+    currency_type: cryptocurrency
+    exchange_symbol: WAVES
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: WAVES/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://international.indoex.io/trade/WAVES_USDC
 - base:
     currency_id: 3408
     currency_symbol: USDC
@@ -935,75 +837,33 @@ markets:
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/usdc-eth
 - base:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: BTC/USDC
+    exchange_symbol: USDT
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: USDT/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://trade.kraken.com/markets/kraken/btc/usdc
+  url: https://poloniex.com/exchange#usdc_usdt
 - base:
-    currency_id: 52
-    currency_symbol: XRP
+    currency_id: 1831
+    currency_symbol: BCH
     currency_type: cryptocurrency
-    exchange_symbol: XRP
+    exchange_symbol: BCH
   exchange_id: 270
   exchange_name: Binance
-  pair: XRP/USDC
+  pair: BCH/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://www.binance.com/en/trade/XRP_USDC?ref=H31B921U
-- base:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: USDC/UQC
-  quote:
-    currency_id: 2273
-    currency_symbol: UQC
-    currency_type: cryptocurrency
-    exchange_symbol: UQC
-  url: https://omgfin.com/exchange/trade/market/USDCUQC
-- base:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: XRP/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://international.indoex.io/trade/XRP_USDC
-- base:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: DAI/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://pro.coinbase.com/trade/DAI-USDC
+  url: https://www.binance.com/en/trade/BCH_USDC?ref=H31B921U
 - base:
     currency_id: 1765
     currency_symbol: EOS
@@ -1023,6 +883,90 @@ markets:
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
+  exchange_id: 468
+  exchange_name: OceanEx
+  pair: USDC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://oceanex.pro/trades/usdcusdt
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 392
+  exchange_name: B2BX
+  pair: BTC/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://advanced.b2bx.exchange/?symbol=btcusdc
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: BTC/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://mercatox.com/exchange/BTC/USDC
+- base:
+    currency_id: 1437
+    currency_symbol: ZEC
+    currency_type: cryptocurrency
+    exchange_symbol: ZEC
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: ZEC/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://pro.coinbase.com/trade/ZEC-USDC
+- base:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: BNB/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://international.indoex.io/trade/BNB_USDC
+- base:
+    currency_id: 1958
+    currency_symbol: TRX
+    currency_type: cryptocurrency
+    exchange_symbol: TRX
+  exchange_id: 270
+  exchange_name: Binance
+  pair: TRX/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://www.binance.com/en/trade/TRX_USDC?ref=H31B921U
+- base:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
   exchange_id: 495
   exchange_name: Folgory
   pair: USDC/USDT
@@ -1037,29 +981,43 @@ markets:
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  exchange_id: 468
-  exchange_name: OceanEx
+  exchange_id: 24
+  exchange_name: Kraken
   pair: USDC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://oceanex.pro/trades/usdcusdt
+  url: https://trade.kraken.com/markets/kraken/usdc/usdt
 - base:
-    currency_id: 1684
-    currency_symbol: QTUM
+    currency_id: 3408
+    currency_symbol: USDC
     currency_type: cryptocurrency
-    exchange_symbol: QTUM
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: QTUM/USDC
+    exchange_symbol: USDC
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: USDC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=usdc&tab=limit
+- base:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: XRP/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://international.indoex.io/trade/QTUM_USDC
+  url: https://www.coinex.com/trading?currency=usdc&dest=xrp&tab=limit
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -1089,159 +1047,33 @@ markets:
     exchange_symbol: USDC
   url: https://dsx.uk
 - base:
-    currency_id: 1437
-    currency_symbol: ZEC
-    currency_type: cryptocurrency
-    exchange_symbol: ZEC
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: ZEC/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://international.indoex.io/trade/ZEC_USDC
-- base:
     currency_id: 52
     currency_symbol: XRP
     currency_type: cryptocurrency
     exchange_symbol: XRP
-  exchange_id: 350
-  exchange_name: CoinEx
+  exchange_id: 587
+  exchange_name: IndoEx
   pair: XRP/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://www.coinex.com/trading?currency=usdc&dest=xrp&tab=limit
+  url: https://international.indoex.io/trade/XRP_USDC
 - base:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 1684
+    currency_symbol: QTUM
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: USDC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=usdc&tab=limit
-- base:
-    currency_id: 1958
-    currency_symbol: TRX
-    currency_type: cryptocurrency
-    exchange_symbol: TRX
-  exchange_id: 270
-  exchange_name: Binance
-  pair: TRX/USDC
+    exchange_symbol: QTUM
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: QTUM/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://www.binance.com/en/trade/TRX_USDC?ref=H31B921U
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 523
-  exchange_name: Beaxy
-  pair: BTC/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://beaxy.com
-- base:
-    currency_id: 1831
-    currency_symbol: BCH
-    currency_type: cryptocurrency
-    exchange_symbol: BCH
-  exchange_id: 613
-  exchange_name: Bitvast
-  pair: BCH/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://trade.bitvast.com/trading/bchusdc
-- base:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: USDC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trade.kraken.com/markets/kraken/usdc/usdt
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: BTC/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://www.kucoin.com/trade/BTC-USDC
-- base:
-    currency_id: 5482
-    currency_symbol: CCXX
-    currency_type: cryptocurrency
-    exchange_symbol: CCXX
-  exchange_id: 535
-  exchange_name: ExMarkets
-  pair: CCXX/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://exmarkets.com/trade/ccxx-usdc
-- base:
-    currency_id: 5279
-    currency_symbol: SOLO
-    currency_type: cryptocurrency
-    exchange_symbol: SOLO
-  exchange_id: 485
-  exchange_name: CoinField
-  pair: SOLO/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://trade.coinfield.com/pro/trade/SOLO-USDC
-- base:
-    currency_id: 2941
-    currency_symbol: CET
-    currency_type: cryptocurrency
-    exchange_symbol: CET
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: CET/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://www.coinex.com/trading?currency=usdc&dest=cet&tab=limit
+  url: https://international.indoex.io/trade/QTUM_USDC
 - base:
     currency_id: 3408
     currency_symbol: USDC
@@ -1271,47 +1103,159 @@ markets:
     exchange_symbol: USDC
   url: https://exmarkets.com/trade/cca-usdc
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: BTC/USDC
-  quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://www.okex.com/market?product=btc_usdc
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: USDC/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://trade.kraken.com/markets/kraken/usdc/eur
 - base:
-    currency_id: 52
-    currency_symbol: XRP
+    currency_id: 5482
+    currency_symbol: CCXX
     currency_type: cryptocurrency
-    exchange_symbol: XRP
-  exchange_id: 613
-  exchange_name: Bitvast
-  pair: XRP/USDC
+    exchange_symbol: CCXX
+  exchange_id: 535
+  exchange_name: ExMarkets
+  pair: CCXX/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://trade.bitvast.com/trading/xrpusdc
+  url: https://exmarkets.com/trade/ccxx-usdc
 - base:
     currency_id: 1437
     currency_symbol: ZEC
     currency_type: cryptocurrency
     exchange_symbol: ZEC
-  exchange_id: 495
-  exchange_name: Folgory
+  exchange_id: 587
+  exchange_name: IndoEx
   pair: ZEC/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://folgory.com/trade-crypto/ZEC_USDC
+  url: https://international.indoex.io/trade/ZEC_USDC
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 523
+  exchange_name: Beaxy
+  pair: BTC/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://beaxy.com
+- base:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  exchange_id: 270
+  exchange_name: Binance
+  pair: XRP/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://www.binance.com/en/trade/XRP_USDC?ref=H31B921U
+- base:
+    currency_id: 5279
+    currency_symbol: SOLO
+    currency_type: cryptocurrency
+    exchange_symbol: SOLO
+  exchange_id: 485
+  exchange_name: CoinField
+  pair: SOLO/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://trade.coinfield.com/pro/trade/SOLO-USDC
+- base:
+    currency_id: 2941
+    currency_symbol: CET
+    currency_type: cryptocurrency
+    exchange_symbol: CET
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: CET/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://www.coinex.com/trading?currency=usdc&dest=cet&tab=limit
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: BTC/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://www.kucoin.com/trade/BTC-USDC
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: DAI/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://pro.coinbase.com/trade/DAI-USDC
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: BTC/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://trade.kraken.com/markets/kraken/btc/usdc
+- base:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  exchange_id: 270
+  exchange_name: Binance
+  pair: BNB/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://www.binance.com/en/trade/BNB_USDC?ref=H31B921U
 - base:
     currency_id: 825
     currency_symbol: USDT
@@ -1327,33 +1271,61 @@ markets:
     exchange_symbol: USDC
   url: https://www.kucoin.com/trade/USDT-USDC
 - base:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1437
+    currency_symbol: ZEC
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 485
-  exchange_name: CoinField
-  pair: BTC/USDC
+    exchange_symbol: ZEC
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: ZEC/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://trade.coinfield.com/pro/trade/BTC-USDC
+  url: https://folgory.com/trade-crypto/ZEC_USDC
+- base:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  exchange_id: 613
+  exchange_name: Bitvast
+  pair: BCH/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://trade.bitvast.com/trading/bchusdc
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 270
+  exchange_name: Binance
+  pair: LINK/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://www.binance.com/en/trade/LINK_USDC?ref=H31B921U
 - base:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 503
-  exchange_name: Birake Network
+  exchange_id: 294
+  exchange_name: OKEx
   pair: BTC/USDC
   quote:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
     exchange_symbol: USDC
-  url: https://trade.birake.com/market/BIRAKE.BTC_BIRAKE.USDC
+  url: https://www.okex.com/market?product=btc_usdc
 - base:
     currency_id: 3408
     currency_symbol: USDC
@@ -1369,6 +1341,76 @@ markets:
     exchange_symbol: HUSD
   url: https://www.hbg.com/en-us/exchange/usdc_husd/
 - base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: BTC/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://app.liquid.com/exchange/BTCUSDC
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 503
+  exchange_name: Birake Network
+  pair: BTC/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://trade.birake.com/market/BIRAKE.BTC_BIRAKE.USDC
+- base:
+    currency_id: 3602
+    currency_symbol: BSV
+    currency_type: cryptocurrency
+    exchange_symbol: BCHSV
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: BSV/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://poloniex.com/exchange#usdc_bsv
+- base:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  exchange_id: 613
+  exchange_name: Bitvast
+  pair: XRP/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://trade.bitvast.com/trading/xrpusdc
+- base:
+    currency_id: 1376
+    currency_symbol: NEO
+    currency_type: cryptocurrency
+    exchange_symbol: NEO
+  exchange_id: 270
+  exchange_name: Binance
+  pair: NEO/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://www.binance.com/en/trade/NEO_USDC?ref=H31B921U
+- base:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
@@ -1382,48 +1424,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: HUSD
   url: https://www.hbtc.com/exchange/USDC/HUSD
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BAT/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://www.binance.com/en/trade/BAT_USDC?ref=H31B921U
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: ETH/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://idex.market/usdc/eth
-- base:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BNB/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://www.binance.com/en/trade/BNB_USDC?ref=H31B921U
 name: USD Coin
 rank: 20
 slug: usd-coin
