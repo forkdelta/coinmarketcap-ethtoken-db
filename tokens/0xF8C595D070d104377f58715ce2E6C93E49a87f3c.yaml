@@ -37,20 +37,6 @@ markets:
     exchange_symbol: DACC
   exchange_id: 311
   exchange_name: KuCoin
-  pair: DACC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/DACC-BTC
-- base:
-    currency_id: 2986
-    currency_symbol: DACC
-    currency_type: cryptocurrency
-    exchange_symbol: DACC
-  exchange_id: 311
-  exchange_name: KuCoin
   pair: DACC/ETH
   quote:
     currency_id: 1027
@@ -58,6 +44,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.kucoin.com/trade/DACC-ETH
+- base:
+    currency_id: 2986
+    currency_symbol: DACC
+    currency_type: cryptocurrency
+    exchange_symbol: DACC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: DACC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/DACC-BTC
 - base:
     currency_id: 2986
     currency_symbol: DACC
@@ -115,7 +115,7 @@ markets:
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/DACC-KRW
 name: DACC
-rank: 2269
+rank: 2301
 slug: dacc
 status: active
 symbol: DACC

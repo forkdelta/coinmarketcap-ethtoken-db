@@ -65,15 +65,15 @@ markets:
     currency_symbol: REM
     currency_type: cryptocurrency
     exchange_symbol: REM
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: REM/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: REM/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/rem_usdt
+    exchange_symbol: ETH
+  url: https://hitbtc.com/REM-to-ETH
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -95,20 +95,6 @@ markets:
     exchange_symbol: REM
   exchange_id: 42
   exchange_name: HitBTC
-  pair: REM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/REM-to-ETH
-- base:
-    currency_id: 2546
-    currency_symbol: REM
-    currency_type: cryptocurrency
-    exchange_symbol: REM
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: REM/USDT
   quote:
     currency_id: 825
@@ -121,29 +107,15 @@ markets:
     currency_symbol: REM
     currency_type: cryptocurrency
     exchange_symbol: REM
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: REM/ETH
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: REM/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=REM_ETH
-- base:
-    currency_id: 2546
-    currency_symbol: REM
-    currency_type: cryptocurrency
-    exchange_symbol: REM
-  exchange_id: 209
-  exchange_name: Kuna
-  pair: REM/UAH
-  quote:
-    currency_id: 2824
-    currency_symbol: UAH
-    currency_type: fiat
-    exchange_symbol: UAH
-  url: https://kuna.io/markets/remuah
+    exchange_symbol: USDT
+  url: https://gate.io/trade/rem_usdt
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -163,15 +135,15 @@ markets:
     currency_symbol: REM
     currency_type: cryptocurrency
     exchange_symbol: REM
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: REM/BTC
+  exchange_id: 209
+  exchange_name: Kuna
+  pair: REM/UAH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=REM_BTC
+    currency_id: 2824
+    currency_symbol: UAH
+    currency_type: fiat
+    exchange_symbol: UAH
+  url: https://kuna.io/markets/remuah
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -186,6 +158,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNT
   url: https://www.bancor.network/token/REM
+- base:
+    currency_id: 2546
+    currency_symbol: REM
+    currency_type: cryptocurrency
+    exchange_symbol: REM
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: REM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=REM_ETH
+- base:
+    currency_id: 2546
+    currency_symbol: REM
+    currency_type: cryptocurrency
+    exchange_symbol: REM
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: REM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=REM_BTC
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -243,7 +243,7 @@ markets:
     exchange_symbol: BTC
   url: https://whitebit.com/trade/REM_BTC
 name: Remme
-rank: 895
+rank: 888
 slug: remme
 status: active
 symbol: REM

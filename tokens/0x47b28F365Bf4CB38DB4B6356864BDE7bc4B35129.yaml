@@ -67,20 +67,6 @@ markets:
     currency_symbol: FNB
     currency_type: cryptocurrency
     exchange_symbol: FNB
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: FNB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/FNB-BTC
-- base:
-    currency_id: 3858
-    currency_symbol: FNB
-    currency_type: cryptocurrency
-    exchange_symbol: FNB
   exchange_id: 22
   exchange_name: Bittrex
   pair: FNB/BTC
@@ -104,6 +90,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bitmart.com/trade?symbol=FNB_BTC
+- base:
+    currency_id: 3858
+    currency_symbol: FNB
+    currency_type: cryptocurrency
+    exchange_symbol: FNB
+  exchange_id: 545
+  exchange_name: Bitsdaq
+  pair: FNB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitsdaq.com/exchange/FNB-BTC
 - base:
     currency_id: 3858
     currency_symbol: FNB
@@ -147,7 +147,7 @@ markets:
     exchange_symbol: ETH
   url: https://allbit.com/exchange/FNB?market=ETH
 name: FNB Protocol
-rank: 586
+rank: 588
 slug: fnb-protocol
 status: active
 symbol: FNB

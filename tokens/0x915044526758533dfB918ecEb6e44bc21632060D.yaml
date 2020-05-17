@@ -124,6 +124,20 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CHR/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/CHR_BNB?ref=H31B921U
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
   exchange_id: 453
   exchange_name: BitMax
   pair: CHR/BTC
@@ -154,20 +168,6 @@ markets:
     exchange_symbol: CHR
   exchange_id: 615
   exchange_name: Binance JEX
-  pair: CHR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.jex.com/en/spot
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
-  exchange_id: 615
-  exchange_name: Binance JEX
   pair: CHR/USDT
   quote:
     currency_id: 825
@@ -180,15 +180,15 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 270
-  exchange_name: Binance
-  pair: CHR/BNB
+  exchange_id: 615
+  exchange_name: Binance JEX
+  pair: CHR/BTC
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/CHR_BNB?ref=H31B921U
+    exchange_symbol: BTC
+  url: https://www.jex.com/en/spot
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -218,7 +218,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=CHR_ETH
 name: Chromia
-rank: 425
+rank: 424
 slug: chromia
 status: active
 symbol: CHR
