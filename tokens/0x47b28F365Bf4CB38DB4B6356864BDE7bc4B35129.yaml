@@ -39,6 +39,20 @@ markets:
     currency_symbol: FNB
     currency_type: cryptocurrency
     exchange_symbol: FNB
+  exchange_id: 542
+  exchange_name: Bitsonic
+  pair: FNB/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://bitsonic.co.kr/front/exchange/fnb-krw
+- base:
+    currency_id: 3858
+    currency_symbol: FNB
+    currency_type: cryptocurrency
+    exchange_symbol: FNB
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: FNB/USDT
@@ -48,20 +62,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=FNB_USDT
-- base:
-    currency_id: 3858
-    currency_symbol: FNB
-    currency_type: cryptocurrency
-    exchange_symbol: FNB
-  exchange_id: 601
-  exchange_name: Bithumb Singapore
-  pair: FNB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bithumbsg.com/exchange/fnb-btc
 - base:
     currency_id: 3858
     currency_symbol: FNB
@@ -81,20 +81,6 @@ markets:
     currency_symbol: FNB
     currency_type: cryptocurrency
     exchange_symbol: FNB
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: FNB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitmart.com/trade?symbol=FNB_BTC
-- base:
-    currency_id: 3858
-    currency_symbol: FNB
-    currency_type: cryptocurrency
-    exchange_symbol: FNB
   exchange_id: 545
   exchange_name: Bitsdaq
   pair: FNB/BTC
@@ -109,15 +95,29 @@ markets:
     currency_symbol: FNB
     currency_type: cryptocurrency
     exchange_symbol: FNB
-  exchange_id: 542
-  exchange_name: Bitsonic
-  pair: FNB/KRW
+  exchange_id: 601
+  exchange_name: Bithumb Singapore
+  pair: FNB/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://bitsonic.co.kr/front/exchange/fnb-krw
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bithumbsg.com/exchange/fnb-btc
+- base:
+    currency_id: 3858
+    currency_symbol: FNB
+    currency_type: cryptocurrency
+    exchange_symbol: FNB
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: FNB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitmart.com/trade?symbol=FNB_BTC
 - base:
     currency_id: 3858
     currency_symbol: FNB
@@ -147,7 +147,7 @@ markets:
     exchange_symbol: ETH
   url: https://allbit.com/exchange/FNB?market=ETH
 name: FNB Protocol
-rank: 588
+rank: 533
 slug: fnb-protocol
 status: active
 symbol: FNB

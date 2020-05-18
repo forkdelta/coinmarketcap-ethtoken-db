@@ -35,20 +35,6 @@ markets:
     currency_symbol: LTO
     currency_type: cryptocurrency
     exchange_symbol: LTO
-  exchange_id: 270
-  exchange_name: Binance
-  pair: LTO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/LTO_BTC?ref=H31B921U
-- base:
-    currency_id: 3714
-    currency_symbol: LTO
-    currency_type: cryptocurrency
-    exchange_symbol: LTO
   exchange_id: 656
   exchange_name: Omgfin
   pair: LTO/BTC
@@ -72,6 +58,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://omgfin.com/exchange/trade/market/LTOETH
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 270
+  exchange_name: Binance
+  pair: LTO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/LTO_BTC?ref=H31B921U
 - base:
     currency_id: 3714
     currency_symbol: LTO
@@ -119,20 +119,6 @@ markets:
     currency_symbol: LTO
     currency_type: cryptocurrency
     exchange_symbol: LTO
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: LTO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 3714
-    currency_symbol: LTO
-    currency_type: cryptocurrency
-    exchange_symbol: LTO
   exchange_id: 656
   exchange_name: Omgfin
   pair: LTO/USDT
@@ -142,6 +128,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://omgfin.com/exchange/trade/market/LTOUSDT
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: LTO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 3714
     currency_symbol: LTO
@@ -217,20 +217,6 @@ markets:
     currency_symbol: LTO
     currency_type: cryptocurrency
     exchange_symbol: LTO
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: LTO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bitmax.io/#/trade/eth/lto
-- base:
-    currency_id: 3714
-    currency_symbol: LTO
-    currency_type: cryptocurrency
-    exchange_symbol: LTO
   exchange_id: 486
   exchange_name: Binance DEX
   pair: LTO/BNB
@@ -240,6 +226,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNB
   url: https://www.binance.org/en/trade/LTO-BDF_BNB
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: LTO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bitmax.io/#/trade/eth/lto
 - base:
     currency_id: 3714
     currency_symbol: LTO
@@ -255,7 +255,7 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/lto-network
 name: LTO Network
-rank: 362
+rank: 363
 slug: lto-network
 status: active
 symbol: LTO
