@@ -83,20 +83,6 @@ markets:
     currency_id: 2644
     currency_symbol: EOSDAC
     currency_type: cryptocurrency
-    exchange_symbol: EOSD
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: EOSDAC/INR
-  quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/eosdac
-- base:
-    currency_id: 2644
-    currency_symbol: EOSDAC
-    currency_type: cryptocurrency
     exchange_symbol: EOSDAC
   exchange_id: 400
   exchange_name: Hotbit
@@ -111,16 +97,16 @@ markets:
     currency_id: 2644
     currency_symbol: EOSDAC
     currency_type: cryptocurrency
-    exchange_symbol: EOSDAC
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: EOSDAC/BTC
+    exchange_symbol: EOSD
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: EOSDAC/INR
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=EOSDAC_BTC
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/eosdac
 - base:
     currency_id: 2644
     currency_symbol: EOSDAC
@@ -149,6 +135,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/eosdac_eth
+- base:
+    currency_id: 2644
+    currency_symbol: EOSDAC
+    currency_type: cryptocurrency
+    exchange_symbol: EOSDAC
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: EOSDAC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bibox.com/exchange?coinPair=EOSDAC_BTC
 - base:
     currency_id: 2644
     currency_symbol: EOSDAC
@@ -192,7 +192,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.livecoin.net/en/trading/EOSDAC_BTC
 name: eosDAC
-rank: 487
+rank: 633
 slug: eosdac
 status: active
 symbol: EOSDAC

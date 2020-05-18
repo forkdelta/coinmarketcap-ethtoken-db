@@ -59,20 +59,6 @@ markets:
     currency_symbol: GET
     currency_type: cryptocurrency
     exchange_symbol: GET
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: GET/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/get
-- base:
-    currency_id: 2354
-    currency_symbol: GET
-    currency_type: cryptocurrency
-    exchange_symbol: GET
   exchange_id: 400
   exchange_name: Hotbit
   pair: GET/ETH
@@ -82,6 +68,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=GET_ETH
+- base:
+    currency_id: 2354
+    currency_symbol: GET
+    currency_type: cryptocurrency
+    exchange_symbol: GET
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: GET/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/get
 - base:
     currency_id: 2354
     currency_symbol: GET
@@ -103,20 +103,6 @@ markets:
     exchange_symbol: GET
   exchange_id: 112
   exchange_name: Liquid
-  pair: GET/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/GETBTC
-- base:
-    currency_id: 2354
-    currency_symbol: GET
-    currency_type: cryptocurrency
-    exchange_symbol: GET
-  exchange_id: 112
-  exchange_name: Liquid
   pair: GET/ETH
   quote:
     currency_id: 1027
@@ -124,8 +110,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://app.liquid.com/exchange/GETETH
+- base:
+    currency_id: 2354
+    currency_symbol: GET
+    currency_type: cryptocurrency
+    exchange_symbol: GET
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: GET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/GETBTC
 name: GET Protocol
-rank: 659
+rank: 657
 slug: get-protocol
 status: active
 symbol: GET

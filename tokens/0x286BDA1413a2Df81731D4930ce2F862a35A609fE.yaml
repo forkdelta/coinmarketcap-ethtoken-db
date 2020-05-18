@@ -75,6 +75,20 @@ markets:
     currency_symbol: WABI
     currency_type: cryptocurrency
     exchange_symbol: WABI
+  exchange_id: 245
+  exchange_name: STEX
+  pair: WABI/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://app.stex.com/en/basic-trade/pair/USDT/WABI/1D
+- base:
+    currency_id: 2267
+    currency_symbol: WABI
+    currency_type: cryptocurrency
+    exchange_symbol: WABI
   exchange_id: 270
   exchange_name: Binance
   pair: WABI/BNB
@@ -89,15 +103,15 @@ markets:
     currency_symbol: WABI
     currency_type: cryptocurrency
     exchange_symbol: WABI
-  exchange_id: 245
-  exchange_name: STEX
-  pair: WABI/USDT
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: WABI/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://app.stex.com/en/basic-trade/pair/USDT/WABI/1D
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/WABIBTC
 - base:
     currency_id: 2267
     currency_symbol: WABI
@@ -126,20 +140,6 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://app.liquid.com/exchange/WABIUSD
-- base:
-    currency_id: 2267
-    currency_symbol: WABI
-    currency_type: cryptocurrency
-    exchange_symbol: WABI
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: WABI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/WABIBTC
 - base:
     currency_id: 2267
     currency_symbol: WABI
@@ -183,7 +183,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/wabi
 name: Tael
-rank: 394
+rank: 407
 slug: tael
 status: active
 symbol: WABI

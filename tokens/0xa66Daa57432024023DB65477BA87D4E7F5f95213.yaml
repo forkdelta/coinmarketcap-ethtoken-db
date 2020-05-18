@@ -25,20 +25,6 @@ markets:
     exchange_symbol: HPT
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: HPT/HT
-  quote:
-    currency_id: 2502
-    currency_symbol: HT
-    currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.hbg.com/en-us/exchange/hpt_ht/
-- base:
-    currency_id: 3721
-    currency_symbol: HPT
-    currency_type: cryptocurrency
-    exchange_symbol: HPT
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: HPT/USDT
   quote:
     currency_id: 825
@@ -46,6 +32,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hbg.com/en-us/exchange/hpt_usdt/
+- base:
+    currency_id: 3721
+    currency_symbol: HPT
+    currency_type: cryptocurrency
+    exchange_symbol: HPT
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: HPT/HT
+  quote:
+    currency_id: 2502
+    currency_symbol: HT
+    currency_type: cryptocurrency
+    exchange_symbol: HT
+  url: https://www.hbg.com/en-us/exchange/hpt_ht/
 - base:
     currency_id: 3721
     currency_symbol: HPT
@@ -123,6 +123,20 @@ markets:
     exchange_symbol: HPT
   exchange_id: 463
   exchange_name: Huobi Korea
+  pair: HPT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/hpt_btc/
+- base:
+    currency_id: 3721
+    currency_symbol: HPT
+    currency_type: cryptocurrency
+    exchange_symbol: HPT
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: HPT/HT
   quote:
     currency_id: 2502
@@ -149,20 +163,6 @@ markets:
     currency_symbol: HPT
     currency_type: cryptocurrency
     exchange_symbol: HPT
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: HPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/hpt_btc/
-- base:
-    currency_id: 3721
-    currency_symbol: HPT
-    currency_type: cryptocurrency
-    exchange_symbol: HPT
   exchange_id: 730
   exchange_name: Huobi Russia
   pair: HPT/USDT
@@ -173,7 +173,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.huobi.com.ru/exchange/#s=hpt_usdt
 name: Huobi Pool Token
-rank: 131
+rank: 133
 slug: huobi-pool-token
 status: active
 symbol: HPT

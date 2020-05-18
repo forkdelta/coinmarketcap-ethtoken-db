@@ -83,34 +83,6 @@ markets:
     currency_symbol: RFR
     currency_type: cryptocurrency
     exchange_symbol: RFR
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: RFR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/RFR-to-BTC
-- base:
-    currency_id: 2553
-    currency_symbol: RFR
-    currency_type: cryptocurrency
-    exchange_symbol: RFR
-  exchange_id: 857
-  exchange_name: Bitcoin.com
-  pair: RFR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: null
-- base:
-    currency_id: 2553
-    currency_symbol: RFR
-    currency_type: cryptocurrency
-    exchange_symbol: RFR
   exchange_id: 545
   exchange_name: Bitsdaq
   pair: RFR/BTC
@@ -141,13 +113,13 @@ markets:
     exchange_symbol: RFR
   exchange_id: 42
   exchange_name: HitBTC
-  pair: RFR/USDT
+  pair: RFR/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/RFR-to-USDT
+    exchange_symbol: BTC
+  url: https://hitbtc.com/RFR-to-BTC
 - base:
     currency_id: 2553
     currency_symbol: RFR
@@ -155,12 +127,12 @@ markets:
     exchange_symbol: RFR
   exchange_id: 857
   exchange_name: Bitcoin.com
-  pair: RFR/USDT
+  pair: RFR/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
+    exchange_symbol: BTC
   url: null
 - base:
     currency_id: 2553
@@ -232,8 +204,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bitmart.com/trade?symbol=RFR_BTC
+- base:
+    currency_id: 2553
+    currency_symbol: RFR
+    currency_type: cryptocurrency
+    exchange_symbol: RFR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: RFR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/RFR-to-USDT
+- base:
+    currency_id: 2553
+    currency_symbol: RFR
+    currency_type: cryptocurrency
+    exchange_symbol: RFR
+  exchange_id: 857
+  exchange_name: Bitcoin.com
+  pair: RFR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: null
 name: Refereum
-rank: 703
+rank: 709
 slug: refereum
 status: active
 symbol: RFR
