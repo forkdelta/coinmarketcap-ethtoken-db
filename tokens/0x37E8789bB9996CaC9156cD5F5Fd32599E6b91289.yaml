@@ -28,20 +28,6 @@ markets:
     currency_symbol: AID
     currency_type: cryptocurrency
     exchange_symbol: AID
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: AID/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-AID
-- base:
-    currency_id: 2462
-    currency_symbol: AID
-    currency_type: cryptocurrency
-    exchange_symbol: AID
   exchange_id: 37
   exchange_name: Bitfinex
   pair: AID/USD
@@ -65,8 +51,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNT
   url: https://www.bancor.network/token/AID
+- base:
+    currency_id: 2462
+    currency_symbol: AID
+    currency_type: cryptocurrency
+    exchange_symbol: AID
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: AID/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-AID
 name: AidCoin
-rank: 1113
+rank: 1116
 slug: aidcoin
 status: active
 symbol: AID

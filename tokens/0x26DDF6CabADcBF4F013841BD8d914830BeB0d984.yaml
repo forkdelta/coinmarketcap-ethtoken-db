@@ -53,20 +53,6 @@ markets:
     exchange_symbol: ETH
   url: https://yunex.io/trade/kt_eth
 - base:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  exchange_id: 434
-  exchange_name: YunEx
-  pair: USDT/KT
-  quote:
-    currency_id: 3691
-    currency_symbol: KT
-    currency_type: cryptocurrency
-    exchange_symbol: KT
-  url: https://yunex.io/trade/usdt_kt
-- base:
     currency_id: 3435
     currency_symbol: SNET
     currency_type: cryptocurrency
@@ -80,6 +66,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: KT
   url: https://yunex.io/trade/snet_kt
+- base:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  exchange_id: 434
+  exchange_name: YunEx
+  pair: USDT/KT
+  quote:
+    currency_id: 3691
+    currency_symbol: KT
+    currency_type: cryptocurrency
+    exchange_symbol: KT
+  url: https://yunex.io/trade/usdt_kt
 - base:
     currency_id: 3691
     currency_symbol: KT
@@ -95,7 +95,7 @@ markets:
     exchange_symbol: ETH
   url: https://dragonex.io
 name: Kuai Token
-rank: 799
+rank: 800
 slug: kuai-token
 status: active
 symbol: KT

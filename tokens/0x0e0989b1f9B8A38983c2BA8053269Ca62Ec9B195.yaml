@@ -41,15 +41,15 @@ markets:
     currency_symbol: POE
     currency_type: cryptocurrency
     exchange_symbol: POE
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 425
+  exchange_name: WazirX
   pair: POE/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/POEBTC
+  url: https://wazirx.com/exchange/POE-BTC
 - base:
     currency_id: 1937
     currency_symbol: POE
@@ -64,20 +64,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://wazirx.com/exchange/POE-USDT
-- base:
-    currency_id: 1937
-    currency_symbol: POE
-    currency_type: cryptocurrency
-    exchange_symbol: POE
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: POE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://wazirx.com/exchange/POE-BTC
 - base:
     currency_id: 1937
     currency_symbol: POE
@@ -148,8 +134,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/poe
+- base:
+    currency_id: 1937
+    currency_symbol: POE
+    currency_type: cryptocurrency
+    exchange_symbol: POE
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: POE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/POEBTC
 name: Po.et
-rank: 578
+rank: 574
 slug: poet
 status: active
 symbol: POE
