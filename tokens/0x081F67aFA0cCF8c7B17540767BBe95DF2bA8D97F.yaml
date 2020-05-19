@@ -105,20 +105,6 @@ markets:
     exchange_symbol: USDC
   url: https://www.coinex.com/trading?currency=usdc&dest=cet&tab=limit
 - base:
-    currency_id: 2941
-    currency_symbol: CET
-    currency_type: cryptocurrency
-    exchange_symbol: CET
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: CET/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/cet
-- base:
     currency_id: 3937
     currency_symbol: NNB
     currency_type: cryptocurrency
@@ -132,6 +118,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: CET
   url: https://www.coinex.com/trading?currency=cet&dest=nnb&tab=limit
+- base:
+    currency_id: 2941
+    currency_symbol: CET
+    currency_type: cryptocurrency
+    exchange_symbol: CET
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: CET/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/cet
 - base:
     currency_id: 4259
     currency_symbol: SPICE
@@ -175,7 +175,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.bkex.com/trade/CET_USDT
 name: CoinEx Token
-rank: 316
+rank: 326
 slug: coinex-token
 status: active
 symbol: CET

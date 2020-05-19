@@ -31,20 +31,6 @@ markets:
     currency_symbol: BAND
     currency_type: cryptocurrency
     exchange_symbol: BAND
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BAND/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/BAND_USDT?ref=H31B921U
-- base:
-    currency_id: 4679
-    currency_symbol: BAND
-    currency_type: cryptocurrency
-    exchange_symbol: BAND
   exchange_id: 415
   exchange_name: Bilaxy
   pair: BAND/USDT
@@ -54,6 +40,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bilaxy.com/trade/BAND_USDT
+- base:
+    currency_id: 4679
+    currency_symbol: BAND
+    currency_type: cryptocurrency
+    exchange_symbol: BAND
+  exchange_id: 270
+  exchange_name: Binance
+  pair: BAND/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/BAND_USDT?ref=H31B921U
 - base:
     currency_id: 4679
     currency_symbol: BAND
@@ -103,20 +103,6 @@ markets:
     exchange_symbol: BAND
   exchange_id: 495
   exchange_name: Folgory
-  pair: BAND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://folgory.com/trade-crypto/BAND_BTC
-- base:
-    currency_id: 4679
-    currency_symbol: BAND
-    currency_type: cryptocurrency
-    exchange_symbol: BAND
-  exchange_id: 495
-  exchange_name: Folgory
   pair: BAND/USDT
   quote:
     currency_id: 825
@@ -129,15 +115,15 @@ markets:
     currency_symbol: BAND
     currency_type: cryptocurrency
     exchange_symbol: BAND
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: BAND/USDT
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: BAND/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/BAND-USDT
+    exchange_symbol: BTC
+  url: https://folgory.com/trade-crypto/BAND_BTC
 - base:
     currency_id: 4679
     currency_symbol: BAND
@@ -157,6 +143,20 @@ markets:
     currency_symbol: BAND
     currency_type: cryptocurrency
     exchange_symbol: BAND
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: BAND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/BANDBTC
+- base:
+    currency_id: 4679
+    currency_symbol: BAND
+    currency_type: cryptocurrency
+    exchange_symbol: BAND
   exchange_id: 595
   exchange_name: Uniswap
   pair: BAND/ETH
@@ -171,15 +171,15 @@ markets:
     currency_symbol: BAND
     currency_type: cryptocurrency
     exchange_symbol: BAND
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: BAND/BTC
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: BAND/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/BANDBTC
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/BAND-USDT
 - base:
     currency_id: 4679
     currency_symbol: BAND
@@ -223,7 +223,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/band
 name: Band Protocol
-rank: 148
+rank: 150
 slug: band-protocol
 status: active
 symbol: BAND

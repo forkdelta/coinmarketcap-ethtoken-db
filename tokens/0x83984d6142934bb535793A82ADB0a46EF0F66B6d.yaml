@@ -81,20 +81,6 @@ markets:
     exchange_symbol: REM
   exchange_id: 302
   exchange_name: Gate.io
-  pair: REM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/rem_usdt
-- base:
-    currency_id: 2546
-    currency_symbol: REM
-    currency_type: cryptocurrency
-    exchange_symbol: REM
-  exchange_id: 302
-  exchange_name: Gate.io
   pair: REM/ETH
   quote:
     currency_id: 1027
@@ -102,6 +88,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/rem_eth
+- base:
+    currency_id: 2546
+    currency_symbol: REM
+    currency_type: cryptocurrency
+    exchange_symbol: REM
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: REM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/rem_usdt
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -121,20 +121,6 @@ markets:
     currency_symbol: REM
     currency_type: cryptocurrency
     exchange_symbol: REM
-  exchange_id: 219
-  exchange_name: Tidex
-  pair: REM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://tidex.com/exchange/rem/btc
-- base:
-    currency_id: 2546
-    currency_symbol: REM
-    currency_type: cryptocurrency
-    exchange_symbol: REM
   exchange_id: 267
   exchange_name: Bancor Network
   pair: REM/BNT
@@ -144,6 +130,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNT
   url: https://www.bancor.network/token/REM
+- base:
+    currency_id: 2546
+    currency_symbol: REM
+    currency_type: cryptocurrency
+    exchange_symbol: REM
+  exchange_id: 219
+  exchange_name: Tidex
+  pair: REM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://tidex.com/exchange/rem/btc
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -243,7 +243,7 @@ markets:
     exchange_symbol: BTC
   url: https://whitebit.com/trade/REM_BTC
 name: Remme
-rank: 886
+rank: 869
 slug: remme
 status: active
 symbol: REM

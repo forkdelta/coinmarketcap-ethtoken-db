@@ -21,20 +21,6 @@ markets:
     currency_symbol: SKM
     currency_type: cryptocurrency
     exchange_symbol: SKM
-  exchange_id: 506
-  exchange_name: ChainX
-  pair: SKM/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://chainx.kr/exchange/SKM-KRW
-- base:
-    currency_id: 2725
-    currency_symbol: SKM
-    currency_type: cryptocurrency
-    exchange_symbol: SKM
   exchange_id: 102
   exchange_name: Huobi Global
   pair: SKM/USDT
@@ -44,20 +30,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hbg.com/en-us/exchange/skm_usdt/
-- base:
-    currency_id: 2725
-    currency_symbol: SKM
-    currency_type: cryptocurrency
-    exchange_symbol: SKM
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: SKM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/skm_btc/
 - base:
     currency_id: 2725
     currency_symbol: SKM
@@ -107,6 +79,20 @@ markets:
     exchange_symbol: SKM
   exchange_id: 102
   exchange_name: Huobi Global
+  pair: SKM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/skm_btc/
+- base:
+    currency_id: 2725
+    currency_symbol: SKM
+    currency_type: cryptocurrency
+    exchange_symbol: SKM
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: SKM/HT
   quote:
     currency_id: 2502
@@ -135,6 +121,20 @@ markets:
     exchange_symbol: SKM
   exchange_id: 463
   exchange_name: Huobi Korea
+  pair: SKM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.huobi.co.kr/en-US/exchange/skm_usdt/
+- base:
+    currency_id: 2725
+    currency_symbol: SKM
+    currency_type: cryptocurrency
+    exchange_symbol: SKM
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: SKM/BTC
   quote:
     currency_id: 1
@@ -147,15 +147,15 @@ markets:
     currency_symbol: SKM
     currency_type: cryptocurrency
     exchange_symbol: SKM
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: SKM/USDT
+  exchange_id: 506
+  exchange_name: ChainX
+  pair: SKM/KRW
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/skm_usdt/
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://chainx.kr/exchange/SKM-KRW
 - base:
     currency_id: 2725
     currency_symbol: SKM
@@ -170,20 +170,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/skm_eth
-- base:
-    currency_id: 2725
-    currency_symbol: SKM
-    currency_type: cryptocurrency
-    exchange_symbol: SKM
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: SKM/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.huobi.co.kr/en-US/exchange/skm_krw/
 - base:
     currency_id: 2725
     currency_symbol: SKM
@@ -226,8 +212,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/skm_eth/
+- base:
+    currency_id: 2725
+    currency_symbol: SKM
+    currency_type: cryptocurrency
+    exchange_symbol: SKM
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: SKM/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.huobi.co.kr/en-US/exchange/skm_krw/
 name: Skrumble Network
-rank: 735
+rank: 708
 slug: skrumble-network
 status: active
 symbol: SKM

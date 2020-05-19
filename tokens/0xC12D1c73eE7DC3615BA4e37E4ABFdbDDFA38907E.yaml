@@ -108,15 +108,29 @@ markets:
     currency_symbol: KICK
     currency_type: cryptocurrency
     exchange_symbol: KICK
-  exchange_id: 245
-  exchange_name: STEX
+  exchange_id: 460
+  exchange_name: Coinsbit
   pair: KICK/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://app.stex.com/en/basic-trade/pair/ETH/KICK/1D
+  url: https://coinsbit.io/trade/KICK_ETH
+- base:
+    currency_id: 2017
+    currency_symbol: KICK
+    currency_type: cryptocurrency
+    exchange_symbol: KICK
+  exchange_id: 460
+  exchange_name: Coinsbit
+  pair: KICK/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://coinsbit.io/trade/KICK_USD
 - base:
     currency_id: 2017
     currency_symbol: KICK
@@ -164,15 +178,15 @@ markets:
     currency_symbol: KICK
     currency_type: cryptocurrency
     exchange_symbol: KICK
-  exchange_id: 460
-  exchange_name: Coinsbit
+  exchange_id: 245
+  exchange_name: STEX
   pair: KICK/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://coinsbit.io/trade/KICK_ETH
+  url: https://app.stex.com/en/basic-trade/pair/ETH/KICK/1D
 - base:
     currency_id: 2017
     currency_symbol: KICK
@@ -194,13 +208,13 @@ markets:
     exchange_symbol: KICK
   exchange_id: 460
   exchange_name: Coinsbit
-  pair: KICK/USD
+  pair: KICK/BTC
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://coinsbit.io/trade/KICK_USD
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coinsbit.io/trade/KICK_BTC
 - base:
     currency_id: 2017
     currency_symbol: KICK
@@ -215,20 +229,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/KICK/BTC
-- base:
-    currency_id: 2017
-    currency_symbol: KICK
-    currency_type: cryptocurrency
-    exchange_symbol: KICK
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: KICK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coinsbit.io/trade/KICK_BTC
 name: KickToken
 rank: 1207
 slug: kick-token

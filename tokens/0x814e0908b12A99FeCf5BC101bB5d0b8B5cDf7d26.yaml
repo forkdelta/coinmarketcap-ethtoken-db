@@ -153,20 +153,6 @@ markets:
     currency_symbol: MDT
     currency_type: cryptocurrency
     exchange_symbol: MDT
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: MDT/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/MDT
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
   exchange_id: 22
   exchange_name: Bittrex
   pair: MDT/BTC
@@ -176,6 +162,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-MDT
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: MDT/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/MDT
 - base:
     currency_id: 2348
     currency_symbol: MDT
@@ -233,7 +233,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=MDT&market=USDT
 name: Measurable Data Token
-rank: 555
+rank: 550
 slug: measurable-data-token
 status: active
 symbol: MDT

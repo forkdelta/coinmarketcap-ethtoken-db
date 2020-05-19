@@ -24,20 +24,6 @@ markets:
     currency_symbol: COSM
     currency_type: cryptocurrency
     exchange_symbol: COSM
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: COSM/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/COSMKRW
-- base:
-    currency_id: 2955
-    currency_symbol: COSM
-    currency_type: cryptocurrency
-    exchange_symbol: COSM
   exchange_id: 351
   exchange_name: Upbit
   pair: COSM/KRW
@@ -47,6 +33,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-COSM
+- base:
+    currency_id: 2955
+    currency_symbol: COSM
+    currency_type: cryptocurrency
+    exchange_symbol: COSM
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: COSM/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/COSMKRW
 - base:
     currency_id: 2955
     currency_symbol: COSM
@@ -68,20 +68,6 @@ markets:
     exchange_symbol: COSM
   exchange_id: 343
   exchange_name: CoinBene
-  pair: COSM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=COSMETH
-- base:
-    currency_id: 2955
-    currency_symbol: COSM
-    currency_type: cryptocurrency
-    exchange_symbol: COSM
-  exchange_id: 343
-  exchange_name: CoinBene
   pair: COSM/BTC
   quote:
     currency_id: 1
@@ -89,6 +75,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=COSMBTC
+- base:
+    currency_id: 2955
+    currency_symbol: COSM
+    currency_type: cryptocurrency
+    exchange_symbol: COSM
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: COSM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=COSMETH
 - base:
     currency_id: 2955
     currency_symbol: COSM
@@ -118,7 +118,7 @@ markets:
     exchange_symbol: KRW
   url: https://www.gdac.co.kr/exchange/COSM/KRW
 name: Cosmo Coin
-rank: 481
+rank: 463
 slug: cosmo-coin
 status: active
 symbol: COSM

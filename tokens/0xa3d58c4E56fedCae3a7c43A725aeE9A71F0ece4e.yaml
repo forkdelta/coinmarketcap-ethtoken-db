@@ -50,20 +50,6 @@ markets:
     currency_symbol: MET
     currency_type: cryptocurrency
     exchange_symbol: MET
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: MET/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/met_usdt
-- base:
-    currency_id: 2873
-    currency_symbol: MET
-    currency_type: cryptocurrency
-    exchange_symbol: MET
   exchange_id: 595
   exchange_name: Uniswap
   pair: MET/ETH
@@ -73,6 +59,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://uniswap.exchange/
+- base:
+    currency_id: 2873
+    currency_symbol: MET
+    currency_type: cryptocurrency
+    exchange_symbol: MET
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: MET/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/met-eth
 - base:
     currency_id: 2873
     currency_symbol: MET
@@ -106,15 +106,29 @@ markets:
     currency_symbol: MET
     currency_type: cryptocurrency
     exchange_symbol: MET
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: MET/ETH
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: MET/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/met-eth
+    exchange_symbol: USDT
+  url: https://gate.io/trade/met_usdt
+- base:
+    currency_id: 2873
+    currency_symbol: MET
+    currency_type: cryptocurrency
+    exchange_symbol: MET
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: MET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/MET/BTC
 - base:
     currency_id: 2873
     currency_symbol: MET
@@ -150,20 +164,6 @@ markets:
     exchange_symbol: MET
   exchange_id: 100
   exchange_name: YoBit
-  pair: MET/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/MET/BTC
-- base:
-    currency_id: 2873
-    currency_symbol: MET
-    currency_type: cryptocurrency
-    exchange_symbol: MET
-  exchange_id: 100
-  exchange_name: YoBit
   pair: MET/ETH
   quote:
     currency_id: 1027
@@ -172,7 +172,7 @@ markets:
     exchange_symbol: ETH
   url: https://yobit.net/en/trade/MET/ETH
 name: Metronome
-rank: 530
+rank: 520
 slug: metronome
 status: active
 symbol: MET

@@ -27,20 +27,6 @@ markets:
     currency_symbol: ADX
     currency_type: cryptocurrency
     exchange_symbol: ADX
-  exchange_id: 270
-  exchange_name: Binance
-  pair: ADX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/ADX_BTC?ref=H31B921U
-- base:
-    currency_id: 1768
-    currency_symbol: ADX
-    currency_type: cryptocurrency
-    exchange_symbol: ADX
   exchange_id: 351
   exchange_name: Upbit
   pair: ADX/KRW
@@ -55,15 +41,29 @@ markets:
     currency_symbol: ADX
     currency_type: cryptocurrency
     exchange_symbol: ADX
-  exchange_id: 733
-  exchange_name: VCC Exchange
+  exchange_id: 270
+  exchange_name: Binance
   pair: ADX/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=adx
+  url: https://www.binance.com/en/trade/ADX_BTC?ref=H31B921U
+- base:
+    currency_id: 1768
+    currency_symbol: ADX
+    currency_type: cryptocurrency
+    exchange_symbol: ADX
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: ADX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/ADXBTC
 - base:
     currency_id: 1768
     currency_symbol: ADX
@@ -83,6 +83,20 @@ markets:
     currency_symbol: ADX
     currency_type: cryptocurrency
     exchange_symbol: ADX
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: ADX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=adx
+- base:
+    currency_id: 1768
+    currency_symbol: ADX
+    currency_type: cryptocurrency
+    exchange_symbol: ADX
   exchange_id: 22
   exchange_name: Bittrex
   pair: ADX/BTC
@@ -92,48 +106,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-ADX
-- base:
-    currency_id: 1768
-    currency_symbol: ADX
-    currency_type: cryptocurrency
-    exchange_symbol: ADX
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: ADX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/adx_btc/
-- base:
-    currency_id: 1768
-    currency_symbol: ADX
-    currency_type: cryptocurrency
-    exchange_symbol: ADX
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: ADX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vcc.exchange/exchange/basic?currency=eth&coin=adx
-- base:
-    currency_id: 1768
-    currency_symbol: ADX
-    currency_type: cryptocurrency
-    exchange_symbol: ADX
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: ADX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/adx_btc/
 - base:
     currency_id: 1768
     currency_symbol: ADX
@@ -153,15 +125,15 @@ markets:
     currency_symbol: ADX
     currency_type: cryptocurrency
     exchange_symbol: ADX
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: ADX/ETH
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: ADX/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/ADX-to-ETH
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/adx_btc/
 - base:
     currency_id: 1768
     currency_symbol: ADX
@@ -181,6 +153,34 @@ markets:
     currency_symbol: ADX
     currency_type: cryptocurrency
     exchange_symbol: ADX
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: ADX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vcc.exchange/exchange/basic?currency=eth&coin=adx
+- base:
+    currency_id: 1768
+    currency_symbol: ADX
+    currency_type: cryptocurrency
+    exchange_symbol: ADX
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: ADX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/ADX-to-ETH
+- base:
+    currency_id: 1768
+    currency_symbol: ADX
+    currency_type: cryptocurrency
+    exchange_symbol: ADX
   exchange_id: 310
   exchange_name: IDEX
   pair: ADX/ETH
@@ -195,15 +195,15 @@ markets:
     currency_symbol: ADX
     currency_type: cryptocurrency
     exchange_symbol: ADX
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: ADX/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/ADXBTC
+  url: https://www.huobi.co.kr/en-US/exchange/adx_btc/
 name: AdEx
 rank: 395
 slug: adx-net

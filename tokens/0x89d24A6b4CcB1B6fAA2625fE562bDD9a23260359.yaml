@@ -64,20 +64,6 @@ markets:
     exchange_symbol: DAI
   exchange_id: 100
   exchange_name: YoBit
-  pair: SAI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/SAI/BTC
-- base:
-    currency_id: 2308
-    currency_symbol: SAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 100
-  exchange_name: YoBit
   pair: SAI/USD
   quote:
     currency_id: 2781
@@ -85,6 +71,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://yobit.net/en/trade/SAI/USD
+- base:
+    currency_id: 2308
+    currency_symbol: SAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: SAI/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/SAI/BTC
 - base:
     currency_id: 2308
     currency_symbol: SAI
@@ -102,7 +102,7 @@ markets:
 name: 'Single Collateral DAI '
 notice: For details on the upgrade from Single-Collateral Dai (Sai) to Multi-Collateral Dai (Dai), please
   click [here](https://blog.makerdao.com/single-collateral-dai-to-multi-collateral-dai-upgrade-timeline-and-actions/)
-rank: 299
+rank: 305
 slug: single-collateral-dai
 status: active
 symbol: SAI
