@@ -51,20 +51,6 @@ markets:
     currency_symbol: EM
     currency_type: cryptocurrency
     exchange_symbol: EM
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: EM/IDR
-  quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://indodax.com/market/EMIDR
-- base:
-    currency_id: 4215
-    currency_symbol: EM
-    currency_type: cryptocurrency
-    exchange_symbol: EM
   exchange_id: 102
   exchange_name: Huobi Global
   pair: EM/BTC
@@ -79,15 +65,15 @@ markets:
     currency_symbol: EM
     currency_type: cryptocurrency
     exchange_symbol: EM
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: EM/USDT
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: EM/IDR
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=em_usdt
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/EMIDR
 - base:
     currency_id: 4215
     currency_symbol: EM
@@ -107,6 +93,20 @@ markets:
     currency_symbol: EM
     currency_type: cryptocurrency
     exchange_symbol: EM
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: EM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=em_usdt
+- base:
+    currency_id: 4215
+    currency_symbol: EM
+    currency_type: cryptocurrency
+    exchange_symbol: EM
   exchange_id: 528
   exchange_name: BiKi
   pair: EM/USDT
@@ -116,6 +116,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.biki.com/trade/EM_USDT
+- base:
+    currency_id: 4215
+    currency_symbol: EM
+    currency_type: cryptocurrency
+    exchange_symbol: EM
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: EM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/em_btc/
 - base:
     currency_id: 4215
     currency_symbol: EM
@@ -137,20 +151,6 @@ markets:
     exchange_symbol: EM
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: EM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/em_btc/
-- base:
-    currency_id: 4215
-    currency_symbol: EM
-    currency_type: cryptocurrency
-    exchange_symbol: EM
-  exchange_id: 463
-  exchange_name: Huobi Korea
   pair: EM/USDT
   quote:
     currency_id: 825
@@ -159,7 +159,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.huobi.co.kr/en-US/exchange/em_usdt/
 name: Eminer
-rank: 559
+rank: 566
 slug: eminer
 status: active
 symbol: EM

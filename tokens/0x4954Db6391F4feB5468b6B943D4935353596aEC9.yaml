@@ -28,15 +28,15 @@ markets:
     currency_symbol: USDQ
     currency_type: cryptocurrency
     exchange_symbol: USDQ
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: USDQ/ETH
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: USDQ/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/usdq
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=USDQ_USDT
 - base:
     currency_id: 4020
     currency_symbol: USDQ
@@ -51,20 +51,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNT
   url: https://www.bancor.network/token/USDQ
-- base:
-    currency_id: 4020
-    currency_symbol: USDQ
-    currency_type: cryptocurrency
-    exchange_symbol: USDQ
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: USDQ/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=USDQ_USDT
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -93,8 +79,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDQ
   url: https://www.hotbit.io/exchange?symbol=ETH_USDQ
+- base:
+    currency_id: 4020
+    currency_symbol: USDQ
+    currency_type: cryptocurrency
+    exchange_symbol: USDQ
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: USDQ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/usdq
 name: USDQ
-rank: 459
+rank: 473
 slug: usdq
 status: active
 symbol: USDQ

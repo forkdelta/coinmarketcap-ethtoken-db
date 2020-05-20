@@ -44,20 +44,6 @@ markets:
     exchange_symbol: EDI
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: EDI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.probit.com/app/exchange/EDI-BTC
-- base:
-    currency_id: 5165
-    currency_symbol: EDI
-    currency_type: cryptocurrency
-    exchange_symbol: EDI
-  exchange_id: 477
-  exchange_name: ProBit Exchange
   pair: EDI/USDT
   quote:
     currency_id: 825
@@ -65,8 +51,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.probit.com/app/exchange/EDI-USDT
+- base:
+    currency_id: 5165
+    currency_symbol: EDI
+    currency_type: cryptocurrency
+    exchange_symbol: EDI
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: EDI/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.probit.com/app/exchange/EDI-BTC
 name: Freight Trust & Clearing Network
-rank: 2227
+rank: 2268
 slug: freight-trust-clearing-network
 status: active
 symbol: EDI

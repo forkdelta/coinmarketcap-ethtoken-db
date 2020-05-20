@@ -53,20 +53,6 @@ markets:
     exchange_symbol: VNDC
   url: https://exmarkets.com/trade/usdc-vndc
 - base:
-    currency_id: 4180
-    currency_symbol: DDK
-    currency_type: cryptocurrency
-    exchange_symbol: DDK
-  exchange_id: 535
-  exchange_name: ExMarkets
-  pair: DDK/VNDC
-  quote:
-    currency_id: 4805
-    currency_symbol: VNDC
-    currency_type: cryptocurrency
-    exchange_symbol: VNDC
-  url: https://exmarkets.com/trade/ddk-vndc
-- base:
     currency_id: 4805
     currency_symbol: VNDC
     currency_type: cryptocurrency
@@ -95,19 +81,19 @@ markets:
     exchange_symbol: BTC
   url: https://vindax.com/exchange-base.html?symbol=VNDC_BTC
 - base:
+    currency_id: 4180
+    currency_symbol: DDK
+    currency_type: cryptocurrency
+    exchange_symbol: DDK
+  exchange_id: 535
+  exchange_name: ExMarkets
+  pair: DDK/VNDC
+  quote:
     currency_id: 4805
     currency_symbol: VNDC
     currency_type: cryptocurrency
     exchange_symbol: VNDC
-  exchange_id: 514
-  exchange_name: Finexbox
-  pair: VNDC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.finexbox.com/market/pair/VNDC-ETH.html
+  url: https://exmarkets.com/trade/ddk-vndc
 - base:
     currency_id: 825
     currency_symbol: USDT
@@ -122,6 +108,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: VNDC
   url: https://whitebit.com/trade/USDT_VNDC
+- base:
+    currency_id: 4805
+    currency_symbol: VNDC
+    currency_type: cryptocurrency
+    exchange_symbol: VNDC
+  exchange_id: 514
+  exchange_name: Finexbox
+  pair: VNDC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.finexbox.com/market/pair/VNDC-ETH.html
 - base:
     currency_id: 4805
     currency_symbol: VNDC
@@ -165,7 +165,7 @@ markets:
     exchange_symbol: USDT
   url: https://vindax.com/exchange-base.html?symbol=VNDC_USDT
 name: VNDC
-rank: 818
+rank: 832
 slug: vndc
 status: active
 symbol: VNDC

@@ -39,6 +39,20 @@ markets:
     exchange_symbol: HYN
   exchange_id: 339
   exchange_name: Bibox
+  pair: HYN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bibox.com/exchange?coinPair=HYN_BTC
+- base:
+    currency_id: 3695
+    currency_symbol: HYN
+    currency_type: cryptocurrency
+    exchange_symbol: HYN
+  exchange_id: 339
+  exchange_name: Bibox
   pair: HYN/USDT
   quote:
     currency_id: 825
@@ -51,15 +65,15 @@ markets:
     currency_symbol: HYN
     currency_type: cryptocurrency
     exchange_symbol: HYN
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: HYN/BTC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: HYN/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=HYN_BTC
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=HYN_ETH
 - base:
     currency_id: 3695
     currency_symbol: HYN
@@ -78,16 +92,16 @@ markets:
     currency_id: 3695
     currency_symbol: HYN
     currency_type: cryptocurrency
-    exchange_symbol: HYN
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: HYN/ETH
+    exchange_symbol: HYN-F21
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: HYN/BNB
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=HYN_ETH
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/HYN-F21_BNB
 - base:
     currency_id: 3695
     currency_symbol: HYN
@@ -134,20 +148,6 @@ markets:
     currency_id: 3695
     currency_symbol: HYN
     currency_type: cryptocurrency
-    exchange_symbol: HYN-F21
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: HYN/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/HYN-F21_BNB
-- base:
-    currency_id: 3695
-    currency_symbol: HYN
-    currency_type: cryptocurrency
     exchange_symbol: HYN
   exchange_id: 438
   exchange_name: Bgogo
@@ -159,7 +159,7 @@ markets:
     exchange_symbol: USDT
   url: https://bgogo.com/exchange/HYN/USDT
 name: Hyperion
-rank: 38
+rank: 40
 slug: hyperion
 status: active
 symbol: HYN
