@@ -45,20 +45,6 @@ markets:
     exchange_symbol: ETHBEAR
   exchange_id: 524
   exchange_name: FTX
-  pair: ETHBEAR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://ftx.com/trade/ETHBEAR/USDT
-- base:
-    currency_id: 5216
-    currency_symbol: ETHBEAR
-    currency_type: cryptocurrency
-    exchange_symbol: ETHBEAR
-  exchange_id: 524
-  exchange_name: FTX
   pair: ETHBEAR/USD
   quote:
     currency_id: 2781
@@ -71,15 +57,29 @@ markets:
     currency_symbol: ETHBEAR
     currency_type: cryptocurrency
     exchange_symbol: ETHBEAR
-  exchange_id: 16
-  exchange_name: Poloniex
+  exchange_id: 524
+  exchange_name: FTX
   pair: ETHBEAR/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://poloniex.com/exchange#usdt_ethbear
+  url: https://ftx.com/trade/ETHBEAR/USDT
+- base:
+    currency_id: 5216
+    currency_symbol: ETHBEAR
+    currency_type: cryptocurrency
+    exchange_symbol: ETHBEAR
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: ETHBEAR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bkex.com/trade/ETHBEAR_USDT
 - base:
     currency_id: 5216
     currency_symbol: ETHBEAR
@@ -99,15 +99,15 @@ markets:
     currency_symbol: ETHBEAR
     currency_type: cryptocurrency
     exchange_symbol: ETHBEAR
-  exchange_id: 482
-  exchange_name: BKEX
+  exchange_id: 16
+  exchange_name: Poloniex
   pair: ETHBEAR/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bkex.com/trade/ETHBEAR_USDT
+  url: https://poloniex.com/exchange#usdt_ethbear
 - base:
     currency_id: 5216
     currency_symbol: ETHBEAR
@@ -137,7 +137,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: 3X Short Ethereum Token
-rank: 2059
+rank: 2069
 slug: 3x-short-ethereum-token
 status: active
 symbol: ETHBEAR

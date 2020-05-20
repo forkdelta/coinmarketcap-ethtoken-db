@@ -84,20 +84,6 @@ markets:
     currency_id: 3962
     currency_symbol: VDX
     currency_type: cryptocurrency
-    exchange_symbol: VDX
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: VDX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-VDX
-- base:
-    currency_id: 3962
-    currency_symbol: VDX
-    currency_type: cryptocurrency
     exchange_symbol: VDX-A17
   exchange_id: 486
   exchange_name: Binance DEX
@@ -108,8 +94,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNB
   url: https://www.binance.org/en/trade/VDX-A17_BNB
+- base:
+    currency_id: 3962
+    currency_symbol: VDX
+    currency_type: cryptocurrency
+    exchange_symbol: VDX
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: VDX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-VDX
 name: Vodi X
-rank: 1239
+rank: 1263
 slug: vodi-x
 status: active
 symbol: VDX

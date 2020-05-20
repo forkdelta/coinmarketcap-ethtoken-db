@@ -31,20 +31,6 @@ markets:
     currency_symbol: UUU
     currency_type: cryptocurrency
     exchange_symbol: UUU
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: UUU/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/uuu_usdt/
-- base:
-    currency_id: 2645
-    currency_symbol: UUU
-    currency_type: cryptocurrency
-    exchange_symbol: UUU
   exchange_id: 673
   exchange_name: UPEX
   pair: UUU/USDT
@@ -54,6 +40,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://upex.io/trade/UUU_USDT
+- base:
+    currency_id: 2645
+    currency_symbol: UUU
+    currency_type: cryptocurrency
+    exchange_symbol: UUU
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: UUU/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/uuu_usdt/
 - base:
     currency_id: 2645
     currency_symbol: UUU
@@ -87,34 +87,6 @@ markets:
     currency_symbol: UUU
     currency_type: cryptocurrency
     exchange_symbol: UUU
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: UUU/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 2645
-    currency_symbol: UUU
-    currency_type: cryptocurrency
-    exchange_symbol: UUU
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: UUU/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bibox.com/exchange?coinPair=UUU_ETH
-- base:
-    currency_id: 2645
-    currency_symbol: UUU
-    currency_type: cryptocurrency
-    exchange_symbol: UUU
   exchange_id: 339
   exchange_name: Bibox
   pair: UUU/BTC
@@ -143,15 +115,15 @@ markets:
     currency_symbol: UUU
     currency_type: cryptocurrency
     exchange_symbol: UUU
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: UUU/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/uuu_eth/
+  url: https://hitbtc.com/UUU-to-ETH
 - base:
     currency_id: 2645
     currency_symbol: UUU
@@ -171,15 +143,29 @@ markets:
     currency_symbol: UUU
     currency_type: cryptocurrency
     exchange_symbol: UUU
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: UUU/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://hitbtc.com/UUU-to-ETH
+  url: https://www.huobi.co.kr/en-US/exchange/uuu_eth/
+- base:
+    currency_id: 2645
+    currency_symbol: UUU
+    currency_type: cryptocurrency
+    exchange_symbol: UUU
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: UUU/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bibox.com/exchange?coinPair=UUU_ETH
 - base:
     currency_id: 2645
     currency_symbol: UUU
@@ -194,8 +180,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/uuu
+- base:
+    currency_id: 2645
+    currency_symbol: UUU
+    currency_type: cryptocurrency
+    exchange_symbol: UUU
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: UUU/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/
 name: U Network
-rank: 501
+rank: 512
 slug: u-network
 status: active
 symbol: UUU

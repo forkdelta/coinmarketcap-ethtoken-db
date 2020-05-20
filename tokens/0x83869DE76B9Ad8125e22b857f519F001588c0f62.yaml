@@ -64,20 +64,6 @@ markets:
     exchange_symbol: USDT
   url: https://exmo.com/en/trade#?pair=EXM_USDT
 - base:
-    currency_id: 4974
-    currency_symbol: EXM
-    currency_type: cryptocurrency
-    exchange_symbol: EXM
-  exchange_id: 50
-  exchange_name: Exmo
-  pair: EXM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exmo.com/en/trade#?pair=EXM_BTC
-- base:
     currency_id: 2566
     currency_symbol: ONT
     currency_type: cryptocurrency
@@ -92,19 +78,19 @@ markets:
     exchange_symbol: EXM
   url: https://exmo.com/en/trade#?pair=ONT_EXM
 - base:
-    currency_id: 3217
-    currency_symbol: ONG
-    currency_type: cryptocurrency
-    exchange_symbol: ONG
-  exchange_id: 50
-  exchange_name: Exmo
-  pair: ONG/EXM
-  quote:
     currency_id: 4974
     currency_symbol: EXM
     currency_type: cryptocurrency
     exchange_symbol: EXM
-  url: https://exmo.com/en/trade#?pair=ONG_EXM
+  exchange_id: 50
+  exchange_name: Exmo
+  pair: EXM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exmo.com/en/trade#?pair=EXM_BTC
 - base:
     currency_id: 4974
     currency_symbol: EXM
@@ -120,6 +106,20 @@ markets:
     exchange_symbol: ETH
   url: https://exmo.com/en/trade#?pair=EXM_ETH
 - base:
+    currency_id: 3794
+    currency_symbol: ATOM
+    currency_type: cryptocurrency
+    exchange_symbol: ATOM
+  exchange_id: 50
+  exchange_name: Exmo
+  pair: ATOM/EXM
+  quote:
+    currency_id: 4974
+    currency_symbol: EXM
+    currency_type: cryptocurrency
+    exchange_symbol: EXM
+  url: https://exmo.com/en/trade#?pair=ATOM_EXM
+- base:
     currency_id: 4974
     currency_symbol: EXM
     currency_type: cryptocurrency
@@ -134,21 +134,21 @@ markets:
     exchange_symbol: BTC
   url: https://hitbtc.com/EXM-to-BTC
 - base:
-    currency_id: 3794
-    currency_symbol: ATOM
+    currency_id: 3217
+    currency_symbol: ONG
     currency_type: cryptocurrency
-    exchange_symbol: ATOM
+    exchange_symbol: ONG
   exchange_id: 50
   exchange_name: Exmo
-  pair: ATOM/EXM
+  pair: ONG/EXM
   quote:
     currency_id: 4974
     currency_symbol: EXM
     currency_type: cryptocurrency
     exchange_symbol: EXM
-  url: https://exmo.com/en/trade#?pair=ATOM_EXM
+  url: https://exmo.com/en/trade#?pair=ONG_EXM
 name: EXMO Coin
-rank: 688
+rank: 686
 slug: exmo-coin
 status: active
 symbol: EXM

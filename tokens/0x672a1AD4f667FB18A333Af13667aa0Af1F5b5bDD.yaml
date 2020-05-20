@@ -28,20 +28,6 @@ markets:
     currency_symbol: CRED
     currency_type: cryptocurrency
     exchange_symbol: CRED
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: CRED/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/CRED/BTC
-- base:
-    currency_id: 2271
-    currency_symbol: CRED
-    currency_type: cryptocurrency
-    exchange_symbol: CRED
   exchange_id: 310
   exchange_name: IDEX
   pair: CRED/ETH
@@ -51,6 +37,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/cred
+- base:
+    currency_id: 2271
+    currency_symbol: CRED
+    currency_type: cryptocurrency
+    exchange_symbol: CRED
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: CRED/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/CRED/BTC
 - base:
     currency_id: 2271
     currency_symbol: CRED
@@ -80,7 +80,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.coss.io/c/trade?s=CRED_BTC
 name: Verify
-rank: 1572
+rank: 1509
 slug: verify
 status: active
 symbol: CRED

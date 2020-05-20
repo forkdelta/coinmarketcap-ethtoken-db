@@ -33,13 +33,27 @@ markets:
     exchange_symbol: MEXC
   exchange_id: 155
   exchange_name: Exrates
+  pair: MEXC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://exrates.me/trading/MEXCUSDT
+- base:
+    currency_id: 4676
+    currency_symbol: MEXC
+    currency_type: cryptocurrency
+    exchange_symbol: MEXC
+  exchange_id: 155
+  exchange_name: Exrates
   pair: MEXC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://exrates.me/markets/MEXC-BTC
+  url: https://exrates.me/trading/MEXCBTC
 - base:
     currency_id: 4676
     currency_symbol: MEXC
@@ -59,15 +73,15 @@ markets:
     currency_symbol: MEXC
     currency_type: cryptocurrency
     exchange_symbol: MEXC
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: MEXC/USDT
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: MEXC/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bilaxy.com/trade/MEXC_USDT
+    exchange_symbol: BTC
+  url: https://whitebit.com/trade/MEXC_BTC
 - base:
     currency_id: 4676
     currency_symbol: MEXC
@@ -87,29 +101,15 @@ markets:
     currency_symbol: MEXC
     currency_type: cryptocurrency
     exchange_symbol: MEXC
-  exchange_id: 155
-  exchange_name: Exrates
+  exchange_id: 415
+  exchange_name: Bilaxy
   pair: MEXC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://exrates.me/markets/MEXC-USDT
-- base:
-    currency_id: 4676
-    currency_symbol: MEXC
-    currency_type: cryptocurrency
-    exchange_symbol: MEXC
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: MEXC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://whitebit.com/trade/MEXC_BTC
+  url: https://bilaxy.com/trade/MEXC_USDT
 - base:
     currency_id: 4676
     currency_symbol: MEXC
@@ -125,7 +125,7 @@ markets:
     exchange_symbol: BTC
   url: https://bilaxy.com/trade/MEXC_BTC
 name: MEXC Token
-rank: 622
+rank: 453
 slug: mexc-token
 status: active
 symbol: MEXC

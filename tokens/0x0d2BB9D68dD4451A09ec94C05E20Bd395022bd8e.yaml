@@ -31,20 +31,6 @@ markets:
     currency_symbol: CBUCKS
     currency_type: cryptocurrency
     exchange_symbol: CBUCKS
-  exchange_id: 535
-  exchange_name: ExMarkets
-  pair: CBUCKS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exmarkets.com/trade/cbucks-btc
-- base:
-    currency_id: 5087
-    currency_symbol: CBUCKS
-    currency_type: cryptocurrency
-    exchange_symbol: CBUCKS
   exchange_id: 460
   exchange_name: Coinsbit
   pair: CBUCKS/USDT
@@ -54,6 +40,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://coinsbit.io/trade/CBUCKS_USDT
+- base:
+    currency_id: 5087
+    currency_symbol: CBUCKS
+    currency_type: cryptocurrency
+    exchange_symbol: CBUCKS
+  exchange_id: 535
+  exchange_name: ExMarkets
+  pair: CBUCKS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exmarkets.com/trade/cbucks-btc
 - base:
     currency_id: 5087
     currency_symbol: CBUCKS
@@ -195,7 +195,7 @@ markets:
     exchange_symbol: USDT
   url: https://whitebit.com/trade/CBUCKS_USDT
 name: CRYPTOBUCKS
-rank: 220
+rank: 222
 slug: cryptobucks
 status: active
 symbol: CBUCKS

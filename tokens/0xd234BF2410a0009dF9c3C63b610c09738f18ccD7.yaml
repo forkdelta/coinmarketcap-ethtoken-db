@@ -35,20 +35,6 @@ markets:
     exchange_symbol: DTR
   exchange_id: 502
   exchange_name: Tokens.net
-  pair: DTR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.tokens.net/trading-pair/dtrbtc/
-- base:
-    currency_id: 2298
-    currency_symbol: DTR
-    currency_type: cryptocurrency
-    exchange_symbol: DTR
-  exchange_id: 502
-  exchange_name: Tokens.net
   pair: DTR/USDT
   quote:
     currency_id: 825
@@ -63,13 +49,13 @@ markets:
     exchange_symbol: DTR
   exchange_id: 502
   exchange_name: Tokens.net
-  pair: DTR/EURS
+  pair: DTR/BTC
   quote:
-    currency_id: 2989
-    currency_symbol: EURS
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: EURS
-  url: https://www.tokens.net/trading-pair/dtreurs/
+    exchange_symbol: BTC
+  url: https://www.tokens.net/trading-pair/dtrbtc/
 - base:
     currency_id: 2298
     currency_symbol: DTR
@@ -84,6 +70,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.livecoin.net/en/trading/DTR_BTC
+- base:
+    currency_id: 2298
+    currency_symbol: DTR
+    currency_type: cryptocurrency
+    exchange_symbol: DTR
+  exchange_id: 502
+  exchange_name: Tokens.net
+  pair: DTR/EURS
+  quote:
+    currency_id: 2989
+    currency_symbol: EURS
+    currency_type: cryptocurrency
+    exchange_symbol: EURS
+  url: https://www.tokens.net/trading-pair/dtreurs/
 - base:
     currency_id: 2298
     currency_symbol: DTR
@@ -113,7 +113,7 @@ markets:
     exchange_symbol: ETH
   url: https://hitbtc.com/DTR-to-ETH
 name: Dynamic Trading Rights
-rank: 264
+rank: 265
 slug: dynamic-trading-rights
 status: active
 symbol: DTR

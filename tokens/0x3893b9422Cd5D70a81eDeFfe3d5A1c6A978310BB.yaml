@@ -103,20 +103,6 @@ markets:
     currency_symbol: MITH
     currency_type: cryptocurrency
     exchange_symbol: MITH
-  exchange_id: 270
-  exchange_name: Binance
-  pair: MITH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/MITH_USDT?ref=H31B921U
-- base:
-    currency_id: 2608
-    currency_symbol: MITH
-    currency_type: cryptocurrency
-    exchange_symbol: MITH
   exchange_id: 407
   exchange_name: DigiFinex
   pair: MITH/USDT
@@ -126,20 +112,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.digifinex.com/en-ww/trade/USDT/MITH
-- base:
-    currency_id: 2608
-    currency_symbol: MITH
-    currency_type: cryptocurrency
-    exchange_symbol: MITH
-  exchange_id: 270
-  exchange_name: Binance
-  pair: MITH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/MITH_BTC?ref=H31B921U
 - base:
     currency_id: 2608
     currency_symbol: MITH
@@ -175,6 +147,20 @@ markets:
     exchange_symbol: MITH
   exchange_id: 270
   exchange_name: Binance
+  pair: MITH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/MITH_USDT?ref=H31B921U
+- base:
+    currency_id: 2608
+    currency_symbol: MITH
+    currency_type: cryptocurrency
+    exchange_symbol: MITH
+  exchange_id: 270
+  exchange_name: Binance
   pair: MITH/BNB
   quote:
     currency_id: 1839
@@ -201,15 +187,15 @@ markets:
     currency_symbol: MITH
     currency_type: cryptocurrency
     exchange_symbol: MITH
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: MITH/QC
+  exchange_id: 270
+  exchange_name: Binance
+  pair: MITH/BTC
   quote:
-    currency_id: 2319
-    currency_symbol: QC
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: QC
-  url: https://trans.zb.com/mithqc
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/MITH_BTC?ref=H31B921U
 - base:
     currency_id: 2608
     currency_symbol: MITH
@@ -243,15 +229,15 @@ markets:
     currency_symbol: MITH
     currency_type: cryptocurrency
     exchange_symbol: MITH
-  exchange_id: 490
-  exchange_name: OKEx Korea
-  pair: MITH/BTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: MITH/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://okex.co.kr/kr/view/exchange?coin=MITH&market=BTC
+    exchange_symbol: ETH
+  url: https://gate.io/trade/mith_eth
 - base:
     currency_id: 2608
     currency_symbol: MITH
@@ -280,20 +266,6 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/MITH:USD
-- base:
-    currency_id: 2608
-    currency_symbol: MITH
-    currency_type: cryptocurrency
-    exchange_symbol: MITH
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: MITH/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/mith_eth
 - base:
     currency_id: 2608
     currency_symbol: MITH
@@ -378,8 +350,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://okex.co.kr/kr/view/exchange?coin=MITH&market=ETH
+- base:
+    currency_id: 2608
+    currency_symbol: MITH
+    currency_type: cryptocurrency
+    exchange_symbol: MITH
+  exchange_id: 490
+  exchange_name: OKEx Korea
+  pair: MITH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://okex.co.kr/kr/view/exchange?coin=MITH&market=BTC
+- base:
+    currency_id: 2608
+    currency_symbol: MITH
+    currency_type: cryptocurrency
+    exchange_symbol: MITH
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: MITH/QC
+  quote:
+    currency_id: 2319
+    currency_symbol: QC
+    currency_type: cryptocurrency
+    exchange_symbol: QC
+  url: https://trans.zb.com/mithqc
 name: Mithril
-rank: 584
+rank: 587
 slug: mithril
 status: active
 symbol: MITH
