@@ -41,6 +41,20 @@ markets:
     currency_symbol: NGC
     currency_type: cryptocurrency
     exchange_symbol: NGC
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: NGC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-NGC
+- base:
+    currency_id: 2305
+    currency_symbol: NGC
+    currency_type: cryptocurrency
+    exchange_symbol: NGC
   exchange_id: 388
   exchange_name: Sistemkoin
   pair: NGC/BTC
@@ -92,20 +106,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/NGC-to-USDT
-- base:
-    currency_id: 2305
-    currency_symbol: NGC
-    currency_type: cryptocurrency
-    exchange_symbol: NGC
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: NGC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-NGC
 - base:
     currency_id: 2305
     currency_symbol: NGC
@@ -205,6 +205,20 @@ markets:
     exchange_symbol: NGC
   url: https://nagax.com/exchange/XRPNGC
 - base:
+    currency_id: 2
+    currency_symbol: LTC
+    currency_type: cryptocurrency
+    exchange_symbol: LTC
+  exchange_id: 484
+  exchange_name: NAGAX
+  pair: LTC/NGC
+  quote:
+    currency_id: 2305
+    currency_symbol: NGC
+    currency_type: cryptocurrency
+    exchange_symbol: NGC
+  url: https://nagax.com/exchange/LTCNGC
+- base:
     currency_id: 131
     currency_symbol: DASH
     currency_type: cryptocurrency
@@ -232,22 +246,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: NGC
   url: https://nagax.com/exchange/BCHNGC
-- base:
-    currency_id: 2
-    currency_symbol: LTC
-    currency_type: cryptocurrency
-    exchange_symbol: LTC
-  exchange_id: 484
-  exchange_name: NAGAX
-  pair: LTC/NGC
-  quote:
-    currency_id: 2305
-    currency_symbol: NGC
-    currency_type: cryptocurrency
-    exchange_symbol: NGC
-  url: https://nagax.com/exchange/LTCNGC
 name: NAGA
-rank: 818
+rank: 797
 slug: naga
 status: active
 symbol: NGC

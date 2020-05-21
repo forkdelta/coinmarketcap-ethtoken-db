@@ -26,20 +26,6 @@ markets:
     exchange_symbol: QUN
   exchange_id: 294
   exchange_name: OKEx
-  pair: QUN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=qun_usdt
-- base:
-    currency_id: 2375
-    currency_symbol: QUN
-    currency_type: cryptocurrency
-    exchange_symbol: QUN
-  exchange_id: 294
-  exchange_name: OKEx
   pair: QUN/BTC
   quote:
     currency_id: 1
@@ -52,15 +38,15 @@ markets:
     currency_symbol: QUN
     currency_type: cryptocurrency
     exchange_symbol: QUN
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: QUN/BTC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: QUN/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/qun_btc/
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=qun_usdt
 - base:
     currency_id: 2375
     currency_symbol: QUN
@@ -75,6 +61,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/qun_eth/
+- base:
+    currency_id: 2375
+    currency_symbol: QUN
+    currency_type: cryptocurrency
+    exchange_symbol: QUN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: QUN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/qun_btc/
 - base:
     currency_id: 2375
     currency_symbol: QUN
@@ -150,20 +150,6 @@ markets:
     currency_symbol: QUN
     currency_type: cryptocurrency
     exchange_symbol: QUN
-  exchange_id: 459
-  exchange_name: BW.com
-  pair: QUN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bw.com/trade/qun_usdt
-- base:
-    currency_id: 2375
-    currency_symbol: QUN
-    currency_type: cryptocurrency
-    exchange_symbol: QUN
   exchange_id: 326
   exchange_name: ZB.COM
   pair: QUN/USDT
@@ -174,7 +160,7 @@ markets:
     exchange_symbol: USDT
   url: https://trans.zb.com/qunusdt
 name: QunQun
-rank: 603
+rank: 614
 slug: qunqun
 status: active
 symbol: QUN

@@ -40,15 +40,15 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: CHR/KRW
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CHR/USDT
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/CHRKRW
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/CHR_USDT?ref=H31B921U
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -68,15 +68,15 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 270
-  exchange_name: Binance
-  pair: CHR/USDT
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: CHR/KRW
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/CHR_USDT?ref=H31B921U
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/CHRKRW
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -124,20 +124,6 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 270
-  exchange_name: Binance
-  pair: CHR/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/CHR_BNB?ref=H31B921U
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
   exchange_id: 453
   exchange_name: BitMax
   pair: CHR/BTC
@@ -147,6 +133,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bitmax.io/#/trade/btc/chr
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CHR/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/CHR_BNB?ref=H31B921U
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -218,7 +218,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=CHR_ETH
 name: Chromia
-rank: 450
+rank: 451
 slug: chromia
 status: active
 symbol: CHR

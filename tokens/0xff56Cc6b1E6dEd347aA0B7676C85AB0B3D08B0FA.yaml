@@ -27,20 +27,6 @@ markets:
     currency_symbol: ORBS
     currency_type: cryptocurrency
     exchange_symbol: ORBS
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: ORBS/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/ORBSKRW
-- base:
-    currency_id: 3835
-    currency_symbol: ORBS
-    currency_type: cryptocurrency
-    exchange_symbol: ORBS
   exchange_id: 351
   exchange_name: Upbit
   pair: ORBS/KRW
@@ -50,6 +36,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-ORBS
+- base:
+    currency_id: 3835
+    currency_symbol: ORBS
+    currency_type: cryptocurrency
+    exchange_symbol: ORBS
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: ORBS/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/ORBSKRW
 - base:
     currency_id: 3835
     currency_symbol: ORBS
@@ -78,20 +78,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=orbs
-- base:
-    currency_id: 3835
-    currency_symbol: ORBS
-    currency_type: cryptocurrency
-    exchange_symbol: ORBS
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: ORBS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-ORBS
 - base:
     currency_id: 3835
     currency_symbol: ORBS
@@ -148,6 +134,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bilaxy.com/trade/ORBS_BTC
+- base:
+    currency_id: 3835
+    currency_symbol: ORBS
+    currency_type: cryptocurrency
+    exchange_symbol: ORBS
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: ORBS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-ORBS
 - base:
     currency_id: 3835
     currency_symbol: ORBS
@@ -225,20 +225,6 @@ markets:
     exchange_symbol: ORBS
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: ORBS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.probit.com/app/exchange/ORBS-BTC
-- base:
-    currency_id: 3835
-    currency_symbol: ORBS
-    currency_type: cryptocurrency
-    exchange_symbol: ORBS
-  exchange_id: 477
-  exchange_name: ProBit Exchange
   pair: ORBS/USDT
   quote:
     currency_id: 825
@@ -246,6 +232,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.probit.com/app/exchange/ORBS-USDT
+- base:
+    currency_id: 3835
+    currency_symbol: ORBS
+    currency_type: cryptocurrency
+    exchange_symbol: ORBS
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: ORBS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.probit.com/app/exchange/ORBS-BTC
 - base:
     currency_id: 3835
     currency_symbol: ORBS
@@ -261,7 +261,7 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/orbs
 name: Orbs
-rank: 133
+rank: 140
 slug: orbs
 status: active
 symbol: ORBS

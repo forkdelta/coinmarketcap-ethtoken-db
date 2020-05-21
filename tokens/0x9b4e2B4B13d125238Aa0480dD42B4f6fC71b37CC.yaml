@@ -64,20 +64,6 @@ markets:
     currency_symbol: MT
     currency_type: cryptocurrency
     exchange_symbol: MT
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: MT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bibox.com/exchange?coinPair=MT_USDT
-- base:
-    currency_id: 2712
-    currency_symbol: MT
-    currency_type: cryptocurrency
-    exchange_symbol: MT
   exchange_id: 102
   exchange_name: Huobi Global
   pair: MT/BTC
@@ -87,6 +73,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hbg.com/en-us/exchange/mt_btc/
+- base:
+    currency_id: 2712
+    currency_symbol: MT
+    currency_type: cryptocurrency
+    exchange_symbol: MT
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: MT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bibox.com/exchange?coinPair=MT_USDT
 - base:
     currency_id: 2712
     currency_symbol: MT
@@ -242,7 +242,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=MTETH
 name: MyToken
-rank: 2175
+rank: 2157
 slug: mytoken
 status: active
 symbol: MT
