@@ -49,34 +49,6 @@ markets:
     currency_symbol: LTO
     currency_type: cryptocurrency
     exchange_symbol: LTO
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: LTO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://omgfin.com/exchange/trade/market/LTOBTC
-- base:
-    currency_id: 3714
-    currency_symbol: LTO
-    currency_type: cryptocurrency
-    exchange_symbol: LTO
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: LTO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://omgfin.com/exchange/trade/market/LTOETH
-- base:
-    currency_id: 3714
-    currency_symbol: LTO
-    currency_type: cryptocurrency
-    exchange_symbol: LTO
   exchange_id: 270
   exchange_name: Binance
   pair: LTO/USDT
@@ -86,20 +58,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/LTO_USDT?ref=H31B921U
-- base:
-    currency_id: 3714
-    currency_symbol: LTO
-    currency_type: cryptocurrency
-    exchange_symbol: LTO
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: LTO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/lto
 - base:
     currency_id: 3714
     currency_symbol: LTO
@@ -119,6 +77,34 @@ markets:
     currency_symbol: LTO
     currency_type: cryptocurrency
     exchange_symbol: LTO
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: LTO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/lto
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: LTO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://omgfin.com/exchange/trade/market/LTOBTC
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
   exchange_id: 656
   exchange_name: Omgfin
   pair: LTO/USDT
@@ -133,15 +119,15 @@ markets:
     currency_symbol: LTO
     currency_type: cryptocurrency
     exchange_symbol: LTO
-  exchange_id: 270
-  exchange_name: Binance
-  pair: LTO/BNB
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: LTO/ETH
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/LTO_BNB?ref=H31B921U
+    exchange_symbol: ETH
+  url: https://omgfin.com/exchange/trade/market/LTOETH
 - base:
     currency_id: 3714
     currency_symbol: LTO
@@ -156,6 +142,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 270
+  exchange_name: Binance
+  pair: LTO/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/LTO_BNB?ref=H31B921U
 - base:
     currency_id: 3714
     currency_symbol: LTO
@@ -203,20 +203,6 @@ markets:
     currency_symbol: LTO
     currency_type: cryptocurrency
     exchange_symbol: LTO
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: LTO/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/LTO-BDF_BNB
-- base:
-    currency_id: 3714
-    currency_symbol: LTO
-    currency_type: cryptocurrency
-    exchange_symbol: LTO
   exchange_id: 453
   exchange_name: BitMax
   pair: LTO/ETH
@@ -245,6 +231,20 @@ markets:
     currency_symbol: LTO
     currency_type: cryptocurrency
     exchange_symbol: LTO
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: LTO/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/LTO-BDF_BNB
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
   exchange_id: 104
   exchange_name: LiteBit.eu
   pair: LTO/EUR
@@ -255,7 +255,7 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/lto-network
 name: LTO Network
-rank: 352
+rank: 363
 slug: lto-network
 status: active
 symbol: LTO

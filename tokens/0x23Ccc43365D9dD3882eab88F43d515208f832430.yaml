@@ -51,20 +51,6 @@ markets:
     currency_symbol: MAS
     currency_type: cryptocurrency
     exchange_symbol: MAS
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: MAS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=MAS_BTC
-- base:
-    currency_id: 3352
-    currency_symbol: MAS
-    currency_type: cryptocurrency
-    exchange_symbol: MAS
   exchange_id: 476
   exchange_name: VINEX Network
   pair: MAS/ETH
@@ -79,15 +65,15 @@ markets:
     currency_symbol: MAS
     currency_type: cryptocurrency
     exchange_symbol: MAS
-  exchange_id: 476
-  exchange_name: VINEX Network
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: MAS/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://vinex.network/market/BTC_MAS
+  url: https://www.hotbit.io/exchange?symbol=MAS_BTC
 - base:
     currency_id: 3352
     currency_symbol: MAS
@@ -102,8 +88,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/mas
+- base:
+    currency_id: 3352
+    currency_symbol: MAS
+    currency_type: cryptocurrency
+    exchange_symbol: MAS
+  exchange_id: 476
+  exchange_name: VINEX Network
+  pair: MAS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vinex.network/market/BTC_MAS
 name: MidasProtocol
-rank: 1048
+rank: 1050
 slug: midasprotocol
 status: active
 symbol: MAS

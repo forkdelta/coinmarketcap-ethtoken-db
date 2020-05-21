@@ -29,20 +29,6 @@ markets:
     currency_symbol: SENT
     currency_type: cryptocurrency
     exchange_symbol: SENT
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: SENT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/sent
-- base:
-    currency_id: 2643
-    currency_symbol: SENT
-    currency_type: cryptocurrency
-    exchange_symbol: SENT
   exchange_id: 400
   exchange_name: Hotbit
   pair: SENT/ETH
@@ -85,15 +71,15 @@ markets:
     currency_symbol: SENT
     currency_type: cryptocurrency
     exchange_symbol: SENT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SENT/BTC
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: SENT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/SENT-to-BTC
+    exchange_symbol: ETH
+  url: https://idex.market/eth/sent
 - base:
     currency_id: 2643
     currency_symbol: SENT
@@ -122,6 +108,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/SENT-to-ETH
+- base:
+    currency_id: 2643
+    currency_symbol: SENT
+    currency_type: cryptocurrency
+    exchange_symbol: SENT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SENT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/SENT-to-BTC
 - base:
     currency_id: 2643
     currency_symbol: SENT
@@ -165,7 +165,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.coinall.com/market?product=sent_eth
 name: Sentinel
-rank: 805
+rank: 794
 slug: sentinel
 status: active
 symbol: SENT

@@ -55,20 +55,6 @@ markets:
     currency_symbol: COCOS
     currency_type: cryptocurrency
     exchange_symbol: COCOS
-  exchange_id: 549
-  exchange_name: CITEX
-  pair: COCOS/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trade.citex.co.kr/trade/COCOS_USDT
-- base:
-    currency_id: 4275
-    currency_symbol: COCOS
-    currency_type: cryptocurrency
-    exchange_symbol: COCOS
   exchange_id: 270
   exchange_name: Binance
   pair: COCOS/BNB
@@ -78,6 +64,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNB
   url: https://www.binance.com/en/trade/COCOS_BNB?ref=H31B921U
+- base:
+    currency_id: 4275
+    currency_symbol: COCOS
+    currency_type: cryptocurrency
+    exchange_symbol: COCOS
+  exchange_id: 549
+  exchange_name: CITEX
+  pair: COCOS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://trade.citex.co.kr/trade/COCOS_USDT
 - base:
     currency_id: 4275
     currency_symbol: COCOS
@@ -99,20 +99,6 @@ markets:
     exchange_symbol: COCOS
   exchange_id: 400
   exchange_name: Hotbit
-  pair: COCOS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=COCOS_BTC
-- base:
-    currency_id: 4275
-    currency_symbol: COCOS
-    currency_type: cryptocurrency
-    exchange_symbol: COCOS
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: COCOS/ETH
   quote:
     currency_id: 1027
@@ -120,6 +106,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=COCOS_ETH
+- base:
+    currency_id: 4275
+    currency_symbol: COCOS
+    currency_type: cryptocurrency
+    exchange_symbol: COCOS
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: COCOS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=COCOS_BTC
 - base:
     currency_id: 4275
     currency_symbol: COCOS
@@ -191,7 +191,7 @@ markets:
     exchange_symbol: BTC
   url: https://trade.citex.co.kr/trade/COCOS_BTC
 name: Cocos-BCX
-rank: 368
+rank: 379
 slug: cocos-bcx
 status: active
 symbol: COCOS
