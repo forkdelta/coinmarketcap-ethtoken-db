@@ -34,6 +34,34 @@ markets:
     currency_symbol: EDO
     currency_type: cryptocurrency
     exchange_symbol: EDO
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: EDO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=edo_btc
+- base:
+    currency_id: 2057
+    currency_symbol: EDO
+    currency_type: cryptocurrency
+    exchange_symbol: EDO
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: EDO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=edo_usdt
+- base:
+    currency_id: 2057
+    currency_symbol: EDO
+    currency_type: cryptocurrency
+    exchange_symbol: EDO
   exchange_id: 270
   exchange_name: Binance
   pair: EDO/BTC
@@ -62,15 +90,15 @@ markets:
     currency_symbol: EDO
     currency_type: cryptocurrency
     exchange_symbol: EDO
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: EDO/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: EDO/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=edo_usdt
+    exchange_symbol: BTC
+  url: https://hitbtc.com/EDO-to-BTC
 - base:
     currency_id: 2057
     currency_symbol: EDO
@@ -90,34 +118,6 @@ markets:
     currency_symbol: EDO
     currency_type: cryptocurrency
     exchange_symbol: EDO
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: EDO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=edo_btc
-- base:
-    currency_id: 2057
-    currency_symbol: EDO
-    currency_type: cryptocurrency
-    exchange_symbol: EDO
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: EDO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/EDO-to-BTC
-- base:
-    currency_id: 2057
-    currency_symbol: EDO
-    currency_type: cryptocurrency
-    exchange_symbol: EDO
   exchange_id: 37
   exchange_name: Bitfinex
   pair: EDO/USD
@@ -126,7 +126,7 @@ markets:
     currency_symbol: USD
     currency_type: fiat
     exchange_symbol: USD
-  url: https://www.bitfinex.com/t/EDO:USD
+  url: https://www.bitfinex.com/t/EDO:USD?refcode=H70YTMupQ
 - base:
     currency_id: 2057
     currency_symbol: EDO
@@ -140,7 +140,7 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/EDO:BTC
+  url: https://www.bitfinex.com/t/EDO:BTC?refcode=H70YTMupQ
 - base:
     currency_id: 2057
     currency_symbol: EDO
@@ -168,7 +168,7 @@ markets:
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.bitfinex.com/t/EDO:ETH
+  url: https://www.bitfinex.com/t/EDO:ETH?refcode=H70YTMupQ
 - base:
     currency_id: 2057
     currency_symbol: EDO
@@ -240,7 +240,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=EDO&market=USDT
 name: Eidoo
-rank: 182
+rank: 186
 slug: eidoo
 status: active
 symbol: EDO

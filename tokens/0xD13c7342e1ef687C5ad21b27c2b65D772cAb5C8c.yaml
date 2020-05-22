@@ -61,7 +61,7 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/UOS:BTC
+  url: https://www.bitfinex.com/t/UOS:BTC?refcode=H70YTMupQ
 - base:
     currency_id: 4189
     currency_symbol: UOS
@@ -75,7 +75,7 @@ markets:
     currency_symbol: USD
     currency_type: fiat
     exchange_symbol: USD
-  url: https://www.bitfinex.com/t/UOS:USD
+  url: https://www.bitfinex.com/t/UOS:USD?refcode=H70YTMupQ
 - base:
     currency_id: 4189
     currency_symbol: UOS
@@ -90,6 +90,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bitrue.com/trade/uos_usdt
+- base:
+    currency_id: 4189
+    currency_symbol: UOS
+    currency_type: cryptocurrency
+    exchange_symbol: UOS
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: UOS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitrue.com/trade/uos_btc
 - base:
     currency_id: 4189
     currency_symbol: UOS
@@ -118,22 +132,8 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://coinone.co.kr/exchange/trade/uos/
-- base:
-    currency_id: 4189
-    currency_symbol: UOS
-    currency_type: cryptocurrency
-    exchange_symbol: UOS
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: UOS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/uos_btc
 name: Ultra
-rank: 315
+rank: 347
 slug: ultra
 status: active
 symbol: UOS

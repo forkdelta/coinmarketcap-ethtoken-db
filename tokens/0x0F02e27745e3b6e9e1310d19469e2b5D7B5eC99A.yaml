@@ -54,6 +54,20 @@ markets:
     exchange_symbol: PCL
   exchange_id: 460
   exchange_name: Coinsbit
+  pair: PCL/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coinsbit.io/trade/PCL_BTC
+- base:
+    currency_id: 2610
+    currency_symbol: PCL
+    currency_type: cryptocurrency
+    exchange_symbol: PCL
+  exchange_id: 460
+  exchange_name: Coinsbit
   pair: PCL/ETH
   quote:
     currency_id: 1027
@@ -80,20 +94,6 @@ markets:
     currency_symbol: PCL
     currency_type: cryptocurrency
     exchange_symbol: PCL
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: PCL/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coinsbit.io/trade/PCL_BTC
-- base:
-    currency_id: 2610
-    currency_symbol: PCL
-    currency_type: cryptocurrency
-    exchange_symbol: PCL
   exchange_id: 310
   exchange_name: IDEX
   pair: PCL/ETH
@@ -110,20 +110,6 @@ markets:
     exchange_symbol: PCL
   exchange_id: 400
   exchange_name: Hotbit
-  pair: PCL/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=PCL_BTC
-- base:
-    currency_id: 2610
-    currency_symbol: PCL
-    currency_type: cryptocurrency
-    exchange_symbol: PCL
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: PCL/ETH
   quote:
     currency_id: 1027
@@ -131,8 +117,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=PCL_ETH
+- base:
+    currency_id: 2610
+    currency_symbol: PCL
+    currency_type: cryptocurrency
+    exchange_symbol: PCL
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: PCL/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=PCL_BTC
 name: Peculium
-rank: 485
+rank: 497
 slug: peculium
 status: active
 symbol: PCL
