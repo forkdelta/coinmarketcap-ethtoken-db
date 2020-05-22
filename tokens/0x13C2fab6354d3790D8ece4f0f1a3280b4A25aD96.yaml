@@ -37,20 +37,6 @@ markets:
     exchange_symbol: PHI
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: PHI/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/PHI_USD
-- base:
-    currency_id: 2676
-    currency_symbol: PHI
-    currency_type: cryptocurrency
-    exchange_symbol: PHI
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: PHI/BTC
   quote:
     currency_id: 1
@@ -58,6 +44,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://p2pb2b.io/trade/PHI_BTC
+- base:
+    currency_id: 2676
+    currency_symbol: PHI
+    currency_type: cryptocurrency
+    exchange_symbol: PHI
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: PHI/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/PHI_USD
 - base:
     currency_id: 2676
     currency_symbol: PHI
@@ -73,7 +73,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.livecoin.net/en/trading/PHI_BTC
 name: PHI Token
-rank: 1040
+rank: 1043
 slug: phi-token
 status: active
 symbol: PHI

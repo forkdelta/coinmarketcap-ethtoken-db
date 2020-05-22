@@ -43,20 +43,6 @@ markets:
     currency_symbol: OLT
     currency_type: cryptocurrency
     exchange_symbol: OLT
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: OLT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/olt
-- base:
-    currency_id: 2921
-    currency_symbol: OLT
-    currency_type: cryptocurrency
-    exchange_symbol: OLT
   exchange_id: 350
   exchange_name: CoinEx
   pair: OLT/BTC
@@ -66,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.coinex.com/trading?currency=btc&dest=olt&tab=limit
+- base:
+    currency_id: 2921
+    currency_symbol: OLT
+    currency_type: cryptocurrency
+    exchange_symbol: OLT
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: OLT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/olt
 - base:
     currency_id: 2921
     currency_symbol: OLT
@@ -137,7 +137,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/olt
 name: OneLedger
-rank: 719
+rank: 730
 slug: oneledger
 status: active
 symbol: OLT

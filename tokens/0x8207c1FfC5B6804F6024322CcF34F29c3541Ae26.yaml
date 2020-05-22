@@ -52,20 +52,6 @@ markets:
     exchange_symbol: OGN
   exchange_id: 270
   exchange_name: Binance
-  pair: OGN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/OGN_BTC?ref=H31B921U
-- base:
-    currency_id: 5117
-    currency_symbol: OGN
-    currency_type: cryptocurrency
-    exchange_symbol: OGN
-  exchange_id: 270
-  exchange_name: Binance
   pair: OGN/USDT
   quote:
     currency_id: 825
@@ -73,6 +59,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/OGN_USDT?ref=H31B921U
+- base:
+    currency_id: 5117
+    currency_symbol: OGN
+    currency_type: cryptocurrency
+    exchange_symbol: OGN
+  exchange_id: 270
+  exchange_name: Binance
+  pair: OGN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/OGN_BTC?ref=H31B921U
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -106,20 +106,6 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: OGN/UQC
-  quote:
-    currency_id: 2273
-    currency_symbol: UQC
-    currency_type: cryptocurrency
-    exchange_symbol: UQC
-  url: https://omgfin.com/exchange/trade/market/OGNUQC
-- base:
-    currency_id: 5117
-    currency_symbol: OGN
-    currency_type: cryptocurrency
-    exchange_symbol: OGN
   exchange_id: 528
   exchange_name: BiKi
   pair: OGN/USDT
@@ -136,13 +122,13 @@ markets:
     exchange_symbol: OGN
   exchange_id: 656
   exchange_name: Omgfin
-  pair: OGN/ETH
+  pair: OGN/UQC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 2273
+    currency_symbol: UQC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://omgfin.com/exchange/trade/market/OGNETH
+    exchange_symbol: UQC
+  url: https://omgfin.com/exchange/trade/market/OGNUQC
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -162,6 +148,20 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: OGN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://omgfin.com/exchange/trade/market/OGNETH
+- base:
+    currency_id: 5117
+    currency_symbol: OGN
+    currency_type: cryptocurrency
+    exchange_symbol: OGN
   exchange_id: 174
   exchange_name: Coinone
   pair: OGN/KRW
@@ -171,20 +171,6 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://coinone.co.kr/exchange/trade/ogn/
-- base:
-    currency_id: 5117
-    currency_symbol: OGN
-    currency_type: cryptocurrency
-    exchange_symbol: OGN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: OGN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/OGNBTC
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -232,15 +218,15 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
-  exchange_id: 710
-  exchange_name: Tokocrypto
-  pair: OGN/IDR
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: OGN/BTC
   quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://tokocrypto.com/en/dashboard/OGNIDR
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/OGNBTC
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -255,6 +241,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-OGN
+- base:
+    currency_id: 5117
+    currency_symbol: OGN
+    currency_type: cryptocurrency
+    exchange_symbol: OGN
+  exchange_id: 710
+  exchange_name: Tokocrypto
+  pair: OGN/IDR
+  quote:
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://tokocrypto.com/en/dashboard/OGNIDR
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -284,7 +284,7 @@ markets:
     exchange_symbol: KRW
   url: https://www.gopax.co.kr/exchange/ogn-krw
 name: Origin Protocol
-rank: 429
+rank: 430
 slug: origin-protocol
 status: active
 symbol: OGN

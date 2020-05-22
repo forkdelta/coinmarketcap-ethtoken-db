@@ -35,20 +35,6 @@ markets:
     currency_symbol: POWR
     currency_type: cryptocurrency
     exchange_symbol: POWR
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: POWR/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-POWR
-- base:
-    currency_id: 2132
-    currency_symbol: POWR
-    currency_type: cryptocurrency
-    exchange_symbol: POWR
   exchange_id: 380
   exchange_name: LATOKEN
   pair: POWR/BTC
@@ -58,6 +44,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://latoken.com/exchange/BTC-POWR
+- base:
+    currency_id: 2132
+    currency_symbol: POWR
+    currency_type: cryptocurrency
+    exchange_symbol: POWR
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: POWR/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-POWR
 - base:
     currency_id: 2132
     currency_symbol: POWR
@@ -133,6 +133,20 @@ markets:
     currency_symbol: POWR
     currency_type: cryptocurrency
     exchange_symbol: POWR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: POWR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/POWR-to-BTC
+- base:
+    currency_id: 2132
+    currency_symbol: POWR
+    currency_type: cryptocurrency
+    exchange_symbol: POWR
   exchange_id: 270
   exchange_name: Binance
   pair: POWR/ETH
@@ -161,34 +175,6 @@ markets:
     currency_symbol: POWR
     currency_type: cryptocurrency
     exchange_symbol: POWR
-  exchange_id: 520
-  exchange_name: Bitvavo
-  pair: POWR/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://account.bitvavo.com/markets/POWR-EUR
-- base:
-    currency_id: 2132
-    currency_symbol: POWR
-    currency_type: cryptocurrency
-    exchange_symbol: POWR
-  exchange_id: 224
-  exchange_name: BTC Markets
-  pair: POWR/AUD
-  quote:
-    currency_id: 2782
-    currency_symbol: AUD
-    currency_type: fiat
-    exchange_symbol: AUD
-  url: https://btcmarkets.net/
-- base:
-    currency_id: 2132
-    currency_symbol: POWR
-    currency_type: cryptocurrency
-    exchange_symbol: POWR
   exchange_id: 495
   exchange_name: Folgory
   pair: POWR/BTC
@@ -203,6 +189,34 @@ markets:
     currency_symbol: POWR
     currency_type: cryptocurrency
     exchange_symbol: POWR
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: POWR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://dex-trade.com/en?currencyIn=POWR&currencyTo=BTC
+- base:
+    currency_id: 2132
+    currency_symbol: POWR
+    currency_type: cryptocurrency
+    exchange_symbol: POWR
+  exchange_id: 520
+  exchange_name: Bitvavo
+  pair: POWR/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://account.bitvavo.com/markets/POWR-EUR
+- base:
+    currency_id: 2132
+    currency_symbol: POWR
+    currency_type: cryptocurrency
+    exchange_symbol: POWR
   exchange_id: 102
   exchange_name: Huobi Global
   pair: POWR/ETH
@@ -212,20 +226,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/powr_eth/
-- base:
-    currency_id: 2132
-    currency_symbol: POWR
-    currency_type: cryptocurrency
-    exchange_symbol: POWR
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: POWR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/powr_btc
 - base:
     currency_id: 2132
     currency_symbol: POWR
@@ -259,29 +259,29 @@ markets:
     currency_symbol: POWR
     currency_type: cryptocurrency
     exchange_symbol: POWR
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 433
+  exchange_name: Bitrue
   pair: POWR/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/POWR-to-BTC
+  url: https://www.bitrue.com/trade/powr_btc
 - base:
     currency_id: 2132
     currency_symbol: POWR
     currency_type: cryptocurrency
     exchange_symbol: POWR
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: POWR/BTC
+  exchange_id: 224
+  exchange_name: BTC Markets
+  pair: POWR/AUD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/POWRBTC
+    currency_id: 2782
+    currency_symbol: AUD
+    currency_type: fiat
+    exchange_symbol: AUD
+  url: https://btcmarkets.net/
 - base:
     currency_id: 2132
     currency_symbol: POWR
@@ -315,20 +315,6 @@ markets:
     currency_symbol: POWR
     currency_type: cryptocurrency
     exchange_symbol: POWR
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: POWR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitrue.com/trade/powr_eth
-- base:
-    currency_id: 2132
-    currency_symbol: POWR
-    currency_type: cryptocurrency
-    exchange_symbol: POWR
   exchange_id: 404
   exchange_name: Kyber Network
   pair: POWR/ETH
@@ -343,15 +329,15 @@ markets:
     currency_symbol: POWR
     currency_type: cryptocurrency
     exchange_symbol: POWR
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: POWR/BNT
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: POWR/BTC
   quote:
-    currency_id: 1727
-    currency_symbol: BNT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/POWR
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/POWRBTC
 - base:
     currency_id: 2132
     currency_symbol: POWR
@@ -371,6 +357,20 @@ markets:
     currency_symbol: POWR
     currency_type: cryptocurrency
     exchange_symbol: POWR
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: POWR/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/POWR
+- base:
+    currency_id: 2132
+    currency_symbol: POWR
+    currency_type: cryptocurrency
+    exchange_symbol: POWR
   exchange_id: 22
   exchange_name: Bittrex
   pair: POWR/BTC
@@ -385,43 +385,29 @@ markets:
     currency_symbol: POWR
     currency_type: cryptocurrency
     exchange_symbol: POWR
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: POWR/INR
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: POWR/ETH
   quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/powr
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitrue.com/trade/powr_eth
 - base:
     currency_id: 2132
     currency_symbol: POWR
     currency_type: cryptocurrency
     exchange_symbol: POWR
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: POWR/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: POWR/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/powr_usdt
-- base:
-    currency_id: 2132
-    currency_symbol: POWR
-    currency_type: cryptocurrency
-    exchange_symbol: POWR
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: POWR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/POWR_BTC
+    exchange_symbol: ETH
+  url: https://hitbtc.com/POWR-to-ETH
 - base:
     currency_id: 2132
     currency_symbol: POWR
@@ -455,6 +441,20 @@ markets:
     currency_symbol: POWR
     currency_type: cryptocurrency
     exchange_symbol: POWR
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: POWR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/POWR_BTC
+- base:
+    currency_id: 2132
+    currency_symbol: POWR
+    currency_type: cryptocurrency
+    exchange_symbol: POWR
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: POWR/BTC
@@ -469,15 +469,43 @@ markets:
     currency_symbol: POWR
     currency_type: cryptocurrency
     exchange_symbol: POWR
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: POWR/INR
+  quote:
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/powr
+- base:
+    currency_id: 2132
+    currency_symbol: POWR
+    currency_type: cryptocurrency
+    exchange_symbol: POWR
+  exchange_id: 302
+  exchange_name: Gate.io
   pair: POWR/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://hitbtc.com/POWR-to-ETH
+  url: https://gate.io/trade/powr_eth
+- base:
+    currency_id: 2132
+    currency_symbol: POWR
+    currency_type: cryptocurrency
+    exchange_symbol: POWR
+  exchange_id: 224
+  exchange_name: BTC Markets
+  pair: POWR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://btcmarkets.net/
 - base:
     currency_id: 2132
     currency_symbol: POWR
@@ -513,13 +541,13 @@ markets:
     exchange_symbol: POWR
   exchange_id: 302
   exchange_name: Gate.io
-  pair: POWR/ETH
+  pair: POWR/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/powr_eth
+    exchange_symbol: USDT
+  url: https://gate.io/trade/powr_usdt
 - base:
     currency_id: 2132
     currency_symbol: POWR
@@ -541,20 +569,6 @@ markets:
     exchange_symbol: POWR
   exchange_id: 154
   exchange_name: Dex-Trade
-  pair: POWR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://dex-trade.com/en?currencyIn=POWR&currencyTo=BTC
-- base:
-    currency_id: 2132
-    currency_symbol: POWR
-    currency_type: cryptocurrency
-    exchange_symbol: POWR
-  exchange_id: 154
-  exchange_name: Dex-Trade
   pair: POWR/ETH
   quote:
     currency_id: 1027
@@ -562,20 +576,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://dex-trade.com/en?currencyIn=POWR&currencyTo=ETH
-- base:
-    currency_id: 2132
-    currency_symbol: POWR
-    currency_type: cryptocurrency
-    exchange_symbol: POWR
-  exchange_id: 224
-  exchange_name: BTC Markets
-  pair: POWR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://btcmarkets.net/
 - base:
     currency_id: 2132
     currency_symbol: POWR
@@ -633,7 +633,7 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/power-ledger
 name: Power Ledger
-rank: 112
+rank: 117
 slug: power-ledger
 status: active
 symbol: POWR
