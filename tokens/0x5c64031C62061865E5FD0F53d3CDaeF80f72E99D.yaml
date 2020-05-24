@@ -55,20 +55,6 @@ markets:
     exchange_symbol: GARD
   exchange_id: 400
   exchange_name: Hotbit
-  pair: GARD/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=GARD_BTC
-- base:
-    currency_id: 2938
-    currency_symbol: GARD
-    currency_type: cryptocurrency
-    exchange_symbol: GARD
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: GARD/ATOM
   quote:
     currency_id: 3794
@@ -95,15 +81,15 @@ markets:
     currency_symbol: GARD
     currency_type: cryptocurrency
     exchange_symbol: GARD
-  exchange_id: 506
-  exchange_name: ChainX
-  pair: GARD/KRW
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: GARD/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://chainx.kr/exchange/GARD-KRW
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=GARD_BTC
 - base:
     currency_id: 2938
     currency_symbol: GARD
@@ -118,6 +104,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/gard_eth
+- base:
+    currency_id: 2938
+    currency_symbol: GARD
+    currency_type: cryptocurrency
+    exchange_symbol: GARD
+  exchange_id: 506
+  exchange_name: ChainX
+  pair: GARD/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://chainx.kr/exchange/GARD-KRW
 - base:
     currency_id: 2938
     currency_symbol: GARD
@@ -153,6 +153,20 @@ markets:
     exchange_symbol: GARD
   exchange_id: 477
   exchange_name: ProBit Exchange
+  pair: GARD/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.probit.com/app/exchange/GARD-USDT
+- base:
+    currency_id: 2938
+    currency_symbol: GARD
+    currency_type: cryptocurrency
+    exchange_symbol: GARD
+  exchange_id: 477
+  exchange_name: ProBit Exchange
   pair: GARD/ETH
   quote:
     currency_id: 1027
@@ -174,22 +188,8 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/GARD-KRW
-- base:
-    currency_id: 2938
-    currency_symbol: GARD
-    currency_type: cryptocurrency
-    exchange_symbol: GARD
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: GARD/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.probit.com/app/exchange/GARD-USDT
 name: Hashgard
-rank: 935
+rank: 877
 slug: hashgard
 status: active
 symbol: GARD

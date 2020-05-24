@@ -121,20 +121,6 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: ENG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/ENG/BTC
-- base:
-    currency_id: 2044
-    currency_symbol: ENG
-    currency_type: cryptocurrency
-    exchange_symbol: ENG
   exchange_id: 436
   exchange_name: Bitkub
   pair: ENG/THB
@@ -165,13 +151,13 @@ markets:
     exchange_symbol: ENG
   exchange_id: 213
   exchange_name: Mercatox
-  pair: ENG/ETH
+  pair: ENG/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/ENG/ETH
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/ENG/BTC
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -191,20 +177,6 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: ENG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/eng_btc
-- base:
-    currency_id: 2044
-    currency_symbol: ENG
-    currency_type: cryptocurrency
-    exchange_symbol: ENG
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: ENG/BTC
@@ -214,20 +186,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=eng
-- base:
-    currency_id: 2044
-    currency_symbol: ENG
-    currency_type: cryptocurrency
-    exchange_symbol: ENG
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: ENG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://alterdice.com/trading/ENGBTC
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -275,29 +233,43 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: ENG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 2044
-    currency_symbol: ENG
-    currency_type: cryptocurrency
-    exchange_symbol: ENG
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 213
+  exchange_name: Mercatox
   pair: ENG/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=ENG_ETH
+  url: https://mercatox.com/exchange/ENG/ETH
+- base:
+    currency_id: 2044
+    currency_symbol: ENG
+    currency_type: cryptocurrency
+    exchange_symbol: ENG
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: ENG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitrue.com/trade/eng_btc
+- base:
+    currency_id: 2044
+    currency_symbol: ENG
+    currency_type: cryptocurrency
+    exchange_symbol: ENG
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: ENG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://alterdice.com/trading/ENGBTC
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -317,34 +289,6 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: ENG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=ENG_BTC
-- base:
-    currency_id: 2044
-    currency_symbol: ENG
-    currency_type: cryptocurrency
-    exchange_symbol: ENG
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: ENG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/eng_eth/
-- base:
-    currency_id: 2044
-    currency_symbol: ENG
-    currency_type: cryptocurrency
-    exchange_symbol: ENG
   exchange_id: 433
   exchange_name: Bitrue
   pair: ENG/ETH
@@ -354,6 +298,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitrue.com/trade/eng_eth
+- base:
+    currency_id: 2044
+    currency_symbol: ENG
+    currency_type: cryptocurrency
+    exchange_symbol: ENG
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: ENG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=ENG_ETH
+- base:
+    currency_id: 2044
+    currency_symbol: ENG
+    currency_type: cryptocurrency
+    exchange_symbol: ENG
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: ENG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=ENG_BTC
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -373,20 +345,6 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: ENG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/eng
-- base:
-    currency_id: 2044
-    currency_symbol: ENG
-    currency_type: cryptocurrency
-    exchange_symbol: ENG
   exchange_id: 335
   exchange_name: GOPAX
   pair: ENG/KRW
@@ -396,6 +354,34 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.gopax.co.kr/exchange/eng-krw
+- base:
+    currency_id: 2044
+    currency_symbol: ENG
+    currency_type: cryptocurrency
+    exchange_symbol: ENG
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: ENG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 2044
+    currency_symbol: ENG
+    currency_type: cryptocurrency
+    exchange_symbol: ENG
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: ENG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/eng_eth/
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -415,20 +401,6 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: ENG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/eng_eth/
-- base:
-    currency_id: 2044
-    currency_symbol: ENG
-    currency_type: cryptocurrency
-    exchange_symbol: ENG
   exchange_id: 382
   exchange_name: Crex24
   pair: ENG/BTC
@@ -438,6 +410,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://crex24.com/exchange/ENG-BTC
+- base:
+    currency_id: 2044
+    currency_symbol: ENG
+    currency_type: cryptocurrency
+    exchange_symbol: ENG
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: ENG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/eng
+- base:
+    currency_id: 2044
+    currency_symbol: ENG
+    currency_type: cryptocurrency
+    exchange_symbol: ENG
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: ENG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/eng_eth/
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -453,7 +453,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.huobi.com.ru/exchange/#s=eng_eth
 name: Enigma
-rank: 160
+rank: 159
 slug: enigma
 status: active
 symbol: ENG

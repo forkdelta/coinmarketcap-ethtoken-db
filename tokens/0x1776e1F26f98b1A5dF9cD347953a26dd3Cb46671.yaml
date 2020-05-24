@@ -109,20 +109,6 @@ markets:
     currency_symbol: NMR
     currency_type: cryptocurrency
     exchange_symbol: NMR
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: NMR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_nmr
-- base:
-    currency_id: 1732
-    currency_symbol: NMR
-    currency_type: cryptocurrency
-    exchange_symbol: NMR
   exchange_id: 42
   exchange_name: HitBTC
   pair: NMR/BTC
@@ -137,15 +123,15 @@ markets:
     currency_symbol: NMR
     currency_type: cryptocurrency
     exchange_symbol: NMR
-  exchange_id: 351
-  exchange_name: Upbit
+  exchange_id: 16
+  exchange_name: Poloniex
   pair: NMR/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-NMR
+  url: https://poloniex.com/exchange#btc_nmr
 - base:
     currency_id: 1732
     currency_symbol: NMR
@@ -160,8 +146,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/nmr
+- base:
+    currency_id: 1732
+    currency_symbol: NMR
+    currency_type: cryptocurrency
+    exchange_symbol: NMR
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: NMR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-NMR
 name: Numeraire
-rank: 86
+rank: 82
 slug: numeraire
 status: active
 symbol: NMR

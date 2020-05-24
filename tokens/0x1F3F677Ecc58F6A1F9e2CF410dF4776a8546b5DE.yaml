@@ -67,20 +67,6 @@ markets:
     exchange_symbol: ETH
   url: https://vindax.com/exchange-base.html?symbol=VNDC_ETH
 - base:
-    currency_id: 4180
-    currency_symbol: DDK
-    currency_type: cryptocurrency
-    exchange_symbol: DDK
-  exchange_id: 535
-  exchange_name: ExMarkets
-  pair: DDK/VNDC
-  quote:
-    currency_id: 4805
-    currency_symbol: VNDC
-    currency_type: cryptocurrency
-    exchange_symbol: VNDC
-  url: https://exmarkets.com/trade/ddk-vndc
-- base:
     currency_id: 4805
     currency_symbol: VNDC
     currency_type: cryptocurrency
@@ -94,6 +80,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vindax.com/exchange-base.html?symbol=VNDC_BTC
+- base:
+    currency_id: 4180
+    currency_symbol: DDK
+    currency_type: cryptocurrency
+    exchange_symbol: DDK
+  exchange_id: 535
+  exchange_name: ExMarkets
+  pair: DDK/VNDC
+  quote:
+    currency_id: 4805
+    currency_symbol: VNDC
+    currency_type: cryptocurrency
+    exchange_symbol: VNDC
+  url: https://exmarkets.com/trade/ddk-vndc
 - base:
     currency_id: 4805
     currency_symbol: VNDC
@@ -165,7 +165,7 @@ markets:
     exchange_symbol: VNDC
   url: https://whitebit.com/trade/USDT_VNDC
 name: VNDC
-rank: 511
+rank: 530
 slug: vndc
 status: active
 symbol: VNDC

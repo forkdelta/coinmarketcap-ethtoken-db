@@ -23,6 +23,20 @@ markets:
     exchange_symbol: ALLBI
   exchange_id: 460
   exchange_name: Coinsbit
+  pair: ALLBI/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coinsbit.io/trade/ALLBI_BTC
+- base:
+    currency_id: 5024
+    currency_symbol: ALLBI
+    currency_type: cryptocurrency
+    exchange_symbol: ALLBI
+  exchange_id: 460
+  exchange_name: Coinsbit
   pair: ALLBI/ETH
   quote:
     currency_id: 1027
@@ -35,29 +49,15 @@ markets:
     currency_symbol: ALLBI
     currency_type: cryptocurrency
     exchange_symbol: ALLBI
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: ALLBI/USD
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: ALLBI/ETH
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://coinsbit.io/trade/ALLBI_USD
-- base:
-    currency_id: 5024
-    currency_symbol: ALLBI
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: ALLBI
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: ALLBI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coinsbit.io/trade/ALLBI_BTC
+    exchange_symbol: ETH
+  url: https://crex24.com/exchange/ALLBI-ETH
 - base:
     currency_id: 5024
     currency_symbol: ALLBI
@@ -93,20 +93,6 @@ markets:
     exchange_symbol: ALLBI
   exchange_id: 382
   exchange_name: Crex24
-  pair: ALLBI/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://crex24.com/exchange/ALLBI-ETH
-- base:
-    currency_id: 5024
-    currency_symbol: ALLBI
-    currency_type: cryptocurrency
-    exchange_symbol: ALLBI
-  exchange_id: 382
-  exchange_name: Crex24
   pair: ALLBI/BTC
   quote:
     currency_id: 1
@@ -114,6 +100,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://crex24.com/exchange/ALLBI-BTC
+- base:
+    currency_id: 5024
+    currency_symbol: ALLBI
+    currency_type: cryptocurrency
+    exchange_symbol: ALLBI
+  exchange_id: 460
+  exchange_name: Coinsbit
+  pair: ALLBI/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://coinsbit.io/trade/ALLBI_USD
 - base:
     currency_id: 5024
     currency_symbol: ALLBI
@@ -129,7 +129,7 @@ markets:
     exchange_symbol: BTC
   url: https://p2pb2b.io/trade/ALLBI_BTC
 name: ALL BEST ICO
-rank: 1811
+rank: 1854
 slug: all-best-ico
 status: active
 symbol: ALLBI

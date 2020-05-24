@@ -29,6 +29,20 @@ markets:
     currency_symbol: AIDUS
     currency_type: cryptocurrency
     exchange_symbol: AIDUS
+  exchange_id: 330
+  exchange_name: BigONE
+  pair: AIDUS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://big.one/trade/AIDUS-USDT
+- base:
+    currency_id: 3785
+    currency_symbol: AIDUS
+    currency_type: cryptocurrency
+    exchange_symbol: AIDUS
   exchange_id: 644
   exchange_name: FOBLGATE
   pair: AIDUS/KRW
@@ -38,20 +52,6 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.foblgate.com/trade?pairName=AIDUS/KRW
-- base:
-    currency_id: 3785
-    currency_symbol: AIDUS
-    currency_type: cryptocurrency
-    exchange_symbol: AIDUS
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: AIDUS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coinsbit.io/trade/AIDUS_BTC
 - base:
     currency_id: 3785
     currency_symbol: AIDUS
@@ -85,15 +85,15 @@ markets:
     currency_symbol: AIDUS
     currency_type: cryptocurrency
     exchange_symbol: AIDUS
-  exchange_id: 407
-  exchange_name: DigiFinex
-  pair: AIDUS/USDT
+  exchange_id: 460
+  exchange_name: Coinsbit
+  pair: AIDUS/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.digifinex.com/en-ww/trade/USDT/AIDUS
+    exchange_symbol: BTC
+  url: https://coinsbit.io/trade/AIDUS_BTC
 - base:
     currency_id: 3785
     currency_symbol: AIDUS
@@ -108,8 +108,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=AIDUSBTC
+- base:
+    currency_id: 3785
+    currency_symbol: AIDUS
+    currency_type: cryptocurrency
+    exchange_symbol: AIDUS
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: AIDUS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.digifinex.com/en-ww/trade/USDT/AIDUS
 name: AIDUS TOKEN
-rank: 815
+rank: 823
 slug: aidus-token
 status: active
 symbol: AIDUS

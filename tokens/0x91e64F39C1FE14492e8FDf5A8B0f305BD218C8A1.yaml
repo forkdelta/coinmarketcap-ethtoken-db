@@ -31,20 +31,6 @@ markets:
     exchange_symbol: VDX
   exchange_id: 733
   exchange_name: VCC Exchange
-  pair: VDX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://vcc.exchange/exchange/basic?currency=usdt&coin=vdx
-- base:
-    currency_id: 3962
-    currency_symbol: VDX
-    currency_type: cryptocurrency
-    exchange_symbol: VDX
-  exchange_id: 733
-  exchange_name: VCC Exchange
   pair: VDX/BTC
   quote:
     currency_id: 1
@@ -57,15 +43,15 @@ markets:
     currency_symbol: VDX
     currency_type: cryptocurrency
     exchange_symbol: VDX
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: VDX/BTC
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: VDX/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-VDX
+    exchange_symbol: USDT
+  url: https://vcc.exchange/exchange/basic?currency=usdt&coin=vdx
 - base:
     currency_id: 3962
     currency_symbol: VDX
@@ -98,6 +84,20 @@ markets:
     currency_id: 3962
     currency_symbol: VDX
     currency_type: cryptocurrency
+    exchange_symbol: VDX
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: VDX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-VDX
+- base:
+    currency_id: 3962
+    currency_symbol: VDX
+    currency_type: cryptocurrency
     exchange_symbol: VDX-A17
   exchange_id: 486
   exchange_name: Binance DEX
@@ -109,7 +109,7 @@ markets:
     exchange_symbol: BNB
   url: https://www.binance.org/en/trade/VDX-A17_BNB
 name: Vodi X
-rank: 1225
+rank: 1235
 slug: vodi-x
 status: active
 symbol: VDX
