@@ -39,20 +39,6 @@ markets:
     exchange_symbol: MLN
   exchange_id: 24
   exchange_name: Kraken
-  pair: MLN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kraken.com/markets/kraken/mln/btc
-- base:
-    currency_id: 1552
-    currency_symbol: MLN
-    currency_type: cryptocurrency
-    exchange_symbol: MLN
-  exchange_id: 24
-  exchange_name: Kraken
   pair: MLN/ETH
   quote:
     currency_id: 1027
@@ -107,6 +93,34 @@ markets:
     currency_symbol: MLN
     currency_type: cryptocurrency
     exchange_symbol: MLN
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: MLN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.kraken.com/markets/kraken/mln/btc
+- base:
+    currency_id: 1552
+    currency_symbol: MLN
+    currency_type: cryptocurrency
+    exchange_symbol: MLN
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: MLN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/MLN-to-BTC
+- base:
+    currency_id: 1552
+    currency_symbol: MLN
+    currency_type: cryptocurrency
+    exchange_symbol: MLN
   exchange_id: 595
   exchange_name: Uniswap
   pair: MLN/ETH
@@ -116,20 +130,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://uniswap.exchange/
-- base:
-    currency_id: 1552
-    currency_symbol: MLN
-    currency_type: cryptocurrency
-    exchange_symbol: MLN
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: MLN/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/MLN:USD?refcode=H70YTMupQ
 - base:
     currency_id: 1552
     currency_symbol: MLN
@@ -151,20 +151,6 @@ markets:
     exchange_symbol: MLN
   exchange_id: 42
   exchange_name: HitBTC
-  pair: MLN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/MLN-to-BTC
-- base:
-    currency_id: 1552
-    currency_symbol: MLN
-    currency_type: cryptocurrency
-    exchange_symbol: MLN
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: MLN/ETH
   quote:
     currency_id: 1027
@@ -172,8 +158,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/MLN-to-ETH
+- base:
+    currency_id: 1552
+    currency_symbol: MLN
+    currency_type: cryptocurrency
+    exchange_symbol: MLN
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: MLN/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/MLN:USD?refcode=H70YTMupQ
 name: Melon
-rank: 463
+rank: 491
 slug: melon
 status: active
 symbol: MLN

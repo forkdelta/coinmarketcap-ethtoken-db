@@ -83,20 +83,6 @@ markets:
     currency_symbol: RTE
     currency_type: cryptocurrency
     exchange_symbol: RTE
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: RTE/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/RTE:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2880
-    currency_symbol: RTE
-    currency_type: cryptocurrency
-    exchange_symbol: RTE
   exchange_id: 339
   exchange_name: Bibox
   pair: RTE/ETH
@@ -106,6 +92,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bibox.com/exchange?coinPair=RTE_ETH
+- base:
+    currency_id: 2880
+    currency_symbol: RTE
+    currency_type: cryptocurrency
+    exchange_symbol: RTE
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: RTE/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/RTE:USD?refcode=H70YTMupQ
 - base:
     currency_id: 2880
     currency_symbol: RTE
@@ -121,7 +121,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/rte
 name: Rate3
-rank: 1090
+rank: 1083
 slug: rate3
 status: active
 symbol: RTE

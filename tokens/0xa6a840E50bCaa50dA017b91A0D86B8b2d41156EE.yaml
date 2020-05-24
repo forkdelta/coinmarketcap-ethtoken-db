@@ -30,20 +30,6 @@ markets:
     exchange_symbol: EKO
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: EKO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/eko_eth/
-- base:
-    currency_id: 2391
-    currency_symbol: EKO
-    currency_type: cryptocurrency
-    exchange_symbol: EKO
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: EKO/BTC
   quote:
     currency_id: 1
@@ -56,15 +42,15 @@ markets:
     currency_symbol: EKO
     currency_type: cryptocurrency
     exchange_symbol: EKO
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: EKO/BTC
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: EKO/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=EKO_BTC
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/eko_eth/
 - base:
     currency_id: 2391
     currency_symbol: EKO
@@ -84,15 +70,15 @@ markets:
     currency_symbol: EKO
     currency_type: cryptocurrency
     exchange_symbol: EKO
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: EKO/ETH
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: EKO/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/eko_eth/
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=EKO_BTC
 - base:
     currency_id: 2391
     currency_symbol: EKO
@@ -107,6 +93,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/eko_btc/
+- base:
+    currency_id: 2391
+    currency_symbol: EKO
+    currency_type: cryptocurrency
+    exchange_symbol: EKO
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: EKO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/eko_eth/
 - base:
     currency_id: 2391
     currency_symbol: EKO
@@ -150,7 +150,7 @@ markets:
     exchange_symbol: USDT
   url: https://hitbtc.com/EKO-to-USDT
 name: EchoLink
-rank: 1078
+rank: 1084
 slug: echolink
 status: active
 symbol: EKO

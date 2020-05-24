@@ -68,15 +68,15 @@ markets:
     currency_symbol: PNT
     currency_type: cryptocurrency
     exchange_symbol: PNT
-  exchange_id: 300
-  exchange_name: BitZ
-  pair: PNT/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: PNT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bit-z.com/exchange/pnt_usdt
+    exchange_symbol: BTC
+  url: https://hitbtc.com/PNT-to-BTC
 - base:
     currency_id: 2691
     currency_symbol: PNT
@@ -96,20 +96,6 @@ markets:
     currency_symbol: PNT
     currency_type: cryptocurrency
     exchange_symbol: PNT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: PNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/PNT-to-BTC
-- base:
-    currency_id: 2691
-    currency_symbol: PNT
-    currency_type: cryptocurrency
-    exchange_symbol: PNT
   exchange_id: 312
   exchange_name: BCEX
   pair: PNT/ETH
@@ -119,6 +105,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bcex.ca/trade/pnt_eth
+- base:
+    currency_id: 2691
+    currency_symbol: PNT
+    currency_type: cryptocurrency
+    exchange_symbol: PNT
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: PNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bit-z.com/exchange/pnt_usdt
 - base:
     currency_id: 2691
     currency_symbol: PNT
@@ -134,7 +134,7 @@ markets:
     exchange_symbol: KRW
   url: https://chainx.kr/exchange/PNT-KRW
 name: Penta
-rank: 820
+rank: 806
 slug: penta
 status: active
 symbol: PNT

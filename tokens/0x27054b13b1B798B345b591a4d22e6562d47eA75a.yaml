@@ -45,20 +45,6 @@ markets:
     currency_symbol: AST
     currency_type: cryptocurrency
     exchange_symbol: AST
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: AST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/ASTBTC
-- base:
-    currency_id: 2058
-    currency_symbol: AST
-    currency_type: cryptocurrency
-    exchange_symbol: AST
   exchange_id: 102
   exchange_name: Huobi Global
   pair: AST/BTC
@@ -73,15 +59,29 @@ markets:
     currency_symbol: AST
     currency_type: cryptocurrency
     exchange_symbol: AST
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: AST/USDT
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: AST/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=ast_usdt
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/ASTBTC
+- base:
+    currency_id: 2058
+    currency_symbol: AST
+    currency_type: cryptocurrency
+    exchange_symbol: AST
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: AST/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/ast
 - base:
     currency_id: 2058
     currency_symbol: AST
@@ -115,6 +115,20 @@ markets:
     currency_symbol: AST
     currency_type: cryptocurrency
     exchange_symbol: AST
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: AST/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=ast_usdt
+- base:
+    currency_id: 2058
+    currency_symbol: AST
+    currency_type: cryptocurrency
+    exchange_symbol: AST
   exchange_id: 404
   exchange_name: Kyber Network
   pair: AST/ETH
@@ -124,20 +138,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/ast-eth
-- base:
-    currency_id: 2058
-    currency_symbol: AST
-    currency_type: cryptocurrency
-    exchange_symbol: AST
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: AST/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/ast
 - base:
     currency_id: 2058
     currency_symbol: AST
@@ -181,7 +181,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.airswap.io/trade
 name: AirSwap
-rank: 672
+rank: 643
 slug: airswap
 status: active
 symbol: AST

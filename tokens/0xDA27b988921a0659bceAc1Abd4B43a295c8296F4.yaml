@@ -44,20 +44,6 @@ markets:
     currency_symbol: MKR
     currency_type: cryptocurrency
     exchange_symbol: MKR
-  exchange_id: 539
-  exchange_name: BitAsset
-  pair: MKR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitasset.com/ktrade/MKR-BTC
-- base:
-    currency_id: 1518
-    currency_symbol: MKR
-    currency_type: cryptocurrency
-    exchange_symbol: MKR
   exchange_id: 294
   exchange_name: OKEx
   pair: MKR/USDT
@@ -72,15 +58,15 @@ markets:
     currency_symbol: MKR
     currency_type: cryptocurrency
     exchange_symbol: MKR
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: MKR/ETH
+  exchange_id: 539
+  exchange_name: BitAsset
+  pair: MKR/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.okex.com/market?product=mkr_eth
+    exchange_symbol: BTC
+  url: https://www.bitasset.com/ktrade/MKR-BTC
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -100,6 +86,20 @@ markets:
     currency_symbol: MKR
     currency_type: cryptocurrency
     exchange_symbol: MKR
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: MKR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.okex.com/market?product=mkr_eth
+- base:
+    currency_id: 1518
+    currency_symbol: MKR
+    currency_type: cryptocurrency
+    exchange_symbol: MKR
   exchange_id: 468
   exchange_name: OceanEx
   pair: MKR/VET
@@ -109,6 +109,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: VET
   url: https://oceanex.pro/trades/mkrvet
+- base:
+    currency_id: 1518
+    currency_symbol: MKR
+    currency_type: cryptocurrency
+    exchange_symbol: MKR
+  exchange_id: 468
+  exchange_name: OceanEx
+  pair: MKR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://oceanex.pro/trades/mkrusdt
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -128,15 +142,57 @@ markets:
     currency_symbol: MKR
     currency_type: cryptocurrency
     exchange_symbol: MKR
-  exchange_id: 468
-  exchange_name: OceanEx
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: MKR/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://sistemkoin.com/#/
+- base:
+    currency_id: 1518
+    currency_symbol: MKR
+    currency_type: cryptocurrency
+    exchange_symbol: MKR
+  exchange_id: 656
+  exchange_name: Omgfin
   pair: MKR/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://oceanex.pro/trades/mkrusdt
+  url: https://omgfin.com/exchange/trade/market/MKRUSDT
+- base:
+    currency_id: 1518
+    currency_symbol: MKR
+    currency_type: cryptocurrency
+    exchange_symbol: MKR
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: MKR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://sistemkoin.com/#/
+- base:
+    currency_id: 1518
+    currency_symbol: MKR
+    currency_type: cryptocurrency
+    exchange_symbol: MKR
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: MKR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/mkr-eth
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -158,41 +214,13 @@ markets:
     exchange_symbol: MKR
   exchange_id: 656
   exchange_name: Omgfin
-  pair: MKR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/MKRUSDT
-- base:
-    currency_id: 1518
-    currency_symbol: MKR
-    currency_type: cryptocurrency
-    exchange_symbol: MKR
-  exchange_id: 37
-  exchange_name: Bitfinex
   pair: MKR/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/MKR:BTC?refcode=H70YTMupQ
-- base:
-    currency_id: 1518
-    currency_symbol: MKR
-    currency_type: cryptocurrency
-    exchange_symbol: MKR
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: MKR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/mkr-eth
+  url: https://omgfin.com/exchange/trade/market/MKRBTC
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -207,34 +235,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitfinex.com/t/MKR:ETH?refcode=H70YTMupQ
-- base:
-    currency_id: 1518
-    currency_symbol: MKR
-    currency_type: cryptocurrency
-    exchange_symbol: MKR
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: MKR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://omgfin.com/exchange/trade/market/MKRBTC
-- base:
-    currency_id: 1518
-    currency_symbol: MKR
-    currency_type: cryptocurrency
-    exchange_symbol: MKR
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: MKR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/MKR-to-USDT
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -268,15 +268,29 @@ markets:
     currency_symbol: MKR
     currency_type: cryptocurrency
     exchange_symbol: MKR
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: MKR/TRY
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: MKR/BTC
   quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://sistemkoin.com/#/
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/MKR-BTC
+- base:
+    currency_id: 1518
+    currency_symbol: MKR
+    currency_type: cryptocurrency
+    exchange_symbol: MKR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: MKR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/MKR-to-USDT
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -324,15 +338,15 @@ markets:
     currency_symbol: MKR
     currency_type: cryptocurrency
     exchange_symbol: MKR
-  exchange_id: 311
-  exchange_name: KuCoin
+  exchange_id: 154
+  exchange_name: Dex-Trade
   pair: MKR/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/MKR-BTC
+  url: https://dex-trade.com/en?currencyIn=MKR&currencyTo=BTC
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -380,20 +394,6 @@ markets:
     currency_symbol: MKR
     currency_type: cryptocurrency
     exchange_symbol: MKR
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: MKR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://dex-trade.com/en?currencyIn=MKR&currencyTo=BTC
-- base:
-    currency_id: 1518
-    currency_symbol: MKR
-    currency_type: cryptocurrency
-    exchange_symbol: MKR
   exchange_id: 656
   exchange_name: Omgfin
   pair: MKR/ETH
@@ -417,20 +417,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://dex-trade.com/en?currencyIn=MKR&currencyTo=ETH
-- base:
-    currency_id: 1518
-    currency_symbol: MKR
-    currency_type: cryptocurrency
-    exchange_symbol: MKR
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: MKR/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/MKR:USD?refcode=H70YTMupQ
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -464,43 +450,15 @@ markets:
     currency_symbol: MKR
     currency_type: cryptocurrency
     exchange_symbol: MKR
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: MKR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://poloniex.com/exchange#usdt_mkr
-- base:
-    currency_id: 1518
-    currency_symbol: MKR
-    currency_type: cryptocurrency
-    exchange_symbol: MKR
-  exchange_id: 388
-  exchange_name: Sistemkoin
+  exchange_id: 37
+  exchange_name: Bitfinex
   pair: MKR/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://sistemkoin.com/#/
-- base:
-    currency_id: 1518
-    currency_symbol: MKR
-    currency_type: cryptocurrency
-    exchange_symbol: MKR
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: MKR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitmart.com/trade?symbol=MKR_ETH
+  url: https://www.bitfinex.com/t/MKR:BTC?refcode=H70YTMupQ
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -520,29 +478,29 @@ markets:
     currency_symbol: MKR
     currency_type: cryptocurrency
     exchange_symbol: MKR
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: MKR/IDR
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: MKR/ETH
   quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://indodax.com/market/MKRIDR
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitmart.com/trade?symbol=MKR_ETH
 - base:
     currency_id: 1518
     currency_symbol: MKR
     currency_type: cryptocurrency
     exchange_symbol: MKR
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: MKR/USDT
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: MKR/KRW
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bkex.com/trade/MKR_USDT
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/mkr-krw
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -562,15 +520,71 @@ markets:
     currency_symbol: MKR
     currency_type: cryptocurrency
     exchange_symbol: MKR
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: MKR/DAI
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: MKR/IDR
   quote:
-    currency_id: 4943
-    currency_symbol: DAI
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/MKRIDR
+- base:
+    currency_id: 1518
+    currency_symbol: MKR
     currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://hitbtc.com/MKR-to-DAI
+    exchange_symbol: MKR
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: MKR/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/MKR:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 1518
+    currency_symbol: MKR
+    currency_type: cryptocurrency
+    exchange_symbol: MKR
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: MKR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://poloniex.com/exchange#usdt_mkr
+- base:
+    currency_id: 1518
+    currency_symbol: MKR
+    currency_type: cryptocurrency
+    exchange_symbol: MKR
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: MKR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bkex.com/trade/MKR_USDT
+- base:
+    currency_id: 1518
+    currency_symbol: MKR
+    currency_type: cryptocurrency
+    exchange_symbol: MKR
+  exchange_id: 490
+  exchange_name: OKEx Korea
+  pair: MKR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://okex.co.kr/kr/view/exchange?coin=MKR&market=USDT
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -604,20 +618,6 @@ markets:
     currency_symbol: MKR
     currency_type: cryptocurrency
     exchange_symbol: MKR
-  exchange_id: 82
-  exchange_name: BitBay
-  pair: MKR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitbay.net/en/exchange-rate/MKR-BTC
-- base:
-    currency_id: 1518
-    currency_symbol: MKR
-    currency_type: cryptocurrency
-    exchange_symbol: MKR
   exchange_id: 302
   exchange_name: Gate.io
   pair: MKR/ETH
@@ -627,20 +627,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/mkr_eth
-- base:
-    currency_id: 1518
-    currency_symbol: MKR
-    currency_type: cryptocurrency
-    exchange_symbol: MKR
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: MKR/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/mkr-krw
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -758,6 +744,20 @@ markets:
     currency_symbol: MKR
     currency_type: cryptocurrency
     exchange_symbol: MKR
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: MKR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitbay.net/en/exchange-rate/MKR-BTC
+- base:
+    currency_id: 1518
+    currency_symbol: MKR
+    currency_type: cryptocurrency
+    exchange_symbol: MKR
   exchange_id: 194
   exchange_name: Korbit
   pair: MKR/KRW
@@ -774,20 +774,6 @@ markets:
     exchange_symbol: MKR
   exchange_id: 490
   exchange_name: OKEx Korea
-  pair: MKR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://okex.co.kr/kr/view/exchange?coin=MKR&market=USDT
-- base:
-    currency_id: 1518
-    currency_symbol: MKR
-    currency_type: cryptocurrency
-    exchange_symbol: MKR
-  exchange_id: 490
-  exchange_name: OKEx Korea
   pair: MKR/BTC
   quote:
     currency_id: 1
@@ -795,6 +781,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://okex.co.kr/kr/view/exchange?coin=MKR&market=BTC
+- base:
+    currency_id: 1518
+    currency_symbol: MKR
+    currency_type: cryptocurrency
+    exchange_symbol: MKR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: MKR/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://hitbtc.com/MKR-to-DAI
 - base:
     currency_id: 1518
     currency_symbol: MKR

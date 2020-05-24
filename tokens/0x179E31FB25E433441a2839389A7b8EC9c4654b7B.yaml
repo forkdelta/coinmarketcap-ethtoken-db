@@ -32,20 +32,6 @@ markets:
     exchange_symbol: SNB
   exchange_id: 481
   exchange_name: Alterdice
-  pair: SNB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://alterdice.com/trading/SNBBTC
-- base:
-    currency_id: 5277
-    currency_symbol: SNB
-    currency_type: cryptocurrency
-    exchange_symbol: SNB
-  exchange_id: 481
-  exchange_name: Alterdice
   pair: SNB/ETH
   quote:
     currency_id: 1027
@@ -74,13 +60,13 @@ markets:
     exchange_symbol: SNB
   exchange_id: 481
   exchange_name: Alterdice
-  pair: SNB/USDT
+  pair: SNB/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://alterdice.com/trading/SNBUSDT
+    exchange_symbol: BTC
+  url: https://alterdice.com/trading/SNBBTC
 - base:
     currency_id: 5277
     currency_symbol: SNB
@@ -100,15 +86,15 @@ markets:
     currency_symbol: SNB
     currency_type: cryptocurrency
     exchange_symbol: SNB
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: SNB/BTC
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: SNB/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/SNB_BTC
+    exchange_symbol: USDT
+  url: https://alterdice.com/trading/SNBUSDT
 - base:
     currency_id: 5277
     currency_symbol: SNB
@@ -165,8 +151,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.probit.com/app/exchange/SNB-BTC
+- base:
+    currency_id: 5277
+    currency_symbol: SNB
+    currency_type: cryptocurrency
+    exchange_symbol: SNB
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: SNB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/SNB_BTC
 name: SynchroBitcoin
-rank: 249
+rank: 252
 slug: synchrobitcoin
 status: active
 symbol: SNB

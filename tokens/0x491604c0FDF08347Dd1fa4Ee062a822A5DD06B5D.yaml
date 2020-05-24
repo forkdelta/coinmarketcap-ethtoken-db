@@ -28,20 +28,6 @@ markets:
     currency_symbol: CTSI
     currency_type: cryptocurrency
     exchange_symbol: CTSI
-  exchange_id: 270
-  exchange_name: Binance
-  pair: CTSI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/CTSI_BTC?ref=H31B921U
-- base:
-    currency_id: 5444
-    currency_symbol: CTSI
-    currency_type: cryptocurrency
-    exchange_symbol: CTSI
   exchange_id: 415
   exchange_name: Bilaxy
   pair: CTSI/USDT
@@ -51,6 +37,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bilaxy.com/trade/CTSI_USDT
+- base:
+    currency_id: 5444
+    currency_symbol: CTSI
+    currency_type: cryptocurrency
+    exchange_symbol: CTSI
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CTSI/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/CTSI_BTC?ref=H31B921U
 - base:
     currency_id: 5444
     currency_symbol: CTSI
@@ -72,34 +72,6 @@ markets:
     exchange_symbol: CTSI
   exchange_id: 270
   exchange_name: Binance
-  pair: CTSI/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/CTSI_BNB?ref=H31B921U
-- base:
-    currency_id: 5444
-    currency_symbol: CTSI
-    currency_type: cryptocurrency
-    exchange_symbol: CTSI
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: CTSI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/CTSIBTC
-- base:
-    currency_id: 5444
-    currency_symbol: CTSI
-    currency_type: cryptocurrency
-    exchange_symbol: CTSI
-  exchange_id: 270
-  exchange_name: Binance
   pair: CTSI/BUSD
   quote:
     currency_id: 4687
@@ -112,15 +84,15 @@ markets:
     currency_symbol: CTSI
     currency_type: cryptocurrency
     exchange_symbol: CTSI
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: CTSI/USDT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CTSI/BNB
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/CTSIUSDT
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/CTSI_BNB?ref=H31B921U
 - base:
     currency_id: 5444
     currency_symbol: CTSI
@@ -140,6 +112,20 @@ markets:
     currency_symbol: CTSI
     currency_type: cryptocurrency
     exchange_symbol: CTSI
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: CTSI/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/CTSIBTC
+- base:
+    currency_id: 5444
+    currency_symbol: CTSI
+    currency_type: cryptocurrency
+    exchange_symbol: CTSI
   exchange_id: 495
   exchange_name: Folgory
   pair: CTSI/USDT
@@ -149,6 +135,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://folgory.com/trade-crypto/CTSI_USDT
+- base:
+    currency_id: 5444
+    currency_symbol: CTSI
+    currency_type: cryptocurrency
+    exchange_symbol: CTSI
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: CTSI/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/CTSIUSDT
 - base:
     currency_id: 5444
     currency_symbol: CTSI
@@ -192,7 +192,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: Cartesi
-rank: 498
+rank: 526
 slug: cartesi
 status: active
 symbol: CTSI

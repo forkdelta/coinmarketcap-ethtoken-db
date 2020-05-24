@@ -28,20 +28,6 @@ markets:
     currency_symbol: EDR
     currency_type: cryptocurrency
     exchange_symbol: EDR
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: EDR/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-EDR
-- base:
-    currency_id: 2835
-    currency_symbol: EDR
-    currency_type: cryptocurrency
-    exchange_symbol: EDR
   exchange_id: 403
   exchange_name: BitForex
   pair: EDR/ETH
@@ -51,6 +37,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitforex.com/en/spot/edr_eth
+- base:
+    currency_id: 2835
+    currency_symbol: EDR
+    currency_type: cryptocurrency
+    exchange_symbol: EDR
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: EDR/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-EDR
 - base:
     currency_id: 2835
     currency_symbol: EDR
@@ -276,7 +276,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/edr_btc/
 name: Endor Protocol
-rank: 535
+rank: 546
 slug: endor-protocol
 status: active
 symbol: EDR

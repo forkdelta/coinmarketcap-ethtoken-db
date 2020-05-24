@@ -25,20 +25,6 @@ markets:
     exchange_symbol: ABX
   exchange_id: 400
   exchange_name: Hotbit
-  pair: ABX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=ABX_BTC
-- base:
-    currency_id: 3179
-    currency_symbol: ABX
-    currency_type: cryptocurrency
-    exchange_symbol: ABX
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: ABX/ETH
   quote:
     currency_id: 1027
@@ -51,15 +37,15 @@ markets:
     currency_symbol: ABX
     currency_type: cryptocurrency
     exchange_symbol: ABX
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: ABX/ETH
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: ABX/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/abx
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=ABX_BTC
 - base:
     currency_id: 3179
     currency_symbol: ABX
@@ -74,8 +60,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNT
   url: https://www.bancor.network/token/ABX
+- base:
+    currency_id: 3179
+    currency_symbol: ABX
+    currency_type: cryptocurrency
+    exchange_symbol: ABX
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: ABX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/abx
 name: Arbidex
-rank: 1468
+rank: 1457
 slug: arbidex
 status: active
 symbol: ABX
