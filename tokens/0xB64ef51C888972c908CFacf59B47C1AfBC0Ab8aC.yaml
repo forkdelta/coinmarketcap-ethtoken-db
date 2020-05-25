@@ -62,6 +62,20 @@ markets:
     currency_symbol: STORJ
     currency_type: cryptocurrency
     exchange_symbol: STORJ
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: STORJ/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/storj_usdt/
+- base:
+    currency_id: 1772
+    currency_symbol: STORJ
+    currency_type: cryptocurrency
+    exchange_symbol: STORJ
   exchange_id: 351
   exchange_name: Upbit
   pair: STORJ/KRW
@@ -76,15 +90,15 @@ markets:
     currency_symbol: STORJ
     currency_type: cryptocurrency
     exchange_symbol: STORJ
-  exchange_id: 102
-  exchange_name: Huobi Global
+  exchange_id: 350
+  exchange_name: CoinEx
   pair: STORJ/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/storj_usdt/
+  url: https://www.coinex.com/trading?currency=usdt&dest=storj&tab=limit
 - base:
     currency_id: 1772
     currency_symbol: STORJ
@@ -106,13 +120,13 @@ markets:
     exchange_symbol: STORJ
   exchange_id: 350
   exchange_name: CoinEx
-  pair: STORJ/USDT
+  pair: STORJ/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=storj&tab=limit
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=storj&tab=limit
 - base:
     currency_id: 1772
     currency_symbol: STORJ
@@ -141,20 +155,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=STORJBTC
-- base:
-    currency_id: 1772
-    currency_symbol: STORJ
-    currency_type: cryptocurrency
-    exchange_symbol: STORJ
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: STORJ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=storj&tab=limit
 - base:
     currency_id: 1772
     currency_symbol: STORJ
@@ -202,29 +202,15 @@ markets:
     currency_symbol: STORJ
     currency_type: cryptocurrency
     exchange_symbol: STORJ
-  exchange_id: 302
-  exchange_name: Gate.io
+  exchange_id: 760
+  exchange_name: Huobi Indonesia
   pair: STORJ/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://gate.io/trade/storj_usdt
-- base:
-    currency_id: 1772
-    currency_symbol: STORJ
-    currency_type: cryptocurrency
-    exchange_symbol: STORJ
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: STORJ/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
+  url: https://www.huobi.com.co/exchange/#s=storj_usdt
 - base:
     currency_id: 1772
     currency_symbol: STORJ
@@ -258,15 +244,15 @@ markets:
     currency_symbol: STORJ
     currency_type: cryptocurrency
     exchange_symbol: STORJ
-  exchange_id: 760
-  exchange_name: Huobi Indonesia
+  exchange_id: 302
+  exchange_name: Gate.io
   pair: STORJ/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.huobi.com.co/exchange/#s=storj_usdt
+  url: https://gate.io/trade/storj_usdt
 - base:
     currency_id: 1772
     currency_symbol: STORJ
@@ -281,6 +267,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 1772
+    currency_symbol: STORJ
+    currency_type: cryptocurrency
+    exchange_symbol: STORJ
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: STORJ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/STORJBTC
 - base:
     currency_id: 1772
     currency_symbol: STORJ
@@ -314,6 +314,20 @@ markets:
     currency_symbol: STORJ
     currency_type: cryptocurrency
     exchange_symbol: STORJ
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: STORJ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 1772
+    currency_symbol: STORJ
+    currency_type: cryptocurrency
+    exchange_symbol: STORJ
   exchange_id: 351
   exchange_name: Upbit
   pair: STORJ/BTC
@@ -328,20 +342,6 @@ markets:
     currency_symbol: STORJ
     currency_type: cryptocurrency
     exchange_symbol: STORJ
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: STORJ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/STORJBTC
-- base:
-    currency_id: 1772
-    currency_symbol: STORJ
-    currency_type: cryptocurrency
-    exchange_symbol: STORJ
   exchange_id: 107
   exchange_name: Livecoin
   pair: STORJ/BTC
@@ -351,20 +351,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.livecoin.net/en/trading/STORJ_BTC
-- base:
-    currency_id: 1772
-    currency_symbol: STORJ
-    currency_type: cryptocurrency
-    exchange_symbol: STORJ
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: STORJ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/STORJ-to-BTC
 - base:
     currency_id: 1772
     currency_symbol: STORJ
@@ -393,6 +379,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/STORJ-to-ETH
+- base:
+    currency_id: 1772
+    currency_symbol: STORJ
+    currency_type: cryptocurrency
+    exchange_symbol: STORJ
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: STORJ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/STORJ-to-BTC
 - base:
     currency_id: 1772
     currency_symbol: STORJ
@@ -534,7 +534,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.idax.mn/#/exchange?pairname=STORJ_BTC
 name: Storj
-rank: 162
+rank: 163
 slug: storj
 status: active
 symbol: STORJ

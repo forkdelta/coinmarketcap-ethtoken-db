@@ -39,20 +39,6 @@ markets:
     currency_symbol: BHT
     currency_type: cryptocurrency
     exchange_symbol: BHT
-  exchange_id: 478
-  exchange_name: HBTC
-  pair: BHT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbtc.com/exchange/BHT/USDT
-- base:
-    currency_id: 4281
-    currency_symbol: BHT
-    currency_type: cryptocurrency
-    exchange_symbol: BHT
   exchange_id: 102
   exchange_name: Huobi Global
   pair: BHT/BTC
@@ -69,6 +55,20 @@ markets:
     exchange_symbol: BHT
   exchange_id: 478
   exchange_name: HBTC
+  pair: BHT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hbtc.com/exchange/BHT/USDT
+- base:
+    currency_id: 4281
+    currency_symbol: BHT
+    currency_type: cryptocurrency
+    exchange_symbol: BHT
+  exchange_id: 478
+  exchange_name: HBTC
   pair: BHT/BTC
   quote:
     currency_id: 1
@@ -76,20 +76,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hbtc.com/exchange/BHT/BTC
-- base:
-    currency_id: 4281
-    currency_symbol: BHT
-    currency_type: cryptocurrency
-    exchange_symbol: BHT
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: BHT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/bht_usdt/
 - base:
     currency_id: 4281
     currency_symbol: BHT
@@ -111,13 +97,13 @@ markets:
     exchange_symbol: BHT
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: BHT/BTC
+  pair: BHT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/bht_btc/
+    exchange_symbol: USDT
+  url: https://www.huobi.co.kr/en-US/exchange/bht_usdt/
 - base:
     currency_id: 4281
     currency_symbol: BHT
@@ -132,8 +118,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: HT
   url: https://www.huobi.co.kr/en-US/exchange/bht_ht/
+- base:
+    currency_id: 4281
+    currency_symbol: BHT
+    currency_type: cryptocurrency
+    exchange_symbol: BHT
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: BHT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/bht_btc/
 name: BHEX Token
-rank: 104
+rank: 107
 slug: bhex-token
 status: active
 symbol: BHT

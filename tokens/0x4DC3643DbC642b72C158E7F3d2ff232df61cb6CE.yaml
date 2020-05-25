@@ -44,20 +44,6 @@ markets:
     currency_symbol: AMB
     currency_type: cryptocurrency
     exchange_symbol: AMB
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: AMB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/AMBBTC
-- base:
-    currency_id: 2081
-    currency_symbol: AMB
-    currency_type: cryptocurrency
-    exchange_symbol: AMB
   exchange_id: 311
   exchange_name: KuCoin
   pair: AMB/BTC
@@ -72,15 +58,29 @@ markets:
     currency_symbol: AMB
     currency_type: cryptocurrency
     exchange_symbol: AMB
-  exchange_id: 213
-  exchange_name: Mercatox
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: AMB/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://mercatox.com/exchange/AMB/BTC
+  url: https://hitbtc.com/AMB-to-BTC
+- base:
+    currency_id: 2081
+    currency_symbol: AMB
+    currency_type: cryptocurrency
+    exchange_symbol: AMB
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: AMB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/AMBBTC
 - base:
     currency_id: 2081
     currency_symbol: AMB
@@ -100,15 +100,15 @@ markets:
     currency_symbol: AMB
     currency_type: cryptocurrency
     exchange_symbol: AMB
-  exchange_id: 107
-  exchange_name: Livecoin
+  exchange_id: 213
+  exchange_name: Mercatox
   pair: AMB/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/AMB_BTC
+  url: https://mercatox.com/exchange/AMB/BTC
 - base:
     currency_id: 2081
     currency_symbol: AMB
@@ -123,20 +123,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.kucoin.com/trade/AMB-ETH
-- base:
-    currency_id: 2081
-    currency_symbol: AMB
-    currency_type: cryptocurrency
-    exchange_symbol: AMB
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: AMB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/AMB-to-BTC
 - base:
     currency_id: 2081
     currency_symbol: AMB
@@ -170,6 +156,20 @@ markets:
     currency_symbol: AMB
     currency_type: cryptocurrency
     exchange_symbol: AMB
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: AMB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/AMB_BTC
+- base:
+    currency_id: 2081
+    currency_symbol: AMB
+    currency_type: cryptocurrency
+    exchange_symbol: AMB
   exchange_id: 310
   exchange_name: IDEX
   pair: AMB/ETH
@@ -180,7 +180,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/amb
 name: Ambrosus
-rank: 578
+rank: 572
 slug: amber
 status: active
 symbol: AMB

@@ -45,20 +45,6 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: STORM/XRP
-  quote:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://www.bitrue.com/trade/storm_xrp
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
   exchange_id: 270
   exchange_name: Binance
   pair: STORM/USDT
@@ -115,43 +101,15 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: STORM/USDT
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: STORM/XRP
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 52
+    currency_symbol: XRP
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/STORM-USDT
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: STORM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=storm
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: STORM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-STORM
+    exchange_symbol: XRP
+  url: https://www.bitrue.com/trade/storm_xrp
 - base:
     currency_id: 2297
     currency_symbol: STORM
@@ -185,6 +143,76 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: STORM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/STORM-USDT
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: STORM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://wazirx.com/exchange/STORM-BTC
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: STORM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=storm
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: STORM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-STORM
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: STORM/INR
+  quote:
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/storm
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: STORM/ETH
@@ -213,20 +241,6 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: STORM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://wazirx.com/exchange/STORM-BTC
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
   exchange_id: 949
   exchange_name: CoinDCX
   pair: STORM/BTC
@@ -250,20 +264,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/STORM-to-BTC
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: STORM/INR
-  quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/storm
 - base:
     currency_id: 2297
     currency_symbol: STORM
@@ -321,7 +321,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/STORM/WETH
 name: Storm
-rank: 307
+rank: 317
 slug: storm
 status: active
 symbol: STORM

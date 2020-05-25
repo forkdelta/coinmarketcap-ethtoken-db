@@ -42,20 +42,6 @@ markets:
     exchange_symbol: SGA
   exchange_id: 112
   exchange_name: Liquid
-  pair: SGA/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://app.liquid.com/exchange/SGAUSD
-- base:
-    currency_id: 5010
-    currency_symbol: SGA
-    currency_type: cryptocurrency
-    exchange_symbol: SGA
-  exchange_id: 112
-  exchange_name: Liquid
   pair: SGA/BTC
   quote:
     currency_id: 1
@@ -105,8 +91,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=SGA_USDT
+- base:
+    currency_id: 5010
+    currency_symbol: SGA
+    currency_type: cryptocurrency
+    exchange_symbol: SGA
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: SGA/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://app.liquid.com/exchange/SGAUSD
 name: Saga
-rank: 2458
+rank: 2459
 slug: saga
 status: active
 symbol: SGA

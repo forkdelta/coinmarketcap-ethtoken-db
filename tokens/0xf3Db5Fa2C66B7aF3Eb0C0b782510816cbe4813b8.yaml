@@ -68,20 +68,6 @@ markets:
     currency_symbol: EVX
     currency_type: cryptocurrency
     exchange_symbol: EVX
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: EVX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://dex-trade.com/en?currencyIn=EVX&currencyTo=BTC
-- base:
-    currency_id: 2034
-    currency_symbol: EVX
-    currency_type: cryptocurrency
-    exchange_symbol: EVX
   exchange_id: 102
   exchange_name: Huobi Global
   pair: EVX/ETH
@@ -91,6 +77,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/evx_eth/
+- base:
+    currency_id: 2034
+    currency_symbol: EVX
+    currency_type: cryptocurrency
+    exchange_symbol: EVX
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: EVX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://dex-trade.com/en?currencyIn=EVX&currencyTo=BTC
 - base:
     currency_id: 2034
     currency_symbol: EVX
@@ -152,20 +152,6 @@ markets:
     currency_symbol: EVX
     currency_type: cryptocurrency
     exchange_symbol: EVX
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: EVX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/EVX/BTC
-- base:
-    currency_id: 2034
-    currency_symbol: EVX
-    currency_type: cryptocurrency
-    exchange_symbol: EVX
   exchange_id: 949
   exchange_name: CoinDCX
   pair: EVX/BTC
@@ -175,6 +161,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coindcx.com/trade/EVXBTC
+- base:
+    currency_id: 2034
+    currency_symbol: EVX
+    currency_type: cryptocurrency
+    exchange_symbol: EVX
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: EVX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/EVX/BTC
 - base:
     currency_id: 2034
     currency_symbol: EVX
@@ -232,7 +232,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/evx
 name: Everex
-rank: 551
+rank: 545
 slug: everex
 status: active
 symbol: EVX
