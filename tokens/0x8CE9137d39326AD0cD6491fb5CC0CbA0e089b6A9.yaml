@@ -40,20 +40,6 @@ markets:
     currency_symbol: SXP
     currency_type: cryptocurrency
     exchange_symbol: SXP
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: SXP/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/SXPKRW
-- base:
-    currency_id: 4279
-    currency_symbol: SXP
-    currency_type: cryptocurrency
-    exchange_symbol: SXP
   exchange_id: 415
   exchange_name: Bilaxy
   pair: SXP/BTC
@@ -68,15 +54,15 @@ markets:
     currency_symbol: SXP
     currency_type: cryptocurrency
     exchange_symbol: SXP
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: SXP/USDT
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: SXP/KRW
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bilaxy.com/trade/SXP_USDT
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/SXPKRW
 - base:
     currency_id: 4279
     currency_symbol: SXP
@@ -110,6 +96,20 @@ markets:
     currency_symbol: SXP
     currency_type: cryptocurrency
     exchange_symbol: SXP
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: SXP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bilaxy.com/trade/SXP_USDT
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
   exchange_id: 391
   exchange_name: CoinTiger
   pair: SXP/BTC
@@ -138,29 +138,15 @@ markets:
     currency_symbol: SXP
     currency_type: cryptocurrency
     exchange_symbol: SXP
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: SXP/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.kucoin.com/trade/SXP-USDT
-- base:
-    currency_id: 4279
-    currency_symbol: SXP
-    currency_type: cryptocurrency
-    exchange_symbol: SXP
-  exchange_id: 311
-  exchange_name: KuCoin
+  exchange_id: 545
+  exchange_name: Bitsdaq
   pair: SXP/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/SXP-BTC
+  url: https://bitsdaq.com/exchange/SXP-BTC
 - base:
     currency_id: 4279
     currency_symbol: SXP
@@ -194,20 +180,6 @@ markets:
     currency_symbol: SXP
     currency_type: cryptocurrency
     exchange_symbol: SXP
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: SXP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/SXP-BTC
-- base:
-    currency_id: 4279
-    currency_symbol: SXP
-    currency_type: cryptocurrency
-    exchange_symbol: SXP
   exchange_id: 363
   exchange_name: Fatbtc
   pair: SXP/ETH
@@ -217,6 +189,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: SXP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/SXP-BTC
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: SXP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.kucoin.com/trade/SXP-USDT
 - base:
     currency_id: 4279
     currency_symbol: SXP
@@ -260,7 +260,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.digifinex.com/en-ww/trade/USDT/SXP
 name: Swipe
-rank: 124
+rank: 127
 slug: swipe
 status: active
 symbol: SXP

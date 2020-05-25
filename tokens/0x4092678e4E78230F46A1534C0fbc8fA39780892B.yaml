@@ -71,20 +71,6 @@ markets:
     currency_symbol: OCN
     currency_type: cryptocurrency
     exchange_symbol: OCN
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: OCN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/ocn_btc/
-- base:
-    currency_id: 2458
-    currency_symbol: OCN
-    currency_type: cryptocurrency
-    exchange_symbol: OCN
   exchange_id: 391
   exchange_name: CoinTiger
   pair: OCN/BITCNY
@@ -94,6 +80,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BITCNY
   url: https://www.cointiger.com/en-us/#/trade_pro?coin=ocn_bitcny
+- base:
+    currency_id: 2458
+    currency_symbol: OCN
+    currency_type: cryptocurrency
+    exchange_symbol: OCN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: OCN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/ocn_eth/
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -115,27 +115,13 @@ markets:
     exchange_symbol: OCN
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: OCN/ETH
+  pair: OCN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/ocn_eth/
-- base:
-    currency_id: 2458
-    currency_symbol: OCN
-    currency_type: cryptocurrency
-    exchange_symbol: OCN
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: OCN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/OCN-USDT
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/ocn_btc/
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -155,15 +141,15 @@ markets:
     currency_symbol: OCN
     currency_type: cryptocurrency
     exchange_symbol: OCN
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 425
+  exchange_name: WazirX
   pair: OCN/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/ocn_usdt/
+  url: https://wazirx.com/exchange/OCN-USDT
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -178,6 +164,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/OCN-to-BTC
+- base:
+    currency_id: 2458
+    currency_symbol: OCN
+    currency_type: cryptocurrency
+    exchange_symbol: OCN
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: OCN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/OCN-to-ETH
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -213,20 +213,6 @@ markets:
     exchange_symbol: OCN
   exchange_id: 300
   exchange_name: BitZ
-  pair: OCN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bit-z.com/exchange/ocn_eth
-- base:
-    currency_id: 2458
-    currency_symbol: OCN
-    currency_type: cryptocurrency
-    exchange_symbol: OCN
-  exchange_id: 300
-  exchange_name: BitZ
   pair: OCN/BTC
   quote:
     currency_id: 1
@@ -239,15 +225,15 @@ markets:
     currency_symbol: OCN
     currency_type: cryptocurrency
     exchange_symbol: OCN
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 300
+  exchange_name: BitZ
   pair: OCN/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://hitbtc.com/OCN-to-ETH
+  url: https://www.bit-z.com/exchange/ocn_eth
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -281,6 +267,20 @@ markets:
     currency_symbol: OCN
     currency_type: cryptocurrency
     exchange_symbol: OCN
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: OCN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.huobi.co.kr/en-US/exchange/ocn_usdt/
+- base:
+    currency_id: 2458
+    currency_symbol: OCN
+    currency_type: cryptocurrency
+    exchange_symbol: OCN
   exchange_id: 730
   exchange_name: Huobi Russia
   pair: OCN/USDT
@@ -305,7 +305,7 @@ markets:
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/OCN-KRW
 name: Odyssey
-rank: 736
+rank: 748
 slug: odyssey
 status: active
 symbol: OCN

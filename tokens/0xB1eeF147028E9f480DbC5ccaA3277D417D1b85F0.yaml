@@ -103,20 +103,6 @@ markets:
     exchange_symbol: SEELE
   exchange_id: 42
   exchange_name: HitBTC
-  pair: SEELE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/SEELE-to-BTC
-- base:
-    currency_id: 2830
-    currency_symbol: SEELE
-    currency_type: cryptocurrency
-    exchange_symbol: SEELE
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: SEELE/USDT
   quote:
     currency_id: 825
@@ -124,6 +110,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/SEELE-to-USDT
+- base:
+    currency_id: 2830
+    currency_symbol: SEELE
+    currency_type: cryptocurrency
+    exchange_symbol: SEELE
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SEELE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/SEELE-to-BTC
 - base:
     currency_id: 2830
     currency_symbol: SEELE
@@ -251,7 +251,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.coinex.com/trading?currency=usdt&dest=seele&tab=limit
 name: Seele-N
-rank: 81
+rank: 80
 slug: seele
 status: active
 symbol: SEELE

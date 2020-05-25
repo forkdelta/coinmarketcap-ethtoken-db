@@ -58,20 +58,6 @@ markets:
     currency_symbol: CND
     currency_type: cryptocurrency
     exchange_symbol: CND
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: CND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/CNDBTC
-- base:
-    currency_id: 2043
-    currency_symbol: CND
-    currency_type: cryptocurrency
-    exchange_symbol: CND
   exchange_id: 42
   exchange_name: HitBTC
   pair: CND/BTC
@@ -95,6 +81,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/CND-to-ETH
+- base:
+    currency_id: 2043
+    currency_symbol: CND
+    currency_type: cryptocurrency
+    exchange_symbol: CND
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: CND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/CNDBTC
 - base:
     currency_id: 2043
     currency_symbol: CND
@@ -180,7 +180,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/cnd
 name: Cindicator
-rank: 193
+rank: 294
 slug: cindicator
 status: active
 symbol: CND

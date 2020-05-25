@@ -91,20 +91,6 @@ markets:
     currency_symbol: AGI
     currency_type: cryptocurrency
     exchange_symbol: AGI
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: AGI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/AGI-BTC
-- base:
-    currency_id: 2424
-    currency_symbol: AGI
-    currency_type: cryptocurrency
-    exchange_symbol: AGI
   exchange_id: 154
   exchange_name: Dex-Trade
   pair: AGI/ETH
@@ -114,6 +100,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://dex-trade.com/en?currencyIn=AGI&currencyTo=ETH
+- base:
+    currency_id: 2424
+    currency_symbol: AGI
+    currency_type: cryptocurrency
+    exchange_symbol: AGI
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: AGI/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://alterdice.com/trading/AGIETH
 - base:
     currency_id: 2424
     currency_symbol: AGI
@@ -133,15 +133,15 @@ markets:
     currency_symbol: AGI
     currency_type: cryptocurrency
     exchange_symbol: AGI
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: AGI/ETH
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: AGI/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://alterdice.com/trading/AGIETH
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/AGI-BTC
 - base:
     currency_id: 2424
     currency_symbol: AGI
@@ -189,15 +189,15 @@ markets:
     currency_symbol: AGI
     currency_type: cryptocurrency
     exchange_symbol: AGI
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: AGI/BTC
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: AGI/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/AGI-to-BTC
+    exchange_symbol: ETH
+  url: https://idex.market/eth/agi
 - base:
     currency_id: 2424
     currency_symbol: AGI
@@ -217,17 +217,17 @@ markets:
     currency_symbol: AGI
     currency_type: cryptocurrency
     exchange_symbol: AGI
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: AGI/ETH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: AGI/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/agi
+    exchange_symbol: BTC
+  url: https://hitbtc.com/AGI-to-BTC
 name: SingularityNET
-rank: 384
+rank: 377
 slug: singularitynet
 status: active
 symbol: AGI

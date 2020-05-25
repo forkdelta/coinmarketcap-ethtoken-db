@@ -26,20 +26,6 @@ markets:
     currency_symbol: BRZ
     currency_type: cryptocurrency
     exchange_symbol: BRZ
-  exchange_id: 403
-  exchange_name: BitForex
-  pair: BRZ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitforex.com/en/spot/brz_btc
-- base:
-    currency_id: 4139
-    currency_symbol: BRZ
-    currency_type: cryptocurrency
-    exchange_symbol: BRZ
   exchange_id: 622
   exchange_name: NovaDAX
   pair: BRZ/BTC
@@ -49,6 +35,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.novadax.com.br/product/orderbook?pair=BRZ_BTC
+- base:
+    currency_id: 4139
+    currency_symbol: BRZ
+    currency_type: cryptocurrency
+    exchange_symbol: BRZ
+  exchange_id: 622
+  exchange_name: NovaDAX
+  pair: BRZ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.novadax.com.br/product/orderbook?pair=BRZ_ETH
 - base:
     currency_id: 4139
     currency_symbol: BRZ
@@ -68,15 +68,15 @@ markets:
     currency_symbol: BRZ
     currency_type: cryptocurrency
     exchange_symbol: BRZ
-  exchange_id: 622
-  exchange_name: NovaDAX
-  pair: BRZ/ETH
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: BRZ/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.novadax.com.br/product/orderbook?pair=BRZ_ETH
+    exchange_symbol: BTC
+  url: https://www.bitforex.com/en/spot/brz_btc
 - base:
     currency_id: 4139
     currency_symbol: BRZ
@@ -106,7 +106,7 @@ markets:
     exchange_symbol: USDT
   url: https://bittrex.com/Market/Index?MarketName=USDT-BRZ
 name: Brazilian Digital Token
-rank: 2114
+rank: 2083
 slug: brz
 status: active
 symbol: BRZ
