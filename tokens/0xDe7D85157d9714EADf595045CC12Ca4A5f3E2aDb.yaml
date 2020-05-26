@@ -101,20 +101,6 @@ markets:
     currency_symbol: STPT
     currency_type: cryptocurrency
     exchange_symbol: STPT
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: STPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/stpt
-- base:
-    currency_id: 4006
-    currency_symbol: STPT
-    currency_type: cryptocurrency
-    exchange_symbol: STPT
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: STPT/USDT
@@ -129,29 +115,15 @@ markets:
     currency_symbol: STPT
     currency_type: cryptocurrency
     exchange_symbol: STPT
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 453
+  exchange_name: BitMax
   pair: STPT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/STPTBTC
-- base:
-    currency_id: 4006
-    currency_symbol: STPT
-    currency_type: cryptocurrency
-    exchange_symbol: STPT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: STPT/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/STPT_BNB?ref=H31B921U
+  url: https://bitmax.io/#/trade/btc/stpt
 - base:
     currency_id: 4006
     currency_symbol: STPT
@@ -187,13 +159,27 @@ markets:
     exchange_symbol: STPT
   exchange_id: 949
   exchange_name: CoinDCX
-  pair: STPT/USDT
+  pair: STPT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/STPTUSDT
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/STPTBTC
+- base:
+    currency_id: 4006
+    currency_symbol: STPT
+    currency_type: cryptocurrency
+    exchange_symbol: STPT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: STPT/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/STPT_BNB?ref=H31B921U
 - base:
     currency_id: 4006
     currency_symbol: STPT
@@ -208,8 +194,22 @@ markets:
     currency_type: fiat
     exchange_symbol: INR
   url: https://coindcx.com/trade/STPTINR
+- base:
+    currency_id: 4006
+    currency_symbol: STPT
+    currency_type: cryptocurrency
+    exchange_symbol: STPT
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: STPT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/STPTUSDT
 name: Standard Tokenization Protocol
-rank: 387
+rank: 379
 slug: standard-tokenization-protocol
 status: active
 symbol: STPT

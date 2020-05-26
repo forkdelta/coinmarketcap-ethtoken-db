@@ -23,20 +23,6 @@ markets:
     currency_symbol: SOC
     currency_type: cryptocurrency
     exchange_symbol: SOC
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: SOC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=soc_usdt
-- base:
-    currency_id: 2473
-    currency_symbol: SOC
-    currency_type: cryptocurrency
-    exchange_symbol: SOC
   exchange_id: 102
   exchange_name: Huobi Global
   pair: SOC/USDT
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.okex.com/market?product=soc_btc
+- base:
+    currency_id: 2473
+    currency_symbol: SOC
+    currency_type: cryptocurrency
+    exchange_symbol: SOC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: SOC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=soc_usdt
 - base:
     currency_id: 2473
     currency_symbol: SOC
@@ -229,7 +229,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.huobi.com.ru/exchange/#s=soc_usdt
 name: All Sports
-rank: 508
+rank: 504
 slug: all-sports
 status: active
 symbol: SOC

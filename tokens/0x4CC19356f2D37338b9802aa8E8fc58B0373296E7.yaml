@@ -104,20 +104,6 @@ markets:
     currency_symbol: KEY
     currency_type: cryptocurrency
     exchange_symbol: KEY
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: KEY/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/KEYUSDT
-- base:
-    currency_id: 2398
-    currency_symbol: KEY
-    currency_type: cryptocurrency
-    exchange_symbol: KEY
   exchange_id: 311
   exchange_name: KuCoin
   pair: KEY/ETH
@@ -127,6 +113,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.kucoin.com/trade/KEY-ETH
+- base:
+    currency_id: 2398
+    currency_symbol: KEY
+    currency_type: cryptocurrency
+    exchange_symbol: KEY
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: KEY/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/KEYUSDT
 - base:
     currency_id: 2398
     currency_symbol: KEY
@@ -188,20 +188,6 @@ markets:
     currency_symbol: KEY
     currency_type: cryptocurrency
     exchange_symbol: KEY
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: KEY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/KEY-to-BTC
-- base:
-    currency_id: 2398
-    currency_symbol: KEY
-    currency_type: cryptocurrency
-    exchange_symbol: KEY
   exchange_id: 577
   exchange_name: Serenity
   pair: KEY/USDT
@@ -230,6 +216,20 @@ markets:
     currency_symbol: KEY
     currency_type: cryptocurrency
     exchange_symbol: KEY
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: KEY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://crex24.com/exchange/KEY-BTC
+- base:
+    currency_id: 2398
+    currency_symbol: KEY
+    currency_type: cryptocurrency
+    exchange_symbol: KEY
   exchange_id: 310
   exchange_name: IDEX
   pair: KEY/ETH
@@ -244,15 +244,15 @@ markets:
     currency_symbol: KEY
     currency_type: cryptocurrency
     exchange_symbol: KEY
-  exchange_id: 382
-  exchange_name: Crex24
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: KEY/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://crex24.com/exchange/KEY-BTC
+  url: https://hitbtc.com/KEY-to-BTC
 - base:
     currency_id: 2398
     currency_symbol: KEY
@@ -310,7 +310,7 @@ markets:
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/KEY-KRW
 name: Selfkey
-rank: 612
+rank: 611
 slug: selfkey
 status: active
 symbol: KEY
