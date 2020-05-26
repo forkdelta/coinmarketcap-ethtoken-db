@@ -33,20 +33,6 @@ markets:
     exchange_symbol: SEELE
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: SEELE/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/seele_usdt/
-- base:
-    currency_id: 2830
-    currency_symbol: SEELE
-    currency_type: cryptocurrency
-    exchange_symbol: SEELE
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: SEELE/BTC
   quote:
     currency_id: 1
@@ -54,6 +40,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hbg.com/en-us/exchange/seele_btc/
+- base:
+    currency_id: 2830
+    currency_symbol: SEELE
+    currency_type: cryptocurrency
+    exchange_symbol: SEELE
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: SEELE/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/seele_usdt/
 - base:
     currency_id: 2830
     currency_symbol: SEELE
@@ -82,6 +82,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=SEELE_ETH
+- base:
+    currency_id: 2830
+    currency_symbol: SEELE
+    currency_type: cryptocurrency
+    exchange_symbol: SEELE
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: SEELE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/seele_btc/
 - base:
     currency_id: 2830
     currency_symbol: SEELE
@@ -124,20 +138,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/SEELE-to-BTC
-- base:
-    currency_id: 2830
-    currency_symbol: SEELE
-    currency_type: cryptocurrency
-    exchange_symbol: SEELE
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: SEELE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/seele_btc/
 - base:
     currency_id: 2830
     currency_symbol: SEELE
@@ -251,7 +251,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.coinex.com/trading?currency=usdt&dest=seele&tab=limit
 name: Seele-N
-rank: 80
+rank: 81
 slug: seele
 status: active
 symbol: SEELE

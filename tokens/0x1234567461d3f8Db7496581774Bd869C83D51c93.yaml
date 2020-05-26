@@ -29,20 +29,6 @@ markets:
     exchange_symbol: CAT
   exchange_id: 100
   exchange_name: YoBit
-  pair: CAT/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://yobit.net/en/trade/CAT/USD
-- base:
-    currency_id: 2334
-    currency_symbol: CAT
-    currency_type: cryptocurrency
-    exchange_symbol: CAT
-  exchange_id: 100
-  exchange_name: YoBit
   pair: CAT/BTC
   quote:
     currency_id: 1
@@ -50,8 +36,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/CAT/BTC
+- base:
+    currency_id: 2334
+    currency_symbol: CAT
+    currency_type: cryptocurrency
+    exchange_symbol: CAT
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: CAT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://yobit.net/en/trade/CAT/USD
 name: BitClave
-rank: 1532
+rank: 1504
 slug: bitclave
 status: active
 symbol: CAT

@@ -29,43 +29,15 @@ markets:
     currency_symbol: JNT
     currency_type: cryptocurrency
     exchange_symbol: JNT
-  exchange_id: 302
-  exchange_name: Gate.io
+  exchange_id: 363
+  exchange_name: Fatbtc
   pair: JNT/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://gate.io/trade/jnt_usdt
-- base:
-    currency_id: 2498
-    currency_symbol: JNT
-    currency_type: cryptocurrency
-    exchange_symbol: JNT
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: JNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://gate.io/trade/jnt_btc
-- base:
-    currency_id: 2498
-    currency_symbol: JNT
-    currency_type: cryptocurrency
-    exchange_symbol: JNT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: JNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-JNT
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 2498
     currency_symbol: JNT
@@ -87,13 +59,27 @@ markets:
     exchange_symbol: JNT
   exchange_id: 302
   exchange_name: Gate.io
-  pair: JNT/ETH
+  pair: JNT/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/jnt_eth
+    exchange_symbol: USDT
+  url: https://gate.io/trade/jnt_usdt
+- base:
+    currency_id: 2498
+    currency_symbol: JNT
+    currency_type: cryptocurrency
+    exchange_symbol: JNT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: JNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-JNT
 - base:
     currency_id: 2498
     currency_symbol: JNT
@@ -108,6 +94,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bibox.com/exchange?coinPair=JNT_BTC
+- base:
+    currency_id: 2498
+    currency_symbol: JNT
+    currency_type: cryptocurrency
+    exchange_symbol: JNT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: JNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/jnt_eth
+- base:
+    currency_id: 2498
+    currency_symbol: JNT
+    currency_type: cryptocurrency
+    exchange_symbol: JNT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: JNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://gate.io/trade/jnt_btc
 - base:
     currency_id: 2498
     currency_symbol: JNT
@@ -137,7 +151,7 @@ markets:
     exchange_symbol: ETH
   url: https://hitbtc.com/JNT-to-ETH
 name: Jibrel Network
-rank: 500
+rank: 513
 slug: jibrel-network
 status: active
 symbol: JNT

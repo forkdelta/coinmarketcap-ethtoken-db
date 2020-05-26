@@ -39,20 +39,6 @@ markets:
     exchange_symbol: HYN
   exchange_id: 339
   exchange_name: Bibox
-  pair: HYN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=HYN_BTC
-- base:
-    currency_id: 3695
-    currency_symbol: HYN
-    currency_type: cryptocurrency
-    exchange_symbol: HYN
-  exchange_id: 339
-  exchange_name: Bibox
   pair: HYN/USDT
   quote:
     currency_id: 825
@@ -65,15 +51,15 @@ markets:
     currency_symbol: HYN
     currency_type: cryptocurrency
     exchange_symbol: HYN
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 339
+  exchange_name: Bibox
   pair: HYN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=HYN_BTC
+  url: https://www.bibox.com/exchange?coinPair=HYN_BTC
 - base:
     currency_id: 3695
     currency_symbol: HYN
@@ -88,6 +74,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=HYN_ETH
+- base:
+    currency_id: 3695
+    currency_symbol: HYN
+    currency_type: cryptocurrency
+    exchange_symbol: HYN
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: HYN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=HYN_BTC
 - base:
     currency_id: 3695
     currency_symbol: HYN
@@ -159,7 +159,7 @@ markets:
     exchange_symbol: USDT
   url: https://bgogo.com/exchange/HYN/USDT
 name: Hyperion
-rank: 45
+rank: 49
 slug: hyperion
 status: active
 symbol: HYN

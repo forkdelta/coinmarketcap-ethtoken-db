@@ -57,34 +57,6 @@ markets:
     currency_symbol: HYDRO
     currency_type: cryptocurrency
     exchange_symbol: HYDRO
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: HYDRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=hydro&tab=limit
-- base:
-    currency_id: 2698
-    currency_symbol: HYDRO
-    currency_type: cryptocurrency
-    exchange_symbol: HYDRO
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: HYDRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=hydro
-- base:
-    currency_id: 2698
-    currency_symbol: HYDRO
-    currency_type: cryptocurrency
-    exchange_symbol: HYDRO
   exchange_id: 545
   exchange_name: Bitsdaq
   pair: HYDRO/BTC
@@ -113,6 +85,34 @@ markets:
     currency_symbol: HYDRO
     currency_type: cryptocurrency
     exchange_symbol: HYDRO
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: HYDRO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=hydro
+- base:
+    currency_id: 2698
+    currency_symbol: HYDRO
+    currency_type: cryptocurrency
+    exchange_symbol: HYDRO
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: HYDRO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=hydro&tab=limit
+- base:
+    currency_id: 2698
+    currency_symbol: HYDRO
+    currency_type: cryptocurrency
+    exchange_symbol: HYDRO
   exchange_id: 351
   exchange_name: Upbit
   pair: HYDRO/BTC
@@ -122,6 +122,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-HYDRO
+- base:
+    currency_id: 2698
+    currency_symbol: HYDRO
+    currency_type: cryptocurrency
+    exchange_symbol: HYDRO
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: HYDRO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/HYDRO/BTC
 - base:
     currency_id: 2698
     currency_symbol: HYDRO
@@ -141,20 +155,6 @@ markets:
     currency_symbol: HYDRO
     currency_type: cryptocurrency
     exchange_symbol: HYDRO
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: HYDRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/HYDROBTC
-- base:
-    currency_id: 2698
-    currency_symbol: HYDRO
-    currency_type: cryptocurrency
-    exchange_symbol: HYDRO
   exchange_id: 406
   exchange_name: BitMart
   pair: HYDRO/ETH
@@ -169,15 +169,15 @@ markets:
     currency_symbol: HYDRO
     currency_type: cryptocurrency
     exchange_symbol: HYDRO
-  exchange_id: 213
-  exchange_name: Mercatox
+  exchange_id: 112
+  exchange_name: Liquid
   pair: HYDRO/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://mercatox.com/exchange/HYDRO/BTC
+  url: https://app.liquid.com/exchange/HYDROBTC
 - base:
     currency_id: 2698
     currency_symbol: HYDRO
@@ -207,7 +207,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.bitmart.com/trade?symbol=HYDRO_BTC
 name: Hydro
-rank: 581
+rank: 553
 slug: hydrogen
 status: active
 symbol: HYDRO

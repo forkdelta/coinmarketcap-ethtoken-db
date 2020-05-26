@@ -82,20 +82,6 @@ markets:
     currency_symbol: SNX
     currency_type: cryptocurrency
     exchange_symbol: SNX
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: SNX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 2586
-    currency_symbol: SNX
-    currency_type: cryptocurrency
-    exchange_symbol: SNX
   exchange_id: 528
   exchange_name: BiKi
   pair: SNX/USDT
@@ -110,20 +96,6 @@ markets:
     currency_symbol: SNX
     currency_type: cryptocurrency
     exchange_symbol: SNX
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: SNX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/snx-eth
-- base:
-    currency_id: 2586
-    currency_symbol: SNX
-    currency_type: cryptocurrency
-    exchange_symbol: SNX
   exchange_id: 311
   exchange_name: KuCoin
   pair: SNX/BTC
@@ -133,6 +105,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.kucoin.com/trade/SNX-BTC
+- base:
+    currency_id: 2586
+    currency_symbol: SNX
+    currency_type: cryptocurrency
+    exchange_symbol: SNX
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: SNX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/snx-eth
 - base:
     currency_id: 2586
     currency_symbol: SNX
@@ -207,16 +193,16 @@ markets:
     currency_id: 2586
     currency_symbol: SNX
     currency_type: cryptocurrency
-    exchange_symbol: SNX
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: SNX/BTC
+    exchange_symbol: HAV
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: SNX/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/SNXBTC
+    exchange_symbol: ETH
+  url: https://gate.io/trade/snx_eth
 - base:
     currency_id: 2586
     currency_symbol: SNX
@@ -235,16 +221,16 @@ markets:
     currency_id: 2586
     currency_symbol: SNX
     currency_type: cryptocurrency
-    exchange_symbol: HAV
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: SNX/ETH
+    exchange_symbol: SNX
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: SNX/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/snx_eth
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/SNXBTC
 - base:
     currency_id: 2586
     currency_symbol: SNX
@@ -264,15 +250,15 @@ markets:
     currency_symbol: SNX
     currency_type: cryptocurrency
     exchange_symbol: SNX
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: SNX/KRW
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: SNX/USDT
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/SNX-KRW
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 2586
     currency_symbol: SNX
@@ -287,8 +273,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.probit.com/app/exchange/SNX-USDT
+- base:
+    currency_id: 2586
+    currency_symbol: SNX
+    currency_type: cryptocurrency
+    exchange_symbol: SNX
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: SNX/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/SNX-KRW
 name: Synthetix Network Token
-rank: 47
+rank: 50
 slug: synthetix-network-token
 status: active
 symbol: SNX

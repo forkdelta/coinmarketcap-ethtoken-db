@@ -44,34 +44,6 @@ markets:
     currency_symbol: WPR
     currency_type: cryptocurrency
     exchange_symbol: WPR
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: WPR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://sistemkoin.com/#/
-- base:
-    currency_id: 2511
-    currency_symbol: WPR
-    currency_type: cryptocurrency
-    exchange_symbol: WPR
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: WPR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://sistemkoin.com/#/
-- base:
-    currency_id: 2511
-    currency_symbol: WPR
-    currency_type: cryptocurrency
-    exchange_symbol: WPR
   exchange_id: 102
   exchange_name: Huobi Global
   pair: WPR/BTC
@@ -86,15 +58,15 @@ markets:
     currency_symbol: WPR
     currency_type: cryptocurrency
     exchange_symbol: WPR
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: WPR/ETH
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: WPR/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/wpr_eth/
+    exchange_symbol: BTC
+  url: https://sistemkoin.com/#/
 - base:
     currency_id: 2511
     currency_symbol: WPR
@@ -114,6 +86,34 @@ markets:
     currency_symbol: WPR
     currency_type: cryptocurrency
     exchange_symbol: WPR
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: WPR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://sistemkoin.com/#/
+- base:
+    currency_id: 2511
+    currency_symbol: WPR
+    currency_type: cryptocurrency
+    exchange_symbol: WPR
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: WPR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/wpr_eth/
+- base:
+    currency_id: 2511
+    currency_symbol: WPR
+    currency_type: cryptocurrency
+    exchange_symbol: WPR
   exchange_id: 433
   exchange_name: Bitrue
   pair: WPR/XRP
@@ -128,20 +128,6 @@ markets:
     currency_symbol: WPR
     currency_type: cryptocurrency
     exchange_symbol: WPR
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: WPR/INR
-  quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/wpr
-- base:
-    currency_id: 2511
-    currency_symbol: WPR
-    currency_type: cryptocurrency
-    exchange_symbol: WPR
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: WPR/BTC
@@ -151,6 +137,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/wpr_btc/
+- base:
+    currency_id: 2511
+    currency_symbol: WPR
+    currency_type: cryptocurrency
+    exchange_symbol: WPR
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: WPR/INR
+  quote:
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/wpr
 - base:
     currency_id: 2511
     currency_symbol: WPR
@@ -194,7 +194,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/wpr
 name: WePower
-rank: 542
+rank: 526
 slug: wepower
 status: active
 symbol: WPR

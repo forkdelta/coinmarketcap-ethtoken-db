@@ -87,13 +87,13 @@ markets:
     exchange_symbol: OCN
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: OCN/ETH
+  pair: OCN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/ocn_eth/
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/ocn_btc/
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -115,13 +115,13 @@ markets:
     exchange_symbol: OCN
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: OCN/BTC
+  pair: OCN/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/ocn_btc/
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/ocn_eth/
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -155,34 +155,6 @@ markets:
     currency_symbol: OCN
     currency_type: cryptocurrency
     exchange_symbol: OCN
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: OCN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/OCN-to-BTC
-- base:
-    currency_id: 2458
-    currency_symbol: OCN
-    currency_type: cryptocurrency
-    exchange_symbol: OCN
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: OCN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/OCN-to-ETH
-- base:
-    currency_id: 2458
-    currency_symbol: OCN
-    currency_type: cryptocurrency
-    exchange_symbol: OCN
   exchange_id: 302
   exchange_name: Gate.io
   pair: OCN/ETH
@@ -206,6 +178,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://gate.io/trade/ocn_btc
+- base:
+    currency_id: 2458
+    currency_symbol: OCN
+    currency_type: cryptocurrency
+    exchange_symbol: OCN
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: OCN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/OCN-to-ETH
+- base:
+    currency_id: 2458
+    currency_symbol: OCN
+    currency_type: cryptocurrency
+    exchange_symbol: OCN
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: OCN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/OCN-to-BTC
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -305,7 +305,7 @@ markets:
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/OCN-KRW
 name: Odyssey
-rank: 748
+rank: 733
 slug: odyssey
 status: active
 symbol: OCN
