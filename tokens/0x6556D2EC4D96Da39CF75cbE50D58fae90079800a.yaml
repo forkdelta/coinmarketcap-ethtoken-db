@@ -56,20 +56,6 @@ markets:
     exchange_symbol: LOT
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: LOT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://p2pb2b.io/trade/LOT_ETH
-- base:
-    currency_id: 4285
-    currency_symbol: LOT
-    currency_type: cryptocurrency
-    exchange_symbol: LOT
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: LOT/USD
   quote:
     currency_id: 2781
@@ -77,6 +63,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://p2pb2b.io/trade/LOT_USD
+- base:
+    currency_id: 4285
+    currency_symbol: LOT
+    currency_type: cryptocurrency
+    exchange_symbol: LOT
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: LOT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://p2pb2b.io/trade/LOT_ETH
 - base:
     currency_id: 4285
     currency_symbol: LOT
@@ -92,7 +92,7 @@ markets:
     exchange_symbol: BTC
   url: https://app.lukki.io/?pair=LOT_BTC
 name: Lukki Operating Token
-rank: 2185
+rank: 2188
 slug: lukki-operating-token
 status: active
 symbol: LOT

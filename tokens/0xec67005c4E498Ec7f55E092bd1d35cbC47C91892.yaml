@@ -25,13 +25,13 @@ markets:
     exchange_symbol: MLN
   exchange_id: 24
   exchange_name: Kraken
-  pair: MLN/BTC
+  pair: MLN/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kraken.com/markets/kraken/mln/btc
+    exchange_symbol: ETH
+  url: https://trade.kraken.com/markets/kraken/mln/eth
 - base:
     currency_id: 1552
     currency_symbol: MLN
@@ -65,29 +65,15 @@ markets:
     currency_symbol: MLN
     currency_type: cryptocurrency
     exchange_symbol: MLN
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: MLN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/mln-eth
-- base:
-    currency_id: 1552
-    currency_symbol: MLN
-    currency_type: cryptocurrency
-    exchange_symbol: MLN
   exchange_id: 24
   exchange_name: Kraken
-  pair: MLN/ETH
+  pair: MLN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.kraken.com/markets/kraken/mln/eth
+    exchange_symbol: BTC
+  url: https://trade.kraken.com/markets/kraken/mln/btc
 - base:
     currency_id: 1552
     currency_symbol: MLN
@@ -107,6 +93,20 @@ markets:
     currency_symbol: MLN
     currency_type: cryptocurrency
     exchange_symbol: MLN
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: MLN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/mln-eth
+- base:
+    currency_id: 1552
+    currency_symbol: MLN
+    currency_type: cryptocurrency
+    exchange_symbol: MLN
   exchange_id: 24
   exchange_name: Kraken
   pair: MLN/USD
@@ -116,20 +116,6 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://trade.kraken.com/markets/kraken/mln/usd
-- base:
-    currency_id: 1552
-    currency_symbol: MLN
-    currency_type: cryptocurrency
-    exchange_symbol: MLN
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: MLN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/MLN-to-ETH
 - base:
     currency_id: 1552
     currency_symbol: MLN
@@ -149,6 +135,20 @@ markets:
     currency_symbol: MLN
     currency_type: cryptocurrency
     exchange_symbol: MLN
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: MLN/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/MLN:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 1552
+    currency_symbol: MLN
+    currency_type: cryptocurrency
+    exchange_symbol: MLN
   exchange_id: 42
   exchange_name: HitBTC
   pair: MLN/BTC
@@ -163,17 +163,17 @@ markets:
     currency_symbol: MLN
     currency_type: cryptocurrency
     exchange_symbol: MLN
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: MLN/USD
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: MLN/ETH
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/MLN:USD?refcode=H70YTMupQ
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/MLN-to-ETH
 name: Melon
-rank: 505
+rank: 499
 slug: melon
 status: active
 symbol: MLN

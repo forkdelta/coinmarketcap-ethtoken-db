@@ -35,20 +35,6 @@ markets:
     currency_id: 5402
     currency_symbol: MYTV
     currency_type: cryptocurrency
-    exchange_symbol: MYTV
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: MYTV/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://latoken.com/exchange/BTC-MYTV
-- base:
-    currency_id: 5402
-    currency_symbol: MYTV
-    currency_type: cryptocurrency
     exchange_symbol: MyTV
   exchange_id: 215
   exchange_name: P2PB2B
@@ -80,6 +66,20 @@ markets:
     exchange_symbol: MYTV
   exchange_id: 380
   exchange_name: LATOKEN
+  pair: MYTV/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://latoken.com/exchange/BTC-MYTV
+- base:
+    currency_id: 5402
+    currency_symbol: MYTV
+    currency_type: cryptocurrency
+    exchange_symbol: MYTV
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: MYTV/ETH
   quote:
     currency_id: 1027
@@ -88,7 +88,7 @@ markets:
     exchange_symbol: ETH
   url: https://latoken.com/exchange/ETH-MYTV
 name: MyTVchain
-rank: 2481
+rank: 2479
 slug: mytvchain
 status: active
 symbol: MYTV

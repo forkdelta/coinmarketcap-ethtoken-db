@@ -33,20 +33,6 @@ markets:
     currency_id: 2308
     currency_symbol: SAI
     currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: SAI/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/sai_usdt
-- base:
-    currency_id: 2308
-    currency_symbol: SAI
-    currency_type: cryptocurrency
     exchange_symbol: SAI
   exchange_id: 404
   exchange_name: Kyber Network
@@ -57,6 +43,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/sai-eth
+- base:
+    currency_id: 2308
+    currency_symbol: SAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: SAI/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/sai_usdt
 - base:
     currency_id: 2308
     currency_symbol: SAI
@@ -102,7 +102,7 @@ markets:
 name: 'Single Collateral DAI '
 notice: For details on the upgrade from Single-Collateral Dai (Sai) to Multi-Collateral Dai (Dai), please
   click [here](https://blog.makerdao.com/single-collateral-dai-to-multi-collateral-dai-upgrade-timeline-and-actions/)
-rank: 334
+rank: 331
 slug: single-collateral-dai
 status: active
 symbol: SAI

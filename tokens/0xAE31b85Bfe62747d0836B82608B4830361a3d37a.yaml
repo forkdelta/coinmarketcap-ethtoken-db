@@ -77,20 +77,6 @@ markets:
     currency_symbol: AERGO
     currency_type: cryptocurrency
     exchange_symbol: AERGO
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: AERGO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bitmax.io/#/trade/eth/aergo
-- base:
-    currency_id: 3637
-    currency_symbol: AERGO
-    currency_type: cryptocurrency
-    exchange_symbol: AERGO
   exchange_id: 544
   exchange_name: MXC
   pair: AERGO/ETH
@@ -100,6 +86,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.mxc.com/trade/easy#AERGO_ETH
+- base:
+    currency_id: 3637
+    currency_symbol: AERGO
+    currency_type: cryptocurrency
+    exchange_symbol: AERGO
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: AERGO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/aergo
 - base:
     currency_id: 3637
     currency_symbol: AERGO
@@ -121,13 +121,13 @@ markets:
     exchange_symbol: AERGO
   exchange_id: 453
   exchange_name: BitMax
-  pair: AERGO/BTC
+  pair: AERGO/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/aergo
+    exchange_symbol: ETH
+  url: https://bitmax.io/#/trade/eth/aergo
 - base:
     currency_id: 3637
     currency_symbol: AERGO
@@ -147,20 +147,6 @@ markets:
     currency_symbol: AERGO
     currency_type: cryptocurrency
     exchange_symbol: AERGO
-  exchange_id: 194
-  exchange_name: Korbit
-  pair: AERGO/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.korbit.co.kr/markets/?market=aergo-krw
-- base:
-    currency_id: 3637
-    currency_symbol: AERGO
-    currency_type: cryptocurrency
-    exchange_symbol: AERGO
   exchange_id: 311
   exchange_name: KuCoin
   pair: AERGO/ETH
@@ -175,15 +161,15 @@ markets:
     currency_symbol: AERGO
     currency_type: cryptocurrency
     exchange_symbol: AERGO
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: AERGO/BTC
+  exchange_id: 194
+  exchange_name: Korbit
+  pair: AERGO/KRW
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-AERGO
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.korbit.co.kr/markets/?market=aergo-krw
 - base:
     currency_id: 3637
     currency_symbol: AERGO
@@ -231,6 +217,34 @@ markets:
     currency_symbol: AERGO
     currency_type: cryptocurrency
     exchange_symbol: AERGO
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: AERGO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-AERGO
+- base:
+    currency_id: 3637
+    currency_symbol: AERGO
+    currency_type: cryptocurrency
+    exchange_symbol: AERGO
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: AERGO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/aergo
+- base:
+    currency_id: 3637
+    currency_symbol: AERGO
+    currency_type: cryptocurrency
+    exchange_symbol: AERGO
   exchange_id: 453
   exchange_name: BitMax
   pair: AERGO/USDT
@@ -254,20 +268,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.gopax.co.kr/exchange/aergo-eth
-- base:
-    currency_id: 3637
-    currency_symbol: AERGO
-    currency_type: cryptocurrency
-    exchange_symbol: AERGO
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: AERGO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/aergo
 - base:
     currency_id: 3637
     currency_symbol: AERGO
@@ -297,7 +297,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.gopax.co.kr/exchange/aergo-btc
 name: Aergo
-rank: 422
+rank: 417
 slug: aergo
 status: active
 symbol: AERGO
