@@ -19,20 +19,6 @@ links:
   - https://midasprotocol.io/
 markets:
 - base:
-    currency_id: 4224
-    currency_symbol: MCASH
-    currency_type: cryptocurrency
-    exchange_symbol: MCASH
-  exchange_id: 476
-  exchange_name: VINEX Network
-  pair: MCASH/MAS
-  quote:
-    currency_id: 3352
-    currency_symbol: MAS
-    currency_type: cryptocurrency
-    exchange_symbol: MAS
-  url: https://vinex.network/market/MAS_MCASH
-- base:
     currency_id: 3352
     currency_symbol: MAS
     currency_type: cryptocurrency
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=MAS_BTC
+- base:
+    currency_id: 4224
+    currency_symbol: MCASH
+    currency_type: cryptocurrency
+    exchange_symbol: MCASH
+  exchange_id: 476
+  exchange_name: VINEX Network
+  pair: MCASH/MAS
+  quote:
+    currency_id: 3352
+    currency_symbol: MAS
+    currency_type: cryptocurrency
+    exchange_symbol: MAS
+  url: https://vinex.network/market/MAS_MCASH
 - base:
     currency_id: 3352
     currency_symbol: MAS
@@ -103,7 +103,7 @@ markets:
     exchange_symbol: BTC
   url: https://vinex.network/market/BTC_MAS
 name: MidasProtocol
-rank: 1044
+rank: 1029
 slug: midasprotocol
 status: active
 symbol: MAS

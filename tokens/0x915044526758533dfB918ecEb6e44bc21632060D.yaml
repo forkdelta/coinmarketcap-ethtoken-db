@@ -68,20 +68,6 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 270
-  exchange_name: Binance
-  pair: CHR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/CHR_USDT?ref=H31B921U
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
   exchange_id: 200
   exchange_name: Bithumb
   pair: CHR/KRW
@@ -91,6 +77,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.bithumb.com/trade/order/CHRKRW
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CHR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/CHR_USDT?ref=H31B921U
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -110,20 +110,6 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CHR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/CHR-BTC
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
   exchange_id: 16
   exchange_name: Poloniex
   pair: CHR/BTC
@@ -133,6 +119,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://poloniex.com/exchange#btc_chr
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CHR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/CHR-BTC
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -161,6 +161,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bitmax.io/#/trade/btc/chr
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: CHR/TRX
+  quote:
+    currency_id: 1958
+    currency_symbol: TRX
+    currency_type: cryptocurrency
+    exchange_symbol: TRX
+  url: https://poloniex.com/exchange#trx_chr
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -196,20 +210,6 @@ markets:
     exchange_symbol: CHR
   exchange_id: 615
   exchange_name: Binance JEX
-  pair: CHR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.jex.com/en/spot
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
-  exchange_id: 615
-  exchange_name: Binance JEX
   pair: CHR/USDT
   quote:
     currency_id: 825
@@ -222,15 +222,15 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: CHR/TRX
+  exchange_id: 615
+  exchange_name: Binance JEX
+  pair: CHR/BTC
   quote:
-    currency_id: 1958
-    currency_symbol: TRX
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: TRX
-  url: https://poloniex.com/exchange#trx_chr
+    exchange_symbol: BTC
+  url: https://www.jex.com/en/spot
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -260,7 +260,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=CHR_ETH
 name: Chromia
-rank: 439
+rank: 442
 slug: chromia
 status: active
 symbol: CHR

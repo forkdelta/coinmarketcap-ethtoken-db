@@ -142,20 +142,6 @@ markets:
     currency_symbol: LEND
     currency_type: cryptocurrency
     exchange_symbol: LEND
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: LEND/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 2239
-    currency_symbol: LEND
-    currency_type: cryptocurrency
-    exchange_symbol: LEND
   exchange_id: 481
   exchange_name: Alterdice
   pair: LEND/ETH
@@ -170,6 +156,20 @@ markets:
     currency_symbol: LEND
     currency_type: cryptocurrency
     exchange_symbol: LEND
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: LEND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
   exchange_id: 949
   exchange_name: CoinDCX
   pair: LEND/BTC
@@ -179,20 +179,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coindcx.com/trade/LENDBTC
-- base:
-    currency_id: 2239
-    currency_symbol: LEND
-    currency_type: cryptocurrency
-    exchange_symbol: LEND
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: LEND/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/lend_usdt
 - base:
     currency_id: 2239
     currency_symbol: LEND
@@ -226,43 +212,29 @@ markets:
     currency_symbol: LEND
     currency_type: cryptocurrency
     exchange_symbol: LEND
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: LEND/BTC
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: LEND/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/LEND-to-BTC
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 2239
     currency_symbol: LEND
     currency_type: cryptocurrency
     exchange_symbol: LEND
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: LEND/ETH
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: LEND/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://coindcx.com/trade/LENDETH
-- base:
-    currency_id: 2239
-    currency_symbol: LEND
-    currency_type: cryptocurrency
-    exchange_symbol: LEND
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: LEND/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/LEND-to-ETH
+    exchange_symbol: USDT
+  url: https://gate.io/trade/lend_usdt
 - base:
     currency_id: 2239
     currency_symbol: LEND
@@ -282,6 +254,20 @@ markets:
     currency_symbol: LEND
     currency_type: cryptocurrency
     exchange_symbol: LEND
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: LEND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/LEND-to-BTC
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
   exchange_id: 310
   exchange_name: IDEX
   pair: LEND/ETH
@@ -291,6 +277,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/lend
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: LEND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/LEND-to-ETH
 - base:
     currency_id: 2239
     currency_symbol: LEND
@@ -310,6 +310,20 @@ markets:
     currency_symbol: LEND
     currency_type: cryptocurrency
     exchange_symbol: LEND
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: LEND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://coindcx.com/trade/LENDETH
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
   exchange_id: 424
   exchange_name: Hoo
   pair: LEND/USDT
@@ -320,7 +334,7 @@ markets:
     exchange_symbol: USDT
   url: https://hoo.com/trade/lend-usdt
 name: Aave
-rank: 75
+rank: 77
 slug: aave
 status: active
 symbol: LEND

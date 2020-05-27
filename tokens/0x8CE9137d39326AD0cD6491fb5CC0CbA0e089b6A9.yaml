@@ -54,34 +54,6 @@ markets:
     currency_symbol: SXP
     currency_type: cryptocurrency
     exchange_symbol: SXP
-  exchange_id: 489
-  exchange_name: Bithumb Global
-  pair: SXP/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=SXP_USDT
-- base:
-    currency_id: 4279
-    currency_symbol: SXP
-    currency_type: cryptocurrency
-    exchange_symbol: SXP
-  exchange_id: 489
-  exchange_name: Bithumb Global
-  pair: SXP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=SXP_BTC
-- base:
-    currency_id: 4279
-    currency_symbol: SXP
-    currency_type: cryptocurrency
-    exchange_symbol: SXP
   exchange_id: 200
   exchange_name: Bithumb
   pair: SXP/KRW
@@ -110,6 +82,34 @@ markets:
     currency_symbol: SXP
     currency_type: cryptocurrency
     exchange_symbol: SXP
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: SXP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=SXP_BTC
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: SXP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=SXP_USDT
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
   exchange_id: 391
   exchange_name: CoinTiger
   pair: SXP/BTC
@@ -124,15 +124,15 @@ markets:
     currency_symbol: SXP
     currency_type: cryptocurrency
     exchange_symbol: SXP
-  exchange_id: 391
-  exchange_name: CoinTiger
-  pair: SXP/USDT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: SXP/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=sxp_usdt
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-SXP
 - base:
     currency_id: 4279
     currency_symbol: SXP
@@ -166,29 +166,15 @@ markets:
     currency_symbol: SXP
     currency_type: cryptocurrency
     exchange_symbol: SXP
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: SXP/BTC
+  exchange_id: 391
+  exchange_name: CoinTiger
+  pair: SXP/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-SXP
-- base:
-    currency_id: 4279
-    currency_symbol: SXP
-    currency_type: cryptocurrency
-    exchange_symbol: SXP
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: SXP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/SXP-BTC
+    exchange_symbol: USDT
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=sxp_usdt
 - base:
     currency_id: 4279
     currency_symbol: SXP
@@ -203,6 +189,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: SXP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/SXP-BTC
 - base:
     currency_id: 4279
     currency_symbol: SXP
@@ -260,7 +260,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.digifinex.com/en-ww/trade/USDT/SXP
 name: Swipe
-rank: 126
+rank: 127
 slug: swipe
 status: active
 symbol: SXP

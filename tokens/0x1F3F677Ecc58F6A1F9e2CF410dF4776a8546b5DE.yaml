@@ -67,20 +67,6 @@ markets:
     exchange_symbol: ETH
   url: https://vindax.com/exchange-base.html?symbol=VNDC_ETH
 - base:
-    currency_id: 4180
-    currency_symbol: DDK
-    currency_type: cryptocurrency
-    exchange_symbol: DDK
-  exchange_id: 535
-  exchange_name: ExMarkets
-  pair: DDK/VNDC
-  quote:
-    currency_id: 4805
-    currency_symbol: VNDC
-    currency_type: cryptocurrency
-    exchange_symbol: VNDC
-  url: https://exmarkets.com/trade/ddk-vndc
-- base:
     currency_id: 4805
     currency_symbol: VNDC
     currency_type: cryptocurrency
@@ -95,19 +81,19 @@ markets:
     exchange_symbol: BTC
   url: https://vindax.com/exchange-base.html?symbol=VNDC_BTC
 - base:
+    currency_id: 4180
+    currency_symbol: DDK
+    currency_type: cryptocurrency
+    exchange_symbol: DDK
+  exchange_id: 535
+  exchange_name: ExMarkets
+  pair: DDK/VNDC
+  quote:
     currency_id: 4805
     currency_symbol: VNDC
     currency_type: cryptocurrency
     exchange_symbol: VNDC
-  exchange_id: 514
-  exchange_name: Finexbox
-  pair: VNDC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.finexbox.com/market/pair/VNDC-USDT.html
+  url: https://exmarkets.com/trade/ddk-vndc
 - base:
     currency_id: 4805
     currency_symbol: VNDC
@@ -141,6 +127,20 @@ markets:
     currency_symbol: VNDC
     currency_type: cryptocurrency
     exchange_symbol: VNDC
+  exchange_id: 514
+  exchange_name: Finexbox
+  pair: VNDC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.finexbox.com/market/pair/VNDC-USDT.html
+- base:
+    currency_id: 4805
+    currency_symbol: VNDC
+    currency_type: cryptocurrency
+    exchange_symbol: VNDC
   exchange_id: 487
   exchange_name: VinDAX
   pair: VNDC/USDT
@@ -165,7 +165,7 @@ markets:
     exchange_symbol: VNDC
   url: https://whitebit.com/trade/USDT_VNDC
 name: VNDC
-rank: 538
+rank: 537
 slug: vndc
 status: active
 symbol: VNDC
