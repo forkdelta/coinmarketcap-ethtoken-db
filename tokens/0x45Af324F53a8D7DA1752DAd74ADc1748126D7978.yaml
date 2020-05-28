@@ -35,20 +35,6 @@ markets:
     currency_id: 5402
     currency_symbol: MYTV
     currency_type: cryptocurrency
-    exchange_symbol: MyTV
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: MYTV/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/MYTV_BTC
-- base:
-    currency_id: 5402
-    currency_symbol: MYTV
-    currency_type: cryptocurrency
     exchange_symbol: MYTV
   exchange_id: 487
   exchange_name: VinDAX
@@ -59,6 +45,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vindax.com/exchange-base.html?symbol=MYTV_BTC
+- base:
+    currency_id: 5402
+    currency_symbol: MYTV
+    currency_type: cryptocurrency
+    exchange_symbol: MyTV
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: MYTV/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/MYTV_BTC
 - base:
     currency_id: 5402
     currency_symbol: MYTV
@@ -88,7 +88,7 @@ markets:
     exchange_symbol: ETH
   url: https://latoken.com/exchange/ETH-MYTV
 name: MyTVchain
-rank: 2479
+rank: 2505
 slug: mytvchain
 status: active
 symbol: MYTV

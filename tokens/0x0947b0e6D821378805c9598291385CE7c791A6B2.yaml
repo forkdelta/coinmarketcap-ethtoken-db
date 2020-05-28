@@ -55,20 +55,6 @@ markets:
     currency_symbol: LND
     currency_type: cryptocurrency
     exchange_symbol: LND
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: LND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/LNDBTC
-- base:
-    currency_id: 2686
-    currency_symbol: LND
-    currency_type: cryptocurrency
-    exchange_symbol: LND
   exchange_id: 415
   exchange_name: Bilaxy
   pair: LND/ETH
@@ -78,8 +64,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bilaxy.com/trade/LND_ETH
+- base:
+    currency_id: 2686
+    currency_symbol: LND
+    currency_type: cryptocurrency
+    exchange_symbol: LND
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: LND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/LNDBTC
 name: Lendingblock
-rank: 893
+rank: 919
 slug: lendingblock
 status: active
 symbol: LND

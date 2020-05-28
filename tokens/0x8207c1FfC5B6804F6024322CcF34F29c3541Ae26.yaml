@@ -52,20 +52,6 @@ markets:
     exchange_symbol: OGN
   exchange_id: 270
   exchange_name: Binance
-  pair: OGN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/OGN_USDT?ref=H31B921U
-- base:
-    currency_id: 5117
-    currency_symbol: OGN
-    currency_type: cryptocurrency
-    exchange_symbol: OGN
-  exchange_id: 270
-  exchange_name: Binance
   pair: OGN/BTC
   quote:
     currency_id: 1
@@ -73,6 +59,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.binance.com/en/trade/OGN_BTC?ref=H31B921U
+- base:
+    currency_id: 5117
+    currency_symbol: OGN
+    currency_type: cryptocurrency
+    exchange_symbol: OGN
+  exchange_id: 270
+  exchange_name: Binance
+  pair: OGN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/OGN_USDT?ref=H31B921U
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -114,21 +114,7 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.biki.com/trade/OGN_USDT
-- base:
-    currency_id: 5117
-    currency_symbol: OGN
-    currency_type: cryptocurrency
-    exchange_symbol: OGN
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: OGN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/OGNUSDT
+  url: https://www.biki.cc/en_US/trade/OGN_USDT
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -148,15 +134,15 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
-  exchange_id: 174
-  exchange_name: Coinone
-  pair: OGN/KRW
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: OGN/USDT
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://coinone.co.kr/exchange/trade/ogn/
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://omgfin.com/exchange/trade/market/OGNUSDT
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -171,6 +157,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coindcx.com/trade/OGNBTC
+- base:
+    currency_id: 5117
+    currency_symbol: OGN
+    currency_type: cryptocurrency
+    exchange_symbol: OGN
+  exchange_id: 174
+  exchange_name: Coinone
+  pair: OGN/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://coinone.co.kr/exchange/trade/ogn/
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -204,20 +204,6 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: OGN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OGN
-- base:
-    currency_id: 5117
-    currency_symbol: OGN
-    currency_type: cryptocurrency
-    exchange_symbol: OGN
   exchange_id: 710
   exchange_name: Tokocrypto
   pair: OGN/IDR
@@ -246,15 +232,15 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: OGN/USDT
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: OGN/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/OGNUSDT
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OGN
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -274,6 +260,20 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: OGN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/OGNUSDT
+- base:
+    currency_id: 5117
+    currency_symbol: OGN
+    currency_type: cryptocurrency
+    exchange_symbol: OGN
   exchange_id: 335
   exchange_name: GOPAX
   pair: OGN/KRW
@@ -284,7 +284,7 @@ markets:
     exchange_symbol: KRW
   url: https://www.gopax.co.kr/exchange/ogn-krw
 name: Origin Protocol
-rank: 355
+rank: 332
 slug: origin-protocol
 status: active
 symbol: OGN

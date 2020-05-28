@@ -87,12 +87,12 @@ markets:
     exchange_symbol: MNC
   exchange_id: 388
   exchange_name: Sistemkoin
-  pair: MNC/TRY
+  pair: MNC/BTC
   quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://sistemkoin.com/#/
 - base:
     currency_id: 3774
@@ -101,12 +101,12 @@ markets:
     exchange_symbol: MNC
   exchange_id: 388
   exchange_name: Sistemkoin
-  pair: MNC/BTC
+  pair: MNC/TRY
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
   url: https://sistemkoin.com/#/
 - base:
     currency_id: 3774
@@ -127,43 +127,15 @@ markets:
     currency_symbol: MNC
     currency_type: cryptocurrency
     exchange_symbol: MNC
-  exchange_id: 228
-  exchange_name: BTC-Alpha
-  pair: MNC/USDT
+  exchange_id: 245
+  exchange_name: STEX
+  pair: MNC/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://btc-alpha.com/exchange/MNC_USDT/
-- base:
-    currency_id: 3774
-    currency_symbol: MNC
-    currency_type: cryptocurrency
-    exchange_symbol: MNC
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: MNC/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/MNC_USD
-- base:
-    currency_id: 3774
-    currency_symbol: MNC
-    currency_type: cryptocurrency
-    exchange_symbol: MNC
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: MNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/MNC_BTC
+    exchange_symbol: ETH
+  url: https://app.stex.com/en/basic-trade/pair/ETH/MNC/1D
 - base:
     currency_id: 3774
     currency_symbol: MNC
@@ -178,6 +150,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://btc-alpha.com/exchange/MNC_BTC/
+- base:
+    currency_id: 3774
+    currency_symbol: MNC
+    currency_type: cryptocurrency
+    exchange_symbol: MNC
+  exchange_id: 228
+  exchange_name: BTC-Alpha
+  pair: MNC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://btc-alpha.com/exchange/MNC_USDT/
 - base:
     currency_id: 3774
     currency_symbol: MNC
@@ -199,6 +185,20 @@ markets:
     exchange_symbol: MNC
   exchange_id: 215
   exchange_name: P2PB2B
+  pair: MNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/MNC_BTC
+- base:
+    currency_id: 3774
+    currency_symbol: MNC
+    currency_type: cryptocurrency
+    exchange_symbol: MNC
+  exchange_id: 215
+  exchange_name: P2PB2B
   pair: MNC/ETH
   quote:
     currency_id: 1027
@@ -211,15 +211,15 @@ markets:
     currency_symbol: MNC
     currency_type: cryptocurrency
     exchange_symbol: MNC
-  exchange_id: 245
-  exchange_name: STEX
+  exchange_id: 213
+  exchange_name: Mercatox
   pair: MNC/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://app.stex.com/en/basic-trade/pair/ETH/MNC/1D
+  url: https://mercatox.com/exchange/MNC/ETH
 - base:
     currency_id: 3774
     currency_symbol: MNC
@@ -239,15 +239,15 @@ markets:
     currency_symbol: MNC
     currency_type: cryptocurrency
     exchange_symbol: MNC
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: MNC/ETH
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: MNC/USD
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/MNC/ETH
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/MNC_USD
 - base:
     currency_id: 3774
     currency_symbol: MNC
@@ -291,7 +291,7 @@ markets:
     exchange_symbol: BTC
   url: https://alterdice.com/trading/MNCBTC
 name: Maincoin
-rank: 581
+rank: 578
 slug: maincoin
 status: active
 symbol: MNC

@@ -49,20 +49,6 @@ markets:
     currency_symbol: EXRN
     currency_type: cryptocurrency
     exchange_symbol: EXRN
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: EXRN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=EXRN_BTC
-- base:
-    currency_id: 2088
-    currency_symbol: EXRN
-    currency_type: cryptocurrency
-    exchange_symbol: EXRN
   exchange_id: 213
   exchange_name: Mercatox
   pair: EXRN/BTC
@@ -86,8 +72,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://mercatox.com/exchange/EXRN/ETH
+- base:
+    currency_id: 2088
+    currency_symbol: EXRN
+    currency_type: cryptocurrency
+    exchange_symbol: EXRN
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: EXRN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=EXRN_BTC
 name: EXRNchain
-rank: 907
+rank: 951
 slug: exrnchain
 status: active
 symbol: EXRN

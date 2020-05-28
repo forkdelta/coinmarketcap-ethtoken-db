@@ -36,20 +36,6 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: DGX/VND
-  quote:
-    currency_id: 2823
-    currency_symbol: VND
-    currency_type: fiat
-    exchange_symbol: VND
-  url: https://vcc.exchange/exchange/basic?currency=vnd&coin=dgx
-- base:
-    currency_id: 2739
-    currency_symbol: DGX
-    currency_type: cryptocurrency
-    exchange_symbol: DGX
   exchange_id: 710
   exchange_name: Tokocrypto
   pair: DGX/IDR
@@ -64,29 +50,15 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: DGX/ETH
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: DGX/VND
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitfinex.com/t/DGX:ETH?refcode=H70YTMupQ
-- base:
-    currency_id: 2739
-    currency_symbol: DGX
-    currency_type: cryptocurrency
-    exchange_symbol: DGX
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: DGX/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
+    currency_id: 2823
+    currency_symbol: VND
     currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/DGX:USD?refcode=H70YTMupQ
+    exchange_symbol: VND
+  url: https://vcc.exchange/exchange/basic?currency=vnd&coin=dgx
 - base:
     currency_id: 2739
     currency_symbol: DGX
@@ -106,20 +78,6 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: DGX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 2739
-    currency_symbol: DGX
-    currency_type: cryptocurrency
-    exchange_symbol: DGX
   exchange_id: 68
   exchange_name: Indodax
   pair: DGX/IDR
@@ -134,15 +92,43 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: DGX/BTC
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: DGX/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/DGX:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 2739
+    currency_symbol: DGX
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=DGX_BTC
+    exchange_symbol: DGX
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: DGX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 2739
+    currency_symbol: DGX
+    currency_type: cryptocurrency
+    exchange_symbol: DGX
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: DGX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitfinex.com/t/DGX:ETH?refcode=H70YTMupQ
 - base:
     currency_id: 2739
     currency_symbol: DGX
@@ -157,6 +143,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kryptono.exchange/k/accounts/trade?s={{mainu}_{{baseu}
+- base:
+    currency_id: 2739
+    currency_symbol: DGX
+    currency_type: cryptocurrency
+    exchange_symbol: DGX
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: DGX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=DGX_BTC
 - base:
     currency_id: 2739
     currency_symbol: DGX
@@ -186,7 +186,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.probit.com/app/exchange/DGX-BTC
 name: Digix Gold Token
-rank: 427
+rank: 438
 slug: digix-gold-token
 status: active
 symbol: DGX

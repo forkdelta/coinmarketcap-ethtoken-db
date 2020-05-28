@@ -41,20 +41,6 @@ markets:
     currency_symbol: ABYSS
     currency_type: cryptocurrency
     exchange_symbol: ABYSS
-  exchange_id: 403
-  exchange_name: BitForex
-  pair: ABYSS/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitforex.com/en/spot/abyss_usdt
-- base:
-    currency_id: 2847
-    currency_symbol: ABYSS
-    currency_type: cryptocurrency
-    exchange_symbol: ABYSS
   exchange_id: 388
   exchange_name: Sistemkoin
   pair: ABYSS/BTC
@@ -64,6 +50,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://sistemkoin.com/#/
+- base:
+    currency_id: 2847
+    currency_symbol: ABYSS
+    currency_type: cryptocurrency
+    exchange_symbol: ABYSS
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: ABYSS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitforex.com/en/spot/abyss_usdt
 - base:
     currency_id: 2847
     currency_symbol: ABYSS
@@ -125,6 +125,20 @@ markets:
     currency_symbol: ABYSS
     currency_type: cryptocurrency
     exchange_symbol: ABYSS
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: ABYSS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-ABYSS
+- base:
+    currency_id: 2847
+    currency_symbol: ABYSS
+    currency_type: cryptocurrency
+    exchange_symbol: ABYSS
   exchange_id: 37
   exchange_name: Bitfinex
   pair: ABYSS/USD
@@ -148,20 +162,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/ABYSS-to-BTC
-- base:
-    currency_id: 2847
-    currency_symbol: ABYSS
-    currency_type: cryptocurrency
-    exchange_symbol: ABYSS
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: ABYSS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-ABYSS
 - base:
     currency_id: 2847
     currency_symbol: ABYSS
@@ -233,7 +233,7 @@ markets:
     exchange_symbol: ETH
   url: https://yobit.net/en/trade/ABYSS/ETH
 name: Abyss Token
-rank: 749
+rank: 766
 slug: abyss-token
 status: active
 symbol: ABYSS
