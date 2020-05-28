@@ -26,20 +26,6 @@ markets:
     exchange_symbol: DAT
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: DAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/dat_btc/
-- base:
-    currency_id: 2283
-    currency_symbol: DAT
-    currency_type: cryptocurrency
-    exchange_symbol: DAT
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: DAT/ETH
   quote:
     currency_id: 1027
@@ -47,6 +33,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/dat_eth/
+- base:
+    currency_id: 2283
+    currency_symbol: DAT
+    currency_type: cryptocurrency
+    exchange_symbol: DAT
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: DAT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/dat_btc/
 - base:
     currency_id: 2283
     currency_symbol: DAT
@@ -118,7 +118,7 @@ markets:
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/dat-eth
 name: Datum
-rank: 954
+rank: 944
 slug: datum
 status: active
 symbol: DAT

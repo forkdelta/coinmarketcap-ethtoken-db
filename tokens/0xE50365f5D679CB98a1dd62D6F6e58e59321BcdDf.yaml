@@ -51,6 +51,20 @@ markets:
     exchange_symbol: LA
   exchange_id: 380
   exchange_name: LATOKEN
+  pair: LA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://latoken.com/exchange/BTC-LA
+- base:
+    currency_id: 2090
+    currency_symbol: LA
+    currency_type: cryptocurrency
+    exchange_symbol: LA
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: LA/USDT
   quote:
     currency_id: 825
@@ -58,20 +72,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://latoken.com/exchange/USDT-LA
-- base:
-    currency_id: 3754
-    currency_symbol: EVY
-    currency_type: cryptocurrency
-    exchange_symbol: EVY
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: EVY/LA
-  quote:
-    currency_id: 2090
-    currency_symbol: LA
-    currency_type: cryptocurrency
-    exchange_symbol: LA
-  url: https://latoken.com/exchange/LA-EVY
 - base:
     currency_id: 2090
     currency_symbol: LA
@@ -87,21 +87,21 @@ markets:
     exchange_symbol: ETH
   url: https://latoken.com/exchange/ETH-LA
 - base:
+    currency_id: 3754
+    currency_symbol: EVY
+    currency_type: cryptocurrency
+    exchange_symbol: EVY
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: EVY/LA
+  quote:
     currency_id: 2090
     currency_symbol: LA
     currency_type: cryptocurrency
     exchange_symbol: LA
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: LA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://latoken.com/exchange/BTC-LA
+  url: https://latoken.com/exchange/LA-EVY
 name: LATOKEN
-rank: 408
+rank: 409
 slug: latoken
 status: active
 symbol: LA

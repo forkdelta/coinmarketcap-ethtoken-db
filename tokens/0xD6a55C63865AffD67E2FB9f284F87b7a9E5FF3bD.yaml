@@ -59,20 +59,6 @@ markets:
     exchange_symbol: ESH
   exchange_id: 400
   exchange_name: Hotbit
-  pair: ESH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=ESH_BTC
-- base:
-    currency_id: 4096
-    currency_symbol: ESH
-    currency_type: cryptocurrency
-    exchange_symbol: ESH
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: ESH/ETH
   quote:
     currency_id: 1027
@@ -80,6 +66,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=ESH_ETH
+- base:
+    currency_id: 4096
+    currency_symbol: ESH
+    currency_type: cryptocurrency
+    exchange_symbol: ESH
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: ESH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=ESH_BTC
 - base:
     currency_id: 4096
     currency_symbol: ESH
@@ -101,13 +101,27 @@ markets:
     exchange_symbol: ESH
   exchange_id: 857
   exchange_name: Bitcoin.com
-  pair: ESH/ETH
+  pair: ESH/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
+    exchange_symbol: BTC
   url: null
+- base:
+    currency_id: 4096
+    currency_symbol: ESH
+    currency_type: cryptocurrency
+    exchange_symbol: ESH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: ESH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/ESH-to-BTC
 - base:
     currency_id: 4096
     currency_symbol: ESH
@@ -127,20 +141,6 @@ markets:
     currency_symbol: ESH
     currency_type: cryptocurrency
     exchange_symbol: ESH
-  exchange_id: 857
-  exchange_name: Bitcoin.com
-  pair: ESH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: null
-- base:
-    currency_id: 4096
-    currency_symbol: ESH
-    currency_type: cryptocurrency
-    exchange_symbol: ESH
   exchange_id: 213
   exchange_name: Mercatox
   pair: ESH/BTC
@@ -150,6 +150,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/ESH/BTC
+- base:
+    currency_id: 4096
+    currency_symbol: ESH
+    currency_type: cryptocurrency
+    exchange_symbol: ESH
+  exchange_id: 857
+  exchange_name: Bitcoin.com
+  pair: ESH/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: null
 - base:
     currency_id: 4096
     currency_symbol: ESH
@@ -235,7 +249,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.probit.com/app/exchange/ESH-BTC
 name: Switch
-rank: 749
+rank: 878
 slug: switch
 status: active
 symbol: ESH

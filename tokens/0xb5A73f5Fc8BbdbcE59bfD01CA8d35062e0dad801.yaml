@@ -64,20 +64,6 @@ markets:
     currency_symbol: PERL
     currency_type: cryptocurrency
     exchange_symbol: PERL
-  exchange_id: 270
-  exchange_name: Binance
-  pair: PERL/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/PERL_BNB?ref=H31B921U
-- base:
-    currency_id: 4293
-    currency_symbol: PERL
-    currency_type: cryptocurrency
-    exchange_symbol: PERL
   exchange_id: 415
   exchange_name: Bilaxy
   pair: PERL/USDT
@@ -87,6 +73,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bilaxy.com/trade/PERL_USDT
+- base:
+    currency_id: 4293
+    currency_symbol: PERL
+    currency_type: cryptocurrency
+    exchange_symbol: PERL
+  exchange_id: 270
+  exchange_name: Binance
+  pair: PERL/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/PERL_BNB?ref=H31B921U
 - base:
     currency_id: 4293
     currency_symbol: PERL
@@ -106,6 +106,20 @@ markets:
     currency_symbol: PERL
     currency_type: cryptocurrency
     exchange_symbol: PERL
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: PERL/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=PERL_BTC
+- base:
+    currency_id: 4293
+    currency_symbol: PERL
+    currency_type: cryptocurrency
+    exchange_symbol: PERL
   exchange_id: 949
   exchange_name: CoinDCX
   pair: PERL/BTC
@@ -120,29 +134,15 @@ markets:
     currency_symbol: PERL
     currency_type: cryptocurrency
     exchange_symbol: PERL
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: PERL/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/PERLUSDT
-- base:
-    currency_id: 4293
-    currency_symbol: PERL
-    currency_type: cryptocurrency
-    exchange_symbol: PERL
   exchange_id: 400
   exchange_name: Hotbit
-  pair: PERL/BTC
+  pair: PERL/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=PERL_BTC
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=PERL_ETH
 - base:
     currency_id: 4293
     currency_symbol: PERL
@@ -162,17 +162,17 @@ markets:
     currency_symbol: PERL
     currency_type: cryptocurrency
     exchange_symbol: PERL
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: PERL/ETH
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: PERL/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=PERL_ETH
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/PERLUSDT
 name: Perlin
-rank: 430
+rank: 447
 slug: perlin
 status: active
 symbol: PERL

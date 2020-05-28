@@ -34,20 +34,6 @@ markets:
     exchange_symbol: BQTX
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: BQTX/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/BQTX_USD
-- base:
-    currency_id: 3929
-    currency_symbol: BQTX
-    currency_type: cryptocurrency
-    exchange_symbol: BQTX
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: BQTX/BTC
   quote:
     currency_id: 1
@@ -55,6 +41,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://p2pb2b.io/trade/BQTX_BTC
+- base:
+    currency_id: 3929
+    currency_symbol: BQTX
+    currency_type: cryptocurrency
+    exchange_symbol: BQTX
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: BQTX/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/BQTX_USD
 - base:
     currency_id: 3929
     currency_symbol: BQTX
@@ -76,20 +76,6 @@ markets:
     exchange_symbol: BQTX
   exchange_id: 460
   exchange_name: Coinsbit
-  pair: BQTX/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://coinsbit.io/trade/BQTX_USD
-- base:
-    currency_id: 3929
-    currency_symbol: BQTX
-    currency_type: cryptocurrency
-    exchange_symbol: BQTX
-  exchange_id: 460
-  exchange_name: Coinsbit
   pair: BQTX/ETH
   quote:
     currency_id: 1027
@@ -97,8 +83,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://coinsbit.io/trade/BQTX_ETH
+- base:
+    currency_id: 3929
+    currency_symbol: BQTX
+    currency_type: cryptocurrency
+    exchange_symbol: BQTX
+  exchange_id: 460
+  exchange_name: Coinsbit
+  pair: BQTX/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://coinsbit.io/trade/BQTX_USD
 name: BQT
-rank: 626
+rank: 592
 slug: bqt
 status: active
 symbol: BQTX
