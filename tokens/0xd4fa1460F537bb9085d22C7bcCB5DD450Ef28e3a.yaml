@@ -63,6 +63,20 @@ markets:
     currency_symbol: PPT
     currency_type: cryptocurrency
     exchange_symbol: PPT
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: PPT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://latoken.com/exchange/BTC-PPT
+- base:
+    currency_id: 1789
+    currency_symbol: PPT
+    currency_type: cryptocurrency
+    exchange_symbol: PPT
   exchange_id: 213
   exchange_name: Mercatox
   pair: PPT/ETH
@@ -72,6 +86,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://mercatox.com/exchange/PPT/ETH
+- base:
+    currency_id: 1789
+    currency_symbol: PPT
+    currency_type: cryptocurrency
+    exchange_symbol: PPT
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: PPT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/PPT/BTC
 - base:
     currency_id: 1789
     currency_symbol: PPT
@@ -100,20 +128,6 @@ markets:
     currency_type: fiat
     exchange_symbol: TRY
   url: https://www.vebitcoin.com/
-- base:
-    currency_id: 1789
-    currency_symbol: PPT
-    currency_type: cryptocurrency
-    exchange_symbol: PPT
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: PPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/PPT/BTC
 - base:
     currency_id: 1789
     currency_symbol: PPT
@@ -161,15 +175,15 @@ markets:
     currency_symbol: PPT
     currency_type: cryptocurrency
     exchange_symbol: PPT
-  exchange_id: 311
-  exchange_name: KuCoin
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: PPT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/PPT-BTC
+  url: https://hitbtc.com/PPT-to-BTC
 - base:
     currency_id: 1789
     currency_symbol: PPT
@@ -191,6 +205,20 @@ markets:
     exchange_symbol: PPT
   exchange_id: 311
   exchange_name: KuCoin
+  pair: PPT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/PPT-BTC
+- base:
+    currency_id: 1789
+    currency_symbol: PPT
+    currency_type: cryptocurrency
+    exchange_symbol: PPT
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: PPT/ETH
   quote:
     currency_id: 1027
@@ -198,34 +226,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.kucoin.com/trade/PPT-ETH
-- base:
-    currency_id: 1789
-    currency_symbol: PPT
-    currency_type: cryptocurrency
-    exchange_symbol: PPT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: PPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/PPT-to-BTC
-- base:
-    currency_id: 1789
-    currency_symbol: PPT
-    currency_type: cryptocurrency
-    exchange_symbol: PPT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: PPT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/PPT-to-ETH
 - base:
     currency_id: 1789
     currency_symbol: PPT
@@ -245,15 +245,15 @@ markets:
     currency_symbol: PPT
     currency_type: cryptocurrency
     exchange_symbol: PPT
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: PPT/BTC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: PPT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://latoken.com/exchange/BTC-PPT
+    exchange_symbol: ETH
+  url: https://hitbtc.com/PPT-to-ETH
 - base:
     currency_id: 1789
     currency_symbol: PPT
@@ -339,7 +339,7 @@ markets:
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/PPT-KRW
 name: Populous
-rank: 173
+rank: 179
 slug: populous
 status: active
 symbol: PPT

@@ -39,20 +39,6 @@ markets:
     currency_symbol: NMR
     currency_type: cryptocurrency
     exchange_symbol: NMR
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: NMR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-NMR
-- base:
-    currency_id: 1732
-    currency_symbol: NMR
-    currency_type: cryptocurrency
-    exchange_symbol: NMR
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: NMR/BTC
@@ -67,15 +53,43 @@ markets:
     currency_symbol: NMR
     currency_type: cryptocurrency
     exchange_symbol: NMR
-  exchange_id: 16
-  exchange_name: Poloniex
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: NMR/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_nmr
+  url: https://bittrex.com/Market/Index?MarketName=BTC-NMR
+- base:
+    currency_id: 1732
+    currency_symbol: NMR
+    currency_type: cryptocurrency
+    exchange_symbol: NMR
+  exchange_id: 908
+  exchange_name: VALR
+  pair: NMR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.valr.com/buy/NMR/BTC
+- base:
+    currency_id: 1732
+    currency_symbol: NMR
+    currency_type: cryptocurrency
+    exchange_symbol: NMR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: NMR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/NMR-to-BTC
 - base:
     currency_id: 1732
     currency_symbol: NMR
@@ -95,15 +109,15 @@ markets:
     currency_symbol: NMR
     currency_type: cryptocurrency
     exchange_symbol: NMR
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: NMR/USDT
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: NMR/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bittrex.com/Market/Index?MarketName=USDT-NMR
+    exchange_symbol: BTC
+  url: https://poloniex.com/exchange#btc_nmr
 - base:
     currency_id: 1732
     currency_symbol: NMR
@@ -123,15 +137,15 @@ markets:
     currency_symbol: NMR
     currency_type: cryptocurrency
     exchange_symbol: NMR
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: NMR/BTC
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: NMR/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/NMR-to-BTC
+    exchange_symbol: USDT
+  url: https://bittrex.com/Market/Index?MarketName=USDT-NMR
 - base:
     currency_id: 1732
     currency_symbol: NMR
@@ -161,7 +175,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/nmr
 name: Numeraire
-rank: 88
+rank: 86
 slug: numeraire
 status: active
 symbol: NMR

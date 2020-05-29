@@ -25,6 +25,20 @@ markets:
     exchange_symbol: CBC
   exchange_id: 460
   exchange_name: Coinsbit
+  pair: CBC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://coinsbit.io/trade/CBC_ETH
+- base:
+    currency_id: 4633
+    currency_symbol: CBC
+    currency_type: cryptocurrency
+    exchange_symbol: CBC
+  exchange_id: 460
+  exchange_name: Coinsbit
   pair: CBC/BTC
   quote:
     currency_id: 1
@@ -39,13 +53,13 @@ markets:
     exchange_symbol: CBC
   exchange_id: 460
   exchange_name: Coinsbit
-  pair: CBC/ETH
+  pair: CBC/USD
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://coinsbit.io/trade/CBC_ETH
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://coinsbit.io/trade/CBC_USD
 - base:
     currency_id: 4633
     currency_symbol: CBC
@@ -60,20 +74,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/CBC/BTC
-- base:
-    currency_id: 4633
-    currency_symbol: CBC
-    currency_type: cryptocurrency
-    exchange_symbol: CBC
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: CBC/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://coinsbit.io/trade/CBC_USD
 - base:
     currency_id: 4633
     currency_symbol: CBC
@@ -103,7 +103,7 @@ markets:
     exchange_symbol: ETH
   url: https://graviex.net/markets/cbceth
 name: CryptoBossCoin
-rank: 2457
+rank: 2336
 slug: cryptobosscoin
 status: active
 symbol: CBC
