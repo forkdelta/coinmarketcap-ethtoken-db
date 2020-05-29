@@ -25,20 +25,6 @@ markets:
     exchange_symbol: CARD
   exchange_id: 400
   exchange_name: Hotbit
-  pair: CARD/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=CARD_BTC
-- base:
-    currency_id: 2891
-    currency_symbol: CARD
-    currency_type: cryptocurrency
-    exchange_symbol: CARD
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: CARD/ETH
   quote:
     currency_id: 1027
@@ -51,15 +37,29 @@ markets:
     currency_symbol: CARD
     currency_type: cryptocurrency
     exchange_symbol: CARD
-  exchange_id: 339
-  exchange_name: Bibox
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: CARD/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=CARD_BTC
+- base:
+    currency_id: 2891
+    currency_symbol: CARD
+    currency_type: cryptocurrency
+    exchange_symbol: CARD
+  exchange_id: 415
+  exchange_name: Bilaxy
   pair: CARD/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.bibox.com/exchange?coinPair=CARD_ETH
+  url: https://bilaxy.com/trade/CARD_ETH
 - base:
     currency_id: 2891
     currency_symbol: CARD
@@ -79,17 +79,17 @@ markets:
     currency_symbol: CARD
     currency_type: cryptocurrency
     exchange_symbol: CARD
-  exchange_id: 415
-  exchange_name: Bilaxy
+  exchange_id: 339
+  exchange_name: Bibox
   pair: CARD/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://bilaxy.com/trade/CARD_ETH
+  url: https://www.bibox.com/exchange?coinPair=CARD_ETH
 name: Cardstack
-rank: 708
+rank: 704
 slug: cardstack
 status: active
 symbol: CARD

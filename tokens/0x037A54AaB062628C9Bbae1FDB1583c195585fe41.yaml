@@ -57,20 +57,6 @@ markets:
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: LCX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/LCXBTC
-- base:
-    currency_id: 4950
-    currency_symbol: LCX
-    currency_type: cryptocurrency
-    exchange_symbol: LCX
   exchange_id: 310
   exchange_name: IDEX
   pair: LCX/ETH
@@ -80,6 +66,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/lcx
+- base:
+    currency_id: 4950
+    currency_symbol: LCX
+    currency_type: cryptocurrency
+    exchange_symbol: LCX
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: LCX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/LCXBTC
 - base:
     currency_id: 4950
     currency_symbol: LCX
@@ -183,15 +183,15 @@ markets:
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: LCX/USDC
+  exchange_id: 849
+  exchange_name: Bidesk
+  pair: LCX/BTC
   quote:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://app.liquid.com/exchange/LCXUSDC
+    exchange_symbol: BTC
+  url: https://www.bidesk.com/exchange/715/LCX/BTC
 - base:
     currency_id: 4950
     currency_symbol: LCX
@@ -225,15 +225,29 @@ markets:
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: LCX/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://app.liquid.com/exchange/LCXUSDC
+- base:
+    currency_id: 4950
+    currency_symbol: LCX
+    currency_type: cryptocurrency
+    exchange_symbol: LCX
   exchange_id: 849
   exchange_name: Bidesk
-  pair: LCX/BTC
+  pair: LCX/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bidesk.com/exchange/715/LCX/BTC
+    exchange_symbol: USDT
+  url: https://www.bidesk.com/exchange/715/LCX/USDT
 - base:
     currency_id: 4950
     currency_symbol: LCX
@@ -262,22 +276,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDC
   url: https://idex.market/usdc/lcx
-- base:
-    currency_id: 4950
-    currency_symbol: LCX
-    currency_type: cryptocurrency
-    exchange_symbol: LCX
-  exchange_id: 849
-  exchange_name: Bidesk
-  pair: LCX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bidesk.com/exchange/715/LCX/USDT
 name: LCX
-rank: 378
+rank: 416
 slug: lcx
 status: active
 symbol: LCX

@@ -159,6 +159,48 @@ markets:
     exchange_symbol: EVY
   exchange_id: 380
   exchange_name: LATOKEN
+  pair: EVY/LA
+  quote:
+    currency_id: 2090
+    currency_symbol: LA
+    currency_type: cryptocurrency
+    exchange_symbol: LA
+  url: https://latoken.com/exchange/LA-EVY
+- base:
+    currency_id: 3754
+    currency_symbol: EVY
+    currency_type: cryptocurrency
+    exchange_symbol: EVY
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: EVY/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/EVY_USD
+- base:
+    currency_id: 3754
+    currency_symbol: EVY
+    currency_type: cryptocurrency
+    exchange_symbol: EVY
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: EVY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/EVY_BTC
+- base:
+    currency_id: 3754
+    currency_symbol: EVY
+    currency_type: cryptocurrency
+    exchange_symbol: EVY
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: EVY/BTC
   quote:
     currency_id: 1
@@ -180,48 +222,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://latoken.com/exchange/USDT-EVY
-- base:
-    currency_id: 3754
-    currency_symbol: EVY
-    currency_type: cryptocurrency
-    exchange_symbol: EVY
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: EVY/LA
-  quote:
-    currency_id: 2090
-    currency_symbol: LA
-    currency_type: cryptocurrency
-    exchange_symbol: LA
-  url: https://latoken.com/exchange/LA-EVY
-- base:
-    currency_id: 3754
-    currency_symbol: EVY
-    currency_type: cryptocurrency
-    exchange_symbol: EVY
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: EVY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/EVY_BTC
-- base:
-    currency_id: 3754
-    currency_symbol: EVY
-    currency_type: cryptocurrency
-    exchange_symbol: EVY
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: EVY/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/EVY_USD
 - base:
     currency_id: 3754
     currency_symbol: EVY
@@ -251,7 +251,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.idax.mn/#/exchange?pairname=EVY_ETH
 name: 'EveryCoin '
-rank: 503
+rank: 508
 slug: everycoin
 status: active
 symbol: EVY

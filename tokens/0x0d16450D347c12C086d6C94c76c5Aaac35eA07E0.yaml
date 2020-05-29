@@ -46,20 +46,6 @@ markets:
     exchange_symbol: GOLD
   exchange_id: 403
   exchange_name: BitForex
-  pair: GOLD/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitforex.com/en/spot/gold_btc
-- base:
-    currency_id: 4942
-    currency_symbol: GOLD
-    currency_type: cryptocurrency
-    exchange_symbol: GOLD
-  exchange_id: 403
-  exchange_name: BitForex
   pair: GOLD/ETH
   quote:
     currency_id: 1027
@@ -67,8 +53,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitforex.com/en/spot/gold_eth
+- base:
+    currency_id: 4942
+    currency_symbol: GOLD
+    currency_type: cryptocurrency
+    exchange_symbol: GOLD
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: GOLD/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitforex.com/en/spot/gold_btc
 name: Digital Gold
-rank: 1001
+rank: 1009
 slug: digital-gold
 status: active
 symbol: GOLD

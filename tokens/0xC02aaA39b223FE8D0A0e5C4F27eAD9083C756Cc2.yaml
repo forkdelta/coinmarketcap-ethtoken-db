@@ -53,6 +53,34 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/USDC/WETH
 - base:
+    currency_id: 3631
+    currency_symbol: FOAM
+    currency_type: cryptocurrency
+    exchange_symbol: FOAM
+  exchange_id: 348
+  exchange_name: Radar Relay
+  pair: FOAM/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://app.radarrelay.com/FOAM/WETH
+- base:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  exchange_id: 348
+  exchange_name: Radar Relay
+  pair: WETH/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://app.radarrelay.com/WETH/DAI
+- base:
     currency_id: 2071
     currency_symbol: REQ
     currency_type: cryptocurrency
@@ -276,36 +304,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: WETH
   url: https://app.radarrelay.com/TUSD/WETH
-- base:
-    currency_id: 3631
-    currency_symbol: FOAM
-    currency_type: cryptocurrency
-    exchange_symbol: FOAM
-  exchange_id: 348
-  exchange_name: Radar Relay
-  pair: FOAM/WETH
-  quote:
-    currency_id: 2396
-    currency_symbol: WETH
-    currency_type: cryptocurrency
-    exchange_symbol: WETH
-  url: https://app.radarrelay.com/FOAM/WETH
-- base:
-    currency_id: 2396
-    currency_symbol: WETH
-    currency_type: cryptocurrency
-    exchange_symbol: WETH
-  exchange_id: 348
-  exchange_name: Radar Relay
-  pair: WETH/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://app.radarrelay.com/WETH/DAI
 name: WETH
-rank: 2268
+rank: 2198
 slug: weth
 status: active
 symbol: WETH

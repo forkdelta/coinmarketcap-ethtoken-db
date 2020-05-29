@@ -59,20 +59,6 @@ markets:
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: SNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=snt_btc
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
   exchange_id: 442
   exchange_name: Coinbit
   pair: SNT/KRW
@@ -82,6 +68,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.coinbit.co.kr/trade/order/krw-snt
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=snt_btc
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -115,34 +115,6 @@ markets:
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 442
-  exchange_name: Coinbit
-  pair: SNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coinbit.co.kr/trade/order/eth-snt
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 442
-  exchange_name: Coinbit
-  pair: SNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinbit.co.kr/trade/order/btc-snt
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
   exchange_id: 270
   exchange_name: Binance
   pair: SNT/BTC
@@ -157,15 +129,15 @@ markets:
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 497
-  exchange_name: Bione
-  pair: SNT/USDT
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: SNT/KRW
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bione.cc/index/trade/index/market/snt_usdt
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-SNT
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -185,15 +157,29 @@ markets:
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: SNT/KRW
+  exchange_id: 497
+  exchange_name: Bione
+  pair: SNT/USDT
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-SNT
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bione.cc/index/trade/index/market/snt_usdt
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 442
+  exchange_name: Coinbit
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinbit.co.kr/trade/order/btc-snt
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -227,15 +213,15 @@ markets:
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 544
-  exchange_name: MXC
-  pair: SNT/BTC
+  exchange_id: 442
+  exchange_name: Coinbit
+  pair: SNT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.mxc.com/trade/easy#SNT_BTC
+    exchange_symbol: ETH
+  url: https://www.coinbit.co.kr/trade/order/eth-snt
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -250,6 +236,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bkex.com/trade/SNT_USDT
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 544
+  exchange_name: MXC
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.mxc.com/trade/easy#SNT_BTC
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -311,6 +311,34 @@ markets:
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: SNT/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.bitay.com/en/t/SNTTRY
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: SNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitay.com/en/t/SNTUSDT
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
   exchange_id: 102
   exchange_name: Huobi Global
   pair: SNT/BTC
@@ -325,20 +353,6 @@ markets:
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 323
-  exchange_name: RightBTC
-  pair: SNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.rightbtc.com/trade/SNTUSDT
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
   exchange_id: 656
   exchange_name: Omgfin
   pair: SNT/ETH
@@ -348,20 +362,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://omgfin.com/exchange/trade/market/SNTETH
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: SNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=snt&tab=limit
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -395,169 +395,29 @@ markets:
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: SNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/SNTBTC
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
   exchange_id: 350
   exchange_name: CoinEx
-  pair: SNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=snt&tab=limit
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: SNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/SNT-BTC
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: SNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://alterdice.com/trading/SNTETH
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 459
-  exchange_name: BW.com
   pair: SNT/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bw.com/trade/snt_usdt
+  url: https://www.coinex.com/trading?currency=usdt&dest=snt&tab=limit
 - base:
     currency_id: 1759
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 302
-  exchange_name: Gate.io
+  exchange_id: 323
+  exchange_name: RightBTC
   pair: SNT/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://gate.io/trade/snt_usdt
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: SNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/snt-eth
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: SNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/SNT_BTC
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 520
-  exchange_name: Bitvavo
-  pair: SNT/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://account.bitvavo.com/markets/SNT-EUR
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: SNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-SNT
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: SNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://folgory.com/trade-crypto/SNT_BTC
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: SNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/SNT-BTC
+  url: https://www.rightbtc.com/trade/SNTUSDT
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -577,15 +437,57 @@ markets:
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 495
-  exchange_name: Folgory
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/SNT-BTC
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=snt&tab=limit
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 481
+  exchange_name: Alterdice
   pair: SNT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://folgory.com/trade-crypto/SNT_ETH
+  url: https://alterdice.com/trading/SNTETH
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: SNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/snt-eth
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -600,6 +502,160 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://latoken.com/exchange/ETH-SNT
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 459
+  exchange_name: BW.com
+  pair: SNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bw.com/trade/snt_usdt
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/SNT_BTC
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/SNTBTC
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: SNT/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/SNT
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 545
+  exchange_name: Bitsdaq
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitsdaq.com/exchange/SNT-BTC
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 908
+  exchange_name: VALR
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.valr.com/buy/SNT/BTC
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-SNT
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: SNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/snt_usdt
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: SNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://folgory.com/trade-crypto/SNT_ETH
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 520
+  exchange_name: Bitvavo
+  pair: SNT/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://account.bitvavo.com/markets/SNT-EUR
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://folgory.com/trade-crypto/SNT_BTC
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -633,174 +689,6 @@ markets:
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: SNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bitsdaq.com/exchange/SNT-ETH
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: SNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-SNT
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: SNT/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/snt-krw
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: SNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/SNT-USDT
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 436
-  exchange_name: Bitkub
-  pair: SNT/THB
-  quote:
-    currency_id: 2809
-    currency_symbol: THB
-    currency_type: fiat
-    exchange_symbol: THB
-  url: https://www.bitkub.com/market/
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: SNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.kucoin.com/trade/SNT-ETH
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: SNT/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/SNT
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: SNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/SNTUSDT
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 391
-  exchange_name: CoinTiger
-  pair: SNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=snt_btc
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: SNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://p2pb2b.io/trade/SNT_ETH
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/SNT-to-BTC
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: SNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitfinex.com/t/SNT:ETH?refcode=H70YTMupQ
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
   exchange_id: 37
   exchange_name: Bitfinex
   pair: SNT/USD
@@ -829,43 +717,141 @@ markets:
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: SNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://omgfin.com/exchange/trade/market/SNTUSDT
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 436
+  exchange_name: Bitkub
+  pair: SNT/THB
+  quote:
+    currency_id: 2809
+    currency_symbol: THB
+    currency_type: fiat
+    exchange_symbol: THB
+  url: https://www.bitkub.com/market/
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
   exchange_id: 425
   exchange_name: WazirX
+  pair: SNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/SNT-USDT
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 391
+  exchange_name: CoinTiger
   pair: SNT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://wazirx.com/exchange/SNT-BTC
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=snt_btc
 - base:
     currency_id: 1759
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 302
-  exchange_name: Gate.io
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: SNT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://gate.io/trade/snt_eth
+  url: https://bittrex.com/Market/Index?MarketName=ETH-SNT
 - base:
     currency_id: 1759
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 433
-  exchange_name: Bitrue
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/SNT-to-BTC
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 545
+  exchange_name: Bitsdaq
   pair: SNT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.bitrue.com/trade/snt_eth
+  url: https://bitsdaq.com/exchange/SNT-ETH
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 908
+  exchange_name: VALR
+  pair: SNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.valr.com/buy/SNT/ETH
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: SNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://p2pb2b.io/trade/SNT_ETH
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: SNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.kucoin.com/trade/SNT-ETH
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -885,29 +871,29 @@ markets:
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: SNT/BTC
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: SNT/KRW
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/SNT_BTC
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/snt-krw
 - base:
     currency_id: 1759
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: SNT/BTC
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: SNT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://gate.io/trade/snt_btc
+    exchange_symbol: ETH
+  url: https://www.bitfinex.com/t/SNT:ETH?refcode=H70YTMupQ
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -941,15 +927,57 @@ markets:
     currency_symbol: SNT
     currency_type: cryptocurrency
     exchange_symbol: SNT
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 433
+  exchange_name: Bitrue
   pair: SNT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://hitbtc.com/SNT-to-ETH
+  url: https://www.bitrue.com/trade/snt_eth
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/SNT_BTC
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://gate.io/trade/snt_btc
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://wazirx.com/exchange/SNT-BTC
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -964,6 +992,48 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://dex-trade.com/en?currencyIn=SNT&currencyTo=USDT
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/SNT-to-ETH
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: SNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/snt_eth
+- base:
+    currency_id: 1759
+    currency_symbol: SNT
+    currency_type: cryptocurrency
+    exchange_symbol: SNT
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: SNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/snt_btc/
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -1034,20 +1104,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.idcm.io/trading/SNT_BTC
-- base:
-    currency_id: 1759
-    currency_symbol: SNT
-    currency_type: cryptocurrency
-    exchange_symbol: SNT
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: SNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/snt_btc/
 - base:
     currency_id: 1759
     currency_symbol: SNT

@@ -52,34 +52,6 @@ markets:
     currency_symbol: CHZ
     currency_type: cryptocurrency
     exchange_symbol: CHZ
-  exchange_id: 225
-  exchange_name: Paribu
-  pair: CHZ/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.paribu.com/
-- base:
-    currency_id: 4066
-    currency_symbol: CHZ
-    currency_type: cryptocurrency
-    exchange_symbol: CHZ
-  exchange_id: 997
-  exchange_name: Chiliz
-  pair: CHZ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.chiliz.net/exchange/CHZ/BTC
-- base:
-    currency_id: 4066
-    currency_symbol: CHZ
-    currency_type: cryptocurrency
-    exchange_symbol: CHZ
   exchange_id: 388
   exchange_name: Sistemkoin
   pair: CHZ/BTC
@@ -94,6 +66,20 @@ markets:
     currency_symbol: CHZ
     currency_type: cryptocurrency
     exchange_symbol: CHZ
+  exchange_id: 225
+  exchange_name: Paribu
+  pair: CHZ/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.paribu.com/
+- base:
+    currency_id: 4066
+    currency_symbol: CHZ
+    currency_type: cryptocurrency
+    exchange_symbol: CHZ
   exchange_id: 350
   exchange_name: CoinEx
   pair: CHZ/USDT
@@ -103,20 +89,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.coinex.com/trading?currency=usdt&dest=chz&tab=limit
-- base:
-    currency_id: 4066
-    currency_symbol: CHZ
-    currency_type: cryptocurrency
-    exchange_symbol: CHZ
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: CHZ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=chz&tab=limit
 - base:
     currency_id: 4066
     currency_symbol: CHZ
@@ -150,6 +122,20 @@ markets:
     currency_symbol: CHZ
     currency_type: cryptocurrency
     exchange_symbol: CHZ
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: CHZ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=chz&tab=limit
+- base:
+    currency_id: 4066
+    currency_symbol: CHZ
+    currency_type: cryptocurrency
+    exchange_symbol: CHZ
   exchange_id: 388
   exchange_name: Sistemkoin
   pair: CHZ/TRY
@@ -178,15 +164,29 @@ markets:
     currency_symbol: CHZ
     currency_type: cryptocurrency
     exchange_symbol: CHZ
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: CHZ/ETH
+  exchange_id: 997
+  exchange_name: Chiliz
+  pair: CHZ/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bilaxy.com/trade/CHZ_ETH
+    exchange_symbol: BTC
+  url: https://www.chiliz.net/exchange/CHZ/BTC
+- base:
+    currency_id: 4066
+    currency_symbol: CHZ
+    currency_type: cryptocurrency
+    exchange_symbol: CHZ
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: CHZ/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.bitay.com/en/t/CHZTRY
 - base:
     currency_id: 4066
     currency_symbol: CHZ
@@ -248,15 +248,15 @@ markets:
     currency_symbol: CHZ
     currency_type: cryptocurrency
     exchange_symbol: CHZ
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: CHZ/BTC
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: CHZ/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/CHZBTC
+    exchange_symbol: USDT
+  url: https://www.bitay.com/en/t/CHZUSDT
 - base:
     currency_id: 4066
     currency_symbol: CHZ
@@ -290,6 +290,20 @@ markets:
     currency_symbol: CHZ
     currency_type: cryptocurrency
     exchange_symbol: CHZ
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: CHZ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/CHZBTC
+- base:
+    currency_id: 4066
+    currency_symbol: CHZ
+    currency_type: cryptocurrency
+    exchange_symbol: CHZ
   exchange_id: 568
   exchange_name: CROSS exchange
   pair: CHZ/USDT
@@ -299,20 +313,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.crossexchange.io/cross/exchange/CHZ_USDT
-- base:
-    currency_id: 4066
-    currency_symbol: CHZ
-    currency_type: cryptocurrency
-    exchange_symbol: CHZ
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CHZ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/CHZ-BTC
 - base:
     currency_id: 4066
     currency_symbol: CHZ
@@ -334,20 +334,6 @@ markets:
     exchange_symbol: CHZ
   exchange_id: 42
   exchange_name: HitBTC
-  pair: CHZ/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/CHZ-to-USDT
-- base:
-    currency_id: 4066
-    currency_symbol: CHZ
-    currency_type: cryptocurrency
-    exchange_symbol: CHZ
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: CHZ/BTC
   quote:
     currency_id: 1
@@ -355,6 +341,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/CHZ-to-BTC
+- base:
+    currency_id: 4066
+    currency_symbol: CHZ
+    currency_type: cryptocurrency
+    exchange_symbol: CHZ
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: CHZ/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/CHZ-to-USDT
 - base:
     currency_id: 4066
     currency_symbol: CHZ
@@ -369,20 +369,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-CHZ
-- base:
-    currency_id: 4066
-    currency_symbol: CHZ
-    currency_type: cryptocurrency
-    exchange_symbol: CHZ
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: CHZ/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/CHZ-USDT
 - base:
     currency_id: 4066
     currency_symbol: CHZ
@@ -416,15 +402,29 @@ markets:
     currency_symbol: CHZ
     currency_type: cryptocurrency
     exchange_symbol: CHZ
-  exchange_id: 174
-  exchange_name: Coinone
-  pair: CHZ/KRW
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CHZ/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://coinone.co.kr/exchange/trade/chz/
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/CHZ-BTC
+- base:
+    currency_id: 4066
+    currency_symbol: CHZ
+    currency_type: cryptocurrency
+    exchange_symbol: CHZ
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: CHZ/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/CHZ-USDT
 - base:
     currency_id: 4066
     currency_symbol: CHZ
@@ -453,6 +453,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://coindcx.com/trade/CHZUSDT
+- base:
+    currency_id: 4066
+    currency_symbol: CHZ
+    currency_type: cryptocurrency
+    exchange_symbol: CHZ
+  exchange_id: 174
+  exchange_name: Coinone
+  pair: CHZ/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://coinone.co.kr/exchange/trade/chz/
 - base:
     currency_id: 4066
     currency_symbol: CHZ
@@ -509,6 +523,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bitmax.io/#/trade/btc/chz
+- base:
+    currency_id: 4066
+    currency_symbol: CHZ
+    currency_type: cryptocurrency
+    exchange_symbol: CHZ
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: CHZ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/CHZ_ETH
 - base:
     currency_id: 4066
     currency_symbol: CHZ

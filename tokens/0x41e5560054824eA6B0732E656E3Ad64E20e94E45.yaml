@@ -26,20 +26,6 @@ markets:
     exchange_symbol: CVC
   exchange_id: 294
   exchange_name: OKEx
-  pair: CVC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=cvc_usdt
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
-  exchange_id: 294
-  exchange_name: OKEx
   pair: CVC/BTC
   quote:
     currency_id: 1
@@ -47,6 +33,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.okex.com/market?product=cvc_btc
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: CVC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=cvc_usdt
 - base:
     currency_id: 1816
     currency_symbol: CVC
@@ -122,20 +122,6 @@ markets:
     currency_symbol: CVC
     currency_type: cryptocurrency
     exchange_symbol: CVC
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: CVC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/cvc_usdt/
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
   exchange_id: 270
   exchange_name: Binance
   pair: CVC/USDT
@@ -150,15 +136,15 @@ markets:
     currency_symbol: CVC
     currency_type: cryptocurrency
     exchange_symbol: CVC
-  exchange_id: 482
-  exchange_name: BKEX
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: CVC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bkex.com/trade/CVC_USDT
+  url: https://www.hbg.com/en-us/exchange/cvc_usdt/
 - base:
     currency_id: 1816
     currency_symbol: CVC
@@ -206,6 +192,20 @@ markets:
     currency_symbol: CVC
     currency_type: cryptocurrency
     exchange_symbol: CVC
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: CVC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bkex.com/trade/CVC_USDT
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
   exchange_id: 355
   exchange_name: Vebitcoin
   pair: CVC/TRY
@@ -234,20 +234,6 @@ markets:
     currency_symbol: CVC
     currency_type: cryptocurrency
     exchange_symbol: CVC
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: CVC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/cvc_btc/
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
   exchange_id: 270
   exchange_name: Binance
   pair: CVC/ETH
@@ -262,6 +248,34 @@ markets:
     currency_symbol: CVC
     currency_type: cryptocurrency
     exchange_symbol: CVC
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: CVC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/cvc_btc/
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CVC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/CVC-BTC
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
   exchange_id: 485
   exchange_name: CoinField
   pair: CVC/XRP
@@ -271,6 +285,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: XRP
   url: https://trade.coinfield.com/pro/trade/CVC-XRP
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: CVC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/cvc_eth/
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: CVC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://omgfin.com/exchange/trade/market/CVCBTC
 - base:
     currency_id: 1816
     currency_symbol: CVC
@@ -306,34 +348,6 @@ markets:
     exchange_symbol: CVC
   exchange_id: 656
   exchange_name: Omgfin
-  pair: CVC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://omgfin.com/exchange/trade/market/CVCBTC
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CVC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/CVC-BTC
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
-  exchange_id: 656
-  exchange_name: Omgfin
   pair: CVC/USDT
   quote:
     currency_id: 825
@@ -341,6 +355,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://omgfin.com/exchange/trade/market/CVCUSDT
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: CVC/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.bitay.com/en/t/CVCTRY
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 436
+  exchange_name: Bitkub
+  pair: CVC/THB
+  quote:
+    currency_id: 2809
+    currency_symbol: THB
+    currency_type: fiat
+    exchange_symbol: THB
+  url: https://www.bitkub.com/market/
 - base:
     currency_id: 1816
     currency_symbol: CVC
@@ -374,118 +416,6 @@ markets:
     currency_symbol: CVC
     currency_type: cryptocurrency
     exchange_symbol: CVC
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: CVC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/CVCBTC
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: CVC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/cvc_eth/
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
-  exchange_id: 436
-  exchange_name: Bitkub
-  pair: CVC/THB
-  quote:
-    currency_id: 2809
-    currency_symbol: THB
-    currency_type: fiat
-    exchange_symbol: THB
-  url: https://www.bitkub.com/market/
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: CVC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://omgfin.com/exchange/trade/market/CVCETH
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: CVC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/CVC_BTC
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: CVC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/cvc_usdt
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: CVC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_cvc
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: CVC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-CVC
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: CVC/BTC
@@ -514,6 +444,76 @@ markets:
     currency_symbol: CVC
     currency_type: cryptocurrency
     exchange_symbol: CVC
+  exchange_id: 908
+  exchange_name: VALR
+  pair: CVC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.valr.com/buy/CVC/BTC
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: CVC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-CVC
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: CVC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/CVC_BTC
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: CVC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://omgfin.com/exchange/trade/market/CVCETH
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: CVC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitay.com/en/t/CVCUSDT
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
   exchange_id: 656
   exchange_name: Omgfin
   pair: CVC/UQC
@@ -523,6 +523,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: UQC
   url: https://omgfin.com/exchange/trade/market/CVCUQC
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: CVC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://poloniex.com/exchange#btc_cvc
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: CVC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/CVCBTC
 - base:
     currency_id: 1816
     currency_symbol: CVC
@@ -542,15 +570,29 @@ markets:
     currency_symbol: CVC
     currency_type: cryptocurrency
     exchange_symbol: CVC
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: CVC/KRW
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: CVC/ETH
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/cvc-krw
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vcc.exchange/exchange/basic?currency=eth&coin=cvc
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: CVC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/cvc-eth
 - base:
     currency_id: 1816
     currency_symbol: CVC
@@ -584,29 +626,29 @@ markets:
     currency_symbol: CVC
     currency_type: cryptocurrency
     exchange_symbol: CVC
-  exchange_id: 733
-  exchange_name: VCC Exchange
+  exchange_id: 545
+  exchange_name: Bitsdaq
   pair: CVC/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://vcc.exchange/exchange/basic?currency=eth&coin=cvc
+  url: https://bitsdaq.com/exchange/CVC-ETH
 - base:
     currency_id: 1816
     currency_symbol: CVC
     currency_type: cryptocurrency
     exchange_symbol: CVC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: CVC/USDT
+  exchange_id: 908
+  exchange_name: VALR
+  pair: CVC/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/CVC-to-USDT
+    exchange_symbol: ETH
+  url: https://www.valr.com/buy/CVC/ETH
 - base:
     currency_id: 1816
     currency_symbol: CVC
@@ -626,43 +668,29 @@ markets:
     currency_symbol: CVC
     currency_type: cryptocurrency
     exchange_symbol: CVC
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: CVC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bitsdaq.com/exchange/CVC-ETH
-- base:
-    currency_id: 1816
-    currency_symbol: CVC
-    currency_type: cryptocurrency
-    exchange_symbol: CVC
   exchange_id: 302
   exchange_name: Gate.io
-  pair: CVC/ETH
+  pair: CVC/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/cvc_eth
+    exchange_symbol: USDT
+  url: https://gate.io/trade/cvc_usdt
 - base:
     currency_id: 1816
     currency_symbol: CVC
     currency_type: cryptocurrency
     exchange_symbol: CVC
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: CVC/ETH
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: CVC/KRW
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/cvc-eth
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/cvc-krw
 - base:
     currency_id: 1816
     currency_symbol: CVC
@@ -719,6 +747,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.coss.io/c/trade?s=CVC_ETH
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: CVC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/CVC-to-USDT
+- base:
+    currency_id: 1816
+    currency_symbol: CVC
+    currency_type: cryptocurrency
+    exchange_symbol: CVC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: CVC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/cvc_eth
 - base:
     currency_id: 1816
     currency_symbol: CVC
@@ -832,7 +888,7 @@ markets:
     exchange_symbol: USDT
   url: null
 name: Civic
-rank: 178
+rank: 177
 slug: civic
 status: active
 symbol: CVC
