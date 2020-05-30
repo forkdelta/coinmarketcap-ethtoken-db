@@ -157,20 +157,6 @@ markets:
     currency_symbol: EVY
     currency_type: cryptocurrency
     exchange_symbol: EVY
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: EVY/LA
-  quote:
-    currency_id: 2090
-    currency_symbol: LA
-    currency_type: cryptocurrency
-    exchange_symbol: LA
-  url: https://latoken.com/exchange/LA-EVY
-- base:
-    currency_id: 3754
-    currency_symbol: EVY
-    currency_type: cryptocurrency
-    exchange_symbol: EVY
   exchange_id: 215
   exchange_name: P2PB2B
   pair: EVY/USD
@@ -201,6 +187,20 @@ markets:
     exchange_symbol: EVY
   exchange_id: 380
   exchange_name: LATOKEN
+  pair: EVY/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://latoken.com/exchange/USDT-EVY
+- base:
+    currency_id: 3754
+    currency_symbol: EVY
+    currency_type: cryptocurrency
+    exchange_symbol: EVY
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: EVY/BTC
   quote:
     currency_id: 1
@@ -215,13 +215,13 @@ markets:
     exchange_symbol: EVY
   exchange_id: 380
   exchange_name: LATOKEN
-  pair: EVY/USDT
+  pair: EVY/LA
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 2090
+    currency_symbol: LA
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://latoken.com/exchange/USDT-EVY
+    exchange_symbol: LA
+  url: https://latoken.com/exchange/LA-EVY
 - base:
     currency_id: 3754
     currency_symbol: EVY
@@ -251,7 +251,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.idax.mn/#/exchange?pairname=EVY_ETH
 name: 'EveryCoin '
-rank: 508
+rank: 493
 slug: everycoin
 status: active
 symbol: EVY

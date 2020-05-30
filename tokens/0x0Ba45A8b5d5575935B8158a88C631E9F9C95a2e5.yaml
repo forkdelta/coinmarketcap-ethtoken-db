@@ -85,6 +85,20 @@ markets:
     currency_symbol: TRB
     currency_type: cryptocurrency
     exchange_symbol: TRB
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: TRB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/trb
+- base:
+    currency_id: 4944
+    currency_symbol: TRB
+    currency_type: cryptocurrency
+    exchange_symbol: TRB
   exchange_id: 400
   exchange_name: Hotbit
   pair: TRB/BTC
@@ -113,15 +127,29 @@ markets:
     currency_symbol: TRB
     currency_type: cryptocurrency
     exchange_symbol: TRB
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: TRB/ETH
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: TRB/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/trb
+    exchange_symbol: USDT
+  url: https://www.bkex.com/trade/TRB_USDT
+- base:
+    currency_id: 4944
+    currency_symbol: TRB
+    currency_type: cryptocurrency
+    exchange_symbol: TRB
+  exchange_id: 849
+  exchange_name: Bidesk
+  pair: TRB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bidesk.com/exchange/715/TRB/USDT
 - base:
     currency_id: 4944
     currency_symbol: TRB
@@ -141,34 +169,6 @@ markets:
     currency_symbol: TRB
     currency_type: cryptocurrency
     exchange_symbol: TRB
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: TRB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bkex.com/trade/TRB_USDT
-- base:
-    currency_id: 4944
-    currency_symbol: TRB
-    currency_type: cryptocurrency
-    exchange_symbol: TRB
-  exchange_id: 549
-  exchange_name: CITEX
-  pair: TRB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trade.citex.co.kr/trade/TRB_USDT
-- base:
-    currency_id: 4944
-    currency_symbol: TRB
-    currency_type: cryptocurrency
-    exchange_symbol: TRB
   exchange_id: 549
   exchange_name: CITEX
   pair: TRB/ETH
@@ -183,15 +183,15 @@ markets:
     currency_symbol: TRB
     currency_type: cryptocurrency
     exchange_symbol: TRB
-  exchange_id: 849
-  exchange_name: Bidesk
+  exchange_id: 549
+  exchange_name: CITEX
   pair: TRB/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bidesk.com/exchange/715/TRB/USDT
+  url: https://trade.citex.co.kr/trade/TRB_USDT
 - base:
     currency_id: 4944
     currency_symbol: TRB
@@ -235,7 +235,7 @@ markets:
     exchange_symbol: USDT
   url: https://hoo.com/trade/trb-usdt
 name: Tellor
-rank: 456
+rank: 422
 slug: tellor
 status: active
 symbol: TRB

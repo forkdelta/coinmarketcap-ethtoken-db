@@ -41,20 +41,6 @@ markets:
     currency_symbol: TBX
     currency_type: cryptocurrency
     exchange_symbol: TBX
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: TBX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/TBX/BTC
-- base:
-    currency_id: 2452
-    currency_symbol: TBX
-    currency_type: cryptocurrency
-    exchange_symbol: TBX
   exchange_id: 267
   exchange_name: Bancor Network
   pair: TBX/BNT
@@ -64,6 +50,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNT
   url: https://www.bancor.network/token/TBX
+- base:
+    currency_id: 2452
+    currency_symbol: TBX
+    currency_type: cryptocurrency
+    exchange_symbol: TBX
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: TBX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/TBX/BTC
 - base:
     currency_id: 2452
     currency_symbol: TBX
@@ -93,7 +93,7 @@ markets:
     exchange_symbol: ETH
   url: https://yobit.net/en/trade/TBX/ETH
 name: Tokenbox
-rank: 1390
+rank: 1375
 slug: tokenbox
 status: active
 symbol: TBX

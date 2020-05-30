@@ -43,6 +43,34 @@ markets:
     currency_symbol: ESH
     currency_type: cryptocurrency
     exchange_symbol: ESH
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: ESH/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/esh
+- base:
+    currency_id: 4096
+    currency_symbol: ESH
+    currency_type: cryptocurrency
+    exchange_symbol: ESH
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: ESH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=ESH_USDT
+- base:
+    currency_id: 4096
+    currency_symbol: ESH
+    currency_type: cryptocurrency
+    exchange_symbol: ESH
   exchange_id: 400
   exchange_name: Hotbit
   pair: ESH/ETH
@@ -71,43 +99,15 @@ markets:
     currency_symbol: ESH
     currency_type: cryptocurrency
     exchange_symbol: ESH
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: ESH/USDT
+  exchange_id: 245
+  exchange_name: STEX
+  pair: ESH/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=ESH_USDT
-- base:
-    currency_id: 4096
-    currency_symbol: ESH
-    currency_type: cryptocurrency
-    exchange_symbol: ESH
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: ESH/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/esh
-- base:
-    currency_id: 4096
-    currency_symbol: ESH
-    currency_type: cryptocurrency
-    exchange_symbol: ESH
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: ESH/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/ESH/ETH
+    exchange_symbol: BTC
+  url: https://app.stex.com/en/basic-trade/pair/BTC/ESH/1D
 - base:
     currency_id: 4096
     currency_symbol: ESH
@@ -143,6 +143,20 @@ markets:
     exchange_symbol: ESH
   exchange_id: 213
   exchange_name: Mercatox
+  pair: ESH/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://mercatox.com/exchange/ESH/ETH
+- base:
+    currency_id: 4096
+    currency_symbol: ESH
+    currency_type: cryptocurrency
+    exchange_symbol: ESH
+  exchange_id: 213
+  exchange_name: Mercatox
   pair: ESH/BTC
   quote:
     currency_id: 1
@@ -150,20 +164,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/ESH/BTC
-- base:
-    currency_id: 4096
-    currency_symbol: ESH
-    currency_type: cryptocurrency
-    exchange_symbol: ESH
-  exchange_id: 245
-  exchange_name: STEX
-  pair: ESH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.stex.com/en/basic-trade/pair/BTC/ESH/1D
 - base:
     currency_id: 4096
     currency_symbol: ESH
@@ -249,7 +249,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.probit.com/app/exchange/ESH-BTC
 name: Switch
-rank: 901
+rank: 802
 slug: switch
 status: active
 symbol: ESH

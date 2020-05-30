@@ -63,20 +63,6 @@ markets:
     currency_symbol: DNT
     currency_type: cryptocurrency
     exchange_symbol: DNT
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: DNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/DNTBTC
-- base:
-    currency_id: 1856
-    currency_symbol: DNT
-    currency_type: cryptocurrency
-    exchange_symbol: DNT
   exchange_id: 213
   exchange_name: Mercatox
   pair: DNT/ETH
@@ -86,6 +72,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://mercatox.com/exchange/DNT/ETH
+- base:
+    currency_id: 1856
+    currency_symbol: DNT
+    currency_type: cryptocurrency
+    exchange_symbol: DNT
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: DNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/DNTBTC
 - base:
     currency_id: 1856
     currency_symbol: DNT
@@ -133,6 +133,20 @@ markets:
     currency_symbol: DNT
     currency_type: cryptocurrency
     exchange_symbol: DNT
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: DNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitrue.com/trade/dnt_btc
+- base:
+    currency_id: 1856
+    currency_symbol: DNT
+    currency_type: cryptocurrency
+    exchange_symbol: DNT
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: DNT/BTC
@@ -142,20 +156,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=dnt
-- base:
-    currency_id: 1856
-    currency_symbol: DNT
-    currency_type: cryptocurrency
-    exchange_symbol: DNT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: DNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-DNT
 - base:
     currency_id: 1856
     currency_symbol: DNT
@@ -175,15 +175,15 @@ markets:
     currency_symbol: DNT
     currency_type: cryptocurrency
     exchange_symbol: DNT
-  exchange_id: 433
-  exchange_name: Bitrue
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: DNT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/dnt_btc
+  url: https://bittrex.com/Market/Index?MarketName=BTC-DNT
 - base:
     currency_id: 1856
     currency_symbol: DNT
@@ -241,7 +241,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/DNT/WETH
 name: district0x
-rank: 591
+rank: 589
 slug: district0x
 status: active
 symbol: DNT
