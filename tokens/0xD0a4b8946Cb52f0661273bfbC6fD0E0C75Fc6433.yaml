@@ -87,48 +87,6 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: STORM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/STORMBTC
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
-  exchange_id: 520
-  exchange_name: Bitvavo
-  pair: STORM/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://account.bitvavo.com/markets/STORM-EUR
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: STORM/XRP
-  quote:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://www.bitrue.com/trade/storm_xrp
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
   exchange_id: 433
   exchange_name: Bitrue
   pair: STORM/BTC
@@ -143,15 +101,15 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: STORM/ETH
+  exchange_id: 520
+  exchange_name: Bitvavo
+  pair: STORM/EUR
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitrue.com/trade/storm_eth
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://account.bitvavo.com/markets/STORM-EUR
 - base:
     currency_id: 2297
     currency_symbol: STORM
@@ -199,6 +157,34 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: STORM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/STORMBTC
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: STORM/XRP
+  quote:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  url: https://www.bitrue.com/trade/storm_xrp
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
   exchange_id: 425
   exchange_name: WazirX
   pair: STORM/USDT
@@ -208,6 +194,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://wazirx.com/exchange/STORM-USDT
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: STORM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitrue.com/trade/storm_eth
 - base:
     currency_id: 2297
     currency_symbol: STORM
@@ -255,15 +255,15 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: STORM/BTC
+  exchange_id: 908
+  exchange_name: VALR
+  pair: STORM/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/STORM-to-BTC
+    exchange_symbol: ETH
+  url: https://www.valr.com/buy/STORM/ETH
 - base:
     currency_id: 2297
     currency_symbol: STORM
@@ -283,15 +283,29 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
-  exchange_id: 908
-  exchange_name: VALR
-  pair: STORM/ETH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: STORM/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.valr.com/buy/STORM/ETH
+    exchange_symbol: BTC
+  url: https://hitbtc.com/STORM-to-BTC
+- base:
+    currency_id: 2297
+    currency_symbol: STORM
+    currency_type: cryptocurrency
+    exchange_symbol: STORM
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: STORM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/STORM/BTC
 - base:
     currency_id: 2297
     currency_symbol: STORM
@@ -325,20 +339,6 @@ markets:
     currency_symbol: STORM
     currency_type: cryptocurrency
     exchange_symbol: STORM
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: STORM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/STORM/BTC
-- base:
-    currency_id: 2297
-    currency_symbol: STORM
-    currency_type: cryptocurrency
-    exchange_symbol: STORM
   exchange_id: 348
   exchange_name: Radar Relay
   pair: STORM/WETH
@@ -349,7 +349,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/STORM/WETH
 name: Storm
-rank: 200
+rank: 186
 slug: storm
 status: active
 symbol: STORM

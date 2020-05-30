@@ -20,20 +20,6 @@ markets:
     currency_symbol: BOOM
     currency_type: cryptocurrency
     exchange_symbol: BOOM
-  exchange_id: 544
-  exchange_name: MXC
-  pair: BOOM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.mxc.com/trade/easy#BOOM_USDT
-- base:
-    currency_id: 4128
-    currency_symbol: BOOM
-    currency_type: cryptocurrency
-    exchange_symbol: BOOM
   exchange_id: 406
   exchange_name: BitMart
   pair: BOOM/BTC
@@ -48,15 +34,29 @@ markets:
     currency_symbol: BOOM
     currency_type: cryptocurrency
     exchange_symbol: BOOM
+  exchange_id: 544
+  exchange_name: MXC
+  pair: BOOM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.mxc.com/trade/easy#BOOM_USDT
+- base:
+    currency_id: 4128
+    currency_symbol: BOOM
+    currency_type: cryptocurrency
+    exchange_symbol: BOOM
   exchange_id: 549
   exchange_name: CITEX
-  pair: BOOM/BTC
+  pair: BOOM/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.citex.co.kr/trade/BOOM_BTC
+    exchange_symbol: USDT
+  url: https://trade.citex.co.kr/trade/BOOM_USDT
 - base:
     currency_id: 4128
     currency_symbol: BOOM
@@ -78,15 +78,15 @@ markets:
     exchange_symbol: BOOM
   exchange_id: 549
   exchange_name: CITEX
-  pair: BOOM/USDT
+  pair: BOOM/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trade.citex.co.kr/trade/BOOM_USDT
+    exchange_symbol: BTC
+  url: https://trade.citex.co.kr/trade/BOOM_BTC
 name: BOOM
-rank: 854
+rank: 850
 slug: boom
 status: active
 symbol: BOOM

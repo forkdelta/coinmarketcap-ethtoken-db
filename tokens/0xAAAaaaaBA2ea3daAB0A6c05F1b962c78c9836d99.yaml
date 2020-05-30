@@ -30,20 +30,6 @@ markets:
     currency_symbol: AZ
     currency_type: cryptocurrency
     exchange_symbol: AZ
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: AZ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=AZ_BTC
-- base:
-    currency_id: 4777
-    currency_symbol: AZ
-    currency_type: cryptocurrency
-    exchange_symbol: AZ
   exchange_id: 100
   exchange_name: YoBit
   pair: AZ/USD
@@ -53,6 +39,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://yobit.net/en/trade/AZ/USD
+- base:
+    currency_id: 4777
+    currency_symbol: AZ
+    currency_type: cryptocurrency
+    exchange_symbol: AZ
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: AZ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=AZ_BTC
 - base:
     currency_id: 4777
     currency_symbol: AZ
@@ -68,7 +68,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.bw.com/trade/az_usdt
 name: Azbit
-rank: 865
+rank: 880
 slug: azbit
 status: active
 symbol: AZ

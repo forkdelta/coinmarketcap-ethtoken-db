@@ -96,20 +96,6 @@ markets:
     currency_symbol: EXM
     currency_type: cryptocurrency
     exchange_symbol: EXM
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: EXM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/EXM-to-BTC
-- base:
-    currency_id: 4974
-    currency_symbol: EXM
-    currency_type: cryptocurrency
-    exchange_symbol: EXM
   exchange_id: 50
   exchange_name: Exmo
   pair: EXM/ETH
@@ -120,19 +106,19 @@ markets:
     exchange_symbol: ETH
   url: https://exmo.com/en/trade#?pair=EXM_ETH
 - base:
-    currency_id: 4309
-    currency_symbol: CRON
-    currency_type: cryptocurrency
-    exchange_symbol: CRON
-  exchange_id: 50
-  exchange_name: Exmo
-  pair: CRON/EXM
-  quote:
     currency_id: 4974
     currency_symbol: EXM
     currency_type: cryptocurrency
     exchange_symbol: EXM
-  url: https://exmo.com/en/trade#?pair=CRON_EXM
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: EXM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/EXM-to-BTC
 - base:
     currency_id: 3794
     currency_symbol: ATOM
@@ -147,8 +133,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: EXM
   url: https://exmo.com/en/trade#?pair=ATOM_EXM
+- base:
+    currency_id: 4309
+    currency_symbol: CRON
+    currency_type: cryptocurrency
+    exchange_symbol: CRON
+  exchange_id: 50
+  exchange_name: Exmo
+  pair: CRON/EXM
+  quote:
+    currency_id: 4974
+    currency_symbol: EXM
+    currency_type: cryptocurrency
+    exchange_symbol: EXM
+  url: https://exmo.com/en/trade#?pair=CRON_EXM
 name: EXMO Coin
-rank: 716
+rank: 713
 slug: exmo-coin
 status: active
 symbol: EXM
