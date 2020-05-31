@@ -35,20 +35,6 @@ markets:
     currency_symbol: SWM
     currency_type: cryptocurrency
     exchange_symbol: SWM
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: SWM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/swm
-- base:
-    currency_id: 2506
-    currency_symbol: SWM
-    currency_type: cryptocurrency
-    exchange_symbol: SWM
   exchange_id: 363
   exchange_name: Fatbtc
   pair: SWM/USDT
@@ -63,15 +49,15 @@ markets:
     currency_symbol: SWM
     currency_type: cryptocurrency
     exchange_symbol: SWM
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 310
+  exchange_name: IDEX
   pair: SWM/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=SWM_ETH
+  url: https://idex.market/eth/swm
 - base:
     currency_id: 2506
     currency_symbol: SWM
@@ -91,34 +77,6 @@ markets:
     currency_symbol: SWM
     currency_type: cryptocurrency
     exchange_symbol: SWM
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: SWM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=SWM_BTC
-- base:
-    currency_id: 2506
-    currency_symbol: SWM
-    currency_type: cryptocurrency
-    exchange_symbol: SWM
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: SWM/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/SWM:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2506
-    currency_symbol: SWM
-    currency_type: cryptocurrency
-    exchange_symbol: SWM
   exchange_id: 42
   exchange_name: HitBTC
   pair: SWM/BTC
@@ -128,6 +86,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/SWM-to-BTC
+- base:
+    currency_id: 2506
+    currency_symbol: SWM
+    currency_type: cryptocurrency
+    exchange_symbol: SWM
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: SWM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=SWM_BTC
 - base:
     currency_id: 2506
     currency_symbol: SWM
@@ -147,6 +119,34 @@ markets:
     currency_symbol: SWM
     currency_type: cryptocurrency
     exchange_symbol: SWM
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: SWM/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/SWM:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 2506
+    currency_symbol: SWM
+    currency_type: cryptocurrency
+    exchange_symbol: SWM
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: SWM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=SWM_ETH
+- base:
+    currency_id: 2506
+    currency_symbol: SWM
+    currency_type: cryptocurrency
+    exchange_symbol: SWM
   exchange_id: 42
   exchange_name: HitBTC
   pair: SWM/USDT
@@ -157,7 +157,7 @@ markets:
     exchange_symbol: USDT
   url: https://hitbtc.com/SWM-to-USDT
 name: Swarm
-rank: 1030
+rank: 1039
 slug: swarm-fund
 status: active
 symbol: SWM

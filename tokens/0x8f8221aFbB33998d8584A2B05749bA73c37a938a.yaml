@@ -48,20 +48,6 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
-  exchange_id: 520
-  exchange_name: Bitvavo
-  pair: REQ/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://account.bitvavo.com/markets/REQ-EUR
-- base:
-    currency_id: 2071
-    currency_symbol: REQ
-    currency_type: cryptocurrency
-    exchange_symbol: REQ
   exchange_id: 213
   exchange_name: Mercatox
   pair: REQ/ETH
@@ -76,15 +62,15 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: REQ/BNT
+  exchange_id: 520
+  exchange_name: Bitvavo
+  pair: REQ/EUR
   quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/REQ
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://account.bitvavo.com/markets/REQ-EUR
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -118,6 +104,20 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: REQ/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/REQ
+- base:
+    currency_id: 2071
+    currency_symbol: REQ
+    currency_type: cryptocurrency
+    exchange_symbol: REQ
   exchange_id: 102
   exchange_name: Huobi Global
   pair: REQ/BTC
@@ -146,15 +146,15 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: REQ/USDT
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: REQ/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/req_usdt
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/REQ-BTC
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -169,20 +169,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://wazirx.com/exchange/REQ-USDT
-- base:
-    currency_id: 2071
-    currency_symbol: REQ
-    currency_type: cryptocurrency
-    exchange_symbol: REQ
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: REQ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/REQ-BTC
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -216,34 +202,6 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: REQ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/REQBTC
-- base:
-    currency_id: 2071
-    currency_symbol: REQ
-    currency_type: cryptocurrency
-    exchange_symbol: REQ
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: REQ/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/REQ:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2071
-    currency_symbol: REQ
-    currency_type: cryptocurrency
-    exchange_symbol: REQ
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: REQ/BTC
@@ -272,15 +230,15 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: REQ/BTC
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: REQ/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://wazirx.com/exchange/REQ-BTC
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/REQ:USD?refcode=H70YTMupQ
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -309,6 +267,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/req_eth
+- base:
+    currency_id: 2071
+    currency_symbol: REQ
+    currency_type: cryptocurrency
+    exchange_symbol: REQ
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: REQ/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/req_usdt
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -356,6 +328,34 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: REQ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://wazirx.com/exchange/REQ-BTC
+- base:
+    currency_id: 2071
+    currency_symbol: REQ
+    currency_type: cryptocurrency
+    exchange_symbol: REQ
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: REQ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/REQBTC
+- base:
+    currency_id: 2071
+    currency_symbol: REQ
+    currency_type: cryptocurrency
+    exchange_symbol: REQ
   exchange_id: 348
   exchange_name: Radar Relay
   pair: REQ/WETH
@@ -366,7 +366,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/REQ/WETH
 name: Request
-rank: 329
+rank: 326
 slug: request
 status: active
 symbol: REQ

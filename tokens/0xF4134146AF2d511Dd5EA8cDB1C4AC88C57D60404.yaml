@@ -92,20 +92,6 @@ markets:
     exchange_symbol: SNC
   exchange_id: 42
   exchange_name: HitBTC
-  pair: SNC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/SNC-to-USDT
-- base:
-    currency_id: 1786
-    currency_symbol: SNC
-    currency_type: cryptocurrency
-    exchange_symbol: SNC
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: SNC/BTC
   quote:
     currency_id: 1
@@ -132,15 +118,15 @@ markets:
     currency_symbol: SNC
     currency_type: cryptocurrency
     exchange_symbol: SNC
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: SNC/BTC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SNC/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/SNC/BTC
+    exchange_symbol: USDT
+  url: https://hitbtc.com/SNC-to-USDT
 - base:
     currency_id: 1786
     currency_symbol: SNC
@@ -169,8 +155,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/snc_eth/
+- base:
+    currency_id: 1786
+    currency_symbol: SNC
+    currency_type: cryptocurrency
+    exchange_symbol: SNC
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: SNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/SNC/BTC
 name: SunContract
-rank: 628
+rank: 623
 slug: suncontract
 status: active
 symbol: SNC

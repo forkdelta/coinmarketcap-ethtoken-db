@@ -64,20 +64,6 @@ markets:
     currency_symbol: FOAM
     currency_type: cryptocurrency
     exchange_symbol: FOAM
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: FOAM/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/FOAM:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 3631
-    currency_symbol: FOAM
-    currency_type: cryptocurrency
-    exchange_symbol: FOAM
   exchange_id: 16
   exchange_name: Poloniex
   pair: FOAM/BTC
@@ -87,6 +73,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://poloniex.com/exchange#btc_foam
+- base:
+    currency_id: 3631
+    currency_symbol: FOAM
+    currency_type: cryptocurrency
+    exchange_symbol: FOAM
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: FOAM/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/FOAM:USD?refcode=H70YTMupQ
 - base:
     currency_id: 3631
     currency_symbol: FOAM
@@ -116,7 +116,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/FOAM/WETH
 name: FOAM
-rank: 686
+rank: 660
 slug: foam
 status: active
 symbol: FOAM
