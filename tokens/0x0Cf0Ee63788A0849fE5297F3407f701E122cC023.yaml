@@ -67,20 +67,6 @@ markets:
     exchange_symbol: DATA
   exchange_id: 270
   exchange_name: Binance
-  pair: DATA/BUSD
-  quote:
-    currency_id: 4687
-    currency_symbol: BUSD
-    currency_type: cryptocurrency
-    exchange_symbol: BUSD
-  url: https://www.binance.com/en/trade/DATA_BUSD?ref=H31B921U
-- base:
-    currency_id: 2143
-    currency_symbol: DATA
-    currency_type: cryptocurrency
-    exchange_symbol: DATA
-  exchange_id: 270
-  exchange_name: Binance
   pair: DATA/ETH
   quote:
     currency_id: 1027
@@ -93,15 +79,15 @@ markets:
     currency_symbol: DATA
     currency_type: cryptocurrency
     exchange_symbol: DATA
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: DATA/BNT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: DATA/BUSD
   quote:
-    currency_id: 1727
-    currency_symbol: BNT
+    currency_id: 4687
+    currency_symbol: BUSD
     currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/DATA
+    exchange_symbol: BUSD
+  url: https://www.binance.com/en/trade/DATA_BUSD?ref=H31B921U
 - base:
     currency_id: 2143
     currency_symbol: DATA
@@ -135,29 +121,15 @@ markets:
     currency_symbol: DATA
     currency_type: cryptocurrency
     exchange_symbol: DATA
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: DATA/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/DATA:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2143
-    currency_symbol: DATA
-    currency_type: cryptocurrency
-    exchange_symbol: DATA
-  exchange_id: 595
-  exchange_name: Uniswap
+  exchange_id: 213
+  exchange_name: Mercatox
   pair: DATA/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://uniswap.exchange/
+  url: https://mercatox.com/exchange/DATA/ETH
 - base:
     currency_id: 2143
     currency_symbol: DATA
@@ -177,6 +149,20 @@ markets:
     currency_symbol: DATA
     currency_type: cryptocurrency
     exchange_symbol: DATA
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: DATA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/data_usdt
+- base:
+    currency_id: 2143
+    currency_symbol: DATA
+    currency_type: cryptocurrency
+    exchange_symbol: DATA
   exchange_id: 495
   exchange_name: Folgory
   pair: DATA/BTC
@@ -186,6 +172,62 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://folgory.com/trade-crypto/DATA_BTC
+- base:
+    currency_id: 2143
+    currency_symbol: DATA
+    currency_type: cryptocurrency
+    exchange_symbol: DATA
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: DATA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/DATABTC
+- base:
+    currency_id: 2143
+    currency_symbol: DATA
+    currency_type: cryptocurrency
+    exchange_symbol: DATA
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: DATA/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/DATA
+- base:
+    currency_id: 2143
+    currency_symbol: DATA
+    currency_type: cryptocurrency
+    exchange_symbol: DATA
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: DATA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/DATA-to-ETH
+- base:
+    currency_id: 2143
+    currency_symbol: DATA
+    currency_type: cryptocurrency
+    exchange_symbol: DATA
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: DATA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 - base:
     currency_id: 2143
     currency_symbol: DATA
@@ -205,15 +247,15 @@ markets:
     currency_symbol: DATA
     currency_type: cryptocurrency
     exchange_symbol: DATA
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: DATA/ETH
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: DATA/USD
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/DATA-to-ETH
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/DATA:USD?refcode=H70YTMupQ
 - base:
     currency_id: 2143
     currency_symbol: DATA
@@ -247,15 +289,15 @@ markets:
     currency_symbol: DATA
     currency_type: cryptocurrency
     exchange_symbol: DATA
-  exchange_id: 302
-  exchange_name: Gate.io
+  exchange_id: 949
+  exchange_name: CoinDCX
   pair: DATA/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://gate.io/trade/data_usdt
+  url: https://coindcx.com/trade/DATAUSDT
 - base:
     currency_id: 2143
     currency_symbol: DATA
@@ -275,29 +317,15 @@ markets:
     currency_symbol: DATA
     currency_type: cryptocurrency
     exchange_symbol: DATA
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: DATA/BTC
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: DATA/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/DATABTC
-- base:
-    currency_id: 2143
-    currency_symbol: DATA
-    currency_type: cryptocurrency
-    exchange_symbol: DATA
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: DATA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/DATAUSDT
+    exchange_symbol: ETH
+  url: https://idex.market/eth/data
 - base:
     currency_id: 2143
     currency_symbol: DATA
@@ -331,20 +359,6 @@ markets:
     currency_symbol: DATA
     currency_type: cryptocurrency
     exchange_symbol: DATA
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: DATA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/data
-- base:
-    currency_id: 2143
-    currency_symbol: DATA
-    currency_type: cryptocurrency
-    exchange_symbol: DATA
   exchange_id: 949
   exchange_name: CoinDCX
   pair: DATA/ETH
@@ -354,22 +368,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://coindcx.com/trade/DATAETH
-- base:
-    currency_id: 2143
-    currency_symbol: DATA
-    currency_type: cryptocurrency
-    exchange_symbol: DATA
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: DATA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/DATA/ETH
 name: Streamr
-rank: 110
+rank: 112
 slug: streamr
 status: active
 symbol: DATA

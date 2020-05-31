@@ -112,29 +112,15 @@ markets:
     currency_symbol: UBT
     currency_type: cryptocurrency
     exchange_symbol: UBT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: UBT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=UBT_ETH
-- base:
-    currency_id: 2758
-    currency_symbol: UBT
-    currency_type: cryptocurrency
-    exchange_symbol: UBT
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: UBT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=UBT_BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-UBT
 - base:
     currency_id: 2758
     currency_symbol: UBT
@@ -154,29 +140,29 @@ markets:
     currency_symbol: UBT
     currency_type: cryptocurrency
     exchange_symbol: UBT
-  exchange_id: 22
-  exchange_name: Bittrex
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: UBT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-UBT
+  url: https://www.hotbit.io/exchange?symbol=UBT_BTC
 - base:
     currency_id: 2758
     currency_symbol: UBT
     currency_type: cryptocurrency
     exchange_symbol: UBT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: UBT/BTC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: UBT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/UBT-to-BTC
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=UBT_ETH
 - base:
     currency_id: 2758
     currency_symbol: UBT
@@ -191,6 +177,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bidesk.com/exchange/715/UBT/USDT
+- base:
+    currency_id: 2758
+    currency_symbol: UBT
+    currency_type: cryptocurrency
+    exchange_symbol: UBT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: UBT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/UBT-to-BTC
 - base:
     currency_id: 2758
     currency_symbol: UBT
@@ -248,7 +248,7 @@ markets:
     exchange_symbol: KRW
   url: https://bitsonic.co.kr/front/exchange/ubt-krw
 name: Unibright
-rank: 85
+rank: 82
 slug: unibright
 status: active
 symbol: UBT

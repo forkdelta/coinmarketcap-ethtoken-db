@@ -45,20 +45,6 @@ markets:
     currency_symbol: AST
     currency_type: cryptocurrency
     exchange_symbol: AST
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: AST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bilaxy.com/trade/AST_BTC
-- base:
-    currency_id: 2058
-    currency_symbol: AST
-    currency_type: cryptocurrency
-    exchange_symbol: AST
   exchange_id: 294
   exchange_name: OKEx
   pair: AST/USDT
@@ -68,6 +54,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.okex.com/market?product=ast_usdt
+- base:
+    currency_id: 2058
+    currency_symbol: AST
+    currency_type: cryptocurrency
+    exchange_symbol: AST
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: AST/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bilaxy.com/trade/AST_BTC
 - base:
     currency_id: 2058
     currency_symbol: AST
@@ -115,6 +115,20 @@ markets:
     currency_symbol: AST
     currency_type: cryptocurrency
     exchange_symbol: AST
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: AST/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/ast
+- base:
+    currency_id: 2058
+    currency_symbol: AST
+    currency_type: cryptocurrency
+    exchange_symbol: AST
   exchange_id: 37
   exchange_name: Bitfinex
   pair: AST/USD
@@ -138,20 +152,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/ast-eth
-- base:
-    currency_id: 2058
-    currency_symbol: AST
-    currency_type: cryptocurrency
-    exchange_symbol: AST
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: AST/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/ast
 - base:
     currency_id: 2058
     currency_symbol: AST
@@ -195,7 +195,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.airswap.io/trade
 name: AirSwap
-rank: 465
+rank: 420
 slug: airswap
 status: active
 symbol: AST

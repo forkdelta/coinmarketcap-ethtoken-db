@@ -131,20 +131,6 @@ markets:
     exchange_symbol: GVT
   exchange_id: 311
   exchange_name: KuCoin
-  pair: GVT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/GVT-BTC
-- base:
-    currency_id: 2181
-    currency_symbol: GVT
-    currency_type: cryptocurrency
-    exchange_symbol: GVT
-  exchange_id: 311
-  exchange_name: KuCoin
   pair: GVT/ETH
   quote:
     currency_id: 1027
@@ -152,6 +138,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.kucoin.com/trade/GVT-ETH
+- base:
+    currency_id: 2181
+    currency_symbol: GVT
+    currency_type: cryptocurrency
+    exchange_symbol: GVT
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: GVT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/GVT-BTC
 - base:
     currency_id: 2181
     currency_symbol: GVT
@@ -222,8 +222,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.coss.io/c/trade?s=GVT_USDT
+- base:
+    currency_id: 2181
+    currency_symbol: GVT
+    currency_type: cryptocurrency
+    exchange_symbol: GVT
+  exchange_id: 201
+  exchange_name: Lykke Exchange
+  pair: GVT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://lykke.com/exchange.php
 name: Genesis Vision
-rank: 566
+rank: 562
 slug: genesis-vision
 status: active
 symbol: GVT

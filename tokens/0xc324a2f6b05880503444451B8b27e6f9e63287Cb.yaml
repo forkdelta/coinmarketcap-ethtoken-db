@@ -42,20 +42,6 @@ markets:
     exchange_symbol: XUC
   exchange_id: 22
   exchange_name: Bittrex
-  pair: XUC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-XUC
-- base:
-    currency_id: 2091
-    currency_symbol: XUC
-    currency_type: cryptocurrency
-    exchange_symbol: XUC
-  exchange_id: 22
-  exchange_name: Bittrex
   pair: XUC/USDT
   quote:
     currency_id: 825
@@ -68,15 +54,29 @@ markets:
     currency_symbol: XUC
     currency_type: cryptocurrency
     exchange_symbol: XUC
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: XUC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-XUC
+- base:
+    currency_id: 2091
+    currency_symbol: XUC
+    currency_type: cryptocurrency
+    exchange_symbol: XUC
   exchange_id: 42
   exchange_name: HitBTC
-  pair: XUC/USDT
+  pair: XUC/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/XUC-to-USDT
+    exchange_symbol: BTC
+  url: https://hitbtc.com/XUC-to-BTC
 - base:
     currency_id: 2091
     currency_symbol: XUC
@@ -98,13 +98,13 @@ markets:
     exchange_symbol: XUC
   exchange_id: 42
   exchange_name: HitBTC
-  pair: XUC/BTC
+  pair: XUC/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/XUC-to-BTC
+    exchange_symbol: USDT
+  url: https://hitbtc.com/XUC-to-USDT
 - base:
     currency_id: 2091
     currency_symbol: XUC
@@ -120,7 +120,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=XUC&market=USDT
 name: Exchange Union
-rank: 2100
+rank: 2110
 slug: exchange-union
 status: active
 symbol: XUC

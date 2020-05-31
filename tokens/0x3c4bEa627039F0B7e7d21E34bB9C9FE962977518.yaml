@@ -30,20 +30,6 @@ markets:
     exchange_symbol: UCT
   exchange_id: 22
   exchange_name: Bittrex
-  pair: UCT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bittrex.com/Market/Index?MarketName=USDT-UCT
-- base:
-    currency_id: 2871
-    currency_symbol: UCT
-    currency_type: cryptocurrency
-    exchange_symbol: UCT
-  exchange_id: 22
-  exchange_name: Bittrex
   pair: UCT/BTC
   quote:
     currency_id: 1
@@ -56,15 +42,15 @@ markets:
     currency_symbol: UCT
     currency_type: cryptocurrency
     exchange_symbol: UCT
-  exchange_id: 300
-  exchange_name: BitZ
-  pair: UCT/ETH
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: UCT/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bit-z.com/exchange/uct_eth
+    exchange_symbol: USDT
+  url: https://bittrex.com/Market/Index?MarketName=USDT-UCT
 - base:
     currency_id: 2871
     currency_symbol: UCT
@@ -79,8 +65,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bit-z.com/exchange/uct_btc
+- base:
+    currency_id: 2871
+    currency_symbol: UCT
+    currency_type: cryptocurrency
+    exchange_symbol: UCT
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: UCT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bit-z.com/exchange/uct_eth
 name: Ubique Chain Of Things
-rank: 2337
+rank: 2336
 slug: ubique-chain-of-things
 status: active
 symbol: UCT
