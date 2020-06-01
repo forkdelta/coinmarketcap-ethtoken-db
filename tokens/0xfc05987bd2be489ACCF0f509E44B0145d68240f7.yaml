@@ -23,15 +23,29 @@ markets:
     currency_symbol: ESS
     currency_type: cryptocurrency
     exchange_symbol: ESS
-  exchange_id: 310
-  exchange_name: IDEX
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: ESS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=ESS_BTC
+- base:
+    currency_id: 2906
+    currency_symbol: ESS
+    currency_type: cryptocurrency
+    exchange_symbol: ESS
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: ESS/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://idex.market/eth/ess
+  url: https://www.hotbit.io/exchange?symbol=ESS_ETH
 - base:
     currency_id: 2906
     currency_symbol: ESS
@@ -65,31 +79,17 @@ markets:
     currency_symbol: ESS
     currency_type: cryptocurrency
     exchange_symbol: ESS
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 310
+  exchange_name: IDEX
   pair: ESS/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=ESS_ETH
-- base:
-    currency_id: 2906
-    currency_symbol: ESS
-    currency_type: cryptocurrency
-    exchange_symbol: ESS
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: ESS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=ESS_BTC
+  url: https://idex.market/eth/ess
 name: Essentia
-rank: 1309
+rank: 1302
 slug: essentia
 status: active
 symbol: ESS

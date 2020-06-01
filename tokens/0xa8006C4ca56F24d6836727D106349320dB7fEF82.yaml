@@ -87,15 +87,15 @@ markets:
     currency_symbol: INXT
     currency_type: cryptocurrency
     exchange_symbol: INXT
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: INXT/ETH
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: INXT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/inxt
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/INXT/BTC
 - base:
     currency_id: 2022
     currency_symbol: INXT
@@ -131,20 +131,6 @@ markets:
     exchange_symbol: INXT
   exchange_id: 100
   exchange_name: YoBit
-  pair: INXT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/INXT/BTC
-- base:
-    currency_id: 2022
-    currency_symbol: INXT
-    currency_type: cryptocurrency
-    exchange_symbol: INXT
-  exchange_id: 100
-  exchange_name: YoBit
   pair: INXT/USD
   quote:
     currency_id: 2781
@@ -152,8 +138,22 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://yobit.net/en/trade/INXT/USD
+- base:
+    currency_id: 2022
+    currency_symbol: INXT
+    currency_type: cryptocurrency
+    exchange_symbol: INXT
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: INXT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/inxt
 name: Internxt
-rank: 1028
+rank: 1040
 slug: internxt
 status: active
 symbol: INXT

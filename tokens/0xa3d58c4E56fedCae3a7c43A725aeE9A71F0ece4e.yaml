@@ -64,15 +64,15 @@ markets:
     currency_symbol: MET
     currency_type: cryptocurrency
     exchange_symbol: MET
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: MET/ETH
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: MET/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=MET_BTC
 - base:
     currency_id: 2873
     currency_symbol: MET
@@ -92,15 +92,15 @@ markets:
     currency_symbol: MET
     currency_type: cryptocurrency
     exchange_symbol: MET
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: MET/BTC
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: MET/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=MET_BTC
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 - base:
     currency_id: 2873
     currency_symbol: MET
@@ -134,6 +134,20 @@ markets:
     currency_symbol: MET
     currency_type: cryptocurrency
     exchange_symbol: MET
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: MET/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://yobit.net/en/trade/MET/ETH
+- base:
+    currency_id: 2873
+    currency_symbol: MET
+    currency_type: cryptocurrency
+    exchange_symbol: MET
   exchange_id: 310
   exchange_name: IDEX
   pair: MET/ETH
@@ -157,22 +171,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/MET/BTC
-- base:
-    currency_id: 2873
-    currency_symbol: MET
-    currency_type: cryptocurrency
-    exchange_symbol: MET
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: MET/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://yobit.net/en/trade/MET/ETH
 name: Metronome
-rank: 526
+rank: 541
 slug: metronome
 status: active
 symbol: MET

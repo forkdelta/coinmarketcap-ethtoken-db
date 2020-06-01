@@ -43,20 +43,6 @@ markets:
     exchange_symbol: MRPH
   exchange_id: 400
   exchange_name: Hotbit
-  pair: MRPH/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=MRPH_ETH
-- base:
-    currency_id: 2763
-    currency_symbol: MRPH
-    currency_type: cryptocurrency
-    exchange_symbol: MRPH
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: MRPH/BTC
   quote:
     currency_id: 1
@@ -69,15 +55,15 @@ markets:
     currency_symbol: MRPH
     currency_type: cryptocurrency
     exchange_symbol: MRPH
-  exchange_id: 310
-  exchange_name: IDEX
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: MRPH/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://idex.market/eth/mrph
+  url: https://www.hotbit.io/exchange?symbol=MRPH_ETH
 - base:
     currency_id: 2763
     currency_symbol: MRPH
@@ -97,15 +83,15 @@ markets:
     currency_symbol: MRPH
     currency_type: cryptocurrency
     exchange_symbol: MRPH
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: MRPH/BNT
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: MRPH/ETH
   quote:
-    currency_id: 1727
-    currency_symbol: BNT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/MRPH
+    exchange_symbol: ETH
+  url: https://idex.market/eth/mrph
 - base:
     currency_id: 2763
     currency_symbol: MRPH
@@ -120,6 +106,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-MRPH
+- base:
+    currency_id: 2763
+    currency_symbol: MRPH
+    currency_type: cryptocurrency
+    exchange_symbol: MRPH
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: MRPH/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/MRPH
 - base:
     currency_id: 2763
     currency_symbol: MRPH
@@ -163,7 +163,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.idax.mn/#/exchange?pairname=MRPH_BTC
 name: Morpheus.Network
-rank: 334
+rank: 360
 slug: morpheus-network
 status: active
 symbol: MRPH

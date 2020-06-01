@@ -97,20 +97,6 @@ markets:
     currency_symbol: RCN
     currency_type: cryptocurrency
     exchange_symbol: RCN
-  exchange_id: 254
-  exchange_name: C2CX
-  pair: RCN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.c2cx.com/in/trade_btc_rcn
-- base:
-    currency_id: 2096
-    currency_symbol: RCN
-    currency_type: cryptocurrency
-    exchange_symbol: RCN
   exchange_id: 595
   exchange_name: Uniswap
   pair: RCN/ETH
@@ -139,20 +125,6 @@ markets:
     currency_symbol: RCN
     currency_type: cryptocurrency
     exchange_symbol: RCN
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: RCN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/RCN-to-BTC
-- base:
-    currency_id: 2096
-    currency_symbol: RCN
-    currency_type: cryptocurrency
-    exchange_symbol: RCN
   exchange_id: 351
   exchange_name: Upbit
   pair: RCN/BTC
@@ -167,29 +139,15 @@ markets:
     currency_symbol: RCN
     currency_type: cryptocurrency
     exchange_symbol: RCN
-  exchange_id: 908
-  exchange_name: VALR
+  exchange_id: 254
+  exchange_name: C2CX
   pair: RCN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.valr.com/buy/RCN/BTC
-- base:
-    currency_id: 2096
-    currency_symbol: RCN
-    currency_type: cryptocurrency
-    exchange_symbol: RCN
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: RCN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-RCN
+  url: https://www.c2cx.com/in/trade_btc_rcn
 - base:
     currency_id: 2096
     currency_symbol: RCN
@@ -209,6 +167,34 @@ markets:
     currency_symbol: RCN
     currency_type: cryptocurrency
     exchange_symbol: RCN
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: RCN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-RCN
+- base:
+    currency_id: 2096
+    currency_symbol: RCN
+    currency_type: cryptocurrency
+    exchange_symbol: RCN
+  exchange_id: 908
+  exchange_name: VALR
+  pair: RCN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.valr.com/buy/RCN/BTC
+- base:
+    currency_id: 2096
+    currency_symbol: RCN
+    currency_type: cryptocurrency
+    exchange_symbol: RCN
   exchange_id: 302
   exchange_name: Gate.io
   pair: RCN/USDT
@@ -223,15 +209,15 @@ markets:
     currency_symbol: RCN
     currency_type: cryptocurrency
     exchange_symbol: RCN
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: RCN/ETH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: RCN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/rcn_eth
+    exchange_symbol: BTC
+  url: https://hitbtc.com/RCN-to-BTC
 - base:
     currency_id: 2096
     currency_symbol: RCN
@@ -281,13 +267,27 @@ markets:
     exchange_symbol: RCN
   exchange_id: 42
   exchange_name: HitBTC
+  pair: RCN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/RCN-to-USDT
+- base:
+    currency_id: 2096
+    currency_symbol: RCN
+    currency_type: cryptocurrency
+    exchange_symbol: RCN
+  exchange_id: 302
+  exchange_name: Gate.io
   pair: RCN/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://hitbtc.com/RCN-to-ETH
+  url: https://gate.io/trade/rcn_eth
 - base:
     currency_id: 2096
     currency_symbol: RCN
@@ -309,13 +309,13 @@ markets:
     exchange_symbol: RCN
   exchange_id: 42
   exchange_name: HitBTC
-  pair: RCN/USDT
+  pair: RCN/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/RCN-to-USDT
+    exchange_symbol: ETH
+  url: https://hitbtc.com/RCN-to-ETH
 - base:
     currency_id: 2096
     currency_symbol: RCN
@@ -331,7 +331,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/rcn
 name: Ripio Credit Network
-rank: 111
+rank: 113
 slug: ripio-credit-network
 status: active
 symbol: RCN

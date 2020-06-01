@@ -72,6 +72,20 @@ markets:
     currency_symbol: ARPA
     currency_type: cryptocurrency
     exchange_symbol: ARPA
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: ARPA/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/ARPAKRW
+- base:
+    currency_id: 4039
+    currency_symbol: ARPA
+    currency_type: cryptocurrency
+    exchange_symbol: ARPA
   exchange_id: 270
   exchange_name: Binance
   pair: ARPA/BTC
@@ -95,20 +109,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hbg.com/en-us/exchange/arpa_usdt/
-- base:
-    currency_id: 4039
-    currency_symbol: ARPA
-    currency_type: cryptocurrency
-    exchange_symbol: ARPA
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: ARPA/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/ARPAKRW
 - base:
     currency_id: 4039
     currency_symbol: ARPA
@@ -170,20 +170,6 @@ markets:
     currency_symbol: ARPA
     currency_type: cryptocurrency
     exchange_symbol: ARPA
-  exchange_id: 333
-  exchange_name: LBank
-  pair: ARPA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.lbank.info/trading/arpa/usdt
-- base:
-    currency_id: 4039
-    currency_symbol: ARPA
-    currency_type: cryptocurrency
-    exchange_symbol: ARPA
   exchange_id: 528
   exchange_name: BiKi
   pair: ARPA/USDT
@@ -193,6 +179,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.biki.cc/en_US/trade/ARPA_USDT
+- base:
+    currency_id: 4039
+    currency_symbol: ARPA
+    currency_type: cryptocurrency
+    exchange_symbol: ARPA
+  exchange_id: 333
+  exchange_name: LBank
+  pair: ARPA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.lbank.info/trading/arpa/usdt
 - base:
     currency_id: 4039
     currency_symbol: ARPA
@@ -212,20 +212,6 @@ markets:
     currency_symbol: ARPA
     currency_type: cryptocurrency
     exchange_symbol: ARPA
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: ARPA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/ARPA-to-BTC
-- base:
-    currency_id: 4039
-    currency_symbol: ARPA
-    currency_type: cryptocurrency
-    exchange_symbol: ARPA
   exchange_id: 102
   exchange_name: Huobi Global
   pair: ARPA/BTC
@@ -240,15 +226,15 @@ markets:
     currency_symbol: ARPA
     currency_type: cryptocurrency
     exchange_symbol: ARPA
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: ARPA/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: ARPA/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.kucoin.com/trade/ARPA-USDT
+    exchange_symbol: BTC
+  url: https://hitbtc.com/ARPA-to-BTC
 - base:
     currency_id: 4039
     currency_symbol: ARPA
@@ -263,6 +249,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coindcx.com/trade/ARPABTC
+- base:
+    currency_id: 4039
+    currency_symbol: ARPA
+    currency_type: cryptocurrency
+    exchange_symbol: ARPA
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: ARPA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.kucoin.com/trade/ARPA-USDT
 - base:
     currency_id: 4039
     currency_symbol: ARPA
@@ -291,6 +291,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: HT
   url: https://www.hbg.com/en-us/exchange/arpa_ht/
+- base:
+    currency_id: 4039
+    currency_symbol: ARPA
+    currency_type: cryptocurrency
+    exchange_symbol: ARPA
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: ARPA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=ARPA_BTC
+- base:
+    currency_id: 4039
+    currency_symbol: ARPA
+    currency_type: cryptocurrency
+    exchange_symbol: ARPA
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: ARPA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=ARPA_ETH
 - base:
     currency_id: 4039
     currency_symbol: ARPA
@@ -333,34 +361,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://coindcx.com/trade/ARPAUSDT
-- base:
-    currency_id: 4039
-    currency_symbol: ARPA
-    currency_type: cryptocurrency
-    exchange_symbol: ARPA
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: ARPA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=ARPA_BTC
-- base:
-    currency_id: 4039
-    currency_symbol: ARPA
-    currency_type: cryptocurrency
-    exchange_symbol: ARPA
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: ARPA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=ARPA_ETH
 - base:
     currency_id: 4039
     currency_symbol: ARPA
@@ -432,7 +432,7 @@ markets:
     exchange_symbol: USDT
   url: https://hitbtc.com/ARPA-to-USDT
 name: ARPA Chain
-rank: 398
+rank: 400
 slug: arpa-chain
 status: active
 symbol: ARPA
