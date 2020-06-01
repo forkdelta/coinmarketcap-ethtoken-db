@@ -162,15 +162,15 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: OGN/BTC
+  exchange_id: 270
+  exchange_name: Binance
+  pair: OGN/BNB
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/OGNBTC
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/OGN_BNB?ref=H31B921U
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -190,43 +190,15 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
-  exchange_id: 270
-  exchange_name: Binance
-  pair: OGN/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/OGN_BNB?ref=H31B921U
-- base:
-    currency_id: 5117
-    currency_symbol: OGN
-    currency_type: cryptocurrency
-    exchange_symbol: OGN
   exchange_id: 949
   exchange_name: CoinDCX
-  pair: OGN/USDT
+  pair: OGN/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/OGNUSDT
-- base:
-    currency_id: 5117
-    currency_symbol: OGN
-    currency_type: cryptocurrency
-    exchange_symbol: OGN
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: OGN/UQC
-  quote:
-    currency_id: 2273
-    currency_symbol: UQC
-    currency_type: cryptocurrency
-    exchange_symbol: UQC
-  url: https://omgfin.com/exchange/trade/market/OGNUQC
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/OGNBTC
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -246,6 +218,20 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: OGN/UQC
+  quote:
+    currency_id: 2273
+    currency_symbol: UQC
+    currency_type: cryptocurrency
+    exchange_symbol: UQC
+  url: https://omgfin.com/exchange/trade/market/OGNUQC
+- base:
+    currency_id: 5117
+    currency_symbol: OGN
+    currency_type: cryptocurrency
+    exchange_symbol: OGN
   exchange_id: 22
   exchange_name: Bittrex
   pair: OGN/BTC
@@ -255,6 +241,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-OGN
+- base:
+    currency_id: 5117
+    currency_symbol: OGN
+    currency_type: cryptocurrency
+    exchange_symbol: OGN
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: OGN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/OGNUSDT
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -284,7 +284,7 @@ markets:
     exchange_symbol: IDR
   url: https://tokocrypto.com/en/dashboard/OGNIDR
 name: Origin Protocol
-rank: 329
+rank: 313
 slug: origin-protocol
 status: active
 symbol: OGN

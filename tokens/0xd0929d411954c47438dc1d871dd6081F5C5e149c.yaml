@@ -41,15 +41,15 @@ markets:
     currency_symbol: RFR
     currency_type: cryptocurrency
     exchange_symbol: RFR
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: RFR/BTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: RFR/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=rfr
+    exchange_symbol: USDT
+  url: https://gate.io/trade/rfr_usdt
 - base:
     currency_id: 2553
     currency_symbol: RFR
@@ -69,20 +69,6 @@ markets:
     currency_symbol: RFR
     currency_type: cryptocurrency
     exchange_symbol: RFR
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: RFR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/rfr_usdt
-- base:
-    currency_id: 2553
-    currency_symbol: RFR
-    currency_type: cryptocurrency
-    exchange_symbol: RFR
   exchange_id: 545
   exchange_name: Bitsdaq
   pair: RFR/BTC
@@ -92,6 +78,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bitsdaq.com/exchange/RFR-BTC
+- base:
+    currency_id: 2553
+    currency_symbol: RFR
+    currency_type: cryptocurrency
+    exchange_symbol: RFR
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: RFR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=rfr
 - base:
     currency_id: 2553
     currency_symbol: RFR
@@ -219,7 +219,7 @@ markets:
     exchange_symbol: USDT
   url: null
 name: Refereum
-rank: 698
+rank: 696
 slug: refereum
 status: active
 symbol: RFR

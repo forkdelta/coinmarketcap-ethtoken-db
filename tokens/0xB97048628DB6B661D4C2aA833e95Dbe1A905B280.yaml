@@ -61,6 +61,20 @@ markets:
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
+  exchange_id: 355
+  exchange_name: Vebitcoin
+  pair: PAY/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.vebitcoin.com/
+- base:
+    currency_id: 1758
+    currency_symbol: PAY
+    currency_type: cryptocurrency
+    exchange_symbol: PAY
   exchange_id: 102
   exchange_name: Huobi Global
   pair: PAY/BTC
@@ -70,20 +84,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hbg.com/en-us/exchange/pay_btc/
-- base:
-    currency_id: 1758
-    currency_symbol: PAY
-    currency_type: cryptocurrency
-    exchange_symbol: PAY
-  exchange_id: 908
-  exchange_name: VALR
-  pair: PAY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.valr.com/buy/PAY/BTC
 - base:
     currency_id: 1758
     currency_symbol: PAY
@@ -103,29 +103,15 @@ markets:
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
-  exchange_id: 355
-  exchange_name: Vebitcoin
-  pair: PAY/TRY
+  exchange_id: 908
+  exchange_name: VALR
+  pair: PAY/BTC
   quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.vebitcoin.com/
-- base:
-    currency_id: 1758
-    currency_symbol: PAY
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: PAY
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: PAY/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bkex.com/trade/PAY_ETH
+    exchange_symbol: BTC
+  url: https://www.valr.com/buy/PAY/BTC
 - base:
     currency_id: 1758
     currency_symbol: PAY
@@ -145,15 +131,15 @@ markets:
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
-  exchange_id: 102
-  exchange_name: Huobi Global
+  exchange_id: 482
+  exchange_name: BKEX
   pair: PAY/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/pay_eth/
+  url: https://www.bkex.com/trade/PAY_ETH
 - base:
     currency_id: 1758
     currency_symbol: PAY
@@ -201,15 +187,15 @@ markets:
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
-  exchange_id: 404
-  exchange_name: Kyber Network
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: PAY/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://kyberswap.com/swap/pay-eth
+  url: https://www.hbg.com/en-us/exchange/pay_eth/
 - base:
     currency_id: 1758
     currency_symbol: PAY
@@ -243,57 +229,15 @@ markets:
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
-  exchange_id: 302
-  exchange_name: Gate.io
+  exchange_id: 404
+  exchange_name: Kyber Network
   pair: PAY/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://gate.io/trade/pay_eth
-- base:
-    currency_id: 1758
-    currency_symbol: PAY
-    currency_type: cryptocurrency
-    exchange_symbol: PAY
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: PAY/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/PAY-to-ETH
-- base:
-    currency_id: 1758
-    currency_symbol: PAY
-    currency_type: cryptocurrency
-    exchange_symbol: PAY
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: PAY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/pay_btc/
-- base:
-    currency_id: 1758
-    currency_symbol: PAY
-    currency_type: cryptocurrency
-    exchange_symbol: PAY
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: PAY/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/pay_eth/
+  url: https://kyberswap.com/swap/pay-eth
 - base:
     currency_id: 1758
     currency_symbol: PAY
@@ -336,6 +280,48 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.valr.com/buy/PAY/ETH
+- base:
+    currency_id: 1758
+    currency_symbol: PAY
+    currency_type: cryptocurrency
+    exchange_symbol: PAY
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: PAY/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/pay_eth
+- base:
+    currency_id: 1758
+    currency_symbol: PAY
+    currency_type: cryptocurrency
+    exchange_symbol: PAY
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: PAY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/pay_btc/
+- base:
+    currency_id: 1758
+    currency_symbol: PAY
+    currency_type: cryptocurrency
+    exchange_symbol: PAY
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: PAY/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/PAY-to-ETH
 - base:
     currency_id: 1758
     currency_symbol: PAY
@@ -397,6 +383,20 @@ markets:
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: PAY/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/pay_eth/
+- base:
+    currency_id: 1758
+    currency_symbol: PAY
+    currency_type: cryptocurrency
+    exchange_symbol: PAY
   exchange_id: 490
   exchange_name: OKEx Korea
   pair: PAY/USDT
@@ -421,7 +421,7 @@ markets:
     exchange_symbol: BTC
   url: https://okex.co.kr/kr/view/exchange?coin=PAY&market=BTC
 name: TenX
-rank: 415
+rank: 412
 slug: tenx
 status: active
 symbol: PAY

@@ -45,6 +45,20 @@ markets:
     currency_symbol: GET
     currency_type: cryptocurrency
     exchange_symbol: GET
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: GET/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=GET_ETH
+- base:
+    currency_id: 2354
+    currency_symbol: GET
+    currency_type: cryptocurrency
+    exchange_symbol: GET
   exchange_id: 363
   exchange_name: Fatbtc
   pair: GET/USDT
@@ -73,15 +87,15 @@ markets:
     currency_symbol: GET
     currency_type: cryptocurrency
     exchange_symbol: GET
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 112
+  exchange_name: Liquid
   pair: GET/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=GET_ETH
+  url: https://app.liquid.com/exchange/GETETH
 - base:
     currency_id: 2354
     currency_symbol: GET
@@ -101,20 +115,6 @@ markets:
     currency_symbol: GET
     currency_type: cryptocurrency
     exchange_symbol: GET
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: GET/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://app.liquid.com/exchange/GETETH
-- base:
-    currency_id: 2354
-    currency_symbol: GET
-    currency_type: cryptocurrency
-    exchange_symbol: GET
   exchange_id: 158
   exchange_name: Nocks
   pair: GET/EUR
@@ -125,7 +125,7 @@ markets:
     exchange_symbol: EUR
   url: https://nocks.com/
 name: GET Protocol
-rank: 607
+rank: 588
 slug: get-protocol
 status: active
 symbol: GET

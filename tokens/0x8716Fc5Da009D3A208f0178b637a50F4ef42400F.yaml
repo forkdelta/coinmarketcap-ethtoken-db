@@ -73,20 +73,6 @@ markets:
     exchange_symbol: UGAS
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: UGAS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/ugas_btc/
-- base:
-    currency_id: 3863
-    currency_symbol: UGAS
-    currency_type: cryptocurrency
-    exchange_symbol: UGAS
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: UGAS/ETH
   quote:
     currency_id: 1027
@@ -99,15 +85,29 @@ markets:
     currency_symbol: UGAS
     currency_type: cryptocurrency
     exchange_symbol: UGAS
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: UGAS/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/ugas_btc/
+  url: https://www.hbg.com/en-us/exchange/ugas_btc/
+- base:
+    currency_id: 3863
+    currency_symbol: UGAS
+    currency_type: cryptocurrency
+    exchange_symbol: UGAS
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: UGAS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=UGAS_BTC
 - base:
     currency_id: 3863
     currency_symbol: UGAS
@@ -143,6 +143,20 @@ markets:
     exchange_symbol: UGAS
   exchange_id: 463
   exchange_name: Huobi Korea
+  pair: UGAS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/ugas_btc/
+- base:
+    currency_id: 3863
+    currency_symbol: UGAS
+    currency_type: cryptocurrency
+    exchange_symbol: UGAS
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: UGAS/ETH
   quote:
     currency_id: 1027
@@ -164,22 +178,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNB
   url: https://www.binance.org/en/trade/UGAS-B0C_BNB
-- base:
-    currency_id: 3863
-    currency_symbol: UGAS
-    currency_type: cryptocurrency
-    exchange_symbol: UGAS
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: UGAS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=UGAS_BTC
 name: UGAS
-rank: 685
+rank: 703
 slug: ugas
 status: active
 symbol: UGAS

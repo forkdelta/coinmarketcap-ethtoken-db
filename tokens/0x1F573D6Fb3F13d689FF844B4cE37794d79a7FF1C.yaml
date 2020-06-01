@@ -121,20 +121,6 @@ markets:
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: BNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/BNT-to-BTC
-- base:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
   exchange_id: 267
   exchange_name: Bancor Network
   pair: BNT/ETH
@@ -144,6 +130,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bancor.network/bnt
+- base:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/BNT-to-BTC
 - base:
     currency_id: 1727
     currency_symbol: BNT
@@ -191,15 +191,29 @@ markets:
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BNT/BUSD
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: BNT/ETH
   quote:
-    currency_id: 4687
-    currency_symbol: BUSD
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BUSD
-  url: https://www.binance.com/en/trade/BNT_BUSD?ref=H31B921U
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/bnt-eth
+- base:
+    currency_id: 2634
+    currency_symbol: XDCE
+    currency_type: cryptocurrency
+    exchange_symbol: XDCE
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: XDCE/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/XDCE
 - base:
     currency_id: 1727
     currency_symbol: BNT
@@ -219,43 +233,15 @@ markets:
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: BNT/ETH
+  exchange_id: 270
+  exchange_name: Binance
+  pair: BNT/BUSD
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 4687
+    currency_symbol: BUSD
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/bnt-eth
-- base:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: BNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://folgory.com/trade-crypto/BNT_BTC
-- base:
-    currency_id: 2634
-    currency_symbol: XDCE
-    currency_type: cryptocurrency
-    exchange_symbol: XDCE
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: XDCE/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/XDCE
+    exchange_symbol: BUSD
+  url: https://www.binance.com/en/trade/BNT_BUSD?ref=H31B921U
 - base:
     currency_id: 1765
     currency_symbol: EOS
@@ -271,6 +257,20 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/EOS
 - base:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: BNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://folgory.com/trade-crypto/BNT_BTC
+- base:
     currency_id: 2130
     currency_symbol: ENJ
     currency_type: cryptocurrency
@@ -285,19 +285,19 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/ENJ
 - base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: BAT/BNT
+  quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: BNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-BNT
+  url: https://www.bancor.network/token/BAT
 - base:
     currency_id: 1727
     currency_symbol: BNT
@@ -327,19 +327,19 @@ markets:
     exchange_symbol: ETH
   url: https://uniswap.exchange/
 - base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: BAT/BNT
-  quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/BAT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: BNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-BNT
 - base:
     currency_id: 1727
     currency_symbol: BNT
@@ -369,33 +369,19 @@ markets:
     exchange_symbol: USDT
   url: https://folgory.com/trade-crypto/BNT_USDT
 - base:
-    currency_id: 2402
-    currency_symbol: SENSE
+    currency_id: 1966
+    currency_symbol: MANA
     currency_type: cryptocurrency
-    exchange_symbol: SENSE
+    exchange_symbol: MANA
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: SENSE/BNT
+  pair: MANA/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/SENSE
-- base:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: BNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://folgory.com/trade-crypto/BNT_ETH
+  url: https://www.bancor.network/token/MANA
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -411,20 +397,6 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/KNC
 - base:
-    currency_id: 2705
-    currency_symbol: AMN
-    currency_type: cryptocurrency
-    exchange_symbol: AMN
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: AMN/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/AMN
-- base:
     currency_id: 1808
     currency_symbol: OMG
     currency_type: cryptocurrency
@@ -439,47 +411,33 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/OMG
 - base:
-    currency_id: 2287
-    currency_symbol: LOC
-    currency_type: cryptocurrency
-    exchange_symbol: LOC
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: LOC/BNT
-  quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/LOC
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: BNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://folgory.com/trade-crypto/BNT_ETH
 - base:
-    currency_id: 2763
-    currency_symbol: MRPH
+    currency_id: 1660
+    currency_symbol: TKN
     currency_type: cryptocurrency
-    exchange_symbol: MRPH
+    exchange_symbol: TKN
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: MRPH/BNT
+  pair: TKN/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/MRPH
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: MANA/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/MANA
+  url: https://www.bancor.network/token/TKN
 - base:
     currency_id: 2096
     currency_symbol: RCN
@@ -495,19 +453,33 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/RCN
 - base:
-    currency_id: 2667
-    currency_symbol: FTX
+    currency_id: 2132
+    currency_symbol: POWR
     currency_type: cryptocurrency
-    exchange_symbol: FTX
+    exchange_symbol: POWR
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: FTX/BNT
+  pair: POWR/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/FTX
+  url: https://www.bancor.network/token/POWR
+- base:
+    currency_id: 2240
+    currency_symbol: ONG
+    currency_type: cryptocurrency
+    exchange_symbol: ONG
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: ONG/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/ONG
 - base:
     currency_id: 1727
     currency_symbol: BNT
@@ -537,131 +509,19 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/ELF
 - base:
-    currency_id: 1727
-    currency_symbol: BNT
+    currency_id: 2930
+    currency_symbol: IQ
     currency_type: cryptocurrency
-    exchange_symbol: BNT
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: BNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitrue.com/trade/bnt_eth
-- base:
-    currency_id: 1660
-    currency_symbol: TKN
-    currency_type: cryptocurrency
-    exchange_symbol: TKN
+    exchange_symbol: IQ
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: TKN/BNT
+  pair: IQ/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/TKN
-- base:
-    currency_id: 2132
-    currency_symbol: POWR
-    currency_type: cryptocurrency
-    exchange_symbol: POWR
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: POWR/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/POWR
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: MDT/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/MDT
-- base:
-    currency_id: 1659
-    currency_symbol: GNO
-    currency_type: cryptocurrency
-    exchange_symbol: GNO
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: GNO/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/GNO
-- base:
-    currency_id: 2896
-    currency_symbol: MFT
-    currency_type: cryptocurrency
-    exchange_symbol: MFT
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: MFT/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/MFT
-- base:
-    currency_id: 2143
-    currency_symbol: DATA
-    currency_type: cryptocurrency
-    exchange_symbol: DATA
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: DATA/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/DATA
-- base:
-    currency_id: 2653
-    currency_symbol: AUC
-    currency_type: cryptocurrency
-    exchange_symbol: AUC
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: AUC/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/AUC
-- base:
-    currency_id: 1680
-    currency_symbol: ANT
-    currency_type: cryptocurrency
-    exchange_symbol: ANT
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: ANT/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/ANT
+  url: https://www.bancor.network/token/IQ
 - base:
     currency_id: 2019
     currency_symbol: VIB
@@ -677,89 +537,61 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/VIB
 - base:
-    currency_id: 2548
-    currency_symbol: POA
+    currency_id: 1637
+    currency_symbol: RLC
     currency_type: cryptocurrency
-    exchange_symbol: POA20
+    exchange_symbol: RLC
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: POA/BNT
+  pair: RLC/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/POA
+  url: https://www.bancor.network/token/RLC
 - base:
-    currency_id: 1727
-    currency_symbol: BNT
+    currency_id: 1680
+    currency_symbol: ANT
     currency_type: cryptocurrency
-    exchange_symbol: BNT
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: BNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_bnt
-- base:
-    currency_id: 2071
-    currency_symbol: REQ
-    currency_type: cryptocurrency
-    exchange_symbol: REQ
+    exchange_symbol: ANT
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: REQ/BNT
+  pair: ANT/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/REQ
+  url: https://www.bancor.network/token/ANT
 - base:
-    currency_id: 1834
-    currency_symbol: PLR
+    currency_id: 2763
+    currency_symbol: MRPH
     currency_type: cryptocurrency
-    exchange_symbol: PLR
+    exchange_symbol: MRPH
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: PLR/BNT
+  pair: MRPH/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/PLR
+  url: https://www.bancor.network/token/MRPH
 - base:
-    currency_id: 4026
-    currency_symbol: DAPP
+    currency_id: 2143
+    currency_symbol: DATA
     currency_type: cryptocurrency
-    exchange_symbol: DAPP
+    exchange_symbol: DATA
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: DAPP/BNT
+  pair: DATA/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/DAPP
-- base:
-    currency_id: 2240
-    currency_symbol: ONG
-    currency_type: cryptocurrency
-    exchange_symbol: ONG
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: ONG/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/ONG
+  url: https://www.bancor.network/token/DATA
 - base:
     currency_id: 1759
     currency_symbol: SNT
@@ -775,47 +607,145 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/SNT
 - base:
-    currency_id: 4017
-    currency_symbol: EOSDT
+    currency_id: 1659
+    currency_symbol: GNO
     currency_type: cryptocurrency
-    exchange_symbol: EOSDT
+    exchange_symbol: GNO
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: EOSDT/BNT
+  pair: GNO/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/EOSDT
+  url: https://www.bancor.network/token/GNO
 - base:
-    currency_id: 2367
-    currency_symbol: AIX
+    currency_id: 2705
+    currency_symbol: AMN
     currency_type: cryptocurrency
-    exchange_symbol: AIX
+    exchange_symbol: AMN
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: AIX/BNT
+  pair: AMN/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/AIX
+  url: https://www.bancor.network/token/AMN
 - base:
-    currency_id: 2161
-    currency_symbol: RDN
+    currency_id: 1727
+    currency_symbol: BNT
     currency_type: cryptocurrency
-    exchange_symbol: RDN
+    exchange_symbol: BNT
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: BNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://poloniex.com/exchange#btc_bnt
+- base:
+    currency_id: 2548
+    currency_symbol: POA
+    currency_type: cryptocurrency
+    exchange_symbol: POA20
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: RDN/BNT
+  pair: POA/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/RDN
+  url: https://www.bancor.network/token/POA
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: MDT/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/MDT
+- base:
+    currency_id: 2223
+    currency_symbol: VEE
+    currency_type: cryptocurrency
+    exchange_symbol: VEE
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: VEE/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/VEE
+- base:
+    currency_id: 2287
+    currency_symbol: LOC
+    currency_type: cryptocurrency
+    exchange_symbol: LOC
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: LOC/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/LOC
+- base:
+    currency_id: 4026
+    currency_symbol: DAPP
+    currency_type: cryptocurrency
+    exchange_symbol: DAPP
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: DAPP/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/DAPP
+- base:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: BNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitrue.com/trade/bnt_eth
+- base:
+    currency_id: 2071
+    currency_symbol: REQ
+    currency_type: cryptocurrency
+    exchange_symbol: REQ
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: REQ/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/REQ
 - base:
     currency_id: 1839
     currency_symbol: BNB
@@ -831,33 +761,89 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/BNB
 - base:
-    currency_id: 2930
-    currency_symbol: IQ
+    currency_id: 2896
+    currency_symbol: MFT
     currency_type: cryptocurrency
-    exchange_symbol: IQ
+    exchange_symbol: MFT
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: IQ/BNT
+  pair: MFT/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/IQ
+  url: https://www.bancor.network/token/MFT
 - base:
-    currency_id: 2568
-    currency_symbol: J8T
+    currency_id: 1727
+    currency_symbol: BNT
     currency_type: cryptocurrency
-    exchange_symbol: J8T
+    exchange_symbol: BNT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/BNT-to-ETH
+- base:
+    currency_id: 2313
+    currency_symbol: SRN
+    currency_type: cryptocurrency
+    exchange_symbol: SRN
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: J8T/BNT
+  pair: SRN/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/J8T
+  url: https://www.bancor.network/token/SRN
+- base:
+    currency_id: 2667
+    currency_symbol: FTX
+    currency_type: cryptocurrency
+    exchange_symbol: FTX
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: FTX/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/FTX
+- base:
+    currency_id: 2546
+    currency_symbol: REM
+    currency_type: cryptocurrency
+    exchange_symbol: REM
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: REM/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/REM
+- base:
+    currency_id: 4017
+    currency_symbol: EOSDT
+    currency_type: cryptocurrency
+    exchange_symbol: EOSDT
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: EOSDT/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/EOSDT
 - base:
     currency_id: 2289
     currency_symbol: GTO
@@ -873,19 +859,103 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/GTO
 - base:
-    currency_id: 3079
-    currency_symbol: X8X
+    currency_id: 2402
+    currency_symbol: SENSE
     currency_type: cryptocurrency
-    exchange_symbol: X8X
+    exchange_symbol: SENSE
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: X8X/BNT
+  pair: SENSE/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/X8X
+  url: https://www.bancor.network/token/SENSE
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
+    currency_type: cryptocurrency
+    exchange_symbol: RDN
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: RDN/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/RDN
+- base:
+    currency_id: 1834
+    currency_symbol: PLR
+    currency_type: cryptocurrency
+    exchange_symbol: PLR
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: PLR/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/PLR
+- base:
+    currency_id: 2758
+    currency_symbol: UBT
+    currency_type: cryptocurrency
+    exchange_symbol: UBT
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: UBT/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/UBT
+- base:
+    currency_id: 2653
+    currency_symbol: AUC
+    currency_type: cryptocurrency
+    exchange_symbol: AUC
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: AUC/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/AUC
+- base:
+    currency_id: 2614
+    currency_symbol: XBP
+    currency_type: cryptocurrency
+    exchange_symbol: XBP
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: XBP/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/XBP
+- base:
+    currency_id: 2658
+    currency_symbol: MFG
+    currency_type: cryptocurrency
+    exchange_symbol: MFG
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: MFG/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/MFG
 - base:
     currency_id: 1902
     currency_symbol: MYB
@@ -915,355 +985,19 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/WINGS
 - base:
-    currency_id: 2546
-    currency_symbol: REM
+    currency_id: 2367
+    currency_symbol: AIX
     currency_type: cryptocurrency
-    exchange_symbol: REM
+    exchange_symbol: AIX
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: REM/BNT
+  pair: AIX/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/REM
-- base:
-    currency_id: 2614
-    currency_symbol: XBP
-    currency_type: cryptocurrency
-    exchange_symbol: XBP
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: XBP/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/XBP
-- base:
-    currency_id: 2313
-    currency_symbol: SRN
-    currency_type: cryptocurrency
-    exchange_symbol: SRN
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: SRN/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/SRN
-- base:
-    currency_id: 2758
-    currency_symbol: UBT
-    currency_type: cryptocurrency
-    exchange_symbol: UBT
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: UBT/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/UBT
-- base:
-    currency_id: 3136
-    currency_symbol: MEETONE
-    currency_type: cryptocurrency
-    exchange_symbol: MEETONE
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: MEETONE/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/MEETONE
-- base:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: BNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/BNT-to-ETH
-- base:
-    currency_id: 2856
-    currency_symbol: CEEK
-    currency_type: cryptocurrency
-    exchange_symbol: CEEK
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: CEEK/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/CEEK
-- base:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: BNT/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/BNT:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: BNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/BNT_BTC
-- base:
-    currency_id: 2231
-    currency_symbol: FLIXX
-    currency_type: cryptocurrency
-    exchange_symbol: FLIXX
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: FLIXX/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/FLIXX
-- base:
-    currency_id: 4020
-    currency_symbol: USDQ
-    currency_type: cryptocurrency
-    exchange_symbol: USDQ
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: USDQ/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/USDQ
-- base:
-    currency_id: 3931
-    currency_symbol: ELET
-    currency_type: cryptocurrency
-    exchange_symbol: ELET
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: ELET/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/ELET
-- base:
-    currency_id: 3993
-    currency_symbol: EMT
-    currency_type: cryptocurrency
-    exchange_symbol: EMT
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: EMT/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/EMT
-- base:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  exchange_id: 908
-  exchange_name: VALR
-  pair: BNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.valr.com/buy/BNT/ETH
-- base:
-    currency_id: 2658
-    currency_symbol: MFG
-    currency_type: cryptocurrency
-    exchange_symbol: MFG
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: MFG/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/MFG
-- base:
-    currency_id: 2134
-    currency_symbol: GRID
-    currency_type: cryptocurrency
-    exchange_symbol: GRID
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: GRID/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/GRID
-- base:
-    currency_id: 2223
-    currency_symbol: VEE
-    currency_type: cryptocurrency
-    exchange_symbol: VEE
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: VEE/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/VEE
-- base:
-    currency_id: 3910
-    currency_symbol: PEOS
-    currency_type: cryptocurrency
-    exchange_symbol: PEOS
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: PEOS/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/PEOS
-- base:
-    currency_id: 2452
-    currency_symbol: TBX
-    currency_type: cryptocurrency
-    exchange_symbol: TBX
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: TBX/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/TBX
-- base:
-    currency_id: 3314
-    currency_symbol: BOXX
-    currency_type: cryptocurrency
-    exchange_symbol: BOXX
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: BOXX/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/BOXX
-- base:
-    currency_id: 2030
-    currency_symbol: REAL
-    currency_type: cryptocurrency
-    exchange_symbol: REAL
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: REAL/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/REAL
-- base:
-    currency_id: 2704
-    currency_symbol: TNS
-    currency_type: cryptocurrency
-    exchange_symbol: TNS
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: TNS/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/TNS
-- base:
-    currency_id: 2565
-    currency_symbol: STAC
-    currency_type: cryptocurrency
-    exchange_symbol: STAC
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: STAC/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/STAC
-- base:
-    currency_id: 2828
-    currency_symbol: SPD
-    currency_type: cryptocurrency
-    exchange_symbol: SPD
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: SPD/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/SPD
-- base:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: BNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://crex24.com/exchange/BNT-BTC
+  url: https://www.bancor.network/token/AIX
 - base:
     currency_id: 2462
     currency_symbol: AID
@@ -1279,89 +1013,75 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/AID
 - base:
-    currency_id: 1637
-    currency_symbol: RLC
-    currency_type: cryptocurrency
-    exchange_symbol: RLC
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: RLC/BNT
-  quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/RLC
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: BNT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/BNT:USD?refcode=H70YTMupQ
 - base:
-    currency_id: 3112
-    currency_symbol: XPAT
+    currency_id: 2231
+    currency_symbol: FLIXX
     currency_type: cryptocurrency
-    exchange_symbol: XPAT
+    exchange_symbol: FLIXX
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: XPAT/BNT
+  pair: FLIXX/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/XPAT
+  url: https://www.bancor.network/token/FLIXX
 - base:
-    currency_id: 3779
-    currency_symbol: COT
+    currency_id: 3910
+    currency_symbol: PEOS
     currency_type: cryptocurrency
-    exchange_symbol: COT
+    exchange_symbol: PEOS
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: COT/BNT
+  pair: PEOS/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/COT
+  url: https://www.bancor.network/token/PEOS
 - base:
-    currency_id: 2518
-    currency_symbol: LOCI
+    currency_id: 3136
+    currency_symbol: MEETONE
     currency_type: cryptocurrency
-    exchange_symbol: LOCI
+    exchange_symbol: MEETONE
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: LOCI/BNT
+  pair: MEETONE/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/LOCI
+  url: https://www.bancor.network/token/MEETONE
 - base:
-    currency_id: 1991
-    currency_symbol: RVT
+    currency_id: 3079
+    currency_symbol: X8X
     currency_type: cryptocurrency
-    exchange_symbol: RVT
+    exchange_symbol: X8X
   exchange_id: 267
   exchange_name: Bancor Network
-  pair: RVT/BNT
+  pair: X8X/BNT
   quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/RVT
-- base:
-    currency_id: 2513
-    currency_symbol: MNTP
-    currency_type: cryptocurrency
-    exchange_symbol: MNTP
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: MNTP/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/MNTP
+  url: https://www.bancor.network/token/X8X
 - base:
     currency_id: 3179
     currency_symbol: ABX
@@ -1377,6 +1097,118 @@ markets:
     exchange_symbol: BNT
   url: https://www.bancor.network/token/ABX
 - base:
+    currency_id: 2704
+    currency_symbol: TNS
+    currency_type: cryptocurrency
+    exchange_symbol: TNS
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: TNS/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/TNS
+- base:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: BNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/BNT_BTC
+- base:
+    currency_id: 3993
+    currency_symbol: EMT
+    currency_type: cryptocurrency
+    exchange_symbol: EMT
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: EMT/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/EMT
+- base:
+    currency_id: 2724
+    currency_symbol: ZIPT
+    currency_type: cryptocurrency
+    exchange_symbol: ZIPT
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: ZIPT/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/ZIPT
+- base:
+    currency_id: 2568
+    currency_symbol: J8T
+    currency_type: cryptocurrency
+    exchange_symbol: J8T
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: J8T/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/J8T
+- base:
+    currency_id: 2030
+    currency_symbol: REAL
+    currency_type: cryptocurrency
+    exchange_symbol: REAL
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: REAL/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/REAL
+- base:
+    currency_id: 2549
+    currency_symbol: XNK
+    currency_type: cryptocurrency
+    exchange_symbol: XNK
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: XNK/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/XNK
+- base:
+    currency_id: 2703
+    currency_symbol: BETR
+    currency_type: cryptocurrency
+    exchange_symbol: BETR
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: BETR/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/BETR
+- base:
     currency_id: 2993
     currency_symbol: HORUS
     currency_type: cryptocurrency
@@ -1390,6 +1222,174 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNT
   url: https://www.bancor.network/token/HORUS
+- base:
+    currency_id: 2856
+    currency_symbol: CEEK
+    currency_type: cryptocurrency
+    exchange_symbol: CEEK
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: CEEK/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/CEEK
+- base:
+    currency_id: 2134
+    currency_symbol: GRID
+    currency_type: cryptocurrency
+    exchange_symbol: GRID
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: GRID/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/GRID
+- base:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  exchange_id: 908
+  exchange_name: VALR
+  pair: BNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.valr.com/buy/BNT/ETH
+- base:
+    currency_id: 3931
+    currency_symbol: ELET
+    currency_type: cryptocurrency
+    exchange_symbol: ELET
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: ELET/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/ELET
+- base:
+    currency_id: 2343
+    currency_symbol: CAN
+    currency_type: cryptocurrency
+    exchange_symbol: CAN
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: CAN/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/CAN
+- base:
+    currency_id: 1967
+    currency_symbol: IND
+    currency_type: cryptocurrency
+    exchange_symbol: IND
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: IND/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/IND
+- base:
+    currency_id: 3112
+    currency_symbol: XPAT
+    currency_type: cryptocurrency
+    exchange_symbol: XPAT
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: XPAT/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/XPAT
+- base:
+    currency_id: 2243
+    currency_symbol: DRGN
+    currency_type: cryptocurrency
+    exchange_symbol: DRGN
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: DRGN/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/DRGN
+- base:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: BNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/bnt
+- base:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: BNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://crex24.com/exchange/BNT-BTC
+- base:
+    currency_id: 2565
+    currency_symbol: STAC
+    currency_type: cryptocurrency
+    exchange_symbol: STAC
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: STAC/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/STAC
+- base:
+    currency_id: 4783
+    currency_symbol: DRAGON
+    currency_type: cryptocurrency
+    exchange_symbol: DRAGON
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: DRAGON/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/DRAGON
 - base:
     currency_id: 1727
     currency_symbol: BNT
@@ -1419,21 +1419,21 @@ markets:
     exchange_symbol: ETH
   url: https://www.coss.io/c/trade?s=BNT_ETH
 - base:
-    currency_id: 1967
-    currency_symbol: IND
-    currency_type: cryptocurrency
-    exchange_symbol: IND
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: IND/BNT
-  quote:
     currency_id: 1727
     currency_symbol: BNT
     currency_type: cryptocurrency
     exchange_symbol: BNT
-  url: https://www.bancor.network/token/IND
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: BNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/bnt_eth
 name: Bancor
-rank: 113
+rank: 111
 slug: bancor
 status: active
 symbol: BNT
