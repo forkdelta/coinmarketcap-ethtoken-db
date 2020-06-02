@@ -26,20 +26,6 @@ markets:
     currency_symbol: XAUR
     currency_type: cryptocurrency
     exchange_symbol: XAUR
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: XAUR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/XAUR_BTC
-- base:
-    currency_id: 895
-    currency_symbol: XAUR
-    currency_type: cryptocurrency
-    exchange_symbol: XAUR
   exchange_id: 213
   exchange_name: Mercatox
   pair: XAUR/BTC
@@ -49,6 +35,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/XAUR/BTC
+- base:
+    currency_id: 895
+    currency_symbol: XAUR
+    currency_type: cryptocurrency
+    exchange_symbol: XAUR
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: XAUR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/XAUR_BTC
 - base:
     currency_id: 895
     currency_symbol: XAUR
@@ -70,20 +70,6 @@ markets:
     exchange_symbol: XAUR
   exchange_id: 42
   exchange_name: HitBTC
-  pair: XAUR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/XAUR-to-BTC
-- base:
-    currency_id: 895
-    currency_symbol: XAUR
-    currency_type: cryptocurrency
-    exchange_symbol: XAUR
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: XAUR/ETH
   quote:
     currency_id: 1027
@@ -91,8 +77,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/XAUR-to-ETH
+- base:
+    currency_id: 895
+    currency_symbol: XAUR
+    currency_type: cryptocurrency
+    exchange_symbol: XAUR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: XAUR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/XAUR-to-BTC
 name: Xaurum
-rank: 632
+rank: 622
 slug: xaurum
 status: active
 symbol: XAUR

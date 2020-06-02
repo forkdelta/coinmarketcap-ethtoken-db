@@ -31,20 +31,6 @@ markets:
     exchange_symbol: UBEX
   exchange_id: 403
   exchange_name: BitForex
-  pair: UBEX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitforex.com/en/spot/ubex_eth
-- base:
-    currency_id: 3140
-    currency_symbol: UBEX
-    currency_type: cryptocurrency
-    exchange_symbol: UBEX
-  exchange_id: 403
-  exchange_name: BitForex
   pair: UBEX/USDT
   quote:
     currency_id: 825
@@ -71,29 +57,15 @@ markets:
     currency_symbol: UBEX
     currency_type: cryptocurrency
     exchange_symbol: UBEX
-  exchange_id: 415
-  exchange_name: Bilaxy
+  exchange_id: 403
+  exchange_name: BitForex
   pair: UBEX/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://bilaxy.com/trade/UBEX_ETH
-- base:
-    currency_id: 3140
-    currency_symbol: UBEX
-    currency_type: cryptocurrency
-    exchange_symbol: UBEX
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: UBEX/DOGE
-  quote:
-    currency_id: 74
-    currency_symbol: DOGE
-    currency_type: cryptocurrency
-    exchange_symbol: DOGE
-  url: https://yobit.net/en/trade/UBEX/DOGE
+  url: https://www.bitforex.com/en/spot/ubex_eth
 - base:
     currency_id: 3140
     currency_symbol: UBEX
@@ -113,15 +85,29 @@ markets:
     currency_symbol: UBEX
     currency_type: cryptocurrency
     exchange_symbol: UBEX
-  exchange_id: 310
-  exchange_name: IDEX
+  exchange_id: 415
+  exchange_name: Bilaxy
   pair: UBEX/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://idex.market/eth/ubex
+  url: https://bilaxy.com/trade/UBEX_ETH
+- base:
+    currency_id: 3140
+    currency_symbol: UBEX
+    currency_type: cryptocurrency
+    exchange_symbol: UBEX
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: UBEX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=UBEX_ETH
 - base:
     currency_id: 3140
     currency_symbol: UBEX
@@ -141,15 +127,15 @@ markets:
     currency_symbol: UBEX
     currency_type: cryptocurrency
     exchange_symbol: UBEX
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 310
+  exchange_name: IDEX
   pair: UBEX/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=UBEX_ETH
+  url: https://idex.market/eth/ubex
 - base:
     currency_id: 3140
     currency_symbol: UBEX
@@ -192,6 +178,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://yobit.net/en/trade/UBEX/USD
+- base:
+    currency_id: 3140
+    currency_symbol: UBEX
+    currency_type: cryptocurrency
+    exchange_symbol: UBEX
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: UBEX/DOGE
+  quote:
+    currency_id: 74
+    currency_symbol: DOGE
+    currency_type: cryptocurrency
+    exchange_symbol: DOGE
+  url: https://yobit.net/en/trade/UBEX/DOGE
 - base:
     currency_id: 3140
     currency_symbol: UBEX
@@ -263,7 +263,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.probit.com/app/exchange/UBEX-USDT
 name: Ubex
-rank: 1002
+rank: 994
 slug: ubex
 status: active
 symbol: UBEX

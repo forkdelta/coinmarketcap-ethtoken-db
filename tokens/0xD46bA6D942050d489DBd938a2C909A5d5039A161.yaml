@@ -73,6 +73,20 @@ markets:
     exchange_symbol: AMPL
   exchange_id: 37
   exchange_name: Bitfinex
+  pair: AMPL/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/AMPL:BTC?refcode=H70YTMupQ
+- base:
+    currency_id: 4056
+    currency_symbol: AMPL
+    currency_type: cryptocurrency
+    exchange_symbol: AMPL
+  exchange_id: 37
+  exchange_name: Bitfinex
   pair: AMPL/USDT
   quote:
     currency_id: 825
@@ -85,15 +99,15 @@ markets:
     currency_symbol: AMPL
     currency_type: cryptocurrency
     exchange_symbol: AMPL
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: AMPL/USDT
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: AMPL/USD
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.kucoin.com/trade/AMPL-USDT
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/AMPL:USD?refcode=H70YTMupQ
 - base:
     currency_id: 4056
     currency_symbol: AMPL
@@ -113,31 +127,17 @@ markets:
     currency_symbol: AMPL
     currency_type: cryptocurrency
     exchange_symbol: AMPL
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: AMPL/BTC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: AMPL/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/AMPL:BTC?refcode=H70YTMupQ
-- base:
-    currency_id: 4056
-    currency_symbol: AMPL
-    currency_type: cryptocurrency
-    exchange_symbol: AMPL
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: AMPL/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/AMPL:USD?refcode=H70YTMupQ
+    exchange_symbol: USDT
+  url: https://www.kucoin.com/trade/AMPL-USDT
 name: Ampleforth
-rank: 471
+rank: 475
 slug: ampleforth
 status: active
 symbol: AMPL

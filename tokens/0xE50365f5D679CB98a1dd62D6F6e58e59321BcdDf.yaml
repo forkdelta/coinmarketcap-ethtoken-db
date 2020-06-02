@@ -65,20 +65,6 @@ markets:
     exchange_symbol: LA
   exchange_id: 380
   exchange_name: LATOKEN
-  pair: LA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://latoken.com/exchange/ETH-LA
-- base:
-    currency_id: 2090
-    currency_symbol: LA
-    currency_type: cryptocurrency
-    exchange_symbol: LA
-  exchange_id: 380
-  exchange_name: LATOKEN
   pair: LA/USDT
   quote:
     currency_id: 825
@@ -86,6 +72,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://latoken.com/exchange/USDT-LA
+- base:
+    currency_id: 2090
+    currency_symbol: LA
+    currency_type: cryptocurrency
+    exchange_symbol: LA
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: LA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://latoken.com/exchange/ETH-LA
 - base:
     currency_id: 3754
     currency_symbol: EVY
@@ -101,7 +101,7 @@ markets:
     exchange_symbol: LA
   url: https://latoken.com/exchange/LA-EVY
 name: LATOKEN
-rank: 334
+rank: 304
 slug: latoken
 status: active
 symbol: LA
