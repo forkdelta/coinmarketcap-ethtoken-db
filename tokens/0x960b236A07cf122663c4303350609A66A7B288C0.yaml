@@ -29,6 +29,20 @@ markets:
     exchange_symbol: ANT
   exchange_id: 400
   exchange_name: Hotbit
+  pair: ANT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=ANT_ETH
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: ANT/BTC
   quote:
     currency_id: 1
@@ -36,34 +50,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=ANT_BTC
-- base:
-    currency_id: 1680
-    currency_symbol: ANT
-    currency_type: cryptocurrency
-    exchange_symbol: ANT
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: ANT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 1680
-    currency_symbol: ANT
-    currency_type: cryptocurrency
-    exchange_symbol: ANT
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: ANT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=ant&tab=limit
 - base:
     currency_id: 1680
     currency_symbol: ANT
@@ -83,15 +69,15 @@ markets:
     currency_symbol: ANT
     currency_type: cryptocurrency
     exchange_symbol: ANT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: ANT/ETH
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: ANT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=ANT_ETH
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=ant&tab=limit
 - base:
     currency_id: 1680
     currency_symbol: ANT
@@ -120,6 +106,48 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://vcc.exchange/exchange/basic?currency=eth&coin=ant
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: ANT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 908
+  exchange_name: VALR
+  pair: ANT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.valr.com/buy/ANT/ETH
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: ANT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-ANT
 - base:
     currency_id: 1680
     currency_symbol: ANT
@@ -167,34 +195,6 @@ markets:
     currency_symbol: ANT
     currency_type: cryptocurrency
     exchange_symbol: ANT
-  exchange_id: 908
-  exchange_name: VALR
-  pair: ANT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.valr.com/buy/ANT/ETH
-- base:
-    currency_id: 1680
-    currency_symbol: ANT
-    currency_type: cryptocurrency
-    exchange_symbol: ANT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: ANT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-ANT
-- base:
-    currency_id: 1680
-    currency_symbol: ANT
-    currency_type: cryptocurrency
-    exchange_symbol: ANT
   exchange_id: 404
   exchange_name: Kyber Network
   pair: ANT/ETH
@@ -204,20 +204,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/ant-eth
-- base:
-    currency_id: 1680
-    currency_symbol: ANT
-    currency_type: cryptocurrency
-    exchange_symbol: ANT
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: ANT/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/ANT
 - base:
     currency_id: 1680
     currency_symbol: ANT
@@ -237,29 +223,29 @@ markets:
     currency_symbol: ANT
     currency_type: cryptocurrency
     exchange_symbol: ANT
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: ANT/ETH
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: ANT/BNT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1727
+    currency_symbol: BNT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/ant
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/ANT
 - base:
     currency_id: 1680
     currency_symbol: ANT
     currency_type: cryptocurrency
     exchange_symbol: ANT
-  exchange_id: 107
-  exchange_name: Livecoin
+  exchange_id: 37
+  exchange_name: Bitfinex
   pair: ANT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/ANT_BTC
+  url: https://www.bitfinex.com/t/ANT:BTC?refcode=H70YTMupQ
 - base:
     currency_id: 1680
     currency_symbol: ANT
@@ -279,15 +265,15 @@ markets:
     currency_symbol: ANT
     currency_type: cryptocurrency
     exchange_symbol: ANT
-  exchange_id: 37
-  exchange_name: Bitfinex
+  exchange_id: 107
+  exchange_name: Livecoin
   pair: ANT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/ANT:BTC?refcode=H70YTMupQ
+  url: https://www.livecoin.net/en/trading/ANT_BTC
 - base:
     currency_id: 1680
     currency_symbol: ANT
@@ -316,6 +302,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.gopax.co.kr/exchange/ant-krw
+- base:
+    currency_id: 1680
+    currency_symbol: ANT
+    currency_type: cryptocurrency
+    exchange_symbol: ANT
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: ANT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/ant
 - base:
     currency_id: 1680
     currency_symbol: ANT

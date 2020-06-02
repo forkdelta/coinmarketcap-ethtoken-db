@@ -56,20 +56,6 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: FSN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/fsn_usdt/
-- base:
-    currency_id: 2530
-    currency_symbol: FSN
-    currency_type: cryptocurrency
-    exchange_symbol: FSN
   exchange_id: 294
   exchange_name: OKEx
   pair: FSN/USDT
@@ -79,6 +65,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.okex.com/market?product=fsn_usdt
+- base:
+    currency_id: 2530
+    currency_symbol: FSN
+    currency_type: cryptocurrency
+    exchange_symbol: FSN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: FSN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/fsn_usdt/
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -100,20 +100,6 @@ markets:
     exchange_symbol: FSN
   exchange_id: 400
   exchange_name: Hotbit
-  pair: FSN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=FSN_BTC
-- base:
-    currency_id: 2530
-    currency_symbol: FSN
-    currency_type: cryptocurrency
-    exchange_symbol: FSN
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: FSN/ETH
   quote:
     currency_id: 1027
@@ -121,6 +107,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=FSN_ETH
+- base:
+    currency_id: 2530
+    currency_symbol: FSN
+    currency_type: cryptocurrency
+    exchange_symbol: FSN
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: FSN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=FSN_BTC
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -149,6 +149,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://trade.citex.co.kr/trade/FSN_USDT
+- base:
+    currency_id: 2530
+    currency_symbol: FSN
+    currency_type: cryptocurrency
+    exchange_symbol: FSN
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: FSN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/fsn
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -191,34 +205,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bibox.com/exchange?coinPair=FSN_BTC
-- base:
-    currency_id: 2530
-    currency_symbol: FSN
-    currency_type: cryptocurrency
-    exchange_symbol: FSN
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: FSN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-FSN
-- base:
-    currency_id: 2530
-    currency_symbol: FSN
-    currency_type: cryptocurrency
-    exchange_symbol: FSN
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: FSN/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/FSN-E14_BNB
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -280,6 +266,34 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: FSN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/fsn
+- base:
+    currency_id: 2530
+    currency_symbol: FSN
+    currency_type: cryptocurrency
+    exchange_symbol: FSN
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: FSN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-FSN
+- base:
+    currency_id: 2530
+    currency_symbol: FSN
+    currency_type: cryptocurrency
+    exchange_symbol: FSN
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: FSN/BTC
@@ -289,20 +303,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/fsn_btc/
-- base:
-    currency_id: 2530
-    currency_symbol: FSN
-    currency_type: cryptocurrency
-    exchange_symbol: FSN
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: FSN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/fsn_usdt/
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -322,15 +322,15 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: FSN/ETH
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: FSN/BNB
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/fsn
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/FSN-E14_BNB
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -392,15 +392,15 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
-  exchange_id: 453
-  exchange_name: BitMax
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: FSN/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/fsn
+  url: https://www.huobi.co.kr/en-US/exchange/fsn_usdt/
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -432,7 +432,7 @@ markets:
 name: Fusion
 notice: We have received reports that Huobi has [temporarily suspended](https://huobiglobal.zendesk.com/hc/en-us/articles/360000545561-Announcement-on-the-Suspension-of-the-Deposit-and-Withdrawal-of-FSN)
   withdrawals and deposits of FSN.
-rank: 176
+rank: 180
 slug: fusion
 status: active
 symbol: FSN

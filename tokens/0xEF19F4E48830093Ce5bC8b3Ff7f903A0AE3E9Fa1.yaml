@@ -41,20 +41,6 @@ markets:
     exchange_symbol: BOTX
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: BOTX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/BOTX_BTC
-- base:
-    currency_id: 3873
-    currency_symbol: BOTX
-    currency_type: cryptocurrency
-    exchange_symbol: BOTX
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: BOTX/USD
   quote:
     currency_id: 2781
@@ -62,6 +48,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://p2pb2b.io/trade/BOTX_USD
+- base:
+    currency_id: 3873
+    currency_symbol: BOTX
+    currency_type: cryptocurrency
+    exchange_symbol: BOTX
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: BOTX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/BOTX_BTC
 - base:
     currency_id: 3873
     currency_symbol: BOTX
@@ -105,7 +105,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.coinlim.com/#/dashboard
 name: botXcoin
-rank: 224
+rank: 221
 slug: botxcoin
 status: active
 symbol: BOTX

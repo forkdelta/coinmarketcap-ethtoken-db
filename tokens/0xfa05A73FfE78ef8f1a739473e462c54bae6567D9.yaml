@@ -45,6 +45,20 @@ markets:
     currency_symbol: LUN
     currency_type: cryptocurrency
     exchange_symbol: LUN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: LUN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/lun_btc/
+- base:
+    currency_id: 1658
+    currency_symbol: LUN
+    currency_type: cryptocurrency
+    exchange_symbol: LUN
   exchange_id: 270
   exchange_name: Binance
   pair: LUN/BTC
@@ -54,20 +68,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.binance.com/en/trade/LUN_BTC?ref=H31B921U
-- base:
-    currency_id: 1658
-    currency_symbol: LUN
-    currency_type: cryptocurrency
-    exchange_symbol: LUN
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: LUN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.fatbtc.com/
 - base:
     currency_id: 1658
     currency_symbol: LUN
@@ -87,29 +87,15 @@ markets:
     currency_symbol: LUN
     currency_type: cryptocurrency
     exchange_symbol: LUN
-  exchange_id: 102
-  exchange_name: Huobi Global
+  exchange_id: 363
+  exchange_name: Fatbtc
   pair: LUN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/lun_btc/
-- base:
-    currency_id: 1658
-    currency_symbol: LUN
-    currency_type: cryptocurrency
-    exchange_symbol: LUN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: LUN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/LUNBTC
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 1658
     currency_symbol: LUN
@@ -124,6 +110,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/LUN-to-BTC
+- base:
+    currency_id: 1658
+    currency_symbol: LUN
+    currency_type: cryptocurrency
+    exchange_symbol: LUN
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: LUN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/LUNBTC
 - base:
     currency_id: 1658
     currency_symbol: LUN
@@ -195,7 +195,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/lun_eth/
 name: Lunyr
-rank: 663
+rank: 734
 slug: lunyr
 status: active
 symbol: LUN

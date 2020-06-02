@@ -53,20 +53,6 @@ markets:
     exchange_symbol: SHIP
   exchange_id: 42
   exchange_name: HitBTC
-  pair: SHIP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/SHIP-to-ETH
-- base:
-    currency_id: 2579
-    currency_symbol: SHIP
-    currency_type: cryptocurrency
-    exchange_symbol: SHIP
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: SHIP/BTC
   quote:
     currency_id: 1
@@ -74,6 +60,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/SHIP-to-BTC
+- base:
+    currency_id: 2579
+    currency_symbol: SHIP
+    currency_type: cryptocurrency
+    exchange_symbol: SHIP
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SHIP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/SHIP-to-ETH
 - base:
     currency_id: 2579
     currency_symbol: SHIP
@@ -103,7 +103,7 @@ markets:
     exchange_symbol: ETH
   url: https://uniswap.exchange/
 name: ShipChain
-rank: 333
+rank: 334
 slug: shipchain
 status: active
 symbol: SHIP

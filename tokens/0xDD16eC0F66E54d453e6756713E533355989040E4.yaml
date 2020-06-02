@@ -25,20 +25,6 @@ markets:
     currency_symbol: TEN
     currency_type: cryptocurrency
     exchange_symbol: TEN
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: TEN/IDR
-  quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://indodax.com/market/TENIDR
-- base:
-    currency_id: 2576
-    currency_symbol: TEN
-    currency_type: cryptocurrency
-    exchange_symbol: TEN
   exchange_id: 411
   exchange_name: Tokenomy
   pair: TEN/BTC
@@ -62,6 +48,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: null
+- base:
+    currency_id: 2576
+    currency_symbol: TEN
+    currency_type: cryptocurrency
+    exchange_symbol: TEN
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: TEN/IDR
+  quote:
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/TENIDR
 - base:
     currency_id: 2576
     currency_symbol: TEN
@@ -97,20 +97,6 @@ markets:
     exchange_symbol: TEN
   exchange_id: 343
   exchange_name: CoinBene
-  pair: TEN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=TENETH
-- base:
-    currency_id: 2576
-    currency_symbol: TEN
-    currency_type: cryptocurrency
-    exchange_symbol: TEN
-  exchange_id: 343
-  exchange_name: CoinBene
   pair: TEN/BTC
   quote:
     currency_id: 1
@@ -118,8 +104,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=TENBTC
+- base:
+    currency_id: 2576
+    currency_symbol: TEN
+    currency_type: cryptocurrency
+    exchange_symbol: TEN
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: TEN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=TENETH
 name: Tokenomy
-rank: 538
+rank: 525
 slug: tokenomy
 status: active
 symbol: TEN

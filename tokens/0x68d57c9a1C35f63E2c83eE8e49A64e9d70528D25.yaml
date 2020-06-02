@@ -49,20 +49,6 @@ markets:
     exchange_symbol: SRN
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: SRN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/srn_btc/
-- base:
-    currency_id: 2313
-    currency_symbol: SRN
-    currency_type: cryptocurrency
-    exchange_symbol: SRN
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: SRN/ETH
   quote:
     currency_id: 1027
@@ -70,6 +56,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/srn_eth/
+- base:
+    currency_id: 2313
+    currency_symbol: SRN
+    currency_type: cryptocurrency
+    exchange_symbol: SRN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: SRN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/srn_btc/
 - base:
     currency_id: 2313
     currency_symbol: SRN
@@ -145,15 +145,29 @@ markets:
     currency_symbol: SRN
     currency_type: cryptocurrency
     exchange_symbol: SRN
-  exchange_id: 22
-  exchange_name: Bittrex
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: SRN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/srn_btc/
+- base:
+    currency_id: 2313
+    currency_symbol: SRN
+    currency_type: cryptocurrency
+    exchange_symbol: SRN
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: SRN/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-SRN
+  url: https://www.huobi.co.kr/en-US/exchange/srn_eth/
 - base:
     currency_id: 2313
     currency_symbol: SRN
@@ -173,29 +187,15 @@ markets:
     currency_symbol: SRN
     currency_type: cryptocurrency
     exchange_symbol: SRN
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: SRN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/srn_btc/
-- base:
-    currency_id: 2313
-    currency_symbol: SRN
-    currency_type: cryptocurrency
-    exchange_symbol: SRN
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: SRN/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://hitbtc.com/SRN-to-ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-SRN
 - base:
     currency_id: 2313
     currency_symbol: SRN
@@ -210,6 +210,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/SRN/BTC
+- base:
+    currency_id: 2313
+    currency_symbol: SRN
+    currency_type: cryptocurrency
+    exchange_symbol: SRN
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: SRN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitbay.net/en/exchange-rate/SRN-BTC
+- base:
+    currency_id: 2313
+    currency_symbol: SRN
+    currency_type: cryptocurrency
+    exchange_symbol: SRN
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SRN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/SRN-to-ETH
 - base:
     currency_id: 2313
     currency_symbol: SRN
@@ -243,34 +271,6 @@ markets:
     currency_symbol: SRN
     currency_type: cryptocurrency
     exchange_symbol: SRN
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: SRN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/srn_eth/
-- base:
-    currency_id: 2313
-    currency_symbol: SRN
-    currency_type: cryptocurrency
-    exchange_symbol: SRN
-  exchange_id: 82
-  exchange_name: BitBay
-  pair: SRN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitbay.net/en/exchange-rate/SRN-BTC
-- base:
-    currency_id: 2313
-    currency_symbol: SRN
-    currency_type: cryptocurrency
-    exchange_symbol: SRN
   exchange_id: 104
   exchange_name: LiteBit.eu
   pair: SRN/EUR
@@ -281,7 +281,7 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/sirin-labs-token
 name: SIRIN LABS Token
-rank: 521
+rank: 512
 slug: sirin-labs-token
 status: active
 symbol: SRN

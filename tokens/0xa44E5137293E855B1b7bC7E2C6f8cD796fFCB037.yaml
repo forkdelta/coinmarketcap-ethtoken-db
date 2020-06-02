@@ -45,20 +45,6 @@ markets:
     exchange_symbol: SENT
   exchange_id: 400
   exchange_name: Hotbit
-  pair: SENT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=SENT_USDT
-- base:
-    currency_id: 2643
-    currency_symbol: SENT
-    currency_type: cryptocurrency
-    exchange_symbol: SENT
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: SENT/BTC
   quote:
     currency_id: 1
@@ -66,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=SENT_BTC
+- base:
+    currency_id: 2643
+    currency_symbol: SENT
+    currency_type: cryptocurrency
+    exchange_symbol: SENT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: SENT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=SENT_USDT
 - base:
     currency_id: 2643
     currency_symbol: SENT
@@ -80,6 +80,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/SENT-to-BTC
+- base:
+    currency_id: 2643
+    currency_symbol: SENT
+    currency_type: cryptocurrency
+    exchange_symbol: SENT
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: SENT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/sent
 - base:
     currency_id: 2643
     currency_symbol: SENT
@@ -108,20 +122,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/SENT/BTC
-- base:
-    currency_id: 2643
-    currency_symbol: SENT
-    currency_type: cryptocurrency
-    exchange_symbol: SENT
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: SENT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/sent
 - base:
     currency_id: 2643
     currency_symbol: SENT
@@ -165,7 +165,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.coinall.com/market?product=sent_eth
 name: Sentinel
-rank: 738
+rank: 743
 slug: sentinel
 status: active
 symbol: SENT
