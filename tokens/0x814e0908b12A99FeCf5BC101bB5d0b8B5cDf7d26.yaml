@@ -41,34 +41,6 @@ markets:
     currency_symbol: MDT
     currency_type: cryptocurrency
     exchange_symbol: MDT
-  exchange_id: 407
-  exchange_name: DigiFinex
-  pair: MDT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.digifinex.com/en-ww/trade/USDT/MDT
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: MDT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bkex.com/trade/MDT_USDT
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
   exchange_id: 294
   exchange_name: OKEx
   pair: MDT/BTC
@@ -99,13 +71,27 @@ markets:
     exchange_symbol: MDT
   exchange_id: 407
   exchange_name: DigiFinex
-  pair: MDT/BTC
+  pair: MDT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.digifinex.com/en-ww/trade/BTC/MDT
+    exchange_symbol: USDT
+  url: https://www.digifinex.com/en-ww/trade/USDT/MDT
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: MDT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bkex.com/trade/MDT_USDT
 - base:
     currency_id: 2348
     currency_symbol: MDT
@@ -120,6 +106,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.digifinex.com/en-ww/trade/ETH/MDT
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: MDT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.digifinex.com/en-ww/trade/BTC/MDT
 - base:
     currency_id: 2348
     currency_symbol: MDT
@@ -167,20 +167,6 @@ markets:
     currency_symbol: MDT
     currency_type: cryptocurrency
     exchange_symbol: MDT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: MDT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bittrex.com/Market/Index?MarketName=USDT-MDT
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
   exchange_id: 302
   exchange_name: Gate.io
   pair: MDT/BTC
@@ -190,6 +176,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://gate.io/trade/mdt_btc
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: MDT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bittrex.com/Market/Index?MarketName=USDT-MDT
 - base:
     currency_id: 2348
     currency_symbol: MDT
@@ -225,20 +225,6 @@ markets:
     exchange_symbol: MDT
   exchange_id: 490
   exchange_name: OKEx Korea
-  pair: MDT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://okex.co.kr/kr/view/exchange?coin=MDT&market=BTC
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
-  exchange_id: 490
-  exchange_name: OKEx Korea
   pair: MDT/USDT
   quote:
     currency_id: 825
@@ -246,6 +232,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=MDT&market=USDT
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
+  exchange_id: 490
+  exchange_name: OKEx Korea
+  pair: MDT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://okex.co.kr/kr/view/exchange?coin=MDT&market=BTC
 name: Measurable Data Token
 rank: 410
 slug: measurable-data-token

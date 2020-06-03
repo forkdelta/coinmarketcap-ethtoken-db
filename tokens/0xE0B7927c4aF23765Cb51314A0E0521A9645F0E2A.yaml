@@ -40,20 +40,6 @@ markets:
     exchange_symbol: DGD
   exchange_id: 574
   exchange_name: WBF Exchange
-  pair: DGD/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.wbf.info/trade/DGD_BTC
-- base:
-    currency_id: 1229
-    currency_symbol: DGD
-    currency_type: cryptocurrency
-    exchange_symbol: DGD
-  exchange_id: 574
-  exchange_name: WBF Exchange
   pair: DGD/ETH
   quote:
     currency_id: 1027
@@ -61,6 +47,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.wbf.info/trade/DGD_ETH
+- base:
+    currency_id: 1229
+    currency_symbol: DGD
+    currency_type: cryptocurrency
+    exchange_symbol: DGD
+  exchange_id: 574
+  exchange_name: WBF Exchange
+  pair: DGD/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.wbf.info/trade/DGD_BTC
 - base:
     currency_id: 1229
     currency_symbol: DGD
@@ -122,6 +122,20 @@ markets:
     currency_symbol: DGD
     currency_type: cryptocurrency
     exchange_symbol: DGD
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: DGD/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitrue.com/trade/dgd_btc
+- base:
+    currency_id: 1229
+    currency_symbol: DGD
+    currency_type: cryptocurrency
+    exchange_symbol: DGD
   exchange_id: 107
   exchange_name: Livecoin
   pair: DGD/BTC
@@ -150,15 +164,29 @@ markets:
     currency_symbol: DGD
     currency_type: cryptocurrency
     exchange_symbol: DGD
-  exchange_id: 595
-  exchange_name: Uniswap
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: DGD/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/dgd_btc/
+- base:
+    currency_id: 1229
+    currency_symbol: DGD
+    currency_type: cryptocurrency
+    exchange_symbol: DGD
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: DGD/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://uniswap.exchange/
+  url: https://www.huobi.co.kr/en-US/exchange/dgd_eth/
 - base:
     currency_id: 1229
     currency_symbol: DGD
@@ -178,29 +206,15 @@ markets:
     currency_symbol: DGD
     currency_type: cryptocurrency
     exchange_symbol: DGD
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: DGD/BTC
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: DGD/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/dgd_btc
-- base:
-    currency_id: 1229
-    currency_symbol: DGD
-    currency_type: cryptocurrency
-    exchange_symbol: DGD
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: DGD/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/dgd_btc/
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 - base:
     currency_id: 1229
     currency_symbol: DGD
@@ -276,20 +290,6 @@ markets:
     currency_symbol: DGD
     currency_type: cryptocurrency
     exchange_symbol: DGD
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: DGD/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/dgd_eth/
-- base:
-    currency_id: 1229
-    currency_symbol: DGD
-    currency_type: cryptocurrency
-    exchange_symbol: DGD
   exchange_id: 348
   exchange_name: Radar Relay
   pair: DGD/WETH
@@ -314,7 +314,7 @@ markets:
     exchange_symbol: BTC
   url: https://coinplace.pro/
 name: DigixDAO
-rank: 355
+rank: 361
 slug: digixdao
 status: active
 symbol: DGD

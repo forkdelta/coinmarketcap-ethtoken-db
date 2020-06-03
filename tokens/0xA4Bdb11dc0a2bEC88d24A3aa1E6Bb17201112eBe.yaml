@@ -36,20 +36,6 @@ markets:
     currency_symbol: USDS
     currency_type: cryptocurrency
     exchange_symbol: USDS
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: USDS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=usds
-- base:
-    currency_id: 3719
-    currency_symbol: USDS
-    currency_type: cryptocurrency
-    exchange_symbol: USDS
   exchange_id: 22
   exchange_name: Bittrex
   pair: USDS/BTC
@@ -60,19 +46,19 @@ markets:
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-USDS
 - base:
-    currency_id: 3854
-    currency_symbol: FUND
-    currency_type: cryptocurrency
-    exchange_symbol: UND-EBC
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: FUND/USDS
-  quote:
     currency_id: 3719
     currency_symbol: USDS
     currency_type: cryptocurrency
-    exchange_symbol: USDSB-1AC
-  url: https://www.binance.org/en/trade/UND-EBC_USDSB-1AC
+    exchange_symbol: USDS
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: USDS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=usds
 - base:
     currency_id: 1839
     currency_symbol: BNB
@@ -101,6 +87,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDSB-1AC
   url: https://www.binance.org/en/trade/BTCB-1DE_USDSB-1AC
+- base:
+    currency_id: 3854
+    currency_symbol: FUND
+    currency_type: cryptocurrency
+    exchange_symbol: UND-EBC
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: FUND/USDS
+  quote:
+    currency_id: 3719
+    currency_symbol: USDS
+    currency_type: cryptocurrency
+    exchange_symbol: USDSB-1AC
+  url: https://www.binance.org/en/trade/UND-EBC_USDSB-1AC
 - base:
     currency_id: 4036
     currency_symbol: COS
@@ -143,22 +143,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDS
   url: https://crex24.com/exchange/BTC-USDS
-- base:
-    currency_id: 3364
-    currency_symbol: PLC
-    currency_type: cryptocurrency
-    exchange_symbol: PLC
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: PLC/USDS
-  quote:
-    currency_id: 3719
-    currency_symbol: USDS
-    currency_type: cryptocurrency
-    exchange_symbol: USDS
-  url: https://coinsbit.io/trade/PLC_USDS
 name: StableUSD
-rank: 1075
+rank: 1076
 slug: stableusd
 status: active
 symbol: USDS

@@ -29,20 +29,6 @@ markets:
     currency_symbol: 1SG
     currency_type: cryptocurrency
     exchange_symbol: 1SG
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: 1SG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitmart.com/trade?symbol=1SG_USDT
-- base:
-    currency_id: 3762
-    currency_symbol: 1SG
-    currency_type: cryptocurrency
-    exchange_symbol: 1SG
   exchange_id: 420
   exchange_name: Kryptono
   pair: 1SG/USDT
@@ -52,6 +38,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://kryptono.exchange/k/accounts/trade?s={{mainu}_{{baseu}
+- base:
+    currency_id: 3762
+    currency_symbol: 1SG
+    currency_type: cryptocurrency
+    exchange_symbol: 1SG
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: 1SG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitmart.com/trade?symbol=1SG_USDT
 - base:
     currency_id: 3762
     currency_symbol: 1SG
@@ -109,7 +109,7 @@ markets:
     exchange_symbol: 1SG
   url: https://kryptono.exchange/k/accounts/trade?s={{mainu}_{{baseu}
 name: 1SG
-rank: 756
+rank: 747
 slug: 1sg
 status: active
 symbol: 1SG
