@@ -32,15 +32,15 @@ markets:
     currency_symbol: SUB
     currency_type: cryptocurrency
     exchange_symbol: SUB
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: SUB/INR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SUB/BTC
   quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/sub
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/SUB-to-BTC
 - base:
     currency_id: 1984
     currency_symbol: SUB
@@ -60,15 +60,15 @@ markets:
     currency_symbol: SUB
     currency_type: cryptocurrency
     exchange_symbol: SUB
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SUB/BTC
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: SUB/INR
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/SUB-to-BTC
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/sub
 - base:
     currency_id: 1984
     currency_symbol: SUB
@@ -83,6 +83,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://wazirx.com/exchange/SUB-BTC
+- base:
+    currency_id: 1984
+    currency_symbol: SUB
+    currency_type: cryptocurrency
+    exchange_symbol: SUB
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SUB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/SUB-to-ETH
 - base:
     currency_id: 1984
     currency_symbol: SUB
@@ -130,20 +144,6 @@ markets:
     currency_symbol: SUB
     currency_type: cryptocurrency
     exchange_symbol: SUB
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SUB/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/SUB-to-ETH
-- base:
-    currency_id: 1984
-    currency_symbol: SUB
-    currency_type: cryptocurrency
-    exchange_symbol: SUB
   exchange_id: 242
   exchange_name: COSS
   pair: SUB/USD
@@ -168,7 +168,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.coss.io/c/trade?s=SUB_USDT
 name: Substratum
-rank: 888
+rank: 899
 slug: substratum
 status: active
 symbol: SUB

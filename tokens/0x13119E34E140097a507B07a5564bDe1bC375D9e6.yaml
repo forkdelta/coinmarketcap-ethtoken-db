@@ -19,20 +19,6 @@ markets:
     currency_symbol: IMT
     currency_type: cryptocurrency
     exchange_symbol: IMT
-  exchange_id: 403
-  exchange_name: BitForex
-  pair: IMT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitforex.com/en/spot/imt_usdt
-- base:
-    currency_id: 3243
-    currency_symbol: IMT
-    currency_type: cryptocurrency
-    exchange_symbol: IMT
   exchange_id: 213
   exchange_name: Mercatox
   pair: IMT/ETH
@@ -42,6 +28,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://mercatox.com/exchange/IMT/ETH
+- base:
+    currency_id: 3243
+    currency_symbol: IMT
+    currency_type: cryptocurrency
+    exchange_symbol: IMT
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: IMT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitforex.com/en/spot/imt_usdt
 - base:
     currency_id: 3243
     currency_symbol: IMT
@@ -85,7 +85,7 @@ markets:
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/IMT/BTC
 name: Moneytoken
-rank: 1115
+rank: 1145
 slug: moneytoken
 status: active
 symbol: IMT

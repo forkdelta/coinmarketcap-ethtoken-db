@@ -41,20 +41,6 @@ markets:
     exchange_symbol: VIB
   exchange_id: 294
   exchange_name: OKEx
-  pair: VIB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=vib_usdt
-- base:
-    currency_id: 2019
-    currency_symbol: VIB
-    currency_type: cryptocurrency
-    exchange_symbol: VIB
-  exchange_id: 294
-  exchange_name: OKEx
   pair: VIB/BTC
   quote:
     currency_id: 1
@@ -81,6 +67,20 @@ markets:
     currency_symbol: VIB
     currency_type: cryptocurrency
     exchange_symbol: VIB
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: VIB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=vib_usdt
+- base:
+    currency_id: 2019
+    currency_symbol: VIB
+    currency_type: cryptocurrency
+    exchange_symbol: VIB
   exchange_id: 949
   exchange_name: CoinDCX
   pair: VIB/BTC
@@ -90,34 +90,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coindcx.com/trade/VIBBTC
-- base:
-    currency_id: 2019
-    currency_symbol: VIB
-    currency_type: cryptocurrency
-    exchange_symbol: VIB
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: VIB/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/VIB
-- base:
-    currency_id: 2019
-    currency_symbol: VIB
-    currency_type: cryptocurrency
-    exchange_symbol: VIB
-  exchange_id: 908
-  exchange_name: VALR
-  pair: VIB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.valr.com/buy/VIB/BTC
 - base:
     currency_id: 2019
     currency_symbol: VIB
@@ -151,15 +123,29 @@ markets:
     currency_symbol: VIB
     currency_type: cryptocurrency
     exchange_symbol: VIB
-  exchange_id: 107
-  exchange_name: Livecoin
+  exchange_id: 908
+  exchange_name: VALR
   pair: VIB/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/VIB_BTC
+  url: https://www.valr.com/buy/VIB/BTC
+- base:
+    currency_id: 2019
+    currency_symbol: VIB
+    currency_type: cryptocurrency
+    exchange_symbol: VIB
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: VIB/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/VIB
 - base:
     currency_id: 2019
     currency_symbol: VIB
@@ -179,29 +165,29 @@ markets:
     currency_symbol: VIB
     currency_type: cryptocurrency
     exchange_symbol: VIB
-  exchange_id: 908
-  exchange_name: VALR
+  exchange_id: 502
+  exchange_name: Tokens.net
   pair: VIB/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.valr.com/buy/VIB/ETH
+  url: https://www.tokens.net/trading-pair/vibeth/
 - base:
     currency_id: 2019
     currency_symbol: VIB
     currency_type: cryptocurrency
     exchange_symbol: VIB
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: VIB/ETH
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: VIB/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-VIB
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/VIB_BTC
 - base:
     currency_id: 2019
     currency_symbol: VIB
@@ -221,20 +207,6 @@ markets:
     currency_symbol: VIB
     currency_type: cryptocurrency
     exchange_symbol: VIB
-  exchange_id: 502
-  exchange_name: Tokens.net
-  pair: VIB/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.tokens.net/trading-pair/vibeth/
-- base:
-    currency_id: 2019
-    currency_symbol: VIB
-    currency_type: cryptocurrency
-    exchange_symbol: VIB
   exchange_id: 42
   exchange_name: HitBTC
   pair: VIB/USDT
@@ -244,6 +216,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/VIB-to-USDT
+- base:
+    currency_id: 2019
+    currency_symbol: VIB
+    currency_type: cryptocurrency
+    exchange_symbol: VIB
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: VIB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-VIB
+- base:
+    currency_id: 2019
+    currency_symbol: VIB
+    currency_type: cryptocurrency
+    exchange_symbol: VIB
+  exchange_id: 908
+  exchange_name: VALR
+  pair: VIB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.valr.com/buy/VIB/ETH
 - base:
     currency_id: 2019
     currency_symbol: VIB
@@ -301,7 +301,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=VIB&market=USDT
 name: Viberate
-rank: 615
+rank: 629
 slug: viberate
 status: active
 symbol: VIB

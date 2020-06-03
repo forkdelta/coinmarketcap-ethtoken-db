@@ -42,6 +42,20 @@ markets:
     exchange_symbol: KCS
   exchange_id: 311
   exchange_name: KuCoin
+  pair: KCS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/KCS-BTC
+- base:
+    currency_id: 2087
+    currency_symbol: KCS
+    currency_type: cryptocurrency
+    exchange_symbol: KCS
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: KCS/ETH
   quote:
     currency_id: 1027
@@ -68,20 +82,6 @@ markets:
     currency_symbol: KCS
     currency_type: cryptocurrency
     exchange_symbol: KCS
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: KCS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/KCS-BTC
-- base:
-    currency_id: 2087
-    currency_symbol: KCS
-    currency_type: cryptocurrency
-    exchange_symbol: KCS
   exchange_id: 453
   exchange_name: BitMax
   pair: KCS/USDT
@@ -91,6 +91,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bitmax.io/#/trade/usdt/kcs
+- base:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: XRP/KCS
+  quote:
+    currency_id: 2087
+    currency_symbol: KCS
+    currency_type: cryptocurrency
+    exchange_symbol: KCS
+  url: https://www.kucoin.com/trade/XRP-KCS
 - base:
     currency_id: 1376
     currency_symbol: NEO
@@ -119,76 +133,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: KCS
   url: https://www.kucoin.com/trade/LTC-KCS
-- base:
-    currency_id: 2087
-    currency_symbol: KCS
-    currency_type: cryptocurrency
-    exchange_symbol: KCS
-  exchange_id: 528
-  exchange_name: BiKi
-  pair: KCS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.biki.cc/en_US/trade/KCS_BTC
-- base:
-    currency_id: 2087
-    currency_symbol: KCS
-    currency_type: cryptocurrency
-    exchange_symbol: KCS
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: KCS/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 2861
-    currency_symbol: GO
-    currency_type: cryptocurrency
-    exchange_symbol: GO
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: GO/KCS
-  quote:
-    currency_id: 2087
-    currency_symbol: KCS
-    currency_type: cryptocurrency
-    exchange_symbol: KCS
-  url: https://www.kucoin.com/trade/GO-KCS
-- base:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: XRP/KCS
-  quote:
-    currency_id: 2087
-    currency_symbol: KCS
-    currency_type: cryptocurrency
-    exchange_symbol: KCS
-  url: https://www.kucoin.com/trade/XRP-KCS
-- base:
-    currency_id: 2556
-    currency_symbol: CS
-    currency_type: cryptocurrency
-    exchange_symbol: CS
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CS/KCS
-  quote:
-    currency_id: 2087
-    currency_symbol: KCS
-    currency_type: cryptocurrency
-    exchange_symbol: KCS
-  url: https://www.kucoin.com/trade/CS-KCS
 - base:
     currency_id: 1765
     currency_symbol: EOS
@@ -222,6 +166,62 @@ markets:
     currency_symbol: KCS
     currency_type: cryptocurrency
     exchange_symbol: KCS
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: KCS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 2087
+    currency_symbol: KCS
+    currency_type: cryptocurrency
+    exchange_symbol: KCS
+  exchange_id: 528
+  exchange_name: BiKi
+  pair: KCS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.biki.cc/en_US/trade/KCS_BTC
+- base:
+    currency_id: 2556
+    currency_symbol: CS
+    currency_type: cryptocurrency
+    exchange_symbol: CS
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CS/KCS
+  quote:
+    currency_id: 2087
+    currency_symbol: KCS
+    currency_type: cryptocurrency
+    exchange_symbol: KCS
+  url: https://www.kucoin.com/trade/CS-KCS
+- base:
+    currency_id: 2861
+    currency_symbol: GO
+    currency_type: cryptocurrency
+    exchange_symbol: GO
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: GO/KCS
+  quote:
+    currency_id: 2087
+    currency_symbol: KCS
+    currency_type: cryptocurrency
+    exchange_symbol: KCS
+  url: https://www.kucoin.com/trade/GO-KCS
+- base:
+    currency_id: 2087
+    currency_symbol: KCS
+    currency_type: cryptocurrency
+    exchange_symbol: KCS
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: KCS/KRW
@@ -246,7 +246,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.probit.com/app/exchange/KCS-USDT
 name: KuCoin Shares
-rank: 72
+rank: 70
 slug: kucoin-shares
 status: active
 symbol: KCS

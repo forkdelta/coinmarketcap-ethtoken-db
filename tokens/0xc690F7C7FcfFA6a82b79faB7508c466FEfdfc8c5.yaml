@@ -97,6 +97,20 @@ markets:
     currency_symbol: LYM
     currency_type: cryptocurrency
     exchange_symbol: LYM
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: LYM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://gate.io/trade/lym_btc
+- base:
+    currency_id: 2554
+    currency_symbol: LYM
+    currency_type: cryptocurrency
+    exchange_symbol: LYM
   exchange_id: 311
   exchange_name: KuCoin
   pair: LYM/ETH
@@ -113,27 +127,13 @@ markets:
     exchange_symbol: LYM
   exchange_id: 302
   exchange_name: Gate.io
-  pair: LYM/BTC
+  pair: LYM/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://gate.io/trade/lym_btc
-- base:
-    currency_id: 2554
-    currency_symbol: LYM
-    currency_type: cryptocurrency
-    exchange_symbol: LYM
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: LYM/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/LYM:USD?refcode=H70YTMupQ
+    exchange_symbol: ETH
+  url: https://gate.io/trade/lym_eth
 - base:
     currency_id: 2554
     currency_symbol: LYM
@@ -153,17 +153,17 @@ markets:
     currency_symbol: LYM
     currency_type: cryptocurrency
     exchange_symbol: LYM
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: LYM/ETH
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: LYM/USD
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/lym_eth
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/LYM:USD?refcode=H70YTMupQ
 name: Lympo
-rank: 711
+rank: 721
 slug: lympo
 status: active
 symbol: LYM

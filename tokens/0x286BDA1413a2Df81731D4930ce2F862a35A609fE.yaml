@@ -33,20 +33,6 @@ markets:
     currency_symbol: WABI
     currency_type: cryptocurrency
     exchange_symbol: WABI
-  exchange_id: 270
-  exchange_name: Binance
-  pair: WABI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/WABI_BTC?ref=H31B921U
-- base:
-    currency_id: 2267
-    currency_symbol: WABI
-    currency_type: cryptocurrency
-    exchange_symbol: WABI
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: WABI/BTC
@@ -63,13 +49,13 @@ markets:
     exchange_symbol: WABI
   exchange_id: 270
   exchange_name: Binance
-  pair: WABI/BNB
+  pair: WABI/BTC
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/WABI_BNB?ref=H31B921U
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/WABI_BTC?ref=H31B921U
 - base:
     currency_id: 2267
     currency_symbol: WABI
@@ -84,6 +70,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=WABI_USDT
+- base:
+    currency_id: 2267
+    currency_symbol: WABI
+    currency_type: cryptocurrency
+    exchange_symbol: WABI
+  exchange_id: 270
+  exchange_name: Binance
+  pair: WABI/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/WABI_BNB?ref=H31B921U
 - base:
     currency_id: 2267
     currency_symbol: WABI
@@ -197,7 +197,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/wabi
 name: Tael
-rank: 376
+rank: 373
 slug: tael
 status: active
 symbol: WABI

@@ -55,20 +55,6 @@ markets:
     currency_symbol: TNT
     currency_type: cryptocurrency
     exchange_symbol: TNT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: TNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/TNT-to-USDT
-- base:
-    currency_id: 1923
-    currency_symbol: TNT
-    currency_type: cryptocurrency
-    exchange_symbol: TNT
   exchange_id: 270
   exchange_name: Binance
   pair: TNT/ETH
@@ -83,15 +69,15 @@ markets:
     currency_symbol: TNT
     currency_type: cryptocurrency
     exchange_symbol: TNT
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: TNT/BTC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: TNT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/tnt_btc/
+    exchange_symbol: USDT
+  url: https://hitbtc.com/TNT-to-USDT
 - base:
     currency_id: 1923
     currency_symbol: TNT
@@ -111,15 +97,15 @@ markets:
     currency_symbol: TNT
     currency_type: cryptocurrency
     exchange_symbol: TNT
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: TNT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/TNTBTC
+  url: https://www.hbg.com/en-us/exchange/tnt_btc/
 - base:
     currency_id: 1923
     currency_symbol: TNT
@@ -139,20 +125,6 @@ markets:
     currency_symbol: TNT
     currency_type: cryptocurrency
     exchange_symbol: TNT
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: TNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/tnt_usdt
-- base:
-    currency_id: 1923
-    currency_symbol: TNT
-    currency_type: cryptocurrency
-    exchange_symbol: TNT
   exchange_id: 495
   exchange_name: Folgory
   pair: TNT/BTC
@@ -162,6 +134,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://folgory.com/trade-crypto/TNT_BTC
+- base:
+    currency_id: 1923
+    currency_symbol: TNT
+    currency_type: cryptocurrency
+    exchange_symbol: TNT
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: TNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/TNTBTC
+- base:
+    currency_id: 1923
+    currency_symbol: TNT
+    currency_type: cryptocurrency
+    exchange_symbol: TNT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: TNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/tnt_usdt
 - base:
     currency_id: 1923
     currency_symbol: TNT
@@ -247,7 +247,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/tnt
 name: Tierion
-rank: 191
+rank: 193
 slug: tierion
 status: active
 symbol: TNT

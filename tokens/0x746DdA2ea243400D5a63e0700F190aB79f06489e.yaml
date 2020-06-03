@@ -43,20 +43,6 @@ markets:
     currency_symbol: BOA
     currency_type: cryptocurrency
     exchange_symbol: BOA
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: BOA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-BOA
-- base:
-    currency_id: 4217
-    currency_symbol: BOA
-    currency_type: cryptocurrency
-    exchange_symbol: BOA
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: BOA/USDT
@@ -66,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=BOA_USDT
+- base:
+    currency_id: 4217
+    currency_symbol: BOA
+    currency_type: cryptocurrency
+    exchange_symbol: BOA
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: BOA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-BOA
 - base:
     currency_id: 4217
     currency_symbol: BOA
@@ -123,7 +123,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.fatbtc.com/
 name: BOSAGORA
-rank: 186
+rank: 192
 slug: bosagora
 status: active
 symbol: BOA
