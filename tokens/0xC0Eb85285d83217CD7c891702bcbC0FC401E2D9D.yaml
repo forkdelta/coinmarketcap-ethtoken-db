@@ -39,20 +39,6 @@ markets:
     currency_symbol: HVN
     currency_type: cryptocurrency
     exchange_symbol: HVN
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: HVN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/HVN_BTC
-- base:
-    currency_id: 1950
-    currency_symbol: HVN
-    currency_type: cryptocurrency
-    exchange_symbol: HVN
   exchange_id: 42
   exchange_name: HitBTC
   pair: HVN/ETH
@@ -67,15 +53,15 @@ markets:
     currency_symbol: HVN
     currency_type: cryptocurrency
     exchange_symbol: HVN
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: HVN/ETH
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: HVN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/hvn
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/HVN_BTC
 - base:
     currency_id: 1950
     currency_symbol: HVN
@@ -90,8 +76,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://lykke.com/exchange.php
+- base:
+    currency_id: 1950
+    currency_symbol: HVN
+    currency_type: cryptocurrency
+    exchange_symbol: HVN
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: HVN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/hvn
 name: Hiveterminal Token
-rank: 560
+rank: 563
 slug: hiveterminal-token
 status: active
 symbol: HVN

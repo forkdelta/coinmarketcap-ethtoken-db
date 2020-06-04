@@ -31,20 +31,6 @@ markets:
     exchange_symbol: BEPRO
   exchange_id: 311
   exchange_name: KuCoin
-  pair: BEPRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/BEPRO-BTC
-- base:
-    currency_id: 5062
-    currency_symbol: BEPRO
-    currency_type: cryptocurrency
-    exchange_symbol: BEPRO
-  exchange_id: 311
-  exchange_name: KuCoin
   pair: BEPRO/USDT
   quote:
     currency_id: 825
@@ -57,15 +43,15 @@ markets:
     currency_symbol: BEPRO
     currency_type: cryptocurrency
     exchange_symbol: BEPRO
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: BEPRO/USDT
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: BEPRO/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bilaxy.com/trade/BEPRO_USDT
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/BEPRO-BTC
 - base:
     currency_id: 5062
     currency_symbol: BEPRO
@@ -80,8 +66,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.digifinex.com/en-ww/trade/USDT/BEPRO
+- base:
+    currency_id: 5062
+    currency_symbol: BEPRO
+    currency_type: cryptocurrency
+    exchange_symbol: BEPRO
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: BEPRO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bilaxy.com/trade/BEPRO_USDT
 name: BetProtocol
-rank: 771
+rank: 768
 slug: betprotocol
 status: active
 symbol: BEPRO

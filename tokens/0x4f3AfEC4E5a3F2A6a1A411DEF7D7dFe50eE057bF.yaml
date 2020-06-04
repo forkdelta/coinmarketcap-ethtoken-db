@@ -36,20 +36,6 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: DGX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/dgx-eth
-- base:
-    currency_id: 2739
-    currency_symbol: DGX
-    currency_type: cryptocurrency
-    exchange_symbol: DGX
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: DGX/VND
@@ -64,6 +50,20 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: DGX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/dgx-eth
+- base:
+    currency_id: 2739
+    currency_symbol: DGX
+    currency_type: cryptocurrency
+    exchange_symbol: DGX
   exchange_id: 37
   exchange_name: Bitfinex
   pair: DGX/USD
@@ -73,6 +73,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/DGX:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 2739
+    currency_symbol: DGX
+    currency_type: cryptocurrency
+    exchange_symbol: DGX
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: DGX/IDR
+  quote:
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/DGXIDR
 - base:
     currency_id: 2739
     currency_symbol: DGX
@@ -106,43 +120,15 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: DGX/IDR
-  quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://indodax.com/market/DGXIDR
-- base:
-    currency_id: 2739
-    currency_symbol: DGX
-    currency_type: cryptocurrency
-    exchange_symbol: DGX
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 477
+  exchange_name: ProBit Exchange
   pair: DGX/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=DGX_BTC
-- base:
-    currency_id: 2739
-    currency_symbol: DGX
-    currency_type: cryptocurrency
-    exchange_symbol: DGX
-  exchange_id: 420
-  exchange_name: Kryptono
-  pair: DGX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kryptono.exchange/k/accounts/trade?s={{mainu}_{{baseu}
+  url: https://www.probit.com/app/exchange/DGX-BTC
 - base:
     currency_id: 2739
     currency_symbol: DGX
@@ -162,15 +148,29 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
-  exchange_id: 477
-  exchange_name: ProBit Exchange
+  exchange_id: 420
+  exchange_name: Kryptono
+  pair: DGX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kryptono.exchange/k/accounts/trade?s={{mainu}_{{baseu}
+- base:
+    currency_id: 2739
+    currency_symbol: DGX
+    currency_type: cryptocurrency
+    exchange_symbol: DGX
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: DGX/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.probit.com/app/exchange/DGX-BTC
+  url: https://www.hotbit.io/exchange?symbol=DGX_BTC
 - base:
     currency_id: 2739
     currency_symbol: DGX
@@ -186,7 +186,7 @@ markets:
     exchange_symbol: IDR
   url: https://tokocrypto.com/en/dashboard/DGXIDR
 name: Digix Gold Token
-rank: 446
+rank: 449
 slug: digix-gold-token
 status: active
 symbol: DGX

@@ -114,6 +114,34 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: PMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-PMA
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
+  exchange_id: 545
+  exchange_name: Bitsdaq
+  pair: PMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitsdaq.com/exchange/PMA-BTC
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
   exchange_id: 42
   exchange_name: HitBTC
   pair: PMA/BTC
@@ -137,20 +165,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/PMA-to-USDT
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: PMA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/PMA-BTC
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -184,15 +198,15 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: PMA/BTC
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: PMA/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-PMA
+    exchange_symbol: ETH
+  url: https://idex.market/eth/pma
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -207,34 +221,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.coinall.com/market?product=pma_btc
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: PMA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/PMABTC
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: PMA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/pma
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -296,6 +282,20 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: PMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/PMABTC
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
   exchange_id: 506
   exchange_name: ChainX
   pair: PMA/KRW
@@ -306,7 +306,7 @@ markets:
     exchange_symbol: KRW
   url: https://chainx.kr/exchange/PMA-KRW
 name: PumaPay
-rank: 668
+rank: 680
 slug: pumapay
 status: active
 symbol: PMA

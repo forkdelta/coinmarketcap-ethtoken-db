@@ -71,15 +71,15 @@ markets:
     currency_symbol: HYDRO
     currency_type: cryptocurrency
     exchange_symbol: HYDRO
-  exchange_id: 22
-  exchange_name: Bittrex
+  exchange_id: 545
+  exchange_name: Bitsdaq
   pair: HYDRO/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-HYDRO
+  url: https://bitsdaq.com/exchange/HYDRO-BTC
 - base:
     currency_id: 2698
     currency_symbol: HYDRO
@@ -99,15 +99,15 @@ markets:
     currency_symbol: HYDRO
     currency_type: cryptocurrency
     exchange_symbol: HYDRO
-  exchange_id: 545
-  exchange_name: Bitsdaq
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: HYDRO/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/HYDRO-BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-HYDRO
 - base:
     currency_id: 2698
     currency_symbol: HYDRO
@@ -136,20 +136,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/HYDRO/BTC
-- base:
-    currency_id: 2698
-    currency_symbol: HYDRO
-    currency_type: cryptocurrency
-    exchange_symbol: HYDRO
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: HYDRO/BMX
-  quote:
-    currency_id: 2933
-    currency_symbol: BMX
-    currency_type: cryptocurrency
-    exchange_symbol: BMX
-  url: https://www.bitmart.com/trade?symbol=HYDRO_BMX
 - base:
     currency_id: 2698
     currency_symbol: HYDRO
@@ -192,8 +178,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitmart.com/trade?symbol=HYDRO_ETH
+- base:
+    currency_id: 2698
+    currency_symbol: HYDRO
+    currency_type: cryptocurrency
+    exchange_symbol: HYDRO
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: HYDRO/BMX
+  quote:
+    currency_id: 2933
+    currency_symbol: BMX
+    currency_type: cryptocurrency
+    exchange_symbol: BMX
+  url: https://www.bitmart.com/trade?symbol=HYDRO_BMX
 name: Hydro
-rank: 716
+rank: 729
 slug: hydrogen
 status: active
 symbol: HYDRO

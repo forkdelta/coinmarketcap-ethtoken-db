@@ -24,20 +24,6 @@ markets:
     currency_symbol: ZB
     currency_type: cryptocurrency
     exchange_symbol: ZB
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: ZB/QC
-  quote:
-    currency_id: 2319
-    currency_symbol: QC
-    currency_type: cryptocurrency
-    exchange_symbol: QC
-  url: https://trans.zb.com/zbqc
-- base:
-    currency_id: 3351
-    currency_symbol: ZB
-    currency_type: cryptocurrency
-    exchange_symbol: ZB
   exchange_id: 430
   exchange_name: ZBG
   pair: ZB/USDT
@@ -47,6 +33,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.zbg.com/trade/zb_usdt
+- base:
+    currency_id: 3351
+    currency_symbol: ZB
+    currency_type: cryptocurrency
+    exchange_symbol: ZB
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: ZB/QC
+  quote:
+    currency_id: 2319
+    currency_symbol: QC
+    currency_type: cryptocurrency
+    exchange_symbol: QC
+  url: https://trans.zb.com/zbqc
 - base:
     currency_id: 3351
     currency_symbol: ZB
@@ -66,6 +66,20 @@ markets:
     currency_symbol: ZB
     currency_type: cryptocurrency
     exchange_symbol: ZB
+  exchange_id: 430
+  exchange_name: ZBG
+  pair: ZB/QC
+  quote:
+    currency_id: 2319
+    currency_symbol: QC
+    currency_type: cryptocurrency
+    exchange_symbol: QC
+  url: https://www.zbg.com/trade/zb_qc
+- base:
+    currency_id: 3351
+    currency_symbol: ZB
+    currency_type: cryptocurrency
+    exchange_symbol: ZB
   exchange_id: 326
   exchange_name: ZB.COM
   pair: ZB/USDT
@@ -80,15 +94,43 @@ markets:
     currency_symbol: ZB
     currency_type: cryptocurrency
     exchange_symbol: ZB
-  exchange_id: 430
-  exchange_name: ZBG
-  pair: ZB/QC
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: ZB/BTC
   quote:
-    currency_id: 2319
-    currency_symbol: QC
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: QC
-  url: https://www.zbg.com/trade/zb_qc
+    exchange_symbol: BTC
+  url: https://trans.zb.com/zbbtc
+- base:
+    currency_id: 3351
+    currency_symbol: ZB
+    currency_type: cryptocurrency
+    exchange_symbol: ZB
+  exchange_id: 459
+  exchange_name: BW.com
+  pair: ZB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bw.com/trade/zb_usdt
+- base:
+    currency_id: 3351
+    currency_symbol: ZB
+    currency_type: cryptocurrency
+    exchange_symbol: ZB
+  exchange_id: 528
+  exchange_name: BiKi
+  pair: ZB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.biki.cc/en_US/trade/ZB_BTC
 - base:
     currency_id: 3351
     currency_symbol: ZB
@@ -121,48 +163,6 @@ markets:
     currency_id: 3351
     currency_symbol: ZB
     currency_type: cryptocurrency
-    exchange_symbol: ZB
-  exchange_id: 459
-  exchange_name: BW.com
-  pair: ZB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bw.com/trade/zb_usdt
-- base:
-    currency_id: 3351
-    currency_symbol: ZB
-    currency_type: cryptocurrency
-    exchange_symbol: ZB
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: ZB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trans.zb.com/zbbtc
-- base:
-    currency_id: 3351
-    currency_symbol: ZB
-    currency_type: cryptocurrency
-    exchange_symbol: ZB
-  exchange_id: 528
-  exchange_name: BiKi
-  pair: ZB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.biki.cc/en_US/trade/ZB_BTC
-- base:
-    currency_id: 3351
-    currency_symbol: ZB
-    currency_type: cryptocurrency
     exchange_symbol: ZBT
   exchange_id: 37
   exchange_name: Bitfinex
@@ -174,7 +174,7 @@ markets:
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/ZB:USD?refcode=H70YTMupQ
 name: ZB Token
-rank: 61
+rank: 62
 slug: zb-token
 status: active
 symbol: ZB

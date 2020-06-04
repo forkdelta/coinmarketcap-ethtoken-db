@@ -33,13 +33,13 @@ markets:
     exchange_symbol: FRM
   exchange_id: 453
   exchange_name: BitMax
-  pair: FRM/USDT
+  pair: FRM/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/frm
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/frm
 - base:
     currency_id: 4228
     currency_symbol: FRM
@@ -61,13 +61,13 @@ markets:
     exchange_symbol: FRM
   exchange_id: 453
   exchange_name: BitMax
-  pair: FRM/BTC
+  pair: FRM/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/frm
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/frm
 - base:
     currency_id: 4228
     currency_symbol: FRM
@@ -87,20 +87,6 @@ markets:
     currency_symbol: FRM
     currency_type: cryptocurrency
     exchange_symbol: FRM
-  exchange_id: 849
-  exchange_name: Bidesk
-  pair: FRM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bidesk.com/exchange/715/FRM/USDT
-- base:
-    currency_id: 4228
-    currency_symbol: FRM
-    currency_type: cryptocurrency
-    exchange_symbol: FRM
   exchange_id: 310
   exchange_name: IDEX
   pair: FRM/ETH
@@ -110,6 +96,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/frm
+- base:
+    currency_id: 4228
+    currency_symbol: FRM
+    currency_type: cryptocurrency
+    exchange_symbol: FRM
+  exchange_id: 849
+  exchange_name: Bidesk
+  pair: FRM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bidesk.com/exchange/715/FRM/USDT
 - base:
     currency_id: 4228
     currency_symbol: FRM
@@ -167,7 +167,7 @@ markets:
     exchange_symbol: BNB
   url: https://www.binance.org/en/trade/FRM-DE7_BNB
 name: Ferrum Network
-rank: 606
+rank: 610
 slug: ferrum-network
 status: active
 symbol: FRM
