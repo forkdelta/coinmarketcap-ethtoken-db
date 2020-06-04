@@ -30,20 +30,6 @@ markets:
     currency_symbol: SAN
     currency_type: cryptocurrency
     exchange_symbol: SAN
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: SAN/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/SAN:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 1807
-    currency_symbol: SAN
-    currency_type: cryptocurrency
-    exchange_symbol: SAN
   exchange_id: 363
   exchange_name: Fatbtc
   pair: SAN/USDT
@@ -53,6 +39,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 1807
+    currency_symbol: SAN
+    currency_type: cryptocurrency
+    exchange_symbol: SAN
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: SAN/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/SAN:USD?refcode=H70YTMupQ
 - base:
     currency_id: 1807
     currency_symbol: SAN
@@ -110,7 +110,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/san
 name: Santiment Network Token
-rank: 371
+rank: 375
 slug: santiment
 status: active
 symbol: SAN

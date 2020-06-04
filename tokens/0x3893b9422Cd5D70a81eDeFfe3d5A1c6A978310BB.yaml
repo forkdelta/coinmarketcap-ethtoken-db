@@ -49,20 +49,6 @@ markets:
     exchange_symbol: MITH
   exchange_id: 294
   exchange_name: OKEx
-  pair: MITH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=mith_usdt
-- base:
-    currency_id: 2608
-    currency_symbol: MITH
-    currency_type: cryptocurrency
-    exchange_symbol: MITH
-  exchange_id: 294
-  exchange_name: OKEx
   pair: MITH/BTC
   quote:
     currency_id: 1
@@ -70,6 +56,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.okex.com/market?product=mith_btc
+- base:
+    currency_id: 2608
+    currency_symbol: MITH
+    currency_type: cryptocurrency
+    exchange_symbol: MITH
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: MITH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=mith_usdt
 - base:
     currency_id: 2608
     currency_symbol: MITH
@@ -105,20 +105,6 @@ markets:
     exchange_symbol: MITH
   exchange_id: 270
   exchange_name: Binance
-  pair: MITH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/MITH_USDT?ref=H31B921U
-- base:
-    currency_id: 2608
-    currency_symbol: MITH
-    currency_type: cryptocurrency
-    exchange_symbol: MITH
-  exchange_id: 270
-  exchange_name: Binance
   pair: MITH/BTC
   quote:
     currency_id: 1
@@ -126,6 +112,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.binance.com/en/trade/MITH_BTC?ref=H31B921U
+- base:
+    currency_id: 2608
+    currency_symbol: MITH
+    currency_type: cryptocurrency
+    exchange_symbol: MITH
+  exchange_id: 270
+  exchange_name: Binance
+  pair: MITH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/MITH_USDT?ref=H31B921U
 - base:
     currency_id: 2608
     currency_symbol: MITH
@@ -159,20 +159,6 @@ markets:
     currency_symbol: MITH
     currency_type: cryptocurrency
     exchange_symbol: MITH
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: MITH/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.okex.com/market?product=mith_eth
-- base:
-    currency_id: 2608
-    currency_symbol: MITH
-    currency_type: cryptocurrency
-    exchange_symbol: MITH
   exchange_id: 407
   exchange_name: DigiFinex
   pair: MITH/ETH
@@ -187,15 +173,29 @@ markets:
     currency_symbol: MITH
     currency_type: cryptocurrency
     exchange_symbol: MITH
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: MITH/BTC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: MITH/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/MITHBTC
+    exchange_symbol: ETH
+  url: https://www.okex.com/market?product=mith_eth
+- base:
+    currency_id: 2608
+    currency_symbol: MITH
+    currency_type: cryptocurrency
+    exchange_symbol: MITH
+  exchange_id: 333
+  exchange_name: LBank
+  pair: MITH/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.lbank.info/trading/mith/eth
 - base:
     currency_id: 2608
     currency_symbol: MITH
@@ -210,6 +210,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/mith_usdt
+- base:
+    currency_id: 2608
+    currency_symbol: MITH
+    currency_type: cryptocurrency
+    exchange_symbol: MITH
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: MITH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/MITHBTC
 - base:
     currency_id: 2608
     currency_symbol: MITH
@@ -259,20 +273,6 @@ markets:
     exchange_symbol: MITH
   exchange_id: 42
   exchange_name: HitBTC
-  pair: MITH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/MITH-to-USDT
-- base:
-    currency_id: 2608
-    currency_symbol: MITH
-    currency_type: cryptocurrency
-    exchange_symbol: MITH
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: MITH/ETH
   quote:
     currency_id: 1027
@@ -280,6 +280,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/MITH-to-ETH
+- base:
+    currency_id: 2608
+    currency_symbol: MITH
+    currency_type: cryptocurrency
+    exchange_symbol: MITH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: MITH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/MITH-to-USDT
 - base:
     currency_id: 2608
     currency_symbol: MITH
@@ -350,22 +364,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://okex.co.kr/kr/view/exchange?coin=MITH&market=BTC
-- base:
-    currency_id: 2608
-    currency_symbol: MITH
-    currency_type: cryptocurrency
-    exchange_symbol: MITH
-  exchange_id: 333
-  exchange_name: LBank
-  pair: MITH/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.lbank.info/trading/mith/eth
 name: Mithril
-rank: 579
+rank: 568
 slug: mithril
 status: active
 symbol: MITH

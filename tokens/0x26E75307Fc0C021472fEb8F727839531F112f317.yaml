@@ -28,34 +28,6 @@ markets:
     currency_symbol: C20
     currency_type: cryptocurrency
     exchange_symbol: C20
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: C20/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/C20_USD
-- base:
-    currency_id: 2444
-    currency_symbol: C20
-    currency_type: cryptocurrency
-    exchange_symbol: C20
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: C20/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 2444
-    currency_symbol: C20
-    currency_type: cryptocurrency
-    exchange_symbol: C20
   exchange_id: 42
   exchange_name: HitBTC
   pair: C20/BTC
@@ -70,15 +42,15 @@ markets:
     currency_symbol: C20
     currency_type: cryptocurrency
     exchange_symbol: C20
-  exchange_id: 215
-  exchange_name: P2PB2B
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: C20/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://p2pb2b.io/trade/C20_ETH
+  url: https://hitbtc.com/C20-to-ETH
 - base:
     currency_id: 2444
     currency_symbol: C20
@@ -86,13 +58,13 @@ markets:
     exchange_symbol: C20
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: C20/BTC
+  pair: C20/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/C20_BTC
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/C20_USD
 - base:
     currency_id: 2444
     currency_symbol: C20
@@ -112,17 +84,45 @@ markets:
     currency_symbol: C20
     currency_type: cryptocurrency
     exchange_symbol: C20
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: C20/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/C20_BTC
+- base:
+    currency_id: 2444
+    currency_symbol: C20
+    currency_type: cryptocurrency
+    exchange_symbol: C20
+  exchange_id: 215
+  exchange_name: P2PB2B
   pair: C20/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://hitbtc.com/C20-to-ETH
+  url: https://p2pb2b.io/trade/C20_ETH
+- base:
+    currency_id: 2444
+    currency_symbol: C20
+    currency_type: cryptocurrency
+    exchange_symbol: C20
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: C20/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 name: CRYPTO20
-rank: 275
+rank: 269
 slug: c20
 status: active
 symbol: C20

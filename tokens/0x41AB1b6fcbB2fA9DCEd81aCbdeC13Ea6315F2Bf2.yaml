@@ -50,6 +50,20 @@ markets:
     currency_symbol: XDCE
     currency_type: cryptocurrency
     exchange_symbol: XDCE
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: XDCE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://mercatox.com/exchange/XDCE/ETH
+- base:
+    currency_id: 2634
+    currency_symbol: XDCE
+    currency_type: cryptocurrency
+    exchange_symbol: XDCE
   exchange_id: 400
   exchange_name: Hotbit
   pair: XDCE/ETH
@@ -59,20 +73,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=XDCE_ETH
-- base:
-    currency_id: 2634
-    currency_symbol: XDCE
-    currency_type: cryptocurrency
-    exchange_symbol: XDCE
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: XDCE/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=XDCE_USDT
 - base:
     currency_id: 2634
     currency_symbol: XDCE
@@ -92,43 +92,15 @@ markets:
     currency_symbol: XDCE
     currency_type: cryptocurrency
     exchange_symbol: XDCE
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: XDCE/ETH
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: XDCE/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/XDCE/ETH
-- base:
-    currency_id: 2634
-    currency_symbol: XDCE
-    currency_type: cryptocurrency
-    exchange_symbol: XDCE
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: XDCE/IDR
-  quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://indodax.com/market/XDCEIDR
-- base:
-    currency_id: 2634
-    currency_symbol: XDCE
-    currency_type: cryptocurrency
-    exchange_symbol: XDCE
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: XDCE/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/XDCE
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=XDCE_USDT
 - base:
     currency_id: 2634
     currency_symbol: XDCE
@@ -148,6 +120,20 @@ markets:
     currency_symbol: XDCE
     currency_type: cryptocurrency
     exchange_symbol: XDCE
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: XDCE/IDR
+  quote:
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/XDCEIDR
+- base:
+    currency_id: 2634
+    currency_symbol: XDCE
+    currency_type: cryptocurrency
+    exchange_symbol: XDCE
   exchange_id: 310
   exchange_name: IDEX
   pair: XDCE/ETH
@@ -162,6 +148,20 @@ markets:
     currency_symbol: XDCE
     currency_type: cryptocurrency
     exchange_symbol: XDCE
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: XDCE/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/XDCE
+- base:
+    currency_id: 2634
+    currency_symbol: XDCE
+    currency_type: cryptocurrency
+    exchange_symbol: XDCE
   exchange_id: 363
   exchange_name: Fatbtc
   pair: XDCE/USDT
@@ -171,6 +171,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 2634
+    currency_symbol: XDCE
+    currency_type: cryptocurrency
+    exchange_symbol: XDCE
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: XDCE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/XDCE/BTC
 - base:
     currency_id: 2634
     currency_symbol: XDCE
@@ -232,15 +246,29 @@ markets:
     currency_symbol: XDCE
     currency_type: cryptocurrency
     exchange_symbol: XDCE
-  exchange_id: 213
-  exchange_name: Mercatox
+  exchange_id: 242
+  exchange_name: COSS
+  pair: XDCE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coss.io/c/trade?s=XDCE_ETH
+- base:
+    currency_id: 2634
+    currency_symbol: XDCE
+    currency_type: cryptocurrency
+    exchange_symbol: XDCE
+  exchange_id: 242
+  exchange_name: COSS
   pair: XDCE/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://mercatox.com/exchange/XDCE/BTC
+  url: https://www.coss.io/c/trade?s=XDCE_BTC
 - base:
     currency_id: 2634
     currency_symbol: XDCE
@@ -274,48 +302,6 @@ markets:
     currency_symbol: XDCE
     currency_type: cryptocurrency
     exchange_symbol: XDCE
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: XDCE/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://mercatox.com/exchange/XDCE/USDC
-- base:
-    currency_id: 2634
-    currency_symbol: XDCE
-    currency_type: cryptocurrency
-    exchange_symbol: XDCE
-  exchange_id: 242
-  exchange_name: COSS
-  pair: XDCE/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coss.io/c/trade?s=XDCE_ETH
-- base:
-    currency_id: 2634
-    currency_symbol: XDCE
-    currency_type: cryptocurrency
-    exchange_symbol: XDCE
-  exchange_id: 242
-  exchange_name: COSS
-  pair: XDCE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coss.io/c/trade?s=XDCE_BTC
-- base:
-    currency_id: 2634
-    currency_symbol: XDCE
-    currency_type: cryptocurrency
-    exchange_symbol: XDCE
   exchange_id: 242
   exchange_name: COSS
   pair: XDCE/USDT
@@ -325,6 +311,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.coss.io/c/trade?s=XDCE_USDT
+- base:
+    currency_id: 2634
+    currency_symbol: XDCE
+    currency_type: cryptocurrency
+    exchange_symbol: XDCE
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: XDCE/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://mercatox.com/exchange/XDCE/USDC
 - base:
     currency_id: 2634
     currency_symbol: XDCE
@@ -340,7 +340,7 @@ markets:
     exchange_symbol: ETH
   url: https://topbtc.com/home/Market/index/market/ETH/coin/XDCE.html
 name: XinFin Network
-rank: 153
+rank: 161
 slug: xinfin-network
 status: active
 symbol: XDCE
