@@ -57,20 +57,6 @@ markets:
     currency_symbol: UBEX
     currency_type: cryptocurrency
     exchange_symbol: UBEX
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: UBEX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=UBEX_BTC
-- base:
-    currency_id: 3140
-    currency_symbol: UBEX
-    currency_type: cryptocurrency
-    exchange_symbol: UBEX
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: UBEX/BTC
@@ -80,6 +66,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.probit.com/app/exchange/UBEX-BTC
+- base:
+    currency_id: 3140
+    currency_symbol: UBEX
+    currency_type: cryptocurrency
+    exchange_symbol: UBEX
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: UBEX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=UBEX_BTC
 - base:
     currency_id: 3140
     currency_symbol: UBEX
@@ -263,7 +263,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.catex.io/trading/UBEX/BTC
 name: Ubex
-rank: 1011
+rank: 1018
 slug: ubex
 status: active
 symbol: UBEX

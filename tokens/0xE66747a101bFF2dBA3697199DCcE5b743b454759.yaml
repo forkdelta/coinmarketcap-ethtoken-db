@@ -66,20 +66,6 @@ markets:
     currency_symbol: GT
     currency_type: cryptocurrency
     exchange_symbol: GT
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: GT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/gt
-- base:
-    currency_id: 4269
-    currency_symbol: GT
-    currency_type: cryptocurrency
-    exchange_symbol: GT
   exchange_id: 102
   exchange_name: Huobi Global
   pair: GT/USDT
@@ -89,20 +75,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hbg.com/en-us/exchange/gt_usdt/
-- base:
-    currency_id: 4269
-    currency_symbol: GT
-    currency_type: cryptocurrency
-    exchange_symbol: GT
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: GT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/gt
 - base:
     currency_id: 4269
     currency_symbol: GT
@@ -131,6 +103,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hbtc.com/exchange/GT/USDT
+- base:
+    currency_id: 4269
+    currency_symbol: GT
+    currency_type: cryptocurrency
+    exchange_symbol: GT
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: GT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/gt
+- base:
+    currency_id: 4269
+    currency_symbol: GT
+    currency_type: cryptocurrency
+    exchange_symbol: GT
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: GT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/gt
 - base:
     currency_id: 4269
     currency_symbol: GT
@@ -194,20 +194,6 @@ markets:
     exchange_symbol: GT
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: GT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/gt_usdt/
-- base:
-    currency_id: 4269
-    currency_symbol: GT
-    currency_type: cryptocurrency
-    exchange_symbol: GT
-  exchange_id: 463
-  exchange_name: Huobi Korea
   pair: GT/BTC
   quote:
     currency_id: 1
@@ -215,6 +201,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/gt_btc/
+- base:
+    currency_id: 4269
+    currency_symbol: GT
+    currency_type: cryptocurrency
+    exchange_symbol: GT
+  exchange_id: 333
+  exchange_name: LBank
+  pair: GT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.lbank.info/trading/gt/usdt
 - base:
     currency_id: 4269
     currency_symbol: GT
@@ -234,17 +234,17 @@ markets:
     currency_symbol: GT
     currency_type: cryptocurrency
     exchange_symbol: GT
-  exchange_id: 333
-  exchange_name: LBank
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: GT/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.lbank.info/trading/gt/usdt
+  url: https://www.huobi.co.kr/en-US/exchange/gt_usdt/
 name: Gatechain Token
-rank: 124
+rank: 123
 slug: gatechain-token
 status: active
 symbol: GT

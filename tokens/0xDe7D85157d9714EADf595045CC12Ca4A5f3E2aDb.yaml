@@ -73,20 +73,6 @@ markets:
     currency_symbol: STPT
     currency_type: cryptocurrency
     exchange_symbol: STPT
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: STPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/stpt
-- base:
-    currency_id: 4006
-    currency_symbol: STPT
-    currency_type: cryptocurrency
-    exchange_symbol: STPT
   exchange_id: 174
   exchange_name: Coinone
   pair: STPT/KRW
@@ -96,6 +82,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://coinone.co.kr/exchange/trade/stpt/
+- base:
+    currency_id: 4006
+    currency_symbol: STPT
+    currency_type: cryptocurrency
+    exchange_symbol: STPT
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: STPT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/stpt
 - base:
     currency_id: 4006
     currency_symbol: STPT
@@ -143,6 +143,20 @@ markets:
     currency_symbol: STPT
     currency_type: cryptocurrency
     exchange_symbol: STPT
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: STPT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/STPTBTC
+- base:
+    currency_id: 4006
+    currency_symbol: STPT
+    currency_type: cryptocurrency
+    exchange_symbol: STPT
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: STPT/BTC
@@ -173,13 +187,13 @@ markets:
     exchange_symbol: STPT
   exchange_id: 949
   exchange_name: CoinDCX
-  pair: STPT/BTC
+  pair: STPT/INR
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/STPTBTC
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://coindcx.com/trade/STPTINR
 - base:
     currency_id: 4006
     currency_symbol: STPT
@@ -194,22 +208,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://coindcx.com/trade/STPTUSDT
-- base:
-    currency_id: 4006
-    currency_symbol: STPT
-    currency_type: cryptocurrency
-    exchange_symbol: STPT
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: STPT/INR
-  quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://coindcx.com/trade/STPTINR
 name: Standard Tokenization Protocol
-rank: 384
+rank: 372
 slug: standard-tokenization-protocol
 status: active
 symbol: STPT

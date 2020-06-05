@@ -29,20 +29,6 @@ markets:
     currency_symbol: CELR
     currency_type: cryptocurrency
     exchange_symbol: CELR
-  exchange_id: 270
-  exchange_name: Binance
-  pair: CELR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/CELR_BTC?ref=H31B921U
-- base:
-    currency_id: 3814
-    currency_symbol: CELR
-    currency_type: cryptocurrency
-    exchange_symbol: CELR
   exchange_id: 398
   exchange_name: DragonEX
   pair: CELR/USDT
@@ -52,6 +38,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://dragonex.io
+- base:
+    currency_id: 3814
+    currency_symbol: CELR
+    currency_type: cryptocurrency
+    exchange_symbol: CELR
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CELR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/CELR_BTC?ref=H31B921U
 - base:
     currency_id: 3814
     currency_symbol: CELR
@@ -99,20 +99,6 @@ markets:
     currency_symbol: CELR
     currency_type: cryptocurrency
     exchange_symbol: CELR
-  exchange_id: 544
-  exchange_name: MXC
-  pair: CELR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.mxc.com/trade/easy#CELR_ETH
-- base:
-    currency_id: 3814
-    currency_symbol: CELR
-    currency_type: cryptocurrency
-    exchange_symbol: CELR
   exchange_id: 400
   exchange_name: Hotbit
   pair: CELR/USDT
@@ -127,29 +113,15 @@ markets:
     currency_symbol: CELR
     currency_type: cryptocurrency
     exchange_symbol: CELR
-  exchange_id: 270
-  exchange_name: Binance
-  pair: CELR/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/CELR_BNB?ref=H31B921U
-- base:
-    currency_id: 3814
-    currency_symbol: CELR
-    currency_type: cryptocurrency
-    exchange_symbol: CELR
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 544
+  exchange_name: MXC
   pair: CELR/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=CELR_ETH
+  url: https://www.mxc.com/trade/easy#CELR_ETH
 - base:
     currency_id: 3814
     currency_symbol: CELR
@@ -169,6 +141,34 @@ markets:
     currency_symbol: CELR
     currency_type: cryptocurrency
     exchange_symbol: CELR
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: CELR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=CELR_ETH
+- base:
+    currency_id: 3814
+    currency_symbol: CELR
+    currency_type: cryptocurrency
+    exchange_symbol: CELR
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CELR/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/CELR_BNB?ref=H31B921U
+- base:
+    currency_id: 3814
+    currency_symbol: CELR
+    currency_type: cryptocurrency
+    exchange_symbol: CELR
   exchange_id: 302
   exchange_name: Gate.io
   pair: CELR/USDT
@@ -178,20 +178,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/celr_usdt
-- base:
-    currency_id: 3814
-    currency_symbol: CELR
-    currency_type: cryptocurrency
-    exchange_symbol: CELR
-  exchange_id: 446
-  exchange_name: TOKOK
-  pair: CELR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.tokok.com/market?symbol=CELR_USDT
 - base:
     currency_id: 3814
     currency_symbol: CELR
@@ -225,15 +211,15 @@ markets:
     currency_symbol: CELR
     currency_type: cryptocurrency
     exchange_symbol: CELR
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: CELR/BTC
+  exchange_id: 446
+  exchange_name: TOKOK
+  pair: CELR/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/CELRBTC
+    exchange_symbol: USDT
+  url: https://www.tokok.com/market?symbol=CELR_USDT
 - base:
     currency_id: 3814
     currency_symbol: CELR
@@ -248,6 +234,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://wazirx.com/exchange/CELR-USDT
+- base:
+    currency_id: 3814
+    currency_symbol: CELR
+    currency_type: cryptocurrency
+    exchange_symbol: CELR
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: CELR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/CELRBTC
 - base:
     currency_id: 3814
     currency_symbol: CELR
@@ -276,6 +276,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://wazirx.com/exchange/CELR-BTC
+- base:
+    currency_id: 3814
+    currency_symbol: CELR
+    currency_type: cryptocurrency
+    exchange_symbol: CELR
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: CELR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/celr
 - base:
     currency_id: 3814
     currency_symbol: CELR
@@ -339,20 +353,6 @@ markets:
     exchange_symbol: CELR
   exchange_id: 453
   exchange_name: BitMax
-  pair: CELR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/celr
-- base:
-    currency_id: 3814
-    currency_symbol: CELR
-    currency_type: cryptocurrency
-    exchange_symbol: CELR
-  exchange_id: 453
-  exchange_name: BitMax
   pair: CELR/USDT
   quote:
     currency_id: 825
@@ -375,7 +375,7 @@ markets:
     exchange_symbol: BTC
   url: https://hitbtc.com/CELR-to-BTC
 name: Celer Network
-rank: 338
+rank: 344
 slug: celer-network
 status: active
 symbol: CELR

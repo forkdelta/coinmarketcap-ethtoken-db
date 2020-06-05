@@ -55,20 +55,6 @@ markets:
     currency_symbol: CMCT
     currency_type: cryptocurrency
     exchange_symbol: CMCT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: CMCT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/CMCT-to-BTC
-- base:
-    currency_id: 2708
-    currency_symbol: CMCT
-    currency_type: cryptocurrency
-    exchange_symbol: CMCT
   exchange_id: 22
   exchange_name: Bittrex
   pair: CMCT/BTC
@@ -85,13 +71,13 @@ markets:
     exchange_symbol: CMCT
   exchange_id: 42
   exchange_name: HitBTC
-  pair: CMCT/ETH
+  pair: CMCT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/CMCT-to-ETH
+    exchange_symbol: BTC
+  url: https://hitbtc.com/CMCT-to-BTC
 - base:
     currency_id: 2708
     currency_symbol: CMCT
@@ -111,6 +97,20 @@ markets:
     currency_symbol: CMCT
     currency_type: cryptocurrency
     exchange_symbol: CMCT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: CMCT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/CMCT-to-ETH
+- base:
+    currency_id: 2708
+    currency_symbol: CMCT
+    currency_type: cryptocurrency
+    exchange_symbol: CMCT
   exchange_id: 310
   exchange_name: IDEX
   pair: CMCT/ETH
@@ -121,7 +121,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/cmct
 name: Crowd Machine
-rank: 1389
+rank: 1390
 slug: crowd-machine
 status: active
 symbol: CMCT

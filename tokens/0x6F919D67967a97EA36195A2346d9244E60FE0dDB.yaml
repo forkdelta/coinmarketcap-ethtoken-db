@@ -68,15 +68,29 @@ markets:
     currency_symbol: BLOC
     currency_type: cryptocurrency
     exchange_symbol: BLOC
-  exchange_id: 545
-  exchange_name: Bitsdaq
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: BLOC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=BLOC_USDT
+- base:
+    currency_id: 3860
+    currency_symbol: BLOC
+    currency_type: cryptocurrency
+    exchange_symbol: BLOC
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: BLOC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/BLOC-BTC
+  url: https://www.hotbit.io/exchange?symbol=BLOC_BTC
 - base:
     currency_id: 3860
     currency_symbol: BLOC
@@ -110,29 +124,15 @@ markets:
     currency_symbol: BLOC
     currency_type: cryptocurrency
     exchange_symbol: BLOC
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: BLOC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=BLOC_USDT
-- base:
-    currency_id: 3860
-    currency_symbol: BLOC
-    currency_type: cryptocurrency
-    exchange_symbol: BLOC
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 545
+  exchange_name: Bitsdaq
   pair: BLOC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=BLOC_BTC
+  url: https://bitsdaq.com/exchange/BLOC-BTC
 - base:
     currency_id: 3860
     currency_symbol: BLOC
@@ -162,7 +162,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=BLOC&market=USDT
 name: Blockcloud
-rank: 2165
+rank: 2216
 slug: blockcloud
 status: active
 symbol: BLOC
