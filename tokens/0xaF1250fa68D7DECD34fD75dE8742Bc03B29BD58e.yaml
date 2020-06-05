@@ -25,20 +25,6 @@ markets:
     exchange_symbol: IHF
   exchange_id: 112
   exchange_name: Liquid
-  pair: IHF/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://app.liquid.com/exchange/IHFETH
-- base:
-    currency_id: 3301
-    currency_symbol: IHF
-    currency_type: cryptocurrency
-    exchange_symbol: IHF
-  exchange_id: 112
-  exchange_name: Liquid
   pair: IHF/BTC
   quote:
     currency_id: 1
@@ -46,6 +32,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://app.liquid.com/exchange/IHFBTC
+- base:
+    currency_id: 3301
+    currency_symbol: IHF
+    currency_type: cryptocurrency
+    exchange_symbol: IHF
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: IHF/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://app.liquid.com/exchange/IHFETH
 - base:
     currency_id: 3301
     currency_symbol: IHF
@@ -75,7 +75,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: Invictus Hyperion Fund
-rank: 353
+rank: 347
 slug: invictus-hyperion-fund
 status: active
 symbol: IHF

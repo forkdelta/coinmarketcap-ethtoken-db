@@ -32,20 +32,6 @@ markets:
     exchange_symbol: BOX
   exchange_id: 400
   exchange_name: Hotbit
-  pair: BOX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=BOX_ETH
-- base:
-    currency_id: 3475
-    currency_symbol: BOX
-    currency_type: cryptocurrency
-    exchange_symbol: BOX
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: BOX/BTC
   quote:
     currency_id: 1
@@ -58,15 +44,29 @@ markets:
     currency_symbol: BOX
     currency_type: cryptocurrency
     exchange_symbol: BOX
-  exchange_id: 300
-  exchange_name: BitZ
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: BOX/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.bit-z.com/exchange/box_eth
+  url: https://www.hotbit.io/exchange?symbol=BOX_ETH
+- base:
+    currency_id: 3475
+    currency_symbol: BOX
+    currency_type: cryptocurrency
+    exchange_symbol: BOX
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BOX/EURS
+  quote:
+    currency_id: 2989
+    currency_symbol: EURS
+    currency_type: cryptocurrency
+    exchange_symbol: EURS
+  url: https://hitbtc.com/BOX-to-EURS
 - base:
     currency_id: 3475
     currency_symbol: BOX
@@ -81,6 +81,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/BOX-to-BTC
+- base:
+    currency_id: 3475
+    currency_symbol: BOX
+    currency_type: cryptocurrency
+    exchange_symbol: BOX
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: BOX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bit-z.com/exchange/box_eth
 - base:
     currency_id: 3475
     currency_symbol: BOX
@@ -114,20 +128,6 @@ markets:
     currency_symbol: BOX
     currency_type: cryptocurrency
     exchange_symbol: BOX
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: BOX/EURS
-  quote:
-    currency_id: 2989
-    currency_symbol: EURS
-    currency_type: cryptocurrency
-    exchange_symbol: EURS
-  url: https://hitbtc.com/BOX-to-EURS
-- base:
-    currency_id: 3475
-    currency_symbol: BOX
-    currency_type: cryptocurrency
-    exchange_symbol: BOX
   exchange_id: 363
   exchange_name: Fatbtc
   pair: BOX/USDT
@@ -138,7 +138,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: BOX Token
-rank: 607
+rank: 605
 slug: box-token
 status: active
 symbol: BOX

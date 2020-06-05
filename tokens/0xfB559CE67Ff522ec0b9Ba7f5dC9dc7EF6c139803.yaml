@@ -27,13 +27,13 @@ markets:
     exchange_symbol: PROB
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: PROB/USDT
+  pair: PROB/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.probit.com/app/exchange/PROB-USDT
+    exchange_symbol: ETH
+  url: https://www.probit.com/app/exchange/PROB-ETH
 - base:
     currency_id: 4586
     currency_symbol: PROB
@@ -55,20 +55,6 @@ markets:
     exchange_symbol: PROB
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: PROB/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.probit.com/app/exchange/PROB-ETH
-- base:
-    currency_id: 4586
-    currency_symbol: PROB
-    currency_type: cryptocurrency
-    exchange_symbol: PROB
-  exchange_id: 477
-  exchange_name: ProBit Exchange
   pair: PROB/KRW
   quote:
     currency_id: 2798
@@ -76,8 +62,22 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/PROB-KRW
+- base:
+    currency_id: 4586
+    currency_symbol: PROB
+    currency_type: cryptocurrency
+    exchange_symbol: PROB
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: PROB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.probit.com/app/exchange/PROB-USDT
 name: ProBit Token
-rank: 2203
+rank: 2205
 slug: probit-token
 status: active
 symbol: PROB

@@ -111,20 +111,6 @@ markets:
     exchange_symbol: TIME
   exchange_id: 42
   exchange_name: HitBTC
-  pair: TIME/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/TIME-to-BTC
-- base:
-    currency_id: 1556
-    currency_symbol: TIME
-    currency_type: cryptocurrency
-    exchange_symbol: TIME
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: TIME/ETH
   quote:
     currency_id: 1027
@@ -132,6 +118,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/TIME-to-ETH
+- base:
+    currency_id: 1556
+    currency_symbol: TIME
+    currency_type: cryptocurrency
+    exchange_symbol: TIME
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: TIME/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/TIME-to-BTC
 - base:
     currency_id: 1556
     currency_symbol: TIME
@@ -181,12 +181,12 @@ markets:
     exchange_symbol: TIME
   exchange_id: 201
   exchange_name: Lykke Exchange
-  pair: TIME/CHF
+  pair: TIME/BTC
   quote:
-    currency_id: 2785
-    currency_symbol: CHF
-    currency_type: fiat
-    exchange_symbol: CHF
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://lykke.com/exchange.php
 - base:
     currency_id: 1556
@@ -195,12 +195,12 @@ markets:
     exchange_symbol: TIME
   exchange_id: 201
   exchange_name: Lykke Exchange
-  pair: TIME/BTC
+  pair: TIME/CHF
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
+    currency_id: 2785
+    currency_symbol: CHF
+    currency_type: fiat
+    exchange_symbol: CHF
   url: https://lykke.com/exchange.php
 - base:
     currency_id: 1556
@@ -217,7 +217,7 @@ markets:
     exchange_symbol: USD
   url: https://lykke.com/exchange.php
 name: Chrono.tech
-rank: 852
+rank: 895
 slug: chrono-tech
 status: active
 symbol: TIME

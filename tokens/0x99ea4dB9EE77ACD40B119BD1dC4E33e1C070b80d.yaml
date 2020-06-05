@@ -3,11 +3,12 @@ address: '0x99ea4dB9EE77ACD40B119BD1dC4E33e1C070b80d'
 category: token
 date_added: '2017-11-21T00:00:00.000Z'
 description: "Quantstamp is a leader in blockchain security providing expert security audits and blockchain\
-  \ solutions. Top crypto and enterprise companies including Prysmatic Labs, Binance, MakerDAO, and World\
-  \ Economic Forum choose Quantstamp to secure their blockchain applications. \n\nQSP is an ERC-20 token\
-  \ used for verifying smart contracts on the decentralized QSP Security Protocol. Users can buy automated\
-  \ scans of smart contracts with QSP, and validators can earn QSP for helping provide decentralized security\
-  \ scans on the network."
+  \ solutions. Top crypto and enterprise companies including Ethereum 2.0 (Prysmatic Labs Client), Binance,\
+  \ MakerDAO, Chainlink, eToro, and World Economic Forum choose Quantstamp to secure their blockchain\
+  \ applications.\n\nQSP is an ERC-20 token used for verifying smart contracts on the decentralized QSP\
+  \ Security Protocol. Users can buy automated scans of smart contracts with QSP, and validators can earn\
+  \ QSP for helping provide decentralized security scans on the network at protocol.quantstamp.com  \n\
+  \nThe decentralized protocol is open source at https://github.com/quantstamp."
 id: 2212
 links:
   announcement:
@@ -33,15 +34,15 @@ markets:
     currency_symbol: QSP
     currency_type: cryptocurrency
     exchange_symbol: QSP
-  exchange_id: 270
-  exchange_name: Binance
-  pair: QSP/ETH
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: QSP/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.binance.com/en/trade/QSP_ETH?ref=H31B921U
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/qsp_btc/
 - base:
     currency_id: 2212
     currency_symbol: QSP
@@ -61,15 +62,29 @@ markets:
     currency_symbol: QSP
     currency_type: cryptocurrency
     exchange_symbol: QSP
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: QSP/BTC
+  exchange_id: 270
+  exchange_name: Binance
+  pair: QSP/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/qsp_btc/
+    exchange_symbol: ETH
+  url: https://www.binance.com/en/trade/QSP_ETH?ref=H31B921U
+- base:
+    currency_id: 2212
+    currency_symbol: QSP
+    currency_type: cryptocurrency
+    exchange_symbol: QSP
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: QSP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/qsp_usdt
 - base:
     currency_id: 2212
     currency_symbol: QSP
@@ -89,20 +104,6 @@ markets:
     currency_symbol: QSP
     currency_type: cryptocurrency
     exchange_symbol: QSP
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: QSP/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/qsp-krw
-- base:
-    currency_id: 2212
-    currency_symbol: QSP
-    currency_type: cryptocurrency
-    exchange_symbol: QSP
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: QSP/BTC
@@ -117,15 +118,15 @@ markets:
     currency_symbol: QSP
     currency_type: cryptocurrency
     exchange_symbol: QSP
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: QSP/USDT
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: QSP/KRW
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/qsp_usdt
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/qsp-krw
 - base:
     currency_id: 2212
     currency_symbol: QSP
@@ -155,7 +156,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/qsp
 name: Quantstamp
-rank: 424
+rank: 409
 slug: quantstamp
 status: active
 symbol: QSP
