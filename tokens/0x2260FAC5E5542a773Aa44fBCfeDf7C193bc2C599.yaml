@@ -72,20 +72,6 @@ markets:
     exchange_symbol: ETH
   url: https://oasisdex.com/
 - base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 401
-  exchange_name: Switcheo Network
-  pair: ETH/WBTC
-  quote:
-    currency_id: 3717
-    currency_symbol: WBTC
-    currency_type: cryptocurrency
-    exchange_symbol: WBTC
-  url: https://switcheo.exchange/markets/ETH_WBTC
-- base:
     currency_id: 3717
     currency_symbol: WBTC
     currency_type: cryptocurrency
@@ -99,6 +85,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/WBTC:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 1376
+    currency_symbol: NEO
+    currency_type: cryptocurrency
+    exchange_symbol: NEO
+  exchange_id: 401
+  exchange_name: Switcheo Network
+  pair: NEO/WBTC
+  quote:
+    currency_id: 3717
+    currency_symbol: WBTC
+    currency_type: cryptocurrency
+    exchange_symbol: WBTC
+  url: https://switcheo.exchange/markets/NEO_WBTC
 - base:
     currency_id: 3717
     currency_symbol: WBTC
@@ -142,19 +142,19 @@ markets:
     exchange_symbol: ETH
   url: https://hitbtc.com/WBTC-to-ETH
 - base:
-    currency_id: 1376
-    currency_symbol: NEO
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: NEO
+    exchange_symbol: ETH
   exchange_id: 401
   exchange_name: Switcheo Network
-  pair: NEO/WBTC
+  pair: ETH/WBTC
   quote:
     currency_id: 3717
     currency_symbol: WBTC
     currency_type: cryptocurrency
     exchange_symbol: WBTC
-  url: https://switcheo.exchange/markets/NEO_WBTC
+  url: https://switcheo.exchange/markets/ETH_WBTC
 - base:
     currency_id: 3717
     currency_symbol: WBTC
@@ -184,7 +184,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/WBTC/WETH
 name: Wrapped Bitcoin
-rank: 309
+rank: 307
 slug: wrapped-bitcoin
 status: active
 symbol: WBTC

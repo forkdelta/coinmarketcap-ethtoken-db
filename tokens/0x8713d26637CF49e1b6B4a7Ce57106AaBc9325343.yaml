@@ -37,13 +37,13 @@ markets:
     exchange_symbol: CNN
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: CNN/BTC
+  pair: CNN/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/cnn_btc/
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/cnn_eth?invite_code=5kij5
 - base:
     currency_id: 2735
     currency_symbol: CNN
@@ -51,13 +51,27 @@ markets:
     exchange_symbol: CNN
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: CNN/ETH
+  pair: CNN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/cnn_eth/
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/cnn_btc?invite_code=5kij5
+- base:
+    currency_id: 2735
+    currency_symbol: CNN
+    currency_type: cryptocurrency
+    exchange_symbol: CNN
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: CNN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/cnn_btc/
 - base:
     currency_id: 2735
     currency_symbol: CNN
@@ -86,34 +100,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/cnn_eth/
-- base:
-    currency_id: 2735
-    currency_symbol: CNN
-    currency_type: cryptocurrency
-    exchange_symbol: CNN
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: CNN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/cnn_btc/
-- base:
-    currency_id: 2735
-    currency_symbol: CNN
-    currency_type: cryptocurrency
-    exchange_symbol: CNN
-  exchange_id: 343
-  exchange_name: CoinBene
-  pair: CNN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=CNNUSDT
 - base:
     currency_id: 2735
     currency_symbol: CNN
@@ -175,6 +161,20 @@ markets:
     currency_symbol: CNN
     currency_type: cryptocurrency
     exchange_symbol: CNN
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: CNN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=CNNUSDT
+- base:
+    currency_id: 2735
+    currency_symbol: CNN
+    currency_type: cryptocurrency
+    exchange_symbol: CNN
   exchange_id: 542
   exchange_name: Bitsonic
   pair: CNN/KRW
@@ -185,7 +185,7 @@ markets:
     exchange_symbol: KRW
   url: https://bitsonic.co.kr/front/exchange/cnn-krw
 name: Content Neutrality Network
-rank: 713
+rank: 715
 slug: content-neutrality-network
 status: active
 symbol: CNN

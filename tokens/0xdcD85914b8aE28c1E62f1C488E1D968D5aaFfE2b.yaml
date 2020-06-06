@@ -56,7 +56,7 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/top_usdt/
+  url: https://www.hbg.com/en-us/exchange/top_usdt?invite_code=5kij5
 - base:
     currency_id: 3826
     currency_symbol: TOP
@@ -70,21 +70,21 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/top_btc/
+  url: https://www.hbg.com/en-us/exchange/top_btc?invite_code=5kij5
 - base:
     currency_id: 3826
     currency_symbol: TOP
     currency_type: cryptocurrency
     exchange_symbol: TOP
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: TOP/USDT
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: TOP/HT
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 2502
+    currency_symbol: HT
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=TOP_USDT
+    exchange_symbol: HT
+  url: https://www.hbg.com/en-us/exchange/top_ht?invite_code=5kij5
 - base:
     currency_id: 3826
     currency_symbol: TOP
@@ -118,15 +118,15 @@ markets:
     currency_symbol: TOP
     currency_type: cryptocurrency
     exchange_symbol: TOP
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: TOP/HT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: TOP/USDT
   quote:
-    currency_id: 2502
-    currency_symbol: HT
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.hbg.com/en-us/exchange/top_ht/
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=TOP_USDT
 - base:
     currency_id: 3826
     currency_symbol: TOP
@@ -148,20 +148,6 @@ markets:
     exchange_symbol: TOP
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: TOP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/top_btc/
-- base:
-    currency_id: 3826
-    currency_symbol: TOP
-    currency_type: cryptocurrency
-    exchange_symbol: TOP
-  exchange_id: 463
-  exchange_name: Huobi Korea
   pair: TOP/USDT
   quote:
     currency_id: 825
@@ -169,6 +155,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.huobi.co.kr/en-US/exchange/top_usdt/
+- base:
+    currency_id: 3826
+    currency_symbol: TOP
+    currency_type: cryptocurrency
+    exchange_symbol: TOP
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: TOP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/top_btc/
 - base:
     currency_id: 3826
     currency_symbol: TOP
@@ -212,7 +212,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.coinsuper.com/#/actionDeal
 name: TOP
-rank: 307
+rank: 319
 slug: top
 status: active
 symbol: TOP

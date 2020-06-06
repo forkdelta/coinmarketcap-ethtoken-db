@@ -63,7 +63,7 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/akro_usdt/
+  url: https://www.hbg.com/en-us/exchange/akro_usdt?invite_code=5kij5
 - base:
     currency_id: 4134
     currency_symbol: AKRO
@@ -78,20 +78,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.kucoin.com/trade/AKRO-BTC
-- base:
-    currency_id: 4134
-    currency_symbol: AKRO
-    currency_type: cryptocurrency
-    exchange_symbol: AKRO
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: AKRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/akro_btc/
 - base:
     currency_id: 4134
     currency_symbol: AKRO
@@ -113,13 +99,13 @@ markets:
     exchange_symbol: AKRO
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: AKRO/HT
+  pair: AKRO/BTC
   quote:
-    currency_id: 2502
-    currency_symbol: HT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.hbg.com/en-us/exchange/akro_ht/
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/akro_btc?invite_code=5kij5
 - base:
     currency_id: 4134
     currency_symbol: AKRO
@@ -139,15 +125,15 @@ markets:
     currency_symbol: AKRO
     currency_type: cryptocurrency
     exchange_symbol: AKRO
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: AKRO/USDT
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: AKRO/HT
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 2502
+    currency_symbol: HT
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/akro_usdt/
+    exchange_symbol: HT
+  url: https://www.hbg.com/en-us/exchange/akro_ht?invite_code=5kij5
 - base:
     currency_id: 4134
     currency_symbol: AKRO
@@ -169,6 +155,20 @@ markets:
     exchange_symbol: AKRO
   exchange_id: 463
   exchange_name: Huobi Korea
+  pair: AKRO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.huobi.co.kr/en-US/exchange/akro_usdt/
+- base:
+    currency_id: 4134
+    currency_symbol: AKRO
+    currency_type: cryptocurrency
+    exchange_symbol: AKRO
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: AKRO/BTC
   quote:
     currency_id: 1
@@ -177,7 +177,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/akro_btc/
 name: 'Akropolis '
-rank: 657
+rank: 650
 slug: akropolis
 status: active
 symbol: AKRO

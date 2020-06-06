@@ -59,20 +59,6 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: REN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bilaxy.com/trade/REN_USDT
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
   exchange_id: 270
   exchange_name: Binance
   pair: REN/USDT
@@ -87,6 +73,20 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: REN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bilaxy.com/trade/REN_USDT
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
   exchange_id: 102
   exchange_name: Huobi Global
   pair: REN/USDT
@@ -95,7 +95,7 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/ren_usdt/
+  url: https://www.hbg.com/en-us/exchange/ren_usdt?invite_code=5kij5
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -109,49 +109,7 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/ren_btc/
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: REN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: REN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/ren-eth
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
-  exchange_id: 890
-  exchange_name: Bitay
-  pair: REN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitay.com/en/t/RENUSDT
+  url: https://www.hbg.com/en-us/exchange/ren_btc?invite_code=5kij5
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -171,43 +129,15 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
-  exchange_id: 656
-  exchange_name: Omgfin
+  exchange_id: 890
+  exchange_name: Bitay
   pair: REN/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/RENUSDT
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: REN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/ren_eth/
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: REN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.fatbtc.com/
+  url: https://www.bitay.com/en/t/RENUSDT
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -222,6 +152,76 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coindcx.com/trade/RENBTC
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: REN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://omgfin.com/exchange/trade/market/RENUSDT
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: REN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/ren-eth
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: REN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/ren_eth?invite_code=5kij5
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: REN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: REN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -292,22 +292,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/ren
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: REN/UQC
-  quote:
-    currency_id: 2273
-    currency_symbol: UQC
-    currency_type: cryptocurrency
-    exchange_symbol: UQC
-  url: https://omgfin.com/exchange/trade/market/RENUQC
 name: Ren
-rank: 80
+rank: 72
 slug: ren
 status: active
 symbol: REN

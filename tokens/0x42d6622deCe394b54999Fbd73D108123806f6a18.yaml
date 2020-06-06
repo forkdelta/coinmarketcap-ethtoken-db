@@ -27,20 +27,6 @@ markets:
     currency_symbol: SPANK
     currency_type: cryptocurrency
     exchange_symbol: SPANK
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: SPANK/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/SPANK:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2219
-    currency_symbol: SPANK
-    currency_type: cryptocurrency
-    exchange_symbol: SPANK
   exchange_id: 595
   exchange_name: Uniswap
   pair: SPANK/ETH
@@ -50,6 +36,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://uniswap.exchange/
+- base:
+    currency_id: 2219
+    currency_symbol: SPANK
+    currency_type: cryptocurrency
+    exchange_symbol: SPANK
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: SPANK/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/SPANK:USD?refcode=H70YTMupQ
 - base:
     currency_id: 2219
     currency_symbol: SPANK
@@ -79,7 +79,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/SPANK/WETH
 name: SpankChain
-rank: 996
+rank: 976
 slug: spankchain
 status: active
 symbol: SPANK

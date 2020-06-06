@@ -34,7 +34,7 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/let_usdt/
+  url: https://www.hbg.com/en-us/exchange/let_usdt?invite_code=5kij5
 - base:
     currency_id: 2468
     currency_symbol: LET
@@ -48,7 +48,7 @@ markets:
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/let_eth/
+  url: https://www.hbg.com/en-us/exchange/let_eth?invite_code=5kij5
 - base:
     currency_id: 2468
     currency_symbol: LET
@@ -82,20 +82,6 @@ markets:
     currency_symbol: LET
     currency_type: cryptocurrency
     exchange_symbol: LET
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: LET/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/let_btc/
-- base:
-    currency_id: 2468
-    currency_symbol: LET
-    currency_type: cryptocurrency
-    exchange_symbol: LET
   exchange_id: 294
   exchange_name: OKEx
   pair: LET/USDT
@@ -105,6 +91,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.okex.com/market?product=let_usdt
+- base:
+    currency_id: 2468
+    currency_symbol: LET
+    currency_type: cryptocurrency
+    exchange_symbol: LET
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: LET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/let_btc?invite_code=5kij5
 - base:
     currency_id: 2468
     currency_symbol: LET
@@ -154,20 +154,6 @@ markets:
     exchange_symbol: LET
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: LET/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/let_btc/
-- base:
-    currency_id: 2468
-    currency_symbol: LET
-    currency_type: cryptocurrency
-    exchange_symbol: LET
-  exchange_id: 463
-  exchange_name: Huobi Korea
   pair: LET/ETH
   quote:
     currency_id: 1027
@@ -175,8 +161,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/let_eth/
+- base:
+    currency_id: 2468
+    currency_symbol: LET
+    currency_type: cryptocurrency
+    exchange_symbol: LET
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: LET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/let_btc/
 name: LinkEye
-rank: 820
+rank: 828
 slug: linkeye
 status: active
 symbol: LET

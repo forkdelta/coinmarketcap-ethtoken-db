@@ -33,20 +33,6 @@ markets:
     currency_id: 2308
     currency_symbol: SAI
     currency_type: cryptocurrency
-    exchange_symbol: SAI
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: SAI/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/sai-eth
-- base:
-    currency_id: 2308
-    currency_symbol: SAI
-    currency_type: cryptocurrency
     exchange_symbol: DAI
   exchange_id: 302
   exchange_name: Gate.io
@@ -57,20 +43,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/sai_usdt
-- base:
-    currency_id: 2308
-    currency_symbol: SAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: SAI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/SAI/BTC
 - base:
     currency_id: 2308
     currency_symbol: SAI
@@ -90,6 +62,34 @@ markets:
     currency_symbol: SAI
     currency_type: cryptocurrency
     exchange_symbol: SAI
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: SAI/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/sai-eth
+- base:
+    currency_id: 2308
+    currency_symbol: SAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: SAI/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/SAI/BTC
+- base:
+    currency_id: 2308
+    currency_symbol: SAI
+    currency_type: cryptocurrency
+    exchange_symbol: SAI
   exchange_id: 857
   exchange_name: Bitcoin.com
   pair: SAI/BCH
@@ -102,7 +102,7 @@ markets:
 name: 'Single Collateral DAI '
 notice: For details on the upgrade from Single-Collateral Dai (Sai) to Multi-Collateral Dai (Dai), please
   click [here](https://blog.makerdao.com/single-collateral-dai-to-multi-collateral-dai-upgrade-timeline-and-actions/)
-rank: 408
+rank: 444
 slug: single-collateral-dai
 status: active
 symbol: SAI
