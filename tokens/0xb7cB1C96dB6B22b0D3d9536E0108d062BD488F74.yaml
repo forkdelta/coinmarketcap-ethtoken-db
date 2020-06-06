@@ -74,20 +74,6 @@ markets:
     exchange_symbol: WTC
   exchange_id: 294
   exchange_name: OKEx
-  pair: WTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=wtc_usdt
-- base:
-    currency_id: 1925
-    currency_symbol: WTC
-    currency_type: cryptocurrency
-    exchange_symbol: WTC
-  exchange_id: 294
-  exchange_name: OKEx
   pair: WTC/BTC
   quote:
     currency_id: 1
@@ -95,6 +81,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.okex.com/market?product=wtc_btc
+- base:
+    currency_id: 1925
+    currency_symbol: WTC
+    currency_type: cryptocurrency
+    exchange_symbol: WTC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: WTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=wtc_usdt
 - base:
     currency_id: 1925
     currency_symbol: WTC
@@ -150,21 +150,7 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/wtc_usdt/
-- base:
-    currency_id: 1925
-    currency_symbol: WTC
-    currency_type: cryptocurrency
-    exchange_symbol: WTC
-  exchange_id: 398
-  exchange_name: DragonEX
-  pair: WTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://dragonex.io
+  url: https://www.hbg.com/en-us/exchange/wtc_usdt?invite_code=5kij5
 - base:
     currency_id: 1925
     currency_symbol: WTC
@@ -184,6 +170,34 @@ markets:
     currency_symbol: WTC
     currency_type: cryptocurrency
     exchange_symbol: WTC
+  exchange_id: 398
+  exchange_name: DragonEX
+  pair: WTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://dragonex.io
+- base:
+    currency_id: 1925
+    currency_symbol: WTC
+    currency_type: cryptocurrency
+    exchange_symbol: WTC
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: WTC/XRP
+  quote:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  url: https://www.bitrue.com/trade/wtc_xrp
+- base:
+    currency_id: 1925
+    currency_symbol: WTC
+    currency_type: cryptocurrency
+    exchange_symbol: WTC
   exchange_id: 481
   exchange_name: Alterdice
   pair: WTC/BTC
@@ -193,48 +207,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://alterdice.com/trading/WTCBTC
-- base:
-    currency_id: 1925
-    currency_symbol: WTC
-    currency_type: cryptocurrency
-    exchange_symbol: WTC
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: WTC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/wtc_btc/
-- base:
-    currency_id: 1925
-    currency_symbol: WTC
-    currency_type: cryptocurrency
-    exchange_symbol: WTC
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: WTC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitrue.com/trade/wtc_eth
-- base:
-    currency_id: 1925
-    currency_symbol: WTC
-    currency_type: cryptocurrency
-    exchange_symbol: WTC
-  exchange_id: 890
-  exchange_name: Bitay
-  pair: WTC/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.bitay.com/en/t/WTCTRY
 - base:
     currency_id: 1925
     currency_symbol: WTC
@@ -254,29 +226,43 @@ markets:
     currency_symbol: WTC
     currency_type: cryptocurrency
     exchange_symbol: WTC
-  exchange_id: 102
-  exchange_name: Huobi Global
+  exchange_id: 433
+  exchange_name: Bitrue
   pair: WTC/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/wtc_eth/
+  url: https://www.bitrue.com/trade/wtc_eth
 - base:
     currency_id: 1925
     currency_symbol: WTC
     currency_type: cryptocurrency
     exchange_symbol: WTC
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: WTC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/WTCBTC
+  url: https://www.hbg.com/en-us/exchange/wtc_btc?invite_code=5kij5
+- base:
+    currency_id: 1925
+    currency_symbol: WTC
+    currency_type: cryptocurrency
+    exchange_symbol: WTC
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: WTC/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.bitay.com/en/t/WTCTRY
 - base:
     currency_id: 1925
     currency_symbol: WTC
@@ -310,6 +296,34 @@ markets:
     currency_symbol: WTC
     currency_type: cryptocurrency
     exchange_symbol: WTC
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: WTC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/WTCBTC
+- base:
+    currency_id: 1925
+    currency_symbol: WTC
+    currency_type: cryptocurrency
+    exchange_symbol: WTC
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: WTC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/wtc_eth?invite_code=5kij5
+- base:
+    currency_id: 1925
+    currency_symbol: WTC
+    currency_type: cryptocurrency
+    exchange_symbol: WTC
   exchange_id: 890
   exchange_name: Bitay
   pair: WTC/USDT
@@ -319,20 +333,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bitay.com/en/t/WTCUSDT
-- base:
-    currency_id: 1925
-    currency_symbol: WTC
-    currency_type: cryptocurrency
-    exchange_symbol: WTC
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: WTC/XRP
-  quote:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://www.bitrue.com/trade/wtc_xrp
 - base:
     currency_id: 1925
     currency_symbol: WTC
@@ -361,20 +361,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bitasset.com/ktrade/WTC-BTC
-- base:
-    currency_id: 1925
-    currency_symbol: WTC
-    currency_type: cryptocurrency
-    exchange_symbol: WTC
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: WTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/WTCUSDT
 - base:
     currency_id: 1925
     currency_symbol: WTC
@@ -422,6 +408,20 @@ markets:
     currency_symbol: WTC
     currency_type: cryptocurrency
     exchange_symbol: WTC
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: WTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/WTCUSDT
+- base:
+    currency_id: 1925
+    currency_symbol: WTC
+    currency_type: cryptocurrency
+    exchange_symbol: WTC
   exchange_id: 37
   exchange_name: Bitfinex
   pair: WTC/USD
@@ -464,20 +464,6 @@ markets:
     currency_symbol: WTC
     currency_type: cryptocurrency
     exchange_symbol: WTC
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: WTC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/wtc_btc/
-- base:
-    currency_id: 1925
-    currency_symbol: WTC
-    currency_type: cryptocurrency
-    exchange_symbol: WTC
   exchange_id: 215
   exchange_name: P2PB2B
   pair: WTC/ETH
@@ -487,20 +473,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://p2pb2b.io/trade/WTC_ETH
-- base:
-    currency_id: 1925
-    currency_symbol: WTC
-    currency_type: cryptocurrency
-    exchange_symbol: WTC
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: WTC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://crex24.com/exchange/WTC-BTC
 - base:
     currency_id: 1925
     currency_symbol: WTC
@@ -534,6 +506,20 @@ markets:
     currency_symbol: WTC
     currency_type: cryptocurrency
     exchange_symbol: WTC
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: WTC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://crex24.com/exchange/WTC-BTC
+- base:
+    currency_id: 1925
+    currency_symbol: WTC
+    currency_type: cryptocurrency
+    exchange_symbol: WTC
   exchange_id: 310
   exchange_name: IDEX
   pair: WTC/ETH
@@ -543,6 +529,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/wtc
+- base:
+    currency_id: 1925
+    currency_symbol: WTC
+    currency_type: cryptocurrency
+    exchange_symbol: WTC
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: WTC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/wtc_btc/
 - base:
     currency_id: 1925
     currency_symbol: WTC
@@ -614,7 +614,7 @@ markets:
     exchange_symbol: BTC
   url: https://allbit.com/exchange/WTC?market=BTC
 name: Waltonchain
-rank: 160
+rank: 154
 slug: waltonchain
 status: active
 symbol: WTC

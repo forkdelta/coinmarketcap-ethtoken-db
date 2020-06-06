@@ -31,7 +31,7 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/mds_usdt/
+  url: https://www.hbg.com/en-us/exchange/mds_usdt?invite_code=5kij5
 - base:
     currency_id: 2274
     currency_symbol: MDS
@@ -45,7 +45,7 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/mds_btc/
+  url: https://www.hbg.com/en-us/exchange/mds_btc?invite_code=5kij5
 - base:
     currency_id: 2274
     currency_symbol: MDS
@@ -59,7 +59,7 @@ markets:
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/mds_eth/
+  url: https://www.hbg.com/en-us/exchange/mds_eth?invite_code=5kij5
 - base:
     currency_id: 2274
     currency_symbol: MDS
@@ -74,20 +74,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.huobi.co.kr/en-US/exchange/mds_usdt/
-- base:
-    currency_id: 2274
-    currency_symbol: MDS
-    currency_type: cryptocurrency
-    exchange_symbol: MDS
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: MDS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/mds_btc/
 - base:
     currency_id: 2274
     currency_symbol: MDS
@@ -123,6 +109,20 @@ markets:
     exchange_symbol: MDS
   exchange_id: 463
   exchange_name: Huobi Korea
+  pair: MDS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/mds_btc/
+- base:
+    currency_id: 2274
+    currency_symbol: MDS
+    currency_type: cryptocurrency
+    exchange_symbol: MDS
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: MDS/ETH
   quote:
     currency_id: 1027
@@ -131,7 +131,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/mds_eth/
 name: MediShares
-rank: 682
+rank: 678
 slug: medishares
 status: active
 symbol: MDS

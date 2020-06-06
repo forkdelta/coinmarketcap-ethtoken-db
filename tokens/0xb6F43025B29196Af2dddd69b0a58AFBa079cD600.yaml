@@ -32,7 +32,7 @@ markets:
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/iic_eth/
+  url: https://www.hbg.com/en-us/exchange/iic_eth?invite_code=5kij5
 - base:
     currency_id: 2741
     currency_symbol: IIC
@@ -46,7 +46,21 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/iic_btc/
+  url: https://www.hbg.com/en-us/exchange/iic_btc?invite_code=5kij5
+- base:
+    currency_id: 2741
+    currency_symbol: IIC
+    currency_type: cryptocurrency
+    exchange_symbol: IIC
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: IIC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/iic_btc/
 - base:
     currency_id: 2741
     currency_symbol: IIC
@@ -68,20 +82,6 @@ markets:
     exchange_symbol: IIC
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: IIC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/iic_btc/
-- base:
-    currency_id: 2741
-    currency_symbol: IIC
-    currency_type: cryptocurrency
-    exchange_symbol: IIC
-  exchange_id: 463
-  exchange_name: Huobi Korea
   pair: IIC/ETH
   quote:
     currency_id: 1027
@@ -90,7 +90,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/iic_eth/
 name: Intelligent Investment Chain
-rank: 2327
+rank: 2320
 slug: intelligent-investment-chain
 status: active
 symbol: IIC

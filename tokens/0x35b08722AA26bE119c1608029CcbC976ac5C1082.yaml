@@ -45,7 +45,7 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/em_usdt/
+  url: https://www.hbg.com/en-us/exchange/em_usdt?invite_code=5kij5
 - base:
     currency_id: 4215
     currency_symbol: EM
@@ -59,21 +59,21 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/em_btc/
+  url: https://www.hbg.com/en-us/exchange/em_btc?invite_code=5kij5
 - base:
     currency_id: 4215
     currency_symbol: EM
     currency_type: cryptocurrency
     exchange_symbol: EM
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: EM/USDT
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: EM/HT
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 2502
+    currency_symbol: HT
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=em_usdt
+    exchange_symbol: HT
+  url: https://www.hbg.com/en-us/exchange/em_ht?invite_code=5kij5
 - base:
     currency_id: 4215
     currency_symbol: EM
@@ -93,15 +93,15 @@ markets:
     currency_symbol: EM
     currency_type: cryptocurrency
     exchange_symbol: EM
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: EM/HT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: EM/USDT
   quote:
-    currency_id: 2502
-    currency_symbol: HT
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.hbg.com/en-us/exchange/em_ht/
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=em_usdt
 - base:
     currency_id: 4215
     currency_symbol: EM
@@ -116,6 +116,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=em_usdk
+- base:
+    currency_id: 4215
+    currency_symbol: EM
+    currency_type: cryptocurrency
+    exchange_symbol: EM
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: EM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.huobi.co.kr/en-US/exchange/em_usdt/
 - base:
     currency_id: 4215
     currency_symbol: EM
@@ -144,22 +158,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/em_btc/
-- base:
-    currency_id: 4215
-    currency_symbol: EM
-    currency_type: cryptocurrency
-    exchange_symbol: EM
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: EM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/em_usdt/
 name: Eminer
-rank: 584
+rank: 583
 slug: eminer
 status: active
 symbol: EM

@@ -39,7 +39,7 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/seele_usdt/
+  url: https://www.hbg.com/en-us/exchange/seele_usdt?invite_code=5kij5
 - base:
     currency_id: 2830
     currency_symbol: SEELE
@@ -53,7 +53,7 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/seele_btc/
+  url: https://www.hbg.com/en-us/exchange/seele_btc?invite_code=5kij5
 - base:
     currency_id: 2830
     currency_symbol: SEELE
@@ -67,21 +67,7 @@ markets:
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/seele_eth/
-- base:
-    currency_id: 2830
-    currency_symbol: SEELE
-    currency_type: cryptocurrency
-    exchange_symbol: SEELE
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: SEELE/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.probit.com/app/exchange/SEELE-USDT
+  url: https://www.hbg.com/en-us/exchange/seele_eth?invite_code=5kij5
 - base:
     currency_id: 2830
     currency_symbol: SEELE
@@ -96,6 +82,20 @@ markets:
     currency_type: fiat
     exchange_symbol: TRY
   url: https://www.bitay.com/en/t/SEELETRY
+- base:
+    currency_id: 2830
+    currency_symbol: SEELE
+    currency_type: cryptocurrency
+    exchange_symbol: SEELE
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: SEELE/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.probit.com/app/exchange/SEELE-USDT
 - base:
     currency_id: 2830
     currency_symbol: SEELE
@@ -129,20 +129,6 @@ markets:
     currency_symbol: SEELE
     currency_type: cryptocurrency
     exchange_symbol: SEELE
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: SEELE/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/SEELE-KRW
-- base:
-    currency_id: 2830
-    currency_symbol: SEELE
-    currency_type: cryptocurrency
-    exchange_symbol: SEELE
   exchange_id: 890
   exchange_name: Bitay
   pair: SEELE/USDT
@@ -157,15 +143,15 @@ markets:
     currency_symbol: SEELE
     currency_type: cryptocurrency
     exchange_symbol: SEELE
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SEELE/BTC
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: SEELE/KRW
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/SEELE-to-BTC
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/SEELE-KRW
 - base:
     currency_id: 2830
     currency_symbol: SEELE
@@ -201,6 +187,20 @@ markets:
     exchange_symbol: SEELE
   exchange_id: 42
   exchange_name: HitBTC
+  pair: SEELE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/SEELE-to-BTC
+- base:
+    currency_id: 2830
+    currency_symbol: SEELE
+    currency_type: cryptocurrency
+    exchange_symbol: SEELE
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: SEELE/USDT
   quote:
     currency_id: 825
@@ -223,7 +223,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.huobi.com.ru/exchange/#s=seele_btc
 name: Seele-N
-rank: 84
+rank: 87
 slug: seele
 status: active
 symbol: SEELE

@@ -60,20 +60,6 @@ markets:
     exchange_symbol: SAN
   exchange_id: 37
   exchange_name: Bitfinex
-  pair: SAN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/SAN:BTC?refcode=H70YTMupQ
-- base:
-    currency_id: 1807
-    currency_symbol: SAN
-    currency_type: cryptocurrency
-    exchange_symbol: SAN
-  exchange_id: 37
-  exchange_name: Bitfinex
   pair: SAN/ETH
   quote:
     currency_id: 1027
@@ -81,6 +67,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitfinex.com/t/SAN:ETH?refcode=H70YTMupQ
+- base:
+    currency_id: 1807
+    currency_symbol: SAN
+    currency_type: cryptocurrency
+    exchange_symbol: SAN
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: SAN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/SAN:BTC?refcode=H70YTMupQ
 - base:
     currency_id: 1807
     currency_symbol: SAN
@@ -110,7 +110,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/san
 name: Santiment Network Token
-rank: 371
+rank: 381
 slug: santiment
 status: active
 symbol: SAN

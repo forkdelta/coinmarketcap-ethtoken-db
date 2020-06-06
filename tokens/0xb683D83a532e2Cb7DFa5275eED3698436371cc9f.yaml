@@ -69,20 +69,6 @@ markets:
     currency_symbol: BTU
     currency_type: cryptocurrency
     exchange_symbol: BTU
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: BTU/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-BTU
-- base:
-    currency_id: 3737
-    currency_symbol: BTU
-    currency_type: cryptocurrency
-    exchange_symbol: BTU
   exchange_id: 404
   exchange_name: Kyber Network
   pair: BTU/ETH
@@ -92,6 +78,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/btu-eth
+- base:
+    currency_id: 3737
+    currency_symbol: BTU
+    currency_type: cryptocurrency
+    exchange_symbol: BTU
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: BTU/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-BTU
 - base:
     currency_id: 3737
     currency_symbol: BTU
@@ -107,7 +107,7 @@ markets:
     exchange_symbol: ETH
   url: https://uniswap.exchange/
 name: BTU Protocol
-rank: 257
+rank: 256
 slug: btu-protocol
 status: active
 symbol: BTU

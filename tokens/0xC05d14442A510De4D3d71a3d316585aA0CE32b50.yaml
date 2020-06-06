@@ -86,34 +86,6 @@ markets:
     currency_symbol: LINA
     currency_type: cryptocurrency
     exchange_symbol: LINA
-  exchange_id: 155
-  exchange_name: Exrates
-  pair: LINA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exrates.me/trading/LINABTC
-- base:
-    currency_id: 3083
-    currency_symbol: LINA
-    currency_type: cryptocurrency
-    exchange_symbol: LINA
-  exchange_id: 358
-  exchange_name: Simex
-  pair: LINA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://simex.global/en/exchange/lina/usdt
-- base:
-    currency_id: 3083
-    currency_symbol: LINA
-    currency_type: cryptocurrency
-    exchange_symbol: LINA
   exchange_id: 363
   exchange_name: Fatbtc
   pair: LINA/ETH
@@ -144,13 +116,13 @@ markets:
     exchange_symbol: LINA
   exchange_id: 358
   exchange_name: Simex
-  pair: LINA/BTC
+  pair: LINA/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://simex.global/en/exchange/lina/btc
+    exchange_symbol: USDT
+  url: https://simex.global/en/exchange/lina/usdt
 - base:
     currency_id: 3083
     currency_symbol: LINA
@@ -172,6 +144,34 @@ markets:
     exchange_symbol: LINA
   exchange_id: 358
   exchange_name: Simex
+  pair: LINA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://simex.global/en/exchange/lina/btc
+- base:
+    currency_id: 3083
+    currency_symbol: LINA
+    currency_type: cryptocurrency
+    exchange_symbol: LINA
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: LINA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exrates.me/trading/LINABTC
+- base:
+    currency_id: 3083
+    currency_symbol: LINA
+    currency_type: cryptocurrency
+    exchange_symbol: LINA
+  exchange_id: 358
+  exchange_name: Simex
   pair: LINA/ETH
   quote:
     currency_id: 1027
@@ -179,20 +179,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://simex.global/en/exchange/lina/eth
-- base:
-    currency_id: 3083
-    currency_symbol: LINA
-    currency_type: cryptocurrency
-    exchange_symbol: LINA
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: LINA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://yobit.net/en/trade/LINA/ETH
 - base:
     currency_id: 3083
     currency_symbol: LINA
@@ -212,6 +198,20 @@ markets:
     currency_symbol: LINA
     currency_type: cryptocurrency
     exchange_symbol: LINA
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: LINA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://yobit.net/en/trade/LINA/ETH
+- base:
+    currency_id: 3083
+    currency_symbol: LINA
+    currency_type: cryptocurrency
+    exchange_symbol: LINA
   exchange_id: 406
   exchange_name: BitMart
   pair: LINA/BTC
@@ -222,7 +222,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.bitmart.com/trade?symbol=LINA_BTC
 name: LINA
-rank: 446
+rank: 444
 slug: lina
 status: active
 symbol: LINA

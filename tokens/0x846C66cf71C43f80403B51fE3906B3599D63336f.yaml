@@ -72,6 +72,34 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
+  exchange_id: 545
+  exchange_name: Bitsdaq
+  pair: PMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitsdaq.com/exchange/PMA-BTC
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: PMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-PMA
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: PMA/USDT
@@ -114,57 +142,15 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 545
-  exchange_name: Bitsdaq
+  exchange_id: 490
+  exchange_name: OKEx Korea
   pair: PMA/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/PMA-BTC
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: PMA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-PMA
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: PMA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/PMABTC
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: PMA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/PMA/BTC
+  url: https://okex.co.kr/kr/view/exchange?coin=PMA&market=BTC
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -179,20 +165,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/PMA-to-BTC
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: PMA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://yobit.net/en/trade/PMA/ETH
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -270,6 +242,34 @@ markets:
     exchange_symbol: PMA
   exchange_id: 100
   exchange_name: YoBit
+  pair: PMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/PMA/BTC
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: PMA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://yobit.net/en/trade/PMA/ETH
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
+  exchange_id: 100
+  exchange_name: YoBit
   pair: PMA/DOGE
   quote:
     currency_id: 74
@@ -296,6 +296,20 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: PMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/PMABTC?affiliate=eNgws23g761816
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
   exchange_id: 506
   exchange_name: ChainX
   pair: PMA/KRW
@@ -306,7 +320,7 @@ markets:
     exchange_symbol: KRW
   url: https://chainx.kr/exchange/PMA-KRW
 name: PumaPay
-rank: 673
+rank: 669
 slug: pumapay
 status: active
 symbol: PMA

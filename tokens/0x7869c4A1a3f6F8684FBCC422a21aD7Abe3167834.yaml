@@ -47,20 +47,6 @@ markets:
     currency_symbol: PVT
     currency_type: cryptocurrency
     exchange_symbol: PVT
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: PVT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/pvt_usdt/
-- base:
-    currency_id: 4115
-    currency_symbol: PVT
-    currency_type: cryptocurrency
-    exchange_symbol: PVT
   exchange_id: 330
   exchange_name: BigONE
   pair: PVT/USDT
@@ -77,13 +63,13 @@ markets:
     exchange_symbol: PVT
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: PVT/BTC
+  pair: PVT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/pvt_btc/
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/pvt_usdt?invite_code=5kij5
 - base:
     currency_id: 4115
     currency_symbol: PVT
@@ -97,7 +83,21 @@ markets:
     currency_symbol: HT
     currency_type: cryptocurrency
     exchange_symbol: HT
-  url: https://www.hbg.com/en-us/exchange/pvt_ht/
+  url: https://www.hbg.com/en-us/exchange/pvt_ht?invite_code=5kij5
+- base:
+    currency_id: 4115
+    currency_symbol: PVT
+    currency_type: cryptocurrency
+    exchange_symbol: PVT
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: PVT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/pvt_btc?invite_code=5kij5
 - base:
     currency_id: 4115
     currency_symbol: PVT
@@ -112,34 +112,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
-- base:
-    currency_id: 4115
-    currency_symbol: PVT
-    currency_type: cryptocurrency
-    exchange_symbol: PVT
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: PVT/HT
-  quote:
-    currency_id: 2502
-    currency_symbol: HT
-    currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.huobi.co.kr/en-US/exchange/pvt_ht/
-- base:
-    currency_id: 4115
-    currency_symbol: PVT
-    currency_type: cryptocurrency
-    exchange_symbol: PVT
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: PVT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/pvt_usdt/
 - base:
     currency_id: 4115
     currency_symbol: PVT
@@ -182,8 +154,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.coinall.com/market?product=pvt_usdt
+- base:
+    currency_id: 4115
+    currency_symbol: PVT
+    currency_type: cryptocurrency
+    exchange_symbol: PVT
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: PVT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.huobi.co.kr/en-US/exchange/pvt_usdt/
+- base:
+    currency_id: 4115
+    currency_symbol: PVT
+    currency_type: cryptocurrency
+    exchange_symbol: PVT
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: PVT/HT
+  quote:
+    currency_id: 2502
+    currency_symbol: HT
+    currency_type: cryptocurrency
+    exchange_symbol: HT
+  url: https://www.huobi.co.kr/en-US/exchange/pvt_ht/
 name: Pivot Token
-rank: 834
+rank: 841
 slug: pivot-token
 status: active
 symbol: PVT
