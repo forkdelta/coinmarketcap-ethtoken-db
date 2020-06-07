@@ -53,20 +53,6 @@ markets:
     currency_symbol: LAMB
     currency_type: cryptocurrency
     exchange_symbol: LAMB
-  exchange_id: 574
-  exchange_name: WBF Exchange
-  pair: LAMB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.wbf.info/trade/LAMB_USDT
-- base:
-    currency_id: 3657
-    currency_symbol: LAMB
-    currency_type: cryptocurrency
-    exchange_symbol: LAMB
   exchange_id: 415
   exchange_name: Bilaxy
   pair: LAMB/USDT
@@ -95,15 +81,15 @@ markets:
     currency_symbol: LAMB
     currency_type: cryptocurrency
     exchange_symbol: LAMB
-  exchange_id: 407
-  exchange_name: DigiFinex
+  exchange_id: 574
+  exchange_name: WBF Exchange
   pair: LAMB/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.digifinex.com/en-ww/trade/USDT/LAMB
+  url: https://www.wbf.info/trade/LAMB_USDT
 - base:
     currency_id: 3657
     currency_symbol: LAMB
@@ -123,15 +109,15 @@ markets:
     currency_symbol: LAMB
     currency_type: cryptocurrency
     exchange_symbol: LAMB
-  exchange_id: 343
-  exchange_name: CoinBene
+  exchange_id: 407
+  exchange_name: DigiFinex
   pair: LAMB/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=LAMBUSDT
+  url: https://www.digifinex.com/en-ww/trade/USDT/LAMB
 - base:
     currency_id: 3657
     currency_symbol: LAMB
@@ -146,6 +132,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.bithumb.com/trade/order/LAMBKRW
+- base:
+    currency_id: 3657
+    currency_symbol: LAMB
+    currency_type: cryptocurrency
+    exchange_symbol: LAMB
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: LAMB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=LAMBUSDT
 - base:
     currency_id: 3657
     currency_symbol: LAMB
@@ -221,20 +221,6 @@ markets:
     currency_symbol: LAMB
     currency_type: cryptocurrency
     exchange_symbol: LAMB
-  exchange_id: 398
-  exchange_name: DragonEX
-  pair: LAMB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://dragonex.io
-- base:
-    currency_id: 3657
-    currency_symbol: LAMB
-    currency_type: cryptocurrency
-    exchange_symbol: LAMB
   exchange_id: 890
   exchange_name: Bitay
   pair: LAMB/USDT
@@ -244,20 +230,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bitay.com/en/t/LAMBUSDT
-- base:
-    currency_id: 3657
-    currency_symbol: LAMB
-    currency_type: cryptocurrency
-    exchange_symbol: LAMB
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: LAMB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/lamb_btc?invite_code=5kij5
 - base:
     currency_id: 3657
     currency_symbol: LAMB
@@ -277,15 +249,15 @@ markets:
     currency_symbol: LAMB
     currency_type: cryptocurrency
     exchange_symbol: LAMB
-  exchange_id: 528
-  exchange_name: BiKi
-  pair: LAMB/USDT
+  exchange_id: 398
+  exchange_name: DragonEX
+  pair: LAMB/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.biki.cc/en_US/trade/LAMB_USDT
+    exchange_symbol: BTC
+  url: https://dragonex.io
 - base:
     currency_id: 3657
     currency_symbol: LAMB
@@ -300,6 +272,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.tokok.com/market?symbol=LAMB_ETH
+- base:
+    currency_id: 3657
+    currency_symbol: LAMB
+    currency_type: cryptocurrency
+    exchange_symbol: LAMB
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: LAMB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/lamb_btc?invite_code=5kij5
+- base:
+    currency_id: 3657
+    currency_symbol: LAMB
+    currency_type: cryptocurrency
+    exchange_symbol: LAMB
+  exchange_id: 528
+  exchange_name: BiKi
+  pair: LAMB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.biki.cc/en_US/trade/LAMB_USDT
 - base:
     currency_id: 3657
     currency_symbol: LAMB
@@ -347,6 +347,20 @@ markets:
     currency_symbol: LAMB
     currency_type: cryptocurrency
     exchange_symbol: LAMB
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: LAMB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/lamb
+- base:
+    currency_id: 3657
+    currency_symbol: LAMB
+    currency_type: cryptocurrency
+    exchange_symbol: LAMB
   exchange_id: 339
   exchange_name: Bibox
   pair: LAMB/ETH
@@ -377,20 +391,6 @@ markets:
     exchange_symbol: LAMB
   exchange_id: 400
   exchange_name: Hotbit
-  pair: LAMB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=LAMB_USDT
-- base:
-    currency_id: 3657
-    currency_symbol: LAMB
-    currency_type: cryptocurrency
-    exchange_symbol: LAMB
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: LAMB/BTC
   quote:
     currency_id: 1
@@ -403,15 +403,15 @@ markets:
     currency_symbol: LAMB
     currency_type: cryptocurrency
     exchange_symbol: LAMB
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: LAMB/BTC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: LAMB/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/lamb
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=LAMB_USDT
 - base:
     currency_id: 3657
     currency_symbol: LAMB
@@ -459,15 +459,15 @@ markets:
     currency_symbol: LAMB
     currency_type: cryptocurrency
     exchange_symbol: LAMB
-  exchange_id: 489
-  exchange_name: Bithumb Global
+  exchange_id: 478
+  exchange_name: HBTC
   pair: LAMB/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=LAMB_BTC
+  url: https://www.hbtc.com/exchange/LAMB/BTC
 - base:
     currency_id: 3657
     currency_symbol: LAMB
@@ -487,29 +487,29 @@ markets:
     currency_symbol: LAMB
     currency_type: cryptocurrency
     exchange_symbol: LAMB
-  exchange_id: 478
-  exchange_name: HBTC
+  exchange_id: 489
+  exchange_name: Bithumb Global
   pair: LAMB/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hbtc.com/exchange/LAMB/BTC
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=LAMB_BTC
 - base:
     currency_id: 3657
     currency_symbol: LAMB
     currency_type: cryptocurrency
     exchange_symbol: LAMB
-  exchange_id: 730
-  exchange_name: Huobi Russia
-  pair: LAMB/USDT
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: LAMB/HT
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 2502
+    currency_symbol: HT
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.com.ru/exchange/#s=lamb_usdt
+    exchange_symbol: HT
+  url: https://www.huobi.co.kr/en-US/exchange/lamb_ht/
 - base:
     currency_id: 3657
     currency_symbol: LAMB
@@ -517,27 +517,13 @@ markets:
     exchange_symbol: LAMB
   exchange_id: 448
   exchange_name: Coinall
-  pair: LAMB/USDT
+  pair: LAMB/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinall.com/market?product=lamb_usdt
-- base:
-    currency_id: 3657
-    currency_symbol: LAMB
-    currency_type: cryptocurrency
-    exchange_symbol: LAMB
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: LAMB/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=lamb_usdk
+    exchange_symbol: BTC
+  url: https://www.coinall.com/market?product=lamb_btc
 - base:
     currency_id: 3657
     currency_symbol: LAMB
@@ -559,13 +545,13 @@ markets:
     exchange_symbol: LAMB
   exchange_id: 448
   exchange_name: Coinall
-  pair: LAMB/BTC
+  pair: LAMB/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinall.com/market?product=lamb_btc
+    exchange_symbol: USDT
+  url: https://www.coinall.com/market?product=lamb_usdt
 - base:
     currency_id: 3657
     currency_symbol: LAMB
@@ -599,15 +585,15 @@ markets:
     currency_symbol: LAMB
     currency_type: cryptocurrency
     exchange_symbol: LAMB
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: LAMB/HT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: LAMB/USDK
   quote:
-    currency_id: 2502
-    currency_symbol: HT
+    currency_id: 4064
+    currency_symbol: USDK
     currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.huobi.co.kr/en-US/exchange/lamb_ht/
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=lamb_usdk
 - base:
     currency_id: 3657
     currency_symbol: LAMB
@@ -622,8 +608,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=LAMB&market=USDT
+- base:
+    currency_id: 3657
+    currency_symbol: LAMB
+    currency_type: cryptocurrency
+    exchange_symbol: LAMB
+  exchange_id: 730
+  exchange_name: Huobi Russia
+  pair: LAMB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.huobi.com.ru/exchange/#s=lamb_usdt
 name: Lambda
-rank: 325
+rank: 324
 slug: lambda
 status: active
 symbol: LAMB

@@ -60,20 +60,6 @@ markets:
     currency_symbol: SUB
     currency_type: cryptocurrency
     exchange_symbol: SUB
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: SUB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://wazirx.com/exchange/SUB-BTC
-- base:
-    currency_id: 1984
-    currency_symbol: SUB
-    currency_type: cryptocurrency
-    exchange_symbol: SUB
   exchange_id: 376
   exchange_name: Bitbns
   pair: SUB/INR
@@ -88,15 +74,29 @@ markets:
     currency_symbol: SUB
     currency_type: cryptocurrency
     exchange_symbol: SUB
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: SUB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://wazirx.com/exchange/SUB-BTC
+- base:
+    currency_id: 1984
+    currency_symbol: SUB
+    currency_type: cryptocurrency
+    exchange_symbol: SUB
   exchange_id: 42
   exchange_name: HitBTC
-  pair: SUB/ETH
+  pair: SUB/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/SUB-to-ETH
+    exchange_symbol: USDT
+  url: https://hitbtc.com/SUB-to-USDT
 - base:
     currency_id: 1984
     currency_symbol: SUB
@@ -132,13 +132,13 @@ markets:
     exchange_symbol: SUB
   exchange_id: 42
   exchange_name: HitBTC
-  pair: SUB/USDT
+  pair: SUB/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/SUB-to-USDT
+    exchange_symbol: ETH
+  url: https://hitbtc.com/SUB-to-ETH
 - base:
     currency_id: 1984
     currency_symbol: SUB
@@ -168,7 +168,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.coss.io/c/trade?s=SUB_USDT
 name: Substratum
-rank: 891
+rank: 901
 slug: substratum
 status: active
 symbol: SUB

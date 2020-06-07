@@ -110,20 +110,6 @@ markets:
     currency_symbol: EVX
     currency_type: cryptocurrency
     exchange_symbol: EVX
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: EVX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/EVXBTC
-- base:
-    currency_id: 2034
-    currency_symbol: EVX
-    currency_type: cryptocurrency
-    exchange_symbol: EVX
   exchange_id: 102
   exchange_name: Huobi Global
   pair: EVX/ETH
@@ -152,15 +138,15 @@ markets:
     currency_symbol: EVX
     currency_type: cryptocurrency
     exchange_symbol: EVX
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 949
+  exchange_name: CoinDCX
   pair: EVX/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/EVX-to-BTC
+  url: https://coindcx.com/trade/EVXBTC
 - base:
     currency_id: 2034
     currency_symbol: EVX
@@ -175,6 +161,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/evx_eth/
+- base:
+    currency_id: 2034
+    currency_symbol: EVX
+    currency_type: cryptocurrency
+    exchange_symbol: EVX
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: EVX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/EVX-to-BTC
 - base:
     currency_id: 2034
     currency_symbol: EVX
@@ -246,7 +246,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/evx
 name: Everex
-rank: 517
+rank: 520
 slug: everex
 status: active
 symbol: EVX

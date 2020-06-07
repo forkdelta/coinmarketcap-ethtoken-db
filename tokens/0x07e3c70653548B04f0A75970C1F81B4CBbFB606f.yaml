@@ -60,20 +60,6 @@ markets:
     currency_symbol: DLT
     currency_type: cryptocurrency
     exchange_symbol: DLT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: DLT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/DLT-to-BTC
-- base:
-    currency_id: 1949
-    currency_symbol: DLT
-    currency_type: cryptocurrency
-    exchange_symbol: DLT
   exchange_id: 949
   exchange_name: CoinDCX
   pair: DLT/BTC
@@ -83,6 +69,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coindcx.com/trade/DLTBTC
+- base:
+    currency_id: 1949
+    currency_symbol: DLT
+    currency_type: cryptocurrency
+    exchange_symbol: DLT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: DLT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/DLT-to-BTC
 - base:
     currency_id: 1949
     currency_symbol: DLT
@@ -98,7 +98,7 @@ markets:
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/DLT/BTC
 name: Agrello
-rank: 600
+rank: 601
 slug: agrello-delta
 status: active
 symbol: DLT

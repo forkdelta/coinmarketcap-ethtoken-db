@@ -109,20 +109,6 @@ markets:
     exchange_symbol: ARN
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: ARN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.probit.com/app/exchange/ARN-BTC
-- base:
-    currency_id: 2153
-    currency_symbol: ARN
-    currency_type: cryptocurrency
-    exchange_symbol: ARN
-  exchange_id: 477
-  exchange_name: ProBit Exchange
   pair: ARN/KRW
   quote:
     currency_id: 2798
@@ -135,15 +121,15 @@ markets:
     currency_symbol: ARN
     currency_type: cryptocurrency
     exchange_symbol: ARN
-  exchange_id: 213
-  exchange_name: Mercatox
+  exchange_id: 477
+  exchange_name: ProBit Exchange
   pair: ARN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://mercatox.com/exchange/ARN/BTC
+  url: https://www.probit.com/app/exchange/ARN-BTC
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -158,6 +144,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNB
   url: https://www.binance.org/en/trade/ARN-71B_BNB
+- base:
+    currency_id: 2153
+    currency_symbol: ARN
+    currency_type: cryptocurrency
+    exchange_symbol: ARN
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: ARN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/ARN/BTC
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -233,6 +233,20 @@ markets:
     currency_symbol: ARN
     currency_type: cryptocurrency
     exchange_symbol: ARN
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: ARN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://mercatox.com/exchange/ARN/ETH
+- base:
+    currency_id: 2153
+    currency_symbol: ARN
+    currency_type: cryptocurrency
+    exchange_symbol: ARN
   exchange_id: 302
   exchange_name: Gate.io
   pair: ARN/ETH
@@ -256,20 +270,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/arn
-- base:
-    currency_id: 2153
-    currency_symbol: ARN
-    currency_type: cryptocurrency
-    exchange_symbol: ARN
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: ARN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/ARN/ETH
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -341,7 +341,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.bitnaru.com/exchange
 name: Aeron
-rank: 676
+rank: 648
 slug: aeron
 status: active
 symbol: ARN

@@ -65,20 +65,6 @@ markets:
     currency_symbol: CRPT
     currency_type: cryptocurrency
     exchange_symbol: CRPT
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CRPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/CRPT-BTC
-- base:
-    currency_id: 2447
-    currency_symbol: CRPT
-    currency_type: cryptocurrency
-    exchange_symbol: CRPT
   exchange_id: 112
   exchange_name: Liquid
   pair: CRPT/QASH
@@ -95,13 +81,13 @@ markets:
     exchange_symbol: CRPT
   exchange_id: 311
   exchange_name: KuCoin
-  pair: CRPT/ETH
+  pair: CRPT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.kucoin.com/trade/CRPT-ETH
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/CRPT-BTC
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -121,15 +107,15 @@ markets:
     currency_symbol: CRPT
     currency_type: cryptocurrency
     exchange_symbol: CRPT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: CRPT/USDT
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CRPT/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/CRPT-to-USDT
+    exchange_symbol: ETH
+  url: https://www.kucoin.com/trade/CRPT-ETH
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -163,6 +149,20 @@ markets:
     currency_symbol: CRPT
     currency_type: cryptocurrency
     exchange_symbol: CRPT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: CRPT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/CRPT-to-USDT
+- base:
+    currency_id: 2447
+    currency_symbol: CRPT
+    currency_type: cryptocurrency
+    exchange_symbol: CRPT
   exchange_id: 310
   exchange_name: IDEX
   pair: CRPT/ETH
@@ -173,7 +173,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/crpt
 name: Crypterium
-rank: 113
+rank: 115
 slug: crpt
 status: active
 symbol: CRPT

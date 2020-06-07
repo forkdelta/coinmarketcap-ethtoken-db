@@ -62,6 +62,20 @@ markets:
     currency_symbol: XBASE
     currency_type: cryptocurrency
     exchange_symbol: XBASE
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: XBASE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://p2pb2b.io/trade/XBASE_ETH
+- base:
+    currency_id: 3815
+    currency_symbol: XBASE
+    currency_type: cryptocurrency
+    exchange_symbol: XBASE
   exchange_id: 213
   exchange_name: Mercatox
   pair: XBASE/ETH
@@ -76,15 +90,15 @@ markets:
     currency_symbol: XBASE
     currency_type: cryptocurrency
     exchange_symbol: XBASE
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: XBASE/ETH
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: XBASE/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://p2pb2b.io/trade/XBASE_ETH
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/XBASE/BTC
 - base:
     currency_id: 3815
     currency_symbol: XBASE
@@ -106,13 +120,13 @@ markets:
     exchange_symbol: XBASE
   exchange_id: 213
   exchange_name: Mercatox
-  pair: XBASE/BTC
+  pair: XBASE/TUSD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 2563
+    currency_symbol: TUSD
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/XBASE/BTC
+    exchange_symbol: TUSD
+  url: https://mercatox.com/exchange/XBASE/TUSD
 - base:
     currency_id: 3815
     currency_symbol: XBASE
@@ -134,27 +148,13 @@ markets:
     exchange_symbol: XBASE
   exchange_id: 213
   exchange_name: Mercatox
-  pair: XBASE/TUSD
+  pair: XBASE/USDC
   quote:
-    currency_id: 2563
-    currency_symbol: TUSD
+    currency_id: 3408
+    currency_symbol: USDC
     currency_type: cryptocurrency
-    exchange_symbol: TUSD
-  url: https://mercatox.com/exchange/XBASE/TUSD
-- base:
-    currency_id: 3815
-    currency_symbol: XBASE
-    currency_type: cryptocurrency
-    exchange_symbol: XBASE-CD2
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: XBASE/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/XBASE-CD2_BNB
+    exchange_symbol: USDC
+  url: https://mercatox.com/exchange/XBASE/USDC
 - base:
     currency_id: 3815
     currency_symbol: XBASE
@@ -174,15 +174,29 @@ markets:
     currency_symbol: XBASE
     currency_type: cryptocurrency
     exchange_symbol: XBASE
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: XBASE/USDC
+  exchange_id: 391
+  exchange_name: CoinTiger
+  pair: XBASE/BTC
   quote:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://mercatox.com/exchange/XBASE/USDC
+    exchange_symbol: BTC
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=xbase_btc
+- base:
+    currency_id: 3815
+    currency_symbol: XBASE
+    currency_type: cryptocurrency
+    exchange_symbol: XBASE-CD2
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: XBASE/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/XBASE-CD2_BNB
 - base:
     currency_id: 3815
     currency_symbol: XBASE
@@ -197,22 +211,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/xbase
-- base:
-    currency_id: 3815
-    currency_symbol: XBASE
-    currency_type: cryptocurrency
-    exchange_symbol: XBASE
-  exchange_id: 391
-  exchange_name: CoinTiger
-  pair: XBASE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=xbase_btc
 name: Eterbase Coin
-rank: 709
+rank: 703
 slug: eterbase-coin
 status: active
 symbol: XBASE

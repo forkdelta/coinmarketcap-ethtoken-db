@@ -29,20 +29,6 @@ markets:
     currency_symbol: MFT
     currency_type: cryptocurrency
     exchange_symbol: MFT
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: MFT/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-MFT
-- base:
-    currency_id: 2896
-    currency_symbol: MFT
-    currency_type: cryptocurrency
-    exchange_symbol: MFT
   exchange_id: 415
   exchange_name: Bilaxy
   pair: MFT/ETH
@@ -52,6 +38,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bilaxy.com/trade/MFT_ETH
+- base:
+    currency_id: 2896
+    currency_symbol: MFT
+    currency_type: cryptocurrency
+    exchange_symbol: MFT
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: MFT/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-MFT
 - base:
     currency_id: 2896
     currency_symbol: MFT
@@ -141,20 +141,6 @@ markets:
     currency_symbol: MFT
     currency_type: cryptocurrency
     exchange_symbol: MFT
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: MFT/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/MFT
-- base:
-    currency_id: 2896
-    currency_symbol: MFT
-    currency_type: cryptocurrency
-    exchange_symbol: MFT
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: MFT/BTC
@@ -169,15 +155,15 @@ markets:
     currency_symbol: MFT
     currency_type: cryptocurrency
     exchange_symbol: MFT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: MFT/BTC
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: MFT/BNT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1727
+    currency_symbol: BNT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-MFT
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/MFT
 - base:
     currency_id: 2896
     currency_symbol: MFT
@@ -192,6 +178,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bitsdaq.com/exchange/MFT-BTC
+- base:
+    currency_id: 2896
+    currency_symbol: MFT
+    currency_type: cryptocurrency
+    exchange_symbol: MFT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: MFT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-MFT
 - base:
     currency_id: 2896
     currency_symbol: MFT
@@ -221,7 +221,7 @@ markets:
     exchange_symbol: ETH
   url: https://uniswap.exchange/
 name: Mainframe
-rank: 416
+rank: 414
 slug: mainframe
 status: active
 symbol: MFT

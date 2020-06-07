@@ -59,20 +59,6 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
-  exchange_id: 270
-  exchange_name: Binance
-  pair: REN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/REN_USDT?ref=H31B921U
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
   exchange_id: 415
   exchange_name: Bilaxy
   pair: REN/USDT
@@ -82,6 +68,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bilaxy.com/trade/REN_USDT
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
+  exchange_id: 270
+  exchange_name: Binance
+  pair: REN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/REN_USDT?ref=H31B921U
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -129,29 +129,15 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
-  exchange_id: 890
-  exchange_name: Bitay
-  pair: REN/USDT
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: REN/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitay.com/en/t/RENUSDT
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: REN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/RENBTC
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/ren-eth
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -171,29 +157,15 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: REN/ETH
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: REN/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/ren-eth
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: REN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/ren_eth?invite_code=5kij5
+    exchange_symbol: USDT
+  url: https://www.bitay.com/en/t/RENUSDT
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -208,6 +180,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://uniswap.exchange/
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: REN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/ren_eth?invite_code=5kij5
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -255,6 +241,20 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: REN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/RENBTC
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
   exchange_id: 656
   exchange_name: Omgfin
   pair: REN/BTC
@@ -293,7 +293,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/ren
 name: Ren
-rank: 72
+rank: 77
 slug: ren
 status: active
 symbol: REN

@@ -45,20 +45,6 @@ markets:
     exchange_symbol: ESH
   exchange_id: 400
   exchange_name: Hotbit
-  pair: ESH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=ESH_USDT
-- base:
-    currency_id: 4096
-    currency_symbol: ESH
-    currency_type: cryptocurrency
-    exchange_symbol: ESH
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: ESH/BTC
   quote:
     currency_id: 1
@@ -80,6 +66,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=ESH_ETH
+- base:
+    currency_id: 4096
+    currency_symbol: ESH
+    currency_type: cryptocurrency
+    exchange_symbol: ESH
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: ESH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=ESH_USDT
 - base:
     currency_id: 4096
     currency_symbol: ESH
@@ -113,6 +113,20 @@ markets:
     currency_symbol: ESH
     currency_type: cryptocurrency
     exchange_symbol: ESH
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: ESH/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://mercatox.com/exchange/ESH/ETH
+- base:
+    currency_id: 4096
+    currency_symbol: ESH
+    currency_type: cryptocurrency
+    exchange_symbol: ESH
   exchange_id: 857
   exchange_name: Bitcoin.com
   pair: ESH/BTC
@@ -136,20 +150,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/ESH-to-BTC
-- base:
-    currency_id: 4096
-    currency_symbol: ESH
-    currency_type: cryptocurrency
-    exchange_symbol: ESH
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: ESH/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/ESH/ETH
 - base:
     currency_id: 4096
     currency_symbol: ESH
@@ -263,7 +263,7 @@ markets:
     exchange_symbol: USDT
   url: https://hoo.com/trade/esh-usdt
 name: Switch
-rank: 950
+rank: 897
 slug: switch
 status: active
 symbol: ESH

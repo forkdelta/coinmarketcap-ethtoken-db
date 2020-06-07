@@ -26,20 +26,6 @@ markets:
     exchange_symbol: QUN
   exchange_id: 294
   exchange_name: OKEx
-  pair: QUN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=qun_btc
-- base:
-    currency_id: 2375
-    currency_symbol: QUN
-    currency_type: cryptocurrency
-    exchange_symbol: QUN
-  exchange_id: 294
-  exchange_name: OKEx
   pair: QUN/USDT
   quote:
     currency_id: 825
@@ -52,15 +38,15 @@ markets:
     currency_symbol: QUN
     currency_type: cryptocurrency
     exchange_symbol: QUN
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: QUN/ETH
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: QUN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/qun_eth?invite_code=5kij5
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=qun_btc
 - base:
     currency_id: 2375
     currency_symbol: QUN
@@ -80,29 +66,15 @@ markets:
     currency_symbol: QUN
     currency_type: cryptocurrency
     exchange_symbol: QUN
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: QUN/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=QUN_ETH
-- base:
-    currency_id: 2375
-    currency_symbol: QUN
-    currency_type: cryptocurrency
-    exchange_symbol: QUN
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: QUN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=QUN_BTC
+  url: https://www.hbg.com/en-us/exchange/qun_eth?invite_code=5kij5
 - base:
     currency_id: 2375
     currency_symbol: QUN
@@ -122,15 +94,29 @@ markets:
     currency_symbol: QUN
     currency_type: cryptocurrency
     exchange_symbol: QUN
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: QUN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/qun_btc/
+  url: https://www.hotbit.io/exchange?symbol=QUN_BTC
+- base:
+    currency_id: 2375
+    currency_symbol: QUN
+    currency_type: cryptocurrency
+    exchange_symbol: QUN
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: QUN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=QUN_ETH
 - base:
     currency_id: 2375
     currency_symbol: QUN
@@ -145,8 +131,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/qun_eth/
+- base:
+    currency_id: 2375
+    currency_symbol: QUN
+    currency_type: cryptocurrency
+    exchange_symbol: QUN
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: QUN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/qun_btc/
 name: QunQun
-rank: 638
+rank: 648
 slug: qunqun
 status: active
 symbol: QUN

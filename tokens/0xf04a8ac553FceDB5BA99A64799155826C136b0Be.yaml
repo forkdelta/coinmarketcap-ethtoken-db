@@ -30,20 +30,6 @@ markets:
     currency_symbol: FLIXX
     currency_type: cryptocurrency
     exchange_symbol: FLIXX
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: FLIXX/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/FLIXX
-- base:
-    currency_id: 2231
-    currency_symbol: FLIXX
-    currency_type: cryptocurrency
-    exchange_symbol: FLIXX
   exchange_id: 107
   exchange_name: Livecoin
   pair: FLIXX/BTC
@@ -53,6 +39,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.livecoin.net/en/trading/FLIXX_BTC
+- base:
+    currency_id: 2231
+    currency_symbol: FLIXX
+    currency_type: cryptocurrency
+    exchange_symbol: FLIXX
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: FLIXX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/FLIXXBTC?affiliate=eNgws23g761816
 - base:
     currency_id: 2231
     currency_symbol: FLIXX
@@ -72,17 +72,17 @@ markets:
     currency_symbol: FLIXX
     currency_type: cryptocurrency
     exchange_symbol: FLIXX
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: FLIXX/BTC
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: FLIXX/BNT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1727
+    currency_symbol: BNT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/FLIXXBTC?affiliate=eNgws23g761816
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/FLIXX
 name: Flixxo
-rank: 910
+rank: 904
 slug: flixxo
 status: active
 symbol: FLIXX
