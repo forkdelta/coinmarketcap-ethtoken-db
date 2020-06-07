@@ -47,20 +47,6 @@ markets:
     currency_symbol: ZSC
     currency_type: cryptocurrency
     exchange_symbol: ZSC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: ZSC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/ZSC-to-BTC
-- base:
-    currency_id: 2047
-    currency_symbol: ZSC
-    currency_type: cryptocurrency
-    exchange_symbol: ZSC
   exchange_id: 363
   exchange_name: Fatbtc
   pair: ZSC/USDT
@@ -77,13 +63,13 @@ markets:
     exchange_symbol: ZSC
   exchange_id: 42
   exchange_name: HitBTC
-  pair: ZSC/ETH
+  pair: ZSC/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/ZSC-to-ETH
+    exchange_symbol: BTC
+  url: https://hitbtc.com/ZSC-to-BTC
 - base:
     currency_id: 2047
     currency_symbol: ZSC
@@ -98,8 +84,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/ZSC-to-USDT
+- base:
+    currency_id: 2047
+    currency_symbol: ZSC
+    currency_type: cryptocurrency
+    exchange_symbol: ZSC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: ZSC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/ZSC-to-ETH
 name: Zeusshield
-rank: 1369
+rank: 1372
 slug: zeusshield
 status: active
 symbol: ZSC

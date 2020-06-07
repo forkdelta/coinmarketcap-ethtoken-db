@@ -29,20 +29,6 @@ markets:
     exchange_symbol: DROP
   exchange_id: 406
   exchange_name: BitMart
-  pair: DROP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitmart.com/trade?symbol=DROP_BTC
-- base:
-    currency_id: 2591
-    currency_symbol: DROP
-    currency_type: cryptocurrency
-    exchange_symbol: DROP
-  exchange_id: 406
-  exchange_name: BitMart
   pair: DROP/ETH
   quote:
     currency_id: 1027
@@ -64,10 +50,24 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/drop
+- base:
+    currency_id: 2591
+    currency_symbol: DROP
+    currency_type: cryptocurrency
+    exchange_symbol: DROP
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: DROP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitmart.com/trade?symbol=DROP_BTC
 name: Dropil
 notice: The SEC has charged Dropil, Inc. and its three founders with 'defrauding investors in a fraudulent
   and unregistered initial coin offering (ICO)'. For more details, please see the [SEC press release](https://www.sec.gov/litigation/litreleases/2020/lr24804.htm)
-rank: 1494
+rank: 1413
 slug: dropil
 status: active
 symbol: DROP

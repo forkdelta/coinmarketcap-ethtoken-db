@@ -55,20 +55,6 @@ markets:
     currency_symbol: DOCK
     currency_type: cryptocurrency
     exchange_symbol: DOCK
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: DOCK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bkex.com/trade/DOCK_ETH
-- base:
-    currency_id: 2675
-    currency_symbol: DOCK
-    currency_type: cryptocurrency
-    exchange_symbol: DOCK
   exchange_id: 949
   exchange_name: CoinDCX
   pair: DOCK/BTC
@@ -83,15 +69,15 @@ markets:
     currency_symbol: DOCK
     currency_type: cryptocurrency
     exchange_symbol: DOCK
-  exchange_id: 853
-  exchange_name: AAX
-  pair: DOCK/USDT
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: DOCK/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.aax.com/spot/trade/DOCK:USDT
+    exchange_symbol: ETH
+  url: https://www.bkex.com/trade/DOCK_ETH
 - base:
     currency_id: 2675
     currency_symbol: DOCK
@@ -106,6 +92,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hbg.com/en-us/exchange/dock_usdt?invite_code=5kij5
+- base:
+    currency_id: 2675
+    currency_symbol: DOCK
+    currency_type: cryptocurrency
+    exchange_symbol: DOCK
+  exchange_id: 853
+  exchange_name: AAX
+  pair: DOCK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.aax.com/spot/trade/DOCK:USDT
 - base:
     currency_id: 2675
     currency_symbol: DOCK
@@ -153,20 +153,6 @@ markets:
     currency_symbol: DOCK
     currency_type: cryptocurrency
     exchange_symbol: DOCK
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: DOCK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/dock_eth?invite_code=5kij5
-- base:
-    currency_id: 2675
-    currency_symbol: DOCK
-    currency_type: cryptocurrency
-    exchange_symbol: DOCK
   exchange_id: 853
   exchange_name: AAX
   pair: DOCK/BTC
@@ -176,6 +162,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.aax.com/spot/trade/DOCK:BTC
+- base:
+    currency_id: 2675
+    currency_symbol: DOCK
+    currency_type: cryptocurrency
+    exchange_symbol: DOCK
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: DOCK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/DOCK-BTC
 - base:
     currency_id: 2675
     currency_symbol: DOCK
@@ -223,34 +223,6 @@ markets:
     currency_symbol: DOCK
     currency_type: cryptocurrency
     exchange_symbol: DOCK
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: DOCK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/dock_usdt
-- base:
-    currency_id: 2675
-    currency_symbol: DOCK
-    currency_type: cryptocurrency
-    exchange_symbol: DOCK
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: DOCK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/DOCK-BTC
-- base:
-    currency_id: 2675
-    currency_symbol: DOCK
-    currency_type: cryptocurrency
-    exchange_symbol: DOCK
   exchange_id: 311
   exchange_name: KuCoin
   pair: DOCK/ETH
@@ -265,15 +237,29 @@ markets:
     currency_symbol: DOCK
     currency_type: cryptocurrency
     exchange_symbol: DOCK
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: DOCK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/dock_eth?invite_code=5kij5
+- base:
+    currency_id: 2675
+    currency_symbol: DOCK
+    currency_type: cryptocurrency
+    exchange_symbol: DOCK
+  exchange_id: 302
+  exchange_name: Gate.io
   pair: DOCK/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://coindcx.com/trade/DOCKUSDT
+  url: https://gate.io/trade/dock_usdt
 - base:
     currency_id: 2675
     currency_symbol: DOCK
@@ -302,8 +288,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/dock_eth
+- base:
+    currency_id: 2675
+    currency_symbol: DOCK
+    currency_type: cryptocurrency
+    exchange_symbol: DOCK
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: DOCK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/DOCKUSDT
 name: Dock
-rank: 553
+rank: 559
 slug: dock
 status: active
 symbol: DOCK

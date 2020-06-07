@@ -44,15 +44,15 @@ markets:
     currency_symbol: AUC
     currency_type: cryptocurrency
     exchange_symbol: AUC
-  exchange_id: 983
-  exchange_name: Loopring Exchange
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: AUC/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://loopring.io/trade/AUC-ETH
+  url: https://hitbtc.com/AUC-to-ETH
 - base:
     currency_id: 2653
     currency_symbol: AUC
@@ -67,34 +67,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/AUC-to-BTC
-- base:
-    currency_id: 2653
-    currency_symbol: AUC
-    currency_type: cryptocurrency
-    exchange_symbol: AUC
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: AUC/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/AUC-KRW
-- base:
-    currency_id: 2653
-    currency_symbol: AUC
-    currency_type: cryptocurrency
-    exchange_symbol: AUC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: AUC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/AUC-to-ETH
 - base:
     currency_id: 2653
     currency_symbol: AUC
@@ -123,8 +95,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/auc
+- base:
+    currency_id: 2653
+    currency_symbol: AUC
+    currency_type: cryptocurrency
+    exchange_symbol: AUC
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: AUC/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/AUC-KRW
+- base:
+    currency_id: 2653
+    currency_symbol: AUC
+    currency_type: cryptocurrency
+    exchange_symbol: AUC
+  exchange_id: 983
+  exchange_name: Loopring Exchange
+  pair: AUC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://loopring.io/trade/AUC-ETH
 name: Auctus
-rank: 849
+rank: 870
 slug: auctus
 status: active
 symbol: AUC

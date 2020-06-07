@@ -59,20 +59,6 @@ markets:
     exchange_symbol: APM
   exchange_id: 22
   exchange_name: Bittrex
-  pair: APM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-APM
-- base:
-    currency_id: 5079
-    currency_symbol: APM
-    currency_type: cryptocurrency
-    exchange_symbol: APM
-  exchange_id: 22
-  exchange_name: Bittrex
   pair: APM/USDT
   quote:
     currency_id: 825
@@ -85,15 +71,15 @@ markets:
     currency_symbol: APM
     currency_type: cryptocurrency
     exchange_symbol: APM
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: APM/USDT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: APM/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=APM_USDT
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-APM
 - base:
     currency_id: 5079
     currency_symbol: APM
@@ -108,6 +94,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=APM_BTC
+- base:
+    currency_id: 5079
+    currency_symbol: APM
+    currency_type: cryptocurrency
+    exchange_symbol: APM
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: APM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=APM_USDT
 - base:
     currency_id: 5079
     currency_symbol: APM
@@ -151,7 +151,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=APM&market=USDT
 name: apM Coin
-rank: 586
+rank: 581
 slug: apm-coin
 status: active
 symbol: APM
