@@ -49,20 +49,6 @@ markets:
     currency_symbol: TKN
     currency_type: cryptocurrency
     exchange_symbol: TKN
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: TKN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/tkn-eth
-- base:
-    currency_id: 1660
-    currency_symbol: TKN
-    currency_type: cryptocurrency
-    exchange_symbol: TKN
   exchange_id: 267
   exchange_name: Bancor Network
   pair: TKN/BNT
@@ -77,15 +63,15 @@ markets:
     currency_symbol: TKN
     currency_type: cryptocurrency
     exchange_symbol: TKN
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: TKN/BTC
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: TKN/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/TKN_BTC
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/tkn-eth
 - base:
     currency_id: 1660
     currency_symbol: TKN
@@ -100,6 +86,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/TKN:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 1660
+    currency_symbol: TKN
+    currency_type: cryptocurrency
+    exchange_symbol: TKN
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: TKN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/TKN_BTC
 - base:
     currency_id: 1660
     currency_symbol: TKN
@@ -129,7 +129,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/tkn
 name: Monolith
-rank: 351
+rank: 350
 slug: monolith
 status: active
 symbol: TKN

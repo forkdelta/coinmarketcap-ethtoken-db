@@ -64,20 +64,6 @@ markets:
     currency_symbol: CS
     currency_type: cryptocurrency
     exchange_symbol: CS
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: CS/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/CS-USDT
-- base:
-    currency_id: 2556
-    currency_symbol: CS
-    currency_type: cryptocurrency
-    exchange_symbol: CS
   exchange_id: 311
   exchange_name: KuCoin
   pair: CS/ETH
@@ -92,15 +78,15 @@ markets:
     currency_symbol: CS
     currency_type: cryptocurrency
     exchange_symbol: CS
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CS/KCS
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: CS/USDT
   quote:
-    currency_id: 2087
-    currency_symbol: KCS
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: KCS
-  url: https://www.kucoin.com/trade/CS-KCS
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/CS-USDT
 - base:
     currency_id: 2556
     currency_symbol: CS
@@ -120,15 +106,15 @@ markets:
     currency_symbol: CS
     currency_type: cryptocurrency
     exchange_symbol: CS
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: CS/ETH
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CS/KCS
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 2087
+    currency_symbol: KCS
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/cs_eth
+    exchange_symbol: KCS
+  url: https://www.kucoin.com/trade/CS-KCS
 - base:
     currency_id: 2556
     currency_symbol: CS
@@ -143,6 +129,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/CS:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 2556
+    currency_symbol: CS
+    currency_type: cryptocurrency
+    exchange_symbol: CS
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: CS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/cs_eth
 - base:
     currency_id: 2556
     currency_symbol: CS
@@ -214,7 +214,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.cointiger.com/en-us/#/trade_pro?coin=cs_btc
 name: Credits
-rank: 397
+rank: 467
 slug: credits
 status: active
 symbol: CS

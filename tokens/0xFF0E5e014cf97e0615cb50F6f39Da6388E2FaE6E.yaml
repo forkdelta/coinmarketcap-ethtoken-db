@@ -43,6 +43,20 @@ markets:
     currency_symbol: OGO
     currency_type: cryptocurrency
     exchange_symbol: OGO
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: OGO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/ogo_usdt?invite_code=5kij5
+- base:
+    currency_id: 3985
+    currency_symbol: OGO
+    currency_type: cryptocurrency
+    exchange_symbol: OGO
   exchange_id: 415
   exchange_name: Bilaxy
   pair: OGO/USDT
@@ -59,20 +73,6 @@ markets:
     exchange_symbol: OGO
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: OGO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/ogo_usdt?invite_code=5kij5
-- base:
-    currency_id: 3985
-    currency_symbol: OGO
-    currency_type: cryptocurrency
-    exchange_symbol: OGO
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: OGO/BTC
   quote:
     currency_id: 1
@@ -80,20 +80,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hbg.com/en-us/exchange/ogo_btc?invite_code=5kij5
-- base:
-    currency_id: 3985
-    currency_symbol: OGO
-    currency_type: cryptocurrency
-    exchange_symbol: OGO
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: OGO/HT
-  quote:
-    currency_id: 2502
-    currency_symbol: HT
-    currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.hbg.com/en-us/exchange/ogo_ht?invite_code=5kij5
 - base:
     currency_id: 3985
     currency_symbol: OGO
@@ -127,15 +113,15 @@ markets:
     currency_symbol: OGO
     currency_type: cryptocurrency
     exchange_symbol: OGO
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: OGO/BTC
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: OGO/HT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 2502
+    currency_symbol: HT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/OGO-BTC
+    exchange_symbol: HT
+  url: https://www.hbg.com/en-us/exchange/ogo_ht?invite_code=5kij5
 - base:
     currency_id: 3985
     currency_symbol: OGO
@@ -150,6 +136,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.kucoin.com/trade/OGO-USDT
+- base:
+    currency_id: 3985
+    currency_symbol: OGO
+    currency_type: cryptocurrency
+    exchange_symbol: OGO
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: OGO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/OGO-BTC
 - base:
     currency_id: 3985
     currency_symbol: OGO
@@ -249,7 +249,7 @@ markets:
     exchange_symbol: BTC
   url: https://bgogo.com/exchange/OGO/BTC
 name: Origo
-rank: 484
+rank: 454
 slug: origo
 status: active
 symbol: OGO

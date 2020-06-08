@@ -73,20 +73,6 @@ markets:
     exchange_symbol: GMB
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: GMB/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/GMB-KRW
-- base:
-    currency_id: 3757
-    currency_symbol: GMB
-    currency_type: cryptocurrency
-    exchange_symbol: GMB
-  exchange_id: 477
-  exchange_name: ProBit Exchange
   pair: GMB/USDT
   quote:
     currency_id: 825
@@ -94,6 +80,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.probit.com/app/exchange/GMB-USDT
+- base:
+    currency_id: 3757
+    currency_symbol: GMB
+    currency_type: cryptocurrency
+    exchange_symbol: GMB
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: GMB/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/GMB-KRW
 - base:
     currency_id: 3757
     currency_symbol: GMB
@@ -123,7 +123,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.digifinex.com/en-ww/trade/ETH/GMB
 name: GMB
-rank: 1086
+rank: 1100
 slug: gmb
 status: active
 symbol: GMB

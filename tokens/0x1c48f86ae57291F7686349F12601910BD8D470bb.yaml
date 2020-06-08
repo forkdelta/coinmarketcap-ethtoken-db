@@ -15,19 +15,33 @@ links:
   - https://www.oklink.com/
 markets:
 - base:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 3897
+    currency_symbol: OKB
     currency_type: cryptocurrency
-    exchange_symbol: BTC
+    exchange_symbol: OKB
   exchange_id: 294
   exchange_name: OKEx
-  pair: BTC/USDK
+  pair: OKB/USDK
   quote:
     currency_id: 4064
     currency_symbol: USDK
     currency_type: cryptocurrency
     exchange_symbol: USDK
-  url: https://www.okex.com/market?product=btc_usdk
+  url: https://www.okex.com/market?product=okb_usdk
+- base:
+    currency_id: 5429
+    currency_symbol: DEP
+    currency_type: cryptocurrency
+    exchange_symbol: DEP
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: DEP/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=dep_usdk
 - base:
     currency_id: 3635
     currency_symbol: CRO
@@ -57,61 +71,19 @@ markets:
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=ndn_usdk
 - base:
-    currency_id: 3602
-    currency_symbol: BSV
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BSV
+    exchange_symbol: BTC
   exchange_id: 294
   exchange_name: OKEx
-  pair: BSV/USDK
+  pair: BTC/USDK
   quote:
     currency_id: 4064
     currency_symbol: USDK
     currency_type: cryptocurrency
     exchange_symbol: USDK
-  url: https://www.okex.com/market?product=bsv_usdk
-- base:
-    currency_id: 5429
-    currency_symbol: DEP
-    currency_type: cryptocurrency
-    exchange_symbol: DEP
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: DEP/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=dep_usdk
-- base:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: OKB/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=okb_usdk
-- base:
-    currency_id: 1321
-    currency_symbol: ETC
-    currency_type: cryptocurrency
-    exchange_symbol: ETC
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: ETC/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=etc_usdk
+  url: https://www.okex.com/market?product=btc_usdk
 - base:
     currency_id: 825
     currency_symbol: USDT
@@ -126,6 +98,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=usdt_usdk
+- base:
+    currency_id: 3602
+    currency_symbol: BSV
+    currency_type: cryptocurrency
+    exchange_symbol: BSV
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: BSV/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=bsv_usdk
+- base:
+    currency_id: 1321
+    currency_symbol: ETC
+    currency_type: cryptocurrency
+    exchange_symbol: ETC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: ETC/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=etc_usdk
 - base:
     currency_id: 4695
     currency_symbol: EC
@@ -155,19 +155,19 @@ markets:
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=hbar_usdk
 - base:
-    currency_id: 3164
-    currency_symbol: PMA
+    currency_id: 1958
+    currency_symbol: TRX
     currency_type: cryptocurrency
-    exchange_symbol: PMA
+    exchange_symbol: TRX
   exchange_id: 294
   exchange_name: OKEx
-  pair: PMA/USDK
+  pair: TRX/USDK
   quote:
     currency_id: 4064
     currency_symbol: USDK
     currency_type: cryptocurrency
     exchange_symbol: USDK
-  url: https://www.okex.com/market?product=pma_usdk
+  url: https://www.okex.com/market?product=trx_usdk
 - base:
     currency_id: 1027
     currency_symbol: ETH
@@ -183,19 +183,19 @@ markets:
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=eth_usdk
 - base:
-    currency_id: 1958
-    currency_symbol: TRX
+    currency_id: 3164
+    currency_symbol: PMA
     currency_type: cryptocurrency
-    exchange_symbol: TRX
+    exchange_symbol: PMA
   exchange_id: 294
   exchange_name: OKEx
-  pair: TRX/USDK
+  pair: PMA/USDK
   quote:
     currency_id: 4064
     currency_symbol: USDK
     currency_type: cryptocurrency
     exchange_symbol: USDK
-  url: https://www.okex.com/market?product=trx_usdk
+  url: https://www.okex.com/market?product=pma_usdk
 - base:
     currency_id: 1831
     currency_symbol: BCH
@@ -211,20 +211,6 @@ markets:
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=bch_usdk
 - base:
-    currency_id: 1765
-    currency_symbol: EOS
-    currency_type: cryptocurrency
-    exchange_symbol: EOS
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: EOS/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=eos_usdk
-- base:
     currency_id: 2
     currency_symbol: LTC
     currency_type: cryptocurrency
@@ -238,20 +224,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=ltc_usdk
-- base:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: XRP/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=xrp_usdk
 - base:
     currency_id: 4064
     currency_symbol: USDK
@@ -267,33 +239,33 @@ markets:
     exchange_symbol: USD
   url: https://www.okcoin.com/spot/trade#product=usdk_usd
 - base:
-    currency_id: 4090
-    currency_symbol: WXT
+    currency_id: 1765
+    currency_symbol: EOS
     currency_type: cryptocurrency
-    exchange_symbol: WXT
+    exchange_symbol: EOS
   exchange_id: 294
   exchange_name: OKEx
-  pair: WXT/USDK
+  pair: EOS/USDK
   quote:
     currency_id: 4064
     currency_symbol: USDK
     currency_type: cryptocurrency
     exchange_symbol: USDK
-  url: https://www.okex.com/market?product=wxt_usdk
+  url: https://www.okex.com/market?product=eos_usdk
 - base:
-    currency_id: 5028
-    currency_symbol: ROAD
+    currency_id: 52
+    currency_symbol: XRP
     currency_type: cryptocurrency
-    exchange_symbol: ROAD
+    exchange_symbol: XRP
   exchange_id: 294
   exchange_name: OKEx
-  pair: ROAD/USDK
+  pair: XRP/USDK
   quote:
     currency_id: 4064
     currency_symbol: USDK
     currency_type: cryptocurrency
     exchange_symbol: USDK
-  url: https://www.okex.com/market?product=road_usdk
+  url: https://www.okex.com/market?product=xrp_usdk
 - base:
     currency_id: 4215
     currency_symbol: EM
@@ -309,6 +281,20 @@ markets:
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=em_usdk
 - base:
+    currency_id: 5028
+    currency_symbol: ROAD
+    currency_type: cryptocurrency
+    exchange_symbol: ROAD
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: ROAD/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=road_usdk
+- base:
     currency_id: 3513
     currency_symbol: FTM
     currency_type: cryptocurrency
@@ -323,6 +309,34 @@ markets:
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=ftm_usdk
 - base:
+    currency_id: 3307
+    currency_symbol: SPND
+    currency_type: cryptocurrency
+    exchange_symbol: SPND
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: SPND/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=spnd_usdk
+- base:
+    currency_id: 2530
+    currency_symbol: FSN
+    currency_type: cryptocurrency
+    exchange_symbol: FSN
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: FSN/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=fsn_usdk
+- base:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
@@ -336,48 +350,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDK
   url: https://www.coinall.com/market?product=btc_usdk
-- base:
-    currency_id: 3704
-    currency_symbol: VSYS
-    currency_type: cryptocurrency
-    exchange_symbol: VSYS
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: VSYS/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=vsys_usdk
-- base:
-    currency_id: 5299
-    currency_symbol: HDAO
-    currency_type: cryptocurrency
-    exchange_symbol: HDAO
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: HDAO/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=hdao_usdk
-- base:
-    currency_id: 74
-    currency_symbol: DOGE
-    currency_type: cryptocurrency
-    exchange_symbol: DOGE
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: DOGE/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=doge_usdk
 - base:
     currency_id: 4064
     currency_symbol: USDK
@@ -449,33 +421,19 @@ markets:
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/USDK:USD?refcode=H70YTMupQ
 - base:
-    currency_id: 3307
-    currency_symbol: SPND
+    currency_id: 3704
+    currency_symbol: VSYS
     currency_type: cryptocurrency
-    exchange_symbol: SPND
+    exchange_symbol: VSYS
   exchange_id: 294
   exchange_name: OKEx
-  pair: SPND/USDK
+  pair: VSYS/USDK
   quote:
     currency_id: 4064
     currency_symbol: USDK
     currency_type: cryptocurrency
     exchange_symbol: USDK
-  url: https://www.okex.com/market?product=spnd_usdk
-- base:
-    currency_id: 2530
-    currency_symbol: FSN
-    currency_type: cryptocurrency
-    exchange_symbol: FSN
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: FSN/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=fsn_usdk
+  url: https://www.okex.com/market?product=vsys_usdk
 - base:
     currency_id: 1027
     currency_symbol: ETH
@@ -519,6 +477,20 @@ markets:
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=algo_usdk
 - base:
+    currency_id: 4090
+    currency_symbol: WXT
+    currency_type: cryptocurrency
+    exchange_symbol: WXT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: WXT/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=wxt_usdk
+- base:
     currency_id: 3657
     currency_symbol: LAMB
     currency_type: cryptocurrency
@@ -547,6 +519,20 @@ markets:
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=leo_usdk
 - base:
+    currency_id: 74
+    currency_symbol: DOGE
+    currency_type: cryptocurrency
+    exchange_symbol: DOGE
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: DOGE/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=doge_usdk
+- base:
     currency_id: 4196
     currency_symbol: PLG
     currency_type: cryptocurrency
@@ -560,8 +546,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=plg_usdk
+- base:
+    currency_id: 5299
+    currency_symbol: HDAO
+    currency_type: cryptocurrency
+    exchange_symbol: HDAO
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: HDAO/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=hdao_usdk
 name: USDK
-rank: 255
+rank: 250
 slug: usdk
 status: active
 symbol: USDK

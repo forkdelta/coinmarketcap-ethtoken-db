@@ -47,19 +47,19 @@ markets:
     exchange_symbol: HUSD
   url: https://bilaxy.com/trade/USDT_HUSD
 - base:
-    currency_id: 3330
-    currency_symbol: PAX
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: PAX
-  exchange_id: 478
-  exchange_name: HBTC
-  pair: PAX/HUSD
+    exchange_symbol: BTC
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: BTC/HUSD
   quote:
     currency_id: 4779
     currency_symbol: HUSD
     currency_type: cryptocurrency
     exchange_symbol: HUSD
-  url: https://www.hbtc.com/exchange/PAX/HUSD
+  url: https://www.hbg.com/en-us/exchange/btc_husd?invite_code=5kij5
 - base:
     currency_id: 2563
     currency_symbol: TUSD
@@ -75,20 +75,6 @@ markets:
     exchange_symbol: HUSD
   url: https://www.hbtc.com/exchange/TUSD/HUSD
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: BTC/HUSD
-  quote:
-    currency_id: 4779
-    currency_symbol: HUSD
-    currency_type: cryptocurrency
-    exchange_symbol: HUSD
-  url: https://www.hbg.com/en-us/exchange/btc_husd?invite_code=5kij5
-- base:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
@@ -102,6 +88,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: HUSD
   url: https://www.hbtc.com/exchange/USDT/HUSD
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  exchange_id: 478
+  exchange_name: HBTC
+  pair: PAX/HUSD
+  quote:
+    currency_id: 4779
+    currency_symbol: HUSD
+    currency_type: cryptocurrency
+    exchange_symbol: HUSD
+  url: https://www.hbtc.com/exchange/PAX/HUSD
 - base:
     currency_id: 1027
     currency_symbol: ETH
@@ -145,20 +145,6 @@ markets:
     exchange_symbol: HUSD
   url: https://www.hbg.com/en-us/exchange/pax_husd?invite_code=5kij5
 - base:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  exchange_id: 478
-  exchange_name: HBTC
-  pair: USDC/HUSD
-  quote:
-    currency_id: 4779
-    currency_symbol: HUSD
-    currency_type: cryptocurrency
-    exchange_symbol: HUSD
-  url: https://www.hbtc.com/exchange/USDC/HUSD
-- base:
     currency_id: 1831
     currency_symbol: BCH
     currency_type: cryptocurrency
@@ -173,19 +159,19 @@ markets:
     exchange_symbol: HUSD
   url: https://www.hbg.com/en-us/exchange/bch_husd?invite_code=5kij5
 - base:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 2502
+    currency_symbol: HT
     currency_type: cryptocurrency
-    exchange_symbol: USDC
+    exchange_symbol: HT
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: USDC/HUSD
+  pair: HT/HUSD
   quote:
     currency_id: 4779
     currency_symbol: HUSD
     currency_type: cryptocurrency
     exchange_symbol: HUSD
-  url: https://www.hbg.com/en-us/exchange/usdc_husd?invite_code=5kij5
+  url: https://www.hbg.com/en-us/exchange/ht_husd?invite_code=5kij5
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -201,19 +187,19 @@ markets:
     exchange_symbol: HUSD
   url: https://www.hbtc.com/exchange/BTC/HUSD
 - base:
-    currency_id: 2502
-    currency_symbol: HT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: HT
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: HT/HUSD
+    exchange_symbol: ETH
+  exchange_id: 478
+  exchange_name: HBTC
+  pair: ETH/HUSD
   quote:
     currency_id: 4779
     currency_symbol: HUSD
     currency_type: cryptocurrency
     exchange_symbol: HUSD
-  url: https://www.hbg.com/en-us/exchange/ht_husd?invite_code=5kij5
+  url: https://www.hbtc.com/exchange/ETH/HUSD
 - base:
     currency_id: 52
     currency_symbol: XRP
@@ -243,19 +229,33 @@ markets:
     exchange_symbol: HUSD
   url: https://www.hbg.com/en-us/exchange/bsv_husd?invite_code=5kij5
 - base:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 3408
+    currency_symbol: USDC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 478
-  exchange_name: HBTC
-  pair: ETH/HUSD
+    exchange_symbol: USDC
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: USDC/HUSD
   quote:
     currency_id: 4779
     currency_symbol: HUSD
     currency_type: cryptocurrency
     exchange_symbol: HUSD
-  url: https://www.hbtc.com/exchange/ETH/HUSD
+  url: https://www.hbg.com/en-us/exchange/usdc_husd?invite_code=5kij5
+- base:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  exchange_id: 478
+  exchange_name: HBTC
+  pair: USDC/HUSD
+  quote:
+    currency_id: 4779
+    currency_symbol: HUSD
+    currency_type: cryptocurrency
+    exchange_symbol: HUSD
+  url: https://www.hbtc.com/exchange/USDC/HUSD
 - base:
     currency_id: 2
     currency_symbol: LTC
@@ -299,20 +299,6 @@ markets:
     exchange_symbol: HUSD
   url: https://www.hbg.com/en-us/exchange/ada_husd?invite_code=5kij5
 - base:
-    currency_id: 1321
-    currency_symbol: ETC
-    currency_type: cryptocurrency
-    exchange_symbol: ETC
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: ETC/HUSD
-  quote:
-    currency_id: 4779
-    currency_symbol: HUSD
-    currency_type: cryptocurrency
-    exchange_symbol: HUSD
-  url: https://www.hbg.com/en-us/exchange/etc_husd?invite_code=5kij5
-- base:
     currency_id: 2563
     currency_symbol: TUSD
     currency_type: cryptocurrency
@@ -327,20 +313,6 @@ markets:
     exchange_symbol: HUSD
   url: https://www.hbg.com/en-us/exchange/tusd_husd?invite_code=5kij5
 - base:
-    currency_id: 512
-    currency_symbol: XLM
-    currency_type: cryptocurrency
-    exchange_symbol: XLM
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: XLM/HUSD
-  quote:
-    currency_id: 4779
-    currency_symbol: HUSD
-    currency_type: cryptocurrency
-    exchange_symbol: HUSD
-  url: https://www.hbg.com/en-us/exchange/xlm_husd?invite_code=5kij5
-- base:
     currency_id: 131
     currency_symbol: DASH
     currency_type: cryptocurrency
@@ -354,6 +326,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: HUSD
   url: https://www.hbg.com/en-us/exchange/dash_husd?invite_code=5kij5
+- base:
+    currency_id: 1321
+    currency_symbol: ETC
+    currency_type: cryptocurrency
+    exchange_symbol: ETC
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: ETC/HUSD
+  quote:
+    currency_id: 4779
+    currency_symbol: HUSD
+    currency_type: cryptocurrency
+    exchange_symbol: HUSD
+  url: https://www.hbg.com/en-us/exchange/etc_husd?invite_code=5kij5
+- base:
+    currency_id: 512
+    currency_symbol: XLM
+    currency_type: cryptocurrency
+    exchange_symbol: XLM
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: XLM/HUSD
+  quote:
+    currency_id: 4779
+    currency_symbol: HUSD
+    currency_type: cryptocurrency
+    exchange_symbol: HUSD
+  url: https://www.hbg.com/en-us/exchange/xlm_husd?invite_code=5kij5
 - base:
     currency_id: 4779
     currency_symbol: HUSD
@@ -397,7 +397,7 @@ markets:
     exchange_symbol: HUSD
   url: https://www.hotbit.io/exchange?symbol=HT_HUSD
 name: HUSD
-rank: 60
+rank: 58
 slug: husd
 status: active
 symbol: HUSD

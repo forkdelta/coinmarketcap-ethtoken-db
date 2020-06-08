@@ -28,20 +28,6 @@ markets:
     currency_symbol: EDG
     currency_type: cryptocurrency
     exchange_symbol: EDG
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: EDG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-EDG
-- base:
-    currency_id: 1596
-    currency_symbol: EDG
-    currency_type: cryptocurrency
-    exchange_symbol: EDG
   exchange_id: 107
   exchange_name: Livecoin
   pair: EDG/BTC
@@ -51,6 +37,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.livecoin.net/en/trading/EDG_BTC
+- base:
+    currency_id: 1596
+    currency_symbol: EDG
+    currency_type: cryptocurrency
+    exchange_symbol: EDG
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: EDG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-EDG
 - base:
     currency_id: 1596
     currency_symbol: EDG
@@ -72,20 +72,6 @@ markets:
     exchange_symbol: EDG
   exchange_id: 42
   exchange_name: HitBTC
-  pair: EDG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/EDG-to-USDT
-- base:
-    currency_id: 1596
-    currency_symbol: EDG
-    currency_type: cryptocurrency
-    exchange_symbol: EDG
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: EDG/ETH
   quote:
     currency_id: 1027
@@ -93,8 +79,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/EDG-to-ETH
+- base:
+    currency_id: 1596
+    currency_symbol: EDG
+    currency_type: cryptocurrency
+    exchange_symbol: EDG
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: EDG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/EDG-to-USDT
 name: Edgeless
-rank: 986
+rank: 1000
 slug: edgeless
 status: active
 symbol: EDG

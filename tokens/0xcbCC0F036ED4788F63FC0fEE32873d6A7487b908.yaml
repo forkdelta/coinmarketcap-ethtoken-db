@@ -28,6 +28,20 @@ markets:
     currency_symbol: HMQ
     currency_type: cryptocurrency
     exchange_symbol: HMQ
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: HMQ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitforex.com/en/spot/hmq_btc
+- base:
+    currency_id: 1669
+    currency_symbol: HMQ
+    currency_type: cryptocurrency
+    exchange_symbol: HMQ
   exchange_id: 213
   exchange_name: Mercatox
   pair: HMQ/BTC
@@ -70,15 +84,29 @@ markets:
     currency_symbol: HMQ
     currency_type: cryptocurrency
     exchange_symbol: HMQ
-  exchange_id: 403
-  exchange_name: BitForex
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: HMQ/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bitforex.com/en/spot/hmq_btc
+  url: https://hitbtc.com/HMQ-to-BTC
+- base:
+    currency_id: 1669
+    currency_symbol: HMQ
+    currency_type: cryptocurrency
+    exchange_symbol: HMQ
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: HMQ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/HMQ-to-ETH
 - base:
     currency_id: 1669
     currency_symbol: HMQ
@@ -112,34 +140,6 @@ markets:
     currency_symbol: HMQ
     currency_type: cryptocurrency
     exchange_symbol: HMQ
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: HMQ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/HMQ-to-BTC
-- base:
-    currency_id: 1669
-    currency_symbol: HMQ
-    currency_type: cryptocurrency
-    exchange_symbol: HMQ
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: HMQ/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/HMQ-to-ETH
-- base:
-    currency_id: 1669
-    currency_symbol: HMQ
-    currency_type: cryptocurrency
-    exchange_symbol: HMQ
   exchange_id: 310
   exchange_name: IDEX
   pair: HMQ/ETH
@@ -150,7 +150,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/hmq
 name: Humaniq
-rank: 922
+rank: 946
 slug: humaniq
 status: active
 symbol: HMQ
