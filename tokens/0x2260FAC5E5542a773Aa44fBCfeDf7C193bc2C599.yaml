@@ -78,20 +78,6 @@ markets:
     exchange_symbol: WBTC
   exchange_id: 37
   exchange_name: Bitfinex
-  pair: WBTC/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/WBTC:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 3717
-    currency_symbol: WBTC
-    currency_type: cryptocurrency
-    exchange_symbol: WBTC
-  exchange_id: 37
-  exchange_name: Bitfinex
   pair: WBTC/ETH
   quote:
     currency_id: 1027
@@ -99,6 +85,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitfinex.com/t/WBTC:ETH?refcode=H70YTMupQ
+- base:
+    currency_id: 3717
+    currency_symbol: WBTC
+    currency_type: cryptocurrency
+    exchange_symbol: WBTC
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: WBTC/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/WBTC:USD?refcode=H70YTMupQ
 - base:
     currency_id: 3717
     currency_symbol: WBTC
@@ -184,7 +184,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/WBTC/WETH
 name: Wrapped Bitcoin
-rank: 313
+rank: 316
 slug: wrapped-bitcoin
 status: active
 symbol: WBTC

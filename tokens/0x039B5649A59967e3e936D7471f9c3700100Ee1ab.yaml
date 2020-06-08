@@ -40,6 +40,20 @@ markets:
     currency_symbol: KCS
     currency_type: cryptocurrency
     exchange_symbol: KCS
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: KCS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/KCS-BTC
+- base:
+    currency_id: 2087
+    currency_symbol: KCS
+    currency_type: cryptocurrency
+    exchange_symbol: KCS
   exchange_id: 453
   exchange_name: BitMax
   pair: KCS/BTC
@@ -63,20 +77,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bitmax.io/#/trade/usdt/kcs
-- base:
-    currency_id: 2087
-    currency_symbol: KCS
-    currency_type: cryptocurrency
-    exchange_symbol: KCS
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: KCS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/KCS-BTC
 - base:
     currency_id: 2087
     currency_symbol: KCS
@@ -204,20 +204,6 @@ markets:
     exchange_symbol: KCS
   url: https://www.kucoin.com/trade/EOS-KCS
 - base:
-    currency_id: 2556
-    currency_symbol: CS
-    currency_type: cryptocurrency
-    exchange_symbol: CS
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CS/KCS
-  quote:
-    currency_id: 2087
-    currency_symbol: KCS
-    currency_type: cryptocurrency
-    exchange_symbol: KCS
-  url: https://www.kucoin.com/trade/CS-KCS
-- base:
     currency_id: 3853
     currency_symbol: MTV
     currency_type: cryptocurrency
@@ -231,6 +217,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: KCS
   url: https://www.kucoin.com/trade/MTV-KCS
+- base:
+    currency_id: 2556
+    currency_symbol: CS
+    currency_type: cryptocurrency
+    exchange_symbol: CS
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CS/KCS
+  quote:
+    currency_id: 2087
+    currency_symbol: KCS
+    currency_type: cryptocurrency
+    exchange_symbol: KCS
+  url: https://www.kucoin.com/trade/CS-KCS
 - base:
     currency_id: 2861
     currency_symbol: GO
@@ -246,7 +246,7 @@ markets:
     exchange_symbol: KCS
   url: https://www.kucoin.com/trade/GO-KCS
 name: KuCoin Shares
-rank: 75
+rank: 78
 slug: kucoin-shares
 status: active
 symbol: KCS

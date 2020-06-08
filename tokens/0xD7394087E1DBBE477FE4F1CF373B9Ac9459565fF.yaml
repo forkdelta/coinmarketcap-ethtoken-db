@@ -51,20 +51,6 @@ markets:
     currency_symbol: RET
     currency_type: cryptocurrency
     exchange_symbol: RET
-  exchange_id: 542
-  exchange_name: Bitsonic
-  pair: RET/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://bitsonic.co.kr/front/exchange/ret-krw
-- base:
-    currency_id: 3280
-    currency_symbol: RET
-    currency_type: cryptocurrency
-    exchange_symbol: RET
   exchange_id: 452
   exchange_name: Coineal
   pair: RET/BTC
@@ -74,6 +60,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hk.coineal.com/trade_center.html?s=ret-btc#en_US
+- base:
+    currency_id: 3280
+    currency_symbol: RET
+    currency_type: cryptocurrency
+    exchange_symbol: RET
+  exchange_id: 542
+  exchange_name: Bitsonic
+  pair: RET/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://bitsonic.co.kr/front/exchange/ret-krw
 - base:
     currency_id: 3280
     currency_symbol: RET
@@ -89,7 +89,7 @@ markets:
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/RET/BTC
 name: RealTract
-rank: 930
+rank: 936
 slug: realtract
 status: active
 symbol: RET

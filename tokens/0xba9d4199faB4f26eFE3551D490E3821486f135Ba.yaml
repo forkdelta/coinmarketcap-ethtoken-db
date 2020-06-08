@@ -97,20 +97,6 @@ markets:
     currency_symbol: CHSB
     currency_type: cryptocurrency
     exchange_symbol: CHSB
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: CHSB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/CHSB/BTC
-- base:
-    currency_id: 2499
-    currency_symbol: CHSB
-    currency_type: cryptocurrency
-    exchange_symbol: CHSB
   exchange_id: 310
   exchange_name: IDEX
   pair: CHSB/ETH
@@ -120,6 +106,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/chsb
+- base:
+    currency_id: 2499
+    currency_symbol: CHSB
+    currency_type: cryptocurrency
+    exchange_symbol: CHSB
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: CHSB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/CHSB/BTC
 - base:
     currency_id: 2499
     currency_symbol: CHSB
@@ -135,7 +135,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: SwissBorg
-rank: 128
+rank: 122
 slug: swissborg
 status: active
 symbol: CHSB

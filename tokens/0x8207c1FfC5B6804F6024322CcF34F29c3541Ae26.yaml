@@ -190,20 +190,6 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: OGN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/ogn-eth
-- base:
-    currency_id: 5117
-    currency_symbol: OGN
-    currency_type: cryptocurrency
-    exchange_symbol: OGN
   exchange_id: 949
   exchange_name: CoinDCX
   pair: OGN/BTC
@@ -218,29 +204,15 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: OGN/USDT
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: OGN/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/OGNUSDT
-- base:
-    currency_id: 5117
-    currency_symbol: OGN
-    currency_type: cryptocurrency
-    exchange_symbol: OGN
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: OGN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-OGN
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/ogn-eth
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -260,6 +232,20 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: OGN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-OGN
+- base:
+    currency_id: 5117
+    currency_symbol: OGN
+    currency_type: cryptocurrency
+    exchange_symbol: OGN
   exchange_id: 335
   exchange_name: GOPAX
   pair: OGN/KRW
@@ -269,6 +255,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.gopax.co.kr/exchange/ogn-krw
+- base:
+    currency_id: 5117
+    currency_symbol: OGN
+    currency_type: cryptocurrency
+    exchange_symbol: OGN
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: OGN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/OGNUSDT
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -284,7 +284,7 @@ markets:
     exchange_symbol: IDR
   url: https://tokocrypto.com/en/dashboard/OGNIDR
 name: Origin Protocol
-rank: 193
+rank: 198
 slug: origin-protocol
 status: active
 symbol: OGN

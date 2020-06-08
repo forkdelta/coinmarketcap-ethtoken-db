@@ -33,20 +33,6 @@ markets:
     currency_symbol: WABI
     currency_type: cryptocurrency
     exchange_symbol: WABI
-  exchange_id: 270
-  exchange_name: Binance
-  pair: WABI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/WABI_BTC?ref=H31B921U
-- base:
-    currency_id: 2267
-    currency_symbol: WABI
-    currency_type: cryptocurrency
-    exchange_symbol: WABI
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: WABI/BTC
@@ -56,6 +42,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=WABI_BTC
+- base:
+    currency_id: 2267
+    currency_symbol: WABI
+    currency_type: cryptocurrency
+    exchange_symbol: WABI
+  exchange_id: 270
+  exchange_name: Binance
+  pair: WABI/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/WABI_BTC?ref=H31B921U
 - base:
     currency_id: 2267
     currency_symbol: WABI
@@ -117,20 +117,6 @@ markets:
     currency_symbol: WABI
     currency_type: cryptocurrency
     exchange_symbol: WABI
-  exchange_id: 36
-  exchange_name: CEX.IO
-  pair: WABI/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://cex.io/#wabi-usd
-- base:
-    currency_id: 2267
-    currency_symbol: WABI
-    currency_type: cryptocurrency
-    exchange_symbol: WABI
   exchange_id: 849
   exchange_name: Bidesk
   pair: WABI/BTC
@@ -159,6 +145,20 @@ markets:
     currency_symbol: WABI
     currency_type: cryptocurrency
     exchange_symbol: WABI
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: WABI/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://app.liquid.com/exchange/WABIUSD?affiliate=eNgws23g761816
+- base:
+    currency_id: 2267
+    currency_symbol: WABI
+    currency_type: cryptocurrency
+    exchange_symbol: WABI
   exchange_id: 849
   exchange_name: Bidesk
   pair: WABI/USDT
@@ -173,15 +173,15 @@ markets:
     currency_symbol: WABI
     currency_type: cryptocurrency
     exchange_symbol: WABI
-  exchange_id: 112
-  exchange_name: Liquid
+  exchange_id: 36
+  exchange_name: CEX.IO
   pair: WABI/USD
   quote:
     currency_id: 2781
     currency_symbol: USD
     currency_type: fiat
     exchange_symbol: USD
-  url: https://app.liquid.com/exchange/WABIUSD?affiliate=eNgws23g761816
+  url: https://cex.io/#wabi-usd
 - base:
     currency_id: 2267
     currency_symbol: WABI
@@ -239,7 +239,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/wabi
 name: Tael
-rank: 338
+rank: 348
 slug: tael
 status: active
 symbol: WABI
