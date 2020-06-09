@@ -23,20 +23,6 @@ markets:
     currency_symbol: PASS
     currency_type: cryptocurrency
     exchange_symbol: PASS
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: PASS/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/PASS:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 3141
-    currency_symbol: PASS
-    currency_type: cryptocurrency
-    exchange_symbol: PASS
   exchange_id: 42
   exchange_name: HitBTC
   pair: PASS/BTC
@@ -60,8 +46,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/PASS-to-ETH
+- base:
+    currency_id: 3141
+    currency_symbol: PASS
+    currency_type: cryptocurrency
+    exchange_symbol: PASS
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: PASS/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/PASS:USD?refcode=H70YTMupQ
 name: Blockpass
-rank: 1379
+rank: 1401
 slug: blockpass
 status: active
 symbol: PASS

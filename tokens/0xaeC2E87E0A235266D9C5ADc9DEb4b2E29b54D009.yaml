@@ -38,20 +38,6 @@ markets:
     currency_symbol: SNGLS
     currency_type: cryptocurrency
     exchange_symbol: SNGLS
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: SNGLS/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/SNGLS:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 1409
-    currency_symbol: SNGLS
-    currency_type: cryptocurrency
-    exchange_symbol: SNGLS
   exchange_id: 949
   exchange_name: CoinDCX
   pair: SNGLS/BTC
@@ -66,15 +52,15 @@ markets:
     currency_symbol: SNGLS
     currency_type: cryptocurrency
     exchange_symbol: SNGLS
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: SNGLS/BTC
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: SNGLS/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/SNGLS_BTC
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/SNGLS:USD?refcode=H70YTMupQ
 - base:
     currency_id: 1409
     currency_symbol: SNGLS
@@ -89,6 +75,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/SNGLS-to-BTC
+- base:
+    currency_id: 1409
+    currency_symbol: SNGLS
+    currency_type: cryptocurrency
+    exchange_symbol: SNGLS
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: SNGLS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/SNGLS_BTC
 - base:
     currency_id: 1409
     currency_symbol: SNGLS
@@ -118,7 +118,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.chaoex.com/dealcenter
 name: SingularDTV
-rank: 421
+rank: 430
 slug: singulardtv
 status: active
 symbol: SNGLS

@@ -15,20 +15,6 @@ markets:
     currency_symbol: WETH
     currency_type: cryptocurrency
     exchange_symbol: WETH
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: WETH/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 2396
-    currency_symbol: WETH
-    currency_type: cryptocurrency
-    exchange_symbol: WETH
   exchange_id: 404
   exchange_name: Kyber Network
   pair: WETH/ETH
@@ -38,6 +24,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/weth-eth
+- base:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: WETH/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 - base:
     currency_id: 3408
     currency_symbol: USDC
@@ -52,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: WETH
   url: https://app.radarrelay.com/USDC/WETH
+- base:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  exchange_id: 348
+  exchange_name: Radar Relay
+  pair: WETH/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://app.radarrelay.com/WETH/DAI
 - base:
     currency_id: 1896
     currency_symbol: ZRX
@@ -290,22 +304,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: WETH
   url: https://app.radarrelay.com/FOAM/WETH
-- base:
-    currency_id: 2396
-    currency_symbol: WETH
-    currency_type: cryptocurrency
-    exchange_symbol: WETH
-  exchange_id: 348
-  exchange_name: Radar Relay
-  pair: WETH/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://app.radarrelay.com/WETH/DAI
 name: WETH
-rank: 2256
+rank: 2240
 slug: weth
 status: active
 symbol: WETH

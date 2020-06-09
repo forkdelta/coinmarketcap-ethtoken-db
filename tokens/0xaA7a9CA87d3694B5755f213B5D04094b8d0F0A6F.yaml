@@ -29,20 +29,6 @@ markets:
     currency_symbol: TRAC
     currency_type: cryptocurrency
     exchange_symbol: TRAC
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: TRAC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/TRAC-BTC
-- base:
-    currency_id: 2467
-    currency_symbol: TRAC
-    currency_type: cryptocurrency
-    exchange_symbol: TRAC
   exchange_id: 22
   exchange_name: Bittrex
   pair: TRAC/BTC
@@ -52,6 +38,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-TRAC
+- base:
+    currency_id: 2467
+    currency_symbol: TRAC
+    currency_type: cryptocurrency
+    exchange_symbol: TRAC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: TRAC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/TRAC-BTC
 - base:
     currency_id: 2467
     currency_symbol: TRAC
@@ -95,7 +95,7 @@ markets:
     exchange_symbol: ETH
   url: https://hitbtc.com/TRAC-to-ETH
 name: OriginTrail
-rank: 180
+rank: 186
 slug: origintrail
 status: active
 symbol: TRAC

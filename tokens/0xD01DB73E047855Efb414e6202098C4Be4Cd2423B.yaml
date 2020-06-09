@@ -75,20 +75,6 @@ markets:
     exchange_symbol: UQC
   url: https://omgfin.com/exchange/trade/market/XRPUQC
 - base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: REP/UQC
-  quote:
-    currency_id: 2273
-    currency_symbol: UQC
-    currency_type: cryptocurrency
-    exchange_symbol: UQC
-  url: https://omgfin.com/exchange/trade/market/REPUQC
-- base:
     currency_id: 1975
     currency_symbol: LINK
     currency_type: cryptocurrency
@@ -102,6 +88,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: UQC
   url: https://omgfin.com/exchange/trade/market/LINKUQC
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: REP/UQC
+  quote:
+    currency_id: 2273
+    currency_symbol: UQC
+    currency_type: cryptocurrency
+    exchange_symbol: UQC
+  url: https://omgfin.com/exchange/trade/market/REPUQC
 - base:
     currency_id: 3408
     currency_symbol: USDC
@@ -221,20 +221,6 @@ markets:
     exchange_symbol: UQC
   exchange_id: 107
   exchange_name: Livecoin
-  pair: UQC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/UQC_BTC
-- base:
-    currency_id: 2273
-    currency_symbol: UQC
-    currency_type: cryptocurrency
-    exchange_symbol: UQC
-  exchange_id: 107
-  exchange_name: Livecoin
   pair: UQC/USDT
   quote:
     currency_id: 825
@@ -242,6 +228,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.livecoin.net/en/trading/UQC_USDT
+- base:
+    currency_id: 2273
+    currency_symbol: UQC
+    currency_type: cryptocurrency
+    exchange_symbol: UQC
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: UQC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/UQC_BTC
 - base:
     currency_id: 2273
     currency_symbol: UQC
@@ -257,7 +257,7 @@ markets:
     exchange_symbol: BTC
   url: https://topbtc.com/home/Market/index/market/BTC/coin/UQC.html
 name: Uquid Coin
-rank: 298
+rank: 306
 slug: uquid-coin
 status: active
 symbol: UQC

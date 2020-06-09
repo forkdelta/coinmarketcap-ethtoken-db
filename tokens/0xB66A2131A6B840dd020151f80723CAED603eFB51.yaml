@@ -21,20 +21,6 @@ markets:
     exchange_symbol: NNB
   exchange_id: 350
   exchange_name: CoinEx
-  pair: NNB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=nnb&tab=limit
-- base:
-    currency_id: 3937
-    currency_symbol: NNB
-    currency_type: cryptocurrency
-    exchange_symbol: NNB
-  exchange_id: 350
-  exchange_name: CoinEx
   pair: NNB/CET
   quote:
     currency_id: 2941
@@ -42,6 +28,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: CET
   url: https://www.coinex.com/trading?currency=cet&dest=nnb&tab=limit
+- base:
+    currency_id: 3937
+    currency_symbol: NNB
+    currency_type: cryptocurrency
+    exchange_symbol: NNB
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: NNB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=nnb&tab=limit
 - base:
     currency_id: 3937
     currency_symbol: NNB
@@ -85,7 +85,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.chaoex.com/dealcenter
 name: NNB Token
-rank: 2153
+rank: 2147
 slug: nnb-token
 status: active
 symbol: NNB
