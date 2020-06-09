@@ -52,20 +52,6 @@ markets:
     exchange_symbol: NEC
   exchange_id: 37
   exchange_name: Bitfinex
-  pair: NEC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/NEC:BTC?refcode=H70YTMupQ
-- base:
-    currency_id: 2538
-    currency_symbol: NEC
-    currency_type: cryptocurrency
-    exchange_symbol: NEC
-  exchange_id: 37
-  exchange_name: Bitfinex
   pair: NEC/ETH
   quote:
     currency_id: 1027
@@ -73,11 +59,25 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitfinex.com/t/NEC:ETH?refcode=H70YTMupQ
+- base:
+    currency_id: 2538
+    currency_symbol: NEC
+    currency_type: cryptocurrency
+    exchange_symbol: NEC
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: NEC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/NEC:BTC?refcode=H70YTMupQ
 name: Nectar
 notice: Please be aware that Nectar tokens were initially distributed via the Ethfinex exchange and the
   majority of tokens are still held on the exchange, only those tokens which have been withdrawn and are
   transferable on the Ethereum blockchain are included in the circulating supply calculation.
-rank: 396
+rank: 422
 slug: nectar
 status: active
 symbol: NEC

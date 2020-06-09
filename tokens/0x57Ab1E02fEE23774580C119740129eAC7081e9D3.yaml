@@ -41,20 +41,6 @@ markets:
     exchange_symbol: SUSD
   exchange_id: 311
   exchange_name: KuCoin
-  pair: SUSD/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/SUSD-BTC
-- base:
-    currency_id: 2927
-    currency_symbol: SUSD
-    currency_type: cryptocurrency
-    exchange_symbol: SUSD
-  exchange_id: 311
-  exchange_name: KuCoin
   pair: SUSD/USDT
   quote:
     currency_id: 825
@@ -62,6 +48,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.kucoin.com/trade/SUSD-USDT
+- base:
+    currency_id: 2927
+    currency_symbol: SUSD
+    currency_type: cryptocurrency
+    exchange_symbol: SUSD
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: SUSD/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/SUSD-BTC
 - base:
     currency_id: 2927
     currency_symbol: SUSD
@@ -77,7 +77,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.kucoin.com/trade/SUSD-ETH
 name: sUSD
-rank: 424
+rank: 426
 slug: susd
 status: active
 symbol: SUSD

@@ -2,15 +2,36 @@
 address: '0xd26114cd6EE289AccF82350c8d8487fedB8A0C07'
 category: token
 date_added: '2017-07-14T00:00:00.000Z'
-description: "OmiseGO believes that having access to financial services can create economic opportunities\
-  \ and improve lives. OmiseGO was established with a mission to enable people to securely offer and access\
-  \ financial services, as well as exchange and spend digital assets anytime and anywhere. \n\nThe permissionless\
-  \ OmiseGO Network aims to enable instant, peer-to-peer transactions in real-time, facilitating financial\
-  \ services across geographies, asset classes, and applications. The OmiseGO eWallet Suite allows users\
-  \ to build and integrate a front-end interface for different types of digital transactions. \n\nIts\
-  \ team offers tailored and technical consulting services to provide future-ready solutions for an increasingly\
-  \ digitalized economy. Founded in 2017, OmiseGO is headquartered in Bangkok and is a subsidiary of Omise\
-  \ Holdings Pte., Ltd."
+description: 'OMG Network (first developed as OmiseGO) is a non-custodial, Layer 2 scaling solution for
+  transferring value on Ethereum. How the protocol processes transactions is centralized, but its Plasma-based
+  design aims to decentralize network security. It also relies on Ethereum at its final arbitration layer.
+  Most blockchain ecosystems are limited by low throughput, high and unpredictable transaction fees, and
+  poor user experience. The project''s team believes these are barriers that need to be overcome before
+  businesses and developers will adopt blockchain for real-world applications, leading them to develop
+  the OMG Network.
+
+
+  The core security proposition of Plasma revolves around honest users being able to exit the child chain
+  (in other words, withdraw funds to the root chain) at any time. To exit the child chain, a user submits
+  an exit transaction – along with an exit bond – to the root chain. The exit is subject to a "challenge
+  period," during which any user can prove, if applicable, that the exit is invalid. If successfully shown
+  to be invalid, the exit is not processed, and the challenger is awarded the exit bond. This exit game
+  is solely dependent on the root chain.
+
+
+  As the child chain relies on the root chain to be its ultimate arbiter, it must periodically commit
+  a hashed version of its state changes to the root chain by way of a smart contract. As opposed to submitting
+  individual transaction data onto the root chain, the child chain bundles transactions into a Merkle
+  tree and submits the root hash. Beyond these core elements, there is no prescribed configuration for
+  a Plasma chain. They can take on different consensus protocols, block validation mechanisms, or fraud
+  proofs. The design is adaptable to the use case. OMG Network is based on the Plasma MoreVP design, an
+  extension of Minimum Viable Plasma optimized for the settlement of payments and value exchange between
+  users and exchanges.
+
+
+  The original OMG Network team (under the OmiseGO name) co-authored the original Plasma white paper with
+  Joseph Poon and was also the first project to perform an airdrop, a way to more widely share ownership
+  of our token with the existing Ethereum community.'
 id: 1808
 links:
   chat:
@@ -33,6 +54,34 @@ links:
   - https://omg.network/
   - https://omisego.co/
 markets:
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 398
+  exchange_name: DragonEX
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://dragonex.io
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 442
+  exchange_name: Coinbit
+  pair: OMG/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.coinbit.co.kr/trade/order/krw-omg
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -66,15 +115,15 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 398
-  exchange_name: DragonEX
-  pair: OMG/USDT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: OMG/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://dragonex.io
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=omg_btc
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -94,20 +143,6 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bibox.com/exchange?coinPair=OMG_USDT
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
   exchange_id: 497
   exchange_name: Bione
   pair: OMG/BTC
@@ -117,20 +152,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bione.cc/index/trade/index/market/omg_btc
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: OMG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=omg_btc
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -150,15 +171,15 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 442
-  exchange_name: Coinbit
-  pair: OMG/KRW
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: OMG/USDT
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.coinbit.co.kr/trade/order/krw-omg
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bibox.com/exchange?coinPair=OMG_USDT
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -178,76 +199,6 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/OMG-to-USDT
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 857
-  exchange_name: Bitcoin.com
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: null
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: OMG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitmart.com/trade?symbol=OMG_ETH
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/omg_usdt?invite_code=5kij5
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 615
-  exchange_name: Binance JEX
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.jex.com/en/spot
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
   exchange_id: 497
   exchange_name: Bione
   pair: OMG/USDT
@@ -262,29 +213,15 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 544
-  exchange_name: MXC
-  pair: OMG/USDT
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: OMG/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.mxc.com/trade/easy#OMG_USDT
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trans.zb.com/omgusdt
+    exchange_symbol: ETH
+  url: https://www.bitmart.com/trade?symbol=OMG_ETH
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -318,29 +255,57 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: OMG/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://pro.coinbase.com/trade/OMG-USD
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 294
-  exchange_name: OKEx
+  exchange_id: 415
+  exchange_name: Bilaxy
   pair: OMG/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.okex.com/market?product=omg_usdt
+  url: https://bilaxy.com/trade/OMG_USDT
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 544
+  exchange_name: MXC
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.mxc.com/trade/easy#OMG_USDT
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/omg_usdt?invite_code=5kij5
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 615
+  exchange_name: Binance JEX
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.jex.com/en/spot
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -355,6 +320,118 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://sistemkoin.com/#/
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://trans.zb.com/omgusdt
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/OMG-to-USDT
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 857
+  exchange_name: Bitcoin.com
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: null
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 480
+  exchange_name: Cat.Ex
+  pair: OMG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.catex.io/trading/OMG/BTC
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: OMG/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://pro.coinbase.com/trade/OMG-USD
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 459
+  exchange_name: BW.com
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bw.com/trade/omg_usdt
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: OMG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://international.indoex.io/trade/OMG_ETH
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=omg_usdt
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -402,29 +479,29 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 480
-  exchange_name: Cat.Ex
+  exchange_id: 544
+  exchange_name: MXC
+  pair: OMG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.mxc.com/trade/easy#OMG_ETH
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 587
+  exchange_name: IndoEx
   pair: OMG/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.catex.io/trading/OMG/BTC
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bilaxy.com/trade/OMG_USDT
+  url: https://international.indoex.io/trade/OMG_BTC
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -458,57 +535,15 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 544
-  exchange_name: MXC
+  exchange_id: 480
+  exchange_name: Cat.Ex
   pair: OMG/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.mxc.com/trade/easy#OMG_ETH
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: OMG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://international.indoex.io/trade/OMG_ETH
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 270
-  exchange_name: Binance
-  pair: OMG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/OMG_BTC?ref=H31B921U
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 459
-  exchange_name: BW.com
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bw.com/trade/omg_usdt
+  url: https://www.catex.io/trading/OMG/ETH
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -528,43 +563,15 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 587
-  exchange_name: IndoEx
+  exchange_id: 270
+  exchange_name: Binance
   pair: OMG/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://international.indoex.io/trade/OMG_BTC
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 480
-  exchange_name: Cat.Ex
-  pair: OMG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.catex.io/trading/OMG/ETH
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: OMG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://sistemkoin.com/#/
+  url: https://www.binance.com/en/trade/OMG_BTC?ref=H31B921U
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -584,6 +591,20 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: OMG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://sistemkoin.com/#/
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
   exchange_id: 587
   exchange_name: IndoEx
   pair: OMG/USDT
@@ -598,43 +619,15 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 339
-  exchange_name: Bibox
+  exchange_id: 495
+  exchange_name: Folgory
   pair: OMG/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=OMG_BTC
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 323
-  exchange_name: RightBTC
-  pair: OMG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.rightbtc.com/trade/OMGBTC
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 468
-  exchange_name: OceanEx
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://oceanex.pro/trades/omgusdt?referral=GNWJRA&linkId=24150518
+  url: https://folgory.com/trade-crypto/OMG_BTC
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -642,13 +635,13 @@ markets:
     exchange_symbol: OMG
   exchange_id: 442
   exchange_name: Coinbit
-  pair: OMG/BTC
+  pair: OMG/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinbit.co.kr/trade/order/btc-omg
+    exchange_symbol: ETH
+  url: https://www.coinbit.co.kr/trade/order/eth-omg
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -668,15 +661,15 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: OMG/BTC
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: OMG/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=omg&tab=limit
+    exchange_symbol: USDT
+  url: https://folgory.com/trade-crypto/OMG_USDT
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -691,6 +684,90 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=OMGBTC
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 442
+  exchange_name: Coinbit
+  pair: OMG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinbit.co.kr/trade/order/btc-omg
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 468
+  exchange_name: OceanEx
+  pair: OMG/VET
+  quote:
+    currency_id: 3077
+    currency_symbol: VET
+    currency_type: cryptocurrency
+    exchange_symbol: VET
+  url: https://oceanex.pro/trades/omgvet?referral=GNWJRA&linkId=24150518
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 468
+  exchange_name: OceanEx
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://oceanex.pro/trades/omgusdt?referral=GNWJRA&linkId=24150518
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: OMG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=omg&tab=limit
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: OMG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/OMG:BTC?refcode=H70YTMupQ
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 535
+  exchange_name: ExMarkets
+  pair: OMG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exmarkets.com/trade/omg-btc
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -712,20 +789,6 @@ markets:
     exchange_symbol: OMG
   exchange_id: 89
   exchange_name: Coinbase Pro
-  pair: OMG/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://pro.coinbase.com/trade/OMG-EUR
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 89
-  exchange_name: Coinbase Pro
   pair: OMG/BTC
   quote:
     currency_id: 1
@@ -738,57 +801,15 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 442
-  exchange_name: Coinbit
-  pair: OMG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coinbit.co.kr/trade/order/eth-omg
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 468
-  exchange_name: OceanEx
-  pair: OMG/VET
-  quote:
-    currency_id: 3077
-    currency_symbol: VET
-    currency_type: cryptocurrency
-    exchange_symbol: VET
-  url: https://oceanex.pro/trades/omgvet?referral=GNWJRA&linkId=24150518
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: OMG/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/OMG:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 535
-  exchange_name: ExMarkets
+  exchange_id: 339
+  exchange_name: Bibox
   pair: OMG/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://exmarkets.com/trade/omg-btc
+  url: https://www.bibox.com/exchange?coinPair=OMG_BTC
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -808,127 +829,15 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: OMG/BTC
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: OMG/EUR
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/OMG:BTC?refcode=H70YTMupQ
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: OMG/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
+    currency_id: 2790
+    currency_symbol: EUR
     currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/OMGKRW
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: OMG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://folgory.com/trade-crypto/OMG_BTC
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: OMG/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-OMG
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://folgory.com/trade-crypto/OMG_USDT
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: OMG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://dex-trade.com/en?currencyIn=OMG&currencyTo=BTC
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 323
-  exchange_name: RightBTC
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.rightbtc.com/trade/OMGUSDT
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: OMG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=OMG_BTC
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: OMG/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://alterdice.com/trading/OMGUSD
+    exchange_symbol: EUR
+  url: https://pro.coinbase.com/trade/OMG-EUR
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -948,6 +857,48 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: OMG/GBP
+  quote:
+    currency_id: 2791
+    currency_symbol: GBP
+    currency_type: fiat
+    exchange_symbol: GBP
+  url: https://pro.coinbase.com/trade/OMG-GBP
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: OMG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://dex-trade.com/en?currencyIn=OMG&currencyTo=BTC
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: OMG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/omg_btc?invite_code=5kij5
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
   exchange_id: 473
   exchange_name: Hubi
   pair: OMG/BTC
@@ -962,15 +913,15 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: OMG/GBP
+  exchange_id: 323
+  exchange_name: RightBTC
+  pair: OMG/BTC
   quote:
-    currency_id: 2791
-    currency_symbol: GBP
-    currency_type: fiat
-    exchange_symbol: GBP
-  url: https://pro.coinbase.com/trade/OMG-GBP
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.rightbtc.com/trade/OMGBTC
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -1004,29 +955,29 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: OMG/QC
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: OMG/KRW
   quote:
-    currency_id: 2319
-    currency_symbol: QC
-    currency_type: cryptocurrency
-    exchange_symbol: QC
-  url: https://trans.zb.com/omgqc
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-OMG
 - base:
     currency_id: 1808
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 501
-  exchange_name: WhiteBIT
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: OMG/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://whitebit.com/trade/OMG_BTC
+  url: https://www.hotbit.io/exchange?symbol=OMG_BTC
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -1046,6 +997,76 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: OMG/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://alterdice.com/trading/OMGUSD
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 853
+  exchange_name: AAX
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.aax.com/spot/trade/OMG:USDT
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: OMG/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/OMGKRW
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: OMG/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/OMG:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 323
+  exchange_name: RightBTC
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.rightbtc.com/trade/OMGUSDT
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
   exchange_id: 391
   exchange_name: CoinTiger
   pair: OMG/USDT
@@ -1055,6 +1076,104 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.cointiger.com/en-us/#/trade_pro?coin=omg_usdt
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: OMG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://whitebit.com/trade/OMG_BTC
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: OMG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/OMG/BTC
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: OMG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://whitebit.com/trade/OMG_ETH
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitay.com/en/t/OMGUSDT
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: OMG/BCH
+  quote:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  url: https://www.coinex.com/trading?currency=bch&dest=omg&tab=limit
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: OMG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://mercatox.com/exchange/OMG/ETH
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: OMG/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://whitebit.com/trade/OMG_USD
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -1088,85 +1207,29 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: OMG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://whitebit.com/trade/OMG_ETH
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 853
-  exchange_name: AAX
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.aax.com/spot/trade/OMG:USDT
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 890
-  exchange_name: Bitay
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitay.com/en/t/OMGUSDT
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 270
-  exchange_name: Binance
-  pair: OMG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.binance.com/en/trade/OMG_ETH?ref=H31B921U
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: OMG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=OMG_ETH
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 213
-  exchange_name: Mercatox
+  exchange_id: 406
+  exchange_name: BitMart
   pair: OMG/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://mercatox.com/exchange/OMG/BTC
+  url: https://www.bitmart.com/trade?symbol=OMG_BTC
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 483
+  exchange_name: Hanbitco
+  pair: OMG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hanbitco.com/exchange-basic/omg_btc
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -1186,57 +1249,141 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: OMG/USD
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: OMG/ETH
   quote:
-    currency_id: 2781
-    currency_symbol: USD
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=OMG_ETH
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 535
+  exchange_name: ExMarkets
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://exmarkets.com/trade/omg-usdt
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 355
+  exchange_name: Vebitcoin
+  pair: OMG/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
     currency_type: fiat
-    exchange_symbol: USD
-  url: https://whitebit.com/trade/OMG_USD
+    exchange_symbol: TRY
+  url: https://www.vebitcoin.com/
 - base:
     currency_id: 1808
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: OMG/BTC
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: OMG/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/omg_btc?invite_code=5kij5
+    exchange_symbol: USDT
+  url: https://vindax.com/exchange-base.html?symbol=OMG_USDT
 - base:
     currency_id: 1808
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: OMG/BCH
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: OMG/ETH
   quote:
-    currency_id: 1831
-    currency_symbol: BCH
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BCH
-  url: https://www.coinex.com/trading?currency=bch&dest=omg&tab=limit
+    exchange_symbol: ETH
+  url: https://www.okex.com/market?product=omg_eth
 - base:
     currency_id: 1808
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: OMG/BTC
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: OMG/TRY
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.bitay.com/en/t/OMGTRY
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitmart.com/trade?symbol=OMG_BTC
+    exchange_symbol: OMG
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: OMG/QC
+  quote:
+    currency_id: 2319
+    currency_symbol: QC
+    currency_type: cryptocurrency
+    exchange_symbol: QC
+  url: https://trans.zb.com/omgqc
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: OMG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: OMG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.probit.com/app/exchange/OMG-USDT
+- base:
+    currency_id: 1808
+    currency_symbol: OMG
+    currency_type: cryptocurrency
+    exchange_symbol: OMG
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: OMG/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://trade.kraken.com/markets/kraken/omg/eur
 - base:
     currency_id: 1808
     currency_symbol: OMG
@@ -1270,20 +1417,6 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: OMG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/OMG/ETH
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
   exchange_id: 436
   exchange_name: Bitkub
   pair: OMG/THB
@@ -1298,141 +1431,29 @@ markets:
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 890
-  exchange_name: Bitay
-  pair: OMG/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.bitay.com/en/t/OMGTRY
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 433
-  exchange_name: Bitrue
+  exchange_id: 487
+  exchange_name: VinDAX
   pair: OMG/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.bitrue.com/trade/omg_eth
+  url: https://vindax.com/exchange-base.html?symbol=OMG_ETH
 - base:
     currency_id: 1808
     currency_symbol: OMG
     currency_type: cryptocurrency
     exchange_symbol: OMG
-  exchange_id: 483
-  exchange_name: Hanbitco
-  pair: OMG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hanbitco.com/exchange-basic/omg_btc
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 355
-  exchange_name: Vebitcoin
-  pair: OMG/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.vebitcoin.com/
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 294
-  exchange_name: OKEx
+  exchange_id: 270
+  exchange_name: Binance
   pair: OMG/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.okex.com/market?product=omg_eth
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: OMG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/omg-eth
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/omg_usdt/
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 485
-  exchange_name: CoinField
-  pair: OMG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trade.coinfield.com/pro/trade/OMG-USDT
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: OMG/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://trade.kraken.com/markets/kraken/omg/usd
-- base:
-    currency_id: 1808
-    currency_symbol: OMG
-    currency_type: cryptocurrency
-    exchange_symbol: OMG
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: OMG/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://trade.kraken.com/markets/kraken/omg/eur
+  url: https://www.binance.com/en/trade/OMG_ETH?ref=H31B921U
 name: OMG Network
 rank: 36
 slug: omg

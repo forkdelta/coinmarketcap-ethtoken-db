@@ -40,20 +40,6 @@ markets:
     exchange_symbol: NST
   exchange_id: 487
   exchange_name: VinDAX
-  pair: NST/VD
-  quote:
-    currency_id: 4119
-    currency_symbol: VD
-    currency_type: cryptocurrency
-    exchange_symbol: VD
-  url: https://vindax.com/exchange-base.html?symbol=NST_VD
-- base:
-    currency_id: 4975
-    currency_symbol: NST
-    currency_type: cryptocurrency
-    exchange_symbol: NST
-  exchange_id: 487
-  exchange_name: VinDAX
   pair: NST/BTC
   quote:
     currency_id: 1
@@ -61,6 +47,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vindax.com/exchange-base.html?symbol=NST_BTC
+- base:
+    currency_id: 4975
+    currency_symbol: NST
+    currency_type: cryptocurrency
+    exchange_symbol: NST
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: NST/VD
+  quote:
+    currency_id: 4119
+    currency_symbol: VD
+    currency_type: cryptocurrency
+    exchange_symbol: VD
+  url: https://vindax.com/exchange-base.html?symbol=NST_VD
 - base:
     currency_id: 4975
     currency_symbol: NST
@@ -76,7 +76,7 @@ markets:
     exchange_symbol: ETH
   url: https://crex24.com/exchange/NST-ETH
 name: Newsolution
-rank: 2457
+rank: 2470
 slug: newsolution
 status: active
 symbol: NST

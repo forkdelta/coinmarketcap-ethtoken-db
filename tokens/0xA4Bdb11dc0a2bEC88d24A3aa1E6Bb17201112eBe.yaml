@@ -32,20 +32,6 @@ markets:
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/USDS_USDT?ref=H31B921U
 - base:
-    currency_id: 4023
-    currency_symbol: BTCB
-    currency_type: cryptocurrency
-    exchange_symbol: BTCB-1DE
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: BTCB/USDS
-  quote:
-    currency_id: 3719
-    currency_symbol: USDS
-    currency_type: cryptocurrency
-    exchange_symbol: USDSB-1AC
-  url: https://www.binance.org/en/trade/BTCB-1DE_USDSB-1AC
-- base:
     currency_id: 3719
     currency_symbol: USDS
     currency_type: cryptocurrency
@@ -59,6 +45,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=usds
+- base:
+    currency_id: 3719
+    currency_symbol: USDS
+    currency_type: cryptocurrency
+    exchange_symbol: USDS
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: USDS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-USDS
 - base:
     currency_id: 3854
     currency_symbol: FUND
@@ -88,19 +88,33 @@ markets:
     exchange_symbol: USDSB-1AC
   url: https://www.binance.org/en/trade/BNB_USDSB-1AC
 - base:
+    currency_id: 4023
+    currency_symbol: BTCB
+    currency_type: cryptocurrency
+    exchange_symbol: BTCB-1DE
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: BTCB/USDS
+  quote:
     currency_id: 3719
     currency_symbol: USDS
     currency_type: cryptocurrency
-    exchange_symbol: USDS
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: USDS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
+    exchange_symbol: USDSB-1AC
+  url: https://www.binance.org/en/trade/BTCB-1DE_USDSB-1AC
+- base:
+    currency_id: 4036
+    currency_symbol: COS
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-USDS
+    exchange_symbol: COS-2E4
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: COS/USDS
+  quote:
+    currency_id: 3719
+    currency_symbol: USDS
+    currency_type: cryptocurrency
+    exchange_symbol: USDSB-1AC
+  url: https://www.binance.org/en/trade/COS-2E4_USDSB-1AC
 - base:
     currency_id: 3945
     currency_symbol: ONE
@@ -129,22 +143,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDS
   url: https://crex24.com/exchange/BTC-USDS
-- base:
-    currency_id: 4036
-    currency_symbol: COS
-    currency_type: cryptocurrency
-    exchange_symbol: COS-2E4
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: COS/USDS
-  quote:
-    currency_id: 3719
-    currency_symbol: USDS
-    currency_type: cryptocurrency
-    exchange_symbol: USDSB-1AC
-  url: https://www.binance.org/en/trade/COS-2E4_USDSB-1AC
 name: StableUSD
-rank: 1085
+rank: 1087
 slug: stableusd
 status: active
 symbol: USDS

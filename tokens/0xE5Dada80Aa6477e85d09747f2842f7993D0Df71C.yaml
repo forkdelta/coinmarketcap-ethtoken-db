@@ -153,6 +153,20 @@ markets:
     currency_symbol: DOCK
     currency_type: cryptocurrency
     exchange_symbol: DOCK
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: DOCK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/dock_usdt
+- base:
+    currency_id: 2675
+    currency_symbol: DOCK
+    currency_type: cryptocurrency
+    exchange_symbol: DOCK
   exchange_id: 656
   exchange_name: Omgfin
   pair: DOCK/BTC
@@ -162,6 +176,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://omgfin.com/exchange/trade/market/DOCKBTC
+- base:
+    currency_id: 2675
+    currency_symbol: DOCK
+    currency_type: cryptocurrency
+    exchange_symbol: DOCK
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: DOCK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/DOCK-BTC
 - base:
     currency_id: 2675
     currency_symbol: DOCK
@@ -204,34 +232,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coindcx.com/trade/DOCKBTC
-- base:
-    currency_id: 2675
-    currency_symbol: DOCK
-    currency_type: cryptocurrency
-    exchange_symbol: DOCK
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: DOCK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/dock_usdt
-- base:
-    currency_id: 2675
-    currency_symbol: DOCK
-    currency_type: cryptocurrency
-    exchange_symbol: DOCK
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: DOCK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/DOCK-BTC
 - base:
     currency_id: 2675
     currency_symbol: DOCK
@@ -303,7 +303,7 @@ markets:
     exchange_symbol: USDT
   url: https://coindcx.com/trade/DOCKUSDT
 name: Dock
-rank: 571
+rank: 565
 slug: dock
 status: active
 symbol: DOCK

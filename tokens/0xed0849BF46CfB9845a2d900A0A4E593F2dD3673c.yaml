@@ -28,20 +28,6 @@ markets:
     exchange_symbol: SGA
   exchange_id: 489
   exchange_name: Bithumb Global
-  pair: SGA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=SGA_BTC
-- base:
-    currency_id: 5010
-    currency_symbol: SGA
-    currency_type: cryptocurrency
-    exchange_symbol: SGA
-  exchange_id: 489
-  exchange_name: Bithumb Global
   pair: SGA/ETH
   quote:
     currency_id: 1027
@@ -68,15 +54,15 @@ markets:
     currency_symbol: SGA
     currency_type: cryptocurrency
     exchange_symbol: SGA
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: SGA/USD
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: SGA/BTC
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://app.liquid.com/exchange/SGAUSD?affiliate=eNgws23g761816
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=SGA_BTC
 - base:
     currency_id: 5010
     currency_symbol: SGA
@@ -98,6 +84,20 @@ markets:
     exchange_symbol: SGA
   exchange_id: 112
   exchange_name: Liquid
+  pair: SGA/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://app.liquid.com/exchange/SGAUSD?affiliate=eNgws23g761816
+- base:
+    currency_id: 5010
+    currency_symbol: SGA
+    currency_type: cryptocurrency
+    exchange_symbol: SGA
+  exchange_id: 112
+  exchange_name: Liquid
   pair: SGA/BTC
   quote:
     currency_id: 1
@@ -106,7 +106,7 @@ markets:
     exchange_symbol: BTC
   url: https://app.liquid.com/exchange/SGABTC?affiliate=eNgws23g761816
 name: Saga
-rank: 2150
+rank: 2155
 slug: saga
 status: active
 symbol: SGA

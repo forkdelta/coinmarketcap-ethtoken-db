@@ -25,20 +25,6 @@ markets:
     currency_symbol: URAC
     currency_type: cryptocurrency
     exchange_symbol: URAC
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: URAC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-URAC
-- base:
-    currency_id: 4093
-    currency_symbol: URAC
-    currency_type: cryptocurrency
-    exchange_symbol: URAC
   exchange_id: 415
   exchange_name: Bilaxy
   pair: URAC/ETH
@@ -48,6 +34,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bilaxy.com/trade/URAC_ETH
+- base:
+    currency_id: 4093
+    currency_symbol: URAC
+    currency_type: cryptocurrency
+    exchange_symbol: URAC
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: URAC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-URAC
 - base:
     currency_id: 4093
     currency_symbol: URAC
@@ -77,7 +77,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/urac
 name: Uranus
-rank: 2490
+rank: 2512
 slug: uranus
 status: active
 symbol: URAC
