@@ -30,6 +30,20 @@ markets:
     exchange_symbol: TEAM
   exchange_id: 300
   exchange_name: BitZ
+  pair: TEAM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bit-z.com/exchange/team_eth
+- base:
+    currency_id: 2729
+    currency_symbol: TEAM
+    currency_type: cryptocurrency
+    exchange_symbol: TEAM
+  exchange_id: 300
+  exchange_name: BitZ
   pair: TEAM/BTC
   quote:
     currency_id: 1
@@ -37,20 +51,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bit-z.com/exchange/team_btc
-- base:
-    currency_id: 2729
-    currency_symbol: TEAM
-    currency_type: cryptocurrency
-    exchange_symbol: TEAM
-  exchange_id: 467
-  exchange_name: BitRabbit
-  pair: TEAM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitrabbit.com/markets/team_usdt
 - base:
     currency_id: 2729
     currency_symbol: TEAM
@@ -70,17 +70,17 @@ markets:
     currency_symbol: TEAM
     currency_type: cryptocurrency
     exchange_symbol: TEAM
-  exchange_id: 300
-  exchange_name: BitZ
-  pair: TEAM/ETH
+  exchange_id: 467
+  exchange_name: BitRabbit
+  pair: TEAM/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bit-z.com/exchange/team_eth
+    exchange_symbol: USDT
+  url: https://bitrabbit.com/markets/team_usdt
 name: TEAM (TokenStars)
-rank: 918
+rank: 939
 slug: tokenstars
 status: active
 symbol: TEAM

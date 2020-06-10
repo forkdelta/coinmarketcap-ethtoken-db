@@ -37,20 +37,6 @@ markets:
     currency_symbol: RET
     currency_type: cryptocurrency
     exchange_symbol: RET
-  exchange_id: 452
-  exchange_name: Coineal
-  pair: RET/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hk.coineal.com/trade_center.html?s=ret-btc#en_US
-- base:
-    currency_id: 3280
-    currency_symbol: RET
-    currency_type: cryptocurrency
-    exchange_symbol: RET
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: RET/BTC
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=ret
+- base:
+    currency_id: 3280
+    currency_symbol: RET
+    currency_type: cryptocurrency
+    exchange_symbol: RET
+  exchange_id: 452
+  exchange_name: Coineal
+  pair: RET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hk.coineal.com/trade_center.html?s=ret-btc#en_US
 - base:
     currency_id: 3280
     currency_symbol: RET
@@ -89,7 +89,7 @@ markets:
     exchange_symbol: KRW
   url: https://bitsonic.co.kr/front/exchange/ret-krw
 name: RealTract
-rank: 831
+rank: 901
 slug: realtract
 status: active
 symbol: RET

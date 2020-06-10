@@ -39,20 +39,6 @@ markets:
     exchange_symbol: BTMX
   exchange_id: 453
   exchange_name: BitMax
-  pair: BTMX/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://bitmax.io/#/trade/pax/btmx
-- base:
-    currency_id: 3673
-    currency_symbol: BTMX
-    currency_type: cryptocurrency
-    exchange_symbol: BTMX
-  exchange_id: 453
-  exchange_name: BitMax
   pair: BTMX/BTC
   quote:
     currency_id: 1
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bitmax.io/#/trade/btc/btmx
+- base:
+    currency_id: 3673
+    currency_symbol: BTMX
+    currency_type: cryptocurrency
+    exchange_symbol: BTMX
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: BTMX/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://bitmax.io/#/trade/pax/btmx
 - base:
     currency_id: 3673
     currency_symbol: BTMX
@@ -93,20 +93,6 @@ markets:
     currency_symbol: BTMX
     currency_type: cryptocurrency
     exchange_symbol: BTMX
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: BTMX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/btmx
-- base:
-    currency_id: 3673
-    currency_symbol: BTMX
-    currency_type: cryptocurrency
-    exchange_symbol: BTMX
   exchange_id: 302
   exchange_name: Gate.io
   pair: BTMX/USDT
@@ -130,6 +116,20 @@ markets:
     currency_type: fiat
     exchange_symbol: PERP
   url: https://ftx.com/trade/BTMX/USD
+- base:
+    currency_id: 3673
+    currency_symbol: BTMX
+    currency_type: cryptocurrency
+    exchange_symbol: BTMX
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: BTMX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/btmx
 name: BitMax Token
 rank: 259
 slug: bitmax-token
