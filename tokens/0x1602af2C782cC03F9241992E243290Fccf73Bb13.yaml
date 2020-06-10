@@ -28,20 +28,6 @@ markets:
     currency_symbol: QBIT
     currency_type: cryptocurrency
     exchange_symbol: QBIT
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: QBIT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://whitebit.com/trade/QBIT_ETH
-- base:
-    currency_id: 3224
-    currency_symbol: QBIT
-    currency_type: cryptocurrency
-    exchange_symbol: QBIT
   exchange_id: 388
   exchange_name: Sistemkoin
   pair: QBIT/BTC
@@ -58,13 +44,13 @@ markets:
     exchange_symbol: QBIT
   exchange_id: 501
   exchange_name: WhiteBIT
-  pair: QBIT/BTC
+  pair: QBIT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://whitebit.com/trade/QBIT_BTC
+    exchange_symbol: ETH
+  url: https://whitebit.com/trade/QBIT_ETH
 - base:
     currency_id: 3224
     currency_symbol: QBIT
@@ -79,6 +65,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://p2pb2b.io/trade/QBIT_ETH
+- base:
+    currency_id: 3224
+    currency_symbol: QBIT
+    currency_type: cryptocurrency
+    exchange_symbol: QBIT
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: QBIT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://whitebit.com/trade/QBIT_BTC
 - base:
     currency_id: 3224
     currency_symbol: QBIT
@@ -140,6 +140,20 @@ markets:
     currency_symbol: QBIT
     currency_type: cryptocurrency
     exchange_symbol: QBIT
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: QBIT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://whitebit.com/trade/QBIT_USDT
+- base:
+    currency_id: 3224
+    currency_symbol: QBIT
+    currency_type: cryptocurrency
+    exchange_symbol: QBIT
   exchange_id: 215
   exchange_name: P2PB2B
   pair: QBIT/USD
@@ -154,15 +168,15 @@ markets:
     currency_symbol: QBIT
     currency_type: cryptocurrency
     exchange_symbol: QBIT
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: QBIT/USDT
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: QBIT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://whitebit.com/trade/QBIT_USDT
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=qbit
 - base:
     currency_id: 3224
     currency_symbol: QBIT
@@ -191,22 +205,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://vcc.exchange/exchange/basic?currency=eth&coin=qbit
-- base:
-    currency_id: 3224
-    currency_symbol: QBIT
-    currency_type: cryptocurrency
-    exchange_symbol: QBIT
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: QBIT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=qbit
 name: Qubitica
-rank: 253
+rank: 254
 slug: qubitica
 status: active
 symbol: QBIT

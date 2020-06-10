@@ -44,13 +44,13 @@ markets:
     exchange_symbol: EOSDAC
   exchange_id: 400
   exchange_name: Hotbit
-  pair: EOSDAC/EOS
+  pair: EOSDAC/BTC
   quote:
-    currency_id: 1765
-    currency_symbol: EOS
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: EOS
-  url: https://www.hotbit.io/exchange?symbol=EOSDAC_EOS
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=EOSDAC_BTC
 - base:
     currency_id: 2644
     currency_symbol: EOSDAC
@@ -72,13 +72,13 @@ markets:
     exchange_symbol: EOSDAC
   exchange_id: 400
   exchange_name: Hotbit
-  pair: EOSDAC/BTC
+  pair: EOSDAC/EOS
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1765
+    currency_symbol: EOS
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=EOSDAC_BTC
+    exchange_symbol: EOS
+  url: https://www.hotbit.io/exchange?symbol=EOSDAC_EOS
 - base:
     currency_id: 2644
     currency_symbol: EOSDAC
@@ -140,20 +140,6 @@ markets:
     currency_symbol: EOSDAC
     currency_type: cryptocurrency
     exchange_symbol: EOSDAC
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: EOSDAC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/EOSDAC_BTC
-- base:
-    currency_id: 2644
-    currency_symbol: EOSDAC
-    currency_type: cryptocurrency
-    exchange_symbol: EOSDAC
   exchange_id: 398
   exchange_name: DragonEX
   pair: EOSDAC/ETH
@@ -177,8 +163,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/eosdac_eth
+- base:
+    currency_id: 2644
+    currency_symbol: EOSDAC
+    currency_type: cryptocurrency
+    exchange_symbol: EOSDAC
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: EOSDAC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/EOSDAC_BTC
 name: eosDAC
-rank: 1003
+rank: 990
 slug: eosdac
 status: active
 symbol: EOSDAC

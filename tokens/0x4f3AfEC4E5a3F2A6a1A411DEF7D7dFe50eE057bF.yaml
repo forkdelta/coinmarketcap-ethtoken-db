@@ -36,6 +36,20 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: DGX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/dgx-eth
+- base:
+    currency_id: 2739
+    currency_symbol: DGX
+    currency_type: cryptocurrency
+    exchange_symbol: DGX
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: DGX/VND
@@ -50,15 +64,29 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
-  exchange_id: 404
-  exchange_name: Kyber Network
+  exchange_id: 595
+  exchange_name: Uniswap
   pair: DGX/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://kyberswap.com/swap/dgx-eth
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 2739
+    currency_symbol: DGX
+    currency_type: cryptocurrency
+    exchange_symbol: DGX
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: DGX/IDR
+  quote:
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/DGXIDR
 - base:
     currency_id: 2739
     currency_symbol: DGX
@@ -78,15 +106,15 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: DGX/ETH
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: DGX/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
+    exchange_symbol: USDT
+  url: https://www.probit.com/app/exchange/DGX-USDT
 - base:
     currency_id: 2739
     currency_symbol: DGX
@@ -108,34 +136,6 @@ markets:
     exchange_symbol: DGX
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: DGX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.probit.com/app/exchange/DGX-USDT
-- base:
-    currency_id: 2739
-    currency_symbol: DGX
-    currency_type: cryptocurrency
-    exchange_symbol: DGX
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: DGX/IDR
-  quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://indodax.com/market/DGXIDR
-- base:
-    currency_id: 2739
-    currency_symbol: DGX
-    currency_type: cryptocurrency
-    exchange_symbol: DGX
-  exchange_id: 477
-  exchange_name: ProBit Exchange
   pair: DGX/BTC
   quote:
     currency_id: 1
@@ -143,20 +143,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.probit.com/app/exchange/DGX-BTC
-- base:
-    currency_id: 2739
-    currency_symbol: DGX
-    currency_type: cryptocurrency
-    exchange_symbol: DGX
-  exchange_id: 420
-  exchange_name: Kryptono
-  pair: DGX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kryptono.exchange/k/accounts/trade?s={{mainu}_{{baseu}
 - base:
     currency_id: 2739
     currency_symbol: DGX
@@ -176,6 +162,20 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
+  exchange_id: 420
+  exchange_name: Kryptono
+  pair: DGX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kryptono.exchange/k/accounts/trade?s={{mainu}_{{baseu}
+- base:
+    currency_id: 2739
+    currency_symbol: DGX
+    currency_type: cryptocurrency
+    exchange_symbol: DGX
   exchange_id: 710
   exchange_name: Tokocrypto
   pair: DGX/IDR
@@ -186,7 +186,7 @@ markets:
     exchange_symbol: IDR
   url: https://tokocrypto.com/en/dashboard/DGXIDR
 name: Digix Gold Token
-rank: 458
+rank: 460
 slug: digix-gold-token
 status: active
 symbol: DGX

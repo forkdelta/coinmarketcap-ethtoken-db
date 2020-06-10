@@ -45,20 +45,6 @@ markets:
     exchange_symbol: IOUX
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: IOUX/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/IOUX_USD
-- base:
-    currency_id: 3996
-    currency_symbol: IOUX
-    currency_type: cryptocurrency
-    exchange_symbol: IOUX
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: IOUX/BTC
   quote:
     currency_id: 1
@@ -66,8 +52,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://p2pb2b.io/trade/IOUX_BTC
+- base:
+    currency_id: 3996
+    currency_symbol: IOUX
+    currency_type: cryptocurrency
+    exchange_symbol: IOUX
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: IOUX/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/IOUX_USD
 name: IOU
-rank: 2417
+rank: 2426
 slug: iou
 status: active
 symbol: IOUX

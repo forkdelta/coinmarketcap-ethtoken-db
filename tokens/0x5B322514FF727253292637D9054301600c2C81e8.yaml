@@ -35,20 +35,6 @@ markets:
     currency_symbol: DAD
     currency_type: cryptocurrency
     exchange_symbol: DAD
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: DAD/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/DADKRW
-- base:
-    currency_id: 4862
-    currency_symbol: DAD
-    currency_type: cryptocurrency
-    exchange_symbol: DAD
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: DAD/USDT
@@ -58,6 +44,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=DAD_USDT
+- base:
+    currency_id: 4862
+    currency_symbol: DAD
+    currency_type: cryptocurrency
+    exchange_symbol: DAD
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: DAD/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/DADKRW
 - base:
     currency_id: 4862
     currency_symbol: DAD
@@ -101,7 +101,7 @@ markets:
     exchange_symbol: IDR
   url: https://indodax.com/market/DADIDR
 name: DAD
-rank: 173
+rank: 179
 slug: dad
 status: active
 symbol: DAD

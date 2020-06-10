@@ -48,20 +48,6 @@ markets:
     exchange_symbol: SWFTC
   exchange_id: 294
   exchange_name: OKEx
-  pair: SWFTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=swftc_usdt
-- base:
-    currency_id: 2341
-    currency_symbol: SWFTC
-    currency_type: cryptocurrency
-    exchange_symbol: SWFTC
-  exchange_id: 294
-  exchange_name: OKEx
   pair: SWFTC/BTC
   quote:
     currency_id: 1
@@ -74,15 +60,15 @@ markets:
     currency_symbol: SWFTC
     currency_type: cryptocurrency
     exchange_symbol: SWFTC
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: SWFTC/BTC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: SWFTC/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=SWFTC_BTC
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=swftc_usdt
 - base:
     currency_id: 2341
     currency_symbol: SWFTC
@@ -97,6 +83,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=SWFTC_USDT
+- base:
+    currency_id: 2341
+    currency_symbol: SWFTC
+    currency_type: cryptocurrency
+    exchange_symbol: SWFTC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: SWFTC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=SWFTC_BTC
 - base:
     currency_id: 2341
     currency_symbol: SWFTC
@@ -172,20 +172,6 @@ markets:
     currency_symbol: SWFTC
     currency_type: cryptocurrency
     exchange_symbol: SWFTC
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: SWFTC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/swftc_btc/
-- base:
-    currency_id: 2341
-    currency_symbol: SWFTC
-    currency_type: cryptocurrency
-    exchange_symbol: SWFTC
   exchange_id: 42
   exchange_name: HitBTC
   pair: SWFTC/BTC
@@ -195,76 +181,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/SWFTC-to-BTC
-- base:
-    currency_id: 2341
-    currency_symbol: SWFTC
-    currency_type: cryptocurrency
-    exchange_symbol: SWFTC
-  exchange_id: 615
-  exchange_name: Binance JEX
-  pair: SWFTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.jex.com/en/spot
-- base:
-    currency_id: 2341
-    currency_symbol: SWFTC
-    currency_type: cryptocurrency
-    exchange_symbol: SWFTC
-  exchange_id: 615
-  exchange_name: Binance JEX
-  pair: SWFTC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.jex.com/en/spot
-- base:
-    currency_id: 2341
-    currency_symbol: SWFTC
-    currency_type: cryptocurrency
-    exchange_symbol: SWFTC
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: SWFTC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_swftc?c=H4QD8FNW
-- base:
-    currency_id: 2341
-    currency_symbol: SWFTC
-    currency_type: cryptocurrency
-    exchange_symbol: SWFTC
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: SWFTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://poloniex.com/exchange#usdt_swftc?c=H4QD8FNW
-- base:
-    currency_id: 2341
-    currency_symbol: SWFTC
-    currency_type: cryptocurrency
-    exchange_symbol: SWFTC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SWFTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/SWFTC-to-USDT
 - base:
     currency_id: 2341
     currency_symbol: SWFTC
@@ -286,13 +202,55 @@ markets:
     exchange_symbol: SWFTC
   exchange_id: 16
   exchange_name: Poloniex
-  pair: SWFTC/TRX
+  pair: SWFTC/USDT
   quote:
-    currency_id: 1958
-    currency_symbol: TRX
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: TRX
-  url: https://poloniex.com/exchange#trx_swftc?c=H4QD8FNW
+    exchange_symbol: USDT
+  url: https://poloniex.com/exchange#usdt_swftc?c=H4QD8FNW
+- base:
+    currency_id: 2341
+    currency_symbol: SWFTC
+    currency_type: cryptocurrency
+    exchange_symbol: SWFTC
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: SWFTC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/swftc_btc/
+- base:
+    currency_id: 2341
+    currency_symbol: SWFTC
+    currency_type: cryptocurrency
+    exchange_symbol: SWFTC
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: SWFTC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://poloniex.com/exchange#btc_swftc?c=H4QD8FNW
+- base:
+    currency_id: 2341
+    currency_symbol: SWFTC
+    currency_type: cryptocurrency
+    exchange_symbol: SWFTC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SWFTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/SWFTC-to-USDT
 - base:
     currency_id: 2341
     currency_symbol: SWFTC
@@ -335,6 +293,48 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=SWFTC&market=USDT
+- base:
+    currency_id: 2341
+    currency_symbol: SWFTC
+    currency_type: cryptocurrency
+    exchange_symbol: SWFTC
+  exchange_id: 615
+  exchange_name: Binance JEX
+  pair: SWFTC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.jex.com/en/spot
+- base:
+    currency_id: 2341
+    currency_symbol: SWFTC
+    currency_type: cryptocurrency
+    exchange_symbol: SWFTC
+  exchange_id: 615
+  exchange_name: Binance JEX
+  pair: SWFTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.jex.com/en/spot
+- base:
+    currency_id: 2341
+    currency_symbol: SWFTC
+    currency_type: cryptocurrency
+    exchange_symbol: SWFTC
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: SWFTC/TRX
+  quote:
+    currency_id: 1958
+    currency_symbol: TRX
+    currency_type: cryptocurrency
+    exchange_symbol: TRX
+  url: https://poloniex.com/exchange#trx_swftc?c=H4QD8FNW
 name: SwftCoin
 rank: 569
 slug: swftcoin

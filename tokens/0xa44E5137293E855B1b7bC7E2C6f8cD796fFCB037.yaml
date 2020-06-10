@@ -127,20 +127,6 @@ markets:
     currency_symbol: SENT
     currency_type: cryptocurrency
     exchange_symbol: SENT
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: SENT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/SENT/BTC
-- base:
-    currency_id: 2643
-    currency_symbol: SENT
-    currency_type: cryptocurrency
-    exchange_symbol: SENT
   exchange_id: 448
   exchange_name: Coinall
   pair: SENT/BTC
@@ -164,8 +150,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.coinall.com/market?product=sent_eth
+- base:
+    currency_id: 2643
+    currency_symbol: SENT
+    currency_type: cryptocurrency
+    exchange_symbol: SENT
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: SENT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/SENT/BTC
 name: Sentinel
-rank: 723
+rank: 733
 slug: sentinel
 status: active
 symbol: SENT
