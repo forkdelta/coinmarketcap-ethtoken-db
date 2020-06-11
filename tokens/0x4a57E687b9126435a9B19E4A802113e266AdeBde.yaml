@@ -48,6 +48,20 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: FXC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-FXC
+- base:
+    currency_id: 3812
+    currency_symbol: FXC
+    currency_type: cryptocurrency
+    exchange_symbol: FXC
   exchange_id: 310
   exchange_name: IDEX
   pair: FXC/ETH
@@ -104,20 +118,6 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: FXC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-FXC
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
   exchange_id: 549
   exchange_name: CITEX
   pair: FXC/ETH
@@ -160,20 +160,6 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: FXC/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/FXC
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
   exchange_id: 401
   exchange_name: Switcheo Network
   pair: FXC/ETH
@@ -183,20 +169,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://switcheo.exchange/markets/FXC_ETH
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: FXC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/fxc-eth
 - base:
     currency_id: 3812
     currency_symbol: FXC
@@ -216,17 +188,31 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
-  exchange_id: 595
-  exchange_name: Uniswap
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: FXC/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/FXC
+- base:
+    currency_id: 3812
+    currency_symbol: FXC
+    currency_type: cryptocurrency
+    exchange_symbol: FXC
+  exchange_id: 404
+  exchange_name: Kyber Network
   pair: FXC/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://uniswap.exchange/
+  url: https://kyberswap.com/swap/fxc-eth
 name: Flexacoin
-rank: 72
+rank: 73
 slug: flexacoin
 status: active
 symbol: FXC

@@ -65,6 +65,20 @@ markets:
     currency_symbol: CDT
     currency_type: cryptocurrency
     exchange_symbol: CDT
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: CDT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/CDTBTC
+- base:
+    currency_id: 1864
+    currency_symbol: CDT
+    currency_type: cryptocurrency
+    exchange_symbol: CDT
   exchange_id: 213
   exchange_name: Mercatox
   pair: CDT/ETH
@@ -79,15 +93,15 @@ markets:
     currency_symbol: CDT
     currency_type: cryptocurrency
     exchange_symbol: CDT
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: CDT/BTC
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: CDT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/CDTBTC
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/cdt-eth
 - base:
     currency_id: 1864
     currency_symbol: CDT
@@ -123,20 +137,6 @@ markets:
     exchange_symbol: CDT
   exchange_id: 42
   exchange_name: HitBTC
-  pair: CDT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/CDT-to-ETH
-- base:
-    currency_id: 1864
-    currency_symbol: CDT
-    currency_type: cryptocurrency
-    exchange_symbol: CDT
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: CDT/BTC
   quote:
     currency_id: 1
@@ -144,6 +144,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/CDT-to-BTC
+- base:
+    currency_id: 1864
+    currency_symbol: CDT
+    currency_type: cryptocurrency
+    exchange_symbol: CDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: CDT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/CDT-to-ETH
 - base:
     currency_id: 1864
     currency_symbol: CDT
@@ -172,22 +186,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/cdt_eth
-- base:
-    currency_id: 1864
-    currency_symbol: CDT
-    currency_type: cryptocurrency
-    exchange_symbol: CDT
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: CDT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/cdt-eth
 name: Blox
-rank: 636
+rank: 625
 slug: blox
 status: active
 symbol: CDT

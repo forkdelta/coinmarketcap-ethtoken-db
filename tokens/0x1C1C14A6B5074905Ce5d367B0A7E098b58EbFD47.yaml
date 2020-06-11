@@ -30,20 +30,6 @@ markets:
     currency_symbol: FEX
     currency_type: cryptocurrency
     exchange_symbol: FEX
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: FEX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=FEX_ETH
-- base:
-    currency_id: 3800
-    currency_symbol: FEX
-    currency_type: cryptocurrency
-    exchange_symbol: FEX
   exchange_id: 382
   exchange_name: Crex24
   pair: FEX/ETH
@@ -53,6 +39,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://crex24.com/exchange/FEX-ETH
+- base:
+    currency_id: 3800
+    currency_symbol: FEX
+    currency_type: cryptocurrency
+    exchange_symbol: FEX
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: FEX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=FEX_ETH
 - base:
     currency_id: 3800
     currency_symbol: FEX
@@ -82,7 +82,7 @@ markets:
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/FEX/BTC
 name: FidexToken
-rank: 1959
+rank: 1990
 slug: fidex-token
 status: active
 symbol: FEX

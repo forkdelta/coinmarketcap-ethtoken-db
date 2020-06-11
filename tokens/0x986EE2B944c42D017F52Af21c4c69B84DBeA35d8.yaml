@@ -37,20 +37,6 @@ markets:
     exchange_symbol: BMX
   exchange_id: 406
   exchange_name: BitMart
-  pair: BMX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitmart.com/trade?symbol=BMX_BTC
-- base:
-    currency_id: 2933
-    currency_symbol: BMX
-    currency_type: cryptocurrency
-    exchange_symbol: BMX
-  exchange_id: 406
-  exchange_name: BitMart
   pair: BMX/USDT
   quote:
     currency_id: 825
@@ -58,6 +44,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bitmart.com/trade?symbol=BMX_USDT
+- base:
+    currency_id: 2933
+    currency_symbol: BMX
+    currency_type: cryptocurrency
+    exchange_symbol: BMX
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: BMX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitmart.com/trade?symbol=BMX_BTC
 - base:
     currency_id: 3795
     currency_symbol: ZEON
@@ -87,19 +87,19 @@ markets:
     exchange_symbol: BMX
   url: https://www.bitmart.com/trade?symbol=MCC_BMX
 - base:
-    currency_id: 3077
-    currency_symbol: VET
+    currency_id: 3889
+    currency_symbol: NAT
     currency_type: cryptocurrency
-    exchange_symbol: VET
+    exchange_symbol: NAT
   exchange_id: 406
   exchange_name: BitMart
-  pair: VET/BMX
+  pair: NAT/BMX
   quote:
     currency_id: 2933
     currency_symbol: BMX
     currency_type: cryptocurrency
     exchange_symbol: BMX
-  url: https://www.bitmart.com/trade?symbol=VET_BMX
+  url: https://www.bitmart.com/trade?symbol=NAT_BMX
 - base:
     currency_id: 52
     currency_symbol: XRP
@@ -115,19 +115,33 @@ markets:
     exchange_symbol: BMX
   url: https://www.bitmart.com/trade?symbol=XRP_BMX
 - base:
-    currency_id: 3889
-    currency_symbol: NAT
+    currency_id: 1765
+    currency_symbol: EOS
     currency_type: cryptocurrency
-    exchange_symbol: NAT
+    exchange_symbol: EOS
   exchange_id: 406
   exchange_name: BitMart
-  pair: NAT/BMX
+  pair: EOS/BMX
   quote:
     currency_id: 2933
     currency_symbol: BMX
     currency_type: cryptocurrency
     exchange_symbol: BMX
-  url: https://www.bitmart.com/trade?symbol=NAT_BMX
+  url: https://www.bitmart.com/trade?symbol=EOS_BMX
+- base:
+    currency_id: 3077
+    currency_symbol: VET
+    currency_type: cryptocurrency
+    exchange_symbol: VET
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: VET/BMX
+  quote:
+    currency_id: 2933
+    currency_symbol: BMX
+    currency_type: cryptocurrency
+    exchange_symbol: BMX
+  url: https://www.bitmart.com/trade?symbol=VET_BMX
 - base:
     currency_id: 512
     currency_symbol: XLM
@@ -143,19 +157,19 @@ markets:
     exchange_symbol: BMX
   url: https://www.bitmart.com/trade?symbol=XLM_BMX
 - base:
-    currency_id: 1765
-    currency_symbol: EOS
-    currency_type: cryptocurrency
-    exchange_symbol: EOS
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: EOS/BMX
-  quote:
     currency_id: 2933
     currency_symbol: BMX
     currency_type: cryptocurrency
     exchange_symbol: BMX
-  url: https://www.bitmart.com/trade?symbol=EOS_BMX
+  exchange_id: 459
+  exchange_name: BW.com
+  pair: BMX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bw.com/trade/bmx_usdt
 - base:
     currency_id: 1376
     currency_symbol: NEO
@@ -240,22 +254,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BMX
   url: https://www.bitmart.com/trade?symbol=HYDRO_BMX
-- base:
-    currency_id: 2933
-    currency_symbol: BMX
-    currency_type: cryptocurrency
-    exchange_symbol: BMX
-  exchange_id: 459
-  exchange_name: BW.com
-  pair: BMX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bw.com/trade/bmx_usdt
 name: BitMart Token
-rank: 705
+rank: 714
 slug: bitmart-token
 status: active
 symbol: BMX

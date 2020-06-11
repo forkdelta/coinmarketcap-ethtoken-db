@@ -39,6 +39,20 @@ markets:
     exchange_symbol: ETH
   url: https://uniswap.exchange/
 - base:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  exchange_id: 348
+  exchange_name: Radar Relay
+  pair: WETH/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://app.radarrelay.com/WETH/DAI
+- base:
     currency_id: 3408
     currency_symbol: USDC
     currency_type: cryptocurrency
@@ -53,19 +67,33 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/USDC/WETH
 - base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 348
+  exchange_name: Radar Relay
+  pair: BAT/WETH
+  quote:
     currency_id: 2396
     currency_symbol: WETH
     currency_type: cryptocurrency
     exchange_symbol: WETH
+  url: https://app.radarrelay.com/BAT/WETH
+- base:
+    currency_id: 1896
+    currency_symbol: ZRX
+    currency_type: cryptocurrency
+    exchange_symbol: ZRX
   exchange_id: 348
   exchange_name: Radar Relay
-  pair: WETH/DAI
+  pair: ZRX/WETH
   quote:
-    currency_id: 4943
-    currency_symbol: DAI
+    currency_id: 2396
+    currency_symbol: WETH
     currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://app.radarrelay.com/WETH/DAI
+    exchange_symbol: WETH
+  url: https://app.radarrelay.com/ZRX/WETH
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -109,20 +137,6 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/STORM/WETH
 - base:
-    currency_id: 1896
-    currency_symbol: ZRX
-    currency_type: cryptocurrency
-    exchange_symbol: ZRX
-  exchange_id: 348
-  exchange_name: Radar Relay
-  pair: ZRX/WETH
-  quote:
-    currency_id: 2396
-    currency_symbol: WETH
-    currency_type: cryptocurrency
-    exchange_symbol: WETH
-  url: https://app.radarrelay.com/ZRX/WETH
-- base:
     currency_id: 1104
     currency_symbol: REP
     currency_type: cryptocurrency
@@ -136,20 +150,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: WETH
   url: https://app.radarrelay.com/REP/WETH
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 348
-  exchange_name: Radar Relay
-  pair: BAT/WETH
-  quote:
-    currency_id: 2396
-    currency_symbol: WETH
-    currency_type: cryptocurrency
-    exchange_symbol: WETH
-  url: https://app.radarrelay.com/BAT/WETH
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -305,7 +305,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/FOAM/WETH
 name: WETH
-rank: 2215
+rank: 2210
 slug: weth
 status: active
 symbol: WETH
