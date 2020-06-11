@@ -90,6 +90,20 @@ markets:
     currency_symbol: RLC
     currency_type: cryptocurrency
     exchange_symbol: RLC
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: RLC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 1637
+    currency_symbol: RLC
+    currency_type: cryptocurrency
+    exchange_symbol: RLC
   exchange_id: 949
   exchange_name: CoinDCX
   pair: RLC/BTC
@@ -99,48 +113,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coindcx.com/trade/RLCBTC
-- base:
-    currency_id: 1637
-    currency_symbol: RLC
-    currency_type: cryptocurrency
-    exchange_symbol: RLC
-  exchange_id: 908
-  exchange_name: VALR
-  pair: RLC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.valr.com/buy/RLC/BTC
-- base:
-    currency_id: 1637
-    currency_symbol: RLC
-    currency_type: cryptocurrency
-    exchange_symbol: RLC
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: RLC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-RLC
-- base:
-    currency_id: 1637
-    currency_symbol: RLC
-    currency_type: cryptocurrency
-    exchange_symbol: RLC
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: RLC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=rlc
 - base:
     currency_id: 1637
     currency_symbol: RLC
@@ -160,6 +132,48 @@ markets:
     currency_symbol: RLC
     currency_type: cryptocurrency
     exchange_symbol: RLC
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: RLC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=rlc
+- base:
+    currency_id: 1637
+    currency_symbol: RLC
+    currency_type: cryptocurrency
+    exchange_symbol: RLC
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: RLC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-RLC
+- base:
+    currency_id: 1637
+    currency_symbol: RLC
+    currency_type: cryptocurrency
+    exchange_symbol: RLC
+  exchange_id: 908
+  exchange_name: VALR
+  pair: RLC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.valr.com/buy/RLC/BTC
+- base:
+    currency_id: 1637
+    currency_symbol: RLC
+    currency_type: cryptocurrency
+    exchange_symbol: RLC
   exchange_id: 404
   exchange_name: Kyber Network
   pair: RLC/ETH
@@ -169,20 +183,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/rlc-eth
-- base:
-    currency_id: 1637
-    currency_symbol: RLC
-    currency_type: cryptocurrency
-    exchange_symbol: RLC
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: RLC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-RLC
 - base:
     currency_id: 1637
     currency_symbol: RLC
@@ -216,15 +216,15 @@ markets:
     currency_symbol: RLC
     currency_type: cryptocurrency
     exchange_symbol: RLC
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: RLC/USDT
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: RLC/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/rlc_usdt
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-RLC
 - base:
     currency_id: 1637
     currency_symbol: RLC
@@ -244,15 +244,15 @@ markets:
     currency_symbol: RLC
     currency_type: cryptocurrency
     exchange_symbol: RLC
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: RLC/USD
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: RLC/BNT
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/RLC:USD?refcode=H70YTMupQ
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/RLC
 - base:
     currency_id: 1637
     currency_symbol: RLC
@@ -272,15 +272,29 @@ markets:
     currency_symbol: RLC
     currency_type: cryptocurrency
     exchange_symbol: RLC
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: RLC/BNT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: RLC/USDT
   quote:
-    currency_id: 1727
-    currency_symbol: BNT
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/RLC
+    exchange_symbol: USDT
+  url: https://gate.io/trade/rlc_usdt
+- base:
+    currency_id: 1637
+    currency_symbol: RLC
+    currency_type: cryptocurrency
+    exchange_symbol: RLC
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: RLC/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/RLC:USD?refcode=H70YTMupQ
 - base:
     currency_id: 1637
     currency_symbol: RLC
@@ -309,22 +323,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/rlc
-- base:
-    currency_id: 1637
-    currency_symbol: RLC
-    currency_type: cryptocurrency
-    exchange_symbol: RLC
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: RLC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.fatbtc.com/
 name: iExec RLC
-rank: 114
+rank: 120
 slug: rlc
 status: active
 symbol: RLC

@@ -40,20 +40,6 @@ markets:
     currency_symbol: LEO
     currency_type: cryptocurrency
     exchange_symbol: LEO
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: LEO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=leo_btc
-- base:
-    currency_id: 3957
-    currency_symbol: LEO
-    currency_type: cryptocurrency
-    exchange_symbol: LEO
   exchange_id: 656
   exchange_name: Omgfin
   pair: LEO/BTC
@@ -84,13 +70,13 @@ markets:
     exchange_symbol: LEO
   exchange_id: 294
   exchange_name: OKEx
-  pair: LEO/USDT
+  pair: LEO/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=leo_usdt
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=leo_btc
 - base:
     currency_id: 3957
     currency_symbol: LEO
@@ -110,15 +96,15 @@ markets:
     currency_symbol: LEO
     currency_type: cryptocurrency
     exchange_symbol: LEO
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: LEO/USD
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: LEO/USDT
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/LEO:USD?refcode=H70YTMupQ
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=leo_usdt
 - base:
     currency_id: 3957
     currency_symbol: LEO
@@ -152,29 +138,29 @@ markets:
     currency_symbol: LEO
     currency_type: cryptocurrency
     exchange_symbol: LEO
-  exchange_id: 254
-  exchange_name: C2CX
-  pair: LEO/USDT
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: LEO/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.c2cx.com/in/trade_usdt_leo
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/LEO:BTC?refcode=H70YTMupQ
 - base:
     currency_id: 3957
     currency_symbol: LEO
     currency_type: cryptocurrency
     exchange_symbol: LEO
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: LEO/ETH
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: LEO/USD
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.okex.com/market?product=leo_eth
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/LEO:USD?refcode=H70YTMupQ
 - base:
     currency_id: 3957
     currency_symbol: LEO
@@ -194,43 +180,15 @@ markets:
     currency_symbol: LEO
     currency_type: cryptocurrency
     exchange_symbol: LEO
-  exchange_id: 528
-  exchange_name: BiKi
+  exchange_id: 254
+  exchange_name: C2CX
   pair: LEO/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.biki.cc/en_US/trade/LEO_USDT
-- base:
-    currency_id: 3957
-    currency_symbol: LEO
-    currency_type: cryptocurrency
-    exchange_symbol: LEO
-  exchange_id: 459
-  exchange_name: BW.com
-  pair: LEO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bw.com/trade/leo_usdt
-- base:
-    currency_id: 3957
-    currency_symbol: LEO
-    currency_type: cryptocurrency
-    exchange_symbol: LEO
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: LEO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trans.zb.com/leousdt
+  url: https://www.c2cx.com/in/trade_usdt_leo
 - base:
     currency_id: 3957
     currency_symbol: LEO
@@ -250,6 +208,62 @@ markets:
     currency_symbol: LEO
     currency_type: cryptocurrency
     exchange_symbol: LEO
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: LEO/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=leo_usdk
+- base:
+    currency_id: 3957
+    currency_symbol: LEO
+    currency_type: cryptocurrency
+    exchange_symbol: LEO
+  exchange_id: 528
+  exchange_name: BiKi
+  pair: LEO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.biki.cc/en_US/trade/LEO_USDT
+- base:
+    currency_id: 3957
+    currency_symbol: LEO
+    currency_type: cryptocurrency
+    exchange_symbol: LEO
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: LEO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.okex.com/market?product=leo_eth
+- base:
+    currency_id: 3957
+    currency_symbol: LEO
+    currency_type: cryptocurrency
+    exchange_symbol: LEO
+  exchange_id: 459
+  exchange_name: BW.com
+  pair: LEO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bw.com/trade/leo_usdt
+- base:
+    currency_id: 3957
+    currency_symbol: LEO
+    currency_type: cryptocurrency
+    exchange_symbol: LEO
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: LEO/USDT
@@ -259,48 +273,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.probit.com/app/exchange/LEO-USDT
-- base:
-    currency_id: 3957
-    currency_symbol: LEO
-    currency_type: cryptocurrency
-    exchange_symbol: LEO
-  exchange_id: 401
-  exchange_name: Switcheo Network
-  pair: LEO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://switcheo.exchange/markets/LEO_ETH
-- base:
-    currency_id: 3957
-    currency_symbol: LEO
-    currency_type: cryptocurrency
-    exchange_symbol: LEO
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: LEO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/LEO:BTC?refcode=H70YTMupQ
-- base:
-    currency_id: 3957
-    currency_symbol: LEO
-    currency_type: cryptocurrency
-    exchange_symbol: LEO
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: LEO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/leo_usdt
 - base:
     currency_id: 3957
     currency_symbol: LEO
@@ -348,15 +320,43 @@ markets:
     currency_symbol: LEO
     currency_type: cryptocurrency
     exchange_symbol: LEO
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: LEO/USDK
+  exchange_id: 401
+  exchange_name: Switcheo Network
+  pair: LEO/ETH
   quote:
-    currency_id: 4064
-    currency_symbol: USDK
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=leo_usdk
+    exchange_symbol: ETH
+  url: https://switcheo.exchange/markets/LEO_ETH
+- base:
+    currency_id: 3957
+    currency_symbol: LEO
+    currency_type: cryptocurrency
+    exchange_symbol: LEO
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: LEO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://trans.zb.com/leousdt
+- base:
+    currency_id: 3957
+    currency_symbol: LEO
+    currency_type: cryptocurrency
+    exchange_symbol: LEO
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: LEO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/leo_usdt
 - base:
     currency_id: 3957
     currency_symbol: LEO

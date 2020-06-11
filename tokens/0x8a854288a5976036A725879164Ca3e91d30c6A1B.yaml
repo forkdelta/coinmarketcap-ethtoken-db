@@ -75,20 +75,6 @@ markets:
     exchange_symbol: GET
   exchange_id: 112
   exchange_name: Liquid
-  pair: GET/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://app.liquid.com/exchange/GETETH?affiliate=eNgws23g761816
-- base:
-    currency_id: 2354
-    currency_symbol: GET
-    currency_type: cryptocurrency
-    exchange_symbol: GET
-  exchange_id: 112
-  exchange_name: Liquid
   pair: GET/BTC
   quote:
     currency_id: 1
@@ -115,6 +101,20 @@ markets:
     currency_symbol: GET
     currency_type: cryptocurrency
     exchange_symbol: GET
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: GET/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://app.liquid.com/exchange/GETETH?affiliate=eNgws23g761816
+- base:
+    currency_id: 2354
+    currency_symbol: GET
+    currency_type: cryptocurrency
+    exchange_symbol: GET
   exchange_id: 158
   exchange_name: Nocks
   pair: GET/EUR
@@ -125,7 +125,7 @@ markets:
     exchange_symbol: EUR
   url: https://nocks.com/
 name: GET Protocol
-rank: 590
+rank: 602
 slug: get-protocol
 status: active
 symbol: GET

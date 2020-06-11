@@ -25,20 +25,6 @@ markets:
     exchange_symbol: LST
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: LST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/LST_BTC
-- base:
-    currency_id: 5009
-    currency_symbol: LST
-    currency_type: cryptocurrency
-    exchange_symbol: LST
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: LST/USDT
   quote:
     currency_id: 825
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://p2pb2b.io/trade/LST_ETH
+- base:
+    currency_id: 5009
+    currency_symbol: LST
+    currency_type: cryptocurrency
+    exchange_symbol: LST
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: LST/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/LST_BTC
 - base:
     currency_id: 5009
     currency_symbol: LST
@@ -145,7 +145,7 @@ markets:
     exchange_symbol: USDT
   url: https://app.stex.com/en/basic-trade/pair/USDT/LST/1D
 name: LuckySevenToken
-rank: 276
+rank: 281
 slug: luckyseventoken
 status: active
 symbol: LST

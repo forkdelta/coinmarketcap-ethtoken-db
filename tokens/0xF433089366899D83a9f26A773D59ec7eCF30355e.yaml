@@ -23,29 +23,15 @@ markets:
     currency_symbol: MTL
     currency_type: cryptocurrency
     exchange_symbol: MTL
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: MTL/KRW
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: MTL/USDT
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/MTLKRW
-- base:
-    currency_id: 1788
-    currency_symbol: MTL
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: MTL
-  exchange_id: 270
-  exchange_name: Binance
-  pair: MTL/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/MTL_BTC?ref=H31B921U
+    exchange_symbol: USDT
+  url: https://bilaxy.com/trade/MTL_USDT
 - base:
     currency_id: 1788
     currency_symbol: MTL
@@ -65,15 +51,43 @@ markets:
     currency_symbol: MTL
     currency_type: cryptocurrency
     exchange_symbol: MTL
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: MTL/USDT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: MTL/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bilaxy.com/trade/MTL_USDT
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/MTL_BTC?ref=H31B921U
+- base:
+    currency_id: 1788
+    currency_symbol: MTL
+    currency_type: cryptocurrency
+    exchange_symbol: MTL
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: MTL/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/MTLKRW
+- base:
+    currency_id: 1788
+    currency_symbol: MTL
+    currency_type: cryptocurrency
+    exchange_symbol: MTL
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: MTL/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://omgfin.com/exchange/trade/market/MTLBTC
 - base:
     currency_id: 1788
     currency_symbol: MTL
@@ -95,27 +109,13 @@ markets:
     exchange_symbol: MTL
   exchange_id: 656
   exchange_name: Omgfin
-  pair: MTL/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://omgfin.com/exchange/trade/market/MTLBTC
-- base:
-    currency_id: 1788
-    currency_symbol: MTL
-    currency_type: cryptocurrency
-    exchange_symbol: MTL
-  exchange_id: 270
-  exchange_name: Binance
   pair: MTL/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/MTL_USDT?ref=H31B921U
+  url: https://omgfin.com/exchange/trade/market/MTLUSDT
 - base:
     currency_id: 1788
     currency_symbol: MTL
@@ -135,15 +135,15 @@ markets:
     currency_symbol: MTL
     currency_type: cryptocurrency
     exchange_symbol: MTL
-  exchange_id: 656
-  exchange_name: Omgfin
+  exchange_id: 270
+  exchange_name: Binance
   pair: MTL/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/MTLUSDT
+  url: https://www.binance.com/en/trade/MTL_USDT?ref=H31B921U
 - base:
     currency_id: 1788
     currency_symbol: MTL
@@ -191,20 +191,6 @@ markets:
     currency_symbol: MTL
     currency_type: cryptocurrency
     exchange_symbol: MTL
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: MTL/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=mtl
-- base:
-    currency_id: 1788
-    currency_symbol: MTL
-    currency_type: cryptocurrency
-    exchange_symbol: MTL
   exchange_id: 102
   exchange_name: Huobi Global
   pair: MTL/BTC
@@ -219,15 +205,15 @@ markets:
     currency_symbol: MTL
     currency_type: cryptocurrency
     exchange_symbol: MTL
-  exchange_id: 22
-  exchange_name: Bittrex
+  exchange_id: 733
+  exchange_name: VCC Exchange
   pair: MTL/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-MTL
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=mtl
 - base:
     currency_id: 1788
     currency_symbol: MTL
@@ -261,15 +247,15 @@ markets:
     currency_symbol: MTL
     currency_type: cryptocurrency
     exchange_symbol: MTL
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: MTL/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/MTL-to-BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-MTL
 - base:
     currency_id: 1788
     currency_symbol: MTL
@@ -284,6 +270,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.metalx.com/trade/MTLBTC
+- base:
+    currency_id: 1788
+    currency_symbol: MTL
+    currency_type: cryptocurrency
+    exchange_symbol: MTL
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: MTL/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/MTL-to-BTC
 - base:
     currency_id: 1788
     currency_symbol: MTL
@@ -369,7 +369,7 @@ markets:
     exchange_symbol: USDT
   url: https://coindcx.com/trade/MTLUSDT
 name: Metal
-rank: 174
+rank: 171
 slug: metal
 status: active
 symbol: MTL

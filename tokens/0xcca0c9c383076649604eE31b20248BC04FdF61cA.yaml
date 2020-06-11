@@ -25,20 +25,6 @@ markets:
     exchange_symbol: BTMX
   exchange_id: 453
   exchange_name: BitMax
-  pair: BTMX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/btmx
-- base:
-    currency_id: 3673
-    currency_symbol: BTMX
-    currency_type: cryptocurrency
-    exchange_symbol: BTMX
-  exchange_id: 453
-  exchange_name: BitMax
   pair: BTMX/BTC
   quote:
     currency_id: 1
@@ -46,6 +32,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bitmax.io/#/trade/btc/btmx
+- base:
+    currency_id: 3673
+    currency_symbol: BTMX
+    currency_type: cryptocurrency
+    exchange_symbol: BTMX
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: BTMX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/btmx
 - base:
     currency_id: 3673
     currency_symbol: BTMX
@@ -79,20 +79,6 @@ markets:
     currency_symbol: BTMX
     currency_type: cryptocurrency
     exchange_symbol: BTMX
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: BTMX/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/BTMX-KRW
-- base:
-    currency_id: 3673
-    currency_symbol: BTMX
-    currency_type: cryptocurrency
-    exchange_symbol: BTMX
   exchange_id: 302
   exchange_name: Gate.io
   pair: BTMX/USDT
@@ -102,6 +88,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/btmx_usdt
+- base:
+    currency_id: 3673
+    currency_symbol: BTMX
+    currency_type: cryptocurrency
+    exchange_symbol: BTMX
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: BTMX/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/BTMX-KRW
 - base:
     currency_id: 3673
     currency_symbol: BTMX
@@ -131,7 +131,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/btmx
 name: BitMax Token
-rank: 259
+rank: 261
 slug: bitmax-token
 status: active
 symbol: BTMX

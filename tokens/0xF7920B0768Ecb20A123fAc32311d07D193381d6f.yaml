@@ -26,20 +26,6 @@ markets:
     currency_symbol: TNB
     currency_type: cryptocurrency
     exchange_symbol: TNB
-  exchange_id: 270
-  exchange_name: Binance
-  pair: TNB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/TNB_BTC?ref=H31B921U
-- base:
-    currency_id: 2235
-    currency_symbol: TNB
-    currency_type: cryptocurrency
-    exchange_symbol: TNB
   exchange_id: 339
   exchange_name: Bibox
   pair: TNB/ETH
@@ -54,15 +40,15 @@ markets:
     currency_symbol: TNB
     currency_type: cryptocurrency
     exchange_symbol: TNB
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 270
+  exchange_name: Binance
   pair: TNB/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/TNBBTC
+  url: https://www.binance.com/en/trade/TNB_BTC?ref=H31B921U
 - base:
     currency_id: 2235
     currency_symbol: TNB
@@ -77,6 +63,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.mxc.com/trade/easy#TNB_ETH
+- base:
+    currency_id: 2235
+    currency_symbol: TNB
+    currency_type: cryptocurrency
+    exchange_symbol: TNB
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: TNB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=TNB_ETH
+- base:
+    currency_id: 2235
+    currency_symbol: TNB
+    currency_type: cryptocurrency
+    exchange_symbol: TNB
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: TNB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=TNB_BTC
 - base:
     currency_id: 2235
     currency_symbol: TNB
@@ -110,29 +124,15 @@ markets:
     currency_symbol: TNB
     currency_type: cryptocurrency
     exchange_symbol: TNB
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: TNB/BTC
+  exchange_id: 398
+  exchange_name: DragonEX
+  pair: TNB/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=TNB_BTC
-- base:
-    currency_id: 2235
-    currency_symbol: TNB
-    currency_type: cryptocurrency
-    exchange_symbol: TNB
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: TNB/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=TNB_ETH
+    exchange_symbol: USDT
+  url: https://dragonex.io
 - base:
     currency_id: 2235
     currency_symbol: TNB
@@ -147,20 +147,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://big.one/trade/TNB-BTC
-- base:
-    currency_id: 2235
-    currency_symbol: TNB
-    currency_type: cryptocurrency
-    exchange_symbol: TNB
-  exchange_id: 398
-  exchange_name: DragonEX
-  pair: TNB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://dragonex.io
 - base:
     currency_id: 2235
     currency_symbol: TNB
@@ -189,6 +175,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bitfinex.com/t/TNB:BTC?refcode=H70YTMupQ
+- base:
+    currency_id: 2235
+    currency_symbol: TNB
+    currency_type: cryptocurrency
+    exchange_symbol: TNB
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: TNB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/TNBBTC
 - base:
     currency_id: 2235
     currency_symbol: TNB
@@ -260,7 +260,7 @@ markets:
     exchange_symbol: ETH
   url: https://dragonex.io
 name: Time New Bank
-rank: 449
+rank: 452
 slug: time-new-bank
 status: active
 symbol: TNB

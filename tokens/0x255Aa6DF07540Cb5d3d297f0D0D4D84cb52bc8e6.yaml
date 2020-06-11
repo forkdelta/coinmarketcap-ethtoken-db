@@ -89,20 +89,6 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: RDN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/rdn_btc?invite_code=5kij5
-- base:
-    currency_id: 2161
-    currency_symbol: RDN
-    currency_type: cryptocurrency
-    exchange_symbol: RDN
   exchange_id: 270
   exchange_name: Binance
   pair: RDN/ETH
@@ -112,6 +98,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.binance.com/en/trade/RDN_ETH?ref=H31B921U
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
+    currency_type: cryptocurrency
+    exchange_symbol: RDN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: RDN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/rdn_btc?invite_code=5kij5
 - base:
     currency_id: 2161
     currency_symbol: RDN
@@ -173,20 +173,6 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: RDN/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/RDN:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2161
-    currency_symbol: RDN
-    currency_type: cryptocurrency
-    exchange_symbol: RDN
   exchange_id: 949
   exchange_name: CoinDCX
   pair: RDN/BTC
@@ -196,6 +182,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coindcx.com/trade/RDNBTC
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
+    currency_type: cryptocurrency
+    exchange_symbol: RDN
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: RDN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/rdn_btc/
 - base:
     currency_id: 2161
     currency_symbol: RDN
@@ -215,15 +215,29 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: RDN/BTC
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: RDN/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/RDN:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/rdn_btc/
+    exchange_symbol: RDN
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: RDN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/rdn
 - base:
     currency_id: 2161
     currency_symbol: RDN
@@ -252,22 +266,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/rdn-eth
-- base:
-    currency_id: 2161
-    currency_symbol: RDN
-    currency_type: cryptocurrency
-    exchange_symbol: RDN
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: RDN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/rdn
 name: Raiden Network Token
-rank: 322
+rank: 365
 slug: raiden-network-token
 status: active
 symbol: RDN

@@ -29,6 +29,34 @@ markets:
     currency_symbol: NPXS
     currency_type: cryptocurrency
     exchange_symbol: NPXS
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: NPXS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://latoken.com/exchange/ETH-NPXS
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: NPXS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bkex.com/trade/NPXS_ETH
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
   exchange_id: 200
   exchange_name: Bithumb
   pair: NPXS/KRW
@@ -43,15 +71,15 @@ markets:
     currency_symbol: NPXS
     currency_type: cryptocurrency
     exchange_symbol: NPXS
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: NPXS/ETH
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: NPXS/KRW
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://latoken.com/exchange/ETH-NPXS
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-NPXS
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -113,20 +141,6 @@ markets:
     currency_symbol: NPXS
     currency_type: cryptocurrency
     exchange_symbol: NPXS
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: NPXS/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bkex.com/trade/NPXS_ETH
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
   exchange_id: 355
   exchange_name: Vebitcoin
   pair: NPXS/TRY
@@ -136,20 +150,6 @@ markets:
     currency_type: fiat
     exchange_symbol: TRY
   url: https://www.vebitcoin.com/
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: NPXS/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-NPXS
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -197,15 +197,15 @@ markets:
     currency_symbol: NPXS
     currency_type: cryptocurrency
     exchange_symbol: NPXS
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: NPXS/ETH
+  exchange_id: 520
+  exchange_name: Bitvavo
+  pair: NPXS/EUR
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://dex-trade.com/en?currencyIn=NPXS&currencyTo=ETH
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://account.bitvavo.com/markets/NPXS-EUR
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -225,15 +225,29 @@ markets:
     currency_symbol: NPXS
     currency_type: cryptocurrency
     exchange_symbol: NPXS
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: NPXS/BTC
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: NPXS/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/NPXS-BTC
+    exchange_symbol: ETH
+  url: https://dex-trade.com/en?currencyIn=NPXS&currencyTo=ETH
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: NPXS/IDR
+  quote:
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/NPXSIDR
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -253,29 +267,15 @@ markets:
     currency_symbol: NPXS
     currency_type: cryptocurrency
     exchange_symbol: NPXS
-  exchange_id: 520
-  exchange_name: Bitvavo
-  pair: NPXS/EUR
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: NPXS/BTC
   quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://account.bitvavo.com/markets/NPXS-EUR
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: NPXS/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitrue.com/trade/npxs_usdt
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/NPXS-BTC
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -295,43 +295,15 @@ markets:
     currency_symbol: NPXS
     currency_type: cryptocurrency
     exchange_symbol: NPXS
-  exchange_id: 594
-  exchange_name: Bitci
-  pair: NPXS/CHFT
-  quote:
-    currency_id: 5513
-    currency_symbol: CHFT
-    currency_type: cryptocurrency
-    exchange_symbol: CHFT
-  url: https://www.bitci.com/Trans/Main#!/Order/NPXS_CHFT
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: NPXS/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vcc.exchange/exchange/basic?currency=eth&coin=npxs
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
   exchange_id: 433
   exchange_name: Bitrue
-  pair: NPXS/XRP
+  pair: NPXS/USDT
   quote:
-    currency_id: 52
-    currency_symbol: XRP
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://www.bitrue.com/trade/npxs_xrp
+    exchange_symbol: USDT
+  url: https://www.bitrue.com/trade/npxs_usdt
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -351,29 +323,43 @@ markets:
     currency_symbol: NPXS
     currency_type: cryptocurrency
     exchange_symbol: NPXS
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: NPXS/USDT
+  exchange_id: 594
+  exchange_name: Bitci
+  pair: NPXS/CHFT
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 5513
+    currency_symbol: CHFT
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://vcc.exchange/exchange/basic?currency=usdt&coin=npxs
+    exchange_symbol: CHFT
+  url: https://www.bitci.com/Trans/Main#!/Order/NPXS_CHFT
 - base:
     currency_id: 2603
     currency_symbol: NPXS
     currency_type: cryptocurrency
     exchange_symbol: NPXS
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: NPXS/USDT
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: NPXS/KRW
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/NPXS-KRW
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bittrex.com/Market/Index?MarketName=USDT-NPXS
+    exchange_symbol: NPXS
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: NPXS/XRP
+  quote:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  url: https://www.bitrue.com/trade/npxs_xrp
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -407,6 +393,20 @@ markets:
     currency_symbol: NPXS
     currency_type: cryptocurrency
     exchange_symbol: NPXS
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: NPXS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vcc.exchange/exchange/basic?currency=eth&coin=npxs
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
   exchange_id: 22
   exchange_name: Bittrex
   pair: NPXS/ETH
@@ -416,20 +416,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bittrex.com/Market/Index?MarketName=ETH-NPXS
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: NPXS/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/NPXS-KRW
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -449,29 +435,15 @@ markets:
     currency_symbol: NPXS
     currency_type: cryptocurrency
     exchange_symbol: NPXS
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: NPXS/BTC
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: NPXS/INR
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=npxs
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: NPXS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-NPXS
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/npxs
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -491,29 +463,15 @@ markets:
     currency_symbol: NPXS
     currency_type: cryptocurrency
     exchange_symbol: NPXS
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: NPXS/IDR
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: NPXS/USDT
   quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://indodax.com/market/NPXSIDR
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: NPXS/INR
-  quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/npxs
+    exchange_symbol: USDT
+  url: https://vcc.exchange/exchange/basic?currency=usdt&coin=npxs
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -528,6 +486,118 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://vindax.com/exchange-base.html?symbol=NPXS_ETH
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: NPXS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=npxs
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: NPXS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/npxs
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: NPXS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-NPXS
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: NPXS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bittrex.com/Market/Index?MarketName=USDT-NPXS
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: NPXS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://omgfin.com/exchange/trade/market/NPXSETH
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: NPXS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/NPXS-to-BTC
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: NPXS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.probit.com/app/exchange/NPXS-USDT
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: NPXS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.probit.com/app/exchange/NPXS-BTC
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -563,76 +633,6 @@ markets:
     exchange_symbol: NPXS
   exchange_id: 656
   exchange_name: Omgfin
-  pair: NPXS/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://omgfin.com/exchange/trade/market/NPXSETH
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: NPXS/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/npxs
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: NPXS/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.probit.com/app/exchange/NPXS-USDT
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: NPXS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.probit.com/app/exchange/NPXS-BTC
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: NPXS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/NPXS-to-BTC
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 656
-  exchange_name: Omgfin
   pair: NPXS/USDT
   quote:
     currency_id: 825
@@ -640,48 +640,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://omgfin.com/exchange/trade/market/NPXSUSDT
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 82
-  exchange_name: BitBay
-  pair: NPXS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitbay.net/en/exchange-rate/NPXS-BTC
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 300
-  exchange_name: BitZ
-  pair: NPXS/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bit-z.com/exchange/npxs_eth
-- base:
-    currency_id: 2603
-    currency_symbol: NPXS
-    currency_type: cryptocurrency
-    exchange_symbol: NPXS
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: NPXS/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://coindcx.com/trade/NPXSETH
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -696,6 +654,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bit-z.com/exchange/npxs_btc
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: NPXS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://coindcx.com/trade/NPXSETH
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -738,6 +710,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=NPXSUSDT
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: NPXS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bit-z.com/exchange/npxs_eth
 - base:
     currency_id: 2603
     currency_symbol: NPXS
@@ -827,6 +813,20 @@ markets:
     currency_symbol: NPXS
     currency_type: cryptocurrency
     exchange_symbol: NPXS
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: NPXS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitbay.net/en/exchange-rate/NPXS-BTC
+- base:
+    currency_id: 2603
+    currency_symbol: NPXS
+    currency_type: cryptocurrency
+    exchange_symbol: NPXS
   exchange_id: 154
   exchange_name: Dex-Trade
   pair: NPXS/BTC
@@ -879,7 +879,7 @@ markets:
     exchange_symbol: ETH
   url: https://allbit.com/exchange/NPXS?market=ETH
 name: Pundi X
-rank: 130
+rank: 131
 slug: pundi-x
 status: active
 symbol: NPXS
