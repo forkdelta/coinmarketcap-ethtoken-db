@@ -25,20 +25,6 @@ markets:
     exchange_symbol: MAS
   exchange_id: 400
   exchange_name: Hotbit
-  pair: MAS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=MAS_BTC
-- base:
-    currency_id: 3352
-    currency_symbol: MAS
-    currency_type: cryptocurrency
-    exchange_symbol: MAS
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: MAS/ETH
   quote:
     currency_id: 1027
@@ -46,6 +32,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=MAS_ETH
+- base:
+    currency_id: 3352
+    currency_symbol: MAS
+    currency_type: cryptocurrency
+    exchange_symbol: MAS
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: MAS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=MAS_BTC
 - base:
     currency_id: 4224
     currency_symbol: MCASH
@@ -60,6 +60,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: MAS
   url: https://vinex.network/market/MAS_MCASH
+- base:
+    currency_id: 3352
+    currency_symbol: MAS
+    currency_type: cryptocurrency
+    exchange_symbol: MAS
+  exchange_id: 476
+  exchange_name: VINEX Network
+  pair: MAS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vinex.network/market/ETH_MAS
 - base:
     currency_id: 3352
     currency_symbol: MAS
@@ -88,22 +102,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vinex.network/market/BTC_MAS
-- base:
-    currency_id: 3352
-    currency_symbol: MAS
-    currency_type: cryptocurrency
-    exchange_symbol: MAS
-  exchange_id: 476
-  exchange_name: VINEX Network
-  pair: MAS/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vinex.network/market/ETH_MAS
 name: MidasProtocol
-rank: 1175
+rank: 1189
 slug: midasprotocol
 status: active
 symbol: MAS

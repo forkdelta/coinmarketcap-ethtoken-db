@@ -48,6 +48,20 @@ markets:
     currency_symbol: WBTC
     currency_type: cryptocurrency
     exchange_symbol: WBTC
+  exchange_id: 367
+  exchange_name: DDEX
+  pair: WBTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://ddex.io/margin/WBTC-USDT
+- base:
+    currency_id: 3717
+    currency_symbol: WBTC
+    currency_type: cryptocurrency
+    exchange_symbol: WBTC
   exchange_id: 286
   exchange_name: OasisDEX
   pair: WBTC/ETH
@@ -57,6 +71,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://oasisdex.com/
+- base:
+    currency_id: 1376
+    currency_symbol: NEO
+    currency_type: cryptocurrency
+    exchange_symbol: NEO
+  exchange_id: 401
+  exchange_name: Switcheo Network
+  pair: NEO/WBTC
+  quote:
+    currency_id: 3717
+    currency_symbol: WBTC
+    currency_type: cryptocurrency
+    exchange_symbol: WBTC
+  url: https://switcheo.exchange/markets/NEO_WBTC
 - base:
     currency_id: 3717
     currency_symbol: WBTC
@@ -85,34 +113,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitfinex.com/t/WBTC:ETH?refcode=H70YTMupQ
-- base:
-    currency_id: 3717
-    currency_symbol: WBTC
-    currency_type: cryptocurrency
-    exchange_symbol: WBTC
-  exchange_id: 367
-  exchange_name: DDEX
-  pair: WBTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://ddex.io/margin/WBTC-USDT
-- base:
-    currency_id: 1376
-    currency_symbol: NEO
-    currency_type: cryptocurrency
-    exchange_symbol: NEO
-  exchange_id: 401
-  exchange_name: Switcheo Network
-  pair: NEO/WBTC
-  quote:
-    currency_id: 3717
-    currency_symbol: WBTC
-    currency_type: cryptocurrency
-    exchange_symbol: WBTC
-  url: https://switcheo.exchange/markets/NEO_WBTC
 - base:
     currency_id: 3717
     currency_symbol: WBTC
@@ -184,7 +184,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/WBTC/WETH
 name: Wrapped Bitcoin
-rank: 324
+rank: 319
 slug: wrapped-bitcoin
 status: active
 symbol: WBTC

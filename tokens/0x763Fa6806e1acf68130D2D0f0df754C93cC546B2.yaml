@@ -28,20 +28,6 @@ markets:
     currency_symbol: LIT
     currency_type: cryptocurrency
     exchange_symbol: LIT
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: LIT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bilaxy.com/trade/LIT_ETH
-- base:
-    currency_id: 3870
-    currency_symbol: LIT
-    currency_type: cryptocurrency
-    exchange_symbol: LIT
   exchange_id: 400
   exchange_name: Hotbit
   pair: LIT/ETH
@@ -51,6 +37,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=LIT_ETH
+- base:
+    currency_id: 3870
+    currency_symbol: LIT
+    currency_type: cryptocurrency
+    exchange_symbol: LIT
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: LIT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/LIT_ETH
 - base:
     currency_id: 3870
     currency_symbol: LIT
@@ -142,13 +142,13 @@ markets:
     exchange_symbol: LIT
   exchange_id: 339
   exchange_name: Bibox
-  pair: LIT/ETH
+  pair: LIT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bibox.com/exchange?coinPair=LIT_ETH
+    exchange_symbol: BTC
+  url: https://www.bibox.com/exchange?coinPair=LIT_BTC
 - base:
     currency_id: 3870
     currency_symbol: LIT
@@ -170,15 +170,15 @@ markets:
     exchange_symbol: LIT
   exchange_id: 339
   exchange_name: Bibox
-  pair: LIT/BTC
+  pair: LIT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=LIT_BTC
+    exchange_symbol: ETH
+  url: https://www.bibox.com/exchange?coinPair=LIT_ETH
 name: Lition
-rank: 771
+rank: 765
 slug: lition
 status: active
 symbol: LIT

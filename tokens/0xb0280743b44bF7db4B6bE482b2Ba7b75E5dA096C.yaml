@@ -87,20 +87,6 @@ markets:
     exchange_symbol: TNS
   exchange_id: 100
   exchange_name: YoBit
-  pair: TNS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/TNS/BTC
-- base:
-    currency_id: 2704
-    currency_symbol: TNS
-    currency_type: cryptocurrency
-    exchange_symbol: TNS
-  exchange_id: 100
-  exchange_name: YoBit
   pair: TNS/ETH
   quote:
     currency_id: 1027
@@ -113,15 +99,15 @@ markets:
     currency_symbol: TNS
     currency_type: cryptocurrency
     exchange_symbol: TNS
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: TNS/ETH
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: TNS/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.fatbtc.com/
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/TNS/BTC
 - base:
     currency_id: 2704
     currency_symbol: TNS
@@ -136,8 +122,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://topbtc.com/home/Market/index/market/ETH/coin/TNS.html
+- base:
+    currency_id: 2704
+    currency_symbol: TNS
+    currency_type: cryptocurrency
+    exchange_symbol: TNS
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: TNS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.fatbtc.com/
 name: Transcodium
-rank: 1619
+rank: 1571
 slug: transcodium
 status: active
 symbol: TNS

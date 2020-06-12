@@ -34,20 +34,6 @@ markets:
     exchange_symbol: BTRS
   exchange_id: 587
   exchange_name: IndoEx
-  pair: BTRS/XRP
-  quote:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://international.indoex.io/trade/BTRS_XRP
-- base:
-    currency_id: 4257
-    currency_symbol: BTRS
-    currency_type: cryptocurrency
-    exchange_symbol: BTRS
-  exchange_id: 587
-  exchange_name: IndoEx
   pair: BTRS/BTC
   quote:
     currency_id: 1
@@ -55,6 +41,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://international.indoex.io/trade/BTRS_BTC
+- base:
+    currency_id: 4257
+    currency_symbol: BTRS
+    currency_type: cryptocurrency
+    exchange_symbol: BTRS
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: BTRS/XRP
+  quote:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  url: https://international.indoex.io/trade/BTRS_XRP
 - base:
     currency_id: 4257
     currency_symbol: BTRS
@@ -112,7 +112,7 @@ markets:
     exchange_symbol: BTC
   url: https://ccxcanada.com/markets/btrsbtc
 name: Bitball Treasure
-rank: 247
+rank: 257
 slug: bitball-treasure
 status: active
 symbol: BTRS

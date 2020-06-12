@@ -108,6 +108,20 @@ markets:
     currency_symbol: DGD
     currency_type: cryptocurrency
     exchange_symbol: DGD
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: DGD/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/DGD-to-BTC
+- base:
+    currency_id: 1229
+    currency_symbol: DGD
+    currency_type: cryptocurrency
+    exchange_symbol: DGD
   exchange_id: 433
   exchange_name: Bitrue
   pair: DGD/BTC
@@ -150,34 +164,6 @@ markets:
     currency_symbol: DGD
     currency_type: cryptocurrency
     exchange_symbol: DGD
-  exchange_id: 487
-  exchange_name: VinDAX
-  pair: DGD/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vindax.com/exchange-base.html?symbol=DGD_ETH
-- base:
-    currency_id: 1229
-    currency_symbol: DGD
-    currency_type: cryptocurrency
-    exchange_symbol: DGD
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: DGD/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/DGD-to-BTC
-- base:
-    currency_id: 1229
-    currency_symbol: DGD
-    currency_type: cryptocurrency
-    exchange_symbol: DGD
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: DGD/BTC
@@ -206,15 +192,15 @@ markets:
     currency_symbol: DGD
     currency_type: cryptocurrency
     exchange_symbol: DGD
-  exchange_id: 487
-  exchange_name: VinDAX
-  pair: DGD/BTC
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: DGD/INR
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vindax.com/exchange-base.html?symbol=DGD_BTC
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/dgd
 - base:
     currency_id: 1229
     currency_symbol: DGD
@@ -262,15 +248,15 @@ markets:
     currency_symbol: DGD
     currency_type: cryptocurrency
     exchange_symbol: DGD
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: DGD/INR
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: DGD/ETH
   quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/dgd
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vindax.com/exchange-base.html?symbol=DGD_ETH
 - base:
     currency_id: 1229
     currency_symbol: DGD
@@ -285,6 +271,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://uniswap.exchange/
+- base:
+    currency_id: 1229
+    currency_symbol: DGD
+    currency_type: cryptocurrency
+    exchange_symbol: DGD
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: DGD/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vindax.com/exchange-base.html?symbol=DGD_BTC
 - base:
     currency_id: 1229
     currency_symbol: DGD
@@ -314,7 +314,7 @@ markets:
     exchange_symbol: BTC
   url: https://coinplace.pro/
 name: DigixDAO
-rank: 399
+rank: 402
 slug: digixdao
 status: active
 symbol: DGD
