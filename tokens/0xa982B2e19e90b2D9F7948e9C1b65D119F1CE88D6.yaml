@@ -29,20 +29,6 @@ markets:
     currency_symbol: WOM
     currency_type: cryptocurrency
     exchange_symbol: WOM
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: WOM/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/WOMKRW
-- base:
-    currency_id: 5328
-    currency_symbol: WOM
-    currency_type: cryptocurrency
-    exchange_symbol: WOM
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: WOM/USDT
@@ -52,6 +38,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=WOM_USDT
+- base:
+    currency_id: 5328
+    currency_symbol: WOM
+    currency_type: cryptocurrency
+    exchange_symbol: WOM
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: WOM/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/WOMKRW
 - base:
     currency_id: 5328
     currency_symbol: WOM
@@ -67,7 +67,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.kucoin.com/trade/WOM-USDT
 name: WOM Protocol
-rank: 295
+rank: 315
 slug: wom-protocol
 status: active
 symbol: WOM

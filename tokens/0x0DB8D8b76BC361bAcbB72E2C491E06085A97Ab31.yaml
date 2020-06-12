@@ -33,15 +33,43 @@ markets:
     currency_symbol: IQN
     currency_type: cryptocurrency
     exchange_symbol: IQN
-  exchange_id: 155
-  exchange_name: Exrates
+  exchange_id: 100
+  exchange_name: YoBit
   pair: IQN/USD
   quote:
     currency_id: 2781
     currency_symbol: USD
     currency_type: fiat
     exchange_symbol: USD
-  url: https://exrates.me/trading/IQNUSD
+  url: https://yobit.net/en/trade/IQN/USD
+- base:
+    currency_id: 3336
+    currency_symbol: IQN
+    currency_type: cryptocurrency
+    exchange_symbol: IQN
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: IQN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/IQN/BTC
+- base:
+    currency_id: 3336
+    currency_symbol: IQN
+    currency_type: cryptocurrency
+    exchange_symbol: IQN
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: IQN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://yobit.net/en/trade/IQN/ETH
 - base:
     currency_id: 3336
     currency_symbol: IQN
@@ -77,6 +105,20 @@ markets:
     exchange_symbol: IQN
   exchange_id: 155
   exchange_name: Exrates
+  pair: IQN/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://exrates.me/trading/IQNUSD
+- base:
+    currency_id: 3336
+    currency_symbol: IQN
+    currency_type: cryptocurrency
+    exchange_symbol: IQN
+  exchange_id: 155
+  exchange_name: Exrates
   pair: IQN/USDT
   quote:
     currency_id: 825
@@ -84,50 +126,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://exrates.me/trading/IQNUSDT
-- base:
-    currency_id: 3336
-    currency_symbol: IQN
-    currency_type: cryptocurrency
-    exchange_symbol: IQN
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: IQN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://yobit.net/en/trade/IQN/ETH
-- base:
-    currency_id: 3336
-    currency_symbol: IQN
-    currency_type: cryptocurrency
-    exchange_symbol: IQN
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: IQN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/IQN/BTC
-- base:
-    currency_id: 3336
-    currency_symbol: IQN
-    currency_type: cryptocurrency
-    exchange_symbol: IQN
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: IQN/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://yobit.net/en/trade/IQN/USD
 name: IQeon
-rank: 507
+rank: 517
 slug: iqeon
 status: active
 symbol: IQN

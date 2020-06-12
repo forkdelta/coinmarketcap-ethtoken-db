@@ -25,6 +25,20 @@ markets:
     currency_symbol: SPD
     currency_type: cryptocurrency
     exchange_symbol: SPD
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SPD/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/SPD-to-BTC
+- base:
+    currency_id: 2828
+    currency_symbol: SPD
+    currency_type: cryptocurrency
+    exchange_symbol: SPD
   exchange_id: 267
   exchange_name: Bancor Network
   pair: SPD/BNT
@@ -34,20 +48,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNT
   url: https://www.bancor.network/token/SPD
-- base:
-    currency_id: 2828
-    currency_symbol: SPD
-    currency_type: cryptocurrency
-    exchange_symbol: SPD
-  exchange_id: 228
-  exchange_name: BTC-Alpha
-  pair: SPD/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://btc-alpha.com/exchange/SPD_USD/
 - base:
     currency_id: 2828
     currency_symbol: SPD
@@ -67,15 +67,15 @@ markets:
     currency_symbol: SPD
     currency_type: cryptocurrency
     exchange_symbol: SPD
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SPD/BTC
+  exchange_id: 228
+  exchange_name: BTC-Alpha
+  pair: SPD/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/SPD-to-BTC
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://btc-alpha.com/exchange/SPD_USD/
 - base:
     currency_id: 2828
     currency_symbol: SPD
@@ -119,7 +119,7 @@ markets:
     exchange_symbol: ETH
   url: https://yobit.net/en/trade/SPD/ETH
 name: SPINDLE
-rank: 1158
+rank: 1199
 slug: spindle
 status: active
 symbol: SPD

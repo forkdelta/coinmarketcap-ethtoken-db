@@ -21,20 +21,6 @@ markets:
     currency_symbol: HXRO
     currency_type: cryptocurrency
     exchange_symbol: HXRO
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: HXRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-HXRO
-- base:
-    currency_id: 3748
-    currency_symbol: HXRO
-    currency_type: cryptocurrency
-    exchange_symbol: HXRO
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: HXRO/BTC
@@ -44,6 +30,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=hxro
+- base:
+    currency_id: 3748
+    currency_symbol: HXRO
+    currency_type: cryptocurrency
+    exchange_symbol: HXRO
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: HXRO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-HXRO
 - base:
     currency_id: 3748
     currency_symbol: HXRO
@@ -101,7 +101,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.halodex.io/trade/HXRO/ETH
 name: Hxro
-rank: 413
+rank: 403
 slug: hxro
 status: active
 symbol: HXRO

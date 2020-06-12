@@ -32,20 +32,6 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: KNC/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://pro.coinbase.com/trade/KNC-USD
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
   exchange_id: 270
   exchange_name: Binance
   pair: KNC/BTC
@@ -60,57 +46,15 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: KNC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=knc_usdt
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: KNC/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-KNC
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: KNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=knc_btc
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
   exchange_id: 89
   exchange_name: Coinbase Pro
-  pair: KNC/BTC
+  pair: KNC/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://pro.coinbase.com/trade/KNC-BTC
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://pro.coinbase.com/trade/KNC-USD
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -130,15 +74,71 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
-  exchange_id: 415
-  exchange_name: Bilaxy
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: KNC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=knc_usdt
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 294
+  exchange_name: OKEx
   pair: KNC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bilaxy.com/trade/KNC_BTC
+  url: https://www.okex.com/market?product=knc_btc
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: KNC/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-KNC
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: KNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://pro.coinbase.com/trade/KNC-BTC
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 398
+  exchange_name: DragonEX
+  pair: KNC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://dragonex.io
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -172,20 +172,6 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
-  exchange_id: 398
-  exchange_name: DragonEX
-  pair: KNC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://dragonex.io
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
   exchange_id: 544
   exchange_name: MXC
   pair: KNC/ETH
@@ -195,6 +181,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.mxc.com/trade/easy#KNC_ETH
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: KNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bilaxy.com/trade/KNC_BTC
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -214,20 +214,6 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: KNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/KNC_BTC
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
   exchange_id: 673
   exchange_name: UPEX
   pair: KNC/BTC
@@ -237,20 +223,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://upex.io/trade/KNC_BTC
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: KNC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/knc-eth
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -270,6 +242,48 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: KNC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vindax.com/exchange-base.html?symbol=KNC_ETH
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: KNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/KNC_BTC
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: KNC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/knc-eth
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
   exchange_id: 459
   exchange_name: BW.com
   pair: KNC/USDT
@@ -284,15 +298,15 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: KNC/ETH
+  exchange_id: 483
+  exchange_name: Hanbitco
+  pair: KNC/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/knc_eth?invite_code=5kij5
+    exchange_symbol: BTC
+  url: https://www.hanbitco.com/exchange-basic/knc_btc
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -307,6 +321,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://uniswap.exchange/
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: KNC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/knc_eth?invite_code=5kij5
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -340,20 +368,6 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
-  exchange_id: 483
-  exchange_name: Hanbitco
-  pair: KNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hanbitco.com/exchange-basic/knc_btc
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
   exchange_id: 302
   exchange_name: Gate.io
   pair: KNC/USDT
@@ -382,34 +396,6 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
-  exchange_id: 853
-  exchange_name: AAX
-  pair: KNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.aax.com/spot/trade/KNC:BTC
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 487
-  exchange_name: VinDAX
-  pair: KNC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vindax.com/exchange-base.html?symbol=KNC_ETH
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
   exchange_id: 326
   exchange_name: ZB.COM
   pair: KNC/QC
@@ -419,20 +405,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: QC
   url: https://trans.zb.com/kncqc
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: KNC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bkex.com/trade/KNC_USDT
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -452,43 +424,29 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: KNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=knc&tab=limit
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: KNC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.kucoin.com/trade/KNC-ETH
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 350
-  exchange_name: CoinEx
+  exchange_id: 482
+  exchange_name: BKEX
   pair: KNC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=knc&tab=limit
+  url: https://www.bkex.com/trade/KNC_USDT
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 853
+  exchange_name: AAX
+  pair: KNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.aax.com/spot/trade/KNC:BTC
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -508,57 +466,15 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: KNC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitrue.com/trade/knc_eth
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 350
+  exchange_name: CoinEx
   pair: KNC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/KNCBTC
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: KNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/KNC-to-BTC
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: KNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_knc?c=H4QD8FNW
+  url: https://www.coinex.com/trading?currency=btc&dest=knc&tab=limit
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -578,6 +494,48 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: KNC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=knc&tab=limit
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: KNC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitrue.com/trade/knc_eth
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: KNC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.kucoin.com/trade/KNC-ETH
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
   exchange_id: 174
   exchange_name: Coinone
   pair: KNC/KRW
@@ -592,43 +550,15 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 16
+  exchange_name: Poloniex
   pair: KNC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/knc_btc/
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 476
-  exchange_name: VINEX Network
-  pair: KNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vinex.network/market/BTC_KNC
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: KNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/KNC:BTC?refcode=H70YTMupQ
+  url: https://poloniex.com/exchange#btc_knc?c=H4QD8FNW
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -648,6 +578,20 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: KNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/KNC-to-BTC
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: KNC/KRW
@@ -657,6 +601,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/KNC-KRW
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: KNC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://mercatox.com/exchange/KNC/ETH
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -678,20 +636,6 @@ markets:
     exchange_symbol: KNC
   exchange_id: 213
   exchange_name: Mercatox
-  pair: KNC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/KNC/ETH
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 213
-  exchange_name: Mercatox
   pair: KNC/BTC
   quote:
     currency_id: 1
@@ -699,6 +643,48 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/KNC/BTC
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: KNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/KNC:BTC?refcode=H70YTMupQ
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: KNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/KNCBTC
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: KNC/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/KNC:USD?refcode=H70YTMupQ
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -734,6 +720,34 @@ markets:
     exchange_symbol: KNC
   exchange_id: 476
   exchange_name: VINEX Network
+  pair: KNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vinex.network/market/BTC_KNC
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: KNC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/KNC-to-ETH
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 476
+  exchange_name: VINEX Network
   pair: KNC/ETH
   quote:
     currency_id: 1027
@@ -746,15 +760,29 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: KNC/USD
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: KNC/USDT
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/KNC:USD?refcode=H70YTMupQ
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/KNC-to-USDT
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: KNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/knc_btc/
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -788,43 +816,15 @@ markets:
     currency_symbol: KNC
     currency_type: cryptocurrency
     exchange_symbol: KNC
-  exchange_id: 574
-  exchange_name: WBF Exchange
-  pair: KNC/USDT
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: KNC/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.wbf.info/trade/KNC_USDT
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: KNC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/KNC-to-USDT
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 490
-  exchange_name: OKEx Korea
-  pair: KNC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://okex.co.kr/kr/view/exchange?coin=KNC&market=USDT
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/knc_eth/
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -839,34 +839,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.livecoin.net/en/trading/KNC_BTC
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: KNC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/KNC-to-ETH
-- base:
-    currency_id: 1982
-    currency_symbol: KNC
-    currency_type: cryptocurrency
-    exchange_symbol: KNC
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: KNC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/knc_eth/
 - base:
     currency_id: 1982
     currency_symbol: KNC
@@ -909,6 +881,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://switcheo.exchange/markets/KNC_ETH
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 490
+  exchange_name: OKEx Korea
+  pair: KNC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://okex.co.kr/kr/view/exchange?coin=KNC&market=USDT
+- base:
+    currency_id: 1982
+    currency_symbol: KNC
+    currency_type: cryptocurrency
+    exchange_symbol: KNC
+  exchange_id: 574
+  exchange_name: WBF Exchange
+  pair: KNC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.wbf.info/trade/KNC_USDT
 name: Kyber Network
 rank: 40
 slug: kyber-network
