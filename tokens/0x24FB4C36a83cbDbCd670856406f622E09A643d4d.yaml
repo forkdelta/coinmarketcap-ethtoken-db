@@ -25,20 +25,6 @@ markets:
     exchange_symbol: HNT
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: HNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://p2pb2b.io/trade/HNT_ETH
-- base:
-    currency_id: 5422
-    currency_symbol: HNT
-    currency_type: cryptocurrency
-    exchange_symbol: HNT
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: HNT/USD
   quote:
     currency_id: 2781
@@ -46,6 +32,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://p2pb2b.io/trade/HNT_USD
+- base:
+    currency_id: 5422
+    currency_symbol: HNT
+    currency_type: cryptocurrency
+    exchange_symbol: HNT
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: HNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://p2pb2b.io/trade/HNT_ETH
 - base:
     currency_id: 5422
     currency_symbol: HNT
@@ -61,7 +61,7 @@ markets:
     exchange_symbol: BTC
   url: https://p2pb2b.io/trade/HNT_BTC
 name: Hinto
-rank: 2268
+rank: 2266
 slug: hinto
 status: active
 symbol: HNT

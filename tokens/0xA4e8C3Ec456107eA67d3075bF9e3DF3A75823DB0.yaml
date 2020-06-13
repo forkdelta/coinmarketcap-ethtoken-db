@@ -60,20 +60,6 @@ markets:
     currency_symbol: LOOM
     currency_type: cryptocurrency
     exchange_symbol: LOOM
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: LOOM/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-LOOM
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
   exchange_id: 406
   exchange_name: BitMart
   pair: LOOM/ETH
@@ -83,6 +69,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitmart.com/trade?symbol=LOOM_ETH
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: LOOM/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-LOOM
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -102,6 +102,20 @@ markets:
     currency_symbol: LOOM
     currency_type: cryptocurrency
     exchange_symbol: LOOM
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: LOOM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://latoken.com/exchange/BTC-LOOM
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
   exchange_id: 270
   exchange_name: Binance
   pair: LOOM/BTC
@@ -111,20 +125,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.binance.com/en/trade/LOOM_BTC?ref=H31B921U
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: LOOM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitmart.com/trade?symbol=LOOM_BTC
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -144,15 +144,15 @@ markets:
     currency_symbol: LOOM
     currency_type: cryptocurrency
     exchange_symbol: LOOM
-  exchange_id: 380
-  exchange_name: LATOKEN
+  exchange_id: 406
+  exchange_name: BitMart
   pair: LOOM/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://latoken.com/exchange/BTC-LOOM
+  url: https://www.bitmart.com/trade?symbol=LOOM_BTC
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -214,34 +214,6 @@ markets:
     currency_symbol: LOOM
     currency_type: cryptocurrency
     exchange_symbol: LOOM
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: LOOM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=LOOM_BTC
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: LOOM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=LOOM_ETH
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
   exchange_id: 270
   exchange_name: Binance
   pair: LOOM/ETH
@@ -265,34 +237,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://alterdice.com/trading/LOOMBTC
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: LOOM/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://pro.coinbase.com/trade/LOOM-USDC
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
-  exchange_id: 343
-  exchange_name: CoinBene
-  pair: LOOM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=LOOMBTC
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -340,15 +284,15 @@ markets:
     currency_symbol: LOOM
     currency_type: cryptocurrency
     exchange_symbol: LOOM
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: LOOM/ETH
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: LOOM/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://dex-trade.com/en?currencyIn=LOOM&currencyTo=ETH
+    exchange_symbol: BTC
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=LOOMBTC
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -368,15 +312,71 @@ markets:
     currency_symbol: LOOM
     currency_type: cryptocurrency
     exchange_symbol: LOOM
-  exchange_id: 446
-  exchange_name: TOKOK
+  exchange_id: 154
+  exchange_name: Dex-Trade
   pair: LOOM/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.tokok.com/market?symbol=LOOM_ETH
+  url: https://dex-trade.com/en?currencyIn=LOOM&currencyTo=ETH
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: LOOM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=LOOM_ETH
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: LOOM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=LOOM_BTC
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: LOOM/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://pro.coinbase.com/trade/LOOM-USDC
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 485
+  exchange_name: CoinField
+  pair: LOOM/XRP
+  quote:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  url: https://trade.coinfield.com/pro/trade/LOOM-XRP
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -410,20 +410,6 @@ markets:
     currency_symbol: LOOM
     currency_type: cryptocurrency
     exchange_symbol: LOOM
-  exchange_id: 485
-  exchange_name: CoinField
-  pair: LOOM/XRP
-  quote:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://trade.coinfield.com/pro/trade/LOOM-XRP
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
   exchange_id: 481
   exchange_name: Alterdice
   pair: LOOM/ETH
@@ -433,48 +419,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://alterdice.com/trading/LOOMETH
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: LOOM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://omgfin.com/exchange/trade/market/LOOMBTC
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: LOOM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/LOOMBTC
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: LOOM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/LOOMUSDT
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -494,6 +438,34 @@ markets:
     currency_symbol: LOOM
     currency_type: cryptocurrency
     exchange_symbol: LOOM
+  exchange_id: 446
+  exchange_name: TOKOK
+  pair: LOOM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.tokok.com/market?symbol=LOOM_ETH
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: LOOM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://omgfin.com/exchange/trade/market/LOOMBTC
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
   exchange_id: 311
   exchange_name: KuCoin
   pair: LOOM/BTC
@@ -503,6 +475,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.kucoin.com/trade/LOOM-BTC
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: LOOM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://omgfin.com/exchange/trade/market/LOOMUSDT
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -522,57 +508,15 @@ markets:
     currency_symbol: LOOM
     currency_type: cryptocurrency
     exchange_symbol: LOOM
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: LOOM/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/loom-krw
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: LOOM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://omgfin.com/exchange/trade/market/LOOMETH
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
-  exchange_id: 16
-  exchange_name: Poloniex
+  exchange_id: 949
+  exchange_name: CoinDCX
   pair: LOOM/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_loom?c=H4QD8FNW
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: LOOM/INR
-  quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/loom
+  url: https://coindcx.com/trade/LOOMBTC
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -592,29 +536,15 @@ markets:
     currency_symbol: LOOM
     currency_type: cryptocurrency
     exchange_symbol: LOOM
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: LOOM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/LOOM-USDT
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
-  exchange_id: 404
-  exchange_name: Kyber Network
+  exchange_id: 656
+  exchange_name: Omgfin
   pair: LOOM/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://kyberswap.com/swap/loom-eth
+  url: https://omgfin.com/exchange/trade/market/LOOMETH
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -629,6 +559,62 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.kucoin.com/trade/LOOM-ETH
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: LOOM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/LOOM-USDT
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: LOOM/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/loom-krw
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: LOOM/INR
+  quote:
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/loom
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: LOOM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://poloniex.com/exchange#btc_loom?c=H4QD8FNW
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -662,6 +648,20 @@ markets:
     currency_symbol: LOOM
     currency_type: cryptocurrency
     exchange_symbol: LOOM
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: LOOM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/loom-eth
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
   exchange_id: 107
   exchange_name: Livecoin
   pair: LOOM/BTC
@@ -671,6 +671,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.livecoin.net/en/trading/LOOM_BTC
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: LOOM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/loom_btc/
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -704,34 +718,6 @@ markets:
     currency_symbol: LOOM
     currency_type: cryptocurrency
     exchange_symbol: LOOM
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: LOOM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/loom
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: LOOM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/loom_btc/
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: LOOM/ETH
@@ -748,13 +734,13 @@ markets:
     exchange_symbol: LOOM
   exchange_id: 100
   exchange_name: YoBit
-  pair: LOOM/USD
+  pair: LOOM/BTC
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://yobit.net/en/trade/LOOM/USD
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/LOOM/BTC
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -790,20 +776,6 @@ markets:
     exchange_symbol: LOOM
   exchange_id: 100
   exchange_name: YoBit
-  pair: LOOM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/LOOM/BTC
-- base:
-    currency_id: 2588
-    currency_symbol: LOOM
-    currency_type: cryptocurrency
-    exchange_symbol: LOOM
-  exchange_id: 100
-  exchange_name: YoBit
   pair: LOOM/ETH
   quote:
     currency_id: 1027
@@ -811,6 +783,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://yobit.net/en/trade/LOOM/ETH
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: LOOM/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://yobit.net/en/trade/LOOM/USD
+- base:
+    currency_id: 2588
+    currency_symbol: LOOM
+    currency_type: cryptocurrency
+    exchange_symbol: LOOM
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: LOOM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/loom
 - base:
     currency_id: 2588
     currency_symbol: LOOM
@@ -882,7 +882,7 @@ markets:
     exchange_symbol: BTC
   url: https://allbit.com/exchange/LOOM?market=BTC
 name: Loom Network
-rank: 180
+rank: 183
 slug: loom-network
 status: active
 symbol: LOOM

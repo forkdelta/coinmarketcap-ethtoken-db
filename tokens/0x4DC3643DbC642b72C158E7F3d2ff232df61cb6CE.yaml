@@ -58,20 +58,6 @@ markets:
     currency_symbol: AMB
     currency_type: cryptocurrency
     exchange_symbol: AMB
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: AMB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/AMB-to-BTC
-- base:
-    currency_id: 2081
-    currency_symbol: AMB
-    currency_type: cryptocurrency
-    exchange_symbol: AMB
   exchange_id: 311
   exchange_name: KuCoin
   pair: AMB/BTC
@@ -81,20 +67,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.kucoin.com/trade/AMB-BTC
-- base:
-    currency_id: 2081
-    currency_symbol: AMB
-    currency_type: cryptocurrency
-    exchange_symbol: AMB
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: AMB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/AMBBTC
 - base:
     currency_id: 2081
     currency_symbol: AMB
@@ -128,15 +100,29 @@ markets:
     currency_symbol: AMB
     currency_type: cryptocurrency
     exchange_symbol: AMB
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: AMB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/AMBBTC
+- base:
+    currency_id: 2081
+    currency_symbol: AMB
+    currency_type: cryptocurrency
+    exchange_symbol: AMB
   exchange_id: 42
   exchange_name: HitBTC
-  pair: AMB/USDT
+  pair: AMB/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/AMB-to-USDT
+    exchange_symbol: BTC
+  url: https://hitbtc.com/AMB-to-BTC
 - base:
     currency_id: 2081
     currency_symbol: AMB
@@ -151,6 +137,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/AMB-to-ETH
+- base:
+    currency_id: 2081
+    currency_symbol: AMB
+    currency_type: cryptocurrency
+    exchange_symbol: AMB
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: AMB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/AMB-to-USDT
 - base:
     currency_id: 2081
     currency_symbol: AMB
@@ -180,7 +180,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.tokok.com/market?symbol=AMB_ETH
 name: Ambrosus
-rank: 552
+rank: 565
 slug: amber
 status: active
 symbol: AMB

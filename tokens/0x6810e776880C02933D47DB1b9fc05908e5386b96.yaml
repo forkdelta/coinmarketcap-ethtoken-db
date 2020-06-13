@@ -33,29 +33,15 @@ markets:
     currency_symbol: GNO
     currency_type: cryptocurrency
     exchange_symbol: GNO
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: GNO/ETH
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: GNO/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 1659
-    currency_symbol: GNO
-    currency_type: cryptocurrency
-    exchange_symbol: GNO
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: GNO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.fatbtc.com/
+    exchange_symbol: BTC
+  url: https://trade.kraken.com/markets/kraken/gno/btc
 - base:
     currency_id: 1659
     currency_symbol: GNO
@@ -77,27 +63,13 @@ markets:
     exchange_symbol: GNO
   exchange_id: 24
   exchange_name: Kraken
-  pair: GNO/BTC
+  pair: GNO/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kraken.com/markets/kraken/gno/btc
-- base:
-    currency_id: 1659
-    currency_symbol: GNO
-    currency_type: cryptocurrency
-    exchange_symbol: GNO
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: GNO/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/GNO
+    exchange_symbol: ETH
+  url: https://trade.kraken.com/markets/kraken/gno/eth
 - base:
     currency_id: 1659
     currency_symbol: GNO
@@ -117,15 +89,29 @@ markets:
     currency_symbol: GNO
     currency_type: cryptocurrency
     exchange_symbol: GNO
-  exchange_id: 24
-  exchange_name: Kraken
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: GNO/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/GNO
+- base:
+    currency_id: 1659
+    currency_symbol: GNO
+    currency_type: cryptocurrency
+    exchange_symbol: GNO
+  exchange_id: 595
+  exchange_name: Uniswap
   pair: GNO/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://trade.kraken.com/markets/kraken/gno/eth
+  url: https://uniswap.exchange/
 - base:
     currency_id: 1659
     currency_symbol: GNO
@@ -147,27 +133,13 @@ markets:
     exchange_symbol: GNO
   exchange_id: 908
   exchange_name: VALR
-  pair: GNO/ETH
+  pair: GNO/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.valr.com/buy/GNO/ETH
-- base:
-    currency_id: 1659
-    currency_symbol: GNO
-    currency_type: cryptocurrency
-    exchange_symbol: GNO
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: GNO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-GNO
+    exchange_symbol: BTC
+  url: https://www.valr.com/buy/GNO/BTC
 - base:
     currency_id: 1659
     currency_symbol: GNO
@@ -187,15 +159,29 @@ markets:
     currency_symbol: GNO
     currency_type: cryptocurrency
     exchange_symbol: GNO
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: GNO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-GNO
+- base:
+    currency_id: 1659
+    currency_symbol: GNO
+    currency_type: cryptocurrency
+    exchange_symbol: GNO
   exchange_id: 908
   exchange_name: VALR
-  pair: GNO/BTC
+  pair: GNO/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.valr.com/buy/GNO/BTC
+    exchange_symbol: ETH
+  url: https://www.valr.com/buy/GNO/ETH
 - base:
     currency_id: 1659
     currency_symbol: GNO
@@ -280,8 +266,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/GNO/BTC
+- base:
+    currency_id: 1659
+    currency_symbol: GNO
+    currency_type: cryptocurrency
+    exchange_symbol: GNO
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: GNO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/
 name: Gnosis
-rank: 132
+rank: 131
 slug: gnosis-gno
 status: active
 symbol: GNO

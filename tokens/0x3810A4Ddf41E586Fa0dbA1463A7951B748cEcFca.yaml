@@ -32,20 +32,6 @@ markets:
     currency_symbol: MPAY
     currency_type: cryptocurrency
     exchange_symbol: MPAY
-  exchange_id: 330
-  exchange_name: BigONE
-  pair: MPAY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://big.one/trade/MPAY-BTC
-- base:
-    currency_id: 4001
-    currency_symbol: MPAY
-    currency_type: cryptocurrency
-    exchange_symbol: MPAY
   exchange_id: 398
   exchange_name: DragonEX
   pair: MPAY/USDT
@@ -55,6 +41,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://dragonex.io
+- base:
+    currency_id: 4001
+    currency_symbol: MPAY
+    currency_type: cryptocurrency
+    exchange_symbol: MPAY
+  exchange_id: 330
+  exchange_name: BigONE
+  pair: MPAY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://big.one/trade/MPAY-BTC
 - base:
     currency_id: 4001
     currency_symbol: MPAY
@@ -102,20 +102,6 @@ markets:
     currency_symbol: MPAY
     currency_type: cryptocurrency
     exchange_symbol: MPAY
-  exchange_id: 483
-  exchange_name: Hanbitco
-  pair: MPAY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hanbitco.com/exchange-basic/mpay_btc
-- base:
-    currency_id: 4001
-    currency_symbol: MPAY
-    currency_type: cryptocurrency
-    exchange_symbol: MPAY
   exchange_id: 535
   exchange_name: ExMarkets
   pair: MPAY/ETH
@@ -125,8 +111,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://exmarkets.com/trade/mpay-eth
+- base:
+    currency_id: 4001
+    currency_symbol: MPAY
+    currency_type: cryptocurrency
+    exchange_symbol: MPAY
+  exchange_id: 483
+  exchange_name: Hanbitco
+  pair: MPAY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hanbitco.com/exchange-basic/mpay_btc
 name: MenaPay
-rank: 752
+rank: 850
 slug: menapay
 status: active
 symbol: MPAY

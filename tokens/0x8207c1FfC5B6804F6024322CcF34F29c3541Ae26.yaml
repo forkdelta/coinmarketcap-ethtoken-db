@@ -176,6 +176,20 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: OGN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 5117
+    currency_symbol: OGN
+    currency_type: cryptocurrency
+    exchange_symbol: OGN
   exchange_id: 404
   exchange_name: Kyber Network
   pair: OGN/ETH
@@ -190,29 +204,15 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: OGN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/OGNBTC
-- base:
-    currency_id: 5117
-    currency_symbol: OGN
-    currency_type: cryptocurrency
-    exchange_symbol: OGN
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: OGN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.fatbtc.com/
+  url: https://bittrex.com/Market/Index?MarketName=BTC-OGN
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -234,27 +234,13 @@ markets:
     exchange_symbol: OGN
   exchange_id: 22
   exchange_name: Bittrex
-  pair: OGN/BTC
+  pair: OGN/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-OGN
-- base:
-    currency_id: 5117
-    currency_symbol: OGN
-    currency_type: cryptocurrency
-    exchange_symbol: OGN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: OGN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/OGNUSDT
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-OGN
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -274,15 +260,29 @@ markets:
     currency_symbol: OGN
     currency_type: cryptocurrency
     exchange_symbol: OGN
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: OGN/ETH
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: OGN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-OGN
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/OGNBTC
+- base:
+    currency_id: 5117
+    currency_symbol: OGN
+    currency_type: cryptocurrency
+    exchange_symbol: OGN
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: OGN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/OGNUSDT
 - base:
     currency_id: 5117
     currency_symbol: OGN
@@ -298,7 +298,7 @@ markets:
     exchange_symbol: IDR
   url: https://tokocrypto.com/en/dashboard/OGNIDR
 name: Origin Protocol
-rank: 187
+rank: 191
 slug: origin-protocol
 status: active
 symbol: OGN
