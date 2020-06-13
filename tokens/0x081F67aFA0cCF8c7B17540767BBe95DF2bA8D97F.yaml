@@ -77,20 +77,6 @@ markets:
     exchange_symbol: BCH
   url: https://www.coinex.com/trading?currency=bch&dest=cet&tab=limit
 - base:
-    currency_id: 3937
-    currency_symbol: NNB
-    currency_type: cryptocurrency
-    exchange_symbol: NNB
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: NNB/CET
-  quote:
-    currency_id: 2941
-    currency_symbol: CET
-    currency_type: cryptocurrency
-    exchange_symbol: CET
-  url: https://www.coinex.com/trading?currency=cet&dest=nnb&tab=limit
-- base:
     currency_id: 2941
     currency_symbol: CET
     currency_type: cryptocurrency
@@ -132,6 +118,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDC
   url: https://www.coinex.com/trading?currency=usdc&dest=cet&tab=limit
+- base:
+    currency_id: 3937
+    currency_symbol: NNB
+    currency_type: cryptocurrency
+    exchange_symbol: NNB
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: NNB/CET
+  quote:
+    currency_id: 2941
+    currency_symbol: CET
+    currency_type: cryptocurrency
+    exchange_symbol: CET
+  url: https://www.coinex.com/trading?currency=cet&dest=nnb&tab=limit
 - base:
     currency_id: 4259
     currency_symbol: SPICE
@@ -175,7 +175,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.bkex.com/trade/CET_USDT
 name: CoinEx Token
-rank: 423
+rank: 426
 slug: coinex-token
 status: active
 symbol: CET

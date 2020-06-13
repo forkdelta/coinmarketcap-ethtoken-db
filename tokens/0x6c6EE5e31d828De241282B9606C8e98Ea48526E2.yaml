@@ -41,20 +41,6 @@ markets:
     exchange_symbol: HOT
   exchange_id: 380
   exchange_name: LATOKEN
-  pair: HOT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://latoken.com/exchange/ETH-HOT
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 380
-  exchange_name: LATOKEN
   pair: HOT/USDT
   quote:
     currency_id: 825
@@ -67,29 +53,15 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: HOT/USDT
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: HOT/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/HOT_USDT?ref=H31B921U
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 225
-  exchange_name: Paribu
-  pair: HOT/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.paribu.com/
+    exchange_symbol: ETH
+  url: https://latoken.com/exchange/ETH-HOT
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -123,6 +95,34 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
+  exchange_id: 225
+  exchange_name: Paribu
+  pair: HOT/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.paribu.com/
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: HOT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/HOT_USDT?ref=H31B921U
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
   exchange_id: 363
   exchange_name: Fatbtc
   pair: HOT/ETH
@@ -132,6 +132,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 744
+  exchange_name: Lukki Exchange
+  pair: HOT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.lukki.io/?pair=HOT_BTC
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -151,6 +165,20 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: HOT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://sistemkoin.com/#/
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
   exchange_id: 433
   exchange_name: Bitrue
   pair: HOT/USDT
@@ -160,34 +188,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bitrue.com/trade/hot_usdt
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: HOT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=HOT_ETH
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: HOT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=hot&tab=limit
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -207,15 +207,29 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 468
-  exchange_name: OceanEx
-  pair: HOT/VET
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: HOT/BTC
   quote:
-    currency_id: 3077
-    currency_symbol: VET
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: VET
-  url: https://oceanex.pro/trades/hotvet?referral=GNWJRA&linkId=24150518
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=hot&tab=limit
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: HOT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.binance.com/en/trade/HOT_ETH?ref=H31B921U
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -263,20 +277,6 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: HOT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/HOT_BTC?ref=H31B921U
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
   exchange_id: 468
   exchange_name: OceanEx
   pair: HOT/USDT
@@ -291,43 +291,15 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: HOT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://sistemkoin.com/#/
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 350
-  exchange_name: CoinEx
+  exchange_id: 155
+  exchange_name: Exrates
   pair: HOT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.coinex.com/trading?currency=eth&dest=hot&tab=limit
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: HOT/BCH
-  quote:
-    currency_id: 1831
-    currency_symbol: BCH
-    currency_type: cryptocurrency
-    exchange_symbol: BCH
-  url: https://www.coinex.com/trading?currency=bch&dest=hot&tab=limit
+  url: https://exrates.me/trading/HOTETH
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -347,6 +319,76 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: HOT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coinex.com/trading?currency=eth&dest=hot&tab=limit
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 468
+  exchange_name: OceanEx
+  pair: HOT/VET
+  quote:
+    currency_id: 3077
+    currency_symbol: VET
+    currency_type: cryptocurrency
+    exchange_symbol: VET
+  url: https://oceanex.pro/trades/hotvet?referral=GNWJRA&linkId=24150518
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: HOT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/HOT_BTC?ref=H31B921U
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: HOT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=HOT_ETH
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: HOT/BCH
+  quote:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  url: https://www.coinex.com/trading?currency=bch&dest=hot&tab=limit
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
   exchange_id: 643
   exchange_name: Coinzo
   pair: HOT/TRY
@@ -361,15 +403,15 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: HOT/ETH
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: HOT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.binance.com/en/trade/HOT_ETH?ref=H31B921U
+    exchange_symbol: BTC
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -384,34 +426,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://dragonex.io
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: HOT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=HOT_BTC
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: HOT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/hot_btc
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -445,71 +459,15 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 155
-  exchange_name: Exrates
+  exchange_id: 154
+  exchange_name: Dex-Trade
   pair: HOT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://exrates.me/trading/HOTETH
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: HOT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://dex-trade.com/en?currencyIn=HOT&currencyTo=BTC
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: HOT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: HOT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://folgory.com/trade-crypto/HOT_USDT
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: HOT/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/HOT_BNB?ref=H31B921U
+  url: https://dex-trade.com/en?currencyIn=HOT&currencyTo=ETH
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -529,15 +487,15 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 744
-  exchange_name: Lukki Exchange
+  exchange_id: 433
+  exchange_name: Bitrue
   pair: HOT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://app.lukki.io/?pair=HOT_BTC
+  url: https://www.bitrue.com/trade/hot_btc
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -545,13 +503,69 @@ markets:
     exchange_symbol: HOT
   exchange_id: 154
   exchange_name: Dex-Trade
-  pair: HOT/ETH
+  pair: HOT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://dex-trade.com/en?currencyIn=HOT&currencyTo=ETH
+    exchange_symbol: BTC
+  url: https://dex-trade.com/en?currencyIn=HOT&currencyTo=BTC
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: HOT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://folgory.com/trade-crypto/HOT_USDT
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: HOT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=HOT_BTC
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: HOT/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/HOT_BNB?ref=H31B921U
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 520
+  exchange_name: Bitvavo
+  pair: HOT/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://account.bitvavo.com/markets/HOT-EUR
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -599,34 +613,6 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 520
-  exchange_name: Bitvavo
-  pair: HOT/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://account.bitvavo.com/markets/HOT-EUR
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 890
-  exchange_name: Bitay
-  pair: HOT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitay.com/en/t/HOTUSDT
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
   exchange_id: 638
   exchange_name: Paritex
   pair: HOT/USDT
@@ -636,34 +622,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.paritex.com/exchange
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 890
-  exchange_name: Bitay
-  pair: HOT/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.bitay.com/en/t/HOTTRY
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: HOT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitmart.com/trade?symbol=HOT_USDT
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -683,29 +641,43 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 425
-  exchange_name: WazirX
+  exchange_id: 406
+  exchange_name: BitMart
   pair: HOT/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://wazirx.com/exchange/HOT-USDT
+  url: https://www.bitmart.com/trade?symbol=HOT_USDT
 - base:
     currency_id: 2682
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: HOT/USD
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: HOT/TRY
   quote:
-    currency_id: 2781
-    currency_symbol: USD
+    currency_id: 2810
+    currency_symbol: TRY
     currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/HOT_USD
+    exchange_symbol: TRY
+  url: https://www.bitay.com/en/t/HOTTRY
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 643
+  exchange_name: Coinzo
+  pair: HOT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coinzo.com/market/HOT-ETH
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -725,29 +697,15 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 215
-  exchange_name: P2PB2B
+  exchange_id: 890
+  exchange_name: Bitay
   pair: HOT/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://p2pb2b.io/trade/HOT_USDT
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 643
-  exchange_name: Coinzo
-  pair: HOT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coinzo.com/market/HOT-ETH
+  url: https://www.bitay.com/en/t/HOTUSDT
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -781,6 +739,20 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: HOT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://alterdice.com/trading/HOTETH
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
   exchange_id: 594
   exchange_name: Bitci
   pair: HOT/CHFT
@@ -790,20 +762,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: CHFT
   url: https://www.bitci.com/Trans/Main#!/Order/HOT_CHFT
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: HOT/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/hot-krw
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -823,15 +781,43 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 638
-  exchange_name: Paritex
-  pair: HOT/BTC
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: HOT/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/HOT_USD
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.paritex.com/exchange
+    exchange_symbol: HOT
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: HOT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://p2pb2b.io/trade/HOT_USDT
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: HOT/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/hot-krw
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -851,15 +837,15 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: HOT/ETH
+  exchange_id: 638
+  exchange_name: Paritex
+  pair: HOT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://alterdice.com/trading/HOTETH
+    exchange_symbol: BTC
+  url: https://www.paritex.com/exchange
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -881,20 +867,6 @@ markets:
     exchange_symbol: HOT
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: HOT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/HOT_BTC
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: HOT/ETH
   quote:
     currency_id: 1027
@@ -902,6 +874,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://p2pb2b.io/trade/HOT_ETH
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: HOT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/HOT-USDT
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -916,6 +902,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://omgfin.com/exchange/trade/market/HOTETH
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: HOT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/HOT_BTC
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: HOT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://omgfin.com/exchange/trade/market/HOTUSDT
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -949,34 +963,6 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: HOT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/HOT-to-BTC
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: HOT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/HOTUSDT
-- base:
-    currency_id: 2682
-    currency_symbol: HOT
-    currency_type: cryptocurrency
-    exchange_symbol: HOT
   exchange_id: 645
   exchange_name: BitUBU
   pair: HOT/USDT
@@ -986,6 +972,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bitubu.com/trading/hotusdt
+- base:
+    currency_id: 2682
+    currency_symbol: HOT
+    currency_type: cryptocurrency
+    exchange_symbol: HOT
+  exchange_id: 594
+  exchange_name: Bitci
+  pair: HOT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitci.com/Trans/Main#!/Order/HOT_BTC
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -1005,15 +1005,15 @@ markets:
     currency_symbol: HOT
     currency_type: cryptocurrency
     exchange_symbol: HOT
-  exchange_id: 594
-  exchange_name: Bitci
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: HOT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bitci.com/Trans/Main#!/Order/HOT_BTC
+  url: https://hitbtc.com/HOT-to-BTC
 - base:
     currency_id: 2682
     currency_symbol: HOT

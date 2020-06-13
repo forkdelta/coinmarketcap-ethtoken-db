@@ -40,6 +40,20 @@ markets:
     currency_symbol: UPP
     currency_type: cryptocurrency
     exchange_symbol: UPP
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: UPP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-UPP
+- base:
+    currency_id: 2866
+    currency_symbol: UPP
+    currency_type: cryptocurrency
+    exchange_symbol: UPP
   exchange_id: 400
   exchange_name: Hotbit
   pair: UPP/ETH
@@ -49,20 +63,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=UPP_ETH
-- base:
-    currency_id: 2866
-    currency_symbol: UPP
-    currency_type: cryptocurrency
-    exchange_symbol: UPP
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: UPP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=UPP_BTC
 - base:
     currency_id: 2866
     currency_symbol: UPP
@@ -96,15 +96,15 @@ markets:
     currency_symbol: UPP
     currency_type: cryptocurrency
     exchange_symbol: UPP
-  exchange_id: 443
-  exchange_name: GDAC
-  pair: UPP/KRW
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: UPP/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gdac.co.kr/exchange/UPP/KRW
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=UPP_BTC
 - base:
     currency_id: 2866
     currency_symbol: UPP
@@ -119,8 +119,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/upp
+- base:
+    currency_id: 2866
+    currency_symbol: UPP
+    currency_type: cryptocurrency
+    exchange_symbol: UPP
+  exchange_id: 443
+  exchange_name: GDAC
+  pair: UPP/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gdac.co.kr/exchange/UPP/KRW
 name: Sentinel Protocol
-rank: 463
+rank: 467
 slug: sentinel-protocol
 status: active
 symbol: UPP

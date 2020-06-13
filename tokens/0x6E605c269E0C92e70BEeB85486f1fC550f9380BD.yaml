@@ -43,20 +43,6 @@ markets:
     exchange_symbol: CATT
   exchange_id: 480
   exchange_name: Cat.Ex
-  pair: CATT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.catex.io/trading/CATT/USDT
-- base:
-    currency_id: 4045
-    currency_symbol: CATT
-    currency_type: cryptocurrency
-    exchange_symbol: CATT
-  exchange_id: 480
-  exchange_name: Cat.Ex
   pair: CATT/TRX
   quote:
     currency_id: 1958
@@ -71,13 +57,13 @@ markets:
     exchange_symbol: CATT
   exchange_id: 480
   exchange_name: Cat.Ex
-  pair: CATT/BTC
+  pair: CATT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.catex.io/trading/CATT/BTC
+    exchange_symbol: USDT
+  url: https://www.catex.io/trading/CATT/USDT
 - base:
     currency_id: 4045
     currency_symbol: CATT
@@ -92,6 +78,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.tokok.com/market?symbol=CATT_ETH
+- base:
+    currency_id: 4045
+    currency_symbol: CATT
+    currency_type: cryptocurrency
+    exchange_symbol: CATT
+  exchange_id: 480
+  exchange_name: Cat.Ex
+  pair: CATT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.catex.io/trading/CATT/BTC
 name: Catex Token
 rank: 1509
 slug: catex-token

@@ -65,20 +65,6 @@ markets:
     exchange_symbol: LTO
   exchange_id: 453
   exchange_name: BitMax
-  pair: LTO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/lto
-- base:
-    currency_id: 3714
-    currency_symbol: LTO
-    currency_type: cryptocurrency
-    exchange_symbol: LTO
-  exchange_id: 453
-  exchange_name: BitMax
   pair: LTO/USDT
   quote:
     currency_id: 825
@@ -86,6 +72,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bitmax.io/#/trade/usdt/lto
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: LTO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/lto
 - base:
     currency_id: 3714
     currency_symbol: LTO
@@ -114,20 +114,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bilaxy.com/trade/LTO_USDT
-- base:
-    currency_id: 3714
-    currency_symbol: LTO
-    currency_type: cryptocurrency
-    exchange_symbol: LTO
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: LTO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=LTO_BTC
 - base:
     currency_id: 3714
     currency_symbol: LTO
@@ -163,27 +149,13 @@ markets:
     exchange_symbol: LTO
   exchange_id: 400
   exchange_name: Hotbit
-  pair: LTO/USDT
+  pair: LTO/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=LTO_USDT
-- base:
-    currency_id: 3714
-    currency_symbol: LTO
-    currency_type: cryptocurrency
-    exchange_symbol: LTO
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: LTO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=LTO_ETH
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=LTO_BTC
 - base:
     currency_id: 3714
     currency_symbol: LTO
@@ -217,6 +189,48 @@ markets:
     currency_symbol: LTO
     currency_type: cryptocurrency
     exchange_symbol: LTO
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: LTO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=LTO_USDT
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: LTO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=LTO_ETH
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: LTO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/lto
+- base:
+    currency_id: 3714
+    currency_symbol: LTO
+    currency_type: cryptocurrency
+    exchange_symbol: LTO
   exchange_id: 486
   exchange_name: Binance DEX
   pair: LTO/BNB
@@ -245,20 +259,6 @@ markets:
     currency_symbol: LTO
     currency_type: cryptocurrency
     exchange_symbol: LTO
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: LTO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/lto
-- base:
-    currency_id: 3714
-    currency_symbol: LTO
-    currency_type: cryptocurrency
-    exchange_symbol: LTO
   exchange_id: 104
   exchange_name: LiteBit.eu
   pair: LTO/EUR
@@ -269,7 +269,7 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/lto-network
 name: LTO Network
-rank: 344
+rank: 340
 slug: lto-network
 status: active
 symbol: LTO

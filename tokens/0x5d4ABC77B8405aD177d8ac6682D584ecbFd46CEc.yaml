@@ -93,20 +93,6 @@ markets:
     exchange_symbol: PST
   exchange_id: 490
   exchange_name: OKEx Korea
-  pair: PST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://okex.co.kr/kr/view/exchange?coin=PST&market=BTC
-- base:
-    currency_id: 1930
-    currency_symbol: PST
-    currency_type: cryptocurrency
-    exchange_symbol: PST
-  exchange_id: 490
-  exchange_name: OKEx Korea
   pair: PST/USDT
   quote:
     currency_id: 825
@@ -114,6 +100,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=PST&market=USDT
+- base:
+    currency_id: 1930
+    currency_symbol: PST
+    currency_type: cryptocurrency
+    exchange_symbol: PST
+  exchange_id: 490
+  exchange_name: OKEx Korea
+  pair: PST/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://okex.co.kr/kr/view/exchange?coin=PST&market=BTC
 - base:
     currency_id: 1930
     currency_symbol: PST
@@ -129,7 +129,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.bcex.ca/trade/pst_eth
 name: Primas
-rank: 885
+rank: 888
 slug: primas
 status: active
 symbol: PST
