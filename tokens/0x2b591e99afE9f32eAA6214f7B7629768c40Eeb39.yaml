@@ -60,20 +60,6 @@ markets:
     currency_symbol: HEX
     currency_type: cryptocurrency
     exchange_symbol: HEX
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: HEX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=HEX_USDT
-- base:
-    currency_id: 5015
-    currency_symbol: HEX
-    currency_type: cryptocurrency
-    exchange_symbol: HEX
   exchange_id: 339
   exchange_name: Bibox
   pair: HEX/USDT
@@ -97,6 +83,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bitmart.com/trade?symbol=HEX_BTC
+- base:
+    currency_id: 5015
+    currency_symbol: HEX
+    currency_type: cryptocurrency
+    exchange_symbol: HEX
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: HEX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=HEX_USDT
 - base:
     currency_id: 5015
     currency_symbol: HEX
@@ -130,6 +130,20 @@ markets:
     currency_symbol: HEX
     currency_type: cryptocurrency
     exchange_symbol: HEX
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: HEX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://yobit.net/en/trade/HEX/ETH
+- base:
+    currency_id: 5015
+    currency_symbol: HEX
+    currency_type: cryptocurrency
+    exchange_symbol: HEX
   exchange_id: 460
   exchange_name: Coinsbit
   pair: HEX/ETH
@@ -153,20 +167,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bidesk.com/exchange/HEX/USDT
-- base:
-    currency_id: 5015
-    currency_symbol: HEX
-    currency_type: cryptocurrency
-    exchange_symbol: HEX
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: HEX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://yobit.net/en/trade/HEX/ETH
 - base:
     currency_id: 5015
     currency_symbol: HEX
@@ -200,6 +200,20 @@ markets:
     currency_symbol: HEX
     currency_type: cryptocurrency
     exchange_symbol: HEX
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: HEX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/HEX/BTC
+- base:
+    currency_id: 5015
+    currency_symbol: HEX
+    currency_type: cryptocurrency
+    exchange_symbol: HEX
   exchange_id: 653
   exchange_name: BITEXLIVE
   pair: HEX/USDT
@@ -228,15 +242,15 @@ markets:
     currency_symbol: HEX
     currency_type: cryptocurrency
     exchange_symbol: HEX
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: HEX/BTC
+  exchange_id: 506
+  exchange_name: ChainX
+  pair: HEX/KRW
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/HEX/BTC
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://chainx.kr/exchange/HEX-KRW
 - base:
     currency_id: 5015
     currency_symbol: HEX
@@ -256,15 +270,43 @@ markets:
     currency_symbol: HEX
     currency_type: cryptocurrency
     exchange_symbol: HEX
-  exchange_id: 506
-  exchange_name: ChainX
-  pair: HEX/KRW
+  exchange_id: 849
+  exchange_name: Bidesk
+  pair: HEX/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bidesk.com/exchange/HEX/BTC
+- base:
+    currency_id: 5015
+    currency_symbol: HEX
+    currency_type: cryptocurrency
+    exchange_symbol: HEX
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: HEX/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
     currency_type: fiat
-    exchange_symbol: KRW
-  url: https://chainx.kr/exchange/HEX-KRW
+    exchange_symbol: USD
+  url: https://yobit.net/en/trade/HEX/USD
+- base:
+    currency_id: 5015
+    currency_symbol: HEX
+    currency_type: cryptocurrency
+    exchange_symbol: HEX
+  exchange_id: 480
+  exchange_name: Cat.Ex
+  pair: HEX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.catex.io/trading/HEX/BTC
 - base:
     currency_id: 5015
     currency_symbol: HEX
@@ -293,34 +335,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BCH
   url: null
-- base:
-    currency_id: 5015
-    currency_symbol: HEX
-    currency_type: cryptocurrency
-    exchange_symbol: HEX
-  exchange_id: 849
-  exchange_name: Bidesk
-  pair: HEX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bidesk.com/exchange/HEX/BTC
-- base:
-    currency_id: 5015
-    currency_symbol: HEX
-    currency_type: cryptocurrency
-    exchange_symbol: HEX
-  exchange_id: 480
-  exchange_name: Cat.Ex
-  pair: HEX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.catex.io/trading/HEX/BTC
 - base:
     currency_id: 5015
     currency_symbol: HEX
@@ -363,20 +377,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: TRX
   url: https://www.catex.io/trading/HEX/TRX
-- base:
-    currency_id: 5015
-    currency_symbol: HEX
-    currency_type: cryptocurrency
-    exchange_symbol: HEX
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: HEX/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://yobit.net/en/trade/HEX/USD
 - base:
     currency_id: 5015
     currency_symbol: HEX

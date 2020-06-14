@@ -27,20 +27,6 @@ markets:
     exchange_symbol: AVT
   exchange_id: 213
   exchange_name: Mercatox
-  pair: AVT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/AVT/ETH
-- base:
-    currency_id: 1948
-    currency_symbol: AVT
-    currency_type: cryptocurrency
-    exchange_symbol: AVT
-  exchange_id: 213
-  exchange_name: Mercatox
   pair: AVT/BTC
   quote:
     currency_id: 1
@@ -53,15 +39,15 @@ markets:
     currency_symbol: AVT
     currency_type: cryptocurrency
     exchange_symbol: AVT
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: AVT/USD
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: AVT/ETH
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/AVT:USD?refcode=H70YTMupQ
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://mercatox.com/exchange/AVT/ETH
 - base:
     currency_id: 1948
     currency_symbol: AVT
@@ -76,8 +62,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/AVT-to-ETH
+- base:
+    currency_id: 1948
+    currency_symbol: AVT
+    currency_type: cryptocurrency
+    exchange_symbol: AVT
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: AVT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/AVT:USD?refcode=H70YTMupQ
 name: Aventus
-rank: 1117
+rank: 1111
 slug: aventus
 status: active
 symbol: AVT

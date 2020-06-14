@@ -39,20 +39,6 @@ markets:
     currency_symbol: EQUAD
     currency_type: cryptocurrency
     exchange_symbol: EQUAD
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: EQUAD/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/equad-eth
-- base:
-    currency_id: 3625
-    currency_symbol: EQUAD
-    currency_type: cryptocurrency
-    exchange_symbol: EQUAD
   exchange_id: 400
   exchange_name: Hotbit
   pair: EQUAD/ETH
@@ -62,6 +48,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=EQUAD_ETH
+- base:
+    currency_id: 3625
+    currency_symbol: EQUAD
+    currency_type: cryptocurrency
+    exchange_symbol: EQUAD
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: EQUAD/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/equad-eth
 - base:
     currency_id: 3625
     currency_symbol: EQUAD
@@ -107,7 +107,7 @@ markets:
 name: QuadrantProtocol
 notice: We have received reports of impeded withdrawals for EQUAD on Coinbene. Please perform your own
   due diligence.
-rank: 951
+rank: 944
 slug: quadrantprotocol
 status: active
 symbol: EQUAD

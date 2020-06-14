@@ -82,20 +82,6 @@ markets:
     currency_symbol: CPC
     currency_type: cryptocurrency
     exchange_symbol: CPC
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CPC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/CPC-BTC
-- base:
-    currency_id: 2482
-    currency_symbol: CPC
-    currency_type: cryptocurrency
-    exchange_symbol: CPC
   exchange_id: 339
   exchange_name: Bibox
   pair: CPC/USDT
@@ -105,6 +91,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bibox.com/exchange?coinPair=CPC_USDT
+- base:
+    currency_id: 2482
+    currency_symbol: CPC
+    currency_type: cryptocurrency
+    exchange_symbol: CPC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CPC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/CPC-BTC
 - base:
     currency_id: 2482
     currency_symbol: CPC
@@ -162,7 +162,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/cpc
 name: CPChain
-rank: 942
+rank: 933
 slug: cpchain
 status: active
 symbol: CPC
