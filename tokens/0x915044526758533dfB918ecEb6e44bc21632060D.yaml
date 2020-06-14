@@ -124,6 +124,20 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: CHR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/CHRBTC
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
   exchange_id: 311
   exchange_name: KuCoin
   pair: CHR/USDT
@@ -133,20 +147,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.kucoin.com/trade/CHR-USDT
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: CHR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://poloniex.com/exchange#usdt_chr?c=H4QD8FNW
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -166,20 +166,6 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: CHR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_chr?c=H4QD8FNW
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
   exchange_id: 949
   exchange_name: CoinDCX
   pair: CHR/USDT
@@ -194,15 +180,29 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: CHR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://poloniex.com/exchange#usdt_chr?c=H4QD8FNW
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 16
+  exchange_name: Poloniex
   pair: CHR/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/CHRBTC
+  url: https://poloniex.com/exchange#btc_chr?c=H4QD8FNW
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -231,20 +231,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.jex.com/en/spot
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: CHR/TRX
-  quote:
-    currency_id: 1958
-    currency_symbol: TRX
-    currency_type: cryptocurrency
-    exchange_symbol: TRX
-  url: https://poloniex.com/exchange#trx_chr?c=H4QD8FNW
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -259,6 +245,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=CHR_USDT
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: CHR/TRX
+  quote:
+    currency_id: 1958
+    currency_symbol: TRX
+    currency_type: cryptocurrency
+    exchange_symbol: TRX
+  url: https://poloniex.com/exchange#trx_chr?c=H4QD8FNW
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -330,7 +330,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.bidesk.com/exchange/CHR/USDT
 name: Chromia
-rank: 336
+rank: 343
 slug: chromia
 status: active
 symbol: CHR

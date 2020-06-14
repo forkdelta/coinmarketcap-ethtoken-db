@@ -94,13 +94,13 @@ markets:
     exchange_symbol: CNB
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: CNB/USDT
+  pair: CNB/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://p2pb2b.io/trade/CNB_USDT
+    exchange_symbol: ETH
+  url: https://p2pb2b.io/trade/CNB_ETH
 - base:
     currency_id: 5114
     currency_symbol: CNB
@@ -115,20 +115,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://alterdice.com/trading/CNBETH
-- base:
-    currency_id: 5114
-    currency_symbol: CNB
-    currency_type: cryptocurrency
-    exchange_symbol: CNB
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: CNB/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://p2pb2b.io/trade/CNB_ETH
 - base:
     currency_id: 5114
     currency_symbol: CNB
@@ -162,6 +148,20 @@ markets:
     currency_symbol: CNB
     currency_type: cryptocurrency
     exchange_symbol: CNB
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: CNB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://p2pb2b.io/trade/CNB_USDT
+- base:
+    currency_id: 5114
+    currency_symbol: CNB
+    currency_type: cryptocurrency
+    exchange_symbol: CNB
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: CNB/USDT
@@ -176,15 +176,15 @@ markets:
     currency_symbol: CNB
     currency_type: cryptocurrency
     exchange_symbol: CNB
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: CNB/USDT
+  exchange_id: 219
+  exchange_name: Tidex
+  pair: CNB/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=CNB_USDT
+    exchange_symbol: BTC
+  url: https://tidex.com/exchange/cnb/btc
 - base:
     currency_id: 5114
     currency_symbol: CNB
@@ -204,6 +204,20 @@ markets:
     currency_symbol: CNB
     currency_type: cryptocurrency
     exchange_symbol: CNB
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: CNB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=CNB_USDT
+- base:
+    currency_id: 5114
+    currency_symbol: CNB
+    currency_type: cryptocurrency
+    exchange_symbol: CNB
   exchange_id: 100
   exchange_name: YoBit
   pair: CNB/BTC
@@ -213,20 +227,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/CNB/BTC
-- base:
-    currency_id: 5114
-    currency_symbol: CNB
-    currency_type: cryptocurrency
-    exchange_symbol: CNB
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: CNB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/CNB_BTC
 - base:
     currency_id: 5114
     currency_symbol: CNB
@@ -246,29 +246,15 @@ markets:
     currency_symbol: CNB
     currency_type: cryptocurrency
     exchange_symbol: CNB
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: CNB/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://yobit.net/en/trade/CNB/USD
-- base:
-    currency_id: 5114
-    currency_symbol: CNB
-    currency_type: cryptocurrency
-    exchange_symbol: CNB
-  exchange_id: 219
-  exchange_name: Tidex
+  exchange_id: 215
+  exchange_name: P2PB2B
   pair: CNB/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://tidex.com/exchange/cnb/btc
+  url: https://p2pb2b.io/trade/CNB_BTC
 - base:
     currency_id: 5114
     currency_symbol: CNB
@@ -297,8 +283,22 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://simex.global/en/exchange/cnb/usd
+- base:
+    currency_id: 5114
+    currency_symbol: CNB
+    currency_type: cryptocurrency
+    exchange_symbol: CNB
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: CNB/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://yobit.net/en/trade/CNB/USD
 name: Coinsbit Token
-rank: 1123
+rank: 1119
 slug: coinsbit-token
 status: active
 symbol: CNB

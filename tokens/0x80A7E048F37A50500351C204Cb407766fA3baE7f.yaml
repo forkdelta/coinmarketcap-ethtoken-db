@@ -65,20 +65,6 @@ markets:
     currency_symbol: CRPT
     currency_type: cryptocurrency
     exchange_symbol: CRPT
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CRPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/CRPT-BTC
-- base:
-    currency_id: 2447
-    currency_symbol: CRPT
-    currency_type: cryptocurrency
-    exchange_symbol: CRPT
   exchange_id: 112
   exchange_name: Liquid
   pair: CRPT/BTC
@@ -88,6 +74,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://app.liquid.com/exchange/CRPTBTC?affiliate=eNgws23g761816
+- base:
+    currency_id: 2447
+    currency_symbol: CRPT
+    currency_type: cryptocurrency
+    exchange_symbol: CRPT
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CRPT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/CRPT-BTC
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -121,20 +121,6 @@ markets:
     currency_symbol: CRPT
     currency_type: cryptocurrency
     exchange_symbol: CRPT
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: CRPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 2447
-    currency_symbol: CRPT
-    currency_type: cryptocurrency
-    exchange_symbol: CRPT
   exchange_id: 486
   exchange_name: Binance DEX
   pair: CRPT/BNB
@@ -149,15 +135,15 @@ markets:
     currency_symbol: CRPT
     currency_type: cryptocurrency
     exchange_symbol: CRPT
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: CRPT/ETH
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: CRPT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/crpt
+    exchange_symbol: BTC
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -172,8 +158,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/CRPT-to-USDT
+- base:
+    currency_id: 2447
+    currency_symbol: CRPT
+    currency_type: cryptocurrency
+    exchange_symbol: CRPT
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: CRPT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/crpt
 name: Crypterium
-rank: 120
+rank: 115
 slug: crpt
 status: active
 symbol: CRPT

@@ -20,20 +20,6 @@ markets:
     exchange_symbol: YO
   exchange_id: 403
   exchange_name: BitForex
-  pair: YO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitforex.com/en/spot/yo_eth
-- base:
-    currency_id: 4229
-    currency_symbol: YO
-    currency_type: cryptocurrency
-    exchange_symbol: YO
-  exchange_id: 403
-  exchange_name: BitForex
   pair: YO/BTC
   quote:
     currency_id: 1
@@ -102,15 +88,15 @@ markets:
     currency_symbol: YO
     currency_type: cryptocurrency
     exchange_symbol: YO
-  exchange_id: 489
-  exchange_name: Bithumb Global
-  pair: YO/BTC
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: YO/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=YO_BTC
+    exchange_symbol: ETH
+  url: https://yobit.net/en/trade/YO/ETH
 - base:
     currency_id: 4229
     currency_symbol: YO
@@ -130,15 +116,15 @@ markets:
     currency_symbol: YO
     currency_type: cryptocurrency
     exchange_symbol: YO
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: YO/ETH
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: YO/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://yobit.net/en/trade/YO/ETH
+    exchange_symbol: BTC
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=YO_BTC
 - base:
     currency_id: 4229
     currency_symbol: YO
@@ -158,6 +144,20 @@ markets:
     currency_symbol: YO
     currency_type: cryptocurrency
     exchange_symbol: YO
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: YO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitforex.com/en/spot/yo_eth
+- base:
+    currency_id: 4229
+    currency_symbol: YO
+    currency_type: cryptocurrency
+    exchange_symbol: YO
   exchange_id: 382
   exchange_name: Crex24
   pair: YO/BTC
@@ -168,7 +168,7 @@ markets:
     exchange_symbol: BTC
   url: https://crex24.com/exchange/YO-BTC
 name: Yobit Token
-rank: 2075
+rank: 2076
 slug: yobit-token
 status: active
 symbol: YO

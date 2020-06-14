@@ -43,20 +43,6 @@ markets:
     currency_symbol: UTK
     currency_type: cryptocurrency
     exchange_symbol: UTK
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: UTK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bilaxy.com/trade/UTK_BTC
-- base:
-    currency_id: 2320
-    currency_symbol: UTK
-    currency_type: cryptocurrency
-    exchange_symbol: UTK
   exchange_id: 294
   exchange_name: OKEx
   pair: UTK/USDT
@@ -66,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.okex.com/market?product=utk_usdt
+- base:
+    currency_id: 2320
+    currency_symbol: UTK
+    currency_type: cryptocurrency
+    exchange_symbol: UTK
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: UTK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bilaxy.com/trade/UTK_BTC
 - base:
     currency_id: 2320
     currency_symbol: UTK
@@ -143,13 +143,13 @@ markets:
     exchange_symbol: UTK
   exchange_id: 489
   exchange_name: Bithumb Global
-  pair: UTK/ETH
+  pair: UTK/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=UTK_ETH
+    exchange_symbol: BTC
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=UTK_BTC
 - base:
     currency_id: 2320
     currency_symbol: UTK
@@ -169,15 +169,15 @@ markets:
     currency_symbol: UTK
     currency_type: cryptocurrency
     exchange_symbol: UTK
-  exchange_id: 489
-  exchange_name: Bithumb Global
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: UTK/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=UTK_BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-UTK
 - base:
     currency_id: 2320
     currency_symbol: UTK
@@ -192,6 +192,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.digifinex.com/en-ww/trade/ETH/UTK
+- base:
+    currency_id: 2320
+    currency_symbol: UTK
+    currency_type: cryptocurrency
+    exchange_symbol: UTK
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: UTK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=UTK_ETH
 - base:
     currency_id: 2320
     currency_symbol: UTK
@@ -225,20 +239,6 @@ markets:
     currency_symbol: UTK
     currency_type: cryptocurrency
     exchange_symbol: UTK
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: UTK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-UTK
-- base:
-    currency_id: 2320
-    currency_symbol: UTK
-    currency_type: cryptocurrency
-    exchange_symbol: UTK
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: UTK/BTC
@@ -253,15 +253,15 @@ markets:
     currency_symbol: UTK
     currency_type: cryptocurrency
     exchange_symbol: UTK
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: UTK/USDT
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: UTK/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/UTK-to-USDT
+    exchange_symbol: ETH
+  url: https://idex.market/eth/utk
 - base:
     currency_id: 2320
     currency_symbol: UTK
@@ -309,15 +309,15 @@ markets:
     currency_symbol: UTK
     currency_type: cryptocurrency
     exchange_symbol: UTK
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: UTK/ETH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: UTK/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/utk
+    exchange_symbol: USDT
+  url: https://hitbtc.com/UTK-to-USDT
 - base:
     currency_id: 2320
     currency_symbol: UTK
@@ -333,7 +333,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=UTK&market=USDT
 name: Utrust
-rank: 304
+rank: 324
 slug: utrust
 status: active
 symbol: UTK

@@ -25,20 +25,6 @@ markets:
     currency_symbol: TEN
     currency_type: cryptocurrency
     exchange_symbol: TEN
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: TEN/IDR
-  quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://indodax.com/market/TENIDR
-- base:
-    currency_id: 2576
-    currency_symbol: TEN
-    currency_type: cryptocurrency
-    exchange_symbol: TEN
   exchange_id: 411
   exchange_name: Tokenomy
   pair: TEN/BTC
@@ -55,6 +41,20 @@ markets:
     exchange_symbol: TEN
   exchange_id: 68
   exchange_name: Indodax
+  pair: TEN/IDR
+  quote:
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/TENIDR
+- base:
+    currency_id: 2576
+    currency_symbol: TEN
+    currency_type: cryptocurrency
+    exchange_symbol: TEN
+  exchange_id: 68
+  exchange_name: Indodax
   pair: TEN/BTC
   quote:
     currency_id: 1
@@ -62,6 +62,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://indodax.com/market/TENBTC
+- base:
+    currency_id: 2576
+    currency_symbol: TEN
+    currency_type: cryptocurrency
+    exchange_symbol: TEN
+  exchange_id: 411
+  exchange_name: Tokenomy
+  pair: TEN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: null
 - base:
     currency_id: 2576
     currency_symbol: TEN
@@ -95,20 +109,6 @@ markets:
     currency_symbol: TEN
     currency_type: cryptocurrency
     exchange_symbol: TEN
-  exchange_id: 411
-  exchange_name: Tokenomy
-  pair: TEN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: null
-- base:
-    currency_id: 2576
-    currency_symbol: TEN
-    currency_type: cryptocurrency
-    exchange_symbol: TEN
   exchange_id: 363
   exchange_name: Fatbtc
   pair: TEN/USDT
@@ -119,7 +119,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: Tokenomy
-rank: 495
+rank: 493
 slug: tokenomy
 status: active
 symbol: TEN
