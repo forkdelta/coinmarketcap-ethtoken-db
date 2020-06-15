@@ -76,20 +76,6 @@ markets:
     currency_symbol: TOP
     currency_type: cryptocurrency
     exchange_symbol: TOP
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: TOP/HT
-  quote:
-    currency_id: 2502
-    currency_symbol: HT
-    currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.hbg.com/en-us/exchange/top_ht?invite_code=5kij5
-- base:
-    currency_id: 3826
-    currency_symbol: TOP
-    currency_type: cryptocurrency
-    exchange_symbol: TOP
   exchange_id: 400
   exchange_name: Hotbit
   pair: TOP/BTC
@@ -99,6 +85,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=TOP_BTC
+- base:
+    currency_id: 3826
+    currency_symbol: TOP
+    currency_type: cryptocurrency
+    exchange_symbol: TOP
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: TOP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=TOP_ETH
 - base:
     currency_id: 3826
     currency_symbol: TOP
@@ -118,15 +118,15 @@ markets:
     currency_symbol: TOP
     currency_type: cryptocurrency
     exchange_symbol: TOP
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: TOP/ETH
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: TOP/HT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 2502
+    currency_symbol: HT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=TOP_ETH
+    exchange_symbol: HT
+  url: https://www.hbg.com/en-us/exchange/top_ht?invite_code=5kij5
 - base:
     currency_id: 3826
     currency_symbol: TOP
@@ -148,6 +148,20 @@ markets:
     exchange_symbol: TOP
   exchange_id: 463
   exchange_name: Huobi Korea
+  pair: TOP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/top_btc/
+- base:
+    currency_id: 3826
+    currency_symbol: TOP
+    currency_type: cryptocurrency
+    exchange_symbol: TOP
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: TOP/USDT
   quote:
     currency_id: 825
@@ -159,16 +173,16 @@ markets:
     currency_id: 3826
     currency_symbol: TOP
     currency_type: cryptocurrency
-    exchange_symbol: TOP
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: TOP/BTC
+    exchange_symbol: TOP-491
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: TOP/BNB
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/top_btc/
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/TOP-491_BNB
 - base:
     currency_id: 3826
     currency_symbol: TOP
@@ -197,22 +211,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.coinsuper.com/#/actionDeal
-- base:
-    currency_id: 3826
-    currency_symbol: TOP
-    currency_type: cryptocurrency
-    exchange_symbol: TOP-491
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: TOP/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/TOP-491_BNB
 name: TOP
-rank: 301
+rank: 303
 slug: top
 status: active
 symbol: TOP

@@ -40,20 +40,6 @@ markets:
     currency_symbol: OAX
     currency_type: cryptocurrency
     exchange_symbol: OAX
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: OAX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/OAXBTC
-- base:
-    currency_id: 1853
-    currency_symbol: OAX
-    currency_type: cryptocurrency
-    exchange_symbol: OAX
   exchange_id: 363
   exchange_name: Fatbtc
   pair: OAX/BTC
@@ -82,15 +68,15 @@ markets:
     currency_symbol: OAX
     currency_type: cryptocurrency
     exchange_symbol: OAX
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 949
+  exchange_name: CoinDCX
   pair: OAX/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/OAX-to-BTC
+  url: https://coindcx.com/trade/OAXBTC
 - base:
     currency_id: 1853
     currency_symbol: OAX
@@ -112,6 +98,20 @@ markets:
     exchange_symbol: OAX
   exchange_id: 42
   exchange_name: HitBTC
+  pair: OAX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/OAX-to-ETH
+- base:
+    currency_id: 1853
+    currency_symbol: OAX
+    currency_type: cryptocurrency
+    exchange_symbol: OAX
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: OAX/USDT
   quote:
     currency_id: 825
@@ -126,13 +126,13 @@ markets:
     exchange_symbol: OAX
   exchange_id: 42
   exchange_name: HitBTC
-  pair: OAX/ETH
+  pair: OAX/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/OAX-to-ETH
+    exchange_symbol: BTC
+  url: https://hitbtc.com/OAX-to-BTC
 - base:
     currency_id: 1853
     currency_symbol: OAX
@@ -162,7 +162,7 @@ markets:
     exchange_symbol: BTC
   url: https://app.liquid.com/exchange/OAXBTC?affiliate=eNgws23g761816
 name: OAX
-rank: 633
+rank: 632
 slug: oax
 status: active
 symbol: OAX

@@ -34,20 +34,6 @@ markets:
     currency_symbol: NOIA
     currency_type: cryptocurrency
     exchange_symbol: NOIA
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: NOIA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/NOIA-BTC
-- base:
-    currency_id: 4191
-    currency_symbol: NOIA
-    currency_type: cryptocurrency
-    exchange_symbol: NOIA
   exchange_id: 400
   exchange_name: Hotbit
   pair: NOIA/USDT
@@ -71,6 +57,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=NOIA_BTC
+- base:
+    currency_id: 4191
+    currency_symbol: NOIA
+    currency_type: cryptocurrency
+    exchange_symbol: NOIA
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: NOIA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/NOIA-BTC
 - base:
     currency_id: 4191
     currency_symbol: NOIA
@@ -100,7 +100,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.kucoin.com/trade/NOIA-USDT
 name: NOIA Network
-rank: 553
+rank: 554
 slug: noia-network
 status: active
 symbol: NOIA

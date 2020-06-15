@@ -84,6 +84,20 @@ markets:
     exchange_symbol: CPC
   exchange_id: 339
   exchange_name: Bibox
+  pair: CPC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bibox.com/exchange?coinPair=CPC_BTC
+- base:
+    currency_id: 2482
+    currency_symbol: CPC
+    currency_type: cryptocurrency
+    exchange_symbol: CPC
+  exchange_id: 339
+  exchange_name: Bibox
   pair: CPC/USDT
   quote:
     currency_id: 825
@@ -138,20 +152,6 @@ markets:
     currency_symbol: CPC
     currency_type: cryptocurrency
     exchange_symbol: CPC
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: CPC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=CPC_BTC
-- base:
-    currency_id: 2482
-    currency_symbol: CPC
-    currency_type: cryptocurrency
-    exchange_symbol: CPC
   exchange_id: 310
   exchange_name: IDEX
   pair: CPC/ETH
@@ -162,7 +162,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/cpc
 name: CPChain
-rank: 933
+rank: 935
 slug: cpchain
 status: active
 symbol: CPC

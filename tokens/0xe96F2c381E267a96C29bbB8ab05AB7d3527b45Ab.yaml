@@ -30,6 +30,20 @@ markets:
     exchange_symbol: SATX
   exchange_id: 566
   exchange_name: SatoExchange
+  pair: SATX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.satoexchange.com/market/SATX/BTC/
+- base:
+    currency_id: 5430
+    currency_symbol: SATX
+    currency_type: cryptocurrency
+    exchange_symbol: SATX
+  exchange_id: 566
+  exchange_name: SatoExchange
   pair: SATX/ETH
   quote:
     currency_id: 1027
@@ -52,33 +66,19 @@ markets:
     exchange_symbol: SATX
   url: https://www.satoexchange.com/market/LTC/SATX/
 - base:
-    currency_id: 5430
-    currency_symbol: SATX
+    currency_id: 1958
+    currency_symbol: TRX
     currency_type: cryptocurrency
-    exchange_symbol: SATX
+    exchange_symbol: TRX
   exchange_id: 566
   exchange_name: SatoExchange
-  pair: SATX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.satoexchange.com/market/SATX/BTC/
-- base:
-    currency_id: 74
-    currency_symbol: DOGE
-    currency_type: cryptocurrency
-    exchange_symbol: DOGE
-  exchange_id: 566
-  exchange_name: SatoExchange
-  pair: DOGE/SATX
+  pair: TRX/SATX
   quote:
     currency_id: 5430
     currency_symbol: SATX
     currency_type: cryptocurrency
     exchange_symbol: SATX
-  url: https://www.satoexchange.com/market/DOGE/SATX/
+  url: https://www.satoexchange.com/market/TRX/SATX/
 - base:
     currency_id: 1274
     currency_symbol: WAVES
@@ -122,6 +122,20 @@ markets:
     exchange_symbol: SATX
   url: https://www.satoexchange.com/market/XRP/SATX/
 - base:
+    currency_id: 74
+    currency_symbol: DOGE
+    currency_type: cryptocurrency
+    exchange_symbol: DOGE
+  exchange_id: 566
+  exchange_name: SatoExchange
+  pair: DOGE/SATX
+  quote:
+    currency_id: 5430
+    currency_symbol: SATX
+    currency_type: cryptocurrency
+    exchange_symbol: SATX
+  url: https://www.satoexchange.com/market/DOGE/SATX/
+- base:
     currency_id: 1896
     currency_symbol: ZRX
     currency_type: cryptocurrency
@@ -135,20 +149,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: SATX
   url: https://www.satoexchange.com/market/ZRX/SATX/
-- base:
-    currency_id: 1958
-    currency_symbol: TRX
-    currency_type: cryptocurrency
-    exchange_symbol: TRX
-  exchange_id: 566
-  exchange_name: SatoExchange
-  pair: TRX/SATX
-  quote:
-    currency_id: 5430
-    currency_symbol: SATX
-    currency_type: cryptocurrency
-    exchange_symbol: SATX
-  url: https://www.satoexchange.com/market/TRX/SATX/
 - base:
     currency_id: 512
     currency_symbol: XLM
@@ -164,7 +164,7 @@ markets:
     exchange_symbol: SATX
   url: https://www.satoexchange.com/market/XLM/SATX/
 name: SatoExchange Token
-rank: 2433
+rank: 2291
 slug: satoexchange-token
 status: active
 symbol: SATX

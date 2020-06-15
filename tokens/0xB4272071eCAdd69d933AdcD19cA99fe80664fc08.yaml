@@ -46,20 +46,6 @@ markets:
     exchange_symbol: XCHF
   exchange_id: 37
   exchange_name: Bitfinex
-  pair: XCHF/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitfinex.com/t/XCHF:ETH?refcode=H70YTMupQ
-- base:
-    currency_id: 4075
-    currency_symbol: XCHF
-    currency_type: cryptocurrency
-    exchange_symbol: XCHF
-  exchange_id: 37
-  exchange_name: Bitfinex
   pair: XCHF/USD
   quote:
     currency_id: 2781
@@ -67,6 +53,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/XCHF:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 4075
+    currency_symbol: XCHF
+    currency_type: cryptocurrency
+    exchange_symbol: XCHF
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: XCHF/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitfinex.com/t/XCHF:ETH?refcode=H70YTMupQ
 - base:
     currency_id: 4075
     currency_symbol: XCHF
@@ -96,7 +96,7 @@ markets:
     exchange_symbol: ETH
   url: https://uniswap.exchange/
 name: CryptoFranc
-rank: 541
+rank: 531
 slug: cryptofranc
 status: active
 symbol: XCHF

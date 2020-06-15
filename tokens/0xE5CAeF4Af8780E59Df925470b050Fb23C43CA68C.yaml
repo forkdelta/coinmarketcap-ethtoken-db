@@ -114,20 +114,6 @@ markets:
     currency_id: 4228
     currency_symbol: FRM
     currency_type: cryptocurrency
-    exchange_symbol: FRM-001
-  exchange_id: 756
-  exchange_name: ViteX
-  pair: FRM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://x.vite.net/trade?symbol=FRM-001_BTC-000
-- base:
-    currency_id: 4228
-    currency_symbol: FRM
-    currency_type: cryptocurrency
     exchange_symbol: FRM
   exchange_id: 849
   exchange_name: Bidesk
@@ -138,6 +124,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bidesk.com/exchange/FRM/ETH
+- base:
+    currency_id: 4228
+    currency_symbol: FRM
+    currency_type: cryptocurrency
+    exchange_symbol: FRM-001
+  exchange_id: 756
+  exchange_name: ViteX
+  pair: FRM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://x.vite.net/trade?symbol=FRM-001_BTC-000
 - base:
     currency_id: 4228
     currency_symbol: FRM
@@ -167,7 +167,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: Ferrum Network
-rank: 479
+rank: 490
 slug: ferrum-network
 status: active
 symbol: FRM

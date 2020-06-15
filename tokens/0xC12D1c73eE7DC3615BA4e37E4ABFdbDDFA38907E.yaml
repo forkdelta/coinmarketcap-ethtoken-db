@@ -38,20 +38,6 @@ markets:
     currency_symbol: KICK
     currency_type: cryptocurrency
     exchange_symbol: KICK
-  exchange_id: 245
-  exchange_name: STEX
-  pair: KICK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://app.stex.com/en/basic-trade/pair/USDT/KICK/1D
-- base:
-    currency_id: 2017
-    currency_symbol: KICK
-    currency_type: cryptocurrency
-    exchange_symbol: KICK
   exchange_id: 415
   exchange_name: Bilaxy
   pair: KICK/ETH
@@ -61,6 +47,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bilaxy.com/trade/KICK_ETH
+- base:
+    currency_id: 2017
+    currency_symbol: KICK
+    currency_type: cryptocurrency
+    exchange_symbol: KICK
+  exchange_id: 245
+  exchange_name: STEX
+  pair: KICK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://app.stex.com/en/basic-trade/pair/USDT/KICK/1D
 - base:
     currency_id: 2017
     currency_symbol: KICK
@@ -136,20 +136,6 @@ markets:
     currency_symbol: KICK
     currency_type: cryptocurrency
     exchange_symbol: KICK
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: KICK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/KICK-to-BTC
-- base:
-    currency_id: 2017
-    currency_symbol: KICK
-    currency_type: cryptocurrency
-    exchange_symbol: KICK
   exchange_id: 213
   exchange_name: Mercatox
   pair: KICK/BTC
@@ -159,8 +145,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/KICK/BTC
+- base:
+    currency_id: 2017
+    currency_symbol: KICK
+    currency_type: cryptocurrency
+    exchange_symbol: KICK
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: KICK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/KICK-to-BTC
 name: KickToken
-rank: 940
+rank: 931
 slug: kick-token
 status: active
 symbol: KICK
