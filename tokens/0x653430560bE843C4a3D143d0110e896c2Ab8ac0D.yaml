@@ -48,20 +48,6 @@ markets:
     currency_symbol: MOF
     currency_type: cryptocurrency
     exchange_symbol: MOF
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: MOF/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bittrex.com/Market/Index?MarketName=USDT-MOF
-- base:
-    currency_id: 2441
-    currency_symbol: MOF
-    currency_type: cryptocurrency
-    exchange_symbol: MOF
   exchange_id: 294
   exchange_name: OKEx
   pair: MOF/BTC
@@ -76,15 +62,15 @@ markets:
     currency_symbol: MOF
     currency_type: cryptocurrency
     exchange_symbol: MOF
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: MOF/ETH
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: MOF/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.okex.com/market?product=mof_eth
+    exchange_symbol: USDT
+  url: https://bittrex.com/Market/Index?MarketName=USDT-MOF
 - base:
     currency_id: 2441
     currency_symbol: MOF
@@ -104,6 +90,20 @@ markets:
     currency_symbol: MOF
     currency_type: cryptocurrency
     exchange_symbol: MOF
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: MOF/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.okex.com/market?product=mof_eth
+- base:
+    currency_id: 2441
+    currency_symbol: MOF
+    currency_type: cryptocurrency
+    exchange_symbol: MOF
   exchange_id: 363
   exchange_name: Fatbtc
   pair: MOF/USDT
@@ -113,20 +113,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
-- base:
-    currency_id: 2441
-    currency_symbol: MOF
-    currency_type: cryptocurrency
-    exchange_symbol: MOF
-  exchange_id: 490
-  exchange_name: OKEx Korea
-  pair: MOF/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://okex.co.kr/kr/view/exchange?coin=MOF&market=USDT
 - base:
     currency_id: 2441
     currency_symbol: MOF
@@ -155,6 +141,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://okex.co.kr/kr/view/exchange?coin=MOF&market=BTC
+- base:
+    currency_id: 2441
+    currency_symbol: MOF
+    currency_type: cryptocurrency
+    exchange_symbol: MOF
+  exchange_id: 490
+  exchange_name: OKEx Korea
+  pair: MOF/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://okex.co.kr/kr/view/exchange?coin=MOF&market=USDT
 - base:
     currency_id: 2441
     currency_symbol: MOF
@@ -240,7 +240,7 @@ markets:
     exchange_symbol: USDT
   url: https://hoo.com/trade/mof-usdt
 name: Molecular Future
-rank: 463
+rank: 469
 slug: molecular-future
 status: active
 symbol: MOF

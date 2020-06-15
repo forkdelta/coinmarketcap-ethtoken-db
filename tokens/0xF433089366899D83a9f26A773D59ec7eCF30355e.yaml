@@ -95,20 +95,6 @@ markets:
     exchange_symbol: MTL
   exchange_id: 656
   exchange_name: Omgfin
-  pair: MTL/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://omgfin.com/exchange/trade/market/MTLETH
-- base:
-    currency_id: 1788
-    currency_symbol: MTL
-    currency_type: cryptocurrency
-    exchange_symbol: MTL
-  exchange_id: 656
-  exchange_name: Omgfin
   pair: MTL/USDT
   quote:
     currency_id: 825
@@ -116,6 +102,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://omgfin.com/exchange/trade/market/MTLUSDT
+- base:
+    currency_id: 1788
+    currency_symbol: MTL
+    currency_type: cryptocurrency
+    exchange_symbol: MTL
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: MTL/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://omgfin.com/exchange/trade/market/MTLETH
 - base:
     currency_id: 1788
     currency_symbol: MTL
@@ -191,6 +191,20 @@ markets:
     currency_symbol: MTL
     currency_type: cryptocurrency
     exchange_symbol: MTL
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: MTL/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=mtl
+- base:
+    currency_id: 1788
+    currency_symbol: MTL
+    currency_type: cryptocurrency
+    exchange_symbol: MTL
   exchange_id: 949
   exchange_name: CoinDCX
   pair: MTL/BTC
@@ -219,34 +233,6 @@ markets:
     currency_symbol: MTL
     currency_type: cryptocurrency
     exchange_symbol: MTL
-  exchange_id: 673
-  exchange_name: UPEX
-  pair: MTL/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upex.io/trade/MTL_BTC
-- base:
-    currency_id: 1788
-    currency_symbol: MTL
-    currency_type: cryptocurrency
-    exchange_symbol: MTL
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: MTL/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=mtl
-- base:
-    currency_id: 1788
-    currency_symbol: MTL
-    currency_type: cryptocurrency
-    exchange_symbol: MTL
   exchange_id: 22
   exchange_name: Bittrex
   pair: MTL/BTC
@@ -256,6 +242,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-MTL
+- base:
+    currency_id: 1788
+    currency_symbol: MTL
+    currency_type: cryptocurrency
+    exchange_symbol: MTL
+  exchange_id: 673
+  exchange_name: UPEX
+  pair: MTL/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upex.io/trade/MTL_BTC
 - base:
     currency_id: 1788
     currency_symbol: MTL
@@ -289,20 +289,6 @@ markets:
     currency_symbol: MTL
     currency_type: cryptocurrency
     exchange_symbol: MTL
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: MTL/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/MTL-to-BTC
-- base:
-    currency_id: 1788
-    currency_symbol: MTL
-    currency_type: cryptocurrency
-    exchange_symbol: MTL
   exchange_id: 1003
   exchange_name: Metal X
   pair: MTL/USDT
@@ -317,15 +303,15 @@ markets:
     currency_symbol: MTL
     currency_type: cryptocurrency
     exchange_symbol: MTL
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: MTL/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/mtl_btc/
+  url: https://hitbtc.com/MTL-to-BTC
 - base:
     currency_id: 1788
     currency_symbol: MTL
@@ -340,6 +326,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/mtl
+- base:
+    currency_id: 1788
+    currency_symbol: MTL
+    currency_type: cryptocurrency
+    exchange_symbol: MTL
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: MTL/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/mtl_btc/
 - base:
     currency_id: 1788
     currency_symbol: MTL
@@ -369,7 +369,7 @@ markets:
     exchange_symbol: USDT
   url: https://coindcx.com/trade/MTLUSDT
 name: Metal
-rank: 173
+rank: 177
 slug: metal
 status: active
 symbol: MTL

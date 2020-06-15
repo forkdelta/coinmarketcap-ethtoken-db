@@ -53,20 +53,6 @@ markets:
     exchange_symbol: VNDC
   url: https://exmarkets.com/trade/usdc-vndc
 - base:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: USDT/VNDC
-  quote:
-    currency_id: 4805
-    currency_symbol: VNDC
-    currency_type: cryptocurrency
-    exchange_symbol: VNDC
-  url: https://whitebit.com/trade/USDT_VNDC
-- base:
     currency_id: 4180
     currency_symbol: DDK
     currency_type: cryptocurrency
@@ -80,20 +66,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: VNDC
   url: https://exmarkets.com/trade/ddk-vndc
-- base:
-    currency_id: 4805
-    currency_symbol: VNDC
-    currency_type: cryptocurrency
-    exchange_symbol: VNDC
-  exchange_id: 514
-  exchange_name: Finexbox
-  pair: VNDC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.finexbox.com/market/pair/VNDC-USDT.html
 - base:
     currency_id: 4805
     currency_symbol: VNDC
@@ -122,6 +94,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.finexbox.com/market/pair/VNDC-ETH.html
+- base:
+    currency_id: 4805
+    currency_symbol: VNDC
+    currency_type: cryptocurrency
+    exchange_symbol: VNDC
+  exchange_id: 514
+  exchange_name: Finexbox
+  pair: VNDC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.finexbox.com/market/pair/VNDC-USDT.html
 - base:
     currency_id: 4805
     currency_symbol: VNDC
@@ -164,8 +150,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://vindax.com/exchange-base.html?symbol=VNDC_USDT
+- base:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: USDT/VNDC
+  quote:
+    currency_id: 4805
+    currency_symbol: VNDC
+    currency_type: cryptocurrency
+    exchange_symbol: VNDC
+  url: https://whitebit.com/trade/USDT_VNDC
 name: VNDC
-rank: 569
+rank: 570
 slug: vndc
 status: active
 symbol: VNDC

@@ -39,20 +39,6 @@ markets:
     currency_symbol: RNT
     currency_type: cryptocurrency
     exchange_symbol: RNT
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: RNT/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/RNTKRW
-- base:
-    currency_id: 2400
-    currency_symbol: RNT
-    currency_type: cryptocurrency
-    exchange_symbol: RNT
   exchange_id: 453
   exchange_name: BitMax
   pair: RNT/USDT
@@ -62,6 +48,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bitmax.io/#/trade/usdt/rnt
+- base:
+    currency_id: 2400
+    currency_symbol: RNT
+    currency_type: cryptocurrency
+    exchange_symbol: RNT
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: RNT/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/RNTKRW
 - base:
     currency_id: 2400
     currency_symbol: RNT
@@ -133,7 +133,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=RNT&market=USDT
 name: OneRoot Network
-rank: 583
+rank: 591
 slug: oneroot-network
 status: active
 symbol: RNT

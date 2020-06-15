@@ -36,19 +36,19 @@ markets:
     exchange_symbol: EXM
   url: https://exmo.com/en/trade#?pair=ALGO_EXM
 - base:
+    currency_id: 4309
+    currency_symbol: CRON
+    currency_type: cryptocurrency
+    exchange_symbol: CRON
+  exchange_id: 50
+  exchange_name: EXMO
+  pair: CRON/EXM
+  quote:
     currency_id: 4974
     currency_symbol: EXM
     currency_type: cryptocurrency
     exchange_symbol: EXM
-  exchange_id: 50
-  exchange_name: EXMO
-  pair: EXM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://exmo.com/en/trade#?pair=EXM_USDT
+  url: https://exmo.com/en/trade#?pair=CRON_EXM
 - base:
     currency_id: 4974
     currency_symbol: EXM
@@ -64,19 +64,19 @@ markets:
     exchange_symbol: BTC
   url: https://exmo.com/en/trade#?pair=EXM_BTC
 - base:
-    currency_id: 4309
-    currency_symbol: CRON
-    currency_type: cryptocurrency
-    exchange_symbol: CRON
-  exchange_id: 50
-  exchange_name: EXMO
-  pair: CRON/EXM
-  quote:
     currency_id: 4974
     currency_symbol: EXM
     currency_type: cryptocurrency
     exchange_symbol: EXM
-  url: https://exmo.com/en/trade#?pair=CRON_EXM
+  exchange_id: 50
+  exchange_name: EXMO
+  pair: EXM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://exmo.com/en/trade#?pair=EXM_USDT
 - base:
     currency_id: 4974
     currency_symbol: EXM
@@ -148,7 +148,7 @@ markets:
     exchange_symbol: EXM
   url: https://exmo.com/en/trade#?pair=ATOM_EXM
 name: EXMO Coin
-rank: 761
+rank: 762
 slug: exmo-coin
 status: active
 symbol: EXM

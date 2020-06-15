@@ -126,20 +126,6 @@ markets:
     currency_symbol: MITX
     currency_type: cryptocurrency
     exchange_symbol: MITX
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: MITX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/MITXBTC?affiliate=eNgws23g761816
-- base:
-    currency_id: 2709
-    currency_symbol: MITX
-    currency_type: cryptocurrency
-    exchange_symbol: MITX
   exchange_id: 42
   exchange_name: HitBTC
   pair: MITX/BTC
@@ -154,15 +140,15 @@ markets:
     currency_symbol: MITX
     currency_type: cryptocurrency
     exchange_symbol: MITX
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: MITX/ETH
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: MITX/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/MITX-to-ETH
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/MITXBTC?affiliate=eNgws23g761816
 - base:
     currency_id: 2709
     currency_symbol: MITX
@@ -177,8 +163,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNB
   url: https://www.binance.org/en/trade/
+- base:
+    currency_id: 2709
+    currency_symbol: MITX
+    currency_type: cryptocurrency
+    exchange_symbol: MITX
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: MITX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/MITX-to-ETH
 name: Morpheus Labs
-rank: 578
+rank: 577
 slug: morpheus-labs
 status: active
 symbol: MITX

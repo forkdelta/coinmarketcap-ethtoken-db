@@ -32,6 +32,20 @@ markets:
     currency_symbol: PLF
     currency_type: cryptocurrency
     exchange_symbol: PLF
+  exchange_id: 333
+  exchange_name: LBank
+  pair: PLF/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.lbank.info/trading/plf/btc
+- base:
+    currency_id: 5084
+    currency_symbol: PLF
+    currency_type: cryptocurrency
+    exchange_symbol: PLF
   exchange_id: 459
   exchange_name: BW.com
   pair: PLF/USDT
@@ -60,20 +74,6 @@ markets:
     currency_symbol: PLF
     currency_type: cryptocurrency
     exchange_symbol: PLF
-  exchange_id: 333
-  exchange_name: LBank
-  pair: PLF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.lbank.info/trading/plf/btc
-- base:
-    currency_id: 5084
-    currency_symbol: PLF
-    currency_type: cryptocurrency
-    exchange_symbol: PLF
   exchange_id: 459
   exchange_name: BW.com
   pair: PLF/BTC
@@ -83,20 +83,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bw.com/trade/plf_btc
-- base:
-    currency_id: 5084
-    currency_symbol: PLF
-    currency_type: cryptocurrency
-    exchange_symbol: PLF
-  exchange_id: 402
-  exchange_name: Coinsuper
-  pair: PLF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinsuper.com/#/actionDeal
 - base:
     currency_id: 5084
     currency_symbol: PLF
@@ -116,15 +102,15 @@ markets:
     currency_symbol: PLF
     currency_type: cryptocurrency
     exchange_symbol: PLF
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: PLF/USDT
+  exchange_id: 402
+  exchange_name: Coinsuper
+  pair: PLF/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://crex24.com/exchange/PLF-USDT
+    exchange_symbol: BTC
+  url: https://www.coinsuper.com/#/actionDeal
 - base:
     currency_id: 5084
     currency_symbol: PLF
@@ -146,34 +132,6 @@ markets:
     exchange_symbol: PLF
   exchange_id: 415
   exchange_name: Bilaxy
-  pair: PLF/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bilaxy.com/trade/PLF_USDT
-- base:
-    currency_id: 5084
-    currency_symbol: PLF
-    currency_type: cryptocurrency
-    exchange_symbol: PLF
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: PLF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://crex24.com/exchange/PLF-BTC
-- base:
-    currency_id: 5084
-    currency_symbol: PLF
-    currency_type: cryptocurrency
-    exchange_symbol: PLF
-  exchange_id: 415
-  exchange_name: Bilaxy
   pair: PLF/BTC
   quote:
     currency_id: 1
@@ -186,15 +144,15 @@ markets:
     currency_symbol: PLF
     currency_type: cryptocurrency
     exchange_symbol: PLF
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: PLF/ETH
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: PLF/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://crex24.com/exchange/PLF-ETH
+    exchange_symbol: USDT
+  url: https://bilaxy.com/trade/PLF_USDT
 - base:
     currency_id: 5084
     currency_symbol: PLF
@@ -228,6 +186,48 @@ markets:
     currency_symbol: PLF
     currency_type: cryptocurrency
     exchange_symbol: PLF
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: PLF/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://crex24.com/exchange/PLF-USDT
+- base:
+    currency_id: 5084
+    currency_symbol: PLF
+    currency_type: cryptocurrency
+    exchange_symbol: PLF
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: PLF/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://crex24.com/exchange/PLF-ETH
+- base:
+    currency_id: 5084
+    currency_symbol: PLF
+    currency_type: cryptocurrency
+    exchange_symbol: PLF
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: PLF/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://crex24.com/exchange/PLF-BTC
+- base:
+    currency_id: 5084
+    currency_symbol: PLF
+    currency_type: cryptocurrency
+    exchange_symbol: PLF
   exchange_id: 400
   exchange_name: Hotbit
   pair: PLF/USDT
@@ -242,20 +242,6 @@ markets:
     currency_symbol: PLF
     currency_type: cryptocurrency
     exchange_symbol: PLF
-  exchange_id: 245
-  exchange_name: STEX
-  pair: PLF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.stex.com/en/basic-trade/pair/BTC/PLF/1D
-- base:
-    currency_id: 5084
-    currency_symbol: PLF
-    currency_type: cryptocurrency
-    exchange_symbol: PLF
   exchange_id: 407
   exchange_name: DigiFinex
   pair: PLF/BTC
@@ -265,6 +251,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.digifinex.com/en-ww/trade/BTC/PLF
+- base:
+    currency_id: 5084
+    currency_symbol: PLF
+    currency_type: cryptocurrency
+    exchange_symbol: PLF
+  exchange_id: 535
+  exchange_name: ExMarkets
+  pair: PLF/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exmarkets.com/trade/plf-btc
+- base:
+    currency_id: 5084
+    currency_symbol: PLF
+    currency_type: cryptocurrency
+    exchange_symbol: PLF
+  exchange_id: 245
+  exchange_name: STEX
+  pair: PLF/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.stex.com/en/basic-trade/pair/BTC/PLF/1D
 - base:
     currency_id: 5084
     currency_symbol: PLF
@@ -298,34 +312,6 @@ markets:
     currency_symbol: PLF
     currency_type: cryptocurrency
     exchange_symbol: PLF
-  exchange_id: 245
-  exchange_name: STEX
-  pair: PLF/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://app.stex.com/en/basic-trade/pair/USDT/PLF/1D
-- base:
-    currency_id: 5084
-    currency_symbol: PLF
-    currency_type: cryptocurrency
-    exchange_symbol: PLF
-  exchange_id: 535
-  exchange_name: ExMarkets
-  pair: PLF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exmarkets.com/trade/plf-btc
-- base:
-    currency_id: 5084
-    currency_symbol: PLF
-    currency_type: cryptocurrency
-    exchange_symbol: PLF
   exchange_id: 535
   exchange_name: ExMarkets
   pair: PLF/ETH
@@ -335,6 +321,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://exmarkets.com/trade/plf-eth
+- base:
+    currency_id: 5084
+    currency_symbol: PLF
+    currency_type: cryptocurrency
+    exchange_symbol: PLF
+  exchange_id: 245
+  exchange_name: STEX
+  pair: PLF/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://app.stex.com/en/basic-trade/pair/USDT/PLF/1D
 - base:
     currency_id: 5084
     currency_symbol: PLF
@@ -368,20 +368,6 @@ markets:
     currency_symbol: PLF
     currency_type: cryptocurrency
     exchange_symbol: PLF
-  exchange_id: 407
-  exchange_name: DigiFinex
-  pair: PLF/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.digifinex.com/en-ww/trade/ETH/PLF
-- base:
-    currency_id: 5084
-    currency_symbol: PLF
-    currency_type: cryptocurrency
-    exchange_symbol: PLF
   exchange_id: 343
   exchange_name: CoinBene
   pair: PLF/USDT
@@ -391,6 +377,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=PLFUSDT
+- base:
+    currency_id: 5084
+    currency_symbol: PLF
+    currency_type: cryptocurrency
+    exchange_symbol: PLF
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: PLF/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.digifinex.com/en-ww/trade/ETH/PLF
 - base:
     currency_id: 5084
     currency_symbol: PLF
@@ -420,7 +420,7 @@ markets:
     exchange_symbol: ETH
   url: https://mercatox.com/exchange/PLF/ETH
 name: PlayFuel
-rank: 208
+rank: 207
 slug: playfuel
 status: active
 symbol: PLF
