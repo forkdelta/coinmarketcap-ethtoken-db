@@ -41,34 +41,6 @@ markets:
     currency_symbol: YAP
     currency_type: cryptocurrency
     exchange_symbol: YAP
-  exchange_id: 407
-  exchange_name: DigiFinex
-  pair: YAP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.digifinex.com/en-ww/trade/BTC/YAP
-- base:
-    currency_id: 4899
-    currency_symbol: YAP
-    currency_type: cryptocurrency
-    exchange_symbol: YAP
-  exchange_id: 407
-  exchange_name: DigiFinex
-  pair: YAP/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.digifinex.com/en-ww/trade/USDT/YAP
-- base:
-    currency_id: 4899
-    currency_symbol: YAP
-    currency_type: cryptocurrency
-    exchange_symbol: YAP
   exchange_id: 459
   exchange_name: BW.com
   pair: YAP/USDT
@@ -92,6 +64,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bw.com/trade/yap_btc
+- base:
+    currency_id: 4899
+    currency_symbol: YAP
+    currency_type: cryptocurrency
+    exchange_symbol: YAP
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: YAP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.digifinex.com/en-ww/trade/BTC/YAP
+- base:
+    currency_id: 4899
+    currency_symbol: YAP
+    currency_type: cryptocurrency
+    exchange_symbol: YAP
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: YAP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.digifinex.com/en-ww/trade/USDT/YAP
 - base:
     currency_id: 4899
     currency_symbol: YAP
@@ -127,13 +127,13 @@ markets:
     exchange_symbol: YAP
   exchange_id: 343
   exchange_name: CoinBene
-  pair: YAP/USDT
+  pair: YAP/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=YAPUSDT
+    exchange_symbol: BTC
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=YAPBTC?hash=2NbmTq6
 - base:
     currency_id: 4899
     currency_symbol: YAP
@@ -141,41 +141,13 @@ markets:
     exchange_symbol: YAP
   exchange_id: 343
   exchange_name: CoinBene
-  pair: YAP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=YAPBTC
-- base:
-    currency_id: 4899
-    currency_symbol: YAP
-    currency_type: cryptocurrency
-    exchange_symbol: YAP
-  exchange_id: 402
-  exchange_name: Coinsuper
   pair: YAP/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.coinsuper.com/#/actionDeal
-- base:
-    currency_id: 4899
-    currency_symbol: YAP
-    currency_type: cryptocurrency
-    exchange_symbol: YAP
-  exchange_id: 402
-  exchange_name: Coinsuper
-  pair: YAP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinsuper.com/#/actionDeal
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=YAPUSDT?hash=2NbmTq6
 - base:
     currency_id: 4899
     currency_symbol: YAP
@@ -190,8 +162,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://dragonex.io
+- base:
+    currency_id: 4899
+    currency_symbol: YAP
+    currency_type: cryptocurrency
+    exchange_symbol: YAP
+  exchange_id: 402
+  exchange_name: Coinsuper
+  pair: YAP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinsuper.com/#/actionDeal
+- base:
+    currency_id: 4899
+    currency_symbol: YAP
+    currency_type: cryptocurrency
+    exchange_symbol: YAP
+  exchange_id: 402
+  exchange_name: Coinsuper
+  pair: YAP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinsuper.com/#/actionDeal
 name: Yap Stone
-rank: 460
+rank: 475
 slug: yap-stone
 status: active
 symbol: YAP

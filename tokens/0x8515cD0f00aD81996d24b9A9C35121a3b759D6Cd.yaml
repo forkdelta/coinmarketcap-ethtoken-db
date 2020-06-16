@@ -27,13 +27,13 @@ markets:
     exchange_symbol: BURN
   exchange_id: 459
   exchange_name: BW.com
-  pair: BURN/USDT
+  pair: BURN/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bw.com/trade/burn_usdt
+    exchange_symbol: BTC
+  url: https://www.bw.com/trade/burn_btc
 - base:
     currency_id: 4069
     currency_symbol: BURN
@@ -55,13 +55,13 @@ markets:
     exchange_symbol: BURN
   exchange_id: 459
   exchange_name: BW.com
-  pair: BURN/BTC
+  pair: BURN/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bw.com/trade/burn_btc
+    exchange_symbol: USDT
+  url: https://www.bw.com/trade/burn_usdt
 - base:
     currency_id: 4069
     currency_symbol: BURN
@@ -95,20 +95,6 @@ markets:
     currency_symbol: BURN
     currency_type: cryptocurrency
     exchange_symbol: BURN
-  exchange_id: 506
-  exchange_name: ChainX
-  pair: BURN/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://chainx.kr/exchange/BURN-KRW
-- base:
-    currency_id: 4069
-    currency_symbol: BURN
-    currency_type: cryptocurrency
-    exchange_symbol: BURN
   exchange_id: 213
   exchange_name: Mercatox
   pair: BURN/BTC
@@ -118,8 +104,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/BURN/BTC
+- base:
+    currency_id: 4069
+    currency_symbol: BURN
+    currency_type: cryptocurrency
+    exchange_symbol: BURN
+  exchange_id: 506
+  exchange_name: ChainX
+  pair: BURN/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://chainx.kr/exchange/BURN-KRW
 name: Blockburn
-rank: 1715
+rank: 1683
 slug: blockburn
 status: active
 symbol: BURN

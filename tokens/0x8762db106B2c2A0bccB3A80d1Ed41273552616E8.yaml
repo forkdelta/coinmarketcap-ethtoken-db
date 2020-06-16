@@ -31,29 +31,15 @@ markets:
     currency_symbol: RSR
     currency_type: cryptocurrency
     exchange_symbol: RSR
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: RSR/USDT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: RSR/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/rsr_usdt?invite_code=5kij5
-- base:
-    currency_id: 3964
-    currency_symbol: RSR
-    currency_type: cryptocurrency
-    exchange_symbol: RSR
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: RSR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bilaxy.com/trade/RSR_USDT
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=RSR_BTC
 - base:
     currency_id: 3964
     currency_symbol: RSR
@@ -73,15 +59,29 @@ markets:
     currency_symbol: RSR
     currency_type: cryptocurrency
     exchange_symbol: RSR
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: RSR/BTC
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: RSR/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=RSR_BTC
+    exchange_symbol: USDT
+  url: https://bilaxy.com/trade/RSR_USDT
+- base:
+    currency_id: 3964
+    currency_symbol: RSR
+    currency_type: cryptocurrency
+    exchange_symbol: RSR
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: RSR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/rsr_usdt?invite_code=5kij5
 - base:
     currency_id: 3964
     currency_symbol: RSR
@@ -157,20 +157,6 @@ markets:
     currency_symbol: RSR
     currency_type: cryptocurrency
     exchange_symbol: RSR
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: RSR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/rsr_usdt
-- base:
-    currency_id: 3964
-    currency_symbol: RSR
-    currency_type: cryptocurrency
-    exchange_symbol: RSR
   exchange_id: 102
   exchange_name: Huobi Global
   pair: RSR/HT
@@ -185,15 +171,15 @@ markets:
     currency_symbol: RSR
     currency_type: cryptocurrency
     exchange_symbol: RSR
-  exchange_id: 401
-  exchange_name: Switcheo Network
-  pair: RSR/ETH
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: RSR/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://switcheo.exchange/markets/RSR_ETH
+    exchange_symbol: USDT
+  url: https://gate.io/trade/rsr_usdt
 - base:
     currency_id: 3964
     currency_symbol: RSR
@@ -227,6 +213,20 @@ markets:
     currency_symbol: RSR
     currency_type: cryptocurrency
     exchange_symbol: RSR
+  exchange_id: 401
+  exchange_name: Switcheo Network
+  pair: RSR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://switcheo.exchange/markets/RSR_ETH?referral_code=DFCA09
+- base:
+    currency_id: 3964
+    currency_symbol: RSR
+    currency_type: cryptocurrency
+    exchange_symbol: RSR
   exchange_id: 595
   exchange_name: Uniswap
   pair: RSR/ETH
@@ -237,7 +237,7 @@ markets:
     exchange_symbol: ETH
   url: https://uniswap.exchange/
 name: Reserve Rights
-rank: 153
+rank: 150
 slug: reserve-rights
 status: active
 symbol: RSR

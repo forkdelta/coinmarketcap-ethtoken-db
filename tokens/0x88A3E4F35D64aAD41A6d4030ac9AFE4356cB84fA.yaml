@@ -77,20 +77,6 @@ markets:
     currency_symbol: PRE
     currency_type: cryptocurrency
     exchange_symbol: PRE
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: PRE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/PRE-to-BTC
-- base:
-    currency_id: 2245
-    currency_symbol: PRE
-    currency_type: cryptocurrency
-    exchange_symbol: PRE
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: PRE/BTC
@@ -107,6 +93,20 @@ markets:
     exchange_symbol: PRE
   exchange_id: 42
   exchange_name: HitBTC
+  pair: PRE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/PRE-to-BTC
+- base:
+    currency_id: 2245
+    currency_symbol: PRE
+    currency_type: cryptocurrency
+    exchange_symbol: PRE
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: PRE/ETH
   quote:
     currency_id: 1027
@@ -115,7 +115,7 @@ markets:
     exchange_symbol: ETH
   url: https://hitbtc.com/PRE-to-ETH
 name: Presearch
-rank: 610
+rank: 600
 slug: presearch
 status: active
 symbol: PRE

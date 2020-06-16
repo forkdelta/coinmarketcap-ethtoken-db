@@ -37,20 +37,6 @@ markets:
     exchange_symbol: ELAMA
   exchange_id: 333
   exchange_name: LBank
-  pair: ELAMA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.lbank.info/trading/elama/btc
-- base:
-    currency_id: 3734
-    currency_symbol: ELAMA
-    currency_type: cryptocurrency
-    exchange_symbol: ELAMA
-  exchange_id: 333
-  exchange_name: LBank
   pair: ELAMA/USDT
   quote:
     currency_id: 825
@@ -58,6 +44,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.lbank.info/trading/elama/usdt
+- base:
+    currency_id: 3734
+    currency_symbol: ELAMA
+    currency_type: cryptocurrency
+    exchange_symbol: ELAMA
+  exchange_id: 333
+  exchange_name: LBank
+  pair: ELAMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.lbank.info/trading/elama/btc
 - base:
     currency_id: 3734
     currency_symbol: ELAMA
@@ -72,6 +72,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bitforex.com/en/spot/elama_usdt
+- base:
+    currency_id: 3734
+    currency_symbol: ELAMA
+    currency_type: cryptocurrency
+    exchange_symbol: ELAMA
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: ELAMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitforex.com/en/spot/elama_btc
 - base:
     currency_id: 3734
     currency_symbol: ELAMA
@@ -135,20 +149,6 @@ markets:
     exchange_symbol: ELAMA
   exchange_id: 400
   exchange_name: Hotbit
-  pair: ELAMA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=ELAMA_USDT
-- base:
-    currency_id: 3734
-    currency_symbol: ELAMA
-    currency_type: cryptocurrency
-    exchange_symbol: ELAMA
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: ELAMA/BTC
   quote:
     currency_id: 1
@@ -161,17 +161,17 @@ markets:
     currency_symbol: ELAMA
     currency_type: cryptocurrency
     exchange_symbol: ELAMA
-  exchange_id: 403
-  exchange_name: BitForex
-  pair: ELAMA/BTC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: ELAMA/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitforex.com/en/spot/elama_btc
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=ELAMA_USDT
 name: Elamachain
-rank: 215
+rank: 216
 slug: elamachain
 status: active
 symbol: ELAMA
