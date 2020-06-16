@@ -40,20 +40,6 @@ markets:
     exchange_symbol: FET
   exchange_id: 270
   exchange_name: Binance
-  pair: FET/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/FET_BTC?ref=H31B921U
-- base:
-    currency_id: 3773
-    currency_symbol: FET
-    currency_type: cryptocurrency
-    exchange_symbol: FET
-  exchange_id: 270
-  exchange_name: Binance
   pair: FET/USDT
   quote:
     currency_id: 825
@@ -61,6 +47,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/FET_USDT?ref=H31B921U
+- base:
+    currency_id: 3773
+    currency_symbol: FET
+    currency_type: cryptocurrency
+    exchange_symbol: FET
+  exchange_id: 270
+  exchange_name: Binance
+  pair: FET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/FET_BTC?ref=H31B921U
 - base:
     currency_id: 3773
     currency_symbol: FET
@@ -122,6 +122,48 @@ markets:
     currency_symbol: FET
     currency_type: cryptocurrency
     exchange_symbol: FET
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: FET/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=FET_USDT
+- base:
+    currency_id: 3773
+    currency_symbol: FET
+    currency_type: cryptocurrency
+    exchange_symbol: FET
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: FET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=FET_BTC
+- base:
+    currency_id: 3773
+    currency_symbol: FET
+    currency_type: cryptocurrency
+    exchange_symbol: FET
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: FET/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=FET_ETH
+- base:
+    currency_id: 3773
+    currency_symbol: FET
+    currency_type: cryptocurrency
+    exchange_symbol: FET
   exchange_id: 270
   exchange_name: Binance
   pair: FET/BNB
@@ -150,48 +192,6 @@ markets:
     currency_symbol: FET
     currency_type: cryptocurrency
     exchange_symbol: FET
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: FET/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=FET_USDT
-- base:
-    currency_id: 3773
-    currency_symbol: FET
-    currency_type: cryptocurrency
-    exchange_symbol: FET
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: FET/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=FET_ETH
-- base:
-    currency_id: 3773
-    currency_symbol: FET
-    currency_type: cryptocurrency
-    exchange_symbol: FET
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: FET/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=FET_BTC
-- base:
-    currency_id: 3773
-    currency_symbol: FET
-    currency_type: cryptocurrency
-    exchange_symbol: FET
   exchange_id: 744
   exchange_name: Lukki Exchange
   pair: FET/BTC
@@ -201,6 +201,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://app.lukki.io/?pair=FET_BTC
+- base:
+    currency_id: 3773
+    currency_symbol: FET
+    currency_type: cryptocurrency
+    exchange_symbol: FET
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: FET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.kucoin.com/trade/FET-BTC
 - base:
     currency_id: 3773
     currency_symbol: FET
@@ -234,15 +248,15 @@ markets:
     currency_symbol: FET
     currency_type: cryptocurrency
     exchange_symbol: FET
-  exchange_id: 311
-  exchange_name: KuCoin
+  exchange_id: 453
+  exchange_name: BitMax
   pair: FET/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/FET-BTC
+  url: https://bitmax.io/#/trade/btc/fet
 - base:
     currency_id: 3773
     currency_symbol: FET
@@ -262,15 +276,15 @@ markets:
     currency_symbol: FET
     currency_type: cryptocurrency
     exchange_symbol: FET
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: FET/BTC
+  exchange_id: 528
+  exchange_name: BiKi
+  pair: FET/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/fet
+    exchange_symbol: USDT
+  url: https://www.biki.cc/en_US/trade/FET_USDT
 - base:
     currency_id: 3773
     currency_symbol: FET
@@ -290,15 +304,15 @@ markets:
     currency_symbol: FET
     currency_type: cryptocurrency
     exchange_symbol: FET
-  exchange_id: 528
-  exchange_name: BiKi
+  exchange_id: 539
+  exchange_name: BitAsset
   pair: FET/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.biki.cc/en_US/trade/FET_USDT
+  url: https://www.bitasset.com/ktrade/FET-USDT
 - base:
     currency_id: 3773
     currency_symbol: FET
@@ -313,20 +327,6 @@ markets:
     currency_type: fiat
     exchange_symbol: TWD
   url: https://www.bitasset.com/ktrade/FET-TWD
-- base:
-    currency_id: 3773
-    currency_symbol: FET
-    currency_type: cryptocurrency
-    exchange_symbol: FET
-  exchange_id: 539
-  exchange_name: BitAsset
-  pair: FET/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitasset.com/ktrade/FET-USDT
 - base:
     currency_id: 3773
     currency_symbol: FET
@@ -374,6 +374,20 @@ markets:
     currency_symbol: FET
     currency_type: cryptocurrency
     exchange_symbol: FET
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: FET/INR
+  quote:
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/fet
+- base:
+    currency_id: 3773
+    currency_symbol: FET
+    currency_type: cryptocurrency
+    exchange_symbol: FET
   exchange_id: 425
   exchange_name: WazirX
   pair: FET/BTC
@@ -397,20 +411,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/FET-to-BTC
-- base:
-    currency_id: 3773
-    currency_symbol: FET
-    currency_type: cryptocurrency
-    exchange_symbol: FET
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: FET/INR
-  quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/fet
 - base:
     currency_id: 3773
     currency_symbol: FET
@@ -468,7 +468,7 @@ markets:
     exchange_symbol: USDT
   url: https://coindcx.com/trade/FETUSDT
 name: Fetch.ai
-rank: 173
+rank: 174
 slug: fetch
 status: active
 symbol: FET

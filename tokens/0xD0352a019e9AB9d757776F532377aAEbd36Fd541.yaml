@@ -70,6 +70,20 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: FSN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=FSN_USDT
+- base:
+    currency_id: 2530
+    currency_symbol: FSN
+    currency_type: cryptocurrency
+    exchange_symbol: FSN
   exchange_id: 294
   exchange_name: OKEx
   pair: FSN/USDT
@@ -86,13 +100,13 @@ markets:
     exchange_symbol: FSN
   exchange_id: 400
   exchange_name: Hotbit
-  pair: FSN/USDT
+  pair: FSN/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=FSN_USDT
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=FSN_BTC
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -107,20 +121,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=FSN_ETH
-- base:
-    currency_id: 2530
-    currency_symbol: FSN
-    currency_type: cryptocurrency
-    exchange_symbol: FSN
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: FSN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=FSN_BTC
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -154,15 +154,15 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: FSN/USDT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: FSN/USDK
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 4064
+    currency_symbol: USDK
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bibox.com/exchange?coinPair=FSN_USDT
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=fsn_usdk
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -182,15 +182,15 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: FSN/USD
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: FSN/USDT
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/FSN:USD?refcode=H70YTMupQ
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bibox.com/exchange?coinPair=FSN_USDT
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -205,20 +205,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bitmax.io/#/trade/usdt/fsn
-- base:
-    currency_id: 2530
-    currency_symbol: FSN
-    currency_type: cryptocurrency
-    exchange_symbol: FSN
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: FSN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/fsn_usdt/
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -247,6 +233,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-FSN
+- base:
+    currency_id: 2530
+    currency_symbol: FSN
+    currency_type: cryptocurrency
+    exchange_symbol: FSN
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: FSN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.huobi.co.kr/en-US/exchange/fsn_usdt/
+- base:
+    currency_id: 2530
+    currency_symbol: FSN
+    currency_type: cryptocurrency
+    exchange_symbol: FSN
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: FSN/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/FSN:USD?refcode=H70YTMupQ
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -387,20 +401,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=FSN&market=USDT
-- base:
-    currency_id: 2530
-    currency_symbol: FSN
-    currency_type: cryptocurrency
-    exchange_symbol: FSN
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: FSN/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=fsn_usdk
 - base:
     currency_id: 2530
     currency_symbol: FSN

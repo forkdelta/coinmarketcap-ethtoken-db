@@ -27,48 +27,6 @@ markets:
     currency_symbol: HEDG
     currency_type: cryptocurrency
     exchange_symbol: HEDG
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: HEDG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=hedg
-- base:
-    currency_id: 3662
-    currency_symbol: HEDG
-    currency_type: cryptocurrency
-    exchange_symbol: HEDG
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: HEDG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-HEDG
-- base:
-    currency_id: 3662
-    currency_symbol: HEDG
-    currency_type: cryptocurrency
-    exchange_symbol: HEDG
-  exchange_id: 391
-  exchange_name: CoinTiger
-  pair: HEDG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=hedg_eth
-- base:
-    currency_id: 3662
-    currency_symbol: HEDG
-    currency_type: cryptocurrency
-    exchange_symbol: HEDG
   exchange_id: 42
   exchange_name: HitBTC
   pair: HEDG/BTC
@@ -106,6 +64,48 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.cointiger.com/en-us/#/trade_pro?coin=hedg_btc
+- base:
+    currency_id: 3662
+    currency_symbol: HEDG
+    currency_type: cryptocurrency
+    exchange_symbol: HEDG
+  exchange_id: 391
+  exchange_name: CoinTiger
+  pair: HEDG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=hedg_eth
+- base:
+    currency_id: 3662
+    currency_symbol: HEDG
+    currency_type: cryptocurrency
+    exchange_symbol: HEDG
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: HEDG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=hedg
+- base:
+    currency_id: 3662
+    currency_symbol: HEDG
+    currency_type: cryptocurrency
+    exchange_symbol: HEDG
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: HEDG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-HEDG
 - base:
     currency_id: 3662
     currency_symbol: HEDG
@@ -153,29 +153,15 @@ markets:
     currency_symbol: HEDG
     currency_type: cryptocurrency
     exchange_symbol: HEDG
-  exchange_id: 857
-  exchange_name: Bitcoin.com
-  pair: HEDG/BCH
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: HEDG/ETH
   quote:
-    currency_id: 1831
-    currency_symbol: BCH
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BCH
-  url: null
-- base:
-    currency_id: 3662
-    currency_symbol: HEDG
-    currency_type: cryptocurrency
-    exchange_symbol: HEDG
-  exchange_id: 857
-  exchange_name: Bitcoin.com
-  pair: HEDG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: null
+    exchange_symbol: ETH
+  url: https://www.livecoin.net/en/trading/HEDG_ETH
 - base:
     currency_id: 3662
     currency_symbol: HEDG
@@ -195,15 +181,29 @@ markets:
     currency_symbol: HEDG
     currency_type: cryptocurrency
     exchange_symbol: HEDG
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: HEDG/ETH
+  exchange_id: 857
+  exchange_name: Bitcoin.com
+  pair: HEDG/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.livecoin.net/en/trading/HEDG_ETH
+    exchange_symbol: USDT
+  url: null
+- base:
+    currency_id: 3662
+    currency_symbol: HEDG
+    currency_type: cryptocurrency
+    exchange_symbol: HEDG
+  exchange_id: 857
+  exchange_name: Bitcoin.com
+  pair: HEDG/BCH
+  quote:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  url: null
 - base:
     currency_id: 3662
     currency_symbol: HEDG
@@ -233,7 +233,7 @@ markets:
     exchange_symbol: ETH
   url: https://uniswap.exchange/
 name: HedgeTrade
-rank: 27
+rank: 26
 slug: hedgetrade
 status: active
 symbol: HEDG

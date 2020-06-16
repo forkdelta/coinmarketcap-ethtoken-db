@@ -25,20 +25,6 @@ markets:
     currency_symbol: SPD
     currency_type: cryptocurrency
     exchange_symbol: SPD
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: SPD/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/SPD
-- base:
-    currency_id: 2828
-    currency_symbol: SPD
-    currency_type: cryptocurrency
-    exchange_symbol: SPD
   exchange_id: 42
   exchange_name: HitBTC
   pair: SPD/BTC
@@ -48,6 +34,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/SPD-to-BTC
+- base:
+    currency_id: 2828
+    currency_symbol: SPD
+    currency_type: cryptocurrency
+    exchange_symbol: SPD
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: SPD/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/SPD
 - base:
     currency_id: 2828
     currency_symbol: SPD
@@ -69,13 +69,13 @@ markets:
     exchange_symbol: SPD
   exchange_id: 228
   exchange_name: BTC-Alpha
-  pair: SPD/BTC
+  pair: SPD/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://btc-alpha.com/exchange/SPD_BTC/
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://btc-alpha.com/exchange/SPD_USD/
 - base:
     currency_id: 2828
     currency_symbol: SPD
@@ -111,15 +111,15 @@ markets:
     exchange_symbol: SPD
   exchange_id: 228
   exchange_name: BTC-Alpha
-  pair: SPD/USD
+  pair: SPD/BTC
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://btc-alpha.com/exchange/SPD_USD/
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://btc-alpha.com/exchange/SPD_BTC/
 name: SPINDLE
-rank: 1200
+rank: 1273
 slug: spindle
 status: active
 symbol: SPD
