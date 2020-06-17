@@ -46,34 +46,6 @@ markets:
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/USDS_USDT?ref=H31B921U
 - base:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: BNB/USDS
-  quote:
-    currency_id: 3719
-    currency_symbol: USDS
-    currency_type: cryptocurrency
-    exchange_symbol: USDSB-1AC
-  url: https://www.binance.org/en/trade/BNB_USDSB-1AC
-- base:
-    currency_id: 4023
-    currency_symbol: BTCB
-    currency_type: cryptocurrency
-    exchange_symbol: BTCB-1DE
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: BTCB/USDS
-  quote:
-    currency_id: 3719
-    currency_symbol: USDS
-    currency_type: cryptocurrency
-    exchange_symbol: USDSB-1AC
-  url: https://www.binance.org/en/trade/BTCB-1DE_USDSB-1AC
-- base:
     currency_id: 3719
     currency_symbol: USDS
     currency_type: cryptocurrency
@@ -101,6 +73,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-USDS
+- base:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: BNB/USDS
+  quote:
+    currency_id: 3719
+    currency_symbol: USDS
+    currency_type: cryptocurrency
+    exchange_symbol: USDSB-1AC
+  url: https://www.binance.org/en/trade/BNB_USDSB-1AC
+- base:
+    currency_id: 4023
+    currency_symbol: BTCB
+    currency_type: cryptocurrency
+    exchange_symbol: BTCB-1DE
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: BTCB/USDS
+  quote:
+    currency_id: 3719
+    currency_symbol: USDS
+    currency_type: cryptocurrency
+    exchange_symbol: USDSB-1AC
+  url: https://www.binance.org/en/trade/BTCB-1DE_USDSB-1AC
 - base:
     currency_id: 4036
     currency_symbol: COS
@@ -144,7 +144,7 @@ markets:
     exchange_symbol: USDS
   url: https://crex24.com/exchange/BTC-USDS
 name: StableUSD
-rank: 1074
+rank: 1062
 slug: stableusd
 status: active
 symbol: USDS

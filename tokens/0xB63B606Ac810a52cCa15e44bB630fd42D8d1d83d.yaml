@@ -50,20 +50,6 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: MCO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=mco_usdt
-- base:
-    currency_id: 1776
-    currency_symbol: MCO
-    currency_type: cryptocurrency
-    exchange_symbol: MCO
   exchange_id: 407
   exchange_name: DigiFinex
   pair: MCO/BTC
@@ -73,6 +59,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.digifinex.com/en-ww/trade/BTC/MCO
+- base:
+    currency_id: 1776
+    currency_symbol: MCO
+    currency_type: cryptocurrency
+    exchange_symbol: MCO
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: MCO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=mco_usdt
 - base:
     currency_id: 1776
     currency_symbol: MCO
@@ -162,6 +162,20 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: MCO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/mco_btc?invite_code=5kij5
+- base:
+    currency_id: 1776
+    currency_symbol: MCO
+    currency_type: cryptocurrency
+    exchange_symbol: MCO
   exchange_id: 467
   exchange_name: BitRabbit
   pair: MCO/BTC
@@ -176,15 +190,15 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
-  exchange_id: 102
-  exchange_name: Huobi Global
+  exchange_id: 673
+  exchange_name: UPEX
   pair: MCO/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/mco_btc?invite_code=5kij5
+  url: https://upex.io/trade/MCO_BTC
 - base:
     currency_id: 1776
     currency_symbol: MCO
@@ -218,34 +232,6 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
-  exchange_id: 673
-  exchange_name: UPEX
-  pair: MCO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upex.io/trade/MCO_BTC
-- base:
-    currency_id: 1776
-    currency_symbol: MCO
-    currency_type: cryptocurrency
-    exchange_symbol: MCO
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: MCO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bkex.com/trade/MCO_USDT
-- base:
-    currency_id: 1776
-    currency_symbol: MCO
-    currency_type: cryptocurrency
-    exchange_symbol: MCO
   exchange_id: 154
   exchange_name: Dex-Trade
   pair: MCO/BTC
@@ -255,20 +241,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://dex-trade.com/en?currencyIn=MCO&currencyTo=BTC
-- base:
-    currency_id: 1776
-    currency_symbol: MCO
-    currency_type: cryptocurrency
-    exchange_symbol: MCO
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: MCO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://folgory.com/trade-crypto/MCO_ETH
 - base:
     currency_id: 1776
     currency_symbol: MCO
@@ -288,6 +260,20 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: MCO/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/MCOKRW
+- base:
+    currency_id: 1776
+    currency_symbol: MCO
+    currency_type: cryptocurrency
+    exchange_symbol: MCO
   exchange_id: 155
   exchange_name: Exrates
   pair: MCO/ETH
@@ -302,15 +288,29 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: MCO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bkex.com/trade/MCO_USDT
+- base:
+    currency_id: 1776
+    currency_symbol: MCO
+    currency_type: cryptocurrency
+    exchange_symbol: MCO
   exchange_id: 495
   exchange_name: Folgory
-  pair: MCO/BTC
+  pair: MCO/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://folgory.com/trade-crypto/MCO_BTC
+    exchange_symbol: ETH
+  url: https://folgory.com/trade-crypto/MCO_ETH
 - base:
     currency_id: 1776
     currency_symbol: MCO
@@ -330,6 +330,20 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: MCO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://folgory.com/trade-crypto/MCO_BTC
+- base:
+    currency_id: 1776
+    currency_symbol: MCO
+    currency_type: cryptocurrency
+    exchange_symbol: MCO
   exchange_id: 481
   exchange_name: Alterdice
   pair: MCO/BTC
@@ -344,20 +358,6 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
-  exchange_id: 489
-  exchange_name: Bithumb Global
-  pair: MCO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=MCO_BTC
-- base:
-    currency_id: 1776
-    currency_symbol: MCO
-    currency_type: cryptocurrency
-    exchange_symbol: MCO
   exchange_id: 363
   exchange_name: Fatbtc
   pair: MCO/USDT
@@ -367,20 +367,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
-- base:
-    currency_id: 1776
-    currency_symbol: MCO
-    currency_type: cryptocurrency
-    exchange_symbol: MCO
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: MCO/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/MCOKRW
 - base:
     currency_id: 1776
     currency_symbol: MCO
@@ -409,6 +395,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-MCO
+- base:
+    currency_id: 1776
+    currency_symbol: MCO
+    currency_type: cryptocurrency
+    exchange_symbol: MCO
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: MCO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=MCO_BTC
 - base:
     currency_id: 1776
     currency_symbol: MCO
@@ -456,20 +456,6 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: MCO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vcc.exchange/exchange/basic?currency=eth&coin=mco
-- base:
-    currency_id: 1776
-    currency_symbol: MCO
-    currency_type: cryptocurrency
-    exchange_symbol: MCO
   exchange_id: 102
   exchange_name: Huobi Global
   pair: MCO/ETH
@@ -512,15 +498,15 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: MCO/ETH
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: MCO/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-MCO
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/MCOBTC
 - base:
     currency_id: 1776
     currency_symbol: MCO
@@ -540,15 +526,29 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: MCO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vcc.exchange/exchange/basic?currency=eth&coin=mco
+- base:
+    currency_id: 1776
+    currency_symbol: MCO
+    currency_type: cryptocurrency
+    exchange_symbol: MCO
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: MCO/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/MCOBTC
+  url: https://hitbtc.com/MCO-to-BTC
 - base:
     currency_id: 1776
     currency_symbol: MCO
@@ -582,20 +582,6 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: MCO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/MCO-to-BTC
-- base:
-    currency_id: 1776
-    currency_symbol: MCO
-    currency_type: cryptocurrency
-    exchange_symbol: MCO
   exchange_id: 326
   exchange_name: ZB.COM
   pair: MCO/QC
@@ -605,6 +591,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: QC
   url: https://trans.zb.com/mcoqc?recommendCode=d0ip3b
+- base:
+    currency_id: 1776
+    currency_symbol: MCO
+    currency_type: cryptocurrency
+    exchange_symbol: MCO
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: MCO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/mco_usdt
 - base:
     currency_id: 1776
     currency_symbol: MCO
@@ -624,6 +624,20 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: MCO/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/mco-krw
+- base:
+    currency_id: 1776
+    currency_symbol: MCO
+    currency_type: cryptocurrency
+    exchange_symbol: MCO
   exchange_id: 949
   exchange_name: CoinDCX
   pair: MCO/INR
@@ -633,20 +647,6 @@ markets:
     currency_type: fiat
     exchange_symbol: INR
   url: https://coindcx.com/trade/MCOINR
-- base:
-    currency_id: 1776
-    currency_symbol: MCO
-    currency_type: cryptocurrency
-    exchange_symbol: MCO
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: MCO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/mco_usdt
 - base:
     currency_id: 1776
     currency_symbol: MCO
@@ -680,6 +680,34 @@ markets:
     currency_symbol: MCO
     currency_type: cryptocurrency
     exchange_symbol: MCO
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: MCO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-MCO
+- base:
+    currency_id: 1776
+    currency_symbol: MCO
+    currency_type: cryptocurrency
+    exchange_symbol: MCO
+  exchange_id: 490
+  exchange_name: OKEx Korea
+  pair: MCO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://okex.co.kr/kr/view/exchange?coin=MCO&market=BTC
+- base:
+    currency_id: 1776
+    currency_symbol: MCO
+    currency_type: cryptocurrency
+    exchange_symbol: MCO
   exchange_id: 100
   exchange_name: YoBit
   pair: MCO/BTC
@@ -689,20 +717,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/MCO/BTC
-- base:
-    currency_id: 1776
-    currency_symbol: MCO
-    currency_type: cryptocurrency
-    exchange_symbol: MCO
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: MCO/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/mco-krw
 - base:
     currency_id: 1776
     currency_symbol: MCO
@@ -836,20 +850,6 @@ markets:
     exchange_symbol: MCO
   exchange_id: 490
   exchange_name: OKEx Korea
-  pair: MCO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://okex.co.kr/kr/view/exchange?coin=MCO&market=BTC
-- base:
-    currency_id: 1776
-    currency_symbol: MCO
-    currency_type: cryptocurrency
-    exchange_symbol: MCO
-  exchange_id: 490
-  exchange_name: OKEx Korea
   pair: MCO/USDT
   quote:
     currency_id: 825
@@ -886,7 +886,7 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/crypto-com
 name: MCO
-rank: 76
+rank: 79
 slug: crypto-com
 status: active
 symbol: MCO

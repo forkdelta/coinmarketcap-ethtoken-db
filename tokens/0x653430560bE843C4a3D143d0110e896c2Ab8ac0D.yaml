@@ -76,20 +76,6 @@ markets:
     currency_symbol: MOF
     currency_type: cryptocurrency
     exchange_symbol: MOF
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: MOF/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.okex.com/market?product=mof_eth
-- base:
-    currency_id: 2441
-    currency_symbol: MOF
-    currency_type: cryptocurrency
-    exchange_symbol: MOF
   exchange_id: 22
   exchange_name: Bittrex
   pair: MOF/BTC
@@ -99,6 +85,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-MOF
+- base:
+    currency_id: 2441
+    currency_symbol: MOF
+    currency_type: cryptocurrency
+    exchange_symbol: MOF
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: MOF/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.okex.com/market?product=mof_eth
 - base:
     currency_id: 2441
     currency_symbol: MOF
@@ -120,13 +120,13 @@ markets:
     exchange_symbol: MOF
   exchange_id: 490
   exchange_name: OKEx Korea
-  pair: MOF/USDT
+  pair: MOF/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://okex.co.kr/kr/view/exchange?coin=MOF&market=USDT
+    exchange_symbol: BTC
+  url: https://okex.co.kr/kr/view/exchange?coin=MOF&market=BTC
 - base:
     currency_id: 2441
     currency_symbol: MOF
@@ -148,13 +148,13 @@ markets:
     exchange_symbol: MOF
   exchange_id: 490
   exchange_name: OKEx Korea
-  pair: MOF/BTC
+  pair: MOF/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://okex.co.kr/kr/view/exchange?coin=MOF&market=BTC
+    exchange_symbol: USDT
+  url: https://okex.co.kr/kr/view/exchange?coin=MOF&market=USDT
 - base:
     currency_id: 2441
     currency_symbol: MOF
@@ -240,7 +240,7 @@ markets:
     exchange_symbol: USDT
   url: https://hoo.com/trade/mof-usdt
 name: Molecular Future
-rank: 490
+rank: 493
 slug: molecular-future
 status: active
 symbol: MOF

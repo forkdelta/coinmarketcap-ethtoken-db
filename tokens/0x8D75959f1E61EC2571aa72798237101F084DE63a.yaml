@@ -32,6 +32,20 @@ markets:
     currency_symbol: SUB
     currency_type: cryptocurrency
     exchange_symbol: SUB
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: SUB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/SUB-USDT
+- base:
+    currency_id: 1984
+    currency_symbol: SUB
+    currency_type: cryptocurrency
+    exchange_symbol: SUB
   exchange_id: 42
   exchange_name: HitBTC
   pair: SUB/BTC
@@ -48,13 +62,13 @@ markets:
     exchange_symbol: SUB
   exchange_id: 425
   exchange_name: WazirX
-  pair: SUB/USDT
+  pair: SUB/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/SUB-USDT
+    exchange_symbol: BTC
+  url: https://wazirx.com/exchange/SUB-BTC
 - base:
     currency_id: 1984
     currency_symbol: SUB
@@ -74,15 +88,15 @@ markets:
     currency_symbol: SUB
     currency_type: cryptocurrency
     exchange_symbol: SUB
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: SUB/BTC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SUB/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://wazirx.com/exchange/SUB-BTC
+    exchange_symbol: USDT
+  url: https://hitbtc.com/SUB-to-USDT
 - base:
     currency_id: 1984
     currency_symbol: SUB
@@ -130,20 +144,6 @@ markets:
     currency_symbol: SUB
     currency_type: cryptocurrency
     exchange_symbol: SUB
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SUB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/SUB-to-USDT
-- base:
-    currency_id: 1984
-    currency_symbol: SUB
-    currency_type: cryptocurrency
-    exchange_symbol: SUB
   exchange_id: 242
   exchange_name: COSS
   pair: SUB/USD
@@ -168,7 +168,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.coss.io/c/trade?s=SUB_USDT
 name: Substratum
-rank: 915
+rank: 912
 slug: substratum
 status: active
 symbol: SUB

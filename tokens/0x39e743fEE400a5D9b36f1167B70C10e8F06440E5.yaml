@@ -29,20 +29,6 @@ markets:
     currency_symbol: TNC
     currency_type: cryptocurrency
     exchange_symbol: TNC
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: TNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://whitebit.com/trade/TNC_BTC
-- base:
-    currency_id: 5524
-    currency_symbol: TNC
-    currency_type: cryptocurrency
-    exchange_symbol: TNC
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: TNC/BTC
@@ -52,20 +38,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=tnc
-- base:
-    currency_id: 5524
-    currency_symbol: TNC
-    currency_type: cryptocurrency
-    exchange_symbol: TNC
-  exchange_id: 535
-  exchange_name: ExMarkets
-  pair: TNC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://exmarkets.com/trade/tnc-usdt
 - base:
     currency_id: 5524
     currency_symbol: TNC
@@ -87,27 +59,27 @@ markets:
     exchange_symbol: TNC
   exchange_id: 535
   exchange_name: ExMarkets
-  pair: TNC/BTC
+  pair: TNC/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exmarkets.com/trade/tnc-btc
+    exchange_symbol: USDT
+  url: https://exmarkets.com/trade/tnc-usdt
 - base:
     currency_id: 5524
     currency_symbol: TNC
     currency_type: cryptocurrency
     exchange_symbol: TNC
-  exchange_id: 245
-  exchange_name: STEX
-  pair: TNC/ETH
+  exchange_id: 402
+  exchange_name: Coinsuper
+  pair: TNC/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://app.stex.com/en/basic-trade/pair/ETH/TNC/1D
+    exchange_symbol: USDT
+  url: https://www.coinsuper.com/#/actionDeal
 - base:
     currency_id: 5524
     currency_symbol: TNC
@@ -122,20 +94,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://whitebit.com/trade/TNC_USDT
-- base:
-    currency_id: 5524
-    currency_symbol: TNC
-    currency_type: cryptocurrency
-    exchange_symbol: TNC
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: TNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://crex24.com/exchange/TNC-BTC
 - base:
     currency_id: 5524
     currency_symbol: TNC
@@ -157,6 +115,20 @@ markets:
     exchange_symbol: TNC
   exchange_id: 382
   exchange_name: Crex24
+  pair: TNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://crex24.com/exchange/TNC-BTC
+- base:
+    currency_id: 5524
+    currency_symbol: TNC
+    currency_type: cryptocurrency
+    exchange_symbol: TNC
+  exchange_id: 382
+  exchange_name: Crex24
   pair: TNC/ETH
   quote:
     currency_id: 1027
@@ -169,15 +141,57 @@ markets:
     currency_symbol: TNC
     currency_type: cryptocurrency
     exchange_symbol: TNC
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 245
+  exchange_name: STEX
   pair: TNC/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=TNC_ETH
+  url: https://app.stex.com/en/basic-trade/pair/ETH/TNC/1D
+- base:
+    currency_id: 5524
+    currency_symbol: TNC
+    currency_type: cryptocurrency
+    exchange_symbol: TNC
+  exchange_id: 402
+  exchange_name: Coinsuper
+  pair: TNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinsuper.com/#/actionDeal
+- base:
+    currency_id: 5524
+    currency_symbol: TNC
+    currency_type: cryptocurrency
+    exchange_symbol: TNC
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: TNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://whitebit.com/trade/TNC_BTC
+- base:
+    currency_id: 5524
+    currency_symbol: TNC
+    currency_type: cryptocurrency
+    exchange_symbol: TNC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: TNC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/TNC-to-USDT
 - base:
     currency_id: 5524
     currency_symbol: TNC
@@ -197,113 +211,15 @@ markets:
     currency_symbol: TNC
     currency_type: cryptocurrency
     exchange_symbol: TNC
-  exchange_id: 402
-  exchange_name: Coinsuper
-  pair: TNC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinsuper.com/#/actionDeal
-- base:
-    currency_id: 5524
-    currency_symbol: TNC
-    currency_type: cryptocurrency
-    exchange_symbol: TNC
-  exchange_id: 402
-  exchange_name: Coinsuper
+  exchange_id: 535
+  exchange_name: ExMarkets
   pair: TNC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.coinsuper.com/#/actionDeal
-- base:
-    currency_id: 5524
-    currency_symbol: TNC
-    currency_type: cryptocurrency
-    exchange_symbol: TNC
-  exchange_id: 744
-  exchange_name: Lukki Exchange
-  pair: TNC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://app.lukki.io/?pair=TNC_USDT
-- base:
-    currency_id: 5524
-    currency_symbol: TNC
-    currency_type: cryptocurrency
-    exchange_symbol: TNC
-  exchange_id: 744
-  exchange_name: Lukki Exchange
-  pair: TNC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://app.lukki.io/?pair=TNC_ETH
-- base:
-    currency_id: 5524
-    currency_symbol: TNC
-    currency_type: cryptocurrency
-    exchange_symbol: TNC
-  exchange_id: 744
-  exchange_name: Lukki Exchange
-  pair: TNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.lukki.io/?pair=TNC_BTC
-- base:
-    currency_id: 5524
-    currency_symbol: TNC
-    currency_type: cryptocurrency
-    exchange_symbol: TNC
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: TNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=TNC_BTC
-- base:
-    currency_id: 5524
-    currency_symbol: TNC
-    currency_type: cryptocurrency
-    exchange_symbol: TNC
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: TNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coinsbit.io/trade/TNC_BTC
-- base:
-    currency_id: 5524
-    currency_symbol: TNC
-    currency_type: cryptocurrency
-    exchange_symbol: TNC
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: TNC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://coinsbit.io/trade/TNC_ETH
+  url: https://exmarkets.com/trade/tnc-btc
 - base:
     currency_id: 5524
     currency_symbol: TNC
@@ -325,6 +241,104 @@ markets:
     exchange_symbol: TNC
   exchange_id: 460
   exchange_name: Coinsbit
+  pair: TNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coinsbit.io/trade/TNC_BTC
+- base:
+    currency_id: 5524
+    currency_symbol: TNC
+    currency_type: cryptocurrency
+    exchange_symbol: TNC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: TNC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=TNC_ETH
+- base:
+    currency_id: 5524
+    currency_symbol: TNC
+    currency_type: cryptocurrency
+    exchange_symbol: TNC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: TNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=TNC_BTC
+- base:
+    currency_id: 5524
+    currency_symbol: TNC
+    currency_type: cryptocurrency
+    exchange_symbol: TNC
+  exchange_id: 744
+  exchange_name: Lukki Exchange
+  pair: TNC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://app.lukki.io/?pair=TNC_ETH
+- base:
+    currency_id: 5524
+    currency_symbol: TNC
+    currency_type: cryptocurrency
+    exchange_symbol: TNC
+  exchange_id: 744
+  exchange_name: Lukki Exchange
+  pair: TNC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://app.lukki.io/?pair=TNC_USDT
+- base:
+    currency_id: 5524
+    currency_symbol: TNC
+    currency_type: cryptocurrency
+    exchange_symbol: TNC
+  exchange_id: 744
+  exchange_name: Lukki Exchange
+  pair: TNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.lukki.io/?pair=TNC_BTC
+- base:
+    currency_id: 5524
+    currency_symbol: TNC
+    currency_type: cryptocurrency
+    exchange_symbol: TNC
+  exchange_id: 460
+  exchange_name: Coinsbit
+  pair: TNC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://coinsbit.io/trade/TNC_ETH
+- base:
+    currency_id: 5524
+    currency_symbol: TNC
+    currency_type: cryptocurrency
+    exchange_symbol: TNC
+  exchange_id: 460
+  exchange_name: Coinsbit
   pair: TNC/USDT
   quote:
     currency_id: 825
@@ -332,20 +346,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://coinsbit.io/trade/TNC_USDT
-- base:
-    currency_id: 5524
-    currency_symbol: TNC
-    currency_type: cryptocurrency
-    exchange_symbol: TNC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: TNC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/TNC-to-USDT
 - base:
     currency_id: 5524
     currency_symbol: TNC
@@ -375,7 +375,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.coinlim.com/#/dashboard
 name: TNC Coin
-rank: 210
+rank: 208
 slug: tnc-coin
 status: active
 symbol: TNC

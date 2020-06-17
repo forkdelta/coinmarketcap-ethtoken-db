@@ -44,20 +44,6 @@ markets:
     exchange_symbol: MVL
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: MVL/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.huobi.co.kr/en-US/exchange/mvl_krw/
-- base:
-    currency_id: 2982
-    currency_symbol: MVL
-    currency_type: cryptocurrency
-    exchange_symbol: MVL
-  exchange_id: 463
-  exchange_name: Huobi Korea
   pair: MVL/ETH
   quote:
     currency_id: 1027
@@ -65,6 +51,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/mvl_eth/
+- base:
+    currency_id: 2982
+    currency_symbol: MVL
+    currency_type: cryptocurrency
+    exchange_symbol: MVL
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: MVL/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.huobi.co.kr/en-US/exchange/mvl_krw/
 - base:
     currency_id: 2982
     currency_symbol: MVL
@@ -79,20 +79,6 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://bitsonic.co.kr/front/exchange/mvl-krw
-- base:
-    currency_id: 2982
-    currency_symbol: MVL
-    currency_type: cryptocurrency
-    exchange_symbol: MVL-7B0
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: MVL/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/MVL-7B0_BNB
 - base:
     currency_id: 2982
     currency_symbol: MVL
@@ -149,8 +135,22 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.cashierest.com/Stock/CoinStock
+- base:
+    currency_id: 2982
+    currency_symbol: MVL
+    currency_type: cryptocurrency
+    exchange_symbol: MVL-7B0
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: MVL/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/MVL-7B0_BNB
 name: MVL
-rank: 648
+rank: 623
 slug: mvl
 status: active
 symbol: MVL

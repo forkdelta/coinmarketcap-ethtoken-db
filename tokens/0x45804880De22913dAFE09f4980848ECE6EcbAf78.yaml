@@ -40,20 +40,6 @@ markets:
     currency_symbol: PAXG
     currency_type: cryptocurrency
     exchange_symbol: PAXG
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: PAXG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kraken.com/markets/kraken/paxg/btc
-- base:
-    currency_id: 4705
-    currency_symbol: PAXG
-    currency_type: cryptocurrency
-    exchange_symbol: PAXG
   exchange_id: 537
   exchange_name: Virtuse Exchange
   pair: PAXG/PAX
@@ -110,29 +96,15 @@ markets:
     currency_symbol: PAXG
     currency_type: cryptocurrency
     exchange_symbol: PAXG
-  exchange_id: 524
-  exchange_name: FTX
-  pair: PAXG/USD
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: PAXG/BTC
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://ftx.com/trade/PAXG/USD
-- base:
-    currency_id: 4705
-    currency_symbol: PAXG
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: PAXG
-  exchange_id: 524
-  exchange_name: FTX
-  pair: PAXG/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://ftx.com/trade/PAXG/USDT
+    exchange_symbol: BTC
+  url: https://trade.kraken.com/markets/kraken/paxg/btc
 - base:
     currency_id: 4705
     currency_symbol: PAXG
@@ -152,15 +124,29 @@ markets:
     currency_symbol: PAXG
     currency_type: cryptocurrency
     exchange_symbol: PAXG
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: PAXG/IDR
+  exchange_id: 524
+  exchange_name: FTX
+  pair: PAXG/USDT
   quote:
-    currency_id: 2794
-    currency_symbol: IDR
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://ftx.com/trade/PAXG/USDT
+- base:
+    currency_id: 4705
+    currency_symbol: PAXG
+    currency_type: cryptocurrency
+    exchange_symbol: PAXG
+  exchange_id: 524
+  exchange_name: FTX
+  pair: PAXG/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
     currency_type: fiat
-    exchange_symbol: IDR
-  url: https://indodax.com/market/PAXGIDR
+    exchange_symbol: USD
+  url: https://ftx.com/trade/PAXG/USD
 - base:
     currency_id: 4705
     currency_symbol: PAXG
@@ -175,6 +161,20 @@ markets:
     currency_type: fiat
     exchange_symbol: BRL
   url: https://braziliex.com
+- base:
+    currency_id: 4705
+    currency_symbol: PAXG
+    currency_type: cryptocurrency
+    exchange_symbol: PAXG
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: PAXG/IDR
+  quote:
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/PAXGIDR
 - base:
     currency_id: 4705
     currency_symbol: PAXG
@@ -246,7 +246,7 @@ markets:
     exchange_symbol: ETH
   url: https://uniswap.exchange/
 name: PAX Gold
-rank: 109
+rank: 108
 slug: pax-gold
 status: active
 symbol: PAXG

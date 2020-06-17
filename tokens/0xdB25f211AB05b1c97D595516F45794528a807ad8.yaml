@@ -111,20 +111,6 @@ markets:
     exchange_symbol: EURS
   url: https://dsx.uk
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: BTC/EURS
-  quote:
-    currency_id: 2989
-    currency_symbol: EURS
-    currency_type: cryptocurrency
-    exchange_symbol: EURS
-  url: https://hitbtc.com/BTC-to-EURS
-- base:
     currency_id: 2298
     currency_symbol: DTR
     currency_type: cryptocurrency
@@ -139,33 +125,47 @@ markets:
     exchange_symbol: EURS
   url: https://www.tokens.net/trading-pair/dtreurs/
 - base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: ETH/EURS
-  quote:
-    currency_id: 2989
-    currency_symbol: EURS
-    currency_type: cryptocurrency
-    exchange_symbol: EURS
-  url: https://hitbtc.com/ETH-to-EURS
-- base:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 61
-  exchange_name: OKCoin
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: BTC/EURS
   quote:
     currency_id: 2989
     currency_symbol: EURS
     currency_type: cryptocurrency
     exchange_symbol: EURS
-  url: https://www.okcoin.com/spot/trade#product=btc_eurs
+  url: https://hitbtc.com/BTC-to-EURS
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 293
+  exchange_name: DSX
+  pair: ETH/EURS
+  quote:
+    currency_id: 2989
+    currency_symbol: EURS
+    currency_type: cryptocurrency
+    exchange_symbol: EURS
+  url: https://dsx.uk
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 293
+  exchange_name: DSX
+  pair: BTC/EURS
+  quote:
+    currency_id: 2989
+    currency_symbol: EURS
+    currency_type: cryptocurrency
+    exchange_symbol: EURS
+  url: https://dsx.uk
 - base:
     currency_id: 2989
     currency_symbol: EURS
@@ -181,33 +181,19 @@ markets:
     exchange_symbol: IDR
   url: https://indodax.com/market/EURSIDR
 - base:
-    currency_id: 2989
-    currency_symbol: EURS
-    currency_type: cryptocurrency
-    exchange_symbol: EURS
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: EURS/DAI
-  quote:
-    currency_id: 4943
-    currency_symbol: DAI
-    currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://hitbtc.com/EURS-to-DAI
-- base:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  exchange_id: 293
-  exchange_name: DSX
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: ETH/EURS
   quote:
     currency_id: 2989
     currency_symbol: EURS
     currency_type: cryptocurrency
     exchange_symbol: EURS
-  url: https://dsx.uk
+  url: https://hitbtc.com/ETH-to-EURS
 - base:
     currency_id: 52
     currency_symbol: XRP
@@ -223,20 +209,6 @@ markets:
     exchange_symbol: EURS
   url: https://hitbtc.com/XRP-to-EURS
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 293
-  exchange_name: DSX
-  pair: BTC/EURS
-  quote:
-    currency_id: 2989
-    currency_symbol: EURS
-    currency_type: cryptocurrency
-    exchange_symbol: EURS
-  url: https://dsx.uk
-- base:
     currency_id: 2989
     currency_symbol: EURS
     currency_type: cryptocurrency
@@ -251,34 +223,6 @@ markets:
     exchange_symbol: USDT
   url: https://hitbtc.com/EURS-to-USDT
 - base:
-    currency_id: 1376
-    currency_symbol: NEO
-    currency_type: cryptocurrency
-    exchange_symbol: NEO
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: NEO/EURS
-  quote:
-    currency_id: 2989
-    currency_symbol: EURS
-    currency_type: cryptocurrency
-    exchange_symbol: EURS
-  url: https://hitbtc.com/NEO-to-EURS
-- base:
-    currency_id: 2
-    currency_symbol: LTC
-    currency_type: cryptocurrency
-    exchange_symbol: LTC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: LTC/EURS
-  quote:
-    currency_id: 2989
-    currency_symbol: EURS
-    currency_type: cryptocurrency
-    exchange_symbol: EURS
-  url: https://hitbtc.com/LTC-to-EURS
-- base:
     currency_id: 131
     currency_symbol: DASH
     currency_type: cryptocurrency
@@ -292,6 +236,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: EURS
   url: https://hitbtc.com/DASH-to-EURS
+- base:
+    currency_id: 1376
+    currency_symbol: NEO
+    currency_type: cryptocurrency
+    exchange_symbol: NEO
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: NEO/EURS
+  quote:
+    currency_id: 2989
+    currency_symbol: EURS
+    currency_type: cryptocurrency
+    exchange_symbol: EURS
+  url: https://hitbtc.com/NEO-to-EURS
 - base:
     currency_id: 1765
     currency_symbol: EOS
@@ -320,6 +278,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: EURS
   url: https://hitbtc.com/XMR-to-EURS
+- base:
+    currency_id: 2
+    currency_symbol: LTC
+    currency_type: cryptocurrency
+    exchange_symbol: LTC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: LTC/EURS
+  quote:
+    currency_id: 2989
+    currency_symbol: EURS
+    currency_type: cryptocurrency
+    exchange_symbol: EURS
+  url: https://hitbtc.com/LTC-to-EURS
 - base:
     currency_id: 1437
     currency_symbol: ZEC
@@ -362,6 +334,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.idcm.io/trading/EURS_BTC
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 61
+  exchange_name: OKCoin
+  pair: BTC/EURS
+  quote:
+    currency_id: 2989
+    currency_symbol: EURS
+    currency_type: cryptocurrency
+    exchange_symbol: EURS
+  url: https://www.okcoin.com/spot/trade#product=btc_eurs
 - base:
     currency_id: 2989
     currency_symbol: EURS
@@ -433,6 +419,20 @@ markets:
     exchange_symbol: EURS
   url: https://hitbtc.com/BOX-to-EURS
 - base:
+    currency_id: 2989
+    currency_symbol: EURS
+    currency_type: cryptocurrency
+    exchange_symbol: EURS
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: EURS/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://hitbtc.com/EURS-to-DAI
+- base:
     currency_id: 1765
     currency_symbol: EOS
     currency_type: cryptocurrency
@@ -461,7 +461,7 @@ markets:
     exchange_symbol: EURS
   url: https://dsx.uk
 name: STASIS EURO
-rank: 127
+rank: 129
 slug: stasis-euro
 status: active
 symbol: EURS

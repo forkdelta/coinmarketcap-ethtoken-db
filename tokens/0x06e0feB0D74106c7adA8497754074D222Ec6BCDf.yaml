@@ -41,34 +41,6 @@ markets:
     currency_symbol: BTB
     currency_type: cryptocurrency
     exchange_symbol: BTB
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: BTB/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://international.indoex.io/trade/BTB_ETH
-- base:
-    currency_id: 3687
-    currency_symbol: BTB
-    currency_type: cryptocurrency
-    exchange_symbol: BTB
-  exchange_id: 539
-  exchange_name: BitAsset
-  pair: BTB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitasset.com/ktrade/BTB-BTC
-- base:
-    currency_id: 3687
-    currency_symbol: BTB
-    currency_type: cryptocurrency
-    exchange_symbol: BTB
   exchange_id: 470
   exchange_name: EtherFlyer
   pair: BTB/ETH
@@ -85,13 +57,13 @@ markets:
     exchange_symbol: BTB
   exchange_id: 587
   exchange_name: IndoEx
-  pair: BTB/BTC
+  pair: BTB/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://international.indoex.io/trade/BTB_BTC
+    exchange_symbol: USDT
+  url: https://international.indoex.io/trade/BTB_USDT
 - base:
     currency_id: 3687
     currency_symbol: BTB
@@ -113,13 +85,13 @@ markets:
     exchange_symbol: BTB
   exchange_id: 587
   exchange_name: IndoEx
-  pair: BTB/USDT
+  pair: BTB/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://international.indoex.io/trade/BTB_USDT
+    exchange_symbol: BTC
+  url: https://international.indoex.io/trade/BTB_BTC
 - base:
     currency_id: 3687
     currency_symbol: BTB
@@ -127,13 +99,13 @@ markets:
     exchange_symbol: BTB
   exchange_id: 539
   exchange_name: BitAsset
-  pair: BTB/USDT
+  pair: BTB/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitasset.com/ktrade/BTB-USDT
+    exchange_symbol: BTC
+  url: https://www.bitasset.com/ktrade/BTB-BTC
 - base:
     currency_id: 3687
     currency_symbol: BTB
@@ -153,20 +125,6 @@ markets:
     currency_symbol: BTB
     currency_type: cryptocurrency
     exchange_symbol: BTB
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: BTB/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/BTB/ETH
-- base:
-    currency_id: 3687
-    currency_symbol: BTB
-    currency_type: cryptocurrency
-    exchange_symbol: BTB
   exchange_id: 495
   exchange_name: Folgory
   pair: BTB/BTC
@@ -181,15 +139,15 @@ markets:
     currency_symbol: BTB
     currency_type: cryptocurrency
     exchange_symbol: BTB
-  exchange_id: 566
-  exchange_name: SatoExchange
+  exchange_id: 587
+  exchange_name: IndoEx
   pair: BTB/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.satoexchange.com/market/BTB/ETH/
+  url: https://international.indoex.io/trade/BTB_ETH
 - base:
     currency_id: 3687
     currency_symbol: BTB
@@ -211,13 +169,41 @@ markets:
     exchange_symbol: BTB
   exchange_id: 566
   exchange_name: SatoExchange
-  pair: BTB/SATX
+  pair: BTB/ETH
   quote:
-    currency_id: 5430
-    currency_symbol: SATX
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: SATX
-  url: https://www.satoexchange.com/market/BTB/SATX/
+    exchange_symbol: ETH
+  url: https://www.satoexchange.com/market/BTB/ETH/
+- base:
+    currency_id: 3687
+    currency_symbol: BTB
+    currency_type: cryptocurrency
+    exchange_symbol: BTB
+  exchange_id: 539
+  exchange_name: BitAsset
+  pair: BTB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitasset.com/ktrade/BTB-USDT
+- base:
+    currency_id: 3687
+    currency_symbol: BTB
+    currency_type: cryptocurrency
+    exchange_symbol: BTB
+  exchange_id: 514
+  exchange_name: Finexbox
+  pair: BTB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.finexbox.com/market/pair/BTB-BTC.html
 - base:
     currency_id: 3687
     currency_symbol: BTB
@@ -232,6 +218,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bitstorage.finance/market/BTB-ETH
+- base:
+    currency_id: 3687
+    currency_symbol: BTB
+    currency_type: cryptocurrency
+    exchange_symbol: BTB
+  exchange_id: 566
+  exchange_name: SatoExchange
+  pair: BTB/SATX
+  quote:
+    currency_id: 5430
+    currency_symbol: SATX
+    currency_type: cryptocurrency
+    exchange_symbol: SATX
+  url: https://www.satoexchange.com/market/BTB/SATX/
 - base:
     currency_id: 3687
     currency_symbol: BTB
@@ -307,6 +307,20 @@ markets:
     currency_symbol: BTB
     currency_type: cryptocurrency
     exchange_symbol: BTB
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: BTB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://mercatox.com/exchange/BTB/ETH
+- base:
+    currency_id: 3687
+    currency_symbol: BTB
+    currency_type: cryptocurrency
+    exchange_symbol: BTB
   exchange_id: 493
   exchange_name: CCXCanada
   pair: BTB/BTC
@@ -358,22 +372,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDC
   url: https://graviex.net/markets/btbusdc
-- base:
-    currency_id: 3687
-    currency_symbol: BTB
-    currency_type: cryptocurrency
-    exchange_symbol: BTB
-  exchange_id: 514
-  exchange_name: Finexbox
-  pair: BTB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.finexbox.com/market/pair/BTB-BTC.html
 name: BitBall
-rank: 1027
+rank: 1147
 slug: bitball
 status: active
 symbol: BTB

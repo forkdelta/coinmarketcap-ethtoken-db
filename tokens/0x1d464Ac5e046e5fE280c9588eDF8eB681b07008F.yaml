@@ -45,20 +45,6 @@ markets:
     exchange_symbol: GMB
   exchange_id: 459
   exchange_name: BW.com
-  pair: GMB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bw.com/trade/gmb_btc
-- base:
-    currency_id: 3757
-    currency_symbol: GMB
-    currency_type: cryptocurrency
-    exchange_symbol: GMB
-  exchange_id: 459
-  exchange_name: BW.com
   pair: GMB/ETH
   quote:
     currency_id: 1027
@@ -71,15 +57,29 @@ markets:
     currency_symbol: GMB
     currency_type: cryptocurrency
     exchange_symbol: GMB
+  exchange_id: 459
+  exchange_name: BW.com
+  pair: GMB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bw.com/trade/gmb_btc
+- base:
+    currency_id: 3757
+    currency_symbol: GMB
+    currency_type: cryptocurrency
+    exchange_symbol: GMB
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: GMB/KRW
+  pair: GMB/ETH
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/GMB-KRW
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.probit.com/app/exchange/GMB-ETH
 - base:
     currency_id: 3757
     currency_symbol: GMB
@@ -101,13 +101,13 @@ markets:
     exchange_symbol: GMB
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: GMB/ETH
+  pair: GMB/KRW
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.probit.com/app/exchange/GMB-ETH
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/GMB-KRW
 - base:
     currency_id: 3757
     currency_symbol: GMB
@@ -123,7 +123,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.digifinex.com/en-ww/trade/ETH/GMB
 name: GMB
-rank: 1138
+rank: 1114
 slug: gmb
 status: active
 symbol: GMB
