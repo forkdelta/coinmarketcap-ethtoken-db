@@ -33,20 +33,6 @@ markets:
     currency_symbol: LPT
     currency_type: cryptocurrency
     exchange_symbol: LPT
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: LPT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 3640
-    currency_symbol: LPT
-    currency_type: cryptocurrency
-    exchange_symbol: LPT
   exchange_id: 16
   exchange_name: Poloniex
   pair: LPT/BTC
@@ -56,6 +42,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://poloniex.com/exchange#btc_lpt?c=H4QD8FNW
+- base:
+    currency_id: 3640
+    currency_symbol: LPT
+    currency_type: cryptocurrency
+    exchange_symbol: LPT
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: LPT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 - base:
     currency_id: 3640
     currency_symbol: LPT
@@ -99,7 +99,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/LPT/WETH
 name: Livepeer
-rank: 2304
+rank: 2275
 slug: livepeer
 status: active
 symbol: LPT

@@ -63,20 +63,6 @@ markets:
     currency_symbol: DNT
     currency_type: cryptocurrency
     exchange_symbol: DNT
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: DNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/DNTBTC
-- base:
-    currency_id: 1856
-    currency_symbol: DNT
-    currency_type: cryptocurrency
-    exchange_symbol: DNT
   exchange_id: 213
   exchange_name: Mercatox
   pair: DNT/ETH
@@ -86,6 +72,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://mercatox.com/exchange/DNT/ETH
+- base:
+    currency_id: 1856
+    currency_symbol: DNT
+    currency_type: cryptocurrency
+    exchange_symbol: DNT
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: DNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 1856
     currency_symbol: DNT
@@ -105,15 +105,15 @@ markets:
     currency_symbol: DNT
     currency_type: cryptocurrency
     exchange_symbol: DNT
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: DNT/ETH
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: DNT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.fatbtc.com/
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/DNTBTC
 - base:
     currency_id: 1856
     currency_symbol: DNT
@@ -241,7 +241,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/DNT/WETH
 name: district0x
-rank: 573
+rank: 571
 slug: district0x
 status: active
 symbol: DNT

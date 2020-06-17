@@ -59,6 +59,20 @@ markets:
     currency_symbol: SPND
     currency_type: cryptocurrency
     exchange_symbol: SPND
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: SPND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=spnd_btc
+- base:
+    currency_id: 3307
+    currency_symbol: SPND
+    currency_type: cryptocurrency
+    exchange_symbol: SPND
   exchange_id: 545
   exchange_name: Bitsdaq
   pair: SPND/BTC
@@ -68,20 +82,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bitsdaq.com/exchange/SPND-BTC
-- base:
-    currency_id: 3307
-    currency_symbol: SPND
-    currency_type: cryptocurrency
-    exchange_symbol: SPND
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: SPND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-SPND
 - base:
     currency_id: 3307
     currency_symbol: SPND
@@ -101,15 +101,15 @@ markets:
     currency_symbol: SPND
     currency_type: cryptocurrency
     exchange_symbol: SPND
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: SPND/USDK
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: SPND/BTC
   quote:
-    currency_id: 4064
-    currency_symbol: USDK
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=spnd_usdk
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-SPND
 - base:
     currency_id: 3307
     currency_symbol: SPND
@@ -131,13 +131,13 @@ markets:
     exchange_symbol: SPND
   exchange_id: 294
   exchange_name: OKEx
-  pair: SPND/BTC
+  pair: SPND/USDK
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 4064
+    currency_symbol: USDK
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=spnd_btc
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=spnd_usdk
 - base:
     currency_id: 3307
     currency_symbol: SPND
@@ -195,7 +195,7 @@ markets:
     exchange_symbol: BTC
   url: https://okex.co.kr/kr/view/exchange?coin=SPND&market=BTC
 name: Spendcoin
-rank: 735
+rank: 734
 slug: spendcoin
 status: active
 symbol: SPND

@@ -84,20 +84,6 @@ markets:
     currency_id: 2342
     currency_symbol: COV
     currency_type: cryptocurrency
-    exchange_symbol: COVX
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: COV/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/COV/BTC
-- base:
-    currency_id: 2342
-    currency_symbol: COV
-    currency_type: cryptocurrency
     exchange_symbol: COV
   exchange_id: 42
   exchange_name: HitBTC
@@ -122,8 +108,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/COV-to-ETH
+- base:
+    currency_id: 2342
+    currency_symbol: COV
+    currency_type: cryptocurrency
+    exchange_symbol: COVX
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: COV/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/COV/BTC
 name: Covesting
-rank: 597
+rank: 612
 slug: covesting
 status: active
 symbol: COV

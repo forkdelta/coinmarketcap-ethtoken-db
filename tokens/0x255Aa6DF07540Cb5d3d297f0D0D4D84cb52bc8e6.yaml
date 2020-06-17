@@ -159,20 +159,6 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: RDN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/RDNBTC
-- base:
-    currency_id: 2161
-    currency_symbol: RDN
-    currency_type: cryptocurrency
-    exchange_symbol: RDN
   exchange_id: 267
   exchange_name: Bancor Network
   pair: RDN/BNT
@@ -187,15 +173,15 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: RDN/ETH
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: RDN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/rdn_eth
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/RDNBTC
 - base:
     currency_id: 2161
     currency_symbol: RDN
@@ -229,6 +215,20 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: RDN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/rdn_eth
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
+    currency_type: cryptocurrency
+    exchange_symbol: RDN
   exchange_id: 310
   exchange_name: IDEX
   pair: RDN/ETH
@@ -239,7 +239,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/rdn
 name: Raiden Network Token
-rank: 366
+rank: 375
 slug: raiden-network-token
 status: active
 symbol: RDN

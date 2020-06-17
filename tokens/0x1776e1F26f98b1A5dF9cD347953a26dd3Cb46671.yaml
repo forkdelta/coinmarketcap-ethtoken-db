@@ -39,20 +39,6 @@ markets:
     currency_symbol: NMR
     currency_type: cryptocurrency
     exchange_symbol: NMR
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: NMR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=nmr
-- base:
-    currency_id: 1732
-    currency_symbol: NMR
-    currency_type: cryptocurrency
-    exchange_symbol: NMR
   exchange_id: 22
   exchange_name: Bittrex
   pair: NMR/BTC
@@ -67,15 +53,15 @@ markets:
     currency_symbol: NMR
     currency_type: cryptocurrency
     exchange_symbol: NMR
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: NMR/ETH
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: NMR/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=nmr
 - base:
     currency_id: 1732
     currency_symbol: NMR
@@ -95,20 +81,6 @@ markets:
     currency_symbol: NMR
     currency_type: cryptocurrency
     exchange_symbol: NMR
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: NMR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/NMR-to-BTC
-- base:
-    currency_id: 1732
-    currency_symbol: NMR
-    currency_type: cryptocurrency
-    exchange_symbol: NMR
   exchange_id: 22
   exchange_name: Bittrex
   pair: NMR/USDT
@@ -118,6 +90,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bittrex.com/Market/Index?MarketName=USDT-NMR
+- base:
+    currency_id: 1732
+    currency_symbol: NMR
+    currency_type: cryptocurrency
+    exchange_symbol: NMR
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: NMR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 1732
+    currency_symbol: NMR
+    currency_type: cryptocurrency
+    exchange_symbol: NMR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: NMR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/NMR-to-BTC
 - base:
     currency_id: 1732
     currency_symbol: NMR
@@ -175,7 +175,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.valr.com/buy/NMR/BTC
 name: Numeraire
-rank: 91
+rank: 90
 slug: numeraire
 status: active
 symbol: NMR

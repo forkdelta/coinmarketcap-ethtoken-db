@@ -26,20 +26,6 @@ markets:
     currency_symbol: BLOC
     currency_type: cryptocurrency
     exchange_symbol: BLOC
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: BLOC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=BLOC_ETH
-- base:
-    currency_id: 3860
-    currency_symbol: BLOC
-    currency_type: cryptocurrency
-    exchange_symbol: BLOC
   exchange_id: 294
   exchange_name: OKEx
   pair: BLOC/USDT
@@ -56,13 +42,13 @@ markets:
     exchange_symbol: BLOC
   exchange_id: 400
   exchange_name: Hotbit
-  pair: BLOC/BTC
+  pair: BLOC/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=BLOC_BTC
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=BLOC_ETH
 - base:
     currency_id: 3860
     currency_symbol: BLOC
@@ -84,6 +70,20 @@ markets:
     exchange_symbol: BLOC
   exchange_id: 400
   exchange_name: Hotbit
+  pair: BLOC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=BLOC_BTC
+- base:
+    currency_id: 3860
+    currency_symbol: BLOC
+    currency_type: cryptocurrency
+    exchange_symbol: BLOC
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: BLOC/USDT
   quote:
     currency_id: 825
@@ -91,20 +91,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hotbit.io/exchange?symbol=BLOC_USDT
-- base:
-    currency_id: 3860
-    currency_symbol: BLOC
-    currency_type: cryptocurrency
-    exchange_symbol: BLOC
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: BLOC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=bloc
 - base:
     currency_id: 3860
     currency_symbol: BLOC
@@ -119,6 +105,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bitsdaq.com/exchange/BLOC-BTC
+- base:
+    currency_id: 3860
+    currency_symbol: BLOC
+    currency_type: cryptocurrency
+    exchange_symbol: BLOC
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: BLOC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=bloc
 - base:
     currency_id: 3860
     currency_symbol: BLOC

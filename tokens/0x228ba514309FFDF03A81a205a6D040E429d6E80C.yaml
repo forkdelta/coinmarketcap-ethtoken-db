@@ -37,20 +37,6 @@ markets:
     currency_symbol: GSC
     currency_type: cryptocurrency
     exchange_symbol: GSC
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: GSC/IDR
-  quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://indodax.com/market/GSCIDR
-- base:
-    currency_id: 2737
-    currency_symbol: GSC
-    currency_type: cryptocurrency
-    exchange_symbol: GSC
   exchange_id: 102
   exchange_name: Huobi Global
   pair: GSC/ETH
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/gsc_eth?invite_code=5kij5
+- base:
+    currency_id: 2737
+    currency_symbol: GSC
+    currency_type: cryptocurrency
+    exchange_symbol: GSC
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: GSC/IDR
+  quote:
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/GSCIDR
 - base:
     currency_id: 2737
     currency_symbol: GSC
@@ -89,7 +89,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/gsc_eth/
 name: Global Social Chain
-rank: 651
+rank: 653
 slug: global-social-chain
 status: active
 symbol: GSC
