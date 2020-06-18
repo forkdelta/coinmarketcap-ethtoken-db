@@ -78,48 +78,6 @@ markets:
     currency_symbol: OXT
     currency_type: cryptocurrency
     exchange_symbol: OXT
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: OXT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=oxt&tab=limit
-- base:
-    currency_id: 5026
-    currency_symbol: OXT
-    currency_type: cryptocurrency
-    exchange_symbol: OXT
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: OXT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=oxt_usdt
-- base:
-    currency_id: 5026
-    currency_symbol: OXT
-    currency_type: cryptocurrency
-    exchange_symbol: OXT
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: OXT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kraken.com/markets/kraken/oxt/btc
-- base:
-    currency_id: 5026
-    currency_symbol: OXT
-    currency_type: cryptocurrency
-    exchange_symbol: OXT
   exchange_id: 24
   exchange_name: Kraken
   pair: OXT/USD
@@ -148,15 +106,29 @@ markets:
     currency_symbol: OXT
     currency_type: cryptocurrency
     exchange_symbol: OXT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: OXT/BTC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: OXT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-OXT
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=oxt_usdt
+- base:
+    currency_id: 5026
+    currency_symbol: OXT
+    currency_type: cryptocurrency
+    exchange_symbol: OXT
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: OXT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=oxt&tab=limit
 - base:
     currency_id: 5026
     currency_symbol: OXT
@@ -164,13 +136,27 @@ markets:
     exchange_symbol: OXT
   exchange_id: 24
   exchange_name: Kraken
-  pair: OXT/ETH
+  pair: OXT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.kraken.com/markets/kraken/oxt/eth
+    exchange_symbol: BTC
+  url: https://trade.kraken.com/markets/kraken/oxt/btc
+- base:
+    currency_id: 5026
+    currency_symbol: OXT
+    currency_type: cryptocurrency
+    exchange_symbol: OXT
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: OXT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=oxt&tab=limit
 - base:
     currency_id: 5026
     currency_symbol: OXT
@@ -204,15 +190,15 @@ markets:
     currency_symbol: OXT
     currency_type: cryptocurrency
     exchange_symbol: OXT
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: OXT/BTC
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: OXT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=oxt&tab=limit
+    exchange_symbol: ETH
+  url: https://trade.kraken.com/markets/kraken/oxt/eth
 - base:
     currency_id: 5026
     currency_symbol: OXT
@@ -227,6 +213,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.okex.com/market?product=oxt_btc
+- base:
+    currency_id: 5026
+    currency_symbol: OXT
+    currency_type: cryptocurrency
+    exchange_symbol: OXT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: OXT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-OXT
 - base:
     currency_id: 5026
     currency_symbol: OXT
@@ -255,20 +255,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.biki.cc/en_US/trade/OXT_USDT
-- base:
-    currency_id: 5026
-    currency_symbol: OXT
-    currency_type: cryptocurrency
-    exchange_symbol: OXT
-  exchange_id: 151
-  exchange_name: Gemini
-  pair: OXT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://gemini.com/
 - base:
     currency_id: 5026
     currency_symbol: OXT
@@ -358,6 +344,20 @@ markets:
     currency_symbol: OXT
     currency_type: cryptocurrency
     exchange_symbol: OXT
+  exchange_id: 151
+  exchange_name: Gemini
+  pair: OXT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://gemini.com/
+- base:
+    currency_id: 5026
+    currency_symbol: OXT
+    currency_type: cryptocurrency
+    exchange_symbol: OXT
   exchange_id: 310
   exchange_name: IDEX
   pair: OXT/ETH
@@ -382,7 +382,7 @@ markets:
     exchange_symbol: USDT
   url: https://hoo.com/trade/oxt-usdt
 name: Orchid
-rank: 326
+rank: 340
 slug: orchid
 status: active
 symbol: OXT

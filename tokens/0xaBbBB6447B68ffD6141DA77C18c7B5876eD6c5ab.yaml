@@ -85,7 +85,21 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/DATX-BTC
+  url: https://trade.kucoin.com/DATX-BTC
+- base:
+    currency_id: 2567
+    currency_symbol: DATX
+    currency_type: cryptocurrency
+    exchange_symbol: DATX
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: DATX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://trade.kucoin.com/DATX-ETH
 - base:
     currency_id: 2567
     currency_symbol: DATX
@@ -119,15 +133,15 @@ markets:
     currency_symbol: DATX
     currency_type: cryptocurrency
     exchange_symbol: DATX
-  exchange_id: 311
-  exchange_name: KuCoin
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: DATX/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.kucoin.com/trade/DATX-ETH
+  url: https://www.huobi.co.kr/en-US/exchange/datx_eth/
 - base:
     currency_id: 2567
     currency_symbol: DATX
@@ -149,34 +163,6 @@ markets:
     exchange_symbol: DATX
   exchange_id: 42
   exchange_name: HitBTC
-  pair: DATX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/DATX-to-BTC
-- base:
-    currency_id: 2567
-    currency_symbol: DATX
-    currency_type: cryptocurrency
-    exchange_symbol: DATX
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: DATX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/datx_eth/
-- base:
-    currency_id: 2567
-    currency_symbol: DATX
-    currency_type: cryptocurrency
-    exchange_symbol: DATX
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: DATX/ETH
   quote:
     currency_id: 1027
@@ -184,8 +170,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/DATX-to-ETH
+- base:
+    currency_id: 2567
+    currency_symbol: DATX
+    currency_type: cryptocurrency
+    exchange_symbol: DATX
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: DATX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/DATX-to-BTC
 name: DATx
-rank: 1289
+rank: 1291
 slug: datx
 status: active
 symbol: DATX

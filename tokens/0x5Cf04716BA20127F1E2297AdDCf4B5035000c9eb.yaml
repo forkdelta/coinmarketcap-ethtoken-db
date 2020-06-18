@@ -2,12 +2,19 @@
 address: '0x5Cf04716BA20127F1E2297AdDCf4B5035000c9eb'
 category: coin
 date_added: '2018-05-28T00:00:00.000Z'
-description: NKN bills itself as a 'new kind of P2P network connectivity protocol' that is powered by
-  a public blockchain. NKN is used to incentivize Internet users to share their network connection and
-  unused bandwidth. NKN's describes its networking infrastructure as 'open, efficient, and robust', thereby
-  enabling application developers to build the decentralized Internet. Whitfield Diffie, inventor of public
-  key cryptography (Diffie-Hellman) and 2015 Turing Award winner, and Stephen Wolfram, Founder and CEO
-  of Wolfram Research, are listed on their publications as advisors for the project.
+description: "NKN, or New Kind of Network, is an open-source protocol for public blockchain-based peer-to-peer\
+  \ Networks to share network bandwidth and Internet connectivity. The project was launched in January\
+  \ 2018 and lists Stephen Wolfram, creator of Mathematica and Wolfram|Alpha, and Whitfield Diffie, inventor\
+  \ of public-key cryptography as advisors. NKN Mainnet was launched in July 2019 and has up to 25,000\
+  \ full consensus nodes (more than Bitcoin or Ethereum).\n\nNotable use cases for NKN include: \n\n-\
+  \ Content Delivery system (contract with Chinese video giant iQIYI)\n- Edge computing (contract with\
+  \ China Mobile)\n- D-chat (secure messaging app) \n- nShell (secure remote terminal access). \n\nNKN’s\
+  \ consensus algorithm is based on Cellular Automata, A New Kind of Science and Ising Model, where a\
+  \ simple local majority rule can lead to system-level convergence in a small number of iterations. The\
+  \ design goal is to scale to arbitrary numbers of equal consensus nodes.\n\nNKN uses a global addressing\
+  \ scheme based on public keys, in order to enable direct peer to peer communication without centralized\
+  \ servers. The routing of packets is based on Chord Distributed Hash Table (DHT), which maps each NKN\
+  \ address to a random and verifiable position on the Chord DHT ring."
 id: 2780
 links:
   announcement:
@@ -136,20 +143,6 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
-  exchange_id: 270
-  exchange_name: Binance
-  pair: NKN/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/NKN_BNB?ref=H31B921U
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
   exchange_id: 949
   exchange_name: CoinDCX
   pair: NKN/BTC
@@ -164,29 +157,15 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: NKN/BTC
+  exchange_id: 270
+  exchange_name: Binance
+  pair: NKN/BNB
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=nkn
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: NKN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://international.bittrex.com/Market/Index?MarketName=BTC-NKN
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/NKN_BNB?ref=H31B921U
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -220,6 +199,34 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: NKN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=nkn
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: NKN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://international.bittrex.com/Market/Index?MarketName=BTC-NKN
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
   exchange_id: 351
   exchange_name: Upbit
   pair: NKN/BTC
@@ -229,34 +236,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-NKN
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: NKN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/nkn_btc/
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: NKN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/nkn_usdt/
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -278,13 +257,13 @@ markets:
     exchange_symbol: NKN
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: NKN/HT
+  pair: NKN/USDT
   quote:
-    currency_id: 2502
-    currency_symbol: HT
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.huobi.co.kr/en-US/exchange/nkn_ht/
+    exchange_symbol: USDT
+  url: https://www.huobi.co.kr/en-US/exchange/nkn_usdt/
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -299,6 +278,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/nkn_eth
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: NKN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/nkn_btc/
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: NKN/HT
+  quote:
+    currency_id: 2502
+    currency_symbol: HT
+    currency_type: cryptocurrency
+    exchange_symbol: HT
+  url: https://www.huobi.co.kr/en-US/exchange/nkn_ht/
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -328,7 +335,7 @@ markets:
     exchange_symbol: ETH
   url: https://switcheo.exchange/markets/NKN_ETH?referral_code=DFCA09
 name: NKN
-rank: 321
+rank: 325
 slug: nkn
 status: active
 symbol: NKN

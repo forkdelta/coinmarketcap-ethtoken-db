@@ -29,20 +29,6 @@ markets:
     currency_symbol: SUTER
     currency_type: cryptocurrency
     exchange_symbol: SUTER
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: SUTER/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.kucoin.com/trade/SUTER-USDT
-- base:
-    currency_id: 4841
-    currency_symbol: SUTER
-    currency_type: cryptocurrency
-    exchange_symbol: SUTER
   exchange_id: 544
   exchange_name: MXC
   pair: SUTER/USDT
@@ -59,13 +45,27 @@ markets:
     exchange_symbol: SUTER
   exchange_id: 311
   exchange_name: KuCoin
+  pair: SUTER/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://trade.kucoin.com/SUTER-USDT
+- base:
+    currency_id: 4841
+    currency_symbol: SUTER
+    currency_type: cryptocurrency
+    exchange_symbol: SUTER
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: SUTER/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/SUTER-BTC
+  url: https://trade.kucoin.com/SUTER-BTC
 - base:
     currency_id: 4841
     currency_symbol: SUTER
@@ -109,7 +109,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: suterusu
-rank: 499
+rank: 498
 slug: suterusu
 status: active
 symbol: SUTER

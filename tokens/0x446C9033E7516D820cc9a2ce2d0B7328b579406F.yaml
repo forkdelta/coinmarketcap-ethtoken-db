@@ -42,6 +42,20 @@ markets:
     currency_symbol: SOLVE
     currency_type: cryptocurrency
     exchange_symbol: SOLVE
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: SOLVE/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-SOLVE
+- base:
+    currency_id: 3724
+    currency_symbol: SOLVE
+    currency_type: cryptocurrency
+    exchange_symbol: SOLVE
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: SOLVE/KRW
@@ -65,20 +79,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bilaxy.com/trade/SOLVE_BTC
-- base:
-    currency_id: 3724
-    currency_symbol: SOLVE
-    currency_type: cryptocurrency
-    exchange_symbol: SOLVE
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: SOLVE/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-SOLVE
 - base:
     currency_id: 3724
     currency_symbol: SOLVE
@@ -148,7 +148,7 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.kucoin.com/trade/SOLVE-BTC
+  url: https://trade.kucoin.com/SOLVE-BTC
 - base:
     currency_id: 3724
     currency_symbol: SOLVE
@@ -184,6 +184,20 @@ markets:
     exchange_symbol: SOLVE
   exchange_id: 22
   exchange_name: Bittrex
+  pair: SOLVE/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bittrex.com/Market/Index?MarketName=USDT-SOLVE
+- base:
+    currency_id: 3724
+    currency_symbol: SOLVE
+    currency_type: cryptocurrency
+    exchange_symbol: SOLVE
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: SOLVE/USD
   quote:
     currency_id: 2781
@@ -196,15 +210,15 @@ markets:
     currency_symbol: SOLVE
     currency_type: cryptocurrency
     exchange_symbol: SOLVE
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: SOLVE/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SOLVE/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bittrex.com/Market/Index?MarketName=USDT-SOLVE
+    exchange_symbol: BTC
+  url: https://hitbtc.com/SOLVE-to-BTC
 - base:
     currency_id: 3724
     currency_symbol: SOLVE
@@ -224,20 +238,6 @@ markets:
     currency_symbol: SOLVE
     currency_type: cryptocurrency
     exchange_symbol: SOLVE
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: SOLVE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-SOLVE
-- base:
-    currency_id: 3724
-    currency_symbol: SOLVE
-    currency_type: cryptocurrency
-    exchange_symbol: SOLVE
   exchange_id: 22
   exchange_name: Bittrex
   pair: SOLVE/ETH
@@ -252,15 +252,15 @@ markets:
     currency_symbol: SOLVE
     currency_type: cryptocurrency
     exchange_symbol: SOLVE
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 351
+  exchange_name: Upbit
   pair: SOLVE/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/SOLVE-to-BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-SOLVE
 - base:
     currency_id: 3724
     currency_symbol: SOLVE
@@ -304,7 +304,7 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/solve
 name: SOLVE
-rank: 105
+rank: 102
 slug: solve
 status: active
 symbol: SOLVE
