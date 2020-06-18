@@ -42,20 +42,6 @@ markets:
     currency_symbol: FTT
     currency_type: cryptocurrency
     exchange_symbol: FTT
-  exchange_id: 524
-  exchange_name: FTX
-  pair: FTT/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://ftx.com/trade/FTT/USD
-- base:
-    currency_id: 4195
-    currency_symbol: FTT
-    currency_type: cryptocurrency
-    exchange_symbol: FTT
   exchange_id: 350
   exchange_name: CoinEx
   pair: FTT/BTC
@@ -84,15 +70,29 @@ markets:
     currency_symbol: FTT
     currency_type: cryptocurrency
     exchange_symbol: FTT
-  exchange_id: 524
-  exchange_name: FTX
+  exchange_id: 453
+  exchange_name: BitMax
   pair: FTT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://ftx.com/trade/FTT/BTC
+  url: https://bitmax.io/#/trade/btc/ftt
+- base:
+    currency_id: 4195
+    currency_symbol: FTT
+    currency_type: cryptocurrency
+    exchange_symbol: FTT
+  exchange_id: 524
+  exchange_name: FTX
+  pair: FTT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://ftx.com/trade/FTT/USD
 - base:
     currency_id: 4195
     currency_symbol: FTT
@@ -140,34 +140,6 @@ markets:
     currency_symbol: FTT
     currency_type: cryptocurrency
     exchange_symbol: FTT
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: FTT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/ftt
-- base:
-    currency_id: 4195
-    currency_symbol: FTT
-    currency_type: cryptocurrency
-    exchange_symbol: FTT
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: FTT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/ftt_usdt?invite_code=5kij5
-- base:
-    currency_id: 4195
-    currency_symbol: FTT
-    currency_type: cryptocurrency
-    exchange_symbol: FTT
   exchange_id: 363
   exchange_name: Fatbtc
   pair: FTT/USDT
@@ -184,20 +156,6 @@ markets:
     exchange_symbol: FTT
   exchange_id: 495
   exchange_name: Folgory
-  pair: FTT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://folgory.com/trade-crypto/FTT_USDT
-- base:
-    currency_id: 4195
-    currency_symbol: FTT
-    currency_type: cryptocurrency
-    exchange_symbol: FTT
-  exchange_id: 495
-  exchange_name: Folgory
   pair: FTT/BTC
   quote:
     currency_id: 1
@@ -205,6 +163,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://folgory.com/trade-crypto/FTT_BTC
+- base:
+    currency_id: 4195
+    currency_symbol: FTT
+    currency_type: cryptocurrency
+    exchange_symbol: FTT
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: FTT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://folgory.com/trade-crypto/FTT_USDT
 - base:
     currency_id: 4195
     currency_symbol: FTT
@@ -226,27 +198,13 @@ markets:
     exchange_symbol: FTT
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: FTT/BTC
+  pair: FTT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/ftt_btc?invite_code=5kij5
-- base:
-    currency_id: 4195
-    currency_symbol: FTT
-    currency_type: cryptocurrency
-    exchange_symbol: FTT
-  exchange_id: 890
-  exchange_name: Bitay
-  pair: FTT/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.bitay.com/en/t/FTTTRY
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/ftt_usdt?invite_code=5kij5
 - base:
     currency_id: 4195
     currency_symbol: FTT
@@ -261,6 +219,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNB
   url: https://www.binance.com/en/trade/FTT_BNB?ref=H31B921U
+- base:
+    currency_id: 4195
+    currency_symbol: FTT
+    currency_type: cryptocurrency
+    exchange_symbol: FTT
+  exchange_id: 524
+  exchange_name: FTX
+  pair: FTT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://ftx.com/trade/FTT/BTC
+- base:
+    currency_id: 4195
+    currency_symbol: FTT
+    currency_type: cryptocurrency
+    exchange_symbol: FTT
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: FTT/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.bitay.com/en/t/FTTTRY
 - base:
     currency_id: 4195
     currency_symbol: FTT
@@ -308,15 +294,15 @@ markets:
     currency_symbol: FTT
     currency_type: cryptocurrency
     exchange_symbol: FTT
-  exchange_id: 890
-  exchange_name: Bitay
-  pair: FTT/USDT
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: FTT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitay.com/en/t/FTTUSDT
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/ftt_btc?invite_code=5kij5
 - base:
     currency_id: 4195
     currency_symbol: FTT
@@ -331,6 +317,34 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/FTT:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 4195
+    currency_symbol: FTT
+    currency_type: cryptocurrency
+    exchange_symbol: FTT
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: FTT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/FTT-USDT
+- base:
+    currency_id: 4195
+    currency_symbol: FTT
+    currency_type: cryptocurrency
+    exchange_symbol: FTT
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: FTT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitay.com/en/t/FTTUSDT
 - base:
     currency_id: 4195
     currency_symbol: FTT
@@ -352,13 +366,13 @@ markets:
     exchange_symbol: FTT
   exchange_id: 425
   exchange_name: WazirX
-  pair: FTT/USDT
+  pair: FTT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/FTT-USDT
+    exchange_symbol: BTC
+  url: https://wazirx.com/exchange/FTT-BTC
 - base:
     currency_id: 4195
     currency_symbol: FTT
@@ -373,20 +387,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/FTT-to-BTC
-- base:
-    currency_id: 4195
-    currency_symbol: FTT
-    currency_type: cryptocurrency
-    exchange_symbol: FTT
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: FTT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://wazirx.com/exchange/FTT-BTC
 - base:
     currency_id: 4195
     currency_symbol: FTT

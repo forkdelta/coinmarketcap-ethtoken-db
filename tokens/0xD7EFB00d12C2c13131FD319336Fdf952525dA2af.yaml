@@ -3,10 +3,17 @@ address: '0xD7EFB00d12C2c13131FD319336Fdf952525dA2af'
 category: token
 date_added: '2020-04-06T00:00:00.000Z'
 description: 'Launched in San Francisco, Proton (XPR) is a new public blockchain and smart contract platform
-  designed for both consumer applications and peer-peer payments. It is built around a
+  designed for both consumer applications and peer-peer payments. Proton aims to provide a secure, verified
+  identity account which is integrated with a financial settlements layer that allows users to directly
+  link this identity with fiat accounts, pull funds and buy crypto, and use that crypto seamlessly in
+  apps, all without sending any of the user’s private, sensitive information. Proton removes the concept
+  of sharing private keys directly with merchants by creating a permission-less layer that exists on top
+  of traditional card networks and banks.
 
-  secure identity and financial settlements layer that allows users to directly link real identity and
-  fiat accounts, pull funds and buy crypto, and use that crypto seamlessly in apps.'
+
+  The user maintains the private key in confidence while permitting institutions who wish to authenticate
+  the user to check with trusted institutions via public keys. The verification from the trusted institution
+  will confirm the user’s identity without revealing the user’s associated private key.'
 id: 5350
 links:
   announcement:
@@ -106,20 +113,6 @@ markets:
     currency_symbol: XPR
     currency_type: cryptocurrency
     exchange_symbol: XPR
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: XPR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/XPR-to-ETH
-- base:
-    currency_id: 5350
-    currency_symbol: XPR
-    currency_type: cryptocurrency
-    exchange_symbol: XPR
   exchange_id: 363
   exchange_name: Fatbtc
   pair: XPR/USDT
@@ -129,6 +122,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 5350
+    currency_symbol: XPR
+    currency_type: cryptocurrency
+    exchange_symbol: XPR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: XPR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/XPR-to-ETH
 - base:
     currency_id: 5350
     currency_symbol: XPR
@@ -144,7 +151,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.etherflyer.com/trade.html?pairs=XPR-ETH
 name: Proton
-rank: 348
+rank: 356
 slug: proton
 status: active
 symbol: XPR

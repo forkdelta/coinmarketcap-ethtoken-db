@@ -26,15 +26,15 @@ markets:
     currency_symbol: TYPE
     currency_type: cryptocurrency
     exchange_symbol: TYPE
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: TYPE/BTC
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: TYPE/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/TYPE_BTC
+    exchange_symbol: ETH
+  url: https://idex.market/eth/type
 - base:
     currency_id: 3505
     currency_symbol: TYPE
@@ -49,6 +49,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://p2pb2b.io/trade/TYPE_USD
+- base:
+    currency_id: 3505
+    currency_symbol: TYPE
+    currency_type: cryptocurrency
+    exchange_symbol: TYPE
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: TYPE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/TYPE_BTC
 - base:
     currency_id: 3505
     currency_symbol: TYPE
@@ -82,20 +96,6 @@ markets:
     currency_symbol: TYPE
     currency_type: cryptocurrency
     exchange_symbol: TYPE
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: TYPE/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/type
-- base:
-    currency_id: 3505
-    currency_symbol: TYPE
-    currency_type: cryptocurrency
-    exchange_symbol: TYPE
   exchange_id: 480
   exchange_name: Cat.Ex
   pair: TYPE/BTC
@@ -120,7 +120,7 @@ markets:
     exchange_symbol: TRX
   url: https://www.catex.io/trading/TYPE/TRX
 name: Typerium
-rank: 1132
+rank: 1428
 slug: typerium
 status: active
 symbol: TYPE

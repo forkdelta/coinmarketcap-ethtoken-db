@@ -49,20 +49,6 @@ markets:
     exchange_symbol: DEX
   exchange_id: 407
   exchange_name: DigiFinex
-  pair: DEX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.digifinex.com/en-ww/trade/BTC/DEX
-- base:
-    currency_id: 3515
-    currency_symbol: DEX
-    currency_type: cryptocurrency
-    exchange_symbol: DEX
-  exchange_id: 407
-  exchange_name: DigiFinex
   pair: DEX/ETH
   quote:
     currency_id: 1027
@@ -70,6 +56,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.digifinex.com/en-ww/trade/ETH/DEX
+- base:
+    currency_id: 3515
+    currency_symbol: DEX
+    currency_type: cryptocurrency
+    exchange_symbol: DEX
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: DEX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.digifinex.com/en-ww/trade/BTC/DEX
 - base:
     currency_id: 3515
     currency_symbol: DEX
@@ -85,7 +85,7 @@ markets:
     exchange_symbol: ETH
   url: https://allbit.com/exchange/DEX?market=ETH
 name: DEX
-rank: 845
+rank: 846
 slug: dex
 status: active
 symbol: DEX

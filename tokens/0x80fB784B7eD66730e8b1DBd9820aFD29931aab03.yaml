@@ -58,15 +58,15 @@ markets:
     currency_symbol: LEND
     currency_type: cryptocurrency
     exchange_symbol: LEND
-  exchange_id: 154
-  exchange_name: Dex-Trade
+  exchange_id: 415
+  exchange_name: Bilaxy
   pair: LEND/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://dex-trade.com/en?currencyIn=LEND&currencyTo=BTC
+  url: https://bilaxy.com/trade/LEND_BTC
 - base:
     currency_id: 2239
     currency_symbol: LEND
@@ -86,15 +86,15 @@ markets:
     currency_symbol: LEND
     currency_type: cryptocurrency
     exchange_symbol: LEND
-  exchange_id: 415
-  exchange_name: Bilaxy
+  exchange_id: 154
+  exchange_name: Dex-Trade
   pair: LEND/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bilaxy.com/trade/LEND_BTC
+  url: https://dex-trade.com/en?currencyIn=LEND&currencyTo=BTC
 - base:
     currency_id: 2239
     currency_symbol: LEND
@@ -109,20 +109,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://uniswap.exchange/
-- base:
-    currency_id: 2239
-    currency_symbol: LEND
-    currency_type: cryptocurrency
-    exchange_symbol: LEND
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: LEND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://alterdice.com/trading/LENDBTC
 - base:
     currency_id: 2239
     currency_symbol: LEND
@@ -144,13 +130,13 @@ markets:
     exchange_symbol: LEND
   exchange_id: 481
   exchange_name: Alterdice
-  pair: LEND/ETH
+  pair: LEND/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://alterdice.com/trading/LENDETH
+    exchange_symbol: BTC
+  url: https://alterdice.com/trading/LENDBTC
 - base:
     currency_id: 2239
     currency_symbol: LEND
@@ -170,29 +156,15 @@ markets:
     currency_symbol: LEND
     currency_type: cryptocurrency
     exchange_symbol: LEND
-  exchange_id: 495
-  exchange_name: Folgory
+  exchange_id: 302
+  exchange_name: Gate.io
   pair: LEND/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://folgory.com/trade-crypto/LEND_ETH
-- base:
-    currency_id: 2239
-    currency_symbol: LEND
-    currency_type: cryptocurrency
-    exchange_symbol: LEND
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: LEND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/LENDBTC
+  url: https://gate.io/trade/lend_eth
 - base:
     currency_id: 2239
     currency_symbol: LEND
@@ -212,15 +184,29 @@ markets:
     currency_symbol: LEND
     currency_type: cryptocurrency
     exchange_symbol: LEND
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: LEND/BTC
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: LEND/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/LEND-to-BTC
+    exchange_symbol: ETH
+  url: https://folgory.com/trade-crypto/LEND_ETH
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: LEND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://alterdice.com/trading/LENDETH
 - base:
     currency_id: 2239
     currency_symbol: LEND
@@ -240,29 +226,15 @@ markets:
     currency_symbol: LEND
     currency_type: cryptocurrency
     exchange_symbol: LEND
-  exchange_id: 339
-  exchange_name: Bibox
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: LEND/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=LEND_BTC
-- base:
-    currency_id: 2239
-    currency_symbol: LEND
-    currency_type: cryptocurrency
-    exchange_symbol: LEND
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: LEND/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bibox.com/exchange?coinPair=LEND_ETH
+  url: https://hitbtc.com/LEND-to-BTC
 - base:
     currency_id: 2239
     currency_symbol: LEND
@@ -282,15 +254,43 @@ markets:
     currency_symbol: LEND
     currency_type: cryptocurrency
     exchange_symbol: LEND
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: LEND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bibox.com/exchange?coinPair=LEND_BTC
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: LEND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/LENDBTC
+- base:
+    currency_id: 2239
+    currency_symbol: LEND
+    currency_type: cryptocurrency
+    exchange_symbol: LEND
+  exchange_id: 339
+  exchange_name: Bibox
   pair: LEND/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://hitbtc.com/LEND-to-ETH
+  url: https://www.bibox.com/exchange?coinPair=LEND_ETH
 - base:
     currency_id: 2239
     currency_symbol: LEND
@@ -310,15 +310,15 @@ markets:
     currency_symbol: LEND
     currency_type: cryptocurrency
     exchange_symbol: LEND
-  exchange_id: 302
-  exchange_name: Gate.io
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: LEND/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://gate.io/trade/lend_eth
+  url: https://hitbtc.com/LEND-to-ETH
 - base:
     currency_id: 2239
     currency_symbol: LEND
@@ -348,7 +348,7 @@ markets:
     exchange_symbol: USDT
   url: https://hoo.com/trade/lend-usdt
 name: Aave
-rank: 61
+rank: 60
 slug: aave
 status: active
 symbol: LEND

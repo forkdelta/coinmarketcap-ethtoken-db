@@ -76,20 +76,6 @@ markets:
     currency_symbol: NCASH
     currency_type: cryptocurrency
     exchange_symbol: NCASH
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: NCASH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/NCASH-USDT
-- base:
-    currency_id: 2544
-    currency_symbol: NCASH
-    currency_type: cryptocurrency
-    exchange_symbol: NCASH
   exchange_id: 102
   exchange_name: Huobi Global
   pair: NCASH/BTC
@@ -99,6 +85,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hbg.com/en-us/exchange/ncash_btc?invite_code=5kij5
+- base:
+    currency_id: 2544
+    currency_symbol: NCASH
+    currency_type: cryptocurrency
+    exchange_symbol: NCASH
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: NCASH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/NCASH-USDT
 - base:
     currency_id: 2544
     currency_symbol: NCASH
@@ -120,6 +120,20 @@ markets:
     exchange_symbol: NCASH
   exchange_id: 433
   exchange_name: Bitrue
+  pair: NCASH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitrue.com/trade/ncash_btc?inviteCode=VQQLQV
+- base:
+    currency_id: 2544
+    currency_symbol: NCASH
+    currency_type: cryptocurrency
+    exchange_symbol: NCASH
+  exchange_id: 433
+  exchange_name: Bitrue
   pair: NCASH/ETH
   quote:
     currency_id: 1027
@@ -132,15 +146,29 @@ markets:
     currency_symbol: NCASH
     currency_type: cryptocurrency
     exchange_symbol: NCASH
-  exchange_id: 433
-  exchange_name: Bitrue
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: NCASH/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://coindcx.com/trade/NCASHETH
+- base:
+    currency_id: 2544
+    currency_symbol: NCASH
+    currency_type: cryptocurrency
+    exchange_symbol: NCASH
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: NCASH/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/ncash_btc?inviteCode=VQQLQV
+  url: https://www.huobi.co.kr/en-US/exchange/ncash_btc/
 - base:
     currency_id: 2544
     currency_symbol: NCASH
@@ -160,15 +188,15 @@ markets:
     currency_symbol: NCASH
     currency_type: cryptocurrency
     exchange_symbol: NCASH
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: NCASH/ETH
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: NCASH/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://coindcx.com/trade/NCASHETH
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-NCASH
 - base:
     currency_id: 2544
     currency_symbol: NCASH
@@ -218,20 +246,6 @@ markets:
     exchange_symbol: NCASH
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: NCASH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/ncash_btc/
-- base:
-    currency_id: 2544
-    currency_symbol: NCASH
-    currency_type: cryptocurrency
-    exchange_symbol: NCASH
-  exchange_id: 463
-  exchange_name: Huobi Korea
   pair: NCASH/ETH
   quote:
     currency_id: 1027
@@ -253,22 +267,8 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://chainx.kr/exchange/NCASH-KRW
-- base:
-    currency_id: 2544
-    currency_symbol: NCASH
-    currency_type: cryptocurrency
-    exchange_symbol: NCASH
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: NCASH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-NCASH
 name: Nucleus Vision
-rank: 731
+rank: 724
 slug: nucleus-vision
 status: active
 symbol: NCASH

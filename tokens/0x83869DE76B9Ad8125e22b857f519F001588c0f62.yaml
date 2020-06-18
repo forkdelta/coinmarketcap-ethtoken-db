@@ -70,6 +70,20 @@ markets:
     exchange_symbol: EXM
   exchange_id: 50
   exchange_name: EXMO
+  pair: EXM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://exmo.com/en/trade#?pair=EXM_ETH
+- base:
+    currency_id: 4974
+    currency_symbol: EXM
+    currency_type: cryptocurrency
+    exchange_symbol: EXM
+  exchange_id: 50
+  exchange_name: EXMO
   pair: EXM/USDT
   quote:
     currency_id: 825
@@ -92,19 +106,19 @@ markets:
     exchange_symbol: BTC
   url: https://hitbtc.com/EXM-to-BTC
 - base:
+    currency_id: 2566
+    currency_symbol: ONT
+    currency_type: cryptocurrency
+    exchange_symbol: ONT
+  exchange_id: 50
+  exchange_name: EXMO
+  pair: ONT/EXM
+  quote:
     currency_id: 4974
     currency_symbol: EXM
     currency_type: cryptocurrency
     exchange_symbol: EXM
-  exchange_id: 50
-  exchange_name: EXMO
-  pair: EXM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://exmo.com/en/trade#?pair=EXM_ETH
+  url: https://exmo.com/en/trade#?pair=ONT_EXM
 - base:
     currency_id: 3217
     currency_symbol: ONG
@@ -133,22 +147,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: EXM
   url: https://exmo.com/en/trade#?pair=ATOM_EXM
-- base:
-    currency_id: 2566
-    currency_symbol: ONT
-    currency_type: cryptocurrency
-    exchange_symbol: ONT
-  exchange_id: 50
-  exchange_name: EXMO
-  pair: ONT/EXM
-  quote:
-    currency_id: 4974
-    currency_symbol: EXM
-    currency_type: cryptocurrency
-    exchange_symbol: EXM
-  url: https://exmo.com/en/trade#?pair=ONT_EXM
 name: EXMO Coin
-rank: 762
+rank: 773
 slug: exmo-coin
 status: active
 symbol: EXM

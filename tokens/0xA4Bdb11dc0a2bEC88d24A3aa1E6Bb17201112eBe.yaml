@@ -18,20 +18,6 @@ links:
   - https://www.stably.io/
 markets:
 - base:
-    currency_id: 3854
-    currency_symbol: FUND
-    currency_type: cryptocurrency
-    exchange_symbol: UND-EBC
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: FUND/USDS
-  quote:
-    currency_id: 3719
-    currency_symbol: USDS
-    currency_type: cryptocurrency
-    exchange_symbol: USDSB-1AC
-  url: https://www.binance.org/en/trade/UND-EBC_USDSB-1AC
-- base:
     currency_id: 3719
     currency_symbol: USDS
     currency_type: cryptocurrency
@@ -45,6 +31,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/USDS_USDT?ref=H31B921U
+- base:
+    currency_id: 3854
+    currency_symbol: FUND
+    currency_type: cryptocurrency
+    exchange_symbol: UND-EBC
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: FUND/USDS
+  quote:
+    currency_id: 3719
+    currency_symbol: USDS
+    currency_type: cryptocurrency
+    exchange_symbol: USDSB-1AC
+  url: https://www.binance.org/en/trade/UND-EBC_USDSB-1AC
 - base:
     currency_id: 3719
     currency_symbol: USDS
@@ -144,7 +144,7 @@ markets:
     exchange_symbol: USDS
   url: https://crex24.com/exchange/BTC-USDS
 name: StableUSD
-rank: 1062
+rank: 1102
 slug: stableusd
 status: active
 symbol: USDS

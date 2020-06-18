@@ -78,20 +78,6 @@ markets:
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: GTO/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-GTO
-- base:
-    currency_id: 2289
-    currency_symbol: GTO
-    currency_type: cryptocurrency
-    exchange_symbol: GTO
   exchange_id: 270
   exchange_name: Binance
   pair: GTO/BTC
@@ -101,6 +87,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.binance.com/en/trade/GTO_BTC?ref=H31B921U
+- base:
+    currency_id: 2289
+    currency_symbol: GTO
+    currency_type: cryptocurrency
+    exchange_symbol: GTO
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: GTO/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-GTO
 - base:
     currency_id: 2289
     currency_symbol: GTO
@@ -148,20 +148,6 @@ markets:
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: GTO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/gto_btc?inviteCode=VQQLQV
-- base:
-    currency_id: 2289
-    currency_symbol: GTO
-    currency_type: cryptocurrency
-    exchange_symbol: GTO
   exchange_id: 270
   exchange_name: Binance
   pair: GTO/ETH
@@ -176,29 +162,15 @@ markets:
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
-  exchange_id: 270
-  exchange_name: Binance
-  pair: GTO/BNB
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: GTO/BTC
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/GTO_BNB?ref=H31B921U
-- base:
-    currency_id: 2289
-    currency_symbol: GTO
-    currency_type: cryptocurrency
-    exchange_symbol: GTO
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: GTO/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/GTO
+    exchange_symbol: BTC
+  url: https://www.bitrue.com/trade/gto_btc?inviteCode=VQQLQV
 - base:
     currency_id: 2289
     currency_symbol: GTO
@@ -232,6 +204,20 @@ markets:
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
+  exchange_id: 270
+  exchange_name: Binance
+  pair: GTO/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/GTO_BNB?ref=H31B921U
+- base:
+    currency_id: 2289
+    currency_symbol: GTO
+    currency_type: cryptocurrency
+    exchange_symbol: GTO
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: GTO/BTC
@@ -260,6 +246,20 @@ markets:
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: GTO/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/GTO-908_BNB
+- base:
+    currency_id: 2289
+    currency_symbol: GTO
+    currency_type: cryptocurrency
+    exchange_symbol: GTO
   exchange_id: 339
   exchange_name: Bibox
   pair: GTO/BTC
@@ -274,15 +274,15 @@ markets:
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: GTO/BTC
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: GTO/BNT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1727
+    currency_symbol: BNT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://crex24.com/exchange/GTO-BTC
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/GTO
 - base:
     currency_id: 2289
     currency_symbol: GTO
@@ -302,15 +302,15 @@ markets:
     currency_symbol: GTO
     currency_type: cryptocurrency
     exchange_symbol: GTO
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: GTO/BNB
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: GTO/BTC
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/GTO-908_BNB
+    exchange_symbol: BTC
+  url: https://crex24.com/exchange/GTO-BTC
 - base:
     currency_id: 2289
     currency_symbol: GTO
@@ -368,7 +368,7 @@ markets:
     exchange_symbol: BTC
   url: https://allbit.com/exchange/GTO?market=BTC
 name: Gifto
-rank: 433
+rank: 431
 slug: gifto
 status: active
 symbol: GTO
