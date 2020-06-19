@@ -72,20 +72,6 @@ markets:
     currency_symbol: DMT
     currency_type: cryptocurrency
     exchange_symbol: DMT
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: DMT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/DMT/BTC
-- base:
-    currency_id: 2503
-    currency_symbol: DMT
-    currency_type: cryptocurrency
-    exchange_symbol: DMT
   exchange_id: 310
   exchange_name: IDEX
   pair: DMT/ETH
@@ -95,6 +81,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/dmt
+- base:
+    currency_id: 2503
+    currency_symbol: DMT
+    currency_type: cryptocurrency
+    exchange_symbol: DMT
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: DMT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/DMT/BTC
 - base:
     currency_id: 2503
     currency_symbol: DMT
@@ -110,7 +110,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: DMarket
-rank: 415
+rank: 401
 slug: dmarket
 status: active
 symbol: DMT

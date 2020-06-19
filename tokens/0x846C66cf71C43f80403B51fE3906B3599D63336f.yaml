@@ -58,20 +58,6 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: PMA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://vcc.exchange/exchange/basic?currency=usdt&coin=pma
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
   exchange_id: 351
   exchange_name: Upbit
   pair: PMA/BTC
@@ -81,34 +67,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-PMA
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: PMA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-PMA
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: PMA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/PMA-BTC
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -128,15 +86,15 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 545
-  exchange_name: Bitsdaq
+  exchange_id: 733
+  exchange_name: VCC Exchange
   pair: PMA/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://bitsdaq.com/exchange/PMA-USDT
+  url: https://vcc.exchange/exchange/basic?currency=usdt&coin=pma
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -156,29 +114,15 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 343
-  exchange_name: CoinBene
-  pair: PMA/ETH
+  exchange_id: 545
+  exchange_name: Bitsdaq
+  pair: PMA/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=PMAETH?hash=2NbmTq6
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 490
-  exchange_name: OKEx Korea
-  pair: PMA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://okex.co.kr/kr/view/exchange?coin=PMA&market=BTC
+    exchange_symbol: USDT
+  url: https://bitsdaq.com/exchange/PMA-USDT
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -198,15 +142,71 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 100
-  exchange_name: YoBit
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: PMA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=PMAETH?hash=2NbmTq6
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
+  exchange_id: 545
+  exchange_name: Bitsdaq
   pair: PMA/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://yobit.net/en/trade/PMA/BTC
+  url: https://bitsdaq.com/exchange/PMA-BTC
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: PMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-PMA
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
+  exchange_id: 448
+  exchange_name: Coinall
+  pair: PMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinall.com/market?product=pma_btc
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: PMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/PMABTC?affiliate=eNgws23g761816
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -240,15 +240,15 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 448
-  exchange_name: Coinall
+  exchange_id: 100
+  exchange_name: YoBit
   pair: PMA/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.coinall.com/market?product=pma_btc
+  url: https://yobit.net/en/trade/PMA/BTC
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -296,15 +296,15 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 112
-  exchange_name: Liquid
+  exchange_id: 490
+  exchange_name: OKEx Korea
   pair: PMA/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/PMABTC?affiliate=eNgws23g761816
+  url: https://okex.co.kr/kr/view/exchange?coin=PMA&market=BTC
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -320,7 +320,7 @@ markets:
     exchange_symbol: KRW
   url: https://chainx.kr/exchange/PMA-KRW
 name: PumaPay
-rank: 696
+rank: 702
 slug: pumapay
 status: active
 symbol: PMA

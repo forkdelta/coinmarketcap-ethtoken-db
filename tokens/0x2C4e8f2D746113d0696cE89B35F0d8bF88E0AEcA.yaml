@@ -70,15 +70,15 @@ markets:
     currency_symbol: OST
     currency_type: cryptocurrency
     exchange_symbol: OST
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: OST/BTC
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: OST/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/ost_btc?invite_code=5kij5
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/ost-eth
 - base:
     currency_id: 2296
     currency_symbol: OST
@@ -98,15 +98,15 @@ markets:
     currency_symbol: OST
     currency_type: cryptocurrency
     exchange_symbol: OST
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: OST/ETH
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: OST/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/ost-eth
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/ost_btc?invite_code=5kij5
 - base:
     currency_id: 2296
     currency_symbol: OST
@@ -156,20 +156,6 @@ markets:
     exchange_symbol: OST
   exchange_id: 302
   exchange_name: Gate.io
-  pair: OST/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/ost_usdt
-- base:
-    currency_id: 2296
-    currency_symbol: OST
-    currency_type: cryptocurrency
-    exchange_symbol: OST
-  exchange_id: 302
-  exchange_name: Gate.io
   pair: OST/ETH
   quote:
     currency_id: 1027
@@ -196,15 +182,15 @@ markets:
     currency_symbol: OST
     currency_type: cryptocurrency
     exchange_symbol: OST
-  exchange_id: 421
-  exchange_name: IDCM
-  pair: OST/BTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: OST/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.idcm.io/trading/OST_BTC
+    exchange_symbol: USDT
+  url: https://gate.io/trade/ost_usdt
 - base:
     currency_id: 2296
     currency_symbol: OST
@@ -233,8 +219,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://exchange.gbx.gi/trade?symbol=OST%2FETH
+- base:
+    currency_id: 2296
+    currency_symbol: OST
+    currency_type: cryptocurrency
+    exchange_symbol: OST
+  exchange_id: 421
+  exchange_name: IDCM
+  pair: OST/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.idcm.io/trading/OST_BTC
 name: OST
-rank: 442
+rank: 448
 slug: ost
 status: active
 symbol: OST

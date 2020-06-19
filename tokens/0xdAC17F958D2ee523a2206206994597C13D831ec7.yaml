@@ -39,20 +39,6 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 470
-  exchange_name: EtherFlyer
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.etherflyer.com/trade.html?pairs=BTC-USDT
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
   exchange_id: 487
   exchange_name: VinDAX
   pair: BTC/USDT
@@ -62,6 +48,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://vindax.com/exchange-base.html?symbol=BTC_USDT
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 470
+  exchange_name: EtherFlyer
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.etherflyer.com/trade.html?pairs=BTC-USDT
 - base:
     currency_id: 2456
     currency_symbol: OF
@@ -95,20 +95,6 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/BTC_USDT?ref=H31B921U
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
   exchange_id: 403
   exchange_name: BitForex
   pair: BTC/USDT
@@ -123,29 +109,15 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 528
-  exchange_name: BiKi
+  exchange_id: 270
+  exchange_name: Binance
   pair: BTC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.biki.cc/en_US/trade/BTC_USDT
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 470
-  exchange_name: EtherFlyer
-  pair: ETH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.etherflyer.com/trade.html?pairs=ETH-USDT
+  url: https://www.binance.com/en/trade/BTC_USDT?ref=H31B921U
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -160,20 +132,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://coinsbit.io/trade/BTC_USDT
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 421
-  exchange_name: IDCM
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.idcm.io/trading/BTC_USDT
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -207,15 +165,15 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 102
-  exchange_name: Huobi Global
+  exchange_id: 312
+  exchange_name: BCEX
   pair: BTC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/btc_usdt?invite_code=5kij5
+  url: https://www.bcex.ca/trade/btc_usdt
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -235,29 +193,43 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 300
-  exchange_name: BitZ
+  exchange_id: 528
+  exchange_name: BiKi
   pair: BTC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bit-z.com/exchange/btc_usdt
+  url: https://www.biki.cc/en_US/trade/BTC_USDT
 - base:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 312
-  exchange_name: BCEX
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: BTC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bcex.ca/trade/btc_usdt
+  url: https://www.hbg.com/en-us/exchange/btc_usdt?invite_code=5kij5
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 470
+  exchange_name: EtherFlyer
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.etherflyer.com/trade.html?pairs=ETH-USDT
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -272,6 +244,76 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bkex.com/trade/BTC_USDT
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://vindax.com/exchange-base.html?symbol=ETH_USDT
+- base:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  exchange_id: 518
+  exchange_name: Triv Pro
+  pair: USDT/IDR
+  quote:
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://tpro.co.id/markets/usdtidr
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bit-z.com/exchange/btc_usdt
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 467
+  exchange_name: BitRabbit
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitrabbit.com/markets/btc_usdt
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 312
+  exchange_name: BCEX
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bcex.ca/trade/eth_usdt
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -291,15 +333,29 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 656
+  exchange_name: Omgfin
   pair: BTC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://hitbtc.com/BTC-to-USDT
+  url: https://omgfin.com/exchange/trade/market/BTCUSDT
+- base:
+    currency_id: 2
+    currency_symbol: LTC
+    currency_type: cryptocurrency
+    exchange_symbol: LTC
+  exchange_id: 331
+  exchange_name: EXX
+  pair: LTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.exx.com/tradeCoding/ltc_usdt
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -319,15 +375,43 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 467
-  exchange_name: BitRabbit
+  exchange_id: 473
+  exchange_name: Hubi
   pair: BTC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://bitrabbit.com/markets/btc_usdt
+  url: https://www.hubi.com/#/exchange/btc_usdt
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 673
+  exchange_name: UPEX
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://upex.io/trade/BTC_USDT
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/BTC-to-USDT
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -375,132 +459,6 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 645
-  exchange_name: BitUBU
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitubu.com/trading/btcusdt
-- base:
-    currency_id: 2
-    currency_symbol: LTC
-    currency_type: cryptocurrency
-    exchange_symbol: LTC
-  exchange_id: 331
-  exchange_name: EXX
-  pair: LTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.exx.com/tradeCoding/ltc_usdt
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 312
-  exchange_name: BCEX
-  pair: ETH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bcex.ca/trade/eth_usdt
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 673
-  exchange_name: UPEX
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://upex.io/trade/BTC_USDT
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bibox.com/exchange?coinPair=BTC_USDT
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/BTCUSDT
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 574
-  exchange_name: WBF Exchange
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.wbf.info/trade/BTC_USDT
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 421
-  exchange_name: IDCM
-  pair: ETH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.idcm.io/trading/ETH_USDT
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 473
-  exchange_name: Hubi
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hubi.com/#/exchange/btc_usdt
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
   exchange_id: 343
   exchange_name: CoinBene
   pair: BTC/USDT
@@ -510,6 +468,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=BTCUSDT?hash=2NbmTq6
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 645
+  exchange_name: BitUBU
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitubu.com/trading/btcusdt
 - base:
     currency_id: 1027
     currency_symbol: ETH
@@ -529,29 +501,29 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 453
-  exchange_name: BitMax
+  exchange_id: 574
+  exchange_name: WBF Exchange
   pair: BTC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/btc
+  url: https://www.wbf.info/trade/BTC_USDT
 - base:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 487
-  exchange_name: VinDAX
-  pair: ETH/USDT
+    exchange_symbol: BTC
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: BTC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://vindax.com/exchange-base.html?symbol=ETH_USDT
+  url: https://www.bibox.com/exchange?coinPair=BTC_USDT
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -571,6 +543,20 @@ markets:
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
+  exchange_id: 446
+  exchange_name: TOKOK
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.tokok.com/market?symbol=ETH_USDT
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   exchange_id: 574
   exchange_name: WBF Exchange
   pair: ETH/USDT
@@ -580,20 +566,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.wbf.info/trade/ETH_USDT
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 407
-  exchange_name: DigiFinex
-  pair: ETH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.digifinex.com/en-ww/trade/USDT/ETH
 - base:
     currency_id: 2
     currency_symbol: LTC
@@ -613,62 +585,6 @@ markets:
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  exchange_id: 300
-  exchange_name: BitZ
-  pair: ETH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bit-z.com/exchange/eth_usdt
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 528
-  exchange_name: BiKi
-  pair: ETH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.biki.cc/en_US/trade/ETH_USDT
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 446
-  exchange_name: TOKOK
-  pair: ETH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.tokok.com/market?symbol=ETH_USDT
-- base:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  exchange_id: 518
-  exchange_name: Triv Pro
-  pair: USDT/IDR
-  quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://tpro.co.id/markets/usdtidr
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
   exchange_id: 403
   exchange_name: BitForex
   pair: ETH/USDT
@@ -678,34 +594,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bitforex.com/en/spot/eth_usdt
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 270
-  exchange_name: Binance
-  pair: ETH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/ETH_USDT?ref=H31B921U
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 343
-  exchange_name: CoinBene
-  pair: ETH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=ETHUSDT?hash=2NbmTq6
 - base:
     currency_id: 1831
     currency_symbol: BCH
@@ -721,19 +609,33 @@ markets:
     exchange_symbol: USDT
   url: https://www.exx.com/tradeCoding/bch_usdt
 - base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/btc
+- base:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  exchange_id: 102
-  exchange_name: Huobi Global
+  exchange_id: 343
+  exchange_name: CoinBene
   pair: ETH/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/eth_usdt?invite_code=5kij5
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=ETHUSDT?hash=2NbmTq6
 - base:
     currency_id: 1958
     currency_symbol: TRX
@@ -749,33 +651,19 @@ markets:
     exchange_symbol: USDT
   url: https://www.hcoin.com/trade/usdt/trx
 - base:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 52
+    currency_symbol: XRP
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: BTC/USDT
+    exchange_symbol: XRP
+  exchange_id: 312
+  exchange_name: BCEX
+  pair: XRP/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://whitebit.com/trade/BTC_USDT
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: ETH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://latoken.com/exchange/USDT-ETH
+  url: https://www.bcex.ca/trade/xrp_usdt
 - base:
     currency_id: 52
     currency_symbol: XRP
@@ -791,61 +679,19 @@ markets:
     exchange_symbol: USDT
   url: https://www.hcoin.com/trade/usdt/xrp
 - base:
-    currency_id: 2
-    currency_symbol: LTC
-    currency_type: cryptocurrency
-    exchange_symbol: LTC
-  exchange_id: 421
-  exchange_name: IDCM
-  pair: LTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.idcm.io/trading/LTC_USDT
-- base:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  exchange_id: 312
-  exchange_name: BCEX
-  pair: XRP/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bcex.ca/trade/xrp_usdt
-- base:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: ETH/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://hitbtc.com/ETH-to-USDT
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 857
-  exchange_name: Bitcoin.com
-  pair: ETH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: null
+  url: https://latoken.com/exchange/USDT-ETH
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -879,90 +725,6 @@ markets:
     currency_symbol: EOS
     currency_type: cryptocurrency
     exchange_symbol: EOS
-  exchange_id: 421
-  exchange_name: IDCM
-  pair: EOS/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.idcm.io/trading/EOS_USDT
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 155
-  exchange_name: Exrates
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://exrates.me/trading/BTCUSDT
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 430
-  exchange_name: ZBG
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.zbg.com/trade/btc_usdt
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 544
-  exchange_name: MXC
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.mxc.com/trade/easy#BTC_USDT
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 452
-  exchange_name: Coineal
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hk.coineal.com/trade_center.html?s=btc-usdt#en_US
-- base:
-    currency_id: 1765
-    currency_symbol: EOS
-    currency_type: cryptocurrency
-    exchange_symbol: EOS
-  exchange_id: 470
-  exchange_name: EtherFlyer
-  pair: EOS/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.etherflyer.com/trade.html?pairs=EOS-USDT
-- base:
-    currency_id: 1765
-    currency_symbol: EOS
-    currency_type: cryptocurrency
-    exchange_symbol: EOS
   exchange_id: 312
   exchange_name: BCEX
   pair: EOS/USDT
@@ -977,15 +739,29 @@ markets:
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  exchange_id: 629
-  exchange_name: Ecxx
+  exchange_id: 407
+  exchange_name: DigiFinex
   pair: ETH/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.ecxx.com/tradingview?symbol=ETH_USDT
+  url: https://www.digifinex.com/en-ww/trade/USDT/ETH
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 539
+  exchange_name: BitAsset
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitasset.com/ktrade/BTC-USDT
 - base:
     currency_id: 74
     currency_symbol: DOGE
@@ -1005,71 +781,43 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 497
-  exchange_name: Bione
+  exchange_id: 326
+  exchange_name: ZB.COM
   pair: BTC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bione.cc/index/trade/index/market/btc_usdt
+  url: https://trans.zb.com/btcusdt?recommendCode=d0ip3b
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://whitebit.com/trade/BTC_USDT
 - base:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  exchange_id: 544
-  exchange_name: MXC
+  exchange_id: 300
+  exchange_name: BitZ
   pair: ETH/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.mxc.com/trade/easy#ETH_USDT
-- base:
-    currency_id: 512
-    currency_symbol: XLM
-    currency_type: cryptocurrency
-    exchange_symbol: XLM
-  exchange_id: 403
-  exchange_name: BitForex
-  pair: XLM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitforex.com/en/spot/xlm_usdt
-- base:
-    currency_id: 1831
-    currency_symbol: BCH
-    currency_type: cryptocurrency
-    exchange_symbol: BCH
-  exchange_id: 343
-  exchange_name: CoinBene
-  pair: BCH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=BCHUSDT?hash=2NbmTq6
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 480
-  exchange_name: Cat.Ex
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.catex.io/trading/BTC/USDT
+  url: https://www.bit-z.com/exchange/eth_usdt
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -1085,61 +833,89 @@ markets:
     exchange_symbol: USDT
   url: https://dragonex.io
 - base:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1684
+    currency_symbol: QTUM
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 539
-  exchange_name: BitAsset
-  pair: BTC/USDT
+    exchange_symbol: QTUM
+  exchange_id: 331
+  exchange_name: EXX
+  pair: QTUM/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bitasset.com/ktrade/BTC-USDT
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: BTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trans.zb.com/btcusdt?recommendCode=d0ip3b
+  url: https://www.exx.com/tradeCoding/qtum_usdt
 - base:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  exchange_id: 482
-  exchange_name: BKEX
+  exchange_id: 270
+  exchange_name: Binance
   pair: ETH/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bkex.com/trade/ETH_USDT
+  url: https://www.binance.com/en/trade/ETH_USDT?ref=H31B921U
 - base:
-    currency_id: 1376
-    currency_symbol: NEO
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: NEO
-  exchange_id: 403
-  exchange_name: BitForex
-  pair: NEO/USDT
+    exchange_symbol: BTC
+  exchange_id: 497
+  exchange_name: Bione
+  pair: BTC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bitforex.com/en/spot/neo_usdt
+  url: https://www.bione.cc/index/trade/index/market/btc_usdt
+- base:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: BCH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=BCHUSDT?hash=2NbmTq6
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 629
+  exchange_name: Ecxx
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.ecxx.com/tradingview?symbol=ETH_USDT
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://exrates.me/trading/BTCUSDT
 - base:
     currency_id: 1027
     currency_symbol: ETH
@@ -1155,19 +931,75 @@ markets:
     exchange_symbol: USDT
   url: https://www.hubi.com/#/exchange/eth_usdt
 - base:
-    currency_id: 3602
-    currency_symbol: BSV
+    currency_id: 512
+    currency_symbol: XLM
     currency_type: cryptocurrency
-    exchange_symbol: BSV
-  exchange_id: 574
-  exchange_name: WBF Exchange
-  pair: BSV/USDT
+    exchange_symbol: XLM
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: XLM/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.wbf.info/trade/BSV_USDT
+  url: https://www.bitforex.com/en/spot/xlm_usdt
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 544
+  exchange_name: MXC
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.mxc.com/trade/easy#BTC_USDT
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 430
+  exchange_name: ZBG
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.zbg.com/trade/btc_usdt
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 544
+  exchange_name: MXC
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.mxc.com/trade/easy#ETH_USDT
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/eth_usdt?invite_code=5kij5
 - base:
     currency_id: 2
     currency_symbol: LTC
@@ -1187,15 +1019,85 @@ markets:
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  exchange_id: 155
-  exchange_name: Exrates
+  exchange_id: 857
+  exchange_name: Bitcoin.com
   pair: ETH/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://exrates.me/trading/ETHUSDT
+  url: null
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/ETH-to-USDT
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 528
+  exchange_name: BiKi
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.biki.cc/en_US/trade/ETH_USDT
+- base:
+    currency_id: 1376
+    currency_symbol: NEO
+    currency_type: cryptocurrency
+    exchange_symbol: NEO
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: NEO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitforex.com/en/spot/neo_usdt
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 330
+  exchange_name: BigONE
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://big.one/trade/BTC-USDT
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 505
+  exchange_name: CBX
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.cbx.one/trade/BTC-USDT
 - base:
     currency_id: 1831
     currency_symbol: BCH
@@ -1211,19 +1113,47 @@ markets:
     exchange_symbol: USDT
   url: https://www.bitforex.com/en/spot/bch_usdt
 - base:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: USDT/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://sistemkoin.com/#/
+- base:
+    currency_id: 3602
+    currency_symbol: BSV
+    currency_type: cryptocurrency
+    exchange_symbol: BSV
+  exchange_id: 574
+  exchange_name: WBF Exchange
+  pair: BSV/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.wbf.info/trade/BSV_USDT
+- base:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 409
-  exchange_name: DOBI Exchange
+  exchange_id: 452
+  exchange_name: Coineal
   pair: BTC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.dobitrade.com/trade/btc_usdt
+  url: https://hk.coineal.com/trade_center.html?s=btc-usdt#en_US
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -1239,33 +1169,33 @@ markets:
     exchange_symbol: USDT
   url: https://www.dcoin.com/currencyTrading/BTC_USDT
 - base:
-    currency_id: 2280
-    currency_symbol: FIL
+    currency_id: 1765
+    currency_symbol: EOS
     currency_type: cryptocurrency
-    exchange_symbol: FIL
-  exchange_id: 403
-  exchange_name: BitForex
-  pair: FIL/USDT
+    exchange_symbol: EOS
+  exchange_id: 470
+  exchange_name: EtherFlyer
+  pair: EOS/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bitforex.com/en/spot/fil_usdt
+  url: https://www.etherflyer.com/trade.html?pairs=EOS-USDT
 - base:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 673
-  exchange_name: UPEX
-  pair: ETH/USDT
+    exchange_symbol: BTC
+  exchange_id: 409
+  exchange_name: DOBI Exchange
+  pair: BTC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://upex.io/trade/ETH_USDT
+  url: https://www.dobitrade.com/trade/btc_usdt
 - base:
     currency_id: 1321
     currency_symbol: ETC
@@ -1281,75 +1211,103 @@ markets:
     exchange_symbol: USDT
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=ETCUSDT?hash=2NbmTq6
 - base:
-    currency_id: 2
-    currency_symbol: LTC
+    currency_id: 2280
+    currency_symbol: FIL
     currency_type: cryptocurrency
-    exchange_symbol: LTC
-  exchange_id: 470
-  exchange_name: EtherFlyer
-  pair: LTC/USDT
+    exchange_symbol: FIL
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: FIL/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.etherflyer.com/trade.html?pairs=LTC-USDT
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: ETH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=eth_usdt
-- base:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: USDT/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://sistemkoin.com/#/
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: ETH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bibox.com/exchange?coinPair=ETH_USDT
+  url: https://www.bitforex.com/en/spot/fil_usdt
 - base:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  exchange_id: 350
-  exchange_name: CoinEx
+  exchange_id: 459
+  exchange_name: BW.com
   pair: BTC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=btc&tab=limit
+  url: https://www.bw.com/trade/btc_usdt
+- base:
+    currency_id: 3602
+    currency_symbol: BSV
+    currency_type: cryptocurrency
+    exchange_symbol: BCHSV
+  exchange_id: 331
+  exchange_name: EXX
+  pair: BSV/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.exx.com/tradeCoding/bsv_usdt
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://sistemkoin.com/#/
+- base:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  exchange_id: 544
+  exchange_name: MXC
+  pair: BCH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.mxc.com/trade/easy#BCH_USDT
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bkex.com/trade/ETH_USDT
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://exrates.me/trading/ETHUSDT
 - base:
     currency_id: 1831
     currency_symbol: BCH
@@ -1369,6 +1327,20 @@ markets:
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
+  exchange_id: 673
+  exchange_name: UPEX
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://upex.io/trade/ETH_USDT
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
   exchange_id: 645
   exchange_name: BitUBU
   pair: ETH/USDT
@@ -1378,20 +1350,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bitubu.com/trading/ethusdt
-- base:
-    currency_id: 1831
-    currency_symbol: BCH
-    currency_type: cryptocurrency
-    exchange_symbol: BCH
-  exchange_id: 544
-  exchange_name: MXC
-  pair: BCH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.mxc.com/trade/easy#BCH_USDT
 - base:
     currency_id: 3602
     currency_symbol: BSV
@@ -1407,33 +1365,75 @@ markets:
     exchange_symbol: USDT
   url: https://www.mxc.com/trade/easy#BSV_USDT
 - base:
-    currency_id: 1831
-    currency_symbol: BCH
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BCH
-  exchange_id: 528
-  exchange_name: BiKi
-  pair: BCH/USDT
+    exchange_symbol: ETH
+  exchange_id: 430
+  exchange_name: ZBG
+  pair: ETH/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.biki.cc/en_US/trade/BCH_USDT
+  url: https://www.zbg.com/trade/eth_usdt
 - base:
-    currency_id: 1831
-    currency_symbol: BCH
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BCH
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: BCH/USDT
+    exchange_symbol: ETH
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: ETH/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://latoken.com/exchange/USDT-BCH
+  url: https://www.okex.com/market?product=eth_usdt
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: BTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=btc&tab=limit
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://sistemkoin.com/#/
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 469
+  exchange_name: Coinlim
+  pair: ETH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinlim.com/#/dashboard
 name: Tether
 rank: 3
 slug: tether

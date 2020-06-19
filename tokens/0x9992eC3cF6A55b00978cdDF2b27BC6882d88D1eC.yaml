@@ -47,20 +47,6 @@ markets:
     currency_symbol: POLY
     currency_type: cryptocurrency
     exchange_symbol: POLY
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: POLY/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-POLY
-- base:
-    currency_id: 2496
-    currency_symbol: POLY
-    currency_type: cryptocurrency
-    exchange_symbol: POLY
   exchange_id: 270
   exchange_name: Binance
   pair: POLY/BTC
@@ -70,6 +56,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.binance.com/en/trade/POLY_BTC?ref=H31B921U
+- base:
+    currency_id: 2496
+    currency_symbol: POLY
+    currency_type: cryptocurrency
+    exchange_symbol: POLY
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: POLY/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-POLY
 - base:
     currency_id: 2496
     currency_symbol: POLY
@@ -103,6 +103,20 @@ markets:
     currency_symbol: POLY
     currency_type: cryptocurrency
     exchange_symbol: POLY
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: POLY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://alterdice.com/trading/POLYBTC
+- base:
+    currency_id: 2496
+    currency_symbol: POLY
+    currency_type: cryptocurrency
+    exchange_symbol: POLY
   exchange_id: 102
   exchange_name: Huobi Global
   pair: POLY/BTC
@@ -131,15 +145,15 @@ markets:
     currency_symbol: POLY
     currency_type: cryptocurrency
     exchange_symbol: POLY
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: POLY/BTC
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: POLY/XRP
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 52
+    currency_symbol: XRP
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://alterdice.com/trading/POLYBTC
+    exchange_symbol: XRP
+  url: https://www.bitrue.com/trade/poly_xrp?inviteCode=VQQLQV
 - base:
     currency_id: 2496
     currency_symbol: POLY
@@ -159,15 +173,15 @@ markets:
     currency_symbol: POLY
     currency_type: cryptocurrency
     exchange_symbol: POLY
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: POLY/XRP
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: POLY/BTC
   quote:
-    currency_id: 52
-    currency_symbol: XRP
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://www.bitrue.com/trade/poly_xrp?inviteCode=VQQLQV
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/POLYBTC
 - base:
     currency_id: 2496
     currency_symbol: POLY
@@ -187,20 +201,6 @@ markets:
     currency_symbol: POLY
     currency_type: cryptocurrency
     exchange_symbol: POLY
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: POLY/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/poly_eth?invite_code=5kij5
-- base:
-    currency_id: 2496
-    currency_symbol: POLY
-    currency_type: cryptocurrency
-    exchange_symbol: POLY
   exchange_id: 433
   exchange_name: Bitrue
   pair: POLY/BTC
@@ -210,20 +210,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bitrue.com/trade/poly_btc?inviteCode=VQQLQV
-- base:
-    currency_id: 2496
-    currency_symbol: POLY
-    currency_type: cryptocurrency
-    exchange_symbol: POLY
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: POLY/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/POLY-USDT
 - base:
     currency_id: 2496
     currency_symbol: POLY
@@ -243,15 +229,29 @@ markets:
     currency_symbol: POLY
     currency_type: cryptocurrency
     exchange_symbol: POLY
-  exchange_id: 404
-  exchange_name: Kyber Network
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: POLY/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://kyberswap.com/swap/poly-eth
+  url: https://www.hbg.com/en-us/exchange/poly_eth?invite_code=5kij5
+- base:
+    currency_id: 2496
+    currency_symbol: POLY
+    currency_type: cryptocurrency
+    exchange_symbol: POLY
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: POLY/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/POLY-USDT
 - base:
     currency_id: 2496
     currency_symbol: POLY
@@ -271,15 +271,15 @@ markets:
     currency_symbol: POLY
     currency_type: cryptocurrency
     exchange_symbol: POLY
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 16
+  exchange_name: Poloniex
   pair: POLY/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/POLYBTC
+  url: https://poloniex.com/exchange#btc_poly?c=H4QD8FNW
 - base:
     currency_id: 2496
     currency_symbol: POLY
@@ -299,29 +299,43 @@ markets:
     currency_symbol: POLY
     currency_type: cryptocurrency
     exchange_symbol: POLY
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: POLY/BTC
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: POLY/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_poly?c=H4QD8FNW
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/poly-eth
 - base:
     currency_id: 2496
     currency_symbol: POLY
     currency_type: cryptocurrency
     exchange_symbol: POLY
-  exchange_id: 107
-  exchange_name: Livecoin
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: POLY/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/POLY_BTC
+  url: https://hitbtc.com/POLY-to-BTC
+- base:
+    currency_id: 2496
+    currency_symbol: POLY
+    currency_type: cryptocurrency
+    exchange_symbol: POLY
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: POLY/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/POLY-to-ETH
 - base:
     currency_id: 2496
     currency_symbol: POLY
@@ -341,15 +355,15 @@ markets:
     currency_symbol: POLY
     currency_type: cryptocurrency
     exchange_symbol: POLY
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 107
+  exchange_name: Livecoin
   pair: POLY/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/POLY-to-BTC
+  url: https://www.livecoin.net/en/trading/POLY_BTC
 - base:
     currency_id: 2496
     currency_symbol: POLY
@@ -383,29 +397,15 @@ markets:
     currency_symbol: POLY
     currency_type: cryptocurrency
     exchange_symbol: POLY
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 523
+  exchange_name: Beaxy
   pair: POLY/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/poly_btc/
-- base:
-    currency_id: 2496
-    currency_symbol: POLY
-    currency_type: cryptocurrency
-    exchange_symbol: POLY
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: POLY/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/POLY-to-ETH
+  url: https://exchange.beaxy.com/?pair=POLYBTC&tid=1589766588936
 - base:
     currency_id: 2496
     currency_symbol: POLY
@@ -420,6 +420,48 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/poly
+- base:
+    currency_id: 2496
+    currency_symbol: POLY
+    currency_type: cryptocurrency
+    exchange_symbol: POLY
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: POLY/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/poly_eth/
+- base:
+    currency_id: 2496
+    currency_symbol: POLY
+    currency_type: cryptocurrency
+    exchange_symbol: POLY
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: POLY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/poly_btc/
+- base:
+    currency_id: 2496
+    currency_symbol: POLY
+    currency_type: cryptocurrency
+    exchange_symbol: POLY
+  exchange_id: 104
+  exchange_name: LiteBit.eu
+  pair: POLY/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://www.litebit.eu/en/buy/polymath-network
 - base:
     currency_id: 2496
     currency_symbol: POLY
@@ -448,50 +490,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.idcm.io/trading/POLY_ETH
-- base:
-    currency_id: 2496
-    currency_symbol: POLY
-    currency_type: cryptocurrency
-    exchange_symbol: POLY
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: POLY/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/poly_eth/
-- base:
-    currency_id: 2496
-    currency_symbol: POLY
-    currency_type: cryptocurrency
-    exchange_symbol: POLY
-  exchange_id: 523
-  exchange_name: Beaxy
-  pair: POLY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exchange.beaxy.com/?pair=POLYBTC&tid=1589766588936
-- base:
-    currency_id: 2496
-    currency_symbol: POLY
-    currency_type: cryptocurrency
-    exchange_symbol: POLY
-  exchange_id: 104
-  exchange_name: LiteBit.eu
-  pair: POLY/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://www.litebit.eu/en/buy/polymath-network
 name: Polymath
-rank: 159
+rank: 155
 slug: polymath-network
 status: active
 symbol: POLY

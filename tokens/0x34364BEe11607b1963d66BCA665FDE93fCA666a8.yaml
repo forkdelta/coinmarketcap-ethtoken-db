@@ -34,20 +34,6 @@ markets:
     exchange_symbol: YOU
   exchange_id: 294
   exchange_name: OKEx
-  pair: YOU/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.okex.com/market?product=you_eth
-- base:
-    currency_id: 3053
-    currency_symbol: YOU
-    currency_type: cryptocurrency
-    exchange_symbol: YOU
-  exchange_id: 294
-  exchange_name: OKEx
   pair: YOU/USDT
   quote:
     currency_id: 825
@@ -55,6 +41,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.okex.com/market?product=you_usdt
+- base:
+    currency_id: 3053
+    currency_symbol: YOU
+    currency_type: cryptocurrency
+    exchange_symbol: YOU
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: YOU/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.okex.com/market?product=you_eth
 - base:
     currency_id: 3053
     currency_symbol: YOU
@@ -88,20 +88,6 @@ markets:
     currency_symbol: YOU
     currency_type: cryptocurrency
     exchange_symbol: YOU
-  exchange_id: 490
-  exchange_name: OKEx Korea
-  pair: YOU/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://okex.co.kr/kr/view/exchange?coin=YOU&market=BTC
-- base:
-    currency_id: 3053
-    currency_symbol: YOU
-    currency_type: cryptocurrency
-    exchange_symbol: YOU
   exchange_id: 22
   exchange_name: Bittrex
   pair: YOU/BTC
@@ -118,6 +104,20 @@ markets:
     exchange_symbol: YOU
   exchange_id: 490
   exchange_name: OKEx Korea
+  pair: YOU/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://okex.co.kr/kr/view/exchange?coin=YOU&market=BTC
+- base:
+    currency_id: 3053
+    currency_symbol: YOU
+    currency_type: cryptocurrency
+    exchange_symbol: YOU
+  exchange_id: 490
+  exchange_name: OKEx Korea
   pair: YOU/USDT
   quote:
     currency_id: 825
@@ -126,7 +126,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=YOU&market=USDT
 name: YOU COIN
-rank: 485
+rank: 494
 slug: you-coin
 status: active
 symbol: YOU

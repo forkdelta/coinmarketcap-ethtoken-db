@@ -39,20 +39,6 @@ markets:
     exchange_symbol: BOB
   exchange_id: 400
   exchange_name: Hotbit
-  pair: BOB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=BOB_BTC
-- base:
-    currency_id: 2889
-    currency_symbol: BOB
-    currency_type: fiat
-    exchange_symbol: BOB
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: BOB/ETH
   quote:
     currency_id: 1027
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=BOB_ETH
+- base:
+    currency_id: 2889
+    currency_symbol: BOB
+    currency_type: fiat
+    exchange_symbol: BOB
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: BOB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=BOB_BTC
 - base:
     currency_id: 2889
     currency_symbol: BOB
@@ -89,7 +89,7 @@ markets:
     exchange_symbol: BTC
   url: https://bitbay.net/en/exchange-rate/BOB-BTC
 name: Bob's Repair
-rank: 1130
+rank: 1111
 slug: bobs-repair
 status: active
 symbol: BOB

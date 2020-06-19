@@ -63,6 +63,34 @@ markets:
     currency_symbol: FX
     currency_type: cryptocurrency
     exchange_symbol: FX
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: FX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.kucoin.com/FX-BTC
+- base:
+    currency_id: 3884
+    currency_symbol: FX
+    currency_type: cryptocurrency
+    exchange_symbol: FX
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: FX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 3884
+    currency_symbol: FX
+    currency_type: cryptocurrency
+    exchange_symbol: FX
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: FX/BTC
@@ -91,62 +119,6 @@ markets:
     currency_symbol: FX
     currency_type: cryptocurrency
     exchange_symbol: FX
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: FX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kucoin.com/FX-BTC
-- base:
-    currency_id: 3884
-    currency_symbol: FX
-    currency_type: cryptocurrency
-    exchange_symbol: FX
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: FX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vcc.exchange/exchange/basic?currency=eth&coin=fx
-- base:
-    currency_id: 3884
-    currency_symbol: FX
-    currency_type: cryptocurrency
-    exchange_symbol: FX
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: FX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 3884
-    currency_symbol: FX
-    currency_type: cryptocurrency
-    exchange_symbol: FX
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: FX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-FX
-- base:
-    currency_id: 3884
-    currency_symbol: FX
-    currency_type: cryptocurrency
-    exchange_symbol: FX
   exchange_id: 351
   exchange_name: Upbit
   pair: FX/BTC
@@ -170,8 +142,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://trade.kucoin.com/FX-ETH
+- base:
+    currency_id: 3884
+    currency_symbol: FX
+    currency_type: cryptocurrency
+    exchange_symbol: FX
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: FX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vcc.exchange/exchange/basic?currency=eth&coin=fx
+- base:
+    currency_id: 3884
+    currency_symbol: FX
+    currency_type: cryptocurrency
+    exchange_symbol: FX
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: FX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-FX
 name: Function X
-rank: 166
+rank: 168
 slug: function-x
 status: active
 symbol: FX

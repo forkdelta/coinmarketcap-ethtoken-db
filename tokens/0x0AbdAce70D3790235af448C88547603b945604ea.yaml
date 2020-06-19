@@ -49,20 +49,6 @@ markets:
     currency_symbol: DNT
     currency_type: cryptocurrency
     exchange_symbol: DNT
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: DNT/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://pro.coinbase.com/trade/DNT-USDC
-- base:
-    currency_id: 1856
-    currency_symbol: DNT
-    currency_type: cryptocurrency
-    exchange_symbol: DNT
   exchange_id: 213
   exchange_name: Mercatox
   pair: DNT/ETH
@@ -77,15 +63,43 @@ markets:
     currency_symbol: DNT
     currency_type: cryptocurrency
     exchange_symbol: DNT
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: DNT/ETH
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: DNT/USDC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 3408
+    currency_symbol: USDC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.fatbtc.com/
+    exchange_symbol: USDC
+  url: https://pro.coinbase.com/trade/DNT-USDC
+- base:
+    currency_id: 1856
+    currency_symbol: DNT
+    currency_type: cryptocurrency
+    exchange_symbol: DNT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: DNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-DNT
+- base:
+    currency_id: 1856
+    currency_symbol: DNT
+    currency_type: cryptocurrency
+    exchange_symbol: DNT
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: DNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=dnt
 - base:
     currency_id: 1856
     currency_symbol: DNT
@@ -119,15 +133,15 @@ markets:
     currency_symbol: DNT
     currency_type: cryptocurrency
     exchange_symbol: DNT
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: DNT/XRP
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: DNT/ETH
   quote:
-    currency_id: 52
-    currency_symbol: XRP
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://www.bitrue.com/trade/dnt_xrp?inviteCode=VQQLQV
+    exchange_symbol: ETH
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 1856
     currency_symbol: DNT
@@ -147,29 +161,15 @@ markets:
     currency_symbol: DNT
     currency_type: cryptocurrency
     exchange_symbol: DNT
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: DNT/BTC
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: DNT/XRP
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 52
+    currency_symbol: XRP
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=dnt
-- base:
-    currency_id: 1856
-    currency_symbol: DNT
-    currency_type: cryptocurrency
-    exchange_symbol: DNT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: DNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-DNT
+    exchange_symbol: XRP
+  url: https://www.bitrue.com/trade/dnt_xrp?inviteCode=VQQLQV
 - base:
     currency_id: 1856
     currency_symbol: DNT
@@ -241,7 +241,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/DNT/WETH
 name: district0x
-rank: 583
+rank: 569
 slug: district0x
 status: active
 symbol: DNT
