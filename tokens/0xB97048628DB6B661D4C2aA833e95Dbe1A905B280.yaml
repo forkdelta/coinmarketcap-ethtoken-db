@@ -89,20 +89,6 @@ markets:
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: PAY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-PAY
-- base:
-    currency_id: 1758
-    currency_symbol: PAY
-    currency_type: cryptocurrency
-    exchange_symbol: PAY
   exchange_id: 363
   exchange_name: Fatbtc
   pair: PAY/ETH
@@ -117,15 +103,15 @@ markets:
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: PAY/ETH
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: PAY/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/pay_eth?invite_code=5kij5
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-PAY
 - base:
     currency_id: 1758
     currency_symbol: PAY
@@ -145,29 +131,29 @@ markets:
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
-  exchange_id: 82
-  exchange_name: BitBay
-  pair: PAY/PLN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: PAY/ETH
   quote:
-    currency_id: 2805
-    currency_symbol: PLN
-    currency_type: fiat
-    exchange_symbol: PLN
-  url: https://bitbay.net/en/exchange-rate/PAY-PLN
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/pay_eth?invite_code=5kij5
 - base:
     currency_id: 1758
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: PAY/BTC
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: PAY/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/PAY-to-BTC
+    exchange_symbol: ETH
+  url: https://www.bkex.com/trade/PAY_ETH
 - base:
     currency_id: 1758
     currency_symbol: PAY
@@ -187,15 +173,57 @@ markets:
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
-  exchange_id: 302
-  exchange_name: Gate.io
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: PAY/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-PAY
+- base:
+    currency_id: 1758
+    currency_symbol: PAY
+    currency_type: cryptocurrency
+    exchange_symbol: PAY
+  exchange_id: 545
+  exchange_name: Bitsdaq
+  pair: PAY/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bitsdaq.com/exchange/PAY-ETH
+- base:
+    currency_id: 1758
+    currency_symbol: PAY
+    currency_type: cryptocurrency
+    exchange_symbol: PAY
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: PAY/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://gate.io/trade/pay_btc
+  url: https://hitbtc.com/PAY-to-BTC
+- base:
+    currency_id: 1758
+    currency_symbol: PAY
+    currency_type: cryptocurrency
+    exchange_symbol: PAY
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: PAY/PLN
+  quote:
+    currency_id: 2805
+    currency_symbol: PLN
+    currency_type: fiat
+    exchange_symbol: PLN
+  url: https://bitbay.net/en/exchange-rate/PAY-PLN
 - base:
     currency_id: 1758
     currency_symbol: PAY
@@ -215,15 +243,15 @@ markets:
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
-  exchange_id: 351
-  exchange_name: Upbit
+  exchange_id: 302
+  exchange_name: Gate.io
   pair: PAY/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-PAY
+  url: https://gate.io/trade/pay_btc
 - base:
     currency_id: 1758
     currency_symbol: PAY
@@ -257,34 +285,6 @@ markets:
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: PAY/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bitsdaq.com/exchange/PAY-ETH
-- base:
-    currency_id: 1758
-    currency_symbol: PAY
-    currency_type: cryptocurrency
-    exchange_symbol: PAY
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: PAY/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-PAY
-- base:
-    currency_id: 1758
-    currency_symbol: PAY
-    currency_type: cryptocurrency
-    exchange_symbol: PAY
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: PAY/ETH
@@ -299,29 +299,15 @@ markets:
     currency_symbol: PAY
     currency_type: cryptocurrency
     exchange_symbol: PAY
-  exchange_id: 242
-  exchange_name: COSS
-  pair: PAY/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coss.io/c/trade?s=PAY_ETH
-- base:
-    currency_id: 1758
-    currency_symbol: PAY
-    currency_type: cryptocurrency
-    exchange_symbol: PAY
-  exchange_id: 242
-  exchange_name: COSS
+  exchange_id: 351
+  exchange_name: Upbit
   pair: PAY/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.coss.io/c/trade?s=PAY_BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-PAY
 - base:
     currency_id: 1758
     currency_symbol: PAY
@@ -350,20 +336,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/pay
-- base:
-    currency_id: 1758
-    currency_symbol: PAY
-    currency_type: cryptocurrency
-    exchange_symbol: PAY
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: PAY/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bkex.com/trade/PAY_ETH
 - base:
     currency_id: 1758
     currency_symbol: PAY
@@ -421,7 +393,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.valr.com/buy/PAY/ETH
 name: TenX
-rank: 463
+rank: 461
 slug: tenx
 status: active
 symbol: PAY

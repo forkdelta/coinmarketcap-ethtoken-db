@@ -18,20 +18,6 @@ markets:
     currency_symbol: 1ST
     currency_type: cryptocurrency
     exchange_symbol: 1ST
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: 1ST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/1ST-to-BTC
-- base:
-    currency_id: 1403
-    currency_symbol: 1ST
-    currency_type: cryptocurrency
-    exchange_symbol: 1ST
   exchange_id: 22
   exchange_name: Bittrex
   pair: 1ST/BTC
@@ -41,6 +27,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-1ST
+- base:
+    currency_id: 1403
+    currency_symbol: 1ST
+    currency_type: cryptocurrency
+    exchange_symbol: 1ST
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: 1ST/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/1ST-to-ETH
 - base:
     currency_id: 1403
     currency_symbol: 1ST
@@ -62,13 +62,13 @@ markets:
     exchange_symbol: 1ST
   exchange_id: 42
   exchange_name: HitBTC
-  pair: 1ST/ETH
+  pair: 1ST/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/1ST-to-ETH
+    exchange_symbol: BTC
+  url: https://hitbtc.com/1ST-to-BTC
 - base:
     currency_id: 1403
     currency_symbol: 1ST
@@ -112,7 +112,7 @@ markets:
     exchange_symbol: USDT
   url: https://trans.zb.com/1stusdt?recommendCode=d0ip3b
 name: FirstBlood
-rank: 423
+rank: 401
 slug: firstblood
 status: active
 symbol: 1ST

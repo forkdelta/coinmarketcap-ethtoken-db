@@ -42,20 +42,6 @@ markets:
     currency_symbol: BWX
     currency_type: cryptocurrency
     exchange_symbol: BWX
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: BWX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-BWX
-- base:
-    currency_id: 2953
-    currency_symbol: BWX
-    currency_type: cryptocurrency
-    exchange_symbol: BWX
   exchange_id: 418
   exchange_name: CPDAX
   pair: BWX/KRW
@@ -65,8 +51,22 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.cpdax.com/trade/BWX-KRW
+- base:
+    currency_id: 2953
+    currency_symbol: BWX
+    currency_type: cryptocurrency
+    exchange_symbol: BWX
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: BWX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-BWX
 name: Blue Whale EXchange
-rank: 882
+rank: 933
 slug: blue-whale-exchange
 status: active
 symbol: BWX

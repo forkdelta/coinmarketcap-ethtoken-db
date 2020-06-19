@@ -47,20 +47,6 @@ markets:
     exchange_symbol: MRPH
   exchange_id: 400
   exchange_name: Hotbit
-  pair: MRPH/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=MRPH_ETH
-- base:
-    currency_id: 2763
-    currency_symbol: MRPH
-    currency_type: cryptocurrency
-    exchange_symbol: MRPH
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: MRPH/BTC
   quote:
     currency_id: 1
@@ -73,15 +59,15 @@ markets:
     currency_symbol: MRPH
     currency_type: cryptocurrency
     exchange_symbol: MRPH
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: MRPH/USDT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: MRPH/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.fatbtc.com/
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=MRPH_ETH
 - base:
     currency_id: 2763
     currency_symbol: MRPH
@@ -101,6 +87,20 @@ markets:
     currency_symbol: MRPH
     currency_type: cryptocurrency
     exchange_symbol: MRPH
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: MRPH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 2763
+    currency_symbol: MRPH
+    currency_type: cryptocurrency
+    exchange_symbol: MRPH
   exchange_id: 267
   exchange_name: Bancor Network
   pair: MRPH/BNT
@@ -115,20 +115,6 @@ markets:
     currency_symbol: MRPH
     currency_type: cryptocurrency
     exchange_symbol: MRPH
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: MRPH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/MRPH_BTC
-- base:
-    currency_id: 2763
-    currency_symbol: MRPH
-    currency_type: cryptocurrency
-    exchange_symbol: MRPH
   exchange_id: 22
   exchange_name: Bittrex
   pair: MRPH/BTC
@@ -138,8 +124,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-MRPH
+- base:
+    currency_id: 2763
+    currency_symbol: MRPH
+    currency_type: cryptocurrency
+    exchange_symbol: MRPH
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: MRPH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/MRPH_BTC
 name: Morpheus.Network
-rank: 425
+rank: 360
 slug: morpheus-network
 status: active
 symbol: MRPH
