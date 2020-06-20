@@ -29,20 +29,6 @@ markets:
     exchange_symbol: ZAP
   exchange_id: 433
   exchange_name: Bitrue
-  pair: ZAP/XRP
-  quote:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://www.bitrue.com/trade/zap_xrp?inviteCode=VQQLQV
-- base:
-    currency_id: 2363
-    currency_symbol: ZAP
-    currency_type: cryptocurrency
-    exchange_symbol: ZAP
-  exchange_id: 433
-  exchange_name: Bitrue
   pair: ZAP/BTC
   quote:
     currency_id: 1
@@ -50,6 +36,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bitrue.com/trade/zap_btc?inviteCode=VQQLQV
+- base:
+    currency_id: 2363
+    currency_symbol: ZAP
+    currency_type: cryptocurrency
+    exchange_symbol: ZAP
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: ZAP/XRP
+  quote:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  url: https://www.bitrue.com/trade/zap_xrp?inviteCode=VQQLQV
 - base:
     currency_id: 2363
     currency_symbol: ZAP
@@ -107,7 +107,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/zap
 name: Zap
-rank: 1235
+rank: 1252
 slug: zap
 status: active
 symbol: ZAP

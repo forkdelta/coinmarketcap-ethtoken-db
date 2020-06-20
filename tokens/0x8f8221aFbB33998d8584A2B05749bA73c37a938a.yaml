@@ -62,6 +62,20 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
+  exchange_id: 520
+  exchange_name: Bitvavo
+  pair: REQ/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://account.bitvavo.com/markets/REQ-EUR
+- base:
+    currency_id: 2071
+    currency_symbol: REQ
+    currency_type: cryptocurrency
+    exchange_symbol: REQ
   exchange_id: 213
   exchange_name: Mercatox
   pair: REQ/ETH
@@ -90,20 +104,6 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: REQ/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/req-eth
-- base:
-    currency_id: 2071
-    currency_symbol: REQ
-    currency_type: cryptocurrency
-    exchange_symbol: REQ
   exchange_id: 363
   exchange_name: Fatbtc
   pair: REQ/ETH
@@ -113,20 +113,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.fatbtc.com/
-- base:
-    currency_id: 2071
-    currency_symbol: REQ
-    currency_type: cryptocurrency
-    exchange_symbol: REQ
-  exchange_id: 520
-  exchange_name: Bitvavo
-  pair: REQ/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://account.bitvavo.com/markets/REQ-EUR
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -160,15 +146,15 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: REQ/BNT
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: REQ/ETH
   quote:
-    currency_id: 1727
-    currency_symbol: BNT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/REQ
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/req-eth
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -188,15 +174,15 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: REQ/BTC
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: REQ/BNT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1727
+    currency_symbol: BNT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://wazirx.com/exchange/REQ-BTC
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/REQ
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -244,6 +230,34 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: REQ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://wazirx.com/exchange/REQ-BTC
+- base:
+    currency_id: 2071
+    currency_symbol: REQ
+    currency_type: cryptocurrency
+    exchange_symbol: REQ
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: REQ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/REQBTC
+- base:
+    currency_id: 2071
+    currency_symbol: REQ
+    currency_type: cryptocurrency
+    exchange_symbol: REQ
   exchange_id: 376
   exchange_name: Bitbns
   pair: REQ/INR
@@ -253,6 +267,34 @@ markets:
     currency_type: fiat
     exchange_symbol: INR
   url: https://bitbns.com/trade/#/req
+- base:
+    currency_id: 2071
+    currency_symbol: REQ
+    currency_type: cryptocurrency
+    exchange_symbol: REQ
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: REQ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/req_eth
+- base:
+    currency_id: 2071
+    currency_symbol: REQ
+    currency_type: cryptocurrency
+    exchange_symbol: REQ
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: REQ/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/req-krw
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -286,34 +328,6 @@ markets:
     currency_symbol: REQ
     currency_type: cryptocurrency
     exchange_symbol: REQ
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: REQ/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/req-krw
-- base:
-    currency_id: 2071
-    currency_symbol: REQ
-    currency_type: cryptocurrency
-    exchange_symbol: REQ
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: REQ/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/req_eth
-- base:
-    currency_id: 2071
-    currency_symbol: REQ
-    currency_type: cryptocurrency
-    exchange_symbol: REQ
   exchange_id: 310
   exchange_name: IDEX
   pair: REQ/ETH
@@ -323,20 +337,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/req
-- base:
-    currency_id: 2071
-    currency_symbol: REQ
-    currency_type: cryptocurrency
-    exchange_symbol: REQ
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: REQ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/REQBTC
 - base:
     currency_id: 2071
     currency_symbol: REQ

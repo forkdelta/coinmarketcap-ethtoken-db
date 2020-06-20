@@ -32,20 +32,6 @@ markets:
     currency_symbol: SUB
     currency_type: cryptocurrency
     exchange_symbol: SUB
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: SUB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/SUB-USDT
-- base:
-    currency_id: 1984
-    currency_symbol: SUB
-    currency_type: cryptocurrency
-    exchange_symbol: SUB
   exchange_id: 42
   exchange_name: HitBTC
   pair: SUB/BTC
@@ -62,13 +48,13 @@ markets:
     exchange_symbol: SUB
   exchange_id: 425
   exchange_name: WazirX
-  pair: SUB/BTC
+  pair: SUB/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://wazirx.com/exchange/SUB-BTC
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/SUB-USDT
 - base:
     currency_id: 1984
     currency_symbol: SUB
@@ -83,6 +69,20 @@ markets:
     currency_type: fiat
     exchange_symbol: INR
   url: https://bitbns.com/trade/#/sub
+- base:
+    currency_id: 1984
+    currency_symbol: SUB
+    currency_type: cryptocurrency
+    exchange_symbol: SUB
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: SUB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://wazirx.com/exchange/SUB-BTC
 - base:
     currency_id: 1984
     currency_symbol: SUB
@@ -112,7 +112,7 @@ markets:
     exchange_symbol: USDT
   url: https://hitbtc.com/SUB-to-USDT
 name: Substratum
-rank: 921
+rank: 928
 slug: substratum
 status: active
 symbol: SUB

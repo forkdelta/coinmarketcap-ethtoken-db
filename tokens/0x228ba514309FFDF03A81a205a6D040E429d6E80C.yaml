@@ -23,20 +23,6 @@ markets:
     currency_symbol: GSC
     currency_type: cryptocurrency
     exchange_symbol: GSC
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: GSC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/gsc_btc?invite_code=5kij5
-- base:
-    currency_id: 2737
-    currency_symbol: GSC
-    currency_type: cryptocurrency
-    exchange_symbol: GSC
   exchange_id: 68
   exchange_name: Indodax
   pair: GSC/IDR
@@ -46,6 +32,20 @@ markets:
     currency_type: fiat
     exchange_symbol: IDR
   url: https://indodax.com/market/GSCIDR
+- base:
+    currency_id: 2737
+    currency_symbol: GSC
+    currency_type: cryptocurrency
+    exchange_symbol: GSC
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: GSC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/gsc_btc?invite_code=5kij5
 - base:
     currency_id: 2737
     currency_symbol: GSC
@@ -67,20 +67,6 @@ markets:
     exchange_symbol: GSC
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: GSC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/gsc_eth/
-- base:
-    currency_id: 2737
-    currency_symbol: GSC
-    currency_type: cryptocurrency
-    exchange_symbol: GSC
-  exchange_id: 463
-  exchange_name: Huobi Korea
   pair: GSC/BTC
   quote:
     currency_id: 1
@@ -88,8 +74,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/gsc_btc/
+- base:
+    currency_id: 2737
+    currency_symbol: GSC
+    currency_type: cryptocurrency
+    exchange_symbol: GSC
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: GSC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/gsc_eth/
 name: Global Social Chain
-rank: 663
+rank: 646
 slug: global-social-chain
 status: active
 symbol: GSC

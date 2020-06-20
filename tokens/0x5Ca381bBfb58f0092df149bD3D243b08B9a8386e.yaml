@@ -32,20 +32,6 @@ markets:
     currency_symbol: MXC
     currency_type: cryptocurrency
     exchange_symbol: MXC
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: MXC/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/MXCKRW
-- base:
-    currency_id: 3628
-    currency_symbol: MXC
-    currency_type: cryptocurrency
-    exchange_symbol: MXC
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: MXC/USDT
@@ -55,6 +41,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=MXC_USDT
+- base:
+    currency_id: 3628
+    currency_symbol: MXC
+    currency_type: cryptocurrency
+    exchange_symbol: MXC
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: MXC/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/MXCKRW
 - base:
     currency_id: 3628
     currency_symbol: MXC
@@ -102,20 +102,6 @@ markets:
     currency_symbol: MXC
     currency_type: cryptocurrency
     exchange_symbol: MXC
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: MXC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/mxc_eth
-- base:
-    currency_id: 3628
-    currency_symbol: MXC
-    currency_type: cryptocurrency
-    exchange_symbol: MXC
   exchange_id: 339
   exchange_name: Bibox
   pair: MXC/BTC
@@ -144,6 +130,20 @@ markets:
     currency_symbol: MXC
     currency_type: cryptocurrency
     exchange_symbol: MXC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: MXC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/mxc_eth
+- base:
+    currency_id: 3628
+    currency_symbol: MXC
+    currency_type: cryptocurrency
+    exchange_symbol: MXC
   exchange_id: 506
   exchange_name: ChainX
   pair: MXC/KRW
@@ -154,7 +154,7 @@ markets:
     exchange_symbol: KRW
   url: https://chainx.kr/exchange/MXC-KRW
 name: Machine Xchange Coin
-rank: 318
+rank: 302
 slug: machine-xchange-coin
 status: active
 symbol: MXC
