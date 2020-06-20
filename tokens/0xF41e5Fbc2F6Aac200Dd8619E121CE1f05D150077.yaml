@@ -45,29 +45,15 @@ markets:
     currency_symbol: CRC
     currency_type: fiat
     exchange_symbol: CRC
-  exchange_id: 100
-  exchange_name: YoBit
+  exchange_id: 215
+  exchange_name: P2PB2B
   pair: CRC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://yobit.net/en/trade/CRC/BTC
-- base:
-    currency_id: 2664
-    currency_symbol: CRC
-    currency_type: fiat
-    exchange_symbol: CRC
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: CRC/DOGE
-  quote:
-    currency_id: 74
-    currency_symbol: DOGE
-    currency_type: cryptocurrency
-    exchange_symbol: DOGE
-  url: https://yobit.net/en/trade/CRC/DOGE
+  url: https://p2pb2b.io/trade/CRC_BTC
 - base:
     currency_id: 2664
     currency_symbol: CRC
@@ -89,6 +75,20 @@ markets:
     exchange_symbol: CRC
   exchange_id: 100
   exchange_name: YoBit
+  pair: CRC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/CRC/BTC
+- base:
+    currency_id: 2664
+    currency_symbol: CRC
+    currency_type: fiat
+    exchange_symbol: CRC
+  exchange_id: 100
+  exchange_name: YoBit
   pair: CRC/USD
   quote:
     currency_id: 2781
@@ -101,15 +101,15 @@ markets:
     currency_symbol: CRC
     currency_type: fiat
     exchange_symbol: CRC
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: CRC/BTC
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: CRC/DOGE
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 74
+    currency_symbol: DOGE
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/CRC_BTC
+    exchange_symbol: DOGE
+  url: https://yobit.net/en/trade/CRC/DOGE
 - base:
     currency_id: 2664
     currency_symbol: CRC
@@ -153,7 +153,7 @@ markets:
     exchange_symbol: USDT
   url: https://p2pb2b.io/trade/CRC_USDT
 name: CryCash
-rank: 1153
+rank: 1243
 slug: crycash
 status: active
 symbol: CRC

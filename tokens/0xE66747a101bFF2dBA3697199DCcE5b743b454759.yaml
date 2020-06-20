@@ -82,20 +82,6 @@ markets:
     exchange_symbol: GT
   exchange_id: 453
   exchange_name: BitMax
-  pair: GT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/gt
-- base:
-    currency_id: 4269
-    currency_symbol: GT
-    currency_type: cryptocurrency
-    exchange_symbol: GT
-  exchange_id: 453
-  exchange_name: BitMax
   pair: GT/USDT
   quote:
     currency_id: 825
@@ -122,15 +108,15 @@ markets:
     currency_symbol: GT
     currency_type: cryptocurrency
     exchange_symbol: GT
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: GT/USDT
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: GT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/gt_usdt?invite_code=5kij5
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/gt
 - base:
     currency_id: 4269
     currency_symbol: GT
@@ -145,6 +131,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hbtc.com/exchange/GT/BTC
+- base:
+    currency_id: 4269
+    currency_symbol: GT
+    currency_type: cryptocurrency
+    exchange_symbol: GT
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: GT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/gt_usdt?invite_code=5kij5
 - base:
     currency_id: 4269
     currency_symbol: GT
@@ -166,20 +166,6 @@ markets:
     exchange_symbol: GT
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: GT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/gt_btc?invite_code=5kij5
-- base:
-    currency_id: 4269
-    currency_symbol: GT
-    currency_type: cryptocurrency
-    exchange_symbol: GT
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: GT/HT
   quote:
     currency_id: 2502
@@ -187,6 +173,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: HT
   url: https://www.hbg.com/en-us/exchange/gt_ht?invite_code=5kij5
+- base:
+    currency_id: 4269
+    currency_symbol: GT
+    currency_type: cryptocurrency
+    exchange_symbol: GT
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: GT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/gt_btc?invite_code=5kij5
 - base:
     currency_id: 4269
     currency_symbol: GT
@@ -244,7 +244,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.huobi.co.kr/en-US/exchange/gt_usdt/
 name: Gatechain Token
-rank: 127
+rank: 128
 slug: gatechain-token
 status: active
 symbol: GT

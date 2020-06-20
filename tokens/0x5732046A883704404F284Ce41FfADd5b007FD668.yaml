@@ -61,20 +61,6 @@ markets:
     currency_symbol: BLZ
     currency_type: cryptocurrency
     exchange_symbol: BLZ
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: BLZ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/blz_btc?invite_code=5kij5
-- base:
-    currency_id: 2505
-    currency_symbol: BLZ
-    currency_type: cryptocurrency
-    exchange_symbol: BLZ
   exchange_id: 398
   exchange_name: DragonEX
   pair: BLZ/BTC
@@ -89,15 +75,15 @@ markets:
     currency_symbol: BLZ
     currency_type: cryptocurrency
     exchange_symbol: BLZ
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BLZ/BNB
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: BLZ/BTC
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/BLZ_BNB?ref=H31B921U
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/blz_btc?invite_code=5kij5
 - base:
     currency_id: 2505
     currency_symbol: BLZ
@@ -117,6 +103,20 @@ markets:
     currency_symbol: BLZ
     currency_type: cryptocurrency
     exchange_symbol: BLZ
+  exchange_id: 270
+  exchange_name: Binance
+  pair: BLZ/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/BLZ_BNB?ref=H31B921U
+- base:
+    currency_id: 2505
+    currency_symbol: BLZ
+    currency_type: cryptocurrency
+    exchange_symbol: BLZ
   exchange_id: 102
   exchange_name: Huobi Global
   pair: BLZ/ETH
@@ -131,20 +131,6 @@ markets:
     currency_symbol: BLZ
     currency_type: cryptocurrency
     exchange_symbol: BLZ
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: BLZ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/BLZBTC
-- base:
-    currency_id: 2505
-    currency_symbol: BLZ
-    currency_type: cryptocurrency
-    exchange_symbol: BLZ
   exchange_id: 302
   exchange_name: Gate.io
   pair: BLZ/USDT
@@ -154,20 +140,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/blz_usdt
-- base:
-    currency_id: 2505
-    currency_symbol: BLZ
-    currency_type: cryptocurrency
-    exchange_symbol: BLZ
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: BLZ/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/BLZ-USDT
 - base:
     currency_id: 2505
     currency_symbol: BLZ
@@ -210,6 +182,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 2505
+    currency_symbol: BLZ
+    currency_type: cryptocurrency
+    exchange_symbol: BLZ
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: BLZ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/BLZBTC
+- base:
+    currency_id: 2505
+    currency_symbol: BLZ
+    currency_type: cryptocurrency
+    exchange_symbol: BLZ
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: BLZ/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/BLZ-USDT
 - base:
     currency_id: 2505
     currency_symbol: BLZ
@@ -323,7 +323,7 @@ markets:
     exchange_symbol: ETH
   url: https://exchange.gbx.gi/trade?symbol=BLZ%2FETH
 name: Bluzelle
-rank: 429
+rank: 432
 slug: bluzelle
 status: active
 symbol: BLZ

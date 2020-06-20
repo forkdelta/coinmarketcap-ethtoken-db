@@ -51,20 +51,6 @@ markets:
     currency_symbol: BANCA
     currency_type: cryptocurrency
     exchange_symbol: BANCA
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: BANCA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/banca
-- base:
-    currency_id: 2592
-    currency_symbol: BANCA
-    currency_type: cryptocurrency
-    exchange_symbol: BANCA
   exchange_id: 42
   exchange_name: HitBTC
   pair: BANCA/BTC
@@ -74,6 +60,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/BANCA-to-BTC
+- base:
+    currency_id: 2592
+    currency_symbol: BANCA
+    currency_type: cryptocurrency
+    exchange_symbol: BANCA
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BANCA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/BANCA-to-ETH
 - base:
     currency_id: 2592
     currency_symbol: BANCA
@@ -93,17 +93,17 @@ markets:
     currency_symbol: BANCA
     currency_type: cryptocurrency
     exchange_symbol: BANCA
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 310
+  exchange_name: IDEX
   pair: BANCA/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://hitbtc.com/BANCA-to-ETH
+  url: https://idex.market/eth/banca
 name: Banca
-rank: 946
+rank: 919
 slug: banca
 status: active
 symbol: BANCA
