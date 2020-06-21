@@ -49,20 +49,6 @@ markets:
     currency_symbol: SKM
     currency_type: cryptocurrency
     exchange_symbol: SKM
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: SKM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/skm_btc?invite_code=5kij5
-- base:
-    currency_id: 2725
-    currency_symbol: SKM
-    currency_type: cryptocurrency
-    exchange_symbol: SKM
   exchange_id: 343
   exchange_name: CoinBene
   pair: SKM/ETH
@@ -72,6 +58,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=SKMETH?hash=2NbmTq6
+- base:
+    currency_id: 2725
+    currency_symbol: SKM
+    currency_type: cryptocurrency
+    exchange_symbol: SKM
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: SKM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/skm_btc?invite_code=5kij5
 - base:
     currency_id: 2725
     currency_symbol: SKM
@@ -91,15 +91,15 @@ markets:
     currency_symbol: SKM
     currency_type: cryptocurrency
     exchange_symbol: SKM
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: SKM/USDT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: SKM/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/skm_usdt
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=SKM_BTC
 - base:
     currency_id: 2725
     currency_symbol: SKM
@@ -119,15 +119,15 @@ markets:
     currency_symbol: SKM
     currency_type: cryptocurrency
     exchange_symbol: SKM
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: SKM/BTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: SKM/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=SKM_BTC
+    exchange_symbol: USDT
+  url: https://gate.io/trade/skm_usdt
 - base:
     currency_id: 2725
     currency_symbol: SKM
@@ -213,7 +213,7 @@ markets:
     exchange_symbol: KRW
   url: https://www.huobi.co.kr/en-US/exchange/skm_krw/
 name: Skrumble Network
-rank: 764
+rank: 758
 slug: skrumble-network
 status: active
 symbol: SKM

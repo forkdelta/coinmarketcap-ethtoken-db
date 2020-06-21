@@ -42,20 +42,6 @@ markets:
     exchange_symbol: AFIN
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: AFIN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://p2pb2b.io/trade/AFIN_ETH
-- base:
-    currency_id: 3949
-    currency_symbol: AFIN
-    currency_type: cryptocurrency
-    exchange_symbol: AFIN
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: AFIN/BTC
   quote:
     currency_id: 1
@@ -63,6 +49,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://p2pb2b.io/trade/AFIN_BTC
+- base:
+    currency_id: 3949
+    currency_symbol: AFIN
+    currency_type: cryptocurrency
+    exchange_symbol: AFIN
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: AFIN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://p2pb2b.io/trade/AFIN_ETH
 - base:
     currency_id: 3949
     currency_symbol: AFIN
@@ -78,7 +78,7 @@ markets:
     exchange_symbol: BTC
   url: https://crex24.com/exchange/AFIN-BTC
 name: Asian Fintech
-rank: 906
+rank: 908
 slug: asian-fintech
 status: active
 symbol: AFIN
