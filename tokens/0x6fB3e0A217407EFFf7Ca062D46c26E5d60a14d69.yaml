@@ -103,20 +103,6 @@ markets:
     currency_symbol: IOTX
     currency_type: cryptocurrency
     exchange_symbol: IOTX
-  exchange_id: 270
-  exchange_name: Binance
-  pair: IOTX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.binance.com/en/trade/IOTX_ETH?ref=H31B921U
-- base:
-    currency_id: 2777
-    currency_symbol: IOTX
-    currency_type: cryptocurrency
-    exchange_symbol: IOTX
   exchange_id: 949
   exchange_name: CoinDCX
   pair: IOTX/BTC
@@ -126,6 +112,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coindcx.com/trade/IOTXBTC
+- base:
+    currency_id: 2777
+    currency_symbol: IOTX
+    currency_type: cryptocurrency
+    exchange_symbol: IOTX
+  exchange_id: 270
+  exchange_name: Binance
+  pair: IOTX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.binance.com/en/trade/IOTX_ETH?ref=H31B921U
 - base:
     currency_id: 2777
     currency_symbol: IOTX
@@ -145,15 +145,15 @@ markets:
     currency_symbol: IOTX
     currency_type: cryptocurrency
     exchange_symbol: IOTX
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: IOTX/ETH
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: IOTX/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=IOTX_ETH
+    exchange_symbol: BTC
+  url: https://trade.kucoin.com/IOTX-BTC
 - base:
     currency_id: 2777
     currency_symbol: IOTX
@@ -173,29 +173,29 @@ markets:
     currency_symbol: IOTX
     currency_type: cryptocurrency
     exchange_symbol: IOTX
-  exchange_id: 311
-  exchange_name: KuCoin
+  exchange_id: 549
+  exchange_name: CITEX
   pair: IOTX/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://trade.kucoin.com/IOTX-BTC
+  url: https://trade.citex.co.kr/trade/IOTX_BTC
 - base:
     currency_id: 2777
     currency_symbol: IOTX
     currency_type: cryptocurrency
     exchange_symbol: IOTX
-  exchange_id: 549
-  exchange_name: CITEX
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: IOTX/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://trade.citex.co.kr/trade/IOTX_ETH
+  url: https://www.hotbit.io/exchange?symbol=IOTX_ETH
 - base:
     currency_id: 2777
     currency_symbol: IOTX
@@ -231,13 +231,13 @@ markets:
     exchange_symbol: IOTX
   exchange_id: 549
   exchange_name: CITEX
-  pair: IOTX/BTC
+  pair: IOTX/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.citex.co.kr/trade/IOTX_BTC
+    exchange_symbol: ETH
+  url: https://trade.citex.co.kr/trade/IOTX_ETH
 - base:
     currency_id: 2777
     currency_symbol: IOTX
@@ -337,7 +337,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/iotx
 name: IoTeX
-rank: 147
+rank: 150
 slug: iotex
 status: active
 symbol: IOTX

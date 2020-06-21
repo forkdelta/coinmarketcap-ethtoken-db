@@ -43,20 +43,6 @@ markets:
     exchange_symbol: ETG
   exchange_id: 487
   exchange_name: VinDAX
-  pair: ETG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vindax.com/exchange-base.html?symbol=ETG_BTC
-- base:
-    currency_id: 2074
-    currency_symbol: ETG
-    currency_type: cryptocurrency
-    exchange_symbol: ETG
-  exchange_id: 487
-  exchange_name: VinDAX
   pair: ETG/USDT
   quote:
     currency_id: 825
@@ -64,6 +50,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://vindax.com/exchange-base.html?symbol=ETG_USDT
+- base:
+    currency_id: 2074
+    currency_symbol: ETG
+    currency_type: cryptocurrency
+    exchange_symbol: ETG
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: ETG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vindax.com/exchange-base.html?symbol=ETG_BTC
 - base:
     currency_id: 2074
     currency_symbol: ETG
@@ -79,7 +79,7 @@ markets:
     exchange_symbol: LTC
   url: https://app.stex.com/en/basic-trade/pair/LTC/ETG/1D
 name: Ethereum Gold
-rank: 1298
+rank: 1206
 slug: ethereum-gold
 status: active
 symbol: ETG

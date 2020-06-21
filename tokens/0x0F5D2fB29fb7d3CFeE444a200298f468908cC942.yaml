@@ -63,6 +63,20 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: MANA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=mana_btc
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
   exchange_id: 380
   exchange_name: LATOKEN
   pair: MANA/BTC
@@ -77,15 +91,71 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
+  exchange_id: 544
+  exchange_name: MXC
+  pair: MANA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.mxc.com/trade/easy#MANA_USDT
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
   exchange_id: 294
   exchange_name: OKEx
-  pair: MANA/BTC
+  pair: MANA/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=mana_btc
+    exchange_symbol: ETH
+  url: https://www.okex.com/market?product=mana_eth
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: MANA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=mana&tab=limit
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 544
+  exchange_name: MXC
+  pair: MANA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.mxc.com/trade/easy#MANA_ETH
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 398
+  exchange_name: DragonEX
+  pair: MANA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://dragonex.io
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -133,76 +203,6 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 544
-  exchange_name: MXC
-  pair: MANA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.mxc.com/trade/easy#MANA_USDT
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 544
-  exchange_name: MXC
-  pair: MANA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.mxc.com/trade/easy#MANA_ETH
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: MANA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=mana&tab=limit
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 398
-  exchange_name: DragonEX
-  pair: MANA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://dragonex.io
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: MANA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.okex.com/market?product=mana_eth
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
   exchange_id: 154
   exchange_name: Dex-Trade
   pair: MANA/BTC
@@ -212,6 +212,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://dex-trade.com/en?currencyIn=MANA&currencyTo=BTC
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: MANA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=mana&tab=limit
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 459
+  exchange_name: BW.com
+  pair: MANA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bw.com/trade/mana_usdt
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -245,20 +273,6 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 155
-  exchange_name: Exrates
-  pair: MANA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://exrates.me/trading/MANAETH
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
   exchange_id: 270
   exchange_name: Binance
   pair: MANA/ETH
@@ -273,29 +287,15 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 459
-  exchange_name: BW.com
-  pair: MANA/USDT
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: MANA/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bw.com/trade/mana_usdt
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: MANA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=mana&tab=limit
+    exchange_symbol: ETH
+  url: https://exrates.me/trading/MANAETH
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -329,15 +329,15 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: MANA/USDC
+  exchange_id: 744
+  exchange_name: Lukki Exchange
+  pair: MANA/BTC
   quote:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://pro.coinbase.com/trade/MANA-USDC
+    exchange_symbol: BTC
+  url: https://app.lukki.io/?pair=MANA_BTC
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -371,20 +371,6 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: MANA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://alterdice.com/trading/MANAETH
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
   exchange_id: 656
   exchange_name: Omgfin
   pair: MANA/BTC
@@ -399,15 +385,29 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 404
-  exchange_name: Kyber Network
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: MANA/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://kyberswap.com/swap/mana-eth
+  url: https://www.hbg.com/en-us/exchange/mana_eth?invite_code=5kij5
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: MANA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=mana
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -427,6 +427,20 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: MANA/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://pro.coinbase.com/trade/MANA-USDC
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
   exchange_id: 42
   exchange_name: HitBTC
   pair: MANA/BTC
@@ -436,20 +450,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/MANA-to-BTC
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: MANA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/MANABTC
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -469,15 +469,15 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: MANA/BTC
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: MANA/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=mana
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/mana-eth
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -511,29 +511,29 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 125
-  exchange_name: Bitso
-  pair: MANA/BTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: MANA/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitso.com/trade/market/mana/btc
+    exchange_symbol: ETH
+  url: https://gate.io/trade/mana_eth
 - base:
     currency_id: 1966
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 436
-  exchange_name: Bitkub
-  pair: MANA/THB
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: MANA/ETH
   quote:
-    currency_id: 2809
-    currency_symbol: THB
-    currency_type: fiat
-    exchange_symbol: THB
-  url: https://www.bitkub.com/signup?ref=250462
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://alterdice.com/trading/MANAETH
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -553,20 +553,6 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: MANA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_mana?c=H4QD8FNW
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
   exchange_id: 326
   exchange_name: ZB.COM
   pair: MANA/QC
@@ -576,34 +562,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: QC
   url: https://trans.zb.com/manaqc?recommendCode=d0ip3b
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: MANA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/MANA_BTC
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: MANA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/mana_eth?invite_code=5kij5
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -637,29 +595,15 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 890
-  exchange_name: Bitay
-  pair: MANA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitay.com/en/t/MANAUSDT
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 311
-  exchange_name: KuCoin
+  exchange_id: 744
+  exchange_name: Lukki Exchange
   pair: MANA/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://trade.kucoin.com/MANA-ETH
+  url: https://app.lukki.io/?pair=MANA_ETH
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -679,6 +623,34 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: MANA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/MANA_BTC
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: MANA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/MANABTC
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
   exchange_id: 656
   exchange_name: Omgfin
   pair: MANA/USDT
@@ -693,29 +665,29 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: MANA/USD
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: MANA/USDT
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/MANA:USD?refcode=H70YTMupQ
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitay.com/en/t/MANAUSDT
 - base:
     currency_id: 1966
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: MANA/BTC
+  exchange_id: 436
+  exchange_name: Bitkub
+  pair: MANA/THB
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/MANA:BTC?refcode=H70YTMupQ
+    currency_id: 2809
+    currency_symbol: THB
+    currency_type: fiat
+    exchange_symbol: THB
+  url: https://www.bitkub.com/signup?ref=250462
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -730,6 +702,76 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://uniswap.exchange/
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 125
+  exchange_name: Bitso
+  pair: MANA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitso.com/trade/market/mana/btc
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: MANA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://poloniex.com/exchange#btc_mana?c=H4QD8FNW
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: MANA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://trade.kucoin.com/MANA-ETH
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: MANA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/MANA_BTC
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: MANA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/MANA-USDT
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -777,48 +819,6 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: MANA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/mana_eth
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: MANA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/MANA_BTC
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: MANA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/MANA-USDT
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
   exchange_id: 16
   exchange_name: Poloniex
   pair: MANA/USDT
@@ -833,6 +833,20 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: MANA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/MANA:BTC?refcode=H70YTMupQ
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
   exchange_id: 42
   exchange_name: HitBTC
   pair: MANA/ETH
@@ -842,6 +856,48 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/MANA-to-ETH
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: MANA/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/MANA:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: MANA/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bibox.com/exchange?coinPair=MANA_ETH
+- base:
+    currency_id: 1966
+    currency_symbol: MANA
+    currency_type: cryptocurrency
+    exchange_symbol: MANA
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: MANA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bibox.com/exchange?coinPair=MANA_BTC
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -884,34 +940,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/mana_btc/
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: MANA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bibox.com/exchange?coinPair=MANA_ETH
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: MANA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=MANA_BTC
 - base:
     currency_id: 1966
     currency_symbol: MANA
@@ -1001,34 +1029,6 @@ markets:
     currency_symbol: MANA
     currency_type: cryptocurrency
     exchange_symbol: MANA
-  exchange_id: 744
-  exchange_name: Lukki Exchange
-  pair: MANA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.lukki.io/?pair=MANA_BTC
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
-  exchange_id: 744
-  exchange_name: Lukki Exchange
-  pair: MANA/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://app.lukki.io/?pair=MANA_ETH
-- base:
-    currency_id: 1966
-    currency_symbol: MANA
-    currency_type: cryptocurrency
-    exchange_symbol: MANA
   exchange_id: 317
   exchange_name: TOPBTC
   pair: MANA/BTC
@@ -1081,7 +1081,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.wbf.info/trade/MANA_ETH
 name: Decentraland
-rank: 99
+rank: 101
 slug: decentraland
 status: active
 symbol: MANA

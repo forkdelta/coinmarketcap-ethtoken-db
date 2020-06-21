@@ -61,15 +61,15 @@ markets:
     currency_symbol: WABI
     currency_type: cryptocurrency
     exchange_symbol: WABI
-  exchange_id: 270
-  exchange_name: Binance
-  pair: WABI/BNB
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: WABI/BTC
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/WABI_BNB?ref=H31B921U
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/WABIBTC
 - base:
     currency_id: 2267
     currency_symbol: WABI
@@ -89,6 +89,20 @@ markets:
     currency_symbol: WABI
     currency_type: cryptocurrency
     exchange_symbol: WABI
+  exchange_id: 270
+  exchange_name: Binance
+  pair: WABI/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/WABI_BNB?ref=H31B921U
+- base:
+    currency_id: 2267
+    currency_symbol: WABI
+    currency_type: cryptocurrency
+    exchange_symbol: WABI
   exchange_id: 245
   exchange_name: STEX
   pair: WABI/USDT
@@ -103,15 +117,29 @@ markets:
     currency_symbol: WABI
     currency_type: cryptocurrency
     exchange_symbol: WABI
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 849
+  exchange_name: Bidesk
   pair: WABI/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/WABIBTC
+  url: https://www.bidesk.com/exchange/WABI/BTC
+- base:
+    currency_id: 2267
+    currency_symbol: WABI
+    currency_type: cryptocurrency
+    exchange_symbol: WABI
+  exchange_id: 849
+  exchange_name: Bidesk
+  pair: WABI/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bidesk.com/exchange/WABI/USDT
 - base:
     currency_id: 2267
     currency_symbol: WABI
@@ -154,34 +182,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.fatbtc.com/
-- base:
-    currency_id: 2267
-    currency_symbol: WABI
-    currency_type: cryptocurrency
-    exchange_symbol: WABI
-  exchange_id: 849
-  exchange_name: Bidesk
-  pair: WABI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bidesk.com/exchange/WABI/BTC
-- base:
-    currency_id: 2267
-    currency_symbol: WABI
-    currency_type: cryptocurrency
-    exchange_symbol: WABI
-  exchange_id: 849
-  exchange_name: Bidesk
-  pair: WABI/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bidesk.com/exchange/WABI/USDT
 - base:
     currency_id: 2267
     currency_symbol: WABI
@@ -239,7 +239,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/wabi
 name: Tael
-rank: 345
+rank: 338
 slug: tael
 status: active
 symbol: WABI

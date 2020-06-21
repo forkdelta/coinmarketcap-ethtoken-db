@@ -30,20 +30,6 @@ markets:
     currency_symbol: BZT
     currency_type: cryptocurrency
     exchange_symbol: BZT
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: BZT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coinsbit.io/trade/BZT_USDT
-- base:
-    currency_id: 5280
-    currency_symbol: BZT
-    currency_type: cryptocurrency
-    exchange_symbol: BZT
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: BZT/USDT
@@ -53,6 +39,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.probit.com/app/exchange/BZT-USDT
+- base:
+    currency_id: 5280
+    currency_symbol: BZT
+    currency_type: cryptocurrency
+    exchange_symbol: BZT
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: BZT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.probit.com/app/exchange/BZT-BTC
 - base:
     currency_id: 5280
     currency_symbol: BZT
@@ -72,15 +72,15 @@ markets:
     currency_symbol: BZT
     currency_type: cryptocurrency
     exchange_symbol: BZT
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: BZT/BTC
+  exchange_id: 460
+  exchange_name: Coinsbit
+  pair: BZT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.probit.com/app/exchange/BZT-BTC
+    exchange_symbol: USDT
+  url: https://coinsbit.io/trade/BZT_USDT
 - base:
     currency_id: 5280
     currency_symbol: BZT
@@ -208,7 +208,7 @@ markets:
     exchange_symbol: BTC
   url: https://trade.tagz.com/trade/view
 name: Bloomzed Token
-rank: 240
+rank: 249
 slug: bloomzed-token
 status: active
 symbol: BZT
