@@ -58,20 +58,6 @@ markets:
     currency_symbol: SNB
     currency_type: cryptocurrency
     exchange_symbol: SNB
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: SNB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/SNB_BTC
-- base:
-    currency_id: 5277
-    currency_symbol: SNB
-    currency_type: cryptocurrency
-    exchange_symbol: SNB
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: SNB/USDT
@@ -95,6 +81,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.probit.com/app/exchange/SNB-BTC
+- base:
+    currency_id: 5277
+    currency_symbol: SNB
+    currency_type: cryptocurrency
+    exchange_symbol: SNB
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: SNB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/SNB_BTC
 - base:
     currency_id: 5277
     currency_symbol: SNB
@@ -152,7 +152,7 @@ markets:
     exchange_symbol: USDT
   url: https://alterdice.com/trading/SNBUSDT
 name: SynchroBitcoin
-rank: 283
+rank: 320
 slug: synchrobitcoin
 status: active
 symbol: SNB

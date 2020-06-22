@@ -49,20 +49,6 @@ markets:
     currency_symbol: AERGO
     currency_type: cryptocurrency
     exchange_symbol: AERGO
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: AERGO/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-AERGO
-- base:
-    currency_id: 3637
-    currency_symbol: AERGO
-    currency_type: cryptocurrency
-    exchange_symbol: AERGO
   exchange_id: 544
   exchange_name: MXC
   pair: AERGO/USDT
@@ -72,6 +58,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.mxc.com/trade/easy#AERGO_USDT
+- base:
+    currency_id: 3637
+    currency_symbol: AERGO
+    currency_type: cryptocurrency
+    exchange_symbol: AERGO
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: AERGO/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-AERGO
 - base:
     currency_id: 3637
     currency_symbol: AERGO
@@ -175,20 +175,6 @@ markets:
     currency_symbol: AERGO
     currency_type: cryptocurrency
     exchange_symbol: AERGO
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: AERGO/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/aergo-krw
-- base:
-    currency_id: 3637
-    currency_symbol: AERGO
-    currency_type: cryptocurrency
-    exchange_symbol: AERGO
   exchange_id: 400
   exchange_name: Hotbit
   pair: AERGO/ETH
@@ -217,15 +203,15 @@ markets:
     currency_symbol: AERGO
     currency_type: cryptocurrency
     exchange_symbol: AERGO
-  exchange_id: 194
-  exchange_name: Korbit
+  exchange_id: 335
+  exchange_name: GOPAX
   pair: AERGO/KRW
   quote:
     currency_id: 2798
     currency_symbol: KRW
     currency_type: fiat
     exchange_symbol: KRW
-  url: https://www.korbit.co.kr/markets/?market=aergo-krw
+  url: https://www.gopax.co.kr/exchange/aergo-krw
 - base:
     currency_id: 3637
     currency_symbol: AERGO
@@ -254,6 +240,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.gopax.co.kr/exchange/aergo-btc
+- base:
+    currency_id: 3637
+    currency_symbol: AERGO
+    currency_type: cryptocurrency
+    exchange_symbol: AERGO
+  exchange_id: 194
+  exchange_name: Korbit
+  pair: AERGO/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.korbit.co.kr/markets/?market=aergo-krw
 - base:
     currency_id: 3637
     currency_symbol: AERGO
@@ -297,7 +297,7 @@ markets:
     exchange_symbol: KRW
   url: https://www.gdac.co.kr/exchange/AERGO/KRW
 name: Aergo
-rank: 440
+rank: 425
 slug: aergo
 status: active
 symbol: AERGO

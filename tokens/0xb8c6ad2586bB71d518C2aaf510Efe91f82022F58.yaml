@@ -70,13 +70,13 @@ markets:
     exchange_symbol: GOM
   exchange_id: 400
   exchange_name: Hotbit
-  pair: GOM/BTC
+  pair: GOM/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=GOM_BTC
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=GOM_USDT
 - base:
     currency_id: 4623
     currency_symbol: GOM
@@ -96,20 +96,6 @@ markets:
     currency_symbol: GOM
     currency_type: cryptocurrency
     exchange_symbol: GOM
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: GOM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=GOM_USDT
-- base:
-    currency_id: 4623
-    currency_symbol: GOM
-    currency_type: cryptocurrency
-    exchange_symbol: GOM
   exchange_id: 497
   exchange_name: Bione
   pair: GOM/USDT
@@ -119,6 +105,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bione.cc/index/trade/index/market/gom_usdt
+- base:
+    currency_id: 4623
+    currency_symbol: GOM
+    currency_type: cryptocurrency
+    exchange_symbol: GOM
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: GOM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=GOM_BTC
 - base:
     currency_id: 4623
     currency_symbol: GOM
@@ -134,7 +134,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: Gomics
-rank: 2126
+rank: 2117
 slug: gomics
 status: active
 symbol: GOM

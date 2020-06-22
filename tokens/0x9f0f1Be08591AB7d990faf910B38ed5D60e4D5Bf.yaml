@@ -59,20 +59,6 @@ markets:
     exchange_symbol: MNC
   exchange_id: 50
   exchange_name: EXMO
-  pair: MNC/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://exmo.com/en/trade#?pair=MNC_USD
-- base:
-    currency_id: 3774
-    currency_symbol: MNC
-    currency_type: cryptocurrency
-    exchange_symbol: MNC
-  exchange_id: 50
-  exchange_name: EXMO
   pair: MNC/ETH
   quote:
     currency_id: 1027
@@ -101,13 +87,13 @@ markets:
     exchange_symbol: MNC
   exchange_id: 50
   exchange_name: EXMO
-  pair: MNC/BTC
+  pair: MNC/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exmo.com/en/trade#?pair=MNC_BTC
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://exmo.com/en/trade#?pair=MNC_USD
 - base:
     currency_id: 3774
     currency_symbol: MNC
@@ -122,6 +108,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://btc-alpha.com/exchange/MNC_USD/
+- base:
+    currency_id: 3774
+    currency_symbol: MNC
+    currency_type: cryptocurrency
+    exchange_symbol: MNC
+  exchange_id: 50
+  exchange_name: EXMO
+  pair: MNC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exmo.com/en/trade#?pair=MNC_BTC
 - base:
     currency_id: 3774
     currency_symbol: MNC
@@ -291,7 +291,7 @@ markets:
     exchange_symbol: BTC
   url: https://alterdice.com/trading/MNCBTC
 name: Maincoin
-rank: 733
+rank: 740
 slug: maincoin
 status: active
 symbol: MNC

@@ -28,20 +28,6 @@ markets:
     currency_symbol: TRST
     currency_type: cryptocurrency
     exchange_symbol: TRST
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: TRST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/TRST_BTC
-- base:
-    currency_id: 1638
-    currency_symbol: TRST
-    currency_type: cryptocurrency
-    exchange_symbol: TRST
   exchange_id: 42
   exchange_name: HitBTC
   pair: TRST/BTC
@@ -56,15 +42,15 @@ markets:
     currency_symbol: TRST
     currency_type: cryptocurrency
     exchange_symbol: TRST
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: TRST/BNT
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: TRST/BTC
   quote:
-    currency_id: 1727
-    currency_symbol: BNT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/TRST
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/TRST_BTC
 - base:
     currency_id: 1638
     currency_symbol: TRST
@@ -79,8 +65,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/trst
+- base:
+    currency_id: 1638
+    currency_symbol: TRST
+    currency_type: cryptocurrency
+    exchange_symbol: TRST
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: TRST/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/TRST
 name: WeTrust
-rank: 1080
+rank: 1094
 slug: trust
 status: active
 symbol: TRST
