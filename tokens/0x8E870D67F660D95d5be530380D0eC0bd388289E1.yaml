@@ -39,20 +39,6 @@ markets:
     exchange_symbol: PAX
   url: https://www.tokok.com/market?symbol=BTC_PAX
 - base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 446
-  exchange_name: TOKOK
-  pair: ETH/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://www.tokok.com/market?symbol=ETH_PAX
-- base:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
@@ -66,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: PAX
   url: https://coinsbit.io/trade/BTC_PAX
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 446
+  exchange_name: TOKOK
+  pair: ETH/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://www.tokok.com/market?symbol=ETH_PAX
 - base:
     currency_id: 1027
     currency_symbol: ETH
@@ -109,20 +109,6 @@ markets:
     exchange_symbol: XRP
   url: https://www.bitrue.com/trade/pax_xrp?inviteCode=VQQLQV
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: BTC/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://www.coinex.com/trading?currency=pax&dest=btc&tab=limit
-- base:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
@@ -151,19 +137,33 @@ markets:
     exchange_symbol: TRY
   url: https://sistemkoin.com/#/
 - base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: PAX/BTC
-  quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://sistemkoin.com/#/
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: BTC/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://www.coinex.com/trading?currency=pax&dest=btc&tab=limit
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 270
+  exchange_name: Binance
+  pair: BTC/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://www.binance.com/en/trade/BTC_PAX?ref=H31B921U
 - base:
     currency_id: 3330
     currency_symbol: PAX
@@ -183,6 +183,20 @@ markets:
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: PAX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://sistemkoin.com/#/
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
   exchange_id: 407
   exchange_name: DigiFinex
   pair: PAX/USDT
@@ -192,20 +206,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.digifinex.com/en-ww/trade/USDT/PAX
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BTC/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://www.binance.com/en/trade/BTC_PAX?ref=H31B921U
 - base:
     currency_id: 3330
     currency_symbol: PAX
@@ -235,6 +235,34 @@ markets:
     exchange_symbol: USDT
   url: https://www.tokok.com/market?symbol=PAX_USDT
 - base:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: BCH/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://www.coinex.com/trading?currency=pax&dest=bch&tab=limit
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: PAX/HUSD
+  quote:
+    currency_id: 4779
+    currency_symbol: HUSD
+    currency_type: cryptocurrency
+    exchange_symbol: HUSD
+  url: https://www.hbg.com/en-us/exchange/pax_husd?invite_code=5kij5
+- base:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
@@ -263,20 +291,6 @@ markets:
     exchange_symbol: PAX
   url: https://www.tokok.com/market?symbol=LTC_PAX
 - base:
-    currency_id: 1831
-    currency_symbol: BCH
-    currency_type: cryptocurrency
-    exchange_symbol: BCH
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: BCH/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://www.coinex.com/trading?currency=pax&dest=bch&tab=limit
-- base:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
@@ -290,6 +304,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bitrabbit.com/markets/pax_usdt
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: PAX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=pax_btc
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: PAX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://sistemkoin.com/#/
 - base:
     currency_id: 3673
     currency_symbol: BTMX
@@ -309,29 +351,15 @@ markets:
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: PAX/ETH
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: PAX/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://sistemkoin.com/#/
-- base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: PAX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=pax_btc
+    exchange_symbol: USDT
+  url: https://www.bitrue.com/trade/pax_usdt?inviteCode=VQQLQV
 - base:
     currency_id: 3330
     currency_symbol: PAX
@@ -361,34 +389,6 @@ markets:
     exchange_symbol: USDT
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=PAX_USDT
 - base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  exchange_id: 544
-  exchange_name: MXC
-  pair: PAX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.mxc.com/trade/easy#PAX_USDT
-- base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: PAX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitrue.com/trade/pax_usdt?inviteCode=VQQLQV
-- base:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
@@ -403,75 +403,19 @@ markets:
     exchange_symbol: PAX
   url: https://www.bitmart.com/trade?symbol=BTC_PAX
 - base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 270
-  exchange_name: Binance
-  pair: ETH/PAX
-  quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  url: https://www.binance.com/en/trade/ETH_PAX?ref=H31B921U
-- base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  exchange_id: 415
-  exchange_name: Bilaxy
+  exchange_id: 544
+  exchange_name: MXC
   pair: PAX/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://bilaxy.com/trade/PAX_USDT
-- base:
-    currency_id: 2
-    currency_symbol: LTC
-    currency_type: cryptocurrency
-    exchange_symbol: LTC
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: LTC/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://coinsbit.io/trade/LTC_PAX
-- base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: PAX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=pax&tab=limit
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 537
-  exchange_name: Virtuse Exchange
-  pair: ETH/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://virtuse.exchange/trading
+  url: https://www.mxc.com/trade/easy#PAX_USDT
 - base:
     currency_id: 3330
     currency_symbol: PAX
@@ -491,43 +435,57 @@ markets:
     currency_symbol: LTC
     currency_type: cryptocurrency
     exchange_symbol: LTC
-  exchange_id: 270
-  exchange_name: Binance
+  exchange_id: 460
+  exchange_name: Coinsbit
   pair: LTC/PAX
   quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  url: https://www.binance.com/en/trade/LTC_PAX?ref=H31B921U
+  url: https://coinsbit.io/trade/LTC_PAX
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: PAX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bilaxy.com/trade/PAX_USDT
 - base:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  exchange_id: 744
-  exchange_name: Lukki Exchange
+  exchange_id: 270
+  exchange_name: Binance
   pair: ETH/PAX
   quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  url: https://app.lukki.io/?pair=ETH_PAX
+  url: https://www.binance.com/en/trade/ETH_PAX?ref=H31B921U
 - base:
-    currency_id: 1831
-    currency_symbol: BCH
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BCH
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BCH/PAX
+    exchange_symbol: ETH
+  exchange_id: 537
+  exchange_name: Virtuse Exchange
+  pair: ETH/PAX
   quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  url: https://www.binance.com/en/trade/BCH_PAX?ref=H31B921U
+  url: https://virtuse.exchange/trading
 - base:
     currency_id: 2760
     currency_symbol: LBA
@@ -543,34 +501,6 @@ markets:
     exchange_symbol: PAX
   url: https://virtuse.exchange/trading
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 537
-  exchange_name: Virtuse Exchange
-  pair: BTC/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://virtuse.exchange/trading
-- base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: PAX/HUSD
-  quote:
-    currency_id: 4779
-    currency_symbol: HUSD
-    currency_type: cryptocurrency
-    exchange_symbol: HUSD
-  url: https://www.hbg.com/en-us/exchange/pax_husd?invite_code=5kij5
-- base:
     currency_id: 4705
     currency_symbol: PAXG
     currency_type: cryptocurrency
@@ -578,6 +508,20 @@ markets:
   exchange_id: 537
   exchange_name: Virtuse Exchange
   pair: PAXG/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://virtuse.exchange/trading
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 537
+  exchange_name: Virtuse Exchange
+  pair: BTC/PAX
   quote:
     currency_id: 3330
     currency_symbol: PAX
@@ -599,20 +543,6 @@ markets:
     exchange_symbol: QC
   url: https://www.zbg.com/trade/pax_qc
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 744
-  exchange_name: Lukki Exchange
-  pair: BTC/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://app.lukki.io/?pair=BTC_PAX
-- base:
     currency_id: 3364
     currency_symbol: PLC
     currency_type: cryptocurrency
@@ -626,20 +556,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: PAX
   url: https://coinsbit.io/trade/PLC_PAX
-- base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: PAX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://folgory.com/trade-crypto/PAX_USDT
 - base:
     currency_id: 3330
     currency_symbol: PAX
@@ -659,6 +575,20 @@ markets:
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: PAX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://folgory.com/trade-crypto/PAX_USDT
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
   exchange_id: 330
   exchange_name: BigONE
   pair: PAX/USDT
@@ -668,6 +598,48 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://big.one/trade/PAX-USDT
+- base:
+    currency_id: 2
+    currency_symbol: LTC
+    currency_type: cryptocurrency
+    exchange_symbol: LTC
+  exchange_id: 270
+  exchange_name: Binance
+  pair: LTC/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://www.binance.com/en/trade/LTC_PAX?ref=H31B921U
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: PAX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitmart.com/trade?symbol=PAX_USDT
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: PAX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=pax&tab=limit
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -697,20 +669,6 @@ markets:
     exchange_symbol: BUSD
   url: https://virtuse.exchange/trading
 - base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  exchange_id: 537
-  exchange_name: Virtuse Exchange
-  pair: PAX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://virtuse.exchange/trading
-- base:
     currency_id: 1839
     currency_symbol: BNB
     currency_type: cryptocurrency
@@ -724,6 +682,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: PAX
   url: https://www.binance.com/en/trade/BNB_PAX?ref=H31B921U
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  exchange_id: 537
+  exchange_name: Virtuse Exchange
+  pair: PAX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://virtuse.exchange/trading
 - base:
     currency_id: 1958
     currency_symbol: TRX
@@ -739,34 +711,6 @@ markets:
     exchange_symbol: PAX
   url: https://www.binance.com/en/trade/TRX_PAX?ref=H31B921U
 - base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: ETH/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://whitebit.com/trade/ETH_PAX
-- base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: PAX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/pax-eth
-- base:
     currency_id: 1765
     currency_symbol: EOS
     currency_type: cryptocurrency
@@ -780,6 +724,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: PAX
   url: https://coinsbit.io/trade/EOS_PAX
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 254
+  exchange_name: C2CX
+  pair: BTC/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://www.c2cx.com/in/trade_pax_btc
 - base:
     currency_id: 3408
     currency_symbol: USDC
@@ -813,48 +771,6 @@ markets:
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: PAX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=PAX_USDT
-- base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: PAX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=PAX_ETH
-- base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: PAX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=PAX_BTC
-- base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
   exchange_id: 254
   exchange_name: C2CX
   pair: PAX/USDT
@@ -864,6 +780,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.c2cx.com/in/trade_usdt_pax
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: PAX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/pax-eth
+- base:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  exchange_id: 270
+  exchange_name: Binance
+  pair: BCH/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://www.binance.com/en/trade/BCH_PAX?ref=H31B921U
 - base:
     currency_id: 3330
     currency_symbol: PAX
@@ -879,6 +823,34 @@ markets:
     exchange_symbol: USDT
   url: https://wazirx.com/exchange/PAX-USDT
 - base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: ETH/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://whitebit.com/trade/ETH_PAX
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BTC/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://hitbtc.com/BTC-to-PAX
+- base:
     currency_id: 1765
     currency_symbol: EOS
     currency_type: cryptocurrency
@@ -893,33 +865,19 @@ markets:
     exchange_symbol: PAX
   url: https://www.binance.com/en/trade/EOS_PAX?ref=H31B921U
 - base:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  exchange_id: 270
-  exchange_name: Binance
-  pair: XRP/PAX
-  quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  url: https://www.binance.com/en/trade/XRP_PAX?ref=H31B921U
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 254
-  exchange_name: C2CX
-  pair: BTC/PAX
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: PAX/USDT
   quote:
-    currency_id: 3330
-    currency_symbol: PAX
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://www.c2cx.com/in/trade_pax_btc
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/pax
 - base:
     currency_id: 3718
     currency_symbol: BTT
@@ -939,6 +897,20 @@ markets:
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
+  exchange_id: 70
+  exchange_name: Bitstamp
+  pair: PAX/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitstamp.net
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
   exchange_id: 459
   exchange_name: BW.com
   pair: PAX/USDT
@@ -953,15 +925,15 @@ markets:
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: PAX/USDT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: PAX/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/pax
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=PAX_ETH
 - base:
     currency_id: 3330
     currency_symbol: PAX
@@ -977,33 +949,33 @@ markets:
     exchange_symbol: QC
   url: https://www.bw.com/trade/pax_qc
 - base:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  exchange_id: 270
+  exchange_name: Binance
+  pair: XRP/PAX
+  quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: PAX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitmart.com/trade?symbol=PAX_USDT
+  url: https://www.binance.com/en/trade/XRP_PAX?ref=H31B921U
 - base:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  exchange_id: 70
-  exchange_name: Bitstamp
-  pair: PAX/USD
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: PAX/BTC
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitstamp.net
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=PAX_BTC
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -1019,19 +991,19 @@ markets:
     exchange_symbol: PAX
   url: https://www.bitstamp.net
 - base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 70
+  exchange_name: Bitstamp
+  pair: ETH/PAX
+  quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: PAX/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/PAX:USD?refcode=H70YTMupQ
+  url: https://www.bitstamp.net
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -1047,19 +1019,33 @@ markets:
     exchange_symbol: PAX
   url: https://trade.kucoin.com/BTC-PAX
 - base:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 3330
+    currency_symbol: PAX
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 70
-  exchange_name: Bitstamp
-  pair: ETH/PAX
+    exchange_symbol: PAX
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: PAX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-PAX
+- base:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: USDT/PAX
   quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  url: https://www.bitstamp.net
+  url: https://hitbtc.com/USDT-to-PAX
 - base:
     currency_id: 3330
     currency_symbol: PAX
@@ -1079,20 +1065,6 @@ markets:
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  exchange_id: 70
-  exchange_name: Bitstamp
-  pair: PAX/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://www.bitstamp.net
-- base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
   exchange_id: 514
   exchange_name: Finexbox
   pair: PAX/BTC
@@ -1103,19 +1075,19 @@ markets:
     exchange_symbol: BTC
   url: https://www.finexbox.com/market/pair/PAX-BTC.html
 - base:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: BTC/PAX
+    exchange_symbol: USDT
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: USDT/PAX
   quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  url: https://hitbtc.com/BTC-to-PAX
+  url: https://trade.kucoin.com/USDT-PAX
 - base:
     currency_id: 3330
     currency_symbol: PAX
@@ -1159,47 +1131,33 @@ markets:
     exchange_symbol: PAX
   url: https://bitmax.io/#/trade/pax/btc
 - base:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: USDT/PAX
-  quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  url: https://trade.kucoin.com/USDT-PAX
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: PAX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=PAX_USDT
 - base:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: PAX/BTC
+  exchange_id: 70
+  exchange_name: Bitstamp
+  pair: PAX/EUR
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-PAX
-- base:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: USDT/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://hitbtc.com/USDT-to-PAX
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://www.bitstamp.net
 - base:
     currency_id: 3330
     currency_symbol: PAX
@@ -1219,6 +1177,20 @@ markets:
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: PAX/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/PAX:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
   exchange_id: 270
   exchange_name: Binance
   pair: PAX/TUSD
@@ -1228,6 +1200,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: TUSD
   url: https://www.binance.com/en/trade/PAX_TUSD?ref=H31B921U
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: PAX/QC
+  quote:
+    currency_id: 2319
+    currency_symbol: QC
+    currency_type: cryptocurrency
+    exchange_symbol: QC
+  url: https://trans.zb.com/paxqc?recommendCode=d0ip3b
 - base:
     currency_id: 3330
     currency_symbol: PAX
@@ -1247,34 +1233,6 @@ markets:
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: PAX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/pax_usdt
-- base:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: ETH/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://crex24.com/exchange/ETH-PAX
-- base:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
   exchange_id: 22
   exchange_name: Bittrex
   pair: PAX/USD
@@ -1284,6 +1242,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://bittrex.com/Market/Index?MarketName=USD-PAX
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: ETH/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://trade.kucoin.com/ETH-PAX
 - base:
     currency_id: 3330
     currency_symbol: PAX
@@ -1298,20 +1270,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://trans.zb.com/paxusdt?recommendCode=d0ip3b
-- base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: BTC/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://poloniex.com/exchange#pax_btc?c=H4QD8FNW
 - base:
     currency_id: 3330
     currency_symbol: PAX
@@ -1331,29 +1289,15 @@ markets:
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  exchange_id: 311
-  exchange_name: KuCoin
+  exchange_id: 16
+  exchange_name: Poloniex
   pair: ETH/PAX
   quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  url: https://trade.kucoin.com/ETH-PAX
-- base:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: XRP/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://trade.kucoin.com/XRP-PAX
+  url: https://poloniex.com/exchange#pax_eth?c=H4QD8FNW
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -1369,19 +1313,61 @@ markets:
     exchange_symbol: PAX
   url: https://crex24.com/exchange/BTC-PAX
 - base:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 3330
+    currency_symbol: PAX
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 121
-  exchange_name: SouthXchange
-  pair: BTC/PAX
+    exchange_symbol: PAX
+  exchange_id: 70
+  exchange_name: Bitstamp
+  pair: PAX/GBP
+  quote:
+    currency_id: 2791
+    currency_symbol: GBP
+    currency_type: fiat
+    exchange_symbol: GBP
+  url: https://www.bitstamp.net
+- base:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: ETH/PAX
   quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  url: https://www.southxchange.com/Market/Book/BTC/PAX
+  url: https://crex24.com/exchange/ETH-PAX
+- base:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: XRP/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://trade.kucoin.com/XRP-PAX
+- base:
+    currency_id: 1765
+    currency_symbol: EOS
+    currency_type: cryptocurrency
+    exchange_symbol: EOS
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: EOS/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://hitbtc.com/EOS-to-PAX
 - base:
     currency_id: 1027
     currency_symbol: ETH
@@ -1397,33 +1383,47 @@ markets:
     exchange_symbol: PAX
   url: https://hitbtc.com/ETH-to-PAX
 - base:
-    currency_id: 3602
-    currency_symbol: BSV
-    currency_type: cryptocurrency
-    exchange_symbol: BSV
-  exchange_id: 121
-  exchange_name: SouthXchange
-  pair: BSV/PAX
-  quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  url: https://www.southxchange.com/Market/Book/BSV/PAX
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: PAX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/pax_usdt
 - base:
-    currency_id: 1765
-    currency_symbol: EOS
-    currency_type: cryptocurrency
-    exchange_symbol: EOS
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: EOS/PAX
-  quote:
     currency_id: 3330
     currency_symbol: PAX
     currency_type: cryptocurrency
     exchange_symbol: PAX
-  url: https://hitbtc.com/EOS-to-PAX
+  exchange_id: 448
+  exchange_name: Coinall
+  pair: PAX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinall.com/market?product=pax_btc
+- base:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: PAX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bit-z.com/exchange/pax_usdt
 name: Paxos Standard
 rank: 37
 slug: paxos-standard

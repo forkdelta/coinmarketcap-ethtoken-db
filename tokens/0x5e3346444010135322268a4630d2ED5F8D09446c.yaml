@@ -38,34 +38,6 @@ markets:
     currency_symbol: LOC
     currency_type: cryptocurrency
     exchange_symbol: LOC
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: LOC/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/LOC
-- base:
-    currency_id: 2287
-    currency_symbol: LOC
-    currency_type: cryptocurrency
-    exchange_symbol: LOC
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: LOC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/LOC/BTC
-- base:
-    currency_id: 2287
-    currency_symbol: LOC
-    currency_type: cryptocurrency
-    exchange_symbol: LOC
   exchange_id: 311
   exchange_name: KuCoin
   pair: LOC/BTC
@@ -80,15 +52,15 @@ markets:
     currency_symbol: LOC
     currency_type: cryptocurrency
     exchange_symbol: LOC
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: LOC/ETH
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: LOC/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.kucoin.com/LOC-ETH
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/LOC/BTC
 - base:
     currency_id: 2287
     currency_symbol: LOC
@@ -117,6 +89,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/LOC-to-ETH
+- base:
+    currency_id: 2287
+    currency_symbol: LOC
+    currency_type: cryptocurrency
+    exchange_symbol: LOC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: LOC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://trade.kucoin.com/LOC-ETH
 - base:
     currency_id: 2287
     currency_symbol: LOC
@@ -201,8 +187,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 2287
+    currency_symbol: LOC
+    currency_type: cryptocurrency
+    exchange_symbol: LOC
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: LOC/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/LOC
 name: LockTrip
-rank: 597
+rank: 606
 slug: lockchain
 status: active
 symbol: LOC

@@ -42,6 +42,20 @@ markets:
     exchange_symbol: XUC
   exchange_id: 22
   exchange_name: Bittrex
+  pair: XUC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-XUC
+- base:
+    currency_id: 2091
+    currency_symbol: XUC
+    currency_type: cryptocurrency
+    exchange_symbol: XUC
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: XUC/USDT
   quote:
     currency_id: 825
@@ -54,15 +68,15 @@ markets:
     currency_symbol: XUC
     currency_type: cryptocurrency
     exchange_symbol: XUC
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: XUC/BTC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: XUC/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-XUC
+    exchange_symbol: USDT
+  url: https://hitbtc.com/XUC-to-USDT
 - base:
     currency_id: 2091
     currency_symbol: XUC
@@ -96,20 +110,6 @@ markets:
     currency_symbol: XUC
     currency_type: cryptocurrency
     exchange_symbol: XUC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: XUC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/XUC-to-USDT
-- base:
-    currency_id: 2091
-    currency_symbol: XUC
-    currency_type: cryptocurrency
-    exchange_symbol: XUC
   exchange_id: 490
   exchange_name: OKEx Korea
   pair: XUC/USDT
@@ -120,7 +120,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=XUC&market=USDT
 name: Exchange Union
-rank: 2122
+rank: 2115
 slug: exchange-union
 status: active
 symbol: XUC

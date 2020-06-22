@@ -27,6 +27,20 @@ markets:
     currency_symbol: COCOS
     currency_type: cryptocurrency
     exchange_symbol: COCOS
+  exchange_id: 270
+  exchange_name: Binance
+  pair: COCOS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/COCOS_USDT?ref=H31B921U
+- base:
+    currency_id: 4275
+    currency_symbol: COCOS
+    currency_type: cryptocurrency
+    exchange_symbol: COCOS
   exchange_id: 544
   exchange_name: MXC
   pair: COCOS/USDT
@@ -55,20 +69,6 @@ markets:
     currency_symbol: COCOS
     currency_type: cryptocurrency
     exchange_symbol: COCOS
-  exchange_id: 270
-  exchange_name: Binance
-  pair: COCOS/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/COCOS_USDT?ref=H31B921U
-- base:
-    currency_id: 4275
-    currency_symbol: COCOS
-    currency_type: cryptocurrency
-    exchange_symbol: COCOS
   exchange_id: 398
   exchange_name: DragonEX
   pair: COCOS/USDT
@@ -83,15 +83,15 @@ markets:
     currency_symbol: COCOS
     currency_type: cryptocurrency
     exchange_symbol: COCOS
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: COCOS/USDT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: COCOS/BNB
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=COCOS_USDT
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/COCOS_BNB?ref=H31B921U
 - base:
     currency_id: 4275
     currency_symbol: COCOS
@@ -111,15 +111,29 @@ markets:
     currency_symbol: COCOS
     currency_type: cryptocurrency
     exchange_symbol: COCOS
-  exchange_id: 270
-  exchange_name: Binance
-  pair: COCOS/BNB
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: COCOS/USDT
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/COCOS_BNB?ref=H31B921U
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=COCOS_USDT
+- base:
+    currency_id: 4275
+    currency_symbol: COCOS
+    currency_type: cryptocurrency
+    exchange_symbol: COCOS
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: COCOS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/COCOSUSDT
 - base:
     currency_id: 4275
     currency_symbol: COCOS
@@ -155,20 +169,6 @@ markets:
     exchange_symbol: COCOS
   exchange_id: 42
   exchange_name: HitBTC
-  pair: COCOS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/COCOS-to-BTC
-- base:
-    currency_id: 4275
-    currency_symbol: COCOS
-    currency_type: cryptocurrency
-    exchange_symbol: COCOS
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: COCOS/USDT
   quote:
     currency_id: 825
@@ -181,15 +181,15 @@ markets:
     currency_symbol: COCOS
     currency_type: cryptocurrency
     exchange_symbol: COCOS
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: COCOS/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: COCOS/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/COCOSUSDT
+    exchange_symbol: BTC
+  url: https://hitbtc.com/COCOS-to-BTC
 - base:
     currency_id: 4275
     currency_symbol: COCOS
@@ -205,7 +205,7 @@ markets:
     exchange_symbol: USDT
   url: https://hoo.com/trade/cocos-usdt
 name: Cocos-BCX
-rank: 393
+rank: 387
 slug: cocos-bcx
 status: active
 symbol: COCOS

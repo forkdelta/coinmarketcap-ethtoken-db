@@ -104,20 +104,6 @@ markets:
     currency_symbol: QSP
     currency_type: cryptocurrency
     exchange_symbol: QSP
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: QSP/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/qsp-krw
-- base:
-    currency_id: 2212
-    currency_symbol: QSP
-    currency_type: cryptocurrency
-    exchange_symbol: QSP
   exchange_id: 302
   exchange_name: Gate.io
   pair: QSP/ETH
@@ -127,6 +113,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/qsp_eth
+- base:
+    currency_id: 2212
+    currency_symbol: QSP
+    currency_type: cryptocurrency
+    exchange_symbol: QSP
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: QSP/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/qsp-krw
 - base:
     currency_id: 2212
     currency_symbol: QSP
@@ -156,7 +156,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/qsp
 name: Quantstamp
-rank: 331
+rank: 329
 slug: quantstamp
 status: active
 symbol: QSP
