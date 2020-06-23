@@ -87,34 +87,6 @@ markets:
     currency_symbol: ARN
     currency_type: cryptocurrency
     exchange_symbol: ARN
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: ARN/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/ARN-KRW
-- base:
-    currency_id: 2153
-    currency_symbol: ARN
-    currency_type: cryptocurrency
-    exchange_symbol: ARN
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: ARN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.probit.com/app/exchange/ARN-BTC
-- base:
-    currency_id: 2153
-    currency_symbol: ARN
-    currency_type: cryptocurrency
-    exchange_symbol: ARN
   exchange_id: 270
   exchange_name: Binance
   pair: ARN/ETH
@@ -143,15 +115,29 @@ markets:
     currency_symbol: ARN
     currency_type: cryptocurrency
     exchange_symbol: ARN
-  exchange_id: 213
-  exchange_name: Mercatox
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: ARN/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/ARN-KRW
+- base:
+    currency_id: 2153
+    currency_symbol: ARN
+    currency_type: cryptocurrency
+    exchange_symbol: ARN
+  exchange_id: 477
+  exchange_name: ProBit Exchange
   pair: ARN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://mercatox.com/exchange/ARN/BTC
+  url: https://www.probit.com/app/exchange/ARN-BTC
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -171,15 +157,15 @@ markets:
     currency_symbol: ARN
     currency_type: cryptocurrency
     exchange_symbol: ARN
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 213
+  exchange_name: Mercatox
   pair: ARN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/ARNBTC
+  url: https://mercatox.com/exchange/ARN/BTC
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -194,6 +180,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 2153
+    currency_symbol: ARN
+    currency_type: cryptocurrency
+    exchange_symbol: ARN
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: ARN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/ARNBTC
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -349,7 +349,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.bitnaru.com/exchange
 name: Aeron
-rank: 675
+rank: 684
 slug: aeron
 status: active
 symbol: ARN

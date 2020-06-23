@@ -17,20 +17,6 @@ markets:
     currency_id: 1403
     currency_symbol: 1ST
     currency_type: cryptocurrency
-    exchange_symbol: FirstBlood
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: 1ST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/1ST_BTC
-- base:
-    currency_id: 1403
-    currency_symbol: 1ST
-    currency_type: cryptocurrency
     exchange_symbol: 1ST
   exchange_id: 22
   exchange_name: Bittrex
@@ -41,6 +27,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-1ST
+- base:
+    currency_id: 1403
+    currency_symbol: 1ST
+    currency_type: cryptocurrency
+    exchange_symbol: FirstBlood
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: 1ST/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/1ST_BTC
 - base:
     currency_id: 1403
     currency_symbol: 1ST
@@ -83,36 +83,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/1st
-- base:
-    currency_id: 1403
-    currency_symbol: 1ST
-    currency_type: cryptocurrency
-    exchange_symbol: 1ST
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: 1ST/QC
-  quote:
-    currency_id: 2319
-    currency_symbol: QC
-    currency_type: cryptocurrency
-    exchange_symbol: QC
-  url: https://trans.zb.com/1stqc?recommendCode=d0ip3b
-- base:
-    currency_id: 1403
-    currency_symbol: 1ST
-    currency_type: cryptocurrency
-    exchange_symbol: 1ST
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: 1ST/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trans.zb.com/1stusdt?recommendCode=d0ip3b
 name: FirstBlood
-rank: 423
+rank: 381
 slug: firstblood
 status: active
 symbol: 1ST

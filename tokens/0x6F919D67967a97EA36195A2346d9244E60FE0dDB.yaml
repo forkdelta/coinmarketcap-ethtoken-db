@@ -54,15 +54,15 @@ markets:
     currency_symbol: BLOC
     currency_type: cryptocurrency
     exchange_symbol: BLOC
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: BLOC/USDT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: BLOC/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trade.kucoin.com/BLOC-USDT
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=BLOC_BTC
 - base:
     currency_id: 3860
     currency_symbol: BLOC
@@ -82,29 +82,15 @@ markets:
     currency_symbol: BLOC
     currency_type: cryptocurrency
     exchange_symbol: BLOC
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: BLOC/BTC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: BLOC/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=BLOC_BTC
-- base:
-    currency_id: 3860
-    currency_symbol: BLOC
-    currency_type: cryptocurrency
-    exchange_symbol: BLOC
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: BLOC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=bloc
+    exchange_symbol: USDT
+  url: https://trade.kucoin.com/BLOC-USDT
 - base:
     currency_id: 3860
     currency_symbol: BLOC
@@ -138,6 +124,20 @@ markets:
     currency_symbol: BLOC
     currency_type: cryptocurrency
     exchange_symbol: BLOC
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: BLOC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=bloc
+- base:
+    currency_id: 3860
+    currency_symbol: BLOC
+    currency_type: cryptocurrency
+    exchange_symbol: BLOC
   exchange_id: 333
   exchange_name: LBank
   pair: BLOC/USDT
@@ -162,7 +162,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=BLOC&market=USDT
 name: Blockcloud
-rank: 2178
+rank: 2161
 slug: blockcloud
 status: active
 symbol: BLOC

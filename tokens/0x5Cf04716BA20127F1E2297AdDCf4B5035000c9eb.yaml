@@ -59,20 +59,6 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: NKN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bilaxy.com/trade/NKN_USDT
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
   exchange_id: 270
   exchange_name: Binance
   pair: NKN/BTC
@@ -82,6 +68,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.binance.com/en/trade/NKN_BTC?ref=H31B921U
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: NKN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bilaxy.com/trade/NKN_USDT
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -129,20 +129,6 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: NKN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/nkn_btc?invite_code=5kij5
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
   exchange_id: 270
   exchange_name: Binance
   pair: NKN/BNB
@@ -157,57 +143,15 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: NKN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/NKNBTC
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: NKN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/nkn_usdt
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: NKN/HT
-  quote:
-    currency_id: 2502
-    currency_symbol: HT
-    currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.hbg.com/en-us/exchange/nkn_ht?invite_code=5kij5
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
-  exchange_id: 733
-  exchange_name: VCC Exchange
   pair: NKN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=nkn
+  url: https://www.hbg.com/en-us/exchange/nkn_btc?invite_code=5kij5
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -227,6 +171,62 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: NKN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=nkn
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: NKN/HT
+  quote:
+    currency_id: 2502
+    currency_symbol: HT
+    currency_type: cryptocurrency
+    exchange_symbol: HT
+  url: https://www.hbg.com/en-us/exchange/nkn_ht?invite_code=5kij5
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: NKN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/nkn_usdt
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: NKN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/NKNBTC
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
   exchange_id: 949
   exchange_name: CoinDCX
   pair: NKN/USDT
@@ -236,6 +236,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://coindcx.com/trade/NKNUSDT
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: NKN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-NKN
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -297,20 +311,6 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: NKN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-NKN
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
   exchange_id: 310
   exchange_name: IDEX
   pair: NKN/ETH
@@ -335,7 +335,7 @@ markets:
     exchange_symbol: ETH
   url: https://switcheo.exchange/markets/NKN_ETH?referral_code=DFCA09
 name: NKN
-rank: 315
+rank: 316
 slug: nkn
 status: active
 symbol: NKN

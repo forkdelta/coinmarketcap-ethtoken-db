@@ -23,15 +23,15 @@ markets:
     currency_symbol: OKB
     currency_type: cryptocurrency
     exchange_symbol: OKB
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: OKB/ETH
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: OKB/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.okex.com/market?product=okb_eth
+    exchange_symbol: USDT
+  url: https://www.bkex.com/trade/OKB_USDT
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -53,6 +53,20 @@ markets:
     exchange_symbol: OKB
   exchange_id: 294
   exchange_name: OKEx
+  pair: OKB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.okex.com/market?product=okb_eth
+- base:
+    currency_id: 3897
+    currency_symbol: OKB
+    currency_type: cryptocurrency
+    exchange_symbol: OKB
+  exchange_id: 294
+  exchange_name: OKEx
   pair: OKB/BTC
   quote:
     currency_id: 1
@@ -60,20 +74,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.okex.com/market?product=okb_btc
-- base:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  exchange_id: 398
-  exchange_name: DragonEX
-  pair: OKB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://dragonex.io
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -88,6 +88,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=okb_usdk
+- base:
+    currency_id: 3897
+    currency_symbol: OKB
+    currency_type: cryptocurrency
+    exchange_symbol: OKB
+  exchange_id: 398
+  exchange_name: DragonEX
+  pair: OKB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://dragonex.io
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -145,34 +159,6 @@ markets:
     exchange_symbol: USDT
   url: https://www.coinex.com/trading?currency=usdt&dest=okb&tab=limit
 - base:
-    currency_id: 1376
-    currency_symbol: NEO
-    currency_type: cryptocurrency
-    exchange_symbol: NEO
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: NEO/OKB
-  quote:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  url: https://www.okex.com/market?product=neo_okb
-- base:
-    currency_id: 2
-    currency_symbol: LTC
-    currency_type: cryptocurrency
-    exchange_symbol: LTC
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: LTC/OKB
-  quote:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  url: https://www.okex.com/market?product=ltc_okb
-- base:
     currency_id: 3897
     currency_symbol: OKB
     currency_type: cryptocurrency
@@ -215,33 +201,19 @@ markets:
     exchange_symbol: OKB
   url: https://www.okex.com/market?product=zec_okb
 - base:
-    currency_id: 131
-    currency_symbol: DASH
+    currency_id: 1376
+    currency_symbol: NEO
     currency_type: cryptocurrency
-    exchange_symbol: DASH
+    exchange_symbol: NEO
   exchange_id: 294
   exchange_name: OKEx
-  pair: DASH/OKB
+  pair: NEO/OKB
   quote:
     currency_id: 3897
     currency_symbol: OKB
     currency_type: cryptocurrency
     exchange_symbol: OKB
-  url: https://www.okex.com/market?product=dash_okb
-- base:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: OKB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitmart.com/trade?symbol=OKB_USDT
+  url: https://www.okex.com/market?product=neo_okb
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -261,15 +233,15 @@ markets:
     currency_symbol: OKB
     currency_type: cryptocurrency
     exchange_symbol: OKB
-  exchange_id: 644
-  exchange_name: FOBLGATE
-  pair: OKB/KRW
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: OKB/USDT
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.foblgate.com/trade?pairName=OKB/KRW
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitmart.com/trade?symbol=OKB_USDT
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -285,19 +257,19 @@ markets:
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/OKB-KRW
 - base:
+    currency_id: 131
+    currency_symbol: DASH
+    currency_type: cryptocurrency
+    exchange_symbol: DASH
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: DASH/OKB
+  quote:
     currency_id: 3897
     currency_symbol: OKB
     currency_type: cryptocurrency
     exchange_symbol: OKB
-  exchange_id: 478
-  exchange_name: HBTC
-  pair: OKB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbtc.com/exchange/OKB/BTC
+  url: https://www.okex.com/market?product=dash_okb
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -312,6 +284,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bw.com/trade/okb_usdt
+- base:
+    currency_id: 1958
+    currency_symbol: TRX
+    currency_type: cryptocurrency
+    exchange_symbol: TRX
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: TRX/OKB
+  quote:
+    currency_id: 3897
+    currency_symbol: OKB
+    currency_type: cryptocurrency
+    exchange_symbol: OKB
+  url: https://www.okex.com/market?product=trx_okb
+- base:
+    currency_id: 3897
+    currency_symbol: OKB
+    currency_type: cryptocurrency
+    exchange_symbol: OKB
+  exchange_id: 644
+  exchange_name: FOBLGATE
+  pair: OKB/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.foblgate.com/trade?pairName=OKB/KRW
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -341,19 +341,19 @@ markets:
     exchange_symbol: USDT
   url: https://bitmax.io/#/trade/usdt/okb
 - base:
-    currency_id: 1958
-    currency_symbol: TRX
-    currency_type: cryptocurrency
-    exchange_symbol: TRX
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: TRX/OKB
-  quote:
     currency_id: 3897
     currency_symbol: OKB
     currency_type: cryptocurrency
     exchange_symbol: OKB
-  url: https://www.okex.com/market?product=trx_okb
+  exchange_id: 478
+  exchange_name: HBTC
+  pair: OKB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbtc.com/exchange/OKB/BTC
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -368,6 +368,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://yunex.io/trade/okb_usdt
+- base:
+    currency_id: 2
+    currency_symbol: LTC
+    currency_type: cryptocurrency
+    exchange_symbol: LTC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: LTC/OKB
+  quote:
+    currency_id: 3897
+    currency_symbol: OKB
+    currency_type: cryptocurrency
+    exchange_symbol: OKB
+  url: https://www.okex.com/market?product=ltc_okb
+- base:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: XRP/OKB
+  quote:
+    currency_id: 3897
+    currency_symbol: OKB
+    currency_type: cryptocurrency
+    exchange_symbol: OKB
+  url: https://www.okex.com/market?product=xrp_okb
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -425,34 +453,6 @@ markets:
     exchange_symbol: IDR
   url: https://indodax.com/market/OKBIDR
 - base:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: XRP/OKB
-  quote:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  url: https://www.okex.com/market?product=xrp_okb
-- base:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: OKB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bkex.com/trade/OKB_USDT
-- base:
     currency_id: 3897
     currency_symbol: OKB
     currency_type: cryptocurrency
@@ -466,20 +466,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/okb_usdt
-- base:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: OKB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.probit.com/app/exchange/OKB-USDT
 - base:
     currency_id: 1720
     currency_symbol: MIOTA
@@ -499,43 +485,15 @@ markets:
     currency_symbol: OKB
     currency_type: cryptocurrency
     exchange_symbol: OKB
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: OKB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/OKB-to-BTC
-- base:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  exchange_id: 448
-  exchange_name: Coinall
+  exchange_id: 477
+  exchange_name: ProBit Exchange
   pair: OKB/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.coinall.com/market?product=okb_usdt
-- base:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  exchange_id: 514
-  exchange_name: Finexbox
-  pair: OKB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.finexbox.com/market/pair/OKB-BTC.html
+  url: https://www.probit.com/app/exchange/OKB-USDT
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -555,6 +513,20 @@ markets:
     currency_symbol: OKB
     currency_type: cryptocurrency
     exchange_symbol: OKB
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: OKB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/OKB-to-BTC
+- base:
+    currency_id: 3897
+    currency_symbol: OKB
+    currency_type: cryptocurrency
+    exchange_symbol: OKB
   exchange_id: 400
   exchange_name: Hotbit
   pair: OKB/BTC
@@ -564,6 +536,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=OKB_BTC
+- base:
+    currency_id: 3897
+    currency_symbol: OKB
+    currency_type: cryptocurrency
+    exchange_symbol: OKB
+  exchange_id: 514
+  exchange_name: Finexbox
+  pair: OKB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.finexbox.com/market/pair/OKB-BTC.html
+- base:
+    currency_id: 4090
+    currency_symbol: WXT
+    currency_type: cryptocurrency
+    exchange_symbol: WXT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: WXT/OKB
+  quote:
+    currency_id: 3897
+    currency_symbol: OKB
+    currency_type: cryptocurrency
+    exchange_symbol: OKB
+  url: https://www.okex.com/market?product=wxt_okb
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -579,19 +579,19 @@ markets:
     exchange_symbol: USDT
   url: https://www.bitfinex.com/t/OKB:USDT?refcode=H70YTMupQ
 - base:
-    currency_id: 4090
-    currency_symbol: WXT
+    currency_id: 1042
+    currency_symbol: SC
     currency_type: cryptocurrency
-    exchange_symbol: WXT
+    exchange_symbol: SC
   exchange_id: 294
   exchange_name: OKEx
-  pair: WXT/OKB
+  pair: SC/OKB
   quote:
     currency_id: 3897
     currency_symbol: OKB
     currency_type: cryptocurrency
     exchange_symbol: OKB
-  url: https://www.okex.com/market?product=wxt_okb
+  url: https://www.okex.com/market?product=sc_okb
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -625,6 +625,34 @@ markets:
     currency_symbol: OKB
     currency_type: cryptocurrency
     exchange_symbol: OKB
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: OKB/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://www.okex.com/market?product=okb_usdc
+- base:
+    currency_id: 2885
+    currency_symbol: EGT
+    currency_type: cryptocurrency
+    exchange_symbol: EGT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: EGT/OKB
+  quote:
+    currency_id: 3897
+    currency_symbol: OKB
+    currency_type: cryptocurrency
+    exchange_symbol: OKB
+  url: https://www.okex.com/market?product=egt_okb
+- base:
+    currency_id: 3897
+    currency_symbol: OKB
+    currency_type: cryptocurrency
+    exchange_symbol: OKB
   exchange_id: 37
   exchange_name: Bitfinex
   pair: OKB/USD
@@ -641,6 +669,20 @@ markets:
     exchange_symbol: OKB
   exchange_id: 448
   exchange_name: Coinall
+  pair: OKB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinall.com/market?product=okb_usdt
+- base:
+    currency_id: 3897
+    currency_symbol: OKB
+    currency_type: cryptocurrency
+    exchange_symbol: OKB
+  exchange_id: 448
+  exchange_name: Coinall
   pair: OKB/BTC
   quote:
     currency_id: 1
@@ -648,34 +690,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.coinall.com/market?product=okb_btc
-- base:
-    currency_id: 1042
-    currency_symbol: SC
-    currency_type: cryptocurrency
-    exchange_symbol: SC
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: SC/OKB
-  quote:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  url: https://www.okex.com/market?product=sc_okb
-- base:
-    currency_id: 2885
-    currency_symbol: EGT
-    currency_type: cryptocurrency
-    exchange_symbol: EGT
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: EGT/OKB
-  quote:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  url: https://www.okex.com/market?product=egt_okb
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -737,15 +751,15 @@ markets:
     currency_symbol: OKB
     currency_type: cryptocurrency
     exchange_symbol: OKB
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: OKB/USDC
+  exchange_id: 524
+  exchange_name: FTX
+  pair: OKB/USD
   quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://www.okex.com/market?product=okb_usdc
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: PERP
+  url: https://ftx.com/trade/OKB/USD
 - base:
     currency_id: 3897
     currency_symbol: OKB
@@ -760,36 +774,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hoo.com/trade/okb-usdt
-- base:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  exchange_id: 524
-  exchange_name: FTX
-  pair: OKB/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: PERP
-  url: https://ftx.com/trade/OKB/USD
-- base:
-    currency_id: 1700
-    currency_symbol: AE
-    currency_type: cryptocurrency
-    exchange_symbol: AE
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: AE/OKB
-  quote:
-    currency_id: 3897
-    currency_symbol: OKB
-    currency_type: cryptocurrency
-    exchange_symbol: OKB
-  url: https://www.okex.com/market?product=ae_okb
 name: OKB
-rank: 34
+rank: 33
 slug: okb
 status: active
 symbol: OKB

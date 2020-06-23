@@ -53,20 +53,6 @@ markets:
     currency_symbol: UCASH
     currency_type: cryptocurrency
     exchange_symbol: UCASH
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: UCASH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/UCASH/BTC
-- base:
-    currency_id: 2512
-    currency_symbol: UCASH
-    currency_type: cryptocurrency
-    exchange_symbol: UCASH
   exchange_id: 228
   exchange_name: BTC-Alpha
   pair: UCASH/BTC
@@ -90,8 +76,22 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://btc-alpha.com/exchange/UCASH_USD/
+- base:
+    currency_id: 2512
+    currency_symbol: UCASH
+    currency_type: cryptocurrency
+    exchange_symbol: UCASH
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: UCASH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/UCASH/BTC
 name: UNIVERSAL CASH
-rank: 969
+rank: 1025
 slug: ucash
 status: active
 symbol: UCASH

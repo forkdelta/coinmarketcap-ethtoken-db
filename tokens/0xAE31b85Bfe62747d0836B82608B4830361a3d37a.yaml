@@ -49,20 +49,6 @@ markets:
     currency_symbol: AERGO
     currency_type: cryptocurrency
     exchange_symbol: AERGO
-  exchange_id: 544
-  exchange_name: MXC
-  pair: AERGO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.mxc.com/trade/easy#AERGO_USDT
-- base:
-    currency_id: 3637
-    currency_symbol: AERGO
-    currency_type: cryptocurrency
-    exchange_symbol: AERGO
   exchange_id: 351
   exchange_name: Upbit
   pair: AERGO/KRW
@@ -72,6 +58,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-AERGO
+- base:
+    currency_id: 3637
+    currency_symbol: AERGO
+    currency_type: cryptocurrency
+    exchange_symbol: AERGO
+  exchange_id: 544
+  exchange_name: MXC
+  pair: AERGO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.mxc.com/trade/easy#AERGO_USDT
 - base:
     currency_id: 3637
     currency_symbol: AERGO
@@ -147,15 +147,15 @@ markets:
     currency_symbol: AERGO
     currency_type: cryptocurrency
     exchange_symbol: AERGO
-  exchange_id: 311
-  exchange_name: KuCoin
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: AERGO/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://trade.kucoin.com/AERGO-ETH
+  url: https://www.hotbit.io/exchange?symbol=AERGO_ETH
 - base:
     currency_id: 3637
     currency_symbol: AERGO
@@ -175,29 +175,15 @@ markets:
     currency_symbol: AERGO
     currency_type: cryptocurrency
     exchange_symbol: AERGO
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: AERGO/ETH
+  exchange_id: 194
+  exchange_name: Korbit
+  pair: AERGO/KRW
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=AERGO_ETH
-- base:
-    currency_id: 3637
-    currency_symbol: AERGO
-    currency_type: cryptocurrency
-    exchange_symbol: AERGO-46B
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: AERGO/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/AERGO-46B_BNB
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.korbit.co.kr/markets/?market=aergo-krw
 - base:
     currency_id: 3637
     currency_symbol: AERGO
@@ -212,6 +198,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.gopax.co.kr/exchange/aergo-krw
+- base:
+    currency_id: 3637
+    currency_symbol: AERGO
+    currency_type: cryptocurrency
+    exchange_symbol: AERGO
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: AERGO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://trade.kucoin.com/AERGO-ETH
 - base:
     currency_id: 3637
     currency_symbol: AERGO
@@ -244,30 +244,16 @@ markets:
     currency_id: 3637
     currency_symbol: AERGO
     currency_type: cryptocurrency
-    exchange_symbol: AERGO
-  exchange_id: 194
-  exchange_name: Korbit
-  pair: AERGO/KRW
+    exchange_symbol: AERGO-46B
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: AERGO/BNB
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.korbit.co.kr/markets/?market=aergo-krw
-- base:
-    currency_id: 3637
-    currency_symbol: AERGO
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: AERGO
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: AERGO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/AERGO-to-BTC
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/AERGO-46B_BNB
 - base:
     currency_id: 3637
     currency_symbol: AERGO
@@ -296,8 +282,22 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.gdac.co.kr/exchange/AERGO/KRW
+- base:
+    currency_id: 3637
+    currency_symbol: AERGO
+    currency_type: cryptocurrency
+    exchange_symbol: AERGO
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: AERGO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/AERGO-to-BTC
 name: Aergo
-rank: 425
+rank: 432
 slug: aergo
 status: active
 symbol: AERGO
