@@ -41,6 +41,20 @@ markets:
     currency_symbol: S4F
     currency_type: cryptocurrency
     exchange_symbol: S4F
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: S4F/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exrates.me/trading/S4FBTC
+- base:
+    currency_id: 3733
+    currency_symbol: S4F
+    currency_type: cryptocurrency
+    exchange_symbol: S4F
   exchange_id: 380
   exchange_name: LATOKEN
   pair: S4F/ETH
@@ -50,6 +64,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://latoken.com/exchange/ETH-S4F
+- base:
+    currency_id: 3733
+    currency_symbol: S4F
+    currency_type: cryptocurrency
+    exchange_symbol: S4F
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: S4F/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://exrates.me/trading/S4FETH
 - base:
     currency_id: 3733
     currency_symbol: S4F
@@ -83,34 +111,6 @@ markets:
     currency_symbol: S4F
     currency_type: cryptocurrency
     exchange_symbol: S4F
-  exchange_id: 155
-  exchange_name: Exrates
-  pair: S4F/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://exrates.me/trading/S4FETH
-- base:
-    currency_id: 3733
-    currency_symbol: S4F
-    currency_type: cryptocurrency
-    exchange_symbol: S4F
-  exchange_id: 155
-  exchange_name: Exrates
-  pair: S4F/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exrates.me/trading/S4FBTC
-- base:
-    currency_id: 3733
-    currency_symbol: S4F
-    currency_type: cryptocurrency
-    exchange_symbol: S4F
   exchange_id: 380
   exchange_name: LATOKEN
   pair: S4F/BTC
@@ -121,7 +121,7 @@ markets:
     exchange_symbol: BTC
   url: https://latoken.com/exchange/BTC-S4F
 name: S4FE
-rank: 721
+rank: 634
 slug: s4fe
 status: active
 symbol: S4F

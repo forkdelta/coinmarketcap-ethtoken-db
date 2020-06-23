@@ -57,20 +57,6 @@ markets:
     exchange_symbol: RTE
   exchange_id: 400
   exchange_name: Hotbit
-  pair: RTE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=RTE_BTC
-- base:
-    currency_id: 2880
-    currency_symbol: RTE
-    currency_type: cryptocurrency
-    exchange_symbol: RTE
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: RTE/ETH
   quote:
     currency_id: 1027
@@ -83,15 +69,15 @@ markets:
     currency_symbol: RTE
     currency_type: cryptocurrency
     exchange_symbol: RTE
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: RTE/USD
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: RTE/BTC
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/RTE:USD?refcode=H70YTMupQ
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=RTE_BTC
 - base:
     currency_id: 2880
     currency_symbol: RTE
@@ -111,6 +97,20 @@ markets:
     currency_symbol: RTE
     currency_type: cryptocurrency
     exchange_symbol: RTE
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: RTE/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/RTE:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 2880
+    currency_symbol: RTE
+    currency_type: cryptocurrency
+    exchange_symbol: RTE
   exchange_id: 310
   exchange_name: IDEX
   pair: RTE/ETH
@@ -121,7 +121,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/rte
 name: Rate3
-rank: 1074
+rank: 1077
 slug: rate3
 status: active
 symbol: RTE

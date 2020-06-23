@@ -39,20 +39,6 @@ markets:
     exchange_symbol: CBC
   exchange_id: 460
   exchange_name: Coinsbit
-  pair: CBC/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://coinsbit.io/trade/CBC_USD
-- base:
-    currency_id: 4633
-    currency_symbol: CBC
-    currency_type: cryptocurrency
-    exchange_symbol: CBC
-  exchange_id: 460
-  exchange_name: Coinsbit
   pair: CBC/BTC
   quote:
     currency_id: 1
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coinsbit.io/trade/CBC_BTC
+- base:
+    currency_id: 4633
+    currency_symbol: CBC
+    currency_type: cryptocurrency
+    exchange_symbol: CBC
+  exchange_id: 460
+  exchange_name: Coinsbit
+  pair: CBC/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://coinsbit.io/trade/CBC_USD
 - base:
     currency_id: 4633
     currency_symbol: CBC
@@ -81,20 +81,6 @@ markets:
     exchange_symbol: CB
   exchange_id: 419
   exchange_name: Graviex
-  pair: CBC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://graviex.net/markets/cbcbtc
-- base:
-    currency_id: 4633
-    currency_symbol: CBC
-    currency_type: cryptocurrency
-    exchange_symbol: CB
-  exchange_id: 419
-  exchange_name: Graviex
   pair: CBC/ETH
   quote:
     currency_id: 1027
@@ -102,8 +88,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://graviex.net/markets/cbceth
+- base:
+    currency_id: 4633
+    currency_symbol: CBC
+    currency_type: cryptocurrency
+    exchange_symbol: CB
+  exchange_id: 419
+  exchange_name: Graviex
+  pair: CBC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://graviex.net/markets/cbcbtc
 name: CryptoBossCoin
-rank: 2344
+rank: 2364
 slug: cryptobosscoin
 status: active
 symbol: CBC

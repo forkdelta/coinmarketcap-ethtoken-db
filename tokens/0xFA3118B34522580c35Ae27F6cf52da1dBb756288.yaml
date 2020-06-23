@@ -98,20 +98,6 @@ markets:
     exchange_symbol: LET
   exchange_id: 294
   exchange_name: OKEx
-  pair: LET/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=let_usdt
-- base:
-    currency_id: 2468
-    currency_symbol: LET
-    currency_type: cryptocurrency
-    exchange_symbol: LET
-  exchange_id: 294
-  exchange_name: OKEx
   pair: LET/BTC
   quote:
     currency_id: 1
@@ -124,15 +110,15 @@ markets:
     currency_symbol: LET
     currency_type: cryptocurrency
     exchange_symbol: LET
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: LET/BTC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: LET/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/let_btc/
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=let_usdt
 - base:
     currency_id: 2468
     currency_symbol: LET
@@ -154,6 +140,20 @@ markets:
     exchange_symbol: LET
   exchange_id: 463
   exchange_name: Huobi Korea
+  pair: LET/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/let_eth/
+- base:
+    currency_id: 2468
+    currency_symbol: LET
+    currency_type: cryptocurrency
+    exchange_symbol: LET
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: LET/USDT
   quote:
     currency_id: 825
@@ -168,15 +168,15 @@ markets:
     exchange_symbol: LET
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: LET/ETH
+  pair: LET/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/let_eth/
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/let_btc/
 name: LinkEye
-rank: 703
+rank: 690
 slug: linkeye
 status: active
 symbol: LET

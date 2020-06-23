@@ -57,20 +57,6 @@ markets:
     currency_symbol: XPR
     currency_type: cryptocurrency
     exchange_symbol: XPR
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: XPR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/XPR-to-BTC
-- base:
-    currency_id: 5350
-    currency_symbol: XPR
-    currency_type: cryptocurrency
-    exchange_symbol: XPR
   exchange_id: 415
   exchange_name: Bilaxy
   pair: XPR/BTC
@@ -80,6 +66,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bilaxy.com/trade/XPR_BTC
+- base:
+    currency_id: 5350
+    currency_symbol: XPR
+    currency_type: cryptocurrency
+    exchange_symbol: XPR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: XPR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/XPR-to-BTC
 - base:
     currency_id: 5350
     currency_symbol: XPR
@@ -151,7 +151,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.etherflyer.com/trade.html?pairs=XPR-ETH
 name: Proton
-rank: 370
+rank: 371
 slug: proton
 status: active
 symbol: XPR
