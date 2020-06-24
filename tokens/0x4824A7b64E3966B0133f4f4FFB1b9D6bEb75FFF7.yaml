@@ -35,20 +35,6 @@ markets:
     currency_symbol: TCT
     currency_type: cryptocurrency
     exchange_symbol: TCT
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: TCT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=tct&tab=limit
-- base:
-    currency_id: 2364
-    currency_symbol: TCT
-    currency_type: cryptocurrency
-    exchange_symbol: TCT
   exchange_id: 497
   exchange_name: Bione
   pair: TCT/USDT
@@ -63,15 +49,15 @@ markets:
     currency_symbol: TCT
     currency_type: cryptocurrency
     exchange_symbol: TCT
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: TCT/USDT
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: TCT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=tct_usdt
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=tct&tab=limit
 - base:
     currency_id: 2364
     currency_symbol: TCT
@@ -86,6 +72,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/TCT_USDT?ref=H31B921U
+- base:
+    currency_id: 2364
+    currency_symbol: TCT
+    currency_type: cryptocurrency
+    exchange_symbol: TCT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: TCT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=tct_usdt
 - base:
     currency_id: 2364
     currency_symbol: TCT
@@ -133,6 +133,20 @@ markets:
     currency_symbol: TCT
     currency_type: cryptocurrency
     exchange_symbol: TCT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: TCT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=tct_btc
+- base:
+    currency_id: 2364
+    currency_symbol: TCT
+    currency_type: cryptocurrency
+    exchange_symbol: TCT
   exchange_id: 330
   exchange_name: BigONE
   pair: TCT/USDT
@@ -142,20 +156,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://big.one/trade/TCT-USDT
-- base:
-    currency_id: 2364
-    currency_symbol: TCT
-    currency_type: cryptocurrency
-    exchange_symbol: TCT
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: TCT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/tct_eth
 - base:
     currency_id: 2364
     currency_symbol: TCT
@@ -175,17 +175,17 @@ markets:
     currency_symbol: TCT
     currency_type: cryptocurrency
     exchange_symbol: TCT
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: TCT/BTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: TCT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=tct_btc
+    exchange_symbol: ETH
+  url: https://gate.io/trade/tct_eth
 name: TokenClub
-rank: 595
+rank: 602
 slug: tokenclub
 status: active
 symbol: TCT

@@ -50,20 +50,6 @@ markets:
     currency_id: 5009
     currency_symbol: LST
     currency_type: cryptocurrency
-    exchange_symbol: LST
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: LST/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://p2pb2b.io/trade/LST_ETH
-- base:
-    currency_id: 5009
-    currency_symbol: LST
-    currency_type: cryptocurrency
     exchange_symbol: LST7
   exchange_id: 459
   exchange_name: BW.com
@@ -74,6 +60,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bw.com/trade/lst_usdt
+- base:
+    currency_id: 5009
+    currency_symbol: LST
+    currency_type: cryptocurrency
+    exchange_symbol: LST
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: LST/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://p2pb2b.io/trade/LST_ETH
 - base:
     currency_id: 5009
     currency_symbol: LST
@@ -109,20 +109,6 @@ markets:
     exchange_symbol: LST
   exchange_id: 245
   exchange_name: STEX
-  pair: LST/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://app.stex.com/en/basic-trade/pair/USDT/LST/1D
-- base:
-    currency_id: 5009
-    currency_symbol: LST
-    currency_type: cryptocurrency
-    exchange_symbol: LST
-  exchange_id: 245
-  exchange_name: STEX
   pair: LST/BTC
   quote:
     currency_id: 1
@@ -144,8 +130,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://app.stex.com/en/basic-trade/pair/ETH/LST/1D
+- base:
+    currency_id: 5009
+    currency_symbol: LST
+    currency_type: cryptocurrency
+    exchange_symbol: LST
+  exchange_id: 245
+  exchange_name: STEX
+  pair: LST/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://app.stex.com/en/basic-trade/pair/USDT/LST/1D
 name: LuckySevenToken
-rank: 295
+rank: 421
 slug: luckyseventoken
 status: active
 symbol: LST

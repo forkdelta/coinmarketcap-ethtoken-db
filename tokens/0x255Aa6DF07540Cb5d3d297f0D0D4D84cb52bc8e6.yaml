@@ -75,15 +75,43 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
-  exchange_id: 270
-  exchange_name: Binance
-  pair: RDN/ETH
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: RDN/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.binance.com/en/trade/RDN_ETH?ref=H31B921U
+    exchange_symbol: USDT
+  url: https://gate.io/trade/rdn_usdt
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
+    currency_type: cryptocurrency
+    exchange_symbol: RDN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: RDN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/rdn_btc?invite_code=5kij5
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
+    currency_type: cryptocurrency
+    exchange_symbol: RDN
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: RDN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.fatbtc.com/
 - base:
     currency_id: 2161
     currency_symbol: RDN
@@ -103,15 +131,29 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: RDN/BTC
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: RDN/BNT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1727
+    currency_symbol: BNT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/rdn_btc?invite_code=5kij5
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/RDN
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
+    currency_type: cryptocurrency
+    exchange_symbol: RDN
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: RDN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 - base:
     currency_id: 2161
     currency_symbol: RDN
@@ -133,62 +175,6 @@ markets:
     exchange_symbol: RDN
   exchange_id: 302
   exchange_name: Gate.io
-  pair: RDN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/rdn_usdt
-- base:
-    currency_id: 2161
-    currency_symbol: RDN
-    currency_type: cryptocurrency
-    exchange_symbol: RDN
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: RDN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 2161
-    currency_symbol: RDN
-    currency_type: cryptocurrency
-    exchange_symbol: RDN
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: RDN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 2161
-    currency_symbol: RDN
-    currency_type: cryptocurrency
-    exchange_symbol: RDN
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: RDN/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/RDN
-- base:
-    currency_id: 2161
-    currency_symbol: RDN
-    currency_type: cryptocurrency
-    exchange_symbol: RDN
-  exchange_id: 302
-  exchange_name: Gate.io
   pair: RDN/ETH
   quote:
     currency_id: 1027
@@ -196,20 +182,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/rdn_eth
-- base:
-    currency_id: 2161
-    currency_symbol: RDN
-    currency_type: cryptocurrency
-    exchange_symbol: RDN
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: RDN/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/RDN:USD?refcode=H70YTMupQ
 - base:
     currency_id: 2161
     currency_symbol: RDN
@@ -229,6 +201,20 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: RDN/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/RDN:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
+    currency_type: cryptocurrency
+    exchange_symbol: RDN
   exchange_id: 310
   exchange_name: IDEX
   pair: RDN/ETH
@@ -238,8 +224,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/rdn
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
+    currency_type: cryptocurrency
+    exchange_symbol: RDN
+  exchange_id: 270
+  exchange_name: Binance
+  pair: RDN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.binance.com/en/trade/RDN_ETH?ref=H31B921U
 name: Raiden Network Token
-rank: 334
+rank: 330
 slug: raiden-network-token
 status: active
 symbol: RDN

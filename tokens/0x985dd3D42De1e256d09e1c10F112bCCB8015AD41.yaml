@@ -60,6 +60,20 @@ markets:
     currency_symbol: OCEAN
     currency_type: cryptocurrency
     exchange_symbol: OCEAN
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: OCEAN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.kucoin.com/OCEAN-BTC
+- base:
+    currency_id: 3911
+    currency_symbol: OCEAN
+    currency_type: cryptocurrency
+    exchange_symbol: OCEAN
   exchange_id: 400
   exchange_name: Hotbit
   pair: OCEAN/ETH
@@ -90,20 +104,6 @@ markets:
     exchange_symbol: OCEAN
   exchange_id: 311
   exchange_name: KuCoin
-  pair: OCEAN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kucoin.com/OCEAN-BTC
-- base:
-    currency_id: 3911
-    currency_symbol: OCEAN
-    currency_type: cryptocurrency
-    exchange_symbol: OCEAN
-  exchange_id: 311
-  exchange_name: KuCoin
   pair: OCEAN/ETH
   quote:
     currency_id: 1027
@@ -111,20 +111,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://trade.kucoin.com/OCEAN-ETH
-- base:
-    currency_id: 3911
-    currency_symbol: OCEAN
-    currency_type: cryptocurrency
-    exchange_symbol: OCEAN
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: OCEAN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-OCEAN
 - base:
     currency_id: 3911
     currency_symbol: OCEAN
@@ -139,6 +125,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=ocean
+- base:
+    currency_id: 3911
+    currency_symbol: OCEAN
+    currency_type: cryptocurrency
+    exchange_symbol: OCEAN
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: OCEAN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-OCEAN
 - base:
     currency_id: 3911
     currency_symbol: OCEAN
@@ -168,7 +168,7 @@ markets:
     exchange_symbol: USDT
   url: https://bittrex.com/Market/Index?MarketName=USDT-OCEAN
 name: Ocean Protocol
-rank: 161
+rank: 157
 slug: ocean-protocol
 status: active
 symbol: OCEAN

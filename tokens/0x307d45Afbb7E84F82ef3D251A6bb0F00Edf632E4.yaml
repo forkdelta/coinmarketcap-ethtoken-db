@@ -37,20 +37,6 @@ markets:
     currency_symbol: PLA
     currency_type: cryptocurrency
     exchange_symbol: PLA
-  exchange_id: 489
-  exchange_name: Bithumb Global
-  pair: PLA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=PLA_USDT
-- base:
-    currency_id: 4242
-    currency_symbol: PLA
-    currency_type: cryptocurrency
-    exchange_symbol: PLA
   exchange_id: 391
   exchange_name: CoinTiger
   pair: PLA/USDT
@@ -67,13 +53,13 @@ markets:
     exchange_symbol: PLA
   exchange_id: 489
   exchange_name: Bithumb Global
-  pair: PLA/ETH
+  pair: PLA/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=PLA_ETH
+    exchange_symbol: USDT
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=PLA_USDT
 - base:
     currency_id: 4242
     currency_symbol: PLA
@@ -93,15 +79,15 @@ markets:
     currency_symbol: PLA
     currency_type: cryptocurrency
     exchange_symbol: PLA
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: PLA/KRW
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: PLA/ETH
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/PLA-KRW
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=PLA_ETH
 - base:
     currency_id: 4242
     currency_symbol: PLA
@@ -158,6 +144,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://p2pb2b.io/trade/PLA_BTC
+- base:
+    currency_id: 4242
+    currency_symbol: PLA
+    currency_type: cryptocurrency
+    exchange_symbol: PLA
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: PLA/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/PLA-KRW
 - base:
     currency_id: 4242
     currency_symbol: PLA
@@ -229,7 +229,7 @@ markets:
     exchange_symbol: VD
   url: https://vindax.com/exchange-base.html?symbol=PLA_VD
 name: PLANET
-rank: 972
+rank: 993
 slug: planet
 status: active
 symbol: PLA

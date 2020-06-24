@@ -45,20 +45,6 @@ markets:
     currency_symbol: AST
     currency_type: cryptocurrency
     exchange_symbol: AST
-  exchange_id: 270
-  exchange_name: Binance
-  pair: AST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/AST_BTC?ref=H31B921U
-- base:
-    currency_id: 2058
-    currency_symbol: AST
-    currency_type: cryptocurrency
-    exchange_symbol: AST
   exchange_id: 294
   exchange_name: OKEx
   pair: AST/USDT
@@ -68,6 +54,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.okex.com/market?product=ast_usdt
+- base:
+    currency_id: 2058
+    currency_symbol: AST
+    currency_type: cryptocurrency
+    exchange_symbol: AST
+  exchange_id: 270
+  exchange_name: Binance
+  pair: AST/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/AST_BTC?ref=H31B921U
 - base:
     currency_id: 2058
     currency_symbol: AST
@@ -167,7 +167,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.idcm.io/trading/AST_ETH
 name: AirSwap
-rank: 433
+rank: 442
 slug: airswap
 status: active
 symbol: AST

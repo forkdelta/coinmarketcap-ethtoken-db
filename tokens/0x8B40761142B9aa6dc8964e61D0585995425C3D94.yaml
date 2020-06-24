@@ -36,20 +36,6 @@ markets:
     exchange_symbol: TRIO
   exchange_id: 294
   exchange_name: OKEx
-  pair: TRIO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=trio_btc
-- base:
-    currency_id: 2661
-    currency_symbol: TRIO
-    currency_type: cryptocurrency
-    exchange_symbol: TRIO
-  exchange_id: 294
-  exchange_name: OKEx
   pair: TRIO/ETH
   quote:
     currency_id: 1027
@@ -57,6 +43,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.okex.com/market?product=trio_eth
+- base:
+    currency_id: 2661
+    currency_symbol: TRIO
+    currency_type: cryptocurrency
+    exchange_symbol: TRIO
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: TRIO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=trio_btc
 - base:
     currency_id: 2661
     currency_symbol: TRIO
@@ -170,7 +170,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=TRIO&market=USDT
 name: Tripio
-rank: 649
+rank: 661
 slug: tripio
 status: active
 symbol: TRIO
