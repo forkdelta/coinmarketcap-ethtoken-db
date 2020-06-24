@@ -54,15 +54,29 @@ markets:
     currency_symbol: STPT
     currency_type: cryptocurrency
     exchange_symbol: STPT
-  exchange_id: 270
-  exchange_name: Binance
+  exchange_id: 174
+  exchange_name: Coinone
+  pair: STPT/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://coinone.co.kr/exchange/trade/stpt/
+- base:
+    currency_id: 4006
+    currency_symbol: STPT
+    currency_type: cryptocurrency
+    exchange_symbol: STPT
+  exchange_id: 453
+  exchange_name: BitMax
   pair: STPT/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/STPT_USDT?ref=H31B921U
+  url: https://bitmax.io/#/trade/usdt/stpt
 - base:
     currency_id: 4006
     currency_symbol: STPT
@@ -96,29 +110,15 @@ markets:
     currency_symbol: STPT
     currency_type: cryptocurrency
     exchange_symbol: STPT
-  exchange_id: 174
-  exchange_name: Coinone
-  pair: STPT/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://coinone.co.kr/exchange/trade/stpt/
-- base:
-    currency_id: 4006
-    currency_symbol: STPT
-    currency_type: cryptocurrency
-    exchange_symbol: STPT
-  exchange_id: 453
-  exchange_name: BitMax
+  exchange_id: 270
+  exchange_name: Binance
   pair: STPT/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/stpt
+  url: https://www.binance.com/en/trade/STPT_USDT?ref=H31B921U
 - base:
     currency_id: 4006
     currency_symbol: STPT
@@ -138,15 +138,15 @@ markets:
     currency_symbol: STPT
     currency_type: cryptocurrency
     exchange_symbol: STPT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: STPT/BNB
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: STPT/BTC
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/STPT_BNB?ref=H31B921U
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=stpt
 - base:
     currency_id: 4006
     currency_symbol: STPT
@@ -161,20 +161,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-STPT
-- base:
-    currency_id: 4006
-    currency_symbol: STPT
-    currency_type: cryptocurrency
-    exchange_symbol: STPT
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: STPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=stpt
 - base:
     currency_id: 4006
     currency_symbol: STPT
@@ -196,6 +182,20 @@ markets:
     exchange_symbol: STPT
   exchange_id: 949
   exchange_name: CoinDCX
+  pair: STPT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/STPTUSDT
+- base:
+    currency_id: 4006
+    currency_symbol: STPT
+    currency_type: cryptocurrency
+    exchange_symbol: STPT
+  exchange_id: 949
+  exchange_name: CoinDCX
   pair: STPT/INR
   quote:
     currency_id: 2796
@@ -208,17 +208,17 @@ markets:
     currency_symbol: STPT
     currency_type: cryptocurrency
     exchange_symbol: STPT
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: STPT/USDT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: STPT/BNB
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/STPTUSDT
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/STPT_BNB?ref=H31B921U
 name: Standard Tokenization Protocol
-rank: 374
+rank: 373
 slug: standard-tokenization-protocol
 status: active
 symbol: STPT

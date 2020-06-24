@@ -21,15 +21,15 @@ markets:
     currency_symbol: HXRO
     currency_type: cryptocurrency
     exchange_symbol: HXRO
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: HXRO/USDT
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: HXRO/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bittrex.com/Market/Index?MarketName=USDT-HXRO
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=hxro
 - base:
     currency_id: 3748
     currency_symbol: HXRO
@@ -49,29 +49,15 @@ markets:
     currency_symbol: HXRO
     currency_type: cryptocurrency
     exchange_symbol: HXRO
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: HXRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=hxro
-- base:
-    currency_id: 3748
-    currency_symbol: HXRO
-    currency_type: cryptocurrency
-    exchange_symbol: HXRO
-  exchange_id: 448
-  exchange_name: Coinall
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: HXRO/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.coinall.com/market?product=hxro_usdt
+  url: https://bittrex.com/Market/Index?MarketName=USDT-HXRO
 - base:
     currency_id: 3748
     currency_symbol: HXRO
@@ -91,6 +77,20 @@ markets:
     currency_symbol: HXRO
     currency_type: cryptocurrency
     exchange_symbol: HXRO
+  exchange_id: 448
+  exchange_name: Coinall
+  pair: HXRO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinall.com/market?product=hxro_usdt
+- base:
+    currency_id: 3748
+    currency_symbol: HXRO
+    currency_type: cryptocurrency
+    exchange_symbol: HXRO
   exchange_id: 797
   exchange_name: HaloDeX
   pair: HXRO/ETH
@@ -101,7 +101,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.halodex.io/trade/HXRO/ETH
 name: Hxro
-rank: 396
+rank: 390
 slug: hxro
 status: active
 symbol: HXRO

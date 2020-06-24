@@ -143,15 +143,15 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
-  exchange_id: 102
-  exchange_name: Huobi Global
+  exchange_id: 404
+  exchange_name: Kyber Network
   pair: REN/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/ren_eth?invite_code=5kij5
+  url: https://kyberswap.com/swap/ren-eth
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -171,15 +171,29 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
-  exchange_id: 404
-  exchange_name: Kyber Network
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: REN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/RENBTC
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: REN/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://kyberswap.com/swap/ren-eth
+  url: https://www.hbg.com/en-us/exchange/ren_eth?invite_code=5kij5
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -255,34 +269,6 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
-  exchange_id: 270
-  exchange_name: Binance
-  pair: REN/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/REN_BNB?ref=H31B921U
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: REN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/RENBTC
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
   exchange_id: 310
   exchange_name: IDEX
   pair: REN/ETH
@@ -292,8 +278,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/ren
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
+  exchange_id: 270
+  exchange_name: Binance
+  pair: REN/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/REN_BNB?ref=H31B921U
 name: Ren
-rank: 65
+rank: 63
 slug: ren
 status: active
 symbol: REN

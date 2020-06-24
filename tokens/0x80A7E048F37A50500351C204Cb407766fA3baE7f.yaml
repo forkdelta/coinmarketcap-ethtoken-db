@@ -37,15 +37,15 @@ markets:
     currency_symbol: CRPT
     currency_type: cryptocurrency
     exchange_symbol: CRPT
-  exchange_id: 112
-  exchange_name: Liquid
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: CRPT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/CRPTBTC?affiliate=eNgws23g761816
+  url: https://trade.kucoin.com/CRPT-BTC
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -67,6 +67,20 @@ markets:
     exchange_symbol: CRPT
   exchange_id: 112
   exchange_name: Liquid
+  pair: CRPT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/CRPTBTC?affiliate=eNgws23g761816
+- base:
+    currency_id: 2447
+    currency_symbol: CRPT
+    currency_type: cryptocurrency
+    exchange_symbol: CRPT
+  exchange_id: 112
+  exchange_name: Liquid
   pair: CRPT/QASH
   quote:
     currency_id: 2213
@@ -74,34 +88,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: QASH
   url: https://app.liquid.com/exchange/CRPTQASH?affiliate=eNgws23g761816
-- base:
-    currency_id: 2447
-    currency_symbol: CRPT
-    currency_type: cryptocurrency
-    exchange_symbol: CRPT
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CRPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kucoin.com/CRPT-BTC
-- base:
-    currency_id: 2447
-    currency_symbol: CRPT
-    currency_type: cryptocurrency
-    exchange_symbol: CRPT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: CRPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/CRPT-to-BTC
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -123,13 +109,13 @@ markets:
     exchange_symbol: CRPT
   exchange_id: 42
   exchange_name: HitBTC
-  pair: CRPT/USDT
+  pair: CRPT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/CRPT-to-USDT
+    exchange_symbol: BTC
+  url: https://hitbtc.com/CRPT-to-BTC
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -144,6 +130,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNB
   url: https://www.binance.org/en/trade/CRPT-8C9_BNB
+- base:
+    currency_id: 2447
+    currency_symbol: CRPT
+    currency_type: cryptocurrency
+    exchange_symbol: CRPT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: CRPT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/CRPT-to-USDT
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -173,7 +173,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/crpt
 name: Crypterium
-rank: 126
+rank: 138
 slug: crpt
 status: active
 symbol: CRPT

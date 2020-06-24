@@ -54,20 +54,6 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 270
-  exchange_name: Binance
-  pair: CHR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/CHR_USDT?ref=H31B921U
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
   exchange_id: 415
   exchange_name: Bilaxy
   pair: CHR/USDT
@@ -77,6 +63,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bilaxy.com/trade/CHR_USDT
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 270
+  exchange_name: Binance
+  pair: CHR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/CHR_USDT?ref=H31B921U
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -98,6 +98,20 @@ markets:
     exchange_symbol: CHR
   exchange_id: 311
   exchange_name: KuCoin
+  pair: CHR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://trade.kucoin.com/CHR-USDT
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: CHR/BTC
   quote:
     currency_id: 1
@@ -105,6 +119,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://trade.kucoin.com/CHR-BTC
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: CHR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/chr
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -119,34 +147,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNB
   url: https://www.binance.com/en/trade/CHR_BNB?ref=H31B921U
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CHR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trade.kucoin.com/CHR-USDT
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: CHR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/CHRBTC
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -180,15 +180,29 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 453
-  exchange_name: BitMax
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: CHR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/CHR-USDT
+- base:
+    currency_id: 3978
+    currency_symbol: CHR
+    currency_type: cryptocurrency
+    exchange_symbol: CHR
+  exchange_id: 949
+  exchange_name: CoinDCX
   pair: CHR/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/chr
+  url: https://coindcx.com/trade/CHRBTC
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -208,15 +222,15 @@ markets:
     currency_symbol: CHR
     currency_type: cryptocurrency
     exchange_symbol: CHR
-  exchange_id: 425
-  exchange_name: WazirX
+  exchange_id: 615
+  exchange_name: Binance JEX
   pair: CHR/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://wazirx.com/exchange/CHR-USDT
+  url: https://www.jex.com/en/spot
 - base:
     currency_id: 3978
     currency_symbol: CHR
@@ -230,20 +244,6 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.jex.com/en/spot
-- base:
-    currency_id: 3978
-    currency_symbol: CHR
-    currency_type: cryptocurrency
-    exchange_symbol: CHR
-  exchange_id: 615
-  exchange_name: Binance JEX
-  pair: CHR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
   url: https://www.jex.com/en/spot
 - base:
     currency_id: 3978
@@ -344,7 +344,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.bidesk.com/exchange/CHR/USDT
 name: Chromia
-rank: 362
+rank: 365
 slug: chromia
 status: active
 symbol: CHR

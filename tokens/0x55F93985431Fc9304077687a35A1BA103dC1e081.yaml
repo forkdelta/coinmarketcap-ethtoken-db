@@ -38,6 +38,20 @@ markets:
     currency_symbol: SMT
     currency_type: cryptocurrency
     exchange_symbol: SMT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: SMT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/smt_usdt
+- base:
+    currency_id: 2277
+    currency_symbol: SMT
+    currency_type: cryptocurrency
+    exchange_symbol: SMT
   exchange_id: 102
   exchange_name: Huobi Global
   pair: SMT/BTC
@@ -66,29 +80,15 @@ markets:
     currency_symbol: SMT
     currency_type: cryptocurrency
     exchange_symbol: SMT
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: SMT/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SMT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/smt_usdt
-- base:
-    currency_id: 2277
-    currency_symbol: SMT
-    currency_type: cryptocurrency
-    exchange_symbol: SMT
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: SMT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/smt_usdt/
+    exchange_symbol: BTC
+  url: https://hitbtc.com/SMT-to-BTC
 - base:
     currency_id: 2277
     currency_symbol: SMT
@@ -122,29 +122,15 @@ markets:
     currency_symbol: SMT
     currency_type: cryptocurrency
     exchange_symbol: SMT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SMT/BTC
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: SMT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/SMT-to-BTC
-- base:
-    currency_id: 2277
-    currency_symbol: SMT
-    currency_type: cryptocurrency
-    exchange_symbol: SMT
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: SMT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/smt_eth
+    exchange_symbol: USDT
+  url: https://www.huobi.co.kr/en-US/exchange/smt_usdt/
 - base:
     currency_id: 2277
     currency_symbol: SMT
@@ -173,8 +159,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/SMT-to-USDT
+- base:
+    currency_id: 2277
+    currency_symbol: SMT
+    currency_type: cryptocurrency
+    exchange_symbol: SMT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: SMT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/smt_eth
 name: SmartMesh
-rank: 545
+rank: 538
 slug: smartmesh
 status: active
 symbol: SMT

@@ -31,20 +31,6 @@ markets:
     exchange_symbol: SENT
   exchange_id: 400
   exchange_name: Hotbit
-  pair: SENT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=SENT_ETH
-- base:
-    currency_id: 2643
-    currency_symbol: SENT
-    currency_type: cryptocurrency
-    exchange_symbol: SENT
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: SENT/BTC
   quote:
     currency_id: 1
@@ -71,6 +57,20 @@ markets:
     currency_symbol: SENT
     currency_type: cryptocurrency
     exchange_symbol: SENT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: SENT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=SENT_ETH
+- base:
+    currency_id: 2643
+    currency_symbol: SENT
+    currency_type: cryptocurrency
+    exchange_symbol: SENT
   exchange_id: 310
   exchange_name: IDEX
   pair: SENT/ETH
@@ -80,6 +80,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/sent
+- base:
+    currency_id: 2643
+    currency_symbol: SENT
+    currency_type: cryptocurrency
+    exchange_symbol: SENT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SENT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/SENT-to-ETH
 - base:
     currency_id: 2643
     currency_symbol: SENT
@@ -108,20 +122,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/SENT-to-USDT
-- base:
-    currency_id: 2643
-    currency_symbol: SENT
-    currency_type: cryptocurrency
-    exchange_symbol: SENT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SENT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/SENT-to-ETH
 - base:
     currency_id: 2643
     currency_symbol: SENT
@@ -165,7 +165,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.coinall.com/market?product=sent_eth
 name: Sentinel
-rank: 699
+rank: 703
 slug: sentinel
 status: active
 symbol: SENT

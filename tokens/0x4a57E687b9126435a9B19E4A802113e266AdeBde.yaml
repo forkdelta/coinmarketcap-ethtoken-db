@@ -48,62 +48,6 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: FXC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=FXC_BTC
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: FXC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=FXC_ETH
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
-  exchange_id: 549
-  exchange_name: CITEX
-  pair: FXC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.citex.co.kr/trade/FXC_ETH
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: FXC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
   exchange_id: 16
   exchange_name: Poloniex
   pair: FXC/BTC
@@ -113,34 +57,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://poloniex.com/exchange#btc_fxc?c=H4QD8FNW
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
-  exchange_id: 549
-  exchange_name: CITEX
-  pair: FXC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trade.citex.co.kr/trade/FXC_USDT
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: FXC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-FXC
 - base:
     currency_id: 3812
     currency_symbol: FXC
@@ -160,6 +76,76 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: FXC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=FXC_ETH
+- base:
+    currency_id: 3812
+    currency_symbol: FXC
+    currency_type: cryptocurrency
+    exchange_symbol: FXC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: FXC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=FXC_BTC
+- base:
+    currency_id: 3812
+    currency_symbol: FXC
+    currency_type: cryptocurrency
+    exchange_symbol: FXC
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: FXC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-FXC
+- base:
+    currency_id: 3812
+    currency_symbol: FXC
+    currency_type: cryptocurrency
+    exchange_symbol: FXC
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: FXC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 3812
+    currency_symbol: FXC
+    currency_type: cryptocurrency
+    exchange_symbol: FXC
+  exchange_id: 549
+  exchange_name: CITEX
+  pair: FXC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://trade.citex.co.kr/trade/FXC_ETH
+- base:
+    currency_id: 3812
+    currency_symbol: FXC
+    currency_type: cryptocurrency
+    exchange_symbol: FXC
   exchange_id: 16
   exchange_name: Poloniex
   pair: FXC/USDT
@@ -169,6 +155,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://poloniex.com/exchange#usdt_fxc?c=H4QD8FNW
+- base:
+    currency_id: 3812
+    currency_symbol: FXC
+    currency_type: cryptocurrency
+    exchange_symbol: FXC
+  exchange_id: 549
+  exchange_name: CITEX
+  pair: FXC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://trade.citex.co.kr/trade/FXC_USDT
 - base:
     currency_id: 3812
     currency_symbol: FXC
@@ -226,7 +226,7 @@ markets:
     exchange_symbol: TRX
   url: https://poloniex.com/exchange#trx_fxc?c=H4QD8FNW
 name: Flexacoin
-rank: 75
+rank: 83
 slug: flexacoin
 status: active
 symbol: FXC

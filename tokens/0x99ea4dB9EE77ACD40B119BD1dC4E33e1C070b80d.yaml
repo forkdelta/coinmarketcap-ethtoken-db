@@ -92,13 +92,13 @@ markets:
     exchange_symbol: QSP
   exchange_id: 302
   exchange_name: Gate.io
-  pair: QSP/ETH
+  pair: QSP/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/qsp_eth
+    exchange_symbol: USDT
+  url: https://gate.io/trade/qsp_usdt
 - base:
     currency_id: 2212
     currency_symbol: QSP
@@ -113,20 +113,6 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.gopax.co.kr/exchange/qsp-krw
-- base:
-    currency_id: 2212
-    currency_symbol: QSP
-    currency_type: cryptocurrency
-    exchange_symbol: QSP
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: QSP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/qsp
 - base:
     currency_id: 2212
     currency_symbol: QSP
@@ -148,15 +134,29 @@ markets:
     exchange_symbol: QSP
   exchange_id: 302
   exchange_name: Gate.io
-  pair: QSP/USDT
+  pair: QSP/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/qsp_usdt
+    exchange_symbol: ETH
+  url: https://gate.io/trade/qsp_eth
+- base:
+    currency_id: 2212
+    currency_symbol: QSP
+    currency_type: cryptocurrency
+    exchange_symbol: QSP
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: QSP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/qsp
 name: Quantstamp
-rank: 330
+rank: 338
 slug: quantstamp
 status: active
 symbol: QSP

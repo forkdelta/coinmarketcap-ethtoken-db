@@ -31,20 +31,6 @@ markets:
     exchange_symbol: COV
   exchange_id: 311
   exchange_name: KuCoin
-  pair: COV/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kucoin.com/COV-BTC
-- base:
-    currency_id: 2342
-    currency_symbol: COV
-    currency_type: cryptocurrency
-    exchange_symbol: COV
-  exchange_id: 311
-  exchange_name: KuCoin
   pair: COV/ETH
   quote:
     currency_id: 1027
@@ -52,6 +38,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://trade.kucoin.com/COV-ETH
+- base:
+    currency_id: 2342
+    currency_symbol: COV
+    currency_type: cryptocurrency
+    exchange_symbol: COV
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: COV/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.kucoin.com/COV-BTC
 - base:
     currency_id: 2342
     currency_symbol: COV
@@ -71,20 +71,6 @@ markets:
     currency_symbol: COV
     currency_type: cryptocurrency
     exchange_symbol: COV
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: COV/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/COV_BTC
-- base:
-    currency_id: 2342
-    currency_symbol: COV
-    currency_type: cryptocurrency
-    exchange_symbol: COV
   exchange_id: 42
   exchange_name: HitBTC
   pair: COV/BTC
@@ -99,15 +85,15 @@ markets:
     currency_symbol: COV
     currency_type: cryptocurrency
     exchange_symbol: COV
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: COV/ETH
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: COV/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/COV-to-ETH
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/COV_BTC
 - base:
     currency_id: 2342
     currency_symbol: COV
@@ -122,8 +108,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/COV/BTC
+- base:
+    currency_id: 2342
+    currency_symbol: COV
+    currency_type: cryptocurrency
+    exchange_symbol: COV
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: COV/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/COV-to-ETH
 name: Covesting
-rank: 639
+rank: 592
 slug: covesting
 status: active
 symbol: COV
