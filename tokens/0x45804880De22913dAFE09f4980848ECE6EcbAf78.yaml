@@ -54,15 +54,15 @@ markets:
     currency_symbol: PAXG
     currency_type: cryptocurrency
     exchange_symbol: PAXG
-  exchange_id: 537
-  exchange_name: Virtuse Exchange
-  pair: PAXG/PAX
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: PAXG/EUR
   quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://virtuse.exchange/trading
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://trade.kraken.com/markets/kraken/paxg/eur
 - base:
     currency_id: 4705
     currency_symbol: PAXG
@@ -82,6 +82,20 @@ markets:
     currency_symbol: PAXG
     currency_type: cryptocurrency
     exchange_symbol: PAXG
+  exchange_id: 537
+  exchange_name: Virtuse Exchange
+  pair: PAXG/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://virtuse.exchange/trading
+- base:
+    currency_id: 4705
+    currency_symbol: PAXG
+    currency_type: cryptocurrency
+    exchange_symbol: PAXG
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: PAXG/USDT
@@ -96,15 +110,15 @@ markets:
     currency_symbol: PAXG
     currency_type: cryptocurrency
     exchange_symbol: PAXG
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: PAXG/EUR
+  exchange_id: 524
+  exchange_name: FTX
+  pair: PAXG/USD
   quote:
-    currency_id: 2790
-    currency_symbol: EUR
+    currency_id: 2781
+    currency_symbol: USD
     currency_type: fiat
-    exchange_symbol: EUR
-  url: https://trade.kraken.com/markets/kraken/paxg/eur
+    exchange_symbol: USD
+  url: https://ftx.com/trade/PAXG/USD
 - base:
     currency_id: 4705
     currency_symbol: PAXG
@@ -119,20 +133,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://trade.kraken.com/markets/kraken/paxg/eth
-- base:
-    currency_id: 4705
-    currency_symbol: PAXG
-    currency_type: cryptocurrency
-    exchange_symbol: PAXG
-  exchange_id: 524
-  exchange_name: FTX
-  pair: PAXG/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://ftx.com/trade/PAXG/USD
 - base:
     currency_id: 4705
     currency_symbol: PAXG
@@ -196,12 +196,12 @@ markets:
     exchange_symbol: PAXG
   exchange_id: 292
   exchange_name: Braziliex
-  pair: PAXG/BTC
+  pair: PAXG/BRL
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
+    currency_id: 2783
+    currency_symbol: BRL
+    currency_type: fiat
+    exchange_symbol: BRL
   url: https://braziliex.com
 - base:
     currency_id: 4705
@@ -210,12 +210,12 @@ markets:
     exchange_symbol: PAXG
   exchange_id: 292
   exchange_name: Braziliex
-  pair: PAXG/BRL
+  pair: PAXG/BTC
   quote:
-    currency_id: 2783
-    currency_symbol: BRL
-    currency_type: fiat
-    exchange_symbol: BRL
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://braziliex.com
 - base:
     currency_id: 4705
@@ -246,7 +246,7 @@ markets:
     exchange_symbol: ETH
   url: https://uniswap.exchange/
 name: PAX Gold
-rank: 113
+rank: 109
 slug: pax-gold
 status: active
 symbol: PAXG

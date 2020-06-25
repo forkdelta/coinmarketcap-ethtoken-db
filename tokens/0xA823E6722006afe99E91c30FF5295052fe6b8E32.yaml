@@ -29,34 +29,6 @@ markets:
     currency_symbol: NEU
     currency_type: cryptocurrency
     exchange_symbol: NEU
-  exchange_id: 82
-  exchange_name: BitBay
-  pair: NEU/PLN
-  quote:
-    currency_id: 2805
-    currency_symbol: PLN
-    currency_type: fiat
-    exchange_symbol: PLN
-  url: https://bitbay.net/en/exchange-rate/NEU-PLN
-- base:
-    currency_id: 2318
-    currency_symbol: NEU
-    currency_type: cryptocurrency
-    exchange_symbol: NEU
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: NEU/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/NEU-to-BTC
-- base:
-    currency_id: 2318
-    currency_symbol: NEU
-    currency_type: cryptocurrency
-    exchange_symbol: NEU
   exchange_id: 363
   exchange_name: Fatbtc
   pair: NEU/USDT
@@ -71,15 +43,29 @@ markets:
     currency_symbol: NEU
     currency_type: cryptocurrency
     exchange_symbol: NEU
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: NEU/ETH
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: NEU/PLN
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 2805
+    currency_symbol: PLN
+    currency_type: fiat
+    exchange_symbol: PLN
+  url: https://bitbay.net/en/exchange-rate/NEU-PLN
+- base:
+    currency_id: 2318
+    currency_symbol: NEU
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/NEU-to-ETH
+    exchange_symbol: NEU
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: NEU/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://bitbay.net/en/exchange-rate/NEU-EUR
 - base:
     currency_id: 2318
     currency_symbol: NEU
@@ -99,15 +85,29 @@ markets:
     currency_symbol: NEU
     currency_type: cryptocurrency
     exchange_symbol: NEU
-  exchange_id: 82
-  exchange_name: BitBay
-  pair: NEU/EUR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: NEU/BTC
   quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://bitbay.net/en/exchange-rate/NEU-EUR
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/NEU-to-BTC
+- base:
+    currency_id: 2318
+    currency_symbol: NEU
+    currency_type: cryptocurrency
+    exchange_symbol: NEU
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: NEU/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/NEU-to-ETH
 - base:
     currency_id: 2318
     currency_symbol: NEU
@@ -165,7 +165,7 @@ markets:
     exchange_symbol: USD
   url: https://bitbay.net/en/exchange-rate/NEU-USD
 name: Neumark
-rank: 526
+rank: 507
 slug: neumark
 status: active
 symbol: NEU

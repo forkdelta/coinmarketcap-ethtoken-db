@@ -85,20 +85,6 @@ markets:
     exchange_symbol: XMX
   exchange_id: 400
   exchange_name: Hotbit
-  pair: XMX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=XMX_ETH
-- base:
-    currency_id: 2859
-    currency_symbol: XMX
-    currency_type: cryptocurrency
-    exchange_symbol: XMX
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: XMX/BTC
   quote:
     currency_id: 1
@@ -111,15 +97,15 @@ markets:
     currency_symbol: XMX
     currency_type: cryptocurrency
     exchange_symbol: XMX
-  exchange_id: 468
-  exchange_name: OceanEx
-  pair: XMX/BTC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: XMX/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://oceanex.pro/trades/xmxbtc?referral=GNWJRA&linkId=24150518
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=XMX_ETH
 - base:
     currency_id: 2859
     currency_symbol: XMX
@@ -134,6 +120,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: VET
   url: https://oceanex.pro/trades/xmxvet?referral=GNWJRA&linkId=24150518
+- base:
+    currency_id: 2859
+    currency_symbol: XMX
+    currency_type: cryptocurrency
+    exchange_symbol: XMX
+  exchange_id: 468
+  exchange_name: OceanEx
+  pair: XMX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://oceanex.pro/trades/xmxbtc?referral=GNWJRA&linkId=24150518
 - base:
     currency_id: 2859
     currency_symbol: XMX
@@ -177,7 +177,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.hcoin.com/trade/usdt/xmx
 name: XMax
-rank: 378
+rank: 368
 slug: xmax
 status: active
 symbol: XMX

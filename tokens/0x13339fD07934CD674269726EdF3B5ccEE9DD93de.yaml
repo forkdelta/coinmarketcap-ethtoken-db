@@ -51,20 +51,6 @@ markets:
     exchange_symbol: CUR
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: CUR/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/CUR-KRW
-- base:
-    currency_id: 5083
-    currency_symbol: CUR
-    currency_type: cryptocurrency
-    exchange_symbol: CUR
-  exchange_id: 477
-  exchange_name: ProBit Exchange
   pair: CUR/ETH
   quote:
     currency_id: 1027
@@ -72,6 +58,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.probit.com/app/exchange/CUR-ETH
+- base:
+    currency_id: 5083
+    currency_symbol: CUR
+    currency_type: cryptocurrency
+    exchange_symbol: CUR
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: CUR/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/CUR-KRW
 - base:
     currency_id: 5083
     currency_symbol: CUR
@@ -129,7 +129,7 @@ markets:
     exchange_symbol: ETH
   url: https://hitbtc.com/CUR-to-ETH
 name: Curio
-rank: 2346
+rank: 2301
 slug: curio
 status: active
 symbol: CUR

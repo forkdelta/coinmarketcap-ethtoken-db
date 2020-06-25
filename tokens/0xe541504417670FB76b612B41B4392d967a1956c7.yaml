@@ -41,20 +41,6 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/one-bsc
 - base:
-    currency_id: 3513
-    currency_symbol: FTM
-    currency_type: cryptocurrency
-    exchange_symbol: FTM
-  exchange_id: 542
-  exchange_name: Bitsonic
-  pair: FTM/BSC
-  quote:
-    currency_id: 5725
-    currency_symbol: BSC
-    currency_type: cryptocurrency
-    exchange_symbol: BSC
-  url: https://bitsonic.co.kr/front/exchange/ftm-bsc
-- base:
     currency_id: 2675
     currency_symbol: DOCK
     currency_type: cryptocurrency
@@ -83,19 +69,33 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/xvg-bsc
 - base:
-    currency_id: 2405
-    currency_symbol: IOST
+    currency_id: 3077
+    currency_symbol: VET
     currency_type: cryptocurrency
-    exchange_symbol: IOST
+    exchange_symbol: VET
   exchange_id: 542
   exchange_name: Bitsonic
-  pair: IOST/BSC
+  pair: VET/BSC
   quote:
     currency_id: 5725
     currency_symbol: BSC
     currency_type: cryptocurrency
     exchange_symbol: BSC
-  url: https://bitsonic.co.kr/front/exchange/iost-bsc
+  url: https://bitsonic.co.kr/front/exchange/vet-bsc
+- base:
+    currency_id: 3513
+    currency_symbol: FTM
+    currency_type: cryptocurrency
+    exchange_symbol: FTM
+  exchange_id: 542
+  exchange_name: Bitsonic
+  pair: FTM/BSC
+  quote:
+    currency_id: 5725
+    currency_symbol: BSC
+    currency_type: cryptocurrency
+    exchange_symbol: BSC
+  url: https://bitsonic.co.kr/front/exchange/ftm-bsc
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -111,19 +111,19 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/link-bsc
 - base:
-    currency_id: 3077
-    currency_symbol: VET
+    currency_id: 3794
+    currency_symbol: ATOM
     currency_type: cryptocurrency
-    exchange_symbol: VET
+    exchange_symbol: ATOM
   exchange_id: 542
   exchange_name: Bitsonic
-  pair: VET/BSC
+  pair: ATOM/BSC
   quote:
     currency_id: 5725
     currency_symbol: BSC
     currency_type: cryptocurrency
     exchange_symbol: BSC
-  url: https://bitsonic.co.kr/front/exchange/vet-bsc
+  url: https://bitsonic.co.kr/front/exchange/atom-bsc
 - base:
     currency_id: 328
     currency_symbol: XMR
@@ -139,19 +139,19 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/xmr-bsc
 - base:
-    currency_id: 3794
-    currency_symbol: ATOM
+    currency_id: 2405
+    currency_symbol: IOST
     currency_type: cryptocurrency
-    exchange_symbol: ATOM
+    exchange_symbol: IOST
   exchange_id: 542
   exchange_name: Bitsonic
-  pair: ATOM/BSC
+  pair: IOST/BSC
   quote:
     currency_id: 5725
     currency_symbol: BSC
     currency_type: cryptocurrency
     exchange_symbol: BSC
-  url: https://bitsonic.co.kr/front/exchange/atom-bsc
+  url: https://bitsonic.co.kr/front/exchange/iost-bsc
 - base:
     currency_id: 4066
     currency_symbol: CHZ
@@ -167,20 +167,6 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/chz-bsc
 - base:
-    currency_id: 5725
-    currency_symbol: BSC
-    currency_type: cryptocurrency
-    exchange_symbol: BSC
-  exchange_id: 542
-  exchange_name: Bitsonic
-  pair: BSC/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://bitsonic.co.kr/front/exchange/bsc-krw
-- base:
     currency_id: 2011
     currency_symbol: XTZ
     currency_type: cryptocurrency
@@ -194,6 +180,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/xtz-bsc
+- base:
+    currency_id: 5725
+    currency_symbol: BSC
+    currency_type: cryptocurrency
+    exchange_symbol: BSC
+  exchange_id: 542
+  exchange_name: Bitsonic
+  pair: BSC/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://bitsonic.co.kr/front/exchange/bsc-krw
 - base:
     currency_id: 4846
     currency_symbol: KAVA
@@ -222,20 +222,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/qtum-bsc
-- base:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  exchange_id: 542
-  exchange_name: Bitsonic
-  pair: XRP/BSC
-  quote:
-    currency_id: 5725
-    currency_symbol: BSC
-    currency_type: cryptocurrency
-    exchange_symbol: BSC
-  url: https://bitsonic.co.kr/front/exchange/xrp-bsc
 - base:
     currency_id: 1586
     currency_symbol: ARK
@@ -279,6 +265,20 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/algo-bsc
 - base:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  exchange_id: 542
+  exchange_name: Bitsonic
+  pair: XRP/BSC
+  quote:
+    currency_id: 5725
+    currency_symbol: BSC
+    currency_type: cryptocurrency
+    exchange_symbol: BSC
+  url: https://bitsonic.co.kr/front/exchange/xrp-bsc
+- base:
     currency_id: 4006
     currency_symbol: STPT
     currency_type: cryptocurrency
@@ -293,19 +293,33 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/stpt-bsc
 - base:
-    currency_id: 2010
-    currency_symbol: ADA
+    currency_id: 1376
+    currency_symbol: NEO
     currency_type: cryptocurrency
-    exchange_symbol: ADA
+    exchange_symbol: NEO
   exchange_id: 542
   exchange_name: Bitsonic
-  pair: ADA/BSC
+  pair: NEO/BSC
   quote:
     currency_id: 5725
     currency_symbol: BSC
     currency_type: cryptocurrency
     exchange_symbol: BSC
-  url: https://bitsonic.co.kr/front/exchange/ada-bsc
+  url: https://bitsonic.co.kr/front/exchange/neo-bsc
+- base:
+    currency_id: 2577
+    currency_symbol: RVN
+    currency_type: cryptocurrency
+    exchange_symbol: RVN
+  exchange_id: 542
+  exchange_name: Bitsonic
+  pair: RVN/BSC
+  quote:
+    currency_id: 5725
+    currency_symbol: BSC
+    currency_type: cryptocurrency
+    exchange_symbol: BSC
+  url: https://bitsonic.co.kr/front/exchange/rvn-bsc
 - base:
     currency_id: 3890
     currency_symbol: MATIC
@@ -321,19 +335,19 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/matic-bsc
 - base:
-    currency_id: 2577
-    currency_symbol: RVN
+    currency_id: 2010
+    currency_symbol: ADA
     currency_type: cryptocurrency
-    exchange_symbol: RVN
+    exchange_symbol: ADA
   exchange_id: 542
   exchange_name: Bitsonic
-  pair: RVN/BSC
+  pair: ADA/BSC
   quote:
     currency_id: 5725
     currency_symbol: BSC
     currency_type: cryptocurrency
     exchange_symbol: BSC
-  url: https://bitsonic.co.kr/front/exchange/rvn-bsc
+  url: https://bitsonic.co.kr/front/exchange/ada-bsc
 - base:
     currency_id: 2130
     currency_symbol: ENJ
@@ -377,19 +391,47 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/fet-bsc
 - base:
-    currency_id: 1376
-    currency_symbol: NEO
+    currency_id: 1831
+    currency_symbol: BCH
     currency_type: cryptocurrency
-    exchange_symbol: NEO
+    exchange_symbol: BCH
   exchange_id: 542
   exchange_name: Bitsonic
-  pair: NEO/BSC
+  pair: BCH/BSC
   quote:
     currency_id: 5725
     currency_symbol: BSC
     currency_type: cryptocurrency
     exchange_symbol: BSC
-  url: https://bitsonic.co.kr/front/exchange/neo-bsc
+  url: https://bitsonic.co.kr/front/exchange/bch-bsc
+- base:
+    currency_id: 4760
+    currency_symbol: XPN
+    currency_type: cryptocurrency
+    exchange_symbol: XPN
+  exchange_id: 542
+  exchange_name: Bitsonic
+  pair: XPN/BSC
+  quote:
+    currency_id: 5725
+    currency_symbol: BSC
+    currency_type: cryptocurrency
+    exchange_symbol: BSC
+  url: https://bitsonic.co.kr/front/exchange/xpn-bsc
+- base:
+    currency_id: 5725
+    currency_symbol: BSC
+    currency_type: cryptocurrency
+    exchange_symbol: BSC
+  exchange_id: 391
+  exchange_name: CoinTiger
+  pair: BSC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=bsc_usdt
 - base:
     currency_id: 2553
     currency_symbol: RFR
@@ -419,34 +461,6 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/bolt-bsc
 - base:
-    currency_id: 5725
-    currency_symbol: BSC
-    currency_type: cryptocurrency
-    exchange_symbol: BSC
-  exchange_id: 391
-  exchange_name: CoinTiger
-  pair: BSC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=bsc_usdt
-- base:
-    currency_id: 1831
-    currency_symbol: BCH
-    currency_type: cryptocurrency
-    exchange_symbol: BCH
-  exchange_id: 542
-  exchange_name: Bitsonic
-  pair: BCH/BSC
-  quote:
-    currency_id: 5725
-    currency_symbol: BSC
-    currency_type: cryptocurrency
-    exchange_symbol: BSC
-  url: https://bitsonic.co.kr/front/exchange/bch-bsc
-- base:
     currency_id: 5161
     currency_symbol: WRX
     currency_type: cryptocurrency
@@ -460,20 +474,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/wrx-bsc
-- base:
-    currency_id: 4760
-    currency_symbol: XPN
-    currency_type: cryptocurrency
-    exchange_symbol: XPN
-  exchange_id: 542
-  exchange_name: Bitsonic
-  pair: XPN/BSC
-  quote:
-    currency_id: 5725
-    currency_symbol: BSC
-    currency_type: cryptocurrency
-    exchange_symbol: BSC
-  url: https://bitsonic.co.kr/front/exchange/xpn-bsc
 - base:
     currency_id: 3835
     currency_symbol: ORBS
@@ -503,7 +503,7 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/xsr-bsc
 name: Bitsonic
-rank: 2112
+rank: 2117
 slug: bitsonic
 status: active
 symbol: BSC

@@ -63,20 +63,6 @@ markets:
     currency_symbol: EGCC
     currency_type: cryptocurrency
     exchange_symbol: EGCC
-  exchange_id: 300
-  exchange_name: BitZ
-  pair: EGCC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bit-z.com/exchange/egcc_btc
-- base:
-    currency_id: 2852
-    currency_symbol: EGCC
-    currency_type: cryptocurrency
-    exchange_symbol: EGCC
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: EGCC/KRW
@@ -86,8 +72,22 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/EGCC-KRW
+- base:
+    currency_id: 2852
+    currency_symbol: EGCC
+    currency_type: cryptocurrency
+    exchange_symbol: EGCC
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: EGCC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bit-z.com/exchange/egcc_btc
 name: Engine
-rank: 2262
+rank: 2263
 slug: engine
 status: active
 symbol: EGCC

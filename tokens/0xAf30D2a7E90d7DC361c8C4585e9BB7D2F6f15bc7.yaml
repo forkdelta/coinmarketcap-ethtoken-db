@@ -17,20 +17,6 @@ markets:
     currency_id: 1403
     currency_symbol: 1ST
     currency_type: cryptocurrency
-    exchange_symbol: FirstBlood
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: 1ST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/1ST_BTC
-- base:
-    currency_id: 1403
-    currency_symbol: 1ST
-    currency_type: cryptocurrency
     exchange_symbol: 1ST
   exchange_id: 42
   exchange_name: HitBTC
@@ -41,6 +27,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/1ST-to-BTC
+- base:
+    currency_id: 1403
+    currency_symbol: 1ST
+    currency_type: cryptocurrency
+    exchange_symbol: FirstBlood
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: 1ST/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/1ST_BTC
 - base:
     currency_id: 1403
     currency_symbol: 1ST
@@ -84,7 +84,7 @@ markets:
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-1ST
 name: FirstBlood
-rank: 422
+rank: 353
 slug: firstblood
 status: active
 symbol: 1ST

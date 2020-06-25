@@ -51,15 +51,15 @@ markets:
     currency_symbol: REM
     currency_type: cryptocurrency
     exchange_symbol: REM
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: REM/ETH
+  exchange_id: 228
+  exchange_name: BTC-Alpha
+  pair: REM/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=REM_ETH
+    exchange_symbol: BTC
+  url: https://btc-alpha.com/exchange/REM_BTC/
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -74,6 +74,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=REM_BTC
+- base:
+    currency_id: 2546
+    currency_symbol: REM
+    currency_type: cryptocurrency
+    exchange_symbol: REM
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: REM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=REM_ETH
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -130,20 +144,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/rem_eth
-- base:
-    currency_id: 2546
-    currency_symbol: REM
-    currency_type: cryptocurrency
-    exchange_symbol: REM
-  exchange_id: 228
-  exchange_name: BTC-Alpha
-  pair: REM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://btc-alpha.com/exchange/REM_BTC/
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -243,7 +243,7 @@ markets:
     exchange_symbol: BTC
   url: https://whitebit.com/trade/REM_BTC
 name: Remme
-rank: 873
+rank: 895
 slug: remme
 status: active
 symbol: REM
