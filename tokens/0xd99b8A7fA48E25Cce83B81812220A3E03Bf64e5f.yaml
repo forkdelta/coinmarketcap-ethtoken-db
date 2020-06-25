@@ -77,20 +77,6 @@ markets:
     currency_symbol: SKM
     currency_type: cryptocurrency
     exchange_symbol: SKM
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: SKM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=SKM_BTC
-- base:
-    currency_id: 2725
-    currency_symbol: SKM
-    currency_type: cryptocurrency
-    exchange_symbol: SKM
   exchange_id: 102
   exchange_name: Huobi Global
   pair: SKM/HT
@@ -100,6 +86,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: HT
   url: https://www.hbg.com/en-us/exchange/skm_ht?invite_code=5kij5
+- base:
+    currency_id: 2725
+    currency_symbol: SKM
+    currency_type: cryptocurrency
+    exchange_symbol: SKM
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: SKM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.huobi.co.kr/en-US/exchange/skm_usdt/
 - base:
     currency_id: 2725
     currency_symbol: SKM
@@ -133,6 +133,20 @@ markets:
     currency_symbol: SKM
     currency_type: cryptocurrency
     exchange_symbol: SKM
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: SKM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=SKM_BTC
+- base:
+    currency_id: 2725
+    currency_symbol: SKM
+    currency_type: cryptocurrency
+    exchange_symbol: SKM
   exchange_id: 333
   exchange_name: LBank
   pair: SKM/ETH
@@ -142,20 +156,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.lbank.info/trading/skm/eth
-- base:
-    currency_id: 2725
-    currency_symbol: SKM
-    currency_type: cryptocurrency
-    exchange_symbol: SKM
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: SKM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/skm_usdt/
 - base:
     currency_id: 2725
     currency_symbol: SKM
@@ -213,7 +213,7 @@ markets:
     exchange_symbol: KRW
   url: https://www.huobi.co.kr/en-US/exchange/skm_krw/
 name: Skrumble Network
-rank: 760
+rank: 752
 slug: skrumble-network
 status: active
 symbol: SKM

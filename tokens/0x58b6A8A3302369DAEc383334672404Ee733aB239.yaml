@@ -14,6 +14,7 @@ links:
   - https://explorer.livepeer.org/
   - https://etherscan.io/token/0x58b6a8a3302369daec383334672404ee733ab239
   - https://ethplorer.io/address/0x58b6a8a3302369daec383334672404ee733ab239
+  - https://hubble.figment.network/livepeer/chains/mainnet
   message_board:
   - https://medium.com/livepeer-blog
   - https://forum.livepeer.org/
@@ -28,6 +29,20 @@ links:
   website:
   - https://livepeer.org/
 markets:
+- base:
+    currency_id: 3640
+    currency_symbol: LPT
+    currency_type: cryptocurrency
+    exchange_symbol: LPT
+  exchange_id: 549
+  exchange_name: CITEX
+  pair: LPT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.citex.co.kr/trade/LPT_BTC
 - base:
     currency_id: 3640
     currency_symbol: LPT
@@ -75,20 +90,6 @@ markets:
     currency_symbol: LPT
     currency_type: cryptocurrency
     exchange_symbol: LPT
-  exchange_id: 549
-  exchange_name: CITEX
-  pair: LPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.citex.co.kr/trade/LPT_BTC
-- base:
-    currency_id: 3640
-    currency_symbol: LPT
-    currency_type: cryptocurrency
-    exchange_symbol: LPT
   exchange_id: 348
   exchange_name: Radar Relay
   pair: LPT/WETH
@@ -99,7 +100,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/LPT/WETH
 name: Livepeer
-rank: 2399
+rank: 2379
 slug: livepeer
 status: active
 symbol: LPT

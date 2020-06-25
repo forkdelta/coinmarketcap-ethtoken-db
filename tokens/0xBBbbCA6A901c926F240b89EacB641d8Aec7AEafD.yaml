@@ -61,20 +61,6 @@ markets:
     currency_symbol: LRC
     currency_type: cryptocurrency
     exchange_symbol: LRC
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: LRC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/lrc_btc?inviteCode=VQQLQV
-- base:
-    currency_id: 1934
-    currency_symbol: LRC
-    currency_type: cryptocurrency
-    exchange_symbol: LRC
   exchange_id: 415
   exchange_name: Bilaxy
   pair: LRC/BTC
@@ -89,15 +75,15 @@ markets:
     currency_symbol: LRC
     currency_type: cryptocurrency
     exchange_symbol: LRC
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: LRC/ETH
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: LRC/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.okex.com/market?product=lrc_eth
+    exchange_symbol: BTC
+  url: https://www.bitrue.com/trade/lrc_btc?inviteCode=VQQLQV
 - base:
     currency_id: 1934
     currency_symbol: LRC
@@ -112,6 +98,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.binance.com/en/trade/LRC_BTC?ref=H31B921U
+- base:
+    currency_id: 1934
+    currency_symbol: LRC
+    currency_type: cryptocurrency
+    exchange_symbol: LRC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: LRC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.okex.com/market?product=lrc_eth
 - base:
     currency_id: 1934
     currency_symbol: LRC
@@ -159,34 +159,6 @@ markets:
     currency_symbol: LRC
     currency_type: cryptocurrency
     exchange_symbol: LRC
-  exchange_id: 983
-  exchange_name: Loopring Exchange
-  pair: LRC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://loopring.io/trade/LRC-ETH
-- base:
-    currency_id: 1934
-    currency_symbol: LRC
-    currency_type: cryptocurrency
-    exchange_symbol: LRC
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: LRC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/LRCUSDT
-- base:
-    currency_id: 1934
-    currency_symbol: LRC
-    currency_type: cryptocurrency
-    exchange_symbol: LRC
   exchange_id: 270
   exchange_name: Binance
   pair: LRC/ETH
@@ -210,6 +182,48 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://dex-trade.com/en?currencyIn=LRC&currencyTo=BTC
+- base:
+    currency_id: 1934
+    currency_symbol: LRC
+    currency_type: cryptocurrency
+    exchange_symbol: LRC
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: LRC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://omgfin.com/exchange/trade/market/LRCUSDT
+- base:
+    currency_id: 1934
+    currency_symbol: LRC
+    currency_type: cryptocurrency
+    exchange_symbol: LRC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: LRC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/lrc_usdt
+- base:
+    currency_id: 1934
+    currency_symbol: LRC
+    currency_type: cryptocurrency
+    exchange_symbol: LRC
+  exchange_id: 983
+  exchange_name: Loopring Exchange
+  pair: LRC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://loopring.io/trade/LRC-ETH
 - base:
     currency_id: 1934
     currency_symbol: LRC
@@ -243,29 +257,15 @@ markets:
     currency_symbol: LRC
     currency_type: cryptocurrency
     exchange_symbol: LRC
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: LRC/USDT
+  exchange_id: 520
+  exchange_name: Bitvavo
+  pair: LRC/EUR
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/lrc_usdt
-- base:
-    currency_id: 1934
-    currency_symbol: LRC
-    currency_type: cryptocurrency
-    exchange_symbol: LRC
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: LRC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://dex-trade.com/en?currencyIn=LRC&currencyTo=ETH
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://account.bitvavo.com/markets/LRC-EUR
 - base:
     currency_id: 1934
     currency_symbol: LRC
@@ -285,20 +285,6 @@ markets:
     currency_symbol: LRC
     currency_type: cryptocurrency
     exchange_symbol: LRC
-  exchange_id: 520
-  exchange_name: Bitvavo
-  pair: LRC/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://account.bitvavo.com/markets/LRC-EUR
-- base:
-    currency_id: 1934
-    currency_symbol: LRC
-    currency_type: cryptocurrency
-    exchange_symbol: LRC
   exchange_id: 404
   exchange_name: Kyber Network
   pair: LRC/ETH
@@ -308,6 +294,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/lrc-eth
+- base:
+    currency_id: 1934
+    currency_symbol: LRC
+    currency_type: cryptocurrency
+    exchange_symbol: LRC
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: LRC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://dex-trade.com/en?currencyIn=LRC&currencyTo=ETH
+- base:
+    currency_id: 1934
+    currency_symbol: LRC
+    currency_type: cryptocurrency
+    exchange_symbol: LRC
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: LRC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 - base:
     currency_id: 1934
     currency_symbol: LRC
@@ -341,20 +355,6 @@ markets:
     currency_symbol: LRC
     currency_type: cryptocurrency
     exchange_symbol: LRC
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: LRC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 1934
-    currency_symbol: LRC
-    currency_type: cryptocurrency
-    exchange_symbol: LRC
   exchange_id: 302
   exchange_name: Gate.io
   pair: LRC/ETH
@@ -364,48 +364,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/lrc_eth
-- base:
-    currency_id: 1934
-    currency_symbol: LRC
-    currency_type: cryptocurrency
-    exchange_symbol: LRC
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: LRC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=lrc
-- base:
-    currency_id: 1934
-    currency_symbol: LRC
-    currency_type: cryptocurrency
-    exchange_symbol: LRC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: LRC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/LRC-to-BTC
-- base:
-    currency_id: 1934
-    currency_symbol: LRC
-    currency_type: cryptocurrency
-    exchange_symbol: LRC
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: LRC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-LRC
 - base:
     currency_id: 1934
     currency_symbol: LRC
@@ -425,34 +383,6 @@ markets:
     currency_symbol: LRC
     currency_type: cryptocurrency
     exchange_symbol: LRC
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: LRC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/LRC:BTC?refcode=H70YTMupQ
-- base:
-    currency_id: 1934
-    currency_symbol: LRC
-    currency_type: cryptocurrency
-    exchange_symbol: LRC
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: LRC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/LRC_BTC
-- base:
-    currency_id: 1934
-    currency_symbol: LRC
-    currency_type: cryptocurrency
-    exchange_symbol: LRC
   exchange_id: 302
   exchange_name: Gate.io
   pair: LRC/BTC
@@ -467,29 +397,15 @@ markets:
     currency_symbol: LRC
     currency_type: cryptocurrency
     exchange_symbol: LRC
-  exchange_id: 100
-  exchange_name: YoBit
+  exchange_id: 733
+  exchange_name: VCC Exchange
   pair: LRC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://yobit.net/en/trade/LRC/BTC
-- base:
-    currency_id: 1934
-    currency_symbol: LRC
-    currency_type: cryptocurrency
-    exchange_symbol: LRC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: LRC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/LRC-to-ETH
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=lrc
 - base:
     currency_id: 1934
     currency_symbol: LRC
@@ -509,6 +425,62 @@ markets:
     currency_symbol: LRC
     currency_type: cryptocurrency
     exchange_symbol: LRC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: LRC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/LRC-to-BTC
+- base:
+    currency_id: 1934
+    currency_symbol: LRC
+    currency_type: cryptocurrency
+    exchange_symbol: LRC
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: LRC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/LRC:BTC?refcode=H70YTMupQ
+- base:
+    currency_id: 1934
+    currency_symbol: LRC
+    currency_type: cryptocurrency
+    exchange_symbol: LRC
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: LRC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-LRC
+- base:
+    currency_id: 1934
+    currency_symbol: LRC
+    currency_type: cryptocurrency
+    exchange_symbol: LRC
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: LRC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/LRC_BTC
+- base:
+    currency_id: 1934
+    currency_symbol: LRC
+    currency_type: cryptocurrency
+    exchange_symbol: LRC
   exchange_id: 376
   exchange_name: Bitbns
   pair: LRC/INR
@@ -518,6 +490,48 @@ markets:
     currency_type: fiat
     exchange_symbol: INR
   url: https://bitbns.com/trade/#/lrc
+- base:
+    currency_id: 1934
+    currency_symbol: LRC
+    currency_type: cryptocurrency
+    exchange_symbol: LRC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: LRC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/LRC-to-ETH
+- base:
+    currency_id: 1934
+    currency_symbol: LRC
+    currency_type: cryptocurrency
+    exchange_symbol: LRC
+  exchange_id: 490
+  exchange_name: OKEx Korea
+  pair: LRC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://okex.co.kr/kr/view/exchange?coin=LRC&market=USDT
+- base:
+    currency_id: 1934
+    currency_symbol: LRC
+    currency_type: cryptocurrency
+    exchange_symbol: LRC
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: LRC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/LRC/BTC
 - base:
     currency_id: 1934
     currency_symbol: LRC
@@ -551,20 +565,6 @@ markets:
     currency_symbol: LRC
     currency_type: cryptocurrency
     exchange_symbol: LRC
-  exchange_id: 490
-  exchange_name: OKEx Korea
-  pair: LRC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://okex.co.kr/kr/view/exchange?coin=LRC&market=USDT
-- base:
-    currency_id: 1934
-    currency_symbol: LRC
-    currency_type: cryptocurrency
-    exchange_symbol: LRC
   exchange_id: 424
   exchange_name: Hoo
   pair: LRC/ETH
@@ -589,7 +589,7 @@ markets:
     exchange_symbol: BTC
   url: https://coinplace.pro/
 name: Loopring
-rank: 73
+rank: 78
 slug: loopring
 status: active
 symbol: LRC

@@ -22,13 +22,13 @@ markets:
     exchange_symbol: MEX
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: MEX/ETH
+  pair: MEX/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/mex_eth?invite_code=5kij5
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/mex_btc?invite_code=5kij5
 - base:
     currency_id: 3286
     currency_symbol: MEX
@@ -48,20 +48,6 @@ markets:
     currency_symbol: MEX
     currency_type: cryptocurrency
     exchange_symbol: MEX
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: MEX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/mex_btc?invite_code=5kij5
-- base:
-    currency_id: 3286
-    currency_symbol: MEX
-    currency_type: cryptocurrency
-    exchange_symbol: MEX
   exchange_id: 391
   exchange_name: CoinTiger
   pair: MEX/BTC
@@ -71,8 +57,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.cointiger.com/en-us/#/trade_pro?coin=mex_btc
+- base:
+    currency_id: 3286
+    currency_symbol: MEX
+    currency_type: cryptocurrency
+    exchange_symbol: MEX
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: MEX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/mex_eth?invite_code=5kij5
 name: MEX
-rank: 2320
+rank: 2340
 slug: mex
 status: active
 symbol: MEX
