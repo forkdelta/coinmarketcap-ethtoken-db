@@ -78,20 +78,6 @@ markets:
     currency_symbol: ODE
     currency_type: cryptocurrency
     exchange_symbol: ODE
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: ODE/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trade.kucoin.com/ODE-USDT
-- base:
-    currency_id: 2631
-    currency_symbol: ODE
-    currency_type: cryptocurrency
-    exchange_symbol: ODE
   exchange_id: 107
   exchange_name: Livecoin
   pair: ODE/BTC
@@ -106,15 +92,15 @@ markets:
     currency_symbol: ODE
     currency_type: cryptocurrency
     exchange_symbol: ODE
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: ODE/INR
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: ODE/USDT
   quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/ode
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://trade.kucoin.com/ODE-USDT
 - base:
     currency_id: 2631
     currency_symbol: ODE
@@ -129,20 +115,6 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/ODE:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2631
-    currency_symbol: ODE
-    currency_type: cryptocurrency
-    exchange_symbol: ODE
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: ODE/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.kucoin.com/ODE-ETH
 - base:
     currency_id: 2631
     currency_symbol: ODE
@@ -171,8 +143,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bitfinex.com/t/ODE:BTC?refcode=H70YTMupQ
+- base:
+    currency_id: 2631
+    currency_symbol: ODE
+    currency_type: cryptocurrency
+    exchange_symbol: ODE
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: ODE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://trade.kucoin.com/ODE-ETH
+- base:
+    currency_id: 2631
+    currency_symbol: ODE
+    currency_type: cryptocurrency
+    exchange_symbol: ODE
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: ODE/INR
+  quote:
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/ode
 name: ODEM
-rank: 423
+rank: 437
 slug: odem
 status: active
 symbol: ODE

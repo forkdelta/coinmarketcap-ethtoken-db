@@ -41,20 +41,6 @@ markets:
     currency_symbol: BTU
     currency_type: cryptocurrency
     exchange_symbol: BTU
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: BTU/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=btu
-- base:
-    currency_id: 3737
-    currency_symbol: BTU
-    currency_type: cryptocurrency
-    exchange_symbol: BTU
   exchange_id: 22
   exchange_name: Bittrex
   pair: BTU/BTC
@@ -92,8 +78,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/btu-eth
+- base:
+    currency_id: 3737
+    currency_symbol: BTU
+    currency_type: cryptocurrency
+    exchange_symbol: BTU
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: BTU/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=btu
 name: BTU Protocol
-rank: 249
+rank: 247
 slug: btu-protocol
 status: active
 symbol: BTU

@@ -40,20 +40,6 @@ markets:
     exchange_symbol: PLTC
   exchange_id: 407
   exchange_name: DigiFinex
-  pair: PLTC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.digifinex.com/en-ww/trade/ETH/PLTC
-- base:
-    currency_id: 3753
-    currency_symbol: PLTC
-    currency_type: cryptocurrency
-    exchange_symbol: PLTC
-  exchange_id: 407
-  exchange_name: DigiFinex
   pair: PLTC/BTC
   quote:
     currency_id: 1
@@ -66,15 +52,15 @@ markets:
     currency_symbol: PLTC
     currency_type: cryptocurrency
     exchange_symbol: PLTC
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: PLTC/BTC
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: PLTC/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coinsbit.io/trade/PLTC_BTC
+    exchange_symbol: ETH
+  url: https://www.digifinex.com/en-ww/trade/ETH/PLTC
 - base:
     currency_id: 3753
     currency_symbol: PLTC
@@ -89,6 +75,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://coinsbit.io/trade/PLTC_ETH
+- base:
+    currency_id: 3753
+    currency_symbol: PLTC
+    currency_type: cryptocurrency
+    exchange_symbol: PLTC
+  exchange_id: 460
+  exchange_name: Coinsbit
+  pair: PLTC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coinsbit.io/trade/PLTC_BTC
 - base:
     currency_id: 3753
     currency_symbol: PLTC
@@ -118,7 +118,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: PlatonCoin
-rank: 794
+rank: 761
 slug: platoncoin
 status: active
 symbol: PLTC

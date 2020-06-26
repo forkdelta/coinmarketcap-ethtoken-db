@@ -101,6 +101,20 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: ELF/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bkex.com/trade/ELF_ETH
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
   exchange_id: 407
   exchange_name: DigiFinex
   pair: ELF/USDT
@@ -110,20 +124,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.digifinex.com/en-ww/trade/USDT/ELF
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: ELF/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-ELF
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -143,20 +143,6 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: ELF/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bkex.com/trade/ELF_ETH
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
   exchange_id: 407
   exchange_name: DigiFinex
   pair: ELF/ETH
@@ -166,20 +152,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.digifinex.com/en-ww/trade/ETH/ELF
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: ELF/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/ELFKRW
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -213,43 +185,15 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: ELF/USDT
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: ELF/KRW
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/elf_usdt?invite_code=5kij5
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 615
-  exchange_name: Binance JEX
-  pair: ELF/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.jex.com/en/spot
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 343
-  exchange_name: CoinBene
-  pair: ELF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=ELFBTC?hash=2NbmTq6
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-ELF
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -283,6 +227,48 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: ELF/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/ELFKRW
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: ELF/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/elf_usdt?invite_code=5kij5
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
+  exchange_id: 615
+  exchange_name: Binance JEX
+  pair: ELF/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.jex.com/en/spot
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
   exchange_id: 270
   exchange_name: Binance
   pair: ELF/BTC
@@ -292,6 +278,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.binance.com/en/trade/ELF_BTC?ref=H31B921U
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: ELF/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=ELFBTC?hash=2NbmTq6
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -353,20 +353,6 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
-  exchange_id: 479
-  exchange_name: Dcoin
-  pair: ELF/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.dcoin.com/currencyTrading/ELF_USDT
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
   exchange_id: 355
   exchange_name: Vebitcoin
   pair: ELF/TRY
@@ -381,15 +367,15 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: ELF/BTC
+  exchange_id: 479
+  exchange_name: Dcoin
+  pair: ELF/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/elf_btc?invite_code=5kij5
+    exchange_symbol: USDT
+  url: https://www.dcoin.com/currencyTrading/ELF_USDT
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -437,6 +423,34 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
+  exchange_id: 520
+  exchange_name: Bitvavo
+  pair: ELF/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://account.bitvavo.com/markets/ELF-EUR
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: ELF/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/elf_btc?invite_code=5kij5
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
   exchange_id: 270
   exchange_name: Binance
   pair: ELF/ETH
@@ -460,6 +474,20 @@ markets:
     currency_type: fiat
     exchange_symbol: TRY
   url: https://www.bitay.com/en/t/ELFTRY
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: ELF/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://omgfin.com/exchange/trade/market/ELFUSDT
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -495,27 +523,13 @@ markets:
     exchange_symbol: ELF
   exchange_id: 656
   exchange_name: Omgfin
-  pair: ELF/USDT
+  pair: ELF/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/ELFUSDT
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 520
-  exchange_name: Bitvavo
-  pair: ELF/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://account.bitvavo.com/markets/ELF-EUR
+    exchange_symbol: ETH
+  url: https://omgfin.com/exchange/trade/market/ELFETH
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -537,48 +551,6 @@ markets:
     exchange_symbol: ELF
   exchange_id: 656
   exchange_name: Omgfin
-  pair: ELF/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://omgfin.com/exchange/trade/market/ELFETH
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: ELF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/ELFBTC
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: ELF/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/ELF
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 656
-  exchange_name: Omgfin
   pair: ELF/BTC
   quote:
     currency_id: 1
@@ -586,34 +558,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://omgfin.com/exchange/trade/market/ELFBTC
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: ELF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kucoin.com/ELF-BTC
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 890
-  exchange_name: Bitay
-  pair: ELF/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitay.com/en/t/ELFUSDT
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -633,15 +577,29 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: ELF/ETH
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: ELF/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/elf-eth
+    exchange_symbol: USDT
+  url: https://www.bitay.com/en/t/ELFUSDT
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: ELF/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/ELFBTC
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -661,6 +619,62 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: ELF/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.kucoin.com/ELF-BTC
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: ELF/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-ELF
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
+  exchange_id: 760
+  exchange_name: Huobi Indonesia
+  pair: ELF/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.huobi.com.co/exchange/#s=elf_usdt
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: ELF/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/ELF
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
   exchange_id: 528
   exchange_name: BiKi
   pair: ELF/ETH
@@ -670,6 +684,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.biki.cc/en_US/trade/ELF_ETH
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: ELF/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/elf-eth
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -703,43 +731,15 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: ELF/BTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: ELF/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-ELF
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: ELF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/ELF-to-BTC
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: ELF/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/elf
+    exchange_symbol: ETH
+  url: https://gate.io/trade/elf_eth
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -759,15 +759,15 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
-  exchange_id: 760
-  exchange_name: Huobi Indonesia
+  exchange_id: 730
+  exchange_name: Huobi Russia
   pair: ELF/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.huobi.com.co/exchange/#s=elf_usdt
+  url: https://www.huobi.com.ru/exchange/#s=elf_usdt
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -787,15 +787,15 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: ELF/ETH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: ELF/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/elf_eth
+    exchange_symbol: BTC
+  url: https://hitbtc.com/ELF-to-BTC
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -815,34 +815,6 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: ELF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=elf
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: ELF/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bitmax.io/#/trade/eth/elf
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
   exchange_id: 645
   exchange_name: BitUBU
   pair: ELF/ETH
@@ -852,6 +824,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bitubu.com/trading/elfeth
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: ELF/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/elf
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -885,20 +871,6 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
-  exchange_id: 645
-  exchange_name: BitUBU
-  pair: ELF/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitubu.com/trading/elfbtc
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: ELF/USDT
@@ -927,15 +899,15 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
-  exchange_id: 730
-  exchange_name: Huobi Russia
-  pair: ELF/USDT
+  exchange_id: 645
+  exchange_name: BitUBU
+  pair: ELF/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.com.ru/exchange/#s=elf_usdt
+    exchange_symbol: BTC
+  url: https://bitubu.com/trading/elfbtc
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -978,6 +950,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/elf
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: ELF/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bitmax.io/#/trade/eth/elf
 - base:
     currency_id: 2299
     currency_symbol: ELF
@@ -1053,6 +1039,20 @@ markets:
     currency_symbol: ELF
     currency_type: cryptocurrency
     exchange_symbol: ELF
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: ELF/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=elf
+- base:
+    currency_id: 2299
+    currency_symbol: ELF
+    currency_type: cryptocurrency
+    exchange_symbol: ELF
   exchange_id: 426
   exchange_name: Allbit
   pair: ELF/ETH
@@ -1091,7 +1091,7 @@ markets:
     exchange_symbol: BTC
   url: https://allbit.com/exchange/ELF?market=BTC
 name: aelf
-rank: 101
+rank: 104
 slug: aelf
 status: active
 symbol: ELF

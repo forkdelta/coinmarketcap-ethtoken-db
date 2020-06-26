@@ -20,6 +20,20 @@ markets:
     currency_symbol: ICH
     currency_type: cryptocurrency
     exchange_symbol: ICH
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: ICH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://crex24.com/exchange/ICH-BTC
+- base:
+    currency_id: 5560
+    currency_symbol: ICH
+    currency_type: cryptocurrency
+    exchange_symbol: ICH
   exchange_id: 587
   exchange_name: IndoEx
   pair: ICH/BTC
@@ -76,20 +90,6 @@ markets:
     currency_symbol: ICH
     currency_type: cryptocurrency
     exchange_symbol: ICH
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: ICH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://crex24.com/exchange/ICH-BTC
-- base:
-    currency_id: 5560
-    currency_symbol: ICH
-    currency_type: cryptocurrency
-    exchange_symbol: ICH
   exchange_id: 587
   exchange_name: IndoEx
   pair: ICH/USDT
@@ -99,20 +99,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://international.indoex.io/trade/ICH_USDT
-- base:
-    currency_id: 5560
-    currency_symbol: ICH
-    currency_type: cryptocurrency
-    exchange_symbol: ICH
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: ICH/LTC
-  quote:
-    currency_id: 2
-    currency_symbol: LTC
-    currency_type: cryptocurrency
-    exchange_symbol: LTC
-  url: https://international.indoex.io/trade/ICH_LTC
 - base:
     currency_id: 5560
     currency_symbol: ICH
@@ -134,13 +120,13 @@ markets:
     exchange_symbol: ICH
   exchange_id: 587
   exchange_name: IndoEx
-  pair: ICH/USDC
+  pair: ICH/LTC
   quote:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 2
+    currency_symbol: LTC
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://international.indoex.io/trade/ICH_USDC
+    exchange_symbol: LTC
+  url: https://international.indoex.io/trade/ICH_LTC
 - base:
     currency_id: 5560
     currency_symbol: ICH
@@ -174,15 +160,15 @@ markets:
     currency_symbol: ICH
     currency_type: cryptocurrency
     exchange_symbol: ICH
-  exchange_id: 487
-  exchange_name: VinDAX
-  pair: ICH/BTC
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: ICH/USDC
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 3408
+    currency_symbol: USDC
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vindax.com/exchange-base.html?symbol=ICH_BTC
+    exchange_symbol: USDC
+  url: https://international.indoex.io/trade/ICH_USDC
 - base:
     currency_id: 5560
     currency_symbol: ICH
@@ -239,8 +225,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.catex.io/trading/ICH/BTC
+- base:
+    currency_id: 5560
+    currency_symbol: ICH
+    currency_type: cryptocurrency
+    exchange_symbol: ICH
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: ICH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vindax.com/exchange-base.html?symbol=ICH_BTC
 name: Idea Chain Coin
-rank: 228
+rank: 232
 slug: idea-chain-coin
 status: active
 symbol: ICH

@@ -39,20 +39,6 @@ markets:
     currency_symbol: VIB
     currency_type: cryptocurrency
     exchange_symbol: VIB
-  exchange_id: 270
-  exchange_name: Binance
-  pair: VIB/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.binance.com/en/trade/VIB_ETH?ref=H31B921U
-- base:
-    currency_id: 2019
-    currency_symbol: VIB
-    currency_type: cryptocurrency
-    exchange_symbol: VIB
   exchange_id: 294
   exchange_name: OKEx
   pair: VIB/BTC
@@ -62,6 +48,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.okex.com/market?product=vib_btc
+- base:
+    currency_id: 2019
+    currency_symbol: VIB
+    currency_type: cryptocurrency
+    exchange_symbol: VIB
+  exchange_id: 270
+  exchange_name: Binance
+  pair: VIB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.binance.com/en/trade/VIB_ETH?ref=H31B921U
 - base:
     currency_id: 2019
     currency_symbol: VIB
@@ -123,20 +123,6 @@ markets:
     currency_symbol: VIB
     currency_type: cryptocurrency
     exchange_symbol: VIB
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: VIB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=vib
-- base:
-    currency_id: 2019
-    currency_symbol: VIB
-    currency_type: cryptocurrency
-    exchange_symbol: VIB
   exchange_id: 107
   exchange_name: Livecoin
   pair: VIB/BTC
@@ -151,15 +137,15 @@ markets:
     currency_symbol: VIB
     currency_type: cryptocurrency
     exchange_symbol: VIB
-  exchange_id: 733
-  exchange_name: VCC Exchange
+  exchange_id: 502
+  exchange_name: Tokens.net
   pair: VIB/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://vcc.exchange/exchange/basic?currency=eth&coin=vib
+  url: https://www.tokens.net/trading-pair/vibeth/
 - base:
     currency_id: 2019
     currency_symbol: VIB
@@ -179,20 +165,6 @@ markets:
     currency_symbol: VIB
     currency_type: cryptocurrency
     exchange_symbol: VIB
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: VIB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/VIB-to-USDT
-- base:
-    currency_id: 2019
-    currency_symbol: VIB
-    currency_type: cryptocurrency
-    exchange_symbol: VIB
   exchange_id: 22
   exchange_name: Bittrex
   pair: VIB/ETH
@@ -202,6 +174,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bittrex.com/Market/Index?MarketName=ETH-VIB
+- base:
+    currency_id: 2019
+    currency_symbol: VIB
+    currency_type: cryptocurrency
+    exchange_symbol: VIB
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: VIB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/VIB-to-USDT
 - base:
     currency_id: 2019
     currency_symbol: VIB
@@ -291,17 +277,31 @@ markets:
     currency_symbol: VIB
     currency_type: cryptocurrency
     exchange_symbol: VIB
-  exchange_id: 502
-  exchange_name: Tokens.net
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: VIB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=vib
+- base:
+    currency_id: 2019
+    currency_symbol: VIB
+    currency_type: cryptocurrency
+    exchange_symbol: VIB
+  exchange_id: 733
+  exchange_name: VCC Exchange
   pair: VIB/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.tokens.net/trading-pair/vibeth/
+  url: https://vcc.exchange/exchange/basic?currency=eth&coin=vib
 name: Viberate
-rank: 652
+rank: 660
 slug: viberate
 status: active
 symbol: VIB
