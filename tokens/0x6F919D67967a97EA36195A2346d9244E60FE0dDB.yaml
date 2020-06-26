@@ -56,6 +56,20 @@ markets:
     exchange_symbol: BLOC
   exchange_id: 400
   exchange_name: Hotbit
+  pair: BLOC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=BLOC_USDT
+- base:
+    currency_id: 3860
+    currency_symbol: BLOC
+    currency_type: cryptocurrency
+    exchange_symbol: BLOC
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: BLOC/BTC
   quote:
     currency_id: 1
@@ -82,20 +96,6 @@ markets:
     currency_symbol: BLOC
     currency_type: cryptocurrency
     exchange_symbol: BLOC
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: BLOC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=BLOC_USDT
-- base:
-    currency_id: 3860
-    currency_symbol: BLOC
-    currency_type: cryptocurrency
-    exchange_symbol: BLOC
   exchange_id: 545
   exchange_name: Bitsdaq
   pair: BLOC/BTC
@@ -105,20 +105,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bitsdaq.com/exchange/BLOC-BTC
-- base:
-    currency_id: 3860
-    currency_symbol: BLOC
-    currency_type: cryptocurrency
-    exchange_symbol: BLOC
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: BLOC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=bloc
 - base:
     currency_id: 3860
     currency_symbol: BLOC
@@ -161,8 +147,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=BLOC&market=USDT
+- base:
+    currency_id: 3860
+    currency_symbol: BLOC
+    currency_type: cryptocurrency
+    exchange_symbol: BLOC
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: BLOC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=bloc
 name: Blockcloud
-rank: 2230
+rank: 2200
 slug: blockcloud
 status: active
 symbol: BLOC

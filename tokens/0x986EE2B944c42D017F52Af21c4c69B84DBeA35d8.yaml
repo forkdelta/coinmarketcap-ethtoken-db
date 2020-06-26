@@ -23,6 +23,20 @@ markets:
     exchange_symbol: BMX
   exchange_id: 406
   exchange_name: BitMart
+  pair: BMX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitmart.com/trade?symbol=BMX_ETH
+- base:
+    currency_id: 2933
+    currency_symbol: BMX
+    currency_type: cryptocurrency
+    exchange_symbol: BMX
+  exchange_id: 406
+  exchange_name: BitMart
   pair: BMX/BTC
   quote:
     currency_id: 1
@@ -45,19 +59,19 @@ markets:
     exchange_symbol: USDT
   url: https://www.bitmart.com/trade?symbol=BMX_USDT
 - base:
+    currency_id: 3795
+    currency_symbol: ZEON
+    currency_type: cryptocurrency
+    exchange_symbol: ZEON
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: ZEON/BMX
+  quote:
     currency_id: 2933
     currency_symbol: BMX
     currency_type: cryptocurrency
     exchange_symbol: BMX
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: BMX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitmart.com/trade?symbol=BMX_ETH
+  url: https://www.bitmart.com/trade?symbol=ZEON_BMX
 - base:
     currency_id: 2933
     currency_symbol: BMX
@@ -73,20 +87,6 @@ markets:
     exchange_symbol: USDT
   url: https://www.bw.com/trade/bmx_usdt
 - base:
-    currency_id: 3795
-    currency_symbol: ZEON
-    currency_type: cryptocurrency
-    exchange_symbol: ZEON
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: ZEON/BMX
-  quote:
-    currency_id: 2933
-    currency_symbol: BMX
-    currency_type: cryptocurrency
-    exchange_symbol: BMX
-  url: https://www.bitmart.com/trade?symbol=ZEON_BMX
-- base:
     currency_id: 4137
     currency_symbol: MCC
     currency_type: cryptocurrency
@@ -101,7 +101,7 @@ markets:
     exchange_symbol: BMX
   url: https://www.bitmart.com/trade?symbol=MCC_BMX
 name: BitMart Token
-rank: 719
+rank: 721
 slug: bitmart-token
 status: active
 symbol: BMX

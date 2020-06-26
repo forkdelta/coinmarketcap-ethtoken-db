@@ -90,20 +90,6 @@ markets:
     currency_symbol: RLC
     currency_type: cryptocurrency
     exchange_symbol: RLC
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: RLC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/rlc-eth
-- base:
-    currency_id: 1637
-    currency_symbol: RLC
-    currency_type: cryptocurrency
-    exchange_symbol: RLC
   exchange_id: 363
   exchange_name: Fatbtc
   pair: RLC/USDT
@@ -118,15 +104,15 @@ markets:
     currency_symbol: RLC
     currency_type: cryptocurrency
     exchange_symbol: RLC
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: RLC/BTC
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: RLC/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=rlc
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/rlc-eth
 - base:
     currency_id: 1637
     currency_symbol: RLC
@@ -141,6 +127,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-RLC
+- base:
+    currency_id: 1637
+    currency_symbol: RLC
+    currency_type: cryptocurrency
+    exchange_symbol: RLC
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: RLC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/RLCBTC
 - base:
     currency_id: 1637
     currency_symbol: RLC
@@ -174,29 +174,29 @@ markets:
     currency_symbol: RLC
     currency_type: cryptocurrency
     exchange_symbol: RLC
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 351
+  exchange_name: Upbit
   pair: RLC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/RLCBTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-RLC
 - base:
     currency_id: 1637
     currency_symbol: RLC
     currency_type: cryptocurrency
     exchange_symbol: RLC
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: RLC/ETH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: RLC/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/rlc_eth
+    exchange_symbol: BTC
+  url: https://hitbtc.com/RLC-to-BTC
 - base:
     currency_id: 1637
     currency_symbol: RLC
@@ -230,34 +230,6 @@ markets:
     currency_symbol: RLC
     currency_type: cryptocurrency
     exchange_symbol: RLC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: RLC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/RLC-to-BTC
-- base:
-    currency_id: 1637
-    currency_symbol: RLC
-    currency_type: cryptocurrency
-    exchange_symbol: RLC
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: RLC/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/RLC
-- base:
-    currency_id: 1637
-    currency_symbol: RLC
-    currency_type: cryptocurrency
-    exchange_symbol: RLC
   exchange_id: 302
   exchange_name: Gate.io
   pair: RLC/USDT
@@ -286,6 +258,20 @@ markets:
     currency_symbol: RLC
     currency_type: cryptocurrency
     exchange_symbol: RLC
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: RLC/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/RLC
+- base:
+    currency_id: 1637
+    currency_symbol: RLC
+    currency_type: cryptocurrency
+    exchange_symbol: RLC
   exchange_id: 37
   exchange_name: Bitfinex
   pair: RLC/USD
@@ -300,15 +286,15 @@ markets:
     currency_symbol: RLC
     currency_type: cryptocurrency
     exchange_symbol: RLC
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: RLC/BTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: RLC/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-RLC
+    exchange_symbol: ETH
+  url: https://gate.io/trade/rlc_eth
 - base:
     currency_id: 1637
     currency_symbol: RLC
@@ -323,8 +309,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.valr.com/buy/RLC/BTC
+- base:
+    currency_id: 1637
+    currency_symbol: RLC
+    currency_type: cryptocurrency
+    exchange_symbol: RLC
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: RLC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=rlc
 name: iExec RLC
-rank: 106
+rank: 103
 slug: rlc
 status: active
 symbol: RLC

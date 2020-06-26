@@ -36,20 +36,6 @@ markets:
     currency_symbol: BIKI
     currency_type: cryptocurrency
     exchange_symbol: BIKI
-  exchange_id: 333
-  exchange_name: LBank
-  pair: BIKI/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.lbank.info/trading/biki/usdt
-- base:
-    currency_id: 5325
-    currency_symbol: BIKI
-    currency_type: cryptocurrency
-    exchange_symbol: BIKI
   exchange_id: 460
   exchange_name: Coinsbit
   pair: BIKI/USDT
@@ -59,6 +45,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://coinsbit.io/trade/BIKI_USDT
+- base:
+    currency_id: 5325
+    currency_symbol: BIKI
+    currency_type: cryptocurrency
+    exchange_symbol: BIKI
+  exchange_id: 333
+  exchange_name: LBank
+  pair: BIKI/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.lbank.info/trading/biki/usdt
 - base:
     currency_id: 5325
     currency_symbol: BIKI
@@ -88,7 +88,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.biki.cc/en_US/trade/BIKI_ETH
 name: BIKI
-rank: 2155
+rank: 2159
 slug: biki
 status: active
 symbol: BIKI

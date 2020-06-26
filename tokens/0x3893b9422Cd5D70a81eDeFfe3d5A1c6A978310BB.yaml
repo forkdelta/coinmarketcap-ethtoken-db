@@ -89,15 +89,15 @@ markets:
     currency_symbol: MITH
     currency_type: cryptocurrency
     exchange_symbol: MITH
-  exchange_id: 403
-  exchange_name: BitForex
-  pair: MITH/USDT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: MITH/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitforex.com/en/spot/mith_usdt
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/MITH_BTC?ref=H31B921U
 - base:
     currency_id: 2608
     currency_symbol: MITH
@@ -117,15 +117,15 @@ markets:
     currency_symbol: MITH
     currency_type: cryptocurrency
     exchange_symbol: MITH
-  exchange_id: 270
-  exchange_name: Binance
-  pair: MITH/BTC
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: MITH/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/MITH_BTC?ref=H31B921U
+    exchange_symbol: USDT
+  url: https://www.bitforex.com/en/spot/mith_usdt
 - base:
     currency_id: 2608
     currency_symbol: MITH
@@ -243,34 +243,6 @@ markets:
     currency_symbol: MITH
     currency_type: cryptocurrency
     exchange_symbol: MITH
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: MITH/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/MITH:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2608
-    currency_symbol: MITH
-    currency_type: cryptocurrency
-    exchange_symbol: MITH
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: MITH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/MITHBTC?affiliate=eNgws23g761816
-- base:
-    currency_id: 2608
-    currency_symbol: MITH
-    currency_type: cryptocurrency
-    exchange_symbol: MITH
   exchange_id: 42
   exchange_name: HitBTC
   pair: MITH/ETH
@@ -280,6 +252,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/MITH-to-ETH
+- base:
+    currency_id: 2608
+    currency_symbol: MITH
+    currency_type: cryptocurrency
+    exchange_symbol: MITH
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: MITH/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/MITH:USD?refcode=H70YTMupQ
 - base:
     currency_id: 2608
     currency_symbol: MITH
@@ -308,6 +294,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/mith_eth
+- base:
+    currency_id: 2608
+    currency_symbol: MITH
+    currency_type: cryptocurrency
+    exchange_symbol: MITH
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: MITH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/MITHBTC?affiliate=eNgws23g761816
 - base:
     currency_id: 2608
     currency_symbol: MITH
@@ -365,7 +365,7 @@ markets:
     exchange_symbol: BTC
   url: https://okex.co.kr/kr/view/exchange?coin=MITH&market=BTC
 name: Mithril
-rank: 533
+rank: 531
 slug: mithril
 status: active
 symbol: MITH

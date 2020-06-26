@@ -76,15 +76,15 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: DRGN/ETH
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: DRGN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/drgn
+    exchange_symbol: BTC
+  url: https://international.bittrex.com/Market/Index?MarketName=BTC-DRGN
 - base:
     currency_id: 2243
     currency_symbol: DRGN
@@ -104,43 +104,15 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: DRGN/BTC
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: DRGN/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://international.bittrex.com/Market/Index?MarketName=BTC-DRGN
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: DRGN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=drgn
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: DRGN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/drgn_usdt
+    exchange_symbol: ETH
+  url: https://idex.market/eth/drgn
 - base:
     currency_id: 2243
     currency_symbol: DRGN
@@ -160,15 +132,15 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: DRGN/BTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: DRGN/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/DRGN-to-BTC
+    exchange_symbol: USDT
+  url: https://gate.io/trade/drgn_usdt
 - base:
     currency_id: 2243
     currency_symbol: DRGN
@@ -183,6 +155,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/DRGN:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 2243
+    currency_symbol: DRGN
+    currency_type: cryptocurrency
+    exchange_symbol: DRGN
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: DRGN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/DRGN-to-BTC
 - base:
     currency_id: 2243
     currency_symbol: DRGN
@@ -211,8 +197,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNT
   url: https://www.bancor.network/token/DRGN
+- base:
+    currency_id: 2243
+    currency_symbol: DRGN
+    currency_type: cryptocurrency
+    exchange_symbol: DRGN
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: DRGN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=drgn
 name: Dragonchain
-rank: 143
+rank: 142
 slug: dragonchain
 status: active
 symbol: DRGN
