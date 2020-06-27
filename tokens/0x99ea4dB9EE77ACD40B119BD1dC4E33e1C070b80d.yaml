@@ -62,20 +62,6 @@ markets:
     currency_symbol: QSP
     currency_type: cryptocurrency
     exchange_symbol: QSP
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: QSP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/QSPBTC
-- base:
-    currency_id: 2212
-    currency_symbol: QSP
-    currency_type: cryptocurrency
-    exchange_symbol: QSP
   exchange_id: 102
   exchange_name: Huobi Global
   pair: QSP/BTC
@@ -104,15 +90,15 @@ markets:
     currency_symbol: QSP
     currency_type: cryptocurrency
     exchange_symbol: QSP
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 949
+  exchange_name: CoinDCX
   pair: QSP/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/qsp_btc/
+  url: https://coindcx.com/trade/QSPBTC
 - base:
     currency_id: 2212
     currency_symbol: QSP
@@ -127,6 +113,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.gopax.co.kr/exchange/qsp-krw
+- base:
+    currency_id: 2212
+    currency_symbol: QSP
+    currency_type: cryptocurrency
+    exchange_symbol: QSP
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: QSP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/qsp_btc/
 - base:
     currency_id: 2212
     currency_symbol: QSP
@@ -156,7 +156,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/qsp
 name: Quantstamp
-rank: 333
+rank: 336
 slug: quantstamp
 status: active
 symbol: QSP

@@ -124,20 +124,6 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: LINK/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://pro.coinbase.com/trade/LINK-USD
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
   exchange_id: 270
   exchange_name: Binance
   pair: LINK/BTC
@@ -147,6 +133,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.binance.com/en/trade/LINK_BTC?ref=H31B921U
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 458
+  exchange_name: BBX
+  pair: LINK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bbx.com/exchange?coinPair=LINK/USDT
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: LINK/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://pro.coinbase.com/trade/LINK-USD
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -180,15 +194,15 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 458
-  exchange_name: BBX
-  pair: LINK/USDT
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: LINK/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bbx.com/exchange?coinPair=LINK/USDT
+    exchange_symbol: BTC
+  url: https://latoken.com/exchange/BTC-LINK
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -236,62 +250,6 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: LINK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/link
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: LINK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://sistemkoin.com/#/
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: LINK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://latoken.com/exchange/BTC-LINK
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: LINK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bibox.com/exchange?coinPair=LINK_USDT
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
   exchange_id: 388
   exchange_name: Sistemkoin
   pair: LINK/TRY
@@ -306,15 +264,15 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 487
-  exchange_name: VinDAX
-  pair: LINK/BTC
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: LINK/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vindax.com/exchange-base.html?symbol=LINK_BTC
+    exchange_symbol: USDT
+  url: https://sistemkoin.com/#/
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -334,6 +292,34 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: LINK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/link
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: LINK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vindax.com/exchange-base.html?symbol=LINK_BTC
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
   exchange_id: 487
   exchange_name: VinDAX
   pair: LINK/USDT
@@ -343,6 +329,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://vindax.com/exchange-base.html?symbol=LINK_USDT
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: LINK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bibox.com/exchange?coinPair=LINK_USDT
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -404,43 +404,15 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: LINK/BTC
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: LINK/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=LINK_BTC
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 323
-  exchange_name: RightBTC
-  pair: LINK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.rightbtc.com/trade/LINKUSDT
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 398
-  exchange_name: DragonEX
-  pair: LINK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://dragonex.io
+    exchange_symbol: ETH
+  url: https://vindax.com/exchange-base.html?symbol=LINK_ETH
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -460,127 +432,29 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: LINK/XRP
-  quote:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://www.bitrue.com/trade/link_xrp?inviteCode=VQQLQV
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: LINK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=link&tab=limit
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 343
-  exchange_name: CoinBene
-  pair: LINK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinbene.com/exchange.html#/exchange?pairId=LINKBTC?hash=2NbmTq6
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 544
-  exchange_name: MXC
-  pair: LINK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.mxc.com/trade/easy#LINK_ETH
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: LINK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=link_btc
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: LINK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.okex.com/market?product=link_eth
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 350
-  exchange_name: CoinEx
+  exchange_id: 398
+  exchange_name: DragonEX
   pair: LINK/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=link&tab=limit
+  url: https://dragonex.io
 - base:
     currency_id: 1975
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: LINK/KRW
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: LINK/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/LINKKRW
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 730
-  exchange_name: Huobi Russia
-  pair: LINK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.com.ru/exchange/#s=link_usdt
+    exchange_symbol: BTC
+  url: https://www.bibox.com/exchange?coinPair=LINK_BTC
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -600,6 +474,90 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
+  exchange_id: 323
+  exchange_name: RightBTC
+  pair: LINK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.rightbtc.com/trade/LINKUSDT
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: LINK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=link&tab=limit
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 544
+  exchange_name: MXC
+  pair: LINK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.mxc.com/trade/easy#LINK_ETH
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 343
+  exchange_name: CoinBene
+  pair: LINK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinbene.com/exchange.html#/exchange?pairId=LINKBTC?hash=2NbmTq6
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: LINK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=link_btc
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: LINK/XRP
+  quote:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  url: https://www.bitrue.com/trade/link_xrp?inviteCode=VQQLQV
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
   exchange_id: 406
   exchange_name: BitMart
   pair: LINK/USDT
@@ -609,6 +567,48 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bitmart.com/trade?symbol=LINK_USDT
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: LINK/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/LINKKRW
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: LINK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=link&tab=limit
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: LINK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitmart.com/trade?symbol=LINK_BTC
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -628,6 +628,34 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: LINK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://international.indoex.io/trade/LINK_USDT
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: LINK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://international.indoex.io/trade/LINK_BTC
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
   exchange_id: 270
   exchange_name: Binance
   pair: LINK/ETH
@@ -637,6 +665,48 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.binance.com/en/trade/LINK_ETH?ref=H31B921U
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: LINK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://international.indoex.io/trade/LINK_ETH
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 730
+  exchange_name: Huobi Russia
+  pair: LINK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.huobi.com.ru/exchange/#s=link_usdt
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: LINK/BCH
+  quote:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  url: https://www.coinex.com/trading?currency=bch&dest=link&tab=limit
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -656,15 +726,57 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: LINK/BTC
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: LINK/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitmart.com/trade?symbol=LINK_BTC
+    exchange_symbol: USDT
+  url: https://dex-trade.com/en?currencyIn=LINK&currencyTo=USDT
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: LINK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitforex.com/en/spot/link_eth
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: LINK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://latoken.com/exchange/ETH-LINK
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: LINK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.okex.com/market?product=link_eth
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -698,146 +810,6 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: LINK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://international.indoex.io/trade/LINK_BTC
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: LINK/BCH
-  quote:
-    currency_id: 1831
-    currency_symbol: BCH
-    currency_type: cryptocurrency
-    exchange_symbol: BCH
-  url: https://www.coinex.com/trading?currency=bch&dest=link&tab=limit
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: LINK/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://trade.kraken.com/markets/kraken/link/eur
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: LINK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://international.indoex.io/trade/LINK_USDT
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: LINK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://latoken.com/exchange/ETH-LINK
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: LINK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://international.indoex.io/trade/LINK_ETH
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 630
-  exchange_name: Binance.US
-  pair: LINK/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.binance.us/en/trade/LINK_USD
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 403
-  exchange_name: BitForex
-  pair: LINK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitforex.com/en/spot/link_eth
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: LINK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://dex-trade.com/en?currencyIn=LINK&currencyTo=USDT
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: LINK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/link
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
   exchange_id: 723
   exchange_name: Rekeningku.com
   pair: LINK/IDR
@@ -847,62 +819,6 @@ markets:
     currency_type: fiat
     exchange_symbol: IDR
   url: https://www.rekeningku.com/trade/LINK-IDR
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: LINK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/link_btc?invite_code=5kij5
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 243
-  exchange_name: BtcTurk | Pro
-  pair: LINK/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://pro.btcturk.com/pro/al-sat/LINK_TRY
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: LINK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitmart.com/trade?symbol=LINK_ETH
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 483
-  exchange_name: Hanbitco
-  pair: LINK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hanbitco.com/exchange-basic/link_btc
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -922,29 +838,43 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 673
-  exchange_name: UPEX
+  exchange_id: 483
+  exchange_name: Hanbitco
   pair: LINK/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://upex.io/trade/LINK_BTC
+  url: https://www.hanbitco.com/exchange-basic/link_btc
 - base:
     currency_id: 1975
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 151
-  exchange_name: Gemini
-  pair: LINK/USD
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: LINK/BTC
   quote:
-    currency_id: 2781
-    currency_symbol: USD
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/link_btc?invite_code=5kij5
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: LINK/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
     currency_type: fiat
-    exchange_symbol: USD
-  url: https://gemini.com/
+    exchange_symbol: EUR
+  url: https://trade.kraken.com/markets/kraken/link/eur
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -964,15 +894,29 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 433
-  exchange_name: Bitrue
+  exchange_id: 453
+  exchange_name: BitMax
   pair: LINK/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/link_btc?inviteCode=VQQLQV
+  url: https://bitmax.io/#/trade/btc/link
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 243
+  exchange_name: BtcTurk | Pro
+  pair: LINK/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://pro.btcturk.com/pro/al-sat/LINK_TRY
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -992,127 +936,29 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 270
-  exchange_name: Binance
-  pair: LINK/BUSD
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: LINK/ETH
   quote:
-    currency_id: 4687
-    currency_symbol: BUSD
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BUSD
-  url: https://www.binance.com/en/trade/LINK_BUSD?ref=H31B921U
+    exchange_symbol: ETH
+  url: https://www.bitmart.com/trade?symbol=LINK_ETH
 - base:
     currency_id: 1975
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 468
-  exchange_name: OceanEx
-  pair: LINK/VET
-  quote:
-    currency_id: 3077
-    currency_symbol: VET
-    currency_type: cryptocurrency
-    exchange_symbol: VET
-  url: https://oceanex.pro/trades/linkvet?referral=GNWJRA&linkId=24150518
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 528
-  exchange_name: BiKi
-  pair: LINK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.biki.cc/en_US/trade/LINK_USDT
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 890
-  exchange_name: Bitay
-  pair: LINK/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.bitay.com/en/t/LINKTRY
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 520
-  exchange_name: Bitvavo
-  pair: LINK/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://account.bitvavo.com/markets/LINK-EUR
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 225
-  exchange_name: Paribu
-  pair: LINK/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.paribu.com/
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 154
-  exchange_name: Dex-Trade
+  exchange_id: 673
+  exchange_name: UPEX
   pair: LINK/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://dex-trade.com/en?currencyIn=LINK&currencyTo=BTC
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 549
-  exchange_name: CITEX
-  pair: LINK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trade.citex.co.kr/trade/LINK_USDT
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 270
-  exchange_name: Binance
-  pair: LINK/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://www.binance.com/en/trade/LINK_USDC?ref=H31B921U
+  url: https://upex.io/trade/LINK_BTC
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -1132,57 +978,71 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 853
-  exchange_name: AAX
+  exchange_id: 468
+  exchange_name: OceanEx
+  pair: LINK/VET
+  quote:
+    currency_id: 3077
+    currency_symbol: VET
+    currency_type: cryptocurrency
+    exchange_symbol: VET
+  url: https://oceanex.pro/trades/linkvet?referral=GNWJRA&linkId=24150518
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 890
+  exchange_name: Bitay
+  pair: LINK/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.bitay.com/en/t/LINKTRY
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 154
+  exchange_name: Dex-Trade
   pair: LINK/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.aax.com/spot/trade/LINK:BTC
+  url: https://dex-trade.com/en?currencyIn=LINK&currencyTo=BTC
 - base:
     currency_id: 1975
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: LINK/ETH
+  exchange_id: 630
+  exchange_name: Binance.US
+  pair: LINK/USD
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/link-eth
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.binance.us/en/trade/LINK_USD
 - base:
     currency_id: 1975
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 853
-  exchange_name: AAX
+  exchange_id: 528
+  exchange_name: BiKi
   pair: LINK/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.aax.com/spot/trade/LINK:USDT
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 549
-  exchange_name: CITEX
-  pair: LINK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.citex.co.kr/trade/LINK_BTC
+  url: https://www.biki.cc/en_US/trade/LINK_USDT
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -1202,6 +1062,90 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: LINK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://folgory.com/trade-crypto/LINK_ETH
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 549
+  exchange_name: CITEX
+  pair: LINK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://trade.citex.co.kr/trade/LINK_USDT
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 853
+  exchange_name: AAX
+  pair: LINK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.aax.com/spot/trade/LINK:USDT
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 853
+  exchange_name: AAX
+  pair: LINK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.aax.com/spot/trade/LINK:BTC
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: LINK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitrue.com/trade/link_btc?inviteCode=VQQLQV
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: LINK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/link-eth
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
   exchange_id: 587
   exchange_name: IndoEx
   pair: LINK/USD
@@ -1211,20 +1155,6 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://international.indoex.io/trade/LINK_USD
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: LINK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/link_eth?invite_code=5kij5
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -1258,6 +1188,62 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
+  exchange_id: 549
+  exchange_name: CITEX
+  pair: LINK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.citex.co.kr/trade/LINK_BTC
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: LINK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hbg.com/en-us/exchange/link_eth?invite_code=5kij5
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 225
+  exchange_name: Paribu
+  pair: LINK/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.paribu.com/
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 520
+  exchange_name: Bitvavo
+  pair: LINK/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://account.bitvavo.com/markets/LINK-EUR
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
   exchange_id: 890
   exchange_name: Bitay
   pair: LINK/USDT
@@ -1272,57 +1258,43 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: LINK/USDT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: LINK/BUSD
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 4687
+    currency_symbol: BUSD
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitrue.com/trade/link_usdt?inviteCode=VQQLQV
+    exchange_symbol: BUSD
+  url: https://www.binance.com/en/trade/LINK_BUSD?ref=H31B921U
 - base:
     currency_id: 1975
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: LINK/BTC
+  exchange_id: 270
+  exchange_name: Binance
+  pair: LINK/USDC
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 3408
+    currency_symbol: USDC
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kraken.com/markets/kraken/link/btc
+    exchange_symbol: USDC
+  url: https://www.binance.com/en/trade/LINK_USDC?ref=H31B921U
 - base:
     currency_id: 1975
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: LINK/BTC
+  exchange_id: 151
+  exchange_name: Gemini
+  pair: LINK/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-LINK
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: LINK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://alterdice.com/trading/LINKETH
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://gemini.com/
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -1356,15 +1328,43 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 154
-  exchange_name: Dex-Trade
+  exchange_id: 574
+  exchange_name: WBF Exchange
   pair: LINK/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://dex-trade.com/en?currencyIn=LINK&currencyTo=ETH
+  url: https://www.wbf.info/trade/LINK_ETH
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: LINK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.kraken.com/markets/kraken/link/btc
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: LINK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://alterdice.com/trading/LINKETH
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -1384,20 +1384,6 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 574
-  exchange_name: WBF Exchange
-  pair: LINK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.wbf.info/trade/LINK_ETH
-- base:
-    currency_id: 1975
-    currency_symbol: LINK
-    currency_type: cryptocurrency
-    exchange_symbol: LINK
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: LINK/KRW
@@ -1412,29 +1398,29 @@ markets:
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: LINK/BTC
+  exchange_id: 270
+  exchange_name: Binance
+  pair: LINK/TUSD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 2563
+    currency_symbol: TUSD
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://whitebit.com/trade/LINK_BTC
+    exchange_symbol: TUSD
+  url: https://www.binance.com/en/trade/LINK_TUSD?ref=H31B921U
 - base:
     currency_id: 1975
     currency_symbol: LINK
     currency_type: cryptocurrency
     exchange_symbol: LINK
-  exchange_id: 542
-  exchange_name: Bitsonic
-  pair: LINK/BSC
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: LINK/ETH
   quote:
-    currency_id: 5725
-    currency_symbol: BSC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BSC
-  url: https://bitsonic.co.kr/front/exchange/link-bsc
+    exchange_symbol: ETH
+  url: https://dex-trade.com/en?currencyIn=LINK&currencyTo=ETH
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -1449,6 +1435,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.probit.com/app/exchange/LINK-USDT
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: LINK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitrue.com/trade/link_usdt?inviteCode=VQQLQV
 name: Chainlink
 rank: 13
 slug: chainlink

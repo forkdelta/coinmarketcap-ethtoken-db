@@ -21,13 +21,13 @@ markets:
     exchange_symbol: VMR
   exchange_id: 107
   exchange_name: Livecoin
-  pair: VMR/BTC
+  pair: VMR/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/VMR_BTC
+    exchange_symbol: ETH
+  url: https://www.livecoin.net/en/trading/VMR_ETH
 - base:
     currency_id: 5093
     currency_symbol: VMR
@@ -42,20 +42,6 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.livecoin.net/en/trading/VMR_USD
-- base:
-    currency_id: 5093
-    currency_symbol: VMR
-    currency_type: cryptocurrency
-    exchange_symbol: VMR
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: VMR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.livecoin.net/en/trading/VMR_ETH
 - base:
     currency_id: 5093
     currency_symbol: VMR
@@ -84,8 +70,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://vindax.com/exchange-base.html?symbol=VMR_ETH
+- base:
+    currency_id: 5093
+    currency_symbol: VMR
+    currency_type: cryptocurrency
+    exchange_symbol: VMR
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: VMR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/VMR_BTC
 name: VOMER
-rank: 2537
+rank: 2592
 slug: vomer
 status: active
 symbol: VMR

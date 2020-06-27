@@ -56,6 +56,20 @@ markets:
     currency_id: 3962
     currency_symbol: VDX
     currency_type: cryptocurrency
+    exchange_symbol: VDX
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: VDX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=vdx
+- base:
+    currency_id: 3962
+    currency_symbol: VDX
+    currency_type: cryptocurrency
     exchange_symbol: VDX-A17
   exchange_id: 486
   exchange_name: Binance DEX
@@ -87,20 +101,6 @@ markets:
     exchange_symbol: VDX
   exchange_id: 733
   exchange_name: VCC Exchange
-  pair: VDX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=vdx
-- base:
-    currency_id: 3962
-    currency_symbol: VDX
-    currency_type: cryptocurrency
-    exchange_symbol: VDX
-  exchange_id: 733
-  exchange_name: VCC Exchange
   pair: VDX/USDT
   quote:
     currency_id: 825
@@ -123,7 +123,7 @@ markets:
     exchange_symbol: ETH
   url: https://vcc.exchange/exchange/basic?currency=eth&coin=vdx
 name: Vodi X
-rank: 1260
+rank: 1299
 slug: vodi-x
 status: active
 symbol: VDX

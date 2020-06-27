@@ -65,15 +65,15 @@ markets:
     currency_symbol: EM
     currency_type: cryptocurrency
     exchange_symbol: EM
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: EM/IDR
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: EM/HT
   quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://indodax.com/market/EMIDR
+    currency_id: 2502
+    currency_symbol: HT
+    currency_type: cryptocurrency
+    exchange_symbol: HT
+  url: https://www.hbg.com/en-us/exchange/em_ht?invite_code=5kij5
 - base:
     currency_id: 4215
     currency_symbol: EM
@@ -93,43 +93,15 @@ markets:
     currency_symbol: EM
     currency_type: cryptocurrency
     exchange_symbol: EM
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: EM/HT
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: EM/IDR
   quote:
-    currency_id: 2502
-    currency_symbol: HT
-    currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.hbg.com/en-us/exchange/em_ht?invite_code=5kij5
-- base:
-    currency_id: 4215
-    currency_symbol: EM
-    currency_type: cryptocurrency
-    exchange_symbol: EM
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: EM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/em_btc/
-- base:
-    currency_id: 4215
-    currency_symbol: EM
-    currency_type: cryptocurrency
-    exchange_symbol: EM
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: EM/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=em_usdk
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/EMIDR
 - base:
     currency_id: 4215
     currency_symbol: EM
@@ -158,8 +130,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.biki.cc/en_US/trade/EM_USDT
+- base:
+    currency_id: 4215
+    currency_symbol: EM
+    currency_type: cryptocurrency
+    exchange_symbol: EM
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: EM/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=em_usdk
+- base:
+    currency_id: 4215
+    currency_symbol: EM
+    currency_type: cryptocurrency
+    exchange_symbol: EM
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: EM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/em_btc/
 name: Eminer
-rank: 558
+rank: 556
 slug: eminer
 status: active
 symbol: EM

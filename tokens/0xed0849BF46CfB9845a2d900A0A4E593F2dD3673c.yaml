@@ -70,20 +70,6 @@ markets:
     exchange_symbol: SGA
   exchange_id: 112
   exchange_name: Liquid
-  pair: SGA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/SGABTC?affiliate=eNgws23g761816
-- base:
-    currency_id: 5010
-    currency_symbol: SGA
-    currency_type: cryptocurrency
-    exchange_symbol: SGA
-  exchange_id: 112
-  exchange_name: Liquid
   pair: SGA/USD
   quote:
     currency_id: 2781
@@ -91,6 +77,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://app.liquid.com/exchange/SGAUSD?affiliate=eNgws23g761816
+- base:
+    currency_id: 5010
+    currency_symbol: SGA
+    currency_type: cryptocurrency
+    exchange_symbol: SGA
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: SGA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/SGABTC?affiliate=eNgws23g761816
 - base:
     currency_id: 5010
     currency_symbol: SGA
@@ -106,7 +106,7 @@ markets:
     exchange_symbol: ETH
   url: https://app.liquid.com/exchange/SGAETH?affiliate=eNgws23g761816
 name: Saga
-rank: 2311
+rank: 2325
 slug: saga
 status: active
 symbol: SGA

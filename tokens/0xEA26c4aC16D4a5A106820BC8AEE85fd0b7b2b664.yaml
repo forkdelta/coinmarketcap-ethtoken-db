@@ -31,6 +31,20 @@ markets:
     currency_symbol: QKC
     currency_type: cryptocurrency
     exchange_symbol: QKC
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: QKC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://latoken.com/exchange/ETH-QKC
+- base:
+    currency_id: 2840
+    currency_symbol: QKC
+    currency_type: cryptocurrency
+    exchange_symbol: QKC
   exchange_id: 270
   exchange_name: Binance
   pair: QKC/BTC
@@ -87,20 +101,6 @@ markets:
     currency_symbol: QKC
     currency_type: cryptocurrency
     exchange_symbol: QKC
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: QKC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://latoken.com/exchange/ETH-QKC
-- base:
-    currency_id: 2840
-    currency_symbol: QKC
-    currency_type: cryptocurrency
-    exchange_symbol: QKC
   exchange_id: 433
   exchange_name: Bitrue
   pair: QKC/XRP
@@ -110,20 +110,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: XRP
   url: https://www.bitrue.com/trade/qkc_xrp?inviteCode=VQQLQV
-- base:
-    currency_id: 2840
-    currency_symbol: QKC
-    currency_type: cryptocurrency
-    exchange_symbol: QKC
-  exchange_id: 155
-  exchange_name: Exrates
-  pair: QKC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exrates.me/trading/QKCBTC
 - base:
     currency_id: 2840
     currency_symbol: QKC
@@ -143,15 +129,15 @@ markets:
     currency_symbol: QKC
     currency_type: cryptocurrency
     exchange_symbol: QKC
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 155
+  exchange_name: Exrates
   pair: QKC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/QKCBTC
+  url: https://exrates.me/trading/QKCBTC
 - base:
     currency_id: 2840
     currency_symbol: QKC
@@ -185,20 +171,6 @@ markets:
     currency_symbol: QKC
     currency_type: cryptocurrency
     exchange_symbol: QKC
-  exchange_id: 155
-  exchange_name: Exrates
-  pair: QKC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://exrates.me/trading/QKCETH
-- base:
-    currency_id: 2840
-    currency_symbol: QKC
-    currency_type: cryptocurrency
-    exchange_symbol: QKC
   exchange_id: 311
   exchange_name: KuCoin
   pair: QKC/BTC
@@ -208,20 +180,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://trade.kucoin.com/QKC-BTC
-- base:
-    currency_id: 2840
-    currency_symbol: QKC
-    currency_type: cryptocurrency
-    exchange_symbol: QKC
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: QKC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/qkc_usdt
 - base:
     currency_id: 2840
     currency_symbol: QKC
@@ -255,15 +213,15 @@ markets:
     currency_symbol: QKC
     currency_type: cryptocurrency
     exchange_symbol: QKC
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: QKC/BTC
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: QKC/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/qkc_btc?inviteCode=VQQLQV
+    exchange_symbol: ETH
+  url: https://exrates.me/trading/QKCETH
 - base:
     currency_id: 2840
     currency_symbol: QKC
@@ -283,15 +241,29 @@ markets:
     currency_symbol: QKC
     currency_type: cryptocurrency
     exchange_symbol: QKC
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: QKC/ETH
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: QKC/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.kucoin.com/QKC-ETH
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/QKCBTC
+- base:
+    currency_id: 2840
+    currency_symbol: QKC
+    currency_type: cryptocurrency
+    exchange_symbol: QKC
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: QKC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitrue.com/trade/qkc_btc?inviteCode=VQQLQV
 - base:
     currency_id: 2840
     currency_symbol: QKC
@@ -306,6 +278,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=QKC_BTC
+- base:
+    currency_id: 2840
+    currency_symbol: QKC
+    currency_type: cryptocurrency
+    exchange_symbol: QKC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: QKC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://trade.kucoin.com/QKC-ETH
+- base:
+    currency_id: 2840
+    currency_symbol: QKC
+    currency_type: cryptocurrency
+    exchange_symbol: QKC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: QKC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/qkc_usdt
 - base:
     currency_id: 2840
     currency_symbol: QKC
@@ -334,20 +334,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://wazirx.com/exchange/QKC-USDT
-- base:
-    currency_id: 2840
-    currency_symbol: QKC
-    currency_type: cryptocurrency
-    exchange_symbol: QKC
-  exchange_id: 744
-  exchange_name: Lukki Exchange
-  pair: QKC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://app.lukki.io/?pair=QKC_ETH
 - base:
     currency_id: 2840
     currency_symbol: QKC
@@ -395,20 +381,6 @@ markets:
     currency_symbol: QKC
     currency_type: cryptocurrency
     exchange_symbol: QKC
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: QKC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/qkc_eth
-- base:
-    currency_id: 2840
-    currency_symbol: QKC
-    currency_type: cryptocurrency
-    exchange_symbol: QKC
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: QKC/ETH
@@ -418,6 +390,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=QKC_ETH
+- base:
+    currency_id: 2840
+    currency_symbol: QKC
+    currency_type: cryptocurrency
+    exchange_symbol: QKC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: QKC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/qkc_eth
 - base:
     currency_id: 2840
     currency_symbol: QKC
@@ -439,20 +425,6 @@ markets:
     exchange_symbol: QKC
   exchange_id: 42
   exchange_name: HitBTC
-  pair: QKC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/QKC-to-BTC
-- base:
-    currency_id: 2840
-    currency_symbol: QKC
-    currency_type: cryptocurrency
-    exchange_symbol: QKC
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: QKC/ETH
   quote:
     currency_id: 1027
@@ -460,6 +432,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/QKC-to-ETH
+- base:
+    currency_id: 2840
+    currency_symbol: QKC
+    currency_type: cryptocurrency
+    exchange_symbol: QKC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: QKC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/QKC-to-BTC
 - base:
     currency_id: 2840
     currency_symbol: QKC
@@ -488,8 +474,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=QKCBTC?hash=2NbmTq6
+- base:
+    currency_id: 2840
+    currency_symbol: QKC
+    currency_type: cryptocurrency
+    exchange_symbol: QKC
+  exchange_id: 744
+  exchange_name: Lukki Exchange
+  pair: QKC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://app.lukki.io/?pair=QKC_ETH
 name: QuarkChain
-rank: 333
+rank: 332
 slug: quarkchain
 status: active
 symbol: QKC
