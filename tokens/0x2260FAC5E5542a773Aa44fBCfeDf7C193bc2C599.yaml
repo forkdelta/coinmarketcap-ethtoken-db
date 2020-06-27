@@ -48,20 +48,6 @@ markets:
     currency_symbol: WBTC
     currency_type: cryptocurrency
     exchange_symbol: WBTC
-  exchange_id: 367
-  exchange_name: DDEX
-  pair: WBTC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://ddex.io/margin/WBTC-USDT
-- base:
-    currency_id: 3717
-    currency_symbol: WBTC
-    currency_type: cryptocurrency
-    exchange_symbol: WBTC
   exchange_id: 286
   exchange_name: Oasis
   pair: WBTC/ETH
@@ -71,6 +57,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://oasis.app/trade/market/WBTC/ETH
+- base:
+    currency_id: 3717
+    currency_symbol: WBTC
+    currency_type: cryptocurrency
+    exchange_symbol: WBTC
+  exchange_id: 367
+  exchange_name: DDEX
+  pair: WBTC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://ddex.io/margin/WBTC-USDT
 - base:
     currency_id: 3717
     currency_symbol: WBTC
@@ -184,7 +184,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/WBTC/WETH
 name: Wrapped Bitcoin
-rank: 238
+rank: 237
 slug: wrapped-bitcoin
 status: active
 symbol: WBTC

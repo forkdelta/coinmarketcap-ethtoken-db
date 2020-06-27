@@ -148,20 +148,6 @@ markets:
     exchange_symbol: ICH
   exchange_id: 587
   exchange_name: IndoEx
-  pair: ICH/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://international.indoex.io/trade/ICH_USD
-- base:
-    currency_id: 5560
-    currency_symbol: ICH
-    currency_type: cryptocurrency
-    exchange_symbol: ICH
-  exchange_id: 587
-  exchange_name: IndoEx
   pair: ICH/USDC
   quote:
     currency_id: 3408
@@ -174,15 +160,29 @@ markets:
     currency_symbol: ICH
     currency_type: cryptocurrency
     exchange_symbol: ICH
-  exchange_id: 467
-  exchange_name: BitRabbit
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: ICH/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://international.indoex.io/trade/ICH_USD
+- base:
+    currency_id: 5560
+    currency_symbol: ICH
+    currency_type: cryptocurrency
+    exchange_symbol: ICH
+  exchange_id: 487
+  exchange_name: VinDAX
   pair: ICH/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bitrabbit.com/markets/ich_btc
+  url: https://vindax.com/exchange-base.html?symbol=ICH_BTC
 - base:
     currency_id: 5560
     currency_symbol: ICH
@@ -216,6 +216,20 @@ markets:
     currency_symbol: ICH
     currency_type: cryptocurrency
     exchange_symbol: ICH
+  exchange_id: 467
+  exchange_name: BitRabbit
+  pair: ICH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitrabbit.com/markets/ich_btc
+- base:
+    currency_id: 5560
+    currency_symbol: ICH
+    currency_type: cryptocurrency
+    exchange_symbol: ICH
   exchange_id: 480
   exchange_name: Cat.Ex
   pair: ICH/BTC
@@ -225,22 +239,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.catex.io/trading/ICH/BTC
-- base:
-    currency_id: 5560
-    currency_symbol: ICH
-    currency_type: cryptocurrency
-    exchange_symbol: ICH
-  exchange_id: 487
-  exchange_name: VinDAX
-  pair: ICH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vindax.com/exchange-base.html?symbol=ICH_BTC
 name: Idea Chain Coin
-rank: 232
+rank: 235
 slug: idea-chain-coin
 status: active
 symbol: ICH

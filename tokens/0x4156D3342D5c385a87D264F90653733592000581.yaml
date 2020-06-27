@@ -38,15 +38,15 @@ markets:
     currency_symbol: SALT
     currency_type: cryptocurrency
     exchange_symbol: SALT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SALT/BTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: SALT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/SALT-to-BTC
+    exchange_symbol: USDT
+  url: https://gate.io/trade/salt_usdt
 - base:
     currency_id: 1996
     currency_symbol: SALT
@@ -66,15 +66,15 @@ markets:
     currency_symbol: SALT
     currency_type: cryptocurrency
     exchange_symbol: SALT
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: SALT/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SALT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/salt_usdt
+    exchange_symbol: BTC
+  url: https://hitbtc.com/SALT-to-BTC
 - base:
     currency_id: 1996
     currency_symbol: SALT
@@ -89,20 +89,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/SALT-to-ETH
-- base:
-    currency_id: 1996
-    currency_symbol: SALT
-    currency_type: cryptocurrency
-    exchange_symbol: SALT
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: SALT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/salt_btc/
 - base:
     currency_id: 1996
     currency_symbol: SALT
@@ -131,8 +117,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/salt
+- base:
+    currency_id: 1996
+    currency_symbol: SALT
+    currency_type: cryptocurrency
+    exchange_symbol: SALT
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: SALT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/salt_btc/
 name: SALT
-rank: 534
+rank: 541
 slug: salt
 status: active
 symbol: SALT

@@ -27,6 +27,20 @@ markets:
     currency_symbol: SNX
     currency_type: cryptocurrency
     exchange_symbol: SNX
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: SNX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=snx&tab=limit
+- base:
+    currency_id: 2586
+    currency_symbol: SNX
+    currency_type: cryptocurrency
+    exchange_symbol: SNX
   exchange_id: 174
   exchange_name: Coinone
   pair: SNX/KRW
@@ -43,13 +57,13 @@ markets:
     exchange_symbol: SNX
   exchange_id: 350
   exchange_name: CoinEx
-  pair: SNX/USDT
+  pair: SNX/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=snx&tab=limit
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=snx&tab=limit
 - base:
     currency_id: 2586
     currency_symbol: SNX
@@ -64,20 +78,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://uniswap.exchange/
-- base:
-    currency_id: 2586
-    currency_symbol: SNX
-    currency_type: cryptocurrency
-    exchange_symbol: SNX
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: SNX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=snx&tab=limit
 - base:
     currency_id: 2586
     currency_symbol: SNX
@@ -125,20 +125,6 @@ markets:
     currency_symbol: SNX
     currency_type: cryptocurrency
     exchange_symbol: SNX
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: SNX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/snx-eth
-- base:
-    currency_id: 2586
-    currency_symbol: SNX
-    currency_type: cryptocurrency
-    exchange_symbol: SNX
   exchange_id: 311
   exchange_name: KuCoin
   pair: SNX/ETH
@@ -148,6 +134,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://trade.kucoin.com/SNX-ETH
+- base:
+    currency_id: 2586
+    currency_symbol: SNX
+    currency_type: cryptocurrency
+    exchange_symbol: SNX
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: SNX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/snx-eth
 - base:
     currency_id: 2586
     currency_symbol: SNX
@@ -181,34 +181,6 @@ markets:
     currency_symbol: SNX
     currency_type: cryptocurrency
     exchange_symbol: SNX
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: SNX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://poloniex.com/exchange#usdt_snx?c=H4QD8FNW
-- base:
-    currency_id: 2586
-    currency_symbol: SNX
-    currency_type: cryptocurrency
-    exchange_symbol: SNX
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: SNX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_snx?c=H4QD8FNW
-- base:
-    currency_id: 2586
-    currency_symbol: SNX
-    currency_type: cryptocurrency
-    exchange_symbol: SNX
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: SNX/USDT
@@ -236,6 +208,34 @@ markets:
     currency_id: 2586
     currency_symbol: SNX
     currency_type: cryptocurrency
+    exchange_symbol: SNX
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: SNX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://poloniex.com/exchange#btc_snx?c=H4QD8FNW
+- base:
+    currency_id: 2586
+    currency_symbol: SNX
+    currency_type: cryptocurrency
+    exchange_symbol: SNX
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: SNX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://poloniex.com/exchange#usdt_snx?c=H4QD8FNW
+- base:
+    currency_id: 2586
+    currency_symbol: SNX
+    currency_type: cryptocurrency
     exchange_symbol: HAV
   exchange_id: 302
   exchange_name: Gate.io
@@ -246,34 +246,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/snx_usdt
-- base:
-    currency_id: 2586
-    currency_symbol: SNX
-    currency_type: cryptocurrency
-    exchange_symbol: SNX
-  exchange_id: 401
-  exchange_name: Switcheo Network
-  pair: SNX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://switcheo.exchange/markets/SNX_ETH?referral_code=DFCA09
-- base:
-    currency_id: 2586
-    currency_symbol: SNX
-    currency_type: cryptocurrency
-    exchange_symbol: SNX
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: SNX/TRX
-  quote:
-    currency_id: 1958
-    currency_symbol: TRX
-    currency_type: cryptocurrency
-    exchange_symbol: TRX
-  url: https://poloniex.com/exchange#trx_snx?c=H4QD8FNW
 - base:
     currency_id: 2586
     currency_symbol: SNX
@@ -307,15 +279,29 @@ markets:
     currency_symbol: SNX
     currency_type: cryptocurrency
     exchange_symbol: SNX
-  exchange_id: 424
-  exchange_name: Hoo
+  exchange_id: 401
+  exchange_name: Switcheo Network
   pair: SNX/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://hoo.com/trade/snx-eth
+  url: https://switcheo.exchange/markets/SNX_ETH?referral_code=DFCA09
+- base:
+    currency_id: 2586
+    currency_symbol: SNX
+    currency_type: cryptocurrency
+    exchange_symbol: SNX
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: SNX/TRX
+  quote:
+    currency_id: 1958
+    currency_symbol: TRX
+    currency_type: cryptocurrency
+    exchange_symbol: TRX
+  url: https://poloniex.com/exchange#trx_snx?c=H4QD8FNW
 - base:
     currency_id: 2586
     currency_symbol: SNX
@@ -330,8 +316,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hoo.com/trade/snx-usdt
+- base:
+    currency_id: 2586
+    currency_symbol: SNX
+    currency_type: cryptocurrency
+    exchange_symbol: SNX
+  exchange_id: 424
+  exchange_name: Hoo
+  pair: SNX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hoo.com/trade/snx-eth
 name: Synthetix Network Token
-rank: 52
+rank: 51
 slug: synthetix-network-token
 status: active
 symbol: SNX

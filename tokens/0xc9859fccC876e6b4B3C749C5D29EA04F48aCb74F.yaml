@@ -47,20 +47,6 @@ markets:
     exchange_symbol: INO
   exchange_id: 155
   exchange_name: Exrates
-  pair: INO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exrates.me/trading/INOBTC
-- base:
-    currency_id: 3085
-    currency_symbol: INO
-    currency_type: cryptocurrency
-    exchange_symbol: INO
-  exchange_id: 155
-  exchange_name: Exrates
   pair: INO/USD
   quote:
     currency_id: 2781
@@ -68,6 +54,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://exrates.me/trading/INOUSD
+- base:
+    currency_id: 3085
+    currency_symbol: INO
+    currency_type: cryptocurrency
+    exchange_symbol: INO
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: INO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exrates.me/trading/INOBTC
 - base:
     currency_id: 3085
     currency_symbol: INO
@@ -97,7 +97,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=INO_BTC
 name: INO COIN
-rank: 204
+rank: 205
 slug: ino-coin
 status: active
 symbol: INO

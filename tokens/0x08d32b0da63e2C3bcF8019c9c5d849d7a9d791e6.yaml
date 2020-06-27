@@ -65,6 +65,20 @@ markets:
     exchange_symbol: DCN
   exchange_id: 42
   exchange_name: HitBTC
+  pair: DCN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/DCN-to-USDT
+- base:
+    currency_id: 1876
+    currency_symbol: DCN
+    currency_type: cryptocurrency
+    exchange_symbol: DCN
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: DCN/ETH
   quote:
     currency_id: 1027
@@ -77,15 +91,15 @@ markets:
     currency_symbol: DCN
     currency_type: cryptocurrency
     exchange_symbol: DCN
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: DCN/USDT
+  exchange_id: 333
+  exchange_name: LBank
+  pair: DCN/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/DCN-to-USDT
+    exchange_symbol: ETH
+  url: https://www.lbank.info/trading/dcn/eth
 - base:
     currency_id: 1876
     currency_symbol: DCN
@@ -105,29 +119,15 @@ markets:
     currency_symbol: DCN
     currency_type: cryptocurrency
     exchange_symbol: DCN
-  exchange_id: 585
-  exchange_name: BITStorage
+  exchange_id: 419
+  exchange_name: Graviex
   pair: DCN/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://bitstorage.finance/market/DCN-ETH
-- base:
-    currency_id: 1876
-    currency_symbol: DCN
-    currency_type: cryptocurrency
-    exchange_symbol: DCN
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: DCN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/DCN/ETH
+  url: https://graviex.net/markets/dcneth
 - base:
     currency_id: 1876
     currency_symbol: DCN
@@ -149,13 +149,27 @@ markets:
     exchange_symbol: DCN
   exchange_id: 213
   exchange_name: Mercatox
-  pair: DCN/BTC
+  pair: DCN/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/DCN/BTC
+    exchange_symbol: ETH
+  url: https://mercatox.com/exchange/DCN/ETH
+- base:
+    currency_id: 1876
+    currency_symbol: DCN
+    currency_type: cryptocurrency
+    exchange_symbol: DCN
+  exchange_id: 461
+  exchange_name: Altilly
+  pair: DCN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.altilly.com/market/DCN_ETH
 - base:
     currency_id: 1876
     currency_symbol: DCN
@@ -177,13 +191,41 @@ markets:
     exchange_symbol: DCN
   exchange_id: 363
   exchange_name: Fatbtc
+  pair: DCN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 1876
+    currency_symbol: DCN
+    currency_type: cryptocurrency
+    exchange_symbol: DCN
+  exchange_id: 585
+  exchange_name: BITStorage
+  pair: DCN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bitstorage.finance/market/DCN-ETH
+- base:
+    currency_id: 1876
+    currency_symbol: DCN
+    currency_type: cryptocurrency
+    exchange_symbol: DCN
+  exchange_id: 213
+  exchange_name: Mercatox
   pair: DCN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.fatbtc.com/
+  url: https://mercatox.com/exchange/DCN/BTC
 - base:
     currency_id: 1876
     currency_symbol: DCN
@@ -191,12 +233,12 @@ markets:
     exchange_symbol: DCN
   exchange_id: 363
   exchange_name: Fatbtc
-  pair: DCN/ETH
+  pair: DCN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
+    exchange_symbol: BTC
   url: https://www.fatbtc.com/
 - base:
     currency_id: 1876
@@ -217,34 +259,6 @@ markets:
     currency_symbol: DCN
     currency_type: cryptocurrency
     exchange_symbol: DCN
-  exchange_id: 419
-  exchange_name: Graviex
-  pair: DCN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://graviex.net/markets/dcneth
-- base:
-    currency_id: 1876
-    currency_symbol: DCN
-    currency_type: cryptocurrency
-    exchange_symbol: DCN
-  exchange_id: 461
-  exchange_name: Altilly
-  pair: DCN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.altilly.com/market/DCN_ETH
-- base:
-    currency_id: 1876
-    currency_symbol: DCN
-    currency_type: cryptocurrency
-    exchange_symbol: DCN
   exchange_id: 469
   exchange_name: Coinlim
   pair: DCN/BTC
@@ -254,20 +268,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.coinlim.com/#/dashboard
-- base:
-    currency_id: 1876
-    currency_symbol: DCN
-    currency_type: cryptocurrency
-    exchange_symbol: DCN
-  exchange_id: 333
-  exchange_name: LBank
-  pair: DCN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.lbank.info/trading/dcn/eth
 - base:
     currency_id: 1876
     currency_symbol: DCN
@@ -325,7 +325,7 @@ markets:
     exchange_symbol: USD
   url: https://bitstorage.finance/market/DCN-USD
 name: Dentacoin
-rank: 630
+rank: 656
 slug: dentacoin
 status: active
 symbol: DCN
