@@ -24,20 +24,6 @@ markets:
     currency_symbol: ZB
     currency_type: cryptocurrency
     exchange_symbol: ZB
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: ZB/QC
-  quote:
-    currency_id: 2319
-    currency_symbol: QC
-    currency_type: cryptocurrency
-    exchange_symbol: QC
-  url: https://trans.zb.com/zbqc?recommendCode=d0ip3b
-- base:
-    currency_id: 3351
-    currency_symbol: ZB
-    currency_type: cryptocurrency
-    exchange_symbol: ZB
   exchange_id: 430
   exchange_name: ZBG
   pair: ZB/USDT
@@ -47,6 +33,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.zbg.com/trade/zb_usdt
+- base:
+    currency_id: 3351
+    currency_symbol: ZB
+    currency_type: cryptocurrency
+    exchange_symbol: ZB
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: ZB/QC
+  quote:
+    currency_id: 2319
+    currency_symbol: QC
+    currency_type: cryptocurrency
+    exchange_symbol: QC
+  url: https://trans.zb.com/zbqc?recommendCode=d0ip3b
 - base:
     currency_id: 3351
     currency_symbol: ZB
@@ -80,20 +80,6 @@ markets:
     currency_symbol: ZB
     currency_type: cryptocurrency
     exchange_symbol: ZB
-  exchange_id: 430
-  exchange_name: ZBG
-  pair: ZB/QC
-  quote:
-    currency_id: 2319
-    currency_symbol: QC
-    currency_type: cryptocurrency
-    exchange_symbol: QC
-  url: https://www.zbg.com/trade/zb_qc
-- base:
-    currency_id: 3351
-    currency_symbol: ZB
-    currency_type: cryptocurrency
-    exchange_symbol: ZB
   exchange_id: 459
   exchange_name: BW.com
   pair: ZB/USDT
@@ -108,29 +94,15 @@ markets:
     currency_symbol: ZB
     currency_type: cryptocurrency
     exchange_symbol: ZB
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: ZB/BTC
+  exchange_id: 430
+  exchange_name: ZBG
+  pair: ZB/QC
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 2319
+    currency_symbol: QC
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trans.zb.com/zbbtc?recommendCode=d0ip3b
-- base:
-    currency_id: 3351
-    currency_symbol: ZB
-    currency_type: cryptocurrency
-    exchange_symbol: ZB
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: ZB/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=ZB_ETH
+    exchange_symbol: QC
+  url: https://www.zbg.com/trade/zb_qc
 - base:
     currency_id: 3351
     currency_symbol: ZB
@@ -150,6 +122,20 @@ markets:
     currency_symbol: ZB
     currency_type: cryptocurrency
     exchange_symbol: ZB
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: ZB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=ZB_ETH
+- base:
+    currency_id: 3351
+    currency_symbol: ZB
+    currency_type: cryptocurrency
+    exchange_symbol: ZB
   exchange_id: 528
   exchange_name: BiKi
   pair: ZB/BTC
@@ -159,6 +145,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.biki.cc/en_US/trade/ZB_BTC
+- base:
+    currency_id: 3351
+    currency_symbol: ZB
+    currency_type: cryptocurrency
+    exchange_symbol: ZB
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: ZB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trans.zb.com/zbbtc?recommendCode=d0ip3b
 - base:
     currency_id: 3351
     currency_symbol: ZB
@@ -174,7 +174,11 @@ markets:
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/ZB:USD?refcode=H70YTMupQ
 name: ZB Token
-rank: 67
+rank: 66
 slug: zb-token
 status: active
 symbol: ZB
+tags:
+- marketplace
+- discount-token
+- payments

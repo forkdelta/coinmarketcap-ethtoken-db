@@ -65,15 +65,15 @@ markets:
     currency_symbol: MDS
     currency_type: cryptocurrency
     exchange_symbol: MDS
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: MDS/USDT
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: MDS/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/mds_usdt
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/mds_btc/
 - base:
     currency_id: 2274
     currency_symbol: MDS
@@ -88,20 +88,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.huobi.co.kr/en-US/exchange/mds_usdt/
-- base:
-    currency_id: 2274
-    currency_symbol: MDS
-    currency_type: cryptocurrency
-    exchange_symbol: MDS
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: MDS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/mds_btc/
 - base:
     currency_id: 2274
     currency_symbol: MDS
@@ -130,8 +116,24 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/mds_eth
+- base:
+    currency_id: 2274
+    currency_symbol: MDS
+    currency_type: cryptocurrency
+    exchange_symbol: MDS
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: MDS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/mds_usdt
 name: MediShares
-rank: 697
+rank: 692
 slug: medishares
 status: active
 symbol: MDS
+tags:
+- health

@@ -39,20 +39,6 @@ markets:
     exchange_symbol: SOC
   exchange_id: 294
   exchange_name: OKEx
-  pair: SOC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=soc_btc
-- base:
-    currency_id: 2473
-    currency_symbol: SOC
-    currency_type: cryptocurrency
-    exchange_symbol: SOC
-  exchange_id: 294
-  exchange_name: OKEx
   pair: SOC/USDT
   quote:
     currency_id: 825
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.okex.com/market?product=soc_usdt
+- base:
+    currency_id: 2473
+    currency_symbol: SOC
+    currency_type: cryptocurrency
+    exchange_symbol: SOC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: SOC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=soc_btc
 - base:
     currency_id: 2473
     currency_symbol: SOC
@@ -95,20 +95,6 @@ markets:
     exchange_symbol: SOC
   exchange_id: 400
   exchange_name: Hotbit
-  pair: SOC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=SOC_BTC
-- base:
-    currency_id: 2473
-    currency_symbol: SOC
-    currency_type: cryptocurrency
-    exchange_symbol: SOC
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: SOC/ETH
   quote:
     currency_id: 1027
@@ -121,15 +107,15 @@ markets:
     currency_symbol: SOC
     currency_type: cryptocurrency
     exchange_symbol: SOC
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: SOC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/SOC-to-BTC
+  url: https://www.hotbit.io/exchange?symbol=SOC_BTC
 - base:
     currency_id: 2473
     currency_symbol: SOC
@@ -144,6 +130,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.huobi.co.kr/en-US/exchange/soc_usdt/
+- base:
+    currency_id: 2473
+    currency_symbol: SOC
+    currency_type: cryptocurrency
+    exchange_symbol: SOC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SOC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/SOC-to-BTC
 - base:
     currency_id: 2473
     currency_symbol: SOC
@@ -229,7 +229,9 @@ markets:
     exchange_symbol: USDT
   url: https://www.huobi.com.ru/exchange/#s=soc_usdt
 name: All Sports
-rank: 515
+rank: 500
 slug: all-sports
 status: active
 symbol: SOC
+tags:
+- sports

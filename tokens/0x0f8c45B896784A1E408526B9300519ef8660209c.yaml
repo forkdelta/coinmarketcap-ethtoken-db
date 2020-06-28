@@ -27,20 +27,6 @@ markets:
     currency_symbol: XMX
     currency_type: cryptocurrency
     exchange_symbol: XMX
-  exchange_id: 544
-  exchange_name: MXC
-  pair: XMX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.mxc.com/trade/easy#XMX_BTC
-- base:
-    currency_id: 2859
-    currency_symbol: XMX
-    currency_type: cryptocurrency
-    exchange_symbol: XMX
   exchange_id: 102
   exchange_name: Huobi Global
   pair: XMX/BTC
@@ -57,13 +43,13 @@ markets:
     exchange_symbol: XMX
   exchange_id: 544
   exchange_name: MXC
-  pair: XMX/USDT
+  pair: XMX/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.mxc.com/trade/easy#XMX_USDT
+    exchange_symbol: BTC
+  url: https://www.mxc.com/trade/easy#XMX_BTC
 - base:
     currency_id: 2859
     currency_symbol: XMX
@@ -78,6 +64,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/xmx_eth?invite_code=5kij5
+- base:
+    currency_id: 2859
+    currency_symbol: XMX
+    currency_type: cryptocurrency
+    exchange_symbol: XMX
+  exchange_id: 544
+  exchange_name: MXC
+  pair: XMX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.mxc.com/trade/easy#XMX_USDT
 - base:
     currency_id: 2859
     currency_symbol: XMX
@@ -177,7 +177,11 @@ markets:
     exchange_symbol: USDT
   url: https://www.hcoin.com/trade/usdt/xmx
 name: XMax
-rank: 349
+rank: 331
 slug: xmax
 status: active
 symbol: XMX
+tags:
+- media
+- content-creation
+- gaming

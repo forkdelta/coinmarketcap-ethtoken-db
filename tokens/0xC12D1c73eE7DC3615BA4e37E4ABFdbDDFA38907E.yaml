@@ -94,20 +94,6 @@ markets:
     currency_symbol: KICK
     currency_type: cryptocurrency
     exchange_symbol: KICK
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: KICK/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://sistemkoin.com/#/
-- base:
-    currency_id: 2017
-    currency_symbol: KICK
-    currency_type: cryptocurrency
-    exchange_symbol: KICK
   exchange_id: 311
   exchange_name: KuCoin
   pair: KICK/ETH
@@ -117,6 +103,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://trade.kucoin.com/KICK-ETH
+- base:
+    currency_id: 2017
+    currency_symbol: KICK
+    currency_type: cryptocurrency
+    exchange_symbol: KICK
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: KICK/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://sistemkoin.com/#/
 - base:
     currency_id: 2017
     currency_symbol: KICK
@@ -160,7 +160,10 @@ markets:
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/KICK/BTC
 name: KickToken
-rank: 998
+rank: 1010
 slug: kick-token
 status: active
 symbol: KICK
+tags:
+- asset-management
+- crowdfunding

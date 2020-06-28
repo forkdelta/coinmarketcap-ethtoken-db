@@ -44,20 +44,6 @@ markets:
     exchange_symbol: CSP
   exchange_id: 311
   exchange_name: KuCoin
-  pair: CSP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.kucoin.com/CSP-ETH
-- base:
-    currency_id: 3842
-    currency_symbol: CSP
-    currency_type: cryptocurrency
-    exchange_symbol: CSP
-  exchange_id: 311
-  exchange_name: KuCoin
   pair: CSP/BTC
   quote:
     currency_id: 1
@@ -70,15 +56,15 @@ markets:
     currency_symbol: CSP
     currency_type: cryptocurrency
     exchange_symbol: CSP
-  exchange_id: 310
-  exchange_name: IDEX
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: CSP/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://idex.market/eth/csp
+  url: https://trade.kucoin.com/CSP-ETH
 - base:
     currency_id: 3842
     currency_symbol: CSP
@@ -93,8 +79,24 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.coinall.com/market?product=csp_usdt
+- base:
+    currency_id: 3842
+    currency_symbol: CSP
+    currency_type: cryptocurrency
+    exchange_symbol: CSP
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: CSP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/csp
 name: Caspian
-rank: 884
+rank: 865
 slug: caspian
 status: active
 symbol: CSP
+tags:
+- asset-management

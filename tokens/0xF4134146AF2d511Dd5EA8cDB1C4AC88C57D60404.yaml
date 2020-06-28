@@ -62,20 +62,6 @@ markets:
     currency_symbol: SNC
     currency_type: cryptocurrency
     exchange_symbol: SNC
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: SNC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=snc_btc
-- base:
-    currency_id: 1786
-    currency_symbol: SNC
-    currency_type: cryptocurrency
-    exchange_symbol: SNC
   exchange_id: 363
   exchange_name: Fatbtc
   pair: SNC/BTC
@@ -90,15 +76,15 @@ markets:
     currency_symbol: SNC
     currency_type: cryptocurrency
     exchange_symbol: SNC
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 294
+  exchange_name: OKEx
   pair: SNC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/SNC-to-BTC
+  url: https://www.okex.com/market?product=snc_btc
 - base:
     currency_id: 1786
     currency_symbol: SNC
@@ -134,13 +120,13 @@ markets:
     exchange_symbol: SNC
   exchange_id: 42
   exchange_name: HitBTC
-  pair: SNC/ETH
+  pair: SNC/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/SNC-to-ETH
+    exchange_symbol: BTC
+  url: https://hitbtc.com/SNC-to-BTC
 - base:
     currency_id: 1786
     currency_symbol: SNC
@@ -160,6 +146,20 @@ markets:
     currency_symbol: SNC
     currency_type: cryptocurrency
     exchange_symbol: SNC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SNC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/SNC-to-ETH
+- base:
+    currency_id: 1786
+    currency_symbol: SNC
+    currency_type: cryptocurrency
+    exchange_symbol: SNC
   exchange_id: 100
   exchange_name: YoBit
   pair: SNC/BTC
@@ -170,7 +170,9 @@ markets:
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/SNC/BTC
 name: SunContract
-rank: 640
+rank: 631
 slug: suncontract
 status: active
 symbol: SNC
+tags:
+- energy

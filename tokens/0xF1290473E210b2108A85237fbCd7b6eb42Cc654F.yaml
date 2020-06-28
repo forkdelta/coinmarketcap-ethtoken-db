@@ -125,6 +125,20 @@ markets:
     currency_symbol: HEDG
     currency_type: cryptocurrency
     exchange_symbol: HEDG
+  exchange_id: 857
+  exchange_name: Bitcoin.com
+  pair: HEDG/BCH
+  quote:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  url: null
+- base:
+    currency_id: 3662
+    currency_symbol: HEDG
+    currency_type: cryptocurrency
+    exchange_symbol: HEDG
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: HEDG/USDT
@@ -139,15 +153,15 @@ markets:
     currency_symbol: HEDG
     currency_type: cryptocurrency
     exchange_symbol: HEDG
-  exchange_id: 857
-  exchange_name: Bitcoin.com
-  pair: HEDG/BCH
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: HEDG/ETH
   quote:
-    currency_id: 1831
-    currency_symbol: BCH
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BCH
-  url: null
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 - base:
     currency_id: 3662
     currency_symbol: HEDG
@@ -195,20 +209,6 @@ markets:
     currency_symbol: HEDG
     currency_type: cryptocurrency
     exchange_symbol: HEDG
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: HEDG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 3662
-    currency_symbol: HEDG
-    currency_type: cryptocurrency
-    exchange_symbol: HEDG
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: HEDG/BTC
@@ -233,7 +233,10 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: HedgeTrade
-rank: 30
+rank: 29
 slug: hedgetrade
 status: active
 symbol: HEDG
+tags:
+- marketplace
+- discount-token

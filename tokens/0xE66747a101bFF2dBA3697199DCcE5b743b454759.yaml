@@ -24,6 +24,20 @@ markets:
     currency_symbol: GT
     currency_type: cryptocurrency
     exchange_symbol: GT
+  exchange_id: 331
+  exchange_name: EXX
+  pair: GT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.exx.com/tradeCoding/gt_usdt
+- base:
+    currency_id: 4269
+    currency_symbol: GT
+    currency_type: cryptocurrency
+    exchange_symbol: GT
   exchange_id: 528
   exchange_name: BiKi
   pair: GT/USDT
@@ -68,13 +82,13 @@ markets:
     exchange_symbol: GT
   exchange_id: 453
   exchange_name: BitMax
-  pair: GT/BTC
+  pair: GT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/gt
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/gt
 - base:
     currency_id: 4269
     currency_symbol: GT
@@ -96,13 +110,13 @@ markets:
     exchange_symbol: GT
   exchange_id: 453
   exchange_name: BitMax
-  pair: GT/USDT
+  pair: GT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/gt
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/gt
 - base:
     currency_id: 4269
     currency_symbol: GT
@@ -136,20 +150,6 @@ markets:
     currency_symbol: GT
     currency_type: cryptocurrency
     exchange_symbol: GT
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: GT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://gate.io/trade/gt_btc
-- base:
-    currency_id: 4269
-    currency_symbol: GT
-    currency_type: cryptocurrency
-    exchange_symbol: GT
   exchange_id: 102
   exchange_name: Huobi Global
   pair: GT/BTC
@@ -178,29 +178,15 @@ markets:
     currency_symbol: GT
     currency_type: cryptocurrency
     exchange_symbol: GT
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 302
+  exchange_name: Gate.io
   pair: GT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/gt_btc/
-- base:
-    currency_id: 4269
-    currency_symbol: GT
-    currency_type: cryptocurrency
-    exchange_symbol: GT
-  exchange_id: 448
-  exchange_name: Coinall
-  pair: GT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coinall.com/market?product=gt_eth
+  url: https://gate.io/trade/gt_btc
 - base:
     currency_id: 4269
     currency_symbol: GT
@@ -220,6 +206,34 @@ markets:
     currency_symbol: GT
     currency_type: cryptocurrency
     exchange_symbol: GT
+  exchange_id: 448
+  exchange_name: Coinall
+  pair: GT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.coinall.com/market?product=gt_eth
+- base:
+    currency_id: 4269
+    currency_symbol: GT
+    currency_type: cryptocurrency
+    exchange_symbol: GT
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: GT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/gt_btc/
+- base:
+    currency_id: 4269
+    currency_symbol: GT
+    currency_type: cryptocurrency
+    exchange_symbol: GT
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: GT/USDT
@@ -229,22 +243,12 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.huobi.co.kr/en-US/exchange/gt_usdt/
-- base:
-    currency_id: 4269
-    currency_symbol: GT
-    currency_type: cryptocurrency
-    exchange_symbol: GT
-  exchange_id: 331
-  exchange_name: EXX
-  pair: GT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.exx.com/tradeCoding/gt_usdt
 name: Gatechain Token
-rank: 134
+rank: 125
 slug: gatechain-token
 status: active
 symbol: GT
+tags:
+- marketplace
+- centralized-exchange
+- discount-token

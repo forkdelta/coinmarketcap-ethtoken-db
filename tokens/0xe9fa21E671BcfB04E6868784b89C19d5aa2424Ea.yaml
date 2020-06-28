@@ -31,20 +31,6 @@ markets:
     exchange_symbol: ECTE
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: ECTE/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/ECTE_USD
-- base:
-    currency_id: 3741
-    currency_symbol: ECTE
-    currency_type: cryptocurrency
-    exchange_symbol: ECTE
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: ECTE/BTC
   quote:
     currency_id: 1
@@ -52,6 +38,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://p2pb2b.io/trade/ECTE_BTC
+- base:
+    currency_id: 3741
+    currency_symbol: ECTE
+    currency_type: cryptocurrency
+    exchange_symbol: ECTE
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: ECTE/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/ECTE_USD
 - base:
     currency_id: 3741
     currency_symbol: ECTE
@@ -67,7 +67,7 @@ markets:
     exchange_symbol: ETH
   url: https://p2pb2b.io/trade/ECTE_ETH
 name: EurocoinToken
-rank: 1559
+rank: 1251
 slug: eurocoin-token
 status: active
 symbol: ECTE

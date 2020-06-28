@@ -58,20 +58,6 @@ markets:
     exchange_symbol: DUSK
   exchange_id: 270
   exchange_name: Binance
-  pair: DUSK/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/DUSK_USDT?ref=H31B921U
-- base:
-    currency_id: 4092
-    currency_symbol: DUSK
-    currency_type: cryptocurrency
-    exchange_symbol: DUSK
-  exchange_id: 270
-  exchange_name: Binance
   pair: DUSK/BTC
   quote:
     currency_id: 1
@@ -79,6 +65,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.binance.com/en/trade/DUSK_BTC?ref=H31B921U
+- base:
+    currency_id: 4092
+    currency_symbol: DUSK
+    currency_type: cryptocurrency
+    exchange_symbol: DUSK
+  exchange_id: 270
+  exchange_name: Binance
+  pair: DUSK/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/DUSK_USDT?ref=H31B921U
 - base:
     currency_id: 4092
     currency_symbol: DUSK
@@ -98,29 +98,15 @@ markets:
     currency_symbol: DUSK
     currency_type: cryptocurrency
     exchange_symbol: DUSK
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 37
+  exchange_name: Bitfinex
   pair: DUSK/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=DUSK_BTC
-- base:
-    currency_id: 4092
-    currency_symbol: DUSK
-    currency_type: cryptocurrency
-    exchange_symbol: DUSK
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: DUSK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-DUSK
+  url: https://www.bitfinex.com/t/DUSK:BTC?refcode=H70YTMupQ
 - base:
     currency_id: 4092
     currency_symbol: DUSK
@@ -140,15 +126,29 @@ markets:
     currency_symbol: DUSK
     currency_type: cryptocurrency
     exchange_symbol: DUSK
-  exchange_id: 37
-  exchange_name: Bitfinex
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: DUSK/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/DUSK:BTC?refcode=H70YTMupQ
+  url: https://bittrex.com/Market/Index?MarketName=BTC-DUSK
+- base:
+    currency_id: 4092
+    currency_symbol: DUSK
+    currency_type: cryptocurrency
+    exchange_symbol: DUSK
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: DUSK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=DUSK_BTC
 - base:
     currency_id: 4092
     currency_symbol: DUSK
@@ -192,7 +192,11 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/dusk-network
 name: Dusk Network
-rank: 428
+rank: 453
 slug: dusk-network
 status: active
 symbol: DUSK
+tags:
+- marketplace
+- privacy
+- smart-contracts

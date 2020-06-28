@@ -47,20 +47,6 @@ markets:
     exchange_symbol: INO
   exchange_id: 155
   exchange_name: Exrates
-  pair: INO/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://exrates.me/trading/INOUSD
-- base:
-    currency_id: 3085
-    currency_symbol: INO
-    currency_type: cryptocurrency
-    exchange_symbol: INO
-  exchange_id: 155
-  exchange_name: Exrates
   pair: INO/BTC
   quote:
     currency_id: 1
@@ -68,6 +54,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://exrates.me/trading/INOBTC
+- base:
+    currency_id: 3085
+    currency_symbol: INO
+    currency_type: cryptocurrency
+    exchange_symbol: INO
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: INO/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://exrates.me/trading/INOUSD
 - base:
     currency_id: 3085
     currency_symbol: INO
@@ -101,3 +101,6 @@ rank: 205
 slug: ino-coin
 status: active
 symbol: INO
+tags:
+- medium-of-exchange
+- crowdfunding

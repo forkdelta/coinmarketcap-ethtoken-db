@@ -42,20 +42,6 @@ markets:
     currency_symbol: ORMEUS
     currency_type: cryptocurrency
     exchange_symbol: ORMEUS
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: ORMEUS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/ORMEUS-to-BTC
-- base:
-    currency_id: 1998
-    currency_symbol: ORMEUS
-    currency_type: cryptocurrency
-    exchange_symbol: ORMEUS
   exchange_id: 415
   exchange_name: Bilaxy
   pair: ORMEUS/USDT
@@ -65,6 +51,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bilaxy.com/trade/ORMEUS_USDT
+- base:
+    currency_id: 1998
+    currency_symbol: ORMEUS
+    currency_type: cryptocurrency
+    exchange_symbol: ORMEUS
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: ORMEUS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/ORMEUS-to-BTC
 - base:
     currency_id: 1998
     currency_symbol: ORMEUS
@@ -94,7 +94,10 @@ markets:
     exchange_symbol: ETH
   url: https://hitbtc.com/ORMEUS-to-ETH
 name: Ormeus Coin
-rank: 962
+rank: 967
 slug: ormeus-coin
 status: active
 symbol: ORMEUS
+tags:
+- asset-management
+- payments

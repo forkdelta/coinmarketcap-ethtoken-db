@@ -29,20 +29,6 @@ markets:
     exchange_symbol: STK
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: STK/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/stk_btc?invite_code=5kij5
-- base:
-    currency_id: 2493
-    currency_symbol: STK
-    currency_type: cryptocurrency
-    exchange_symbol: STK
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: STK/ETH
   quote:
     currency_id: 1027
@@ -50,6 +36,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/stk_eth?invite_code=5kij5
+- base:
+    currency_id: 2493
+    currency_symbol: STK
+    currency_type: cryptocurrency
+    exchange_symbol: STK
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: STK/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/stk_btc?invite_code=5kij5
 - base:
     currency_id: 2493
     currency_symbol: STK
@@ -93,7 +93,10 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/stk
 name: STK
-rank: 1058
+rank: 1057
 slug: stk
 status: active
 symbol: STK
+tags:
+- services
+- payments

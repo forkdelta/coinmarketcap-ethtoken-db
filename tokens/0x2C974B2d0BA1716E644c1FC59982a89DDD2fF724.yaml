@@ -95,20 +95,6 @@ markets:
     currency_symbol: VIB
     currency_type: cryptocurrency
     exchange_symbol: VIB
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: VIB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/VIBBTC
-- base:
-    currency_id: 2019
-    currency_symbol: VIB
-    currency_type: cryptocurrency
-    exchange_symbol: VIB
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: VIB/BTC
@@ -118,6 +104,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=vib
+- base:
+    currency_id: 2019
+    currency_symbol: VIB
+    currency_type: cryptocurrency
+    exchange_symbol: VIB
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: VIB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/VIB_BTC
 - base:
     currency_id: 2019
     currency_symbol: VIB
@@ -146,20 +146,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.tokens.net/trading-pair/vibeth/
-- base:
-    currency_id: 2019
-    currency_symbol: VIB
-    currency_type: cryptocurrency
-    exchange_symbol: VIB
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: VIB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/VIB_BTC
 - base:
     currency_id: 2019
     currency_symbol: VIB
@@ -277,6 +263,20 @@ markets:
     currency_symbol: VIB
     currency_type: cryptocurrency
     exchange_symbol: VIB
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: VIB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/VIBBTC
+- base:
+    currency_id: 2019
+    currency_symbol: VIB
+    currency_type: cryptocurrency
+    exchange_symbol: VIB
   exchange_id: 908
   exchange_name: VALR
   pair: VIB/BTC
@@ -301,7 +301,10 @@ markets:
     exchange_symbol: ETH
   url: https://www.valr.com/buy/VIB/ETH
 name: Viberate
-rank: 653
+rank: 676
 slug: viberate
 status: active
 symbol: VIB
+tags:
+- media
+- music

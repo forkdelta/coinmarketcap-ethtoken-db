@@ -58,6 +58,20 @@ markets:
     exchange_symbol: BTC
   url: https://www.bit-z.com/exchange/bz_btc
 - base:
+    currency_id: 2092
+    currency_symbol: NULS
+    currency_type: cryptocurrency
+    exchange_symbol: NULS
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: NULS/BZ
+  quote:
+    currency_id: 2918
+    currency_symbol: BZ
+    currency_type: cryptocurrency
+    exchange_symbol: BZ
+  url: https://www.bit-z.com/exchange/nuls_bz
+- base:
     currency_id: 52
     currency_symbol: XRP
     currency_type: cryptocurrency
@@ -99,22 +113,12 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BZ
   url: https://www.bit-z.com/exchange/defi_bz
-- base:
-    currency_id: 2092
-    currency_symbol: NULS
-    currency_type: cryptocurrency
-    exchange_symbol: NULS
-  exchange_id: 300
-  exchange_name: BitZ
-  pair: NULS/BZ
-  quote:
-    currency_id: 2918
-    currency_symbol: BZ
-    currency_type: cryptocurrency
-    exchange_symbol: BZ
-  url: https://www.bit-z.com/exchange/nuls_bz
 name: Bit-Z Token
-rank: 309
+rank: 304
 slug: bit-z-token
 status: active
 symbol: BZ
+tags:
+- marketplace
+- discount-token
+- payments
