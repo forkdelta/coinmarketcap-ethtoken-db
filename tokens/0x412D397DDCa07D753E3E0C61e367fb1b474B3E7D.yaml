@@ -43,20 +43,6 @@ markets:
     currency_symbol: EXE
     currency_type: cryptocurrency
     exchange_symbol: EXE
-  exchange_id: 428
-  exchange_name: Cashierest
-  pair: EXE/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.cashierest.com/Stock/CoinStock
-- base:
-    currency_id: 5620
-    currency_symbol: EXE
-    currency_type: cryptocurrency
-    exchange_symbol: EXE
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: EXE/USDT
@@ -66,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=EXE_USDT
+- base:
+    currency_id: 5620
+    currency_symbol: EXE
+    currency_type: cryptocurrency
+    exchange_symbol: EXE
+  exchange_id: 428
+  exchange_name: Cashierest
+  pair: EXE/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.cashierest.com/Stock/CoinStock
 - base:
     currency_id: 5620
     currency_symbol: EXE
@@ -87,20 +87,6 @@ markets:
     exchange_symbol: EXE
   exchange_id: 400
   exchange_name: Hotbit
-  pair: EXE/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=EXE_USDT
-- base:
-    currency_id: 5620
-    currency_symbol: EXE
-    currency_type: cryptocurrency
-    exchange_symbol: EXE
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: EXE/BTC
   quote:
     currency_id: 1
@@ -108,8 +94,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=EXE_BTC
+- base:
+    currency_id: 5620
+    currency_symbol: EXE
+    currency_type: cryptocurrency
+    exchange_symbol: EXE
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: EXE/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=EXE_USDT
 name: 8X8 PROTOCOL
-rank: 2112
+rank: 2113
 slug: 8x8-protocol
 status: active
 symbol: EXE

@@ -126,6 +126,20 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
+  exchange_id: 549
+  exchange_name: CITEX
+  pair: FSN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://trade.citex.co.kr/trade/FSN_USDT
+- base:
+    currency_id: 2530
+    currency_symbol: FSN
+    currency_type: cryptocurrency
+    exchange_symbol: FSN
   exchange_id: 102
   exchange_name: Huobi Global
   pair: FSN/BTC
@@ -140,15 +154,15 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
-  exchange_id: 549
-  exchange_name: CITEX
-  pair: FSN/USDT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: FSN/USDK
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 4064
+    currency_symbol: USDK
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trade.citex.co.kr/trade/FSN_USDT
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=fsn_usdk
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -182,15 +196,15 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
-  exchange_id: 339
-  exchange_name: Bibox
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: FSN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=FSN_BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-FSN
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -210,43 +224,15 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
-  exchange_id: 22
-  exchange_name: Bittrex
+  exchange_id: 339
+  exchange_name: Bibox
   pair: FSN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-FSN
-- base:
-    currency_id: 2530
-    currency_symbol: FSN
-    currency_type: cryptocurrency
-    exchange_symbol: FSN
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: FSN/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/FSN:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2530
-    currency_symbol: FSN
-    currency_type: cryptocurrency
-    exchange_symbol: FSN
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: FSN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=fsn
+  url: https://www.bibox.com/exchange?coinPair=FSN_BTC
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -266,15 +252,15 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: FSN/ETH
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: FSN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/fsn
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=fsn
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -294,6 +280,20 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: FSN/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/FSN:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 2530
+    currency_symbol: FSN
+    currency_type: cryptocurrency
+    exchange_symbol: FSN
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: FSN/HT
@@ -308,20 +308,6 @@ markets:
     currency_symbol: FSN
     currency_type: cryptocurrency
     exchange_symbol: FSN
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: FSN/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=fsn_usdk
-- base:
-    currency_id: 2530
-    currency_symbol: FSN
-    currency_type: cryptocurrency
-    exchange_symbol: FSN
   exchange_id: 486
   exchange_name: Binance DEX
   pair: FSN/BNB
@@ -331,6 +317,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNB
   url: https://www.binance.org/en/trade/FSN-E14_BNB
+- base:
+    currency_id: 2530
+    currency_symbol: FSN
+    currency_type: cryptocurrency
+    exchange_symbol: FSN
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: FSN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/fsn
 - base:
     currency_id: 2530
     currency_symbol: FSN
@@ -420,3 +420,7 @@ rank: 161
 slug: fusion
 status: active
 symbol: FSN
+tags:
+- platform
+- defi
+- payments

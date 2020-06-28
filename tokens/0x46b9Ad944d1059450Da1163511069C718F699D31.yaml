@@ -52,6 +52,20 @@ markets:
     exchange_symbol: CS
   exchange_id: 391
   exchange_name: CoinTiger
+  pair: CS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=cs_btc
+- base:
+    currency_id: 2556
+    currency_symbol: CS
+    currency_type: cryptocurrency
+    exchange_symbol: CS
+  exchange_id: 391
+  exchange_name: CoinTiger
   pair: CS/ETH
   quote:
     currency_id: 1027
@@ -73,20 +87,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://trade.kucoin.com/CS-ETH
-- base:
-    currency_id: 2556
-    currency_symbol: CS
-    currency_type: cryptocurrency
-    exchange_symbol: CS
-  exchange_id: 391
-  exchange_name: CoinTiger
-  pair: CS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=cs_btc
 - base:
     currency_id: 2556
     currency_symbol: CS
@@ -136,20 +136,6 @@ markets:
     exchange_symbol: CS
   exchange_id: 302
   exchange_name: Gate.io
-  pair: CS/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/cs_usdt
-- base:
-    currency_id: 2556
-    currency_symbol: CS
-    currency_type: cryptocurrency
-    exchange_symbol: CS
-  exchange_id: 302
-  exchange_name: Gate.io
   pair: CS/ETH
   quote:
     currency_id: 1027
@@ -157,6 +143,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/cs_eth
+- base:
+    currency_id: 2556
+    currency_symbol: CS
+    currency_type: cryptocurrency
+    exchange_symbol: CS
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: CS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/cs_usdt
 - base:
     currency_id: 2556
     currency_symbol: CS
@@ -186,7 +186,11 @@ markets:
     exchange_symbol: ETH
   url: https://mercatox.com/exchange/CS/ETH
 name: Credits
-rank: 456
+rank: 378
 slug: credits
 status: active
 symbol: CS
+tags:
+- services
+- defi
+- iot

@@ -57,20 +57,6 @@ markets:
     currency_symbol: TRB
     currency_type: cryptocurrency
     exchange_symbol: TRB
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: TRB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=TRB_BTC
-- base:
-    currency_id: 4944
-    currency_symbol: TRB
-    currency_type: cryptocurrency
-    exchange_symbol: TRB
   exchange_id: 415
   exchange_name: Bilaxy
   pair: TRB/USDT
@@ -101,13 +87,13 @@ markets:
     exchange_symbol: TRB
   exchange_id: 400
   exchange_name: Hotbit
-  pair: TRB/USDT
+  pair: TRB/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=TRB_USDT
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=TRB_BTC
 - base:
     currency_id: 4944
     currency_symbol: TRB
@@ -122,6 +108,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.biki.cc/en_US/trade/TRB_USDT
+- base:
+    currency_id: 4944
+    currency_symbol: TRB
+    currency_type: cryptocurrency
+    exchange_symbol: TRB
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: TRB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=TRB_USDT
 - base:
     currency_id: 4944
     currency_symbol: TRB
@@ -235,7 +235,7 @@ markets:
     exchange_symbol: USDT
   url: https://hoo.com/trade/trb-usdt
 name: Tellor
-rank: 388
+rank: 389
 slug: tellor
 status: active
 symbol: TRB

@@ -69,15 +69,15 @@ markets:
     currency_symbol: LYM
     currency_type: cryptocurrency
     exchange_symbol: LYM
-  exchange_id: 302
-  exchange_name: Gate.io
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: LYM/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://gate.io/trade/lym_btc
+  url: https://trade.kucoin.com/LYM-BTC
 - base:
     currency_id: 2554
     currency_symbol: LYM
@@ -92,20 +92,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://trade.kucoin.com/LYM-USDT
-- base:
-    currency_id: 2554
-    currency_symbol: LYM
-    currency_type: cryptocurrency
-    exchange_symbol: LYM
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: LYM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kucoin.com/LYM-BTC
 - base:
     currency_id: 2554
     currency_symbol: LYM
@@ -153,6 +139,20 @@ markets:
     currency_symbol: LYM
     currency_type: cryptocurrency
     exchange_symbol: LYM
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: LYM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://gate.io/trade/lym_btc
+- base:
+    currency_id: 2554
+    currency_symbol: LYM
+    currency_type: cryptocurrency
+    exchange_symbol: LYM
   exchange_id: 37
   exchange_name: Bitfinex
   pair: LYM/USD
@@ -163,7 +163,9 @@ markets:
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/LYM:USD?refcode=H70YTMupQ
 name: Lympo
-rank: 708
+rank: 712
 slug: lympo
 status: active
 symbol: LYM
+tags:
+- health

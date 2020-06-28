@@ -74,6 +74,20 @@ markets:
     currency_symbol: BFT
     currency_type: cryptocurrency
     exchange_symbol: BFT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: BFT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-BFT
+- base:
+    currency_id: 2605
+    currency_symbol: BFT
+    currency_type: cryptocurrency
+    exchange_symbol: BFT
   exchange_id: 37
   exchange_name: Bitfinex
   pair: BFT/USD
@@ -130,20 +144,6 @@ markets:
     currency_symbol: BFT
     currency_type: cryptocurrency
     exchange_symbol: BFT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: BFT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-BFT
-- base:
-    currency_id: 2605
-    currency_symbol: BFT
-    currency_type: cryptocurrency
-    exchange_symbol: BFT
   exchange_id: 302
   exchange_name: Gate.io
   pair: BFT/ETH
@@ -168,7 +168,10 @@ markets:
     exchange_symbol: USDT
   url: https://gate.io/trade/bft_usdt
 name: BnkToTheFuture
-rank: 499
+rank: 496
 slug: bnktothefuture
 status: active
 symbol: BFT
+tags:
+- services
+- crowdfunding

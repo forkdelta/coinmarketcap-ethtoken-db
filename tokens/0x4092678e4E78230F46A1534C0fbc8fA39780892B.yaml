@@ -71,20 +71,6 @@ markets:
     currency_symbol: OCN
     currency_type: cryptocurrency
     exchange_symbol: OCN
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: OCN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/ocn_btc?invite_code=5kij5
-- base:
-    currency_id: 2458
-    currency_symbol: OCN
-    currency_type: cryptocurrency
-    exchange_symbol: OCN
   exchange_id: 302
   exchange_name: Gate.io
   pair: OCN/USDT
@@ -94,6 +80,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/ocn_usdt
+- base:
+    currency_id: 2458
+    currency_symbol: OCN
+    currency_type: cryptocurrency
+    exchange_symbol: OCN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: OCN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/ocn_btc?invite_code=5kij5
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -291,7 +291,10 @@ markets:
     exchange_symbol: USDT
   url: https://www.huobi.com.ru/exchange/#s=ocn_usdt
 name: Odyssey
-rank: 768
+rank: 760
 slug: odyssey
 status: active
 symbol: OCN
+tags:
+- platform
+- sharing-economy

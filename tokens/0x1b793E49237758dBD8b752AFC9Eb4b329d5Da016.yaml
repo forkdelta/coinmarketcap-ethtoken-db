@@ -137,6 +137,20 @@ markets:
     currency_symbol: VITE
     currency_type: cryptocurrency
     exchange_symbol: VITE
+  exchange_id: 756
+  exchange_name: ViteX
+  pair: VITE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://x.vite.net/trade?symbol=VITE-000_BTC-000&category={{baseu}}
+- base:
+    currency_id: 2937
+    currency_symbol: VITE
+    currency_type: cryptocurrency
+    exchange_symbol: VITE
   exchange_id: 400
   exchange_name: Hotbit
   pair: VITE/BTC
@@ -160,20 +174,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://x.vite.net/trade?symbol=VITE-000_ETH-000&category={{baseu}}
-- base:
-    currency_id: 2937
-    currency_symbol: VITE
-    currency_type: cryptocurrency
-    exchange_symbol: VITE
-  exchange_id: 756
-  exchange_name: ViteX
-  pair: VITE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://x.vite.net/trade?symbol=VITE-000_BTC-000&category={{baseu}}
 - base:
     currency_id: 2937
     currency_symbol: VITE
@@ -259,7 +259,11 @@ markets:
     exchange_symbol: BTC
   url: https://okex.co.kr/kr/view/exchange?coin=VITE&market=BTC
 name: VITE
-rank: 440
+rank: 451
 slug: vite
 status: active
 symbol: VITE
+tags:
+- platform
+- enterprise-solutions
+- scaling

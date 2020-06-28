@@ -71,20 +71,6 @@ markets:
     currency_symbol: HYDRO
     currency_type: cryptocurrency
     exchange_symbol: HYDRO
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: HYDRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-HYDRO
-- base:
-    currency_id: 2698
-    currency_symbol: HYDRO
-    currency_type: cryptocurrency
-    exchange_symbol: HYDRO
   exchange_id: 545
   exchange_name: Bitsdaq
   pair: HYDRO/BTC
@@ -99,15 +85,15 @@ markets:
     currency_symbol: HYDRO
     currency_type: cryptocurrency
     exchange_symbol: HYDRO
-  exchange_id: 213
-  exchange_name: Mercatox
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: HYDRO/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://mercatox.com/exchange/HYDRO/BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-HYDRO
 - base:
     currency_id: 2698
     currency_symbol: HYDRO
@@ -141,6 +127,20 @@ markets:
     currency_symbol: HYDRO
     currency_type: cryptocurrency
     exchange_symbol: HYDRO
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: HYDRO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/HYDRO/BTC
+- base:
+    currency_id: 2698
+    currency_symbol: HYDRO
+    currency_type: cryptocurrency
+    exchange_symbol: HYDRO
   exchange_id: 112
   exchange_name: Liquid
   pair: HYDRO/BTC
@@ -151,7 +151,11 @@ markets:
     exchange_symbol: BTC
   url: https://app.liquid.com/exchange/HYDROBTC?affiliate=eNgws23g761816
 name: Hydro
-rank: 658
+rank: 669
 slug: hydrogen
 status: active
 symbol: HYDRO
+tags:
+- platform
+- defi
+- smart-contracts

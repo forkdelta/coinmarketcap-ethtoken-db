@@ -66,20 +66,6 @@ markets:
     currency_id: 1974
     currency_symbol: PRO
     currency_type: cryptocurrency
-    exchange_symbol: PRO
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: PRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/PRO_BTC
-- base:
-    currency_id: 1974
-    currency_symbol: PRO
-    currency_type: cryptocurrency
     exchange_symbol: PROPY
   exchange_id: 463
   exchange_name: Huobi Korea
@@ -90,6 +76,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/pro_eth/
+- base:
+    currency_id: 1974
+    currency_symbol: PRO
+    currency_type: cryptocurrency
+    exchange_symbol: PRO
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: PRO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/PRO_BTC
 - base:
     currency_id: 1974
     currency_symbol: PRO
@@ -119,7 +119,11 @@ markets:
     exchange_symbol: ETH
   url: https://hitbtc.com/PRO-to-ETH
 name: Propy
-rank: 447
+rank: 397
 slug: propy
 status: active
 symbol: PRO
+tags:
+- real-estate
+- escrow
+- smart-contracts

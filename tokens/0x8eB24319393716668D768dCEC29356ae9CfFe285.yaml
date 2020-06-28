@@ -91,20 +91,6 @@ markets:
     currency_symbol: AGI
     currency_type: cryptocurrency
     exchange_symbol: AGI
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: AGI/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/AGIBTC
-- base:
-    currency_id: 2424
-    currency_symbol: AGI
-    currency_type: cryptocurrency
-    exchange_symbol: AGI
   exchange_id: 363
   exchange_name: Fatbtc
   pair: AGI/USDT
@@ -114,6 +100,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 2424
+    currency_symbol: AGI
+    currency_type: cryptocurrency
+    exchange_symbol: AGI
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: AGI/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/AGI_BTC
 - base:
     currency_id: 2424
     currency_symbol: AGI
@@ -133,15 +133,15 @@ markets:
     currency_symbol: AGI
     currency_type: cryptocurrency
     exchange_symbol: AGI
-  exchange_id: 215
-  exchange_name: P2PB2B
+  exchange_id: 949
+  exchange_name: CoinDCX
   pair: AGI/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/AGI_BTC
+  url: https://coindcx.com/trade/AGIBTC
 - base:
     currency_id: 2424
     currency_symbol: AGI
@@ -213,7 +213,11 @@ markets:
     exchange_symbol: ETH
   url: https://p2pb2b.io/trade/AGI_ETH
 name: SingularityNET
-rank: 196
+rank: 309
 slug: singularitynet
 status: active
 symbol: AGI
+tags:
+- marketplace
+- ai-big-data
+- payments
