@@ -55,20 +55,6 @@ markets:
     currency_symbol: CHSB
     currency_type: cryptocurrency
     exchange_symbol: CHSB
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: CHSB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/CHSB_BTC
-- base:
-    currency_id: 2499
-    currency_symbol: CHSB
-    currency_type: cryptocurrency
-    exchange_symbol: CHSB
   exchange_id: 311
   exchange_name: KuCoin
   pair: CHSB/BTC
@@ -78,6 +64,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://trade.kucoin.com/CHSB-BTC
+- base:
+    currency_id: 2499
+    currency_symbol: CHSB
+    currency_type: cryptocurrency
+    exchange_symbol: CHSB
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: CHSB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/CHSB_BTC
 - base:
     currency_id: 2499
     currency_symbol: CHSB
@@ -163,11 +163,10 @@ markets:
     exchange_symbol: USDT
   url: https://www.livecoin.net/en/trading/CHSB_USDT
 name: SwissBorg
-rank: 78
+rank: 90
 slug: swissborg
 status: active
 symbol: CHSB
 tags:
 - asset-management
-- defi
 - staking

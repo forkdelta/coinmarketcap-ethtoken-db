@@ -125,20 +125,6 @@ markets:
     currency_symbol: MDT
     currency_type: cryptocurrency
     exchange_symbol: MDT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: MDT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/MDT_BTC?ref=H31B921U
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
   exchange_id: 407
   exchange_name: DigiFinex
   pair: MDT/BTC
@@ -148,6 +134,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.digifinex.com/en-ww/trade/BTC/MDT
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: MDT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/MDT_BTC?ref=H31B921U
 - base:
     currency_id: 2348
     currency_symbol: MDT
@@ -181,6 +181,20 @@ markets:
     currency_symbol: MDT
     currency_type: cryptocurrency
     exchange_symbol: MDT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: MDT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/mdt_usdt
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
   exchange_id: 16
   exchange_name: Poloniex
   pair: MDT/USDT
@@ -195,15 +209,15 @@ markets:
     currency_symbol: MDT
     currency_type: cryptocurrency
     exchange_symbol: MDT
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: MDT/USDT
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: MDT/BNT
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1727
+    currency_symbol: BNT
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/mdt_usdt
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/MDT
 - base:
     currency_id: 2348
     currency_symbol: MDT
@@ -232,20 +246,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://poloniex.com/exchange#btc_mdt?c=H4QD8FNW
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: MDT/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/MDT
 - base:
     currency_id: 2348
     currency_symbol: MDT
@@ -345,7 +345,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=MDT&market=USDT
 name: Measurable Data Token
-rank: 637
+rank: 626
 slug: measurable-data-token
 status: active
 symbol: MDT

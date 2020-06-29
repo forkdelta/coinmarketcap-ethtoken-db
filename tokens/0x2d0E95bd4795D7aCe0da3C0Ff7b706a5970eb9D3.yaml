@@ -51,20 +51,6 @@ markets:
     currency_symbol: SOC
     currency_type: cryptocurrency
     exchange_symbol: SOC
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: SOC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=soc_btc
-- base:
-    currency_id: 2473
-    currency_symbol: SOC
-    currency_type: cryptocurrency
-    exchange_symbol: SOC
   exchange_id: 102
   exchange_name: Huobi Global
   pair: SOC/BTC
@@ -74,6 +60,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hbg.com/en-us/exchange/soc_btc?invite_code=5kij5
+- base:
+    currency_id: 2473
+    currency_symbol: SOC
+    currency_type: cryptocurrency
+    exchange_symbol: SOC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: SOC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=soc_btc
 - base:
     currency_id: 2473
     currency_symbol: SOC
@@ -123,6 +123,34 @@ markets:
     exchange_symbol: SOC
   exchange_id: 463
   exchange_name: Huobi Korea
+  pair: SOC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/soc_btc/
+- base:
+    currency_id: 2473
+    currency_symbol: SOC
+    currency_type: cryptocurrency
+    exchange_symbol: SOC
+  exchange_id: 730
+  exchange_name: Huobi Russia
+  pair: SOC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.huobi.com.ru/exchange/#s=soc_usdt
+- base:
+    currency_id: 2473
+    currency_symbol: SOC
+    currency_type: cryptocurrency
+    exchange_symbol: SOC
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: SOC/USDT
   quote:
     currency_id: 825
@@ -130,20 +158,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.huobi.co.kr/en-US/exchange/soc_usdt/
-- base:
-    currency_id: 2473
-    currency_symbol: SOC
-    currency_type: cryptocurrency
-    exchange_symbol: SOC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SOC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/SOC-to-BTC
 - base:
     currency_id: 2473
     currency_symbol: SOC
@@ -163,15 +177,15 @@ markets:
     currency_symbol: SOC
     currency_type: cryptocurrency
     exchange_symbol: SOC
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: SOC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/soc_btc/
+  url: https://hitbtc.com/SOC-to-BTC
 - base:
     currency_id: 2473
     currency_symbol: SOC
@@ -214,22 +228,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://okex.co.kr/kr/view/exchange?coin=SOC&market=BTC
-- base:
-    currency_id: 2473
-    currency_symbol: SOC
-    currency_type: cryptocurrency
-    exchange_symbol: SOC
-  exchange_id: 730
-  exchange_name: Huobi Russia
-  pair: SOC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.com.ru/exchange/#s=soc_usdt
 name: All Sports
-rank: 500
+rank: 508
 slug: all-sports
 status: active
 symbol: SOC

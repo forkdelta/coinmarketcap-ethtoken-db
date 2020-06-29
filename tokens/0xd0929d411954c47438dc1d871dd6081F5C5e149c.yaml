@@ -55,6 +55,34 @@ markets:
     currency_symbol: RFR
     currency_type: cryptocurrency
     exchange_symbol: RFR
+  exchange_id: 545
+  exchange_name: Bitsdaq
+  pair: RFR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitsdaq.com/exchange/RFR-BTC
+- base:
+    currency_id: 2553
+    currency_symbol: RFR
+    currency_type: cryptocurrency
+    exchange_symbol: RFR
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: RFR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-RFR
+- base:
+    currency_id: 2553
+    currency_symbol: RFR
+    currency_type: cryptocurrency
+    exchange_symbol: RFR
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: RFR/BTC
@@ -97,43 +125,15 @@ markets:
     currency_symbol: RFR
     currency_type: cryptocurrency
     exchange_symbol: RFR
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: RFR/BTC
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: RFR/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/RFR-BTC
-- base:
-    currency_id: 2553
-    currency_symbol: RFR
-    currency_type: cryptocurrency
-    exchange_symbol: RFR
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: RFR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-RFR
-- base:
-    currency_id: 2553
-    currency_symbol: RFR
-    currency_type: cryptocurrency
-    exchange_symbol: RFR
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: RFR/INR
-  quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/rfr
+    exchange_symbol: ETH
+  url: https://idex.market/eth/rfr
 - base:
     currency_id: 2553
     currency_symbol: RFR
@@ -153,15 +153,15 @@ markets:
     currency_symbol: RFR
     currency_type: cryptocurrency
     exchange_symbol: RFR
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: RFR/ETH
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: RFR/INR
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/rfr
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/rfr
 - base:
     currency_id: 2553
     currency_symbol: RFR
@@ -205,7 +205,7 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/rfr-bsc
 name: Refereum
-rank: 726
+rank: 728
 slug: refereum
 status: active
 symbol: RFR
