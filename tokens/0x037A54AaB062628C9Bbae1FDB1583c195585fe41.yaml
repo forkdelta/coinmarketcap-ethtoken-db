@@ -71,43 +71,15 @@ markets:
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
-  exchange_id: 645
-  exchange_name: BitUBU
-  pair: LCX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitubu.com/trading/lcxbtc
-- base:
-    currency_id: 4950
-    currency_symbol: LCX
-    currency_type: cryptocurrency
-    exchange_symbol: LCX
-  exchange_id: 645
-  exchange_name: BitUBU
+  exchange_id: 112
+  exchange_name: Liquid
   pair: LCX/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://bitubu.com/trading/lcxeth
-- base:
-    currency_id: 4950
-    currency_symbol: LCX
-    currency_type: cryptocurrency
-    exchange_symbol: LCX
-  exchange_id: 645
-  exchange_name: BitUBU
-  pair: LCX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitubu.com/trading/lcxusdt
+  url: https://app.liquid.com/exchange/LCXETH?affiliate=eNgws23g761816
 - base:
     currency_id: 4950
     currency_symbol: LCX
@@ -127,20 +99,6 @@ markets:
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: LCX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://app.liquid.com/exchange/LCXETH?affiliate=eNgws23g761816
-- base:
-    currency_id: 4950
-    currency_symbol: LCX
-    currency_type: cryptocurrency
-    exchange_symbol: LCX
   exchange_id: 42
   exchange_name: HitBTC
   pair: LCX/BTC
@@ -155,15 +113,29 @@ markets:
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
-  exchange_id: 849
-  exchange_name: Bidesk
-  pair: LCX/BTC
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: LCX/USDC
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 3408
+    currency_symbol: USDC
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bidesk.com/exchange/LCX/BTC
+    exchange_symbol: USDC
+  url: https://idex.market/usdc/lcx
+- base:
+    currency_id: 4950
+    currency_symbol: LCX
+    currency_type: cryptocurrency
+    exchange_symbol: LCX
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: LCX/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://app.liquid.com/exchange/LCXUSDC?affiliate=eNgws23g761816
 - base:
     currency_id: 4950
     currency_symbol: LCX
@@ -197,6 +169,20 @@ markets:
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: LCX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/LCX-to-ETH
+- base:
+    currency_id: 4950
+    currency_symbol: LCX
+    currency_type: cryptocurrency
+    exchange_symbol: LCX
   exchange_id: 460
   exchange_name: Coinsbit
   pair: LCX/ETH
@@ -211,15 +197,29 @@ markets:
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: LCX/USDC
+  exchange_id: 645
+  exchange_name: BitUBU
+  pair: LCX/ETH
   quote:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://app.liquid.com/exchange/LCXUSDC?affiliate=eNgws23g761816
+    exchange_symbol: ETH
+  url: https://bitubu.com/trading/lcxeth
+- base:
+    currency_id: 4950
+    currency_symbol: LCX
+    currency_type: cryptocurrency
+    exchange_symbol: LCX
+  exchange_id: 645
+  exchange_name: BitUBU
+  pair: LCX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitubu.com/trading/lcxbtc
 - base:
     currency_id: 4950
     currency_symbol: LCX
@@ -239,15 +239,29 @@ markets:
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: LCX/USDC
+  exchange_id: 645
+  exchange_name: BitUBU
+  pair: LCX/USDT
   quote:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://idex.market/usdc/lcx
+    exchange_symbol: USDT
+  url: https://bitubu.com/trading/lcxusdt
+- base:
+    currency_id: 4950
+    currency_symbol: LCX
+    currency_type: cryptocurrency
+    exchange_symbol: LCX
+  exchange_id: 849
+  exchange_name: Bidesk
+  pair: LCX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bidesk.com/exchange/LCX/BTC
 - base:
     currency_id: 4950
     currency_symbol: LCX
@@ -262,22 +276,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bidesk.com/exchange/LCX/ETH
-- base:
-    currency_id: 4950
-    currency_symbol: LCX
-    currency_type: cryptocurrency
-    exchange_symbol: LCX
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: LCX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/LCX-to-ETH
 name: LCX
-rank: 553
+rank: 575
 slug: lcx
 status: active
 symbol: LCX

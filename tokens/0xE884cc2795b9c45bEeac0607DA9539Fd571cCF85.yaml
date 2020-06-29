@@ -50,20 +50,6 @@ markets:
     exchange_symbol: ULT
   exchange_id: 391
   exchange_name: CoinTiger
-  pair: ULT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=ult_eth
-- base:
-    currency_id: 3666
-    currency_symbol: ULT
-    currency_type: cryptocurrency
-    exchange_symbol: ULT
-  exchange_id: 391
-  exchange_name: CoinTiger
   pair: ULT/USDT
   quote:
     currency_id: 825
@@ -71,6 +57,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.cointiger.com/en-us/#/trade_pro?coin=ult_usdt
+- base:
+    currency_id: 3666
+    currency_symbol: ULT
+    currency_type: cryptocurrency
+    exchange_symbol: ULT
+  exchange_id: 391
+  exchange_name: CoinTiger
+  pair: ULT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=ult_eth
 - base:
     currency_id: 3666
     currency_symbol: ULT
@@ -156,10 +156,9 @@ markets:
     exchange_symbol: CNY
   url: https://ripplefox.com/cny
 name: Ultiledger
-rank: 282
+rank: 283
 slug: ultiledger
 status: active
 symbol: ULT
 tags:
 - services
-- defi

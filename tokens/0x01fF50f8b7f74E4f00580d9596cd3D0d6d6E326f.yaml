@@ -48,20 +48,6 @@ markets:
     exchange_symbol: BFT
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: BFT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/bft_btc?invite_code=5kij5
-- base:
-    currency_id: 2605
-    currency_symbol: BFT
-    currency_type: cryptocurrency
-    exchange_symbol: BFT
-  exchange_id: 102
-  exchange_name: Huobi Global
   pair: BFT/ETH
   quote:
     currency_id: 1027
@@ -69,6 +55,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/bft_eth?invite_code=5kij5
+- base:
+    currency_id: 2605
+    currency_symbol: BFT
+    currency_type: cryptocurrency
+    exchange_symbol: BFT
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: BFT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/bft_btc?invite_code=5kij5
 - base:
     currency_id: 2605
     currency_symbol: BFT
@@ -146,20 +146,6 @@ markets:
     exchange_symbol: BFT
   exchange_id: 302
   exchange_name: Gate.io
-  pair: BFT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/bft_eth
-- base:
-    currency_id: 2605
-    currency_symbol: BFT
-    currency_type: cryptocurrency
-    exchange_symbol: BFT
-  exchange_id: 302
-  exchange_name: Gate.io
   pair: BFT/USDT
   quote:
     currency_id: 825
@@ -167,8 +153,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/bft_usdt
+- base:
+    currency_id: 2605
+    currency_symbol: BFT
+    currency_type: cryptocurrency
+    exchange_symbol: BFT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: BFT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/bft_eth
 name: BnkToTheFuture
-rank: 496
+rank: 498
 slug: bnktothefuture
 status: active
 symbol: BFT

@@ -32,20 +32,6 @@ markets:
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-USDS
 - base:
-    currency_id: 3719
-    currency_symbol: USDS
-    currency_type: cryptocurrency
-    exchange_symbol: USDS
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: USDS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=usds
-- base:
     currency_id: 1839
     currency_symbol: BNB
     currency_type: cryptocurrency
@@ -73,6 +59,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDSB-1AC
   url: https://www.binance.org/en/trade/BTCB-1DE_USDSB-1AC
+- base:
+    currency_id: 3719
+    currency_symbol: USDS
+    currency_type: cryptocurrency
+    exchange_symbol: USDS
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: USDS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=usds
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: BTC/USDS
+  quote:
+    currency_id: 3719
+    currency_symbol: USDS
+    currency_type: cryptocurrency
+    exchange_symbol: USDS
+  url: https://crex24.com/exchange/BTC-USDS
 - base:
     currency_id: 4036
     currency_symbol: COS
@@ -116,20 +130,6 @@ markets:
     exchange_symbol: USDSB-1AC
   url: https://www.binance.org/en/trade/ONE-5F9_USDSB-1AC
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: BTC/USDS
-  quote:
-    currency_id: 3719
-    currency_symbol: USDS
-    currency_type: cryptocurrency
-    exchange_symbol: USDS
-  url: https://crex24.com/exchange/BTC-USDS
-- base:
     currency_id: 3719
     currency_symbol: USDS
     currency_type: cryptocurrency
@@ -144,7 +144,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/USDS_USDT?ref=H31B921U
 name: StableUSD
-rank: 1124
+rank: 1085
 slug: stableusd
 status: active
 symbol: USDS

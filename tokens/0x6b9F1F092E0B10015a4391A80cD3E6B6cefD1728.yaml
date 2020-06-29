@@ -25,6 +25,20 @@ markets:
     exchange_symbol: LST7
   exchange_id: 459
   exchange_name: BW.com
+  pair: LST/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bw.com/trade/lst_usdt
+- base:
+    currency_id: 5009
+    currency_symbol: LST
+    currency_type: cryptocurrency
+    exchange_symbol: LST7
+  exchange_id: 459
+  exchange_name: BW.com
   pair: LST/BTC
   quote:
     currency_id: 1
@@ -36,16 +50,16 @@ markets:
     currency_id: 5009
     currency_symbol: LST
     currency_type: cryptocurrency
-    exchange_symbol: LST7
-  exchange_id: 459
-  exchange_name: BW.com
-  pair: LST/USDT
+    exchange_symbol: LST
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: LST/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bw.com/trade/lst_usdt
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/LST_BTC
 - base:
     currency_id: 5009
     currency_symbol: LST
@@ -65,20 +79,6 @@ markets:
     currency_symbol: LST
     currency_type: cryptocurrency
     exchange_symbol: LST
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: LST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/LST_BTC
-- base:
-    currency_id: 5009
-    currency_symbol: LST
-    currency_type: cryptocurrency
-    exchange_symbol: LST
   exchange_id: 245
   exchange_name: STEX
   pair: LST/ETH
@@ -93,20 +93,6 @@ markets:
     currency_symbol: LST
     currency_type: cryptocurrency
     exchange_symbol: LST
-  exchange_id: 245
-  exchange_name: STEX
-  pair: LST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.stex.com/en/basic-trade/pair/BTC/LST/1D
-- base:
-    currency_id: 5009
-    currency_symbol: LST
-    currency_type: cryptocurrency
-    exchange_symbol: LST
   exchange_id: 215
   exchange_name: P2PB2B
   pair: LST/USDT
@@ -116,6 +102,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://p2pb2b.io/trade/LST_USDT
+- base:
+    currency_id: 5009
+    currency_symbol: LST
+    currency_type: cryptocurrency
+    exchange_symbol: LST
+  exchange_id: 245
+  exchange_name: STEX
+  pair: LST/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.stex.com/en/basic-trade/pair/BTC/LST/1D
 - base:
     currency_id: 5009
     currency_symbol: LST
@@ -145,7 +145,7 @@ markets:
     exchange_symbol: USDT
   url: https://app.stex.com/en/basic-trade/pair/USDT/LST/1D
 name: LuckySevenToken
-rank: 1447
+rank: 1534
 slug: luckyseventoken
 status: active
 symbol: LST

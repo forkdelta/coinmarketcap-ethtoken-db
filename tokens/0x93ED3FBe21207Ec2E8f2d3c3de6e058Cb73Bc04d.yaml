@@ -58,20 +58,6 @@ markets:
     currency_symbol: PNK
     currency_type: cryptocurrency
     exchange_symbol: PNK
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: PNK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/pnk-eth
-- base:
-    currency_id: 3581
-    currency_symbol: PNK
-    currency_type: cryptocurrency
-    exchange_symbol: PNK
   exchange_id: 37
   exchange_name: Bitfinex
   pair: PNK/USD
@@ -81,6 +67,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/PNK:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 3581
+    currency_symbol: PNK
+    currency_type: cryptocurrency
+    exchange_symbol: PNK
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: PNK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/pnk-eth
 - base:
     currency_id: 3581
     currency_symbol: PNK
@@ -110,7 +110,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: Kleros
-rank: 389
+rank: 387
 slug: kleros
 status: active
 symbol: PNK
