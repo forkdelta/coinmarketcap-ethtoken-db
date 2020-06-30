@@ -59,20 +59,6 @@ markets:
     exchange_symbol: ESH
   exchange_id: 400
   exchange_name: Hotbit
-  pair: ESH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=ESH_USDT
-- base:
-    currency_id: 4096
-    currency_symbol: ESH
-    currency_type: cryptocurrency
-    exchange_symbol: ESH
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: ESH/BTC
   quote:
     currency_id: 1
@@ -85,29 +71,15 @@ markets:
     currency_symbol: ESH
     currency_type: cryptocurrency
     exchange_symbol: ESH
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: ESH/BTC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: ESH/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.probit.com/app/exchange/ESH-BTC
-- base:
-    currency_id: 4096
-    currency_symbol: ESH
-    currency_type: cryptocurrency
-    exchange_symbol: ESH
-  exchange_id: 245
-  exchange_name: STEX
-  pair: ESH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.stex.com/en/basic-trade/pair/BTC/ESH/1D
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=ESH_USDT
 - base:
     currency_id: 4096
     currency_symbol: ESH
@@ -127,15 +99,29 @@ markets:
     currency_symbol: ESH
     currency_type: cryptocurrency
     exchange_symbol: ESH
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: ESH/ETH
+  exchange_id: 245
+  exchange_name: STEX
+  pair: ESH/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://mercatox.com/exchange/ESH/ETH
+    exchange_symbol: BTC
+  url: https://app.stex.com/en/basic-trade/pair/BTC/ESH/1D
+- base:
+    currency_id: 4096
+    currency_symbol: ESH
+    currency_type: cryptocurrency
+    exchange_symbol: ESH
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: ESH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.probit.com/app/exchange/ESH-BTC
 - base:
     currency_id: 4096
     currency_symbol: ESH
@@ -169,15 +155,15 @@ markets:
     currency_symbol: ESH
     currency_type: cryptocurrency
     exchange_symbol: ESH
-  exchange_id: 857
-  exchange_name: Bitcoin.com
+  exchange_id: 213
+  exchange_name: Mercatox
   pair: ESH/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: null
+  url: https://mercatox.com/exchange/ESH/ETH
 - base:
     currency_id: 4096
     currency_symbol: ESH
@@ -206,6 +192,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 4096
+    currency_symbol: ESH
+    currency_type: cryptocurrency
+    exchange_symbol: ESH
+  exchange_id: 857
+  exchange_name: Bitcoin.com
+  pair: ESH/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: null
 - base:
     currency_id: 4096
     currency_symbol: ESH
@@ -249,7 +249,7 @@ markets:
     exchange_symbol: USDT
   url: https://hoo.com/trade/esh-usdt
 name: Switch
-rank: 951
+rank: 955
 slug: switch
 status: active
 symbol: ESH

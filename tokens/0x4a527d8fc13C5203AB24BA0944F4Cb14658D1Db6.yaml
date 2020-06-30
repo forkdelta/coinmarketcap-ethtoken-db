@@ -98,34 +98,6 @@ markets:
     currency_symbol: MITX
     currency_type: cryptocurrency
     exchange_symbol: MITX
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: MITX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/mitx
-- base:
-    currency_id: 2709
-    currency_symbol: MITX
-    currency_type: cryptocurrency
-    exchange_symbol: MITX
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: MITX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/MITX-to-ETH
-- base:
-    currency_id: 2709
-    currency_symbol: MITX
-    currency_type: cryptocurrency
-    exchange_symbol: MITX
   exchange_id: 112
   exchange_name: Liquid
   pair: MITX/BTC
@@ -135,6 +107,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://app.liquid.com/exchange/MITXBTC?affiliate=eNgws23g761816
+- base:
+    currency_id: 2709
+    currency_symbol: MITX
+    currency_type: cryptocurrency
+    exchange_symbol: MITX
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: MITX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/MITX-to-BTC
 - base:
     currency_id: 2709
     currency_symbol: MITX
@@ -156,13 +142,27 @@ markets:
     exchange_symbol: MITX
   exchange_id: 42
   exchange_name: HitBTC
-  pair: MITX/BTC
+  pair: MITX/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/MITX-to-BTC
+    exchange_symbol: ETH
+  url: https://hitbtc.com/MITX-to-ETH
+- base:
+    currency_id: 2709
+    currency_symbol: MITX
+    currency_type: cryptocurrency
+    exchange_symbol: MITX
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: MITX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/mitx
 - base:
     currency_id: 2709
     currency_symbol: MITX
@@ -178,7 +178,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
 name: Morpheus Labs
-rank: 688
+rank: 656
 slug: morpheus-labs
 status: active
 symbol: MITX

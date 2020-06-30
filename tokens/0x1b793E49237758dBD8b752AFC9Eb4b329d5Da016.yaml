@@ -123,6 +123,20 @@ markets:
     currency_symbol: VITE
     currency_type: cryptocurrency
     exchange_symbol: VITE
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: VITE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=VITE_BTC
+- base:
+    currency_id: 2937
+    currency_symbol: VITE
+    currency_type: cryptocurrency
+    exchange_symbol: VITE
   exchange_id: 270
   exchange_name: Binance
   pair: VITE/USDT
@@ -151,20 +165,6 @@ markets:
     currency_symbol: VITE
     currency_type: cryptocurrency
     exchange_symbol: VITE
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: VITE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=VITE_BTC
-- base:
-    currency_id: 2937
-    currency_symbol: VITE
-    currency_type: cryptocurrency
-    exchange_symbol: VITE
   exchange_id: 756
   exchange_name: ViteX
   pair: VITE/ETH
@@ -174,20 +174,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://x.vite.net/trade?symbol=VITE-000_ETH-000&category={{baseu}}
-- base:
-    currency_id: 2937
-    currency_symbol: VITE
-    currency_type: cryptocurrency
-    exchange_symbol: VITE
-  exchange_id: 756
-  exchange_name: ViteX
-  pair: VITE/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://x.vite.net/trade?symbol=VITE-000_USDT-000&category={{baseu}}
 - base:
     currency_id: 2937
     currency_symbol: VITE
@@ -207,15 +193,15 @@ markets:
     currency_symbol: VITE
     currency_type: cryptocurrency
     exchange_symbol: VITE
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: VITE/BTC
+  exchange_id: 756
+  exchange_name: ViteX
+  pair: VITE/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-VITE
+    exchange_symbol: USDT
+  url: https://x.vite.net/trade?symbol=VITE-000_USDT-000&category={{baseu}}
 - base:
     currency_id: 2937
     currency_symbol: VITE
@@ -230,6 +216,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bilaxy.com/trade/VITE_BTC
+- base:
+    currency_id: 2937
+    currency_symbol: VITE
+    currency_type: cryptocurrency
+    exchange_symbol: VITE
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: VITE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-VITE
 - base:
     currency_id: 2937
     currency_symbol: VITE
@@ -259,7 +259,7 @@ markets:
     exchange_symbol: BTC
   url: https://okex.co.kr/kr/view/exchange?coin=VITE&market=BTC
 name: VITE
-rank: 452
+rank: 451
 slug: vite
 status: active
 symbol: VITE

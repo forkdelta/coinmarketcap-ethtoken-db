@@ -37,20 +37,6 @@ markets:
     currency_symbol: BCPT
     currency_type: cryptocurrency
     exchange_symbol: BCPT
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: BCPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/BCPTBTC
-- base:
-    currency_id: 2061
-    currency_symbol: BCPT
-    currency_type: cryptocurrency
-    exchange_symbol: BCPT
   exchange_id: 42
   exchange_name: HitBTC
   pair: BCPT/BTC
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/BCPT-to-BTC
+- base:
+    currency_id: 2061
+    currency_symbol: BCPT
+    currency_type: cryptocurrency
+    exchange_symbol: BCPT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BCPT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/BCPT-to-ETH
 - base:
     currency_id: 2061
     currency_symbol: BCPT
@@ -93,17 +93,17 @@ markets:
     currency_symbol: BCPT
     currency_type: cryptocurrency
     exchange_symbol: BCPT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: BCPT/ETH
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: BCPT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/BCPT-to-ETH
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/BCPTBTC
 name: Blockmason Credit Protocol
-rank: 697
+rank: 699
 slug: blockmason
 status: active
 symbol: BCPT

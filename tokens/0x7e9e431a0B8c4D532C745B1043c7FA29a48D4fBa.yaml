@@ -83,6 +83,20 @@ markets:
     currency_id: 2644
     currency_symbol: EOSDAC
     currency_type: cryptocurrency
+    exchange_symbol: EOSDAC
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: EOSDAC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bibox.com/exchange?coinPair=EOSDAC_BTC
+- base:
+    currency_id: 2644
+    currency_symbol: EOSDAC
+    currency_type: cryptocurrency
     exchange_symbol: EOSD
   exchange_id: 376
   exchange_name: Bitbns
@@ -112,20 +126,6 @@ markets:
     currency_symbol: EOSDAC
     currency_type: cryptocurrency
     exchange_symbol: EOSDAC
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: EOSDAC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/eosdac_eth
-- base:
-    currency_id: 2644
-    currency_symbol: EOSDAC
-    currency_type: cryptocurrency
-    exchange_symbol: EOSDAC
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: EOSDAC/KRW
@@ -140,20 +140,6 @@ markets:
     currency_symbol: EOSDAC
     currency_type: cryptocurrency
     exchange_symbol: EOSDAC
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: EOSDAC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=EOSDAC_BTC
-- base:
-    currency_id: 2644
-    currency_symbol: EOSDAC
-    currency_type: cryptocurrency
-    exchange_symbol: EOSDAC
   exchange_id: 398
   exchange_name: DragonEX
   pair: EOSDAC/ETH
@@ -163,8 +149,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://dragonex.io
+- base:
+    currency_id: 2644
+    currency_symbol: EOSDAC
+    currency_type: cryptocurrency
+    exchange_symbol: EOSDAC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: EOSDAC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/eosdac_eth
 name: eosDAC
-rank: 981
+rank: 993
 slug: eosdac
 status: active
 symbol: EOSDAC
