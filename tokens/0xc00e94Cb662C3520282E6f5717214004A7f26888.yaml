@@ -29,6 +29,20 @@ markets:
     currency_symbol: COMP
     currency_type: cryptocurrency
     exchange_symbol: COMP
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: COMP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bkex.com/trade/COMP_BTC
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
   exchange_id: 89
   exchange_name: Coinbase Pro
   pair: COMP/USD
@@ -38,20 +52,6 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://pro.coinbase.com/trade/COMP-USD
-- base:
-    currency_id: 5692
-    currency_symbol: COMP
-    currency_type: cryptocurrency
-    exchange_symbol: COMP
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: COMP/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitmart.com/trade?symbol=COMP_USDT
 - base:
     currency_id: 5692
     currency_symbol: COMP
@@ -71,6 +71,34 @@ markets:
     currency_symbol: COMP
     currency_type: cryptocurrency
     exchange_symbol: COMP
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: COMP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bkex.com/trade/COMP_USDT
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: COMP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitmart.com/trade?symbol=COMP_USDT
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
   exchange_id: 415
   exchange_name: Bilaxy
   pair: COMP/USDT
@@ -80,62 +108,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bilaxy.com/trade/COMP_USDT
-- base:
-    currency_id: 5692
-    currency_symbol: COMP
-    currency_type: cryptocurrency
-    exchange_symbol: COMP
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: COMP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://pro.coinbase.com/trade/COMP-BTC
-- base:
-    currency_id: 5692
-    currency_symbol: COMP
-    currency_type: cryptocurrency
-    exchange_symbol: COMP
-  exchange_id: 528
-  exchange_name: BiKi
-  pair: COMP/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.biki.cc/en_US/trade/COMP_USDT
-- base:
-    currency_id: 5692
-    currency_symbol: COMP
-    currency_type: cryptocurrency
-    exchange_symbol: COMP
-  exchange_id: 544
-  exchange_name: MXC
-  pair: COMP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.mxc.com/trade/easy#COMP_ETH
-- base:
-    currency_id: 5692
-    currency_symbol: COMP
-    currency_type: cryptocurrency
-    exchange_symbol: COMP
-  exchange_id: 391
-  exchange_name: CoinTiger
-  pair: COMP/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=comp_usdt
 - base:
     currency_id: 5692
     currency_symbol: COMP
@@ -155,15 +127,85 @@ markets:
     currency_symbol: COMP
     currency_type: cryptocurrency
     exchange_symbol: COMP
-  exchange_id: 415
-  exchange_name: Bilaxy
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: COMP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.digifinex.com/en-ww/trade/USDT/COMP
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: COMP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=comp_usdt
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 528
+  exchange_name: BiKi
+  pair: COMP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.biki.cc/en_US/trade/COMP_USDT
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 391
+  exchange_name: CoinTiger
+  pair: COMP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=comp_usdt
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 544
+  exchange_name: MXC
   pair: COMP/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://bilaxy.com/trade/COMP_ETH
+  url: https://www.mxc.com/trade/easy#COMP_ETH
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: COMP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://pro.coinbase.com/trade/COMP-BTC
 - base:
     currency_id: 5692
     currency_symbol: COMP
@@ -183,15 +225,71 @@ markets:
     currency_symbol: COMP
     currency_type: cryptocurrency
     exchange_symbol: COMP
-  exchange_id: 16
-  exchange_name: Poloniex
+  exchange_id: 350
+  exchange_name: CoinEx
   pair: COMP/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://poloniex.com/exchange#usdt_comp?c=H4QD8FNW
+  url: https://www.coinex.com/trading?currency=usdt&dest=comp&tab=limit
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: COMP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/COMP_ETH
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: COMP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://folgory.com/trade-crypto/COMP_BTC
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: COMP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=comp_btc
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: COMP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=comp&tab=limit
 - base:
     currency_id: 5692
     currency_symbol: COMP
@@ -211,43 +309,15 @@ markets:
     currency_symbol: COMP
     currency_type: cryptocurrency
     exchange_symbol: COMP
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 16
+  exchange_name: Poloniex
   pair: COMP/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://hitbtc.com/COMP-to-USDT
-- base:
-    currency_id: 5692
-    currency_symbol: COMP
-    currency_type: cryptocurrency
-    exchange_symbol: COMP
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: COMP/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/COMP-KRW
-- base:
-    currency_id: 5692
-    currency_symbol: COMP
-    currency_type: cryptocurrency
-    exchange_symbol: COMP
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: COMP/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/COMPUSDT
+  url: https://poloniex.com/exchange#usdt_comp?c=H4QD8FNW
 - base:
     currency_id: 5692
     currency_symbol: COMP
@@ -267,15 +337,29 @@ markets:
     currency_symbol: COMP
     currency_type: cryptocurrency
     exchange_symbol: COMP
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: COMP/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/COMP-KRW
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: COMP/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=COMP_USDT
+  url: https://hitbtc.com/COMP-to-USDT
 - base:
     currency_id: 5692
     currency_symbol: COMP
@@ -295,29 +379,43 @@ markets:
     currency_symbol: COMP
     currency_type: cryptocurrency
     exchange_symbol: COMP
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: COMP/ETH
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: COMP/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://poloniex.com/exchange#eth_comp?c=H4QD8FNW
+    exchange_symbol: USDT
+  url: https://trade.kucoin.com/COMP-USDT
 - base:
     currency_id: 5692
     currency_symbol: COMP
     currency_type: cryptocurrency
     exchange_symbol: COMP
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: COMP/ETH
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: COMP/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/COMP-to-ETH
+    exchange_symbol: USDT
+  url: https://gate.io/trade/comp_usdt
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: COMP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=COMP_USDT
 - base:
     currency_id: 5692
     currency_symbol: COMP
@@ -332,6 +430,20 @@ markets:
     currency_type: fiat
     exchange_symbol: INR
   url: https://bitbns.com/trade/#/comp
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: COMP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/COMP-to-ETH
 - base:
     currency_id: 5692
     currency_symbol: COMP
@@ -365,29 +477,15 @@ markets:
     currency_symbol: COMP
     currency_type: cryptocurrency
     exchange_symbol: COMP
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: COMP/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.probit.com/app/exchange/COMP-USDT
-- base:
-    currency_id: 5692
-    currency_symbol: COMP
-    currency_type: cryptocurrency
-    exchange_symbol: COMP
-  exchange_id: 401
-  exchange_name: Switcheo Network
+  exchange_id: 16
+  exchange_name: Poloniex
   pair: COMP/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://switcheo.exchange/markets/COMP_ETH?referral_code=DFCA09
+  url: https://poloniex.com/exchange#eth_comp?c=H4QD8FNW
 - base:
     currency_id: 5692
     currency_symbol: COMP
@@ -407,6 +505,34 @@ markets:
     currency_symbol: COMP
     currency_type: cryptocurrency
     exchange_symbol: COMP
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: COMP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/COMPUSDT
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: COMP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.probit.com/app/exchange/COMP-USDT
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
   exchange_id: 310
   exchange_name: IDEX
   pair: COMP/ETH
@@ -416,6 +542,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/comp
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 401
+  exchange_name: Switcheo Network
+  pair: COMP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://switcheo.exchange/markets/COMP_ETH?referral_code=DFCA09
+- base:
+    currency_id: 5692
+    currency_symbol: COMP
+    currency_type: cryptocurrency
+    exchange_symbol: COMP
+  exchange_id: 574
+  exchange_name: WBF Exchange
+  pair: COMP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.wbf.info/trade/COMP_USDT
 - base:
     currency_id: 5692
     currency_symbol: COMP

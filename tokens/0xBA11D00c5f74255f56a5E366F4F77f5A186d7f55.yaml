@@ -57,20 +57,6 @@ markets:
     currency_symbol: BAND
     currency_type: cryptocurrency
     exchange_symbol: BAND
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BAND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/BAND_BTC?ref=H31B921U
-- base:
-    currency_id: 4679
-    currency_symbol: BAND
-    currency_type: cryptocurrency
-    exchange_symbol: BAND
   exchange_id: 415
   exchange_name: Bilaxy
   pair: BAND/USDT
@@ -85,15 +71,15 @@ markets:
     currency_symbol: BAND
     currency_type: cryptocurrency
     exchange_symbol: BAND
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: BAND/USDT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: BAND/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/band
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/BAND_BTC?ref=H31B921U
 - base:
     currency_id: 4679
     currency_symbol: BAND
@@ -199,6 +185,20 @@ markets:
     exchange_symbol: BAND
   exchange_id: 949
   exchange_name: CoinDCX
+  pair: BAND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/BANDBTC
+- base:
+    currency_id: 4679
+    currency_symbol: BAND
+    currency_type: cryptocurrency
+    exchange_symbol: BAND
+  exchange_id: 949
+  exchange_name: CoinDCX
   pair: BAND/USDT
   quote:
     currency_id: 825
@@ -225,20 +225,6 @@ markets:
     currency_symbol: BAND
     currency_type: cryptocurrency
     exchange_symbol: BAND
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: BAND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/BANDBTC
-- base:
-    currency_id: 4679
-    currency_symbol: BAND
-    currency_type: cryptocurrency
-    exchange_symbol: BAND
   exchange_id: 310
   exchange_name: IDEX
   pair: BAND/ETH
@@ -248,8 +234,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/band
+- base:
+    currency_id: 4679
+    currency_symbol: BAND
+    currency_type: cryptocurrency
+    exchange_symbol: BAND
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: BAND/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/band
 name: Band Protocol
-rank: 161
+rank: 159
 slug: band-protocol
 status: active
 symbol: BAND

@@ -33,6 +33,20 @@ markets:
     exchange_symbol: MEXC
   exchange_id: 155
   exchange_name: Exrates
+  pair: MEXC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exrates.me/trading/MEXCBTC
+- base:
+    currency_id: 4676
+    currency_symbol: MEXC
+    currency_type: cryptocurrency
+    exchange_symbol: MEXC
+  exchange_id: 155
+  exchange_name: Exrates
   pair: MEXC/USDT
   quote:
     currency_id: 825
@@ -40,6 +54,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://exrates.me/trading/MEXCUSDT
+- base:
+    currency_id: 4676
+    currency_symbol: MEXC
+    currency_type: cryptocurrency
+    exchange_symbol: MEXC
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: MEXC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://whitebit.com/trade/MEXC_BTC
 - base:
     currency_id: 4676
     currency_symbol: MEXC
@@ -61,27 +89,13 @@ markets:
     exchange_symbol: MEXC
   exchange_id: 501
   exchange_name: WhiteBIT
-  pair: MEXC/BTC
+  pair: MEXC/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://whitebit.com/trade/MEXC_BTC
-- base:
-    currency_id: 4676
-    currency_symbol: MEXC
-    currency_type: cryptocurrency
-    exchange_symbol: MEXC
-  exchange_id: 155
-  exchange_name: Exrates
-  pair: MEXC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exrates.me/trading/MEXCBTC
+    exchange_symbol: USDT
+  url: https://whitebit.com/trade/MEXC_USDT
 - base:
     currency_id: 4676
     currency_symbol: MEXC
@@ -110,22 +124,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://whitebit.com/trade/MEXC_ETH
-- base:
-    currency_id: 4676
-    currency_symbol: MEXC
-    currency_type: cryptocurrency
-    exchange_symbol: MEXC
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: MEXC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://whitebit.com/trade/MEXC_USDT
 name: MEXC Token
-rank: 929
+rank: 1031
 slug: mexc-token
 status: active
 symbol: MEXC
