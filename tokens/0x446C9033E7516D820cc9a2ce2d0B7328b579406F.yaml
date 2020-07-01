@@ -42,6 +42,20 @@ markets:
     currency_symbol: SOLVE
     currency_type: cryptocurrency
     exchange_symbol: SOLVE
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: SOLVE/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-SOLVE
+- base:
+    currency_id: 3724
+    currency_symbol: SOLVE
+    currency_type: cryptocurrency
+    exchange_symbol: SOLVE
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: SOLVE/KRW
@@ -70,29 +84,15 @@ markets:
     currency_symbol: SOLVE
     currency_type: cryptocurrency
     exchange_symbol: SOLVE
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: SOLVE/KRW
+  exchange_id: 545
+  exchange_name: Bitsdaq
+  pair: SOLVE/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-SOLVE
-- base:
-    currency_id: 3724
-    currency_symbol: SOLVE
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: SOLVE
-  exchange_id: 391
-  exchange_name: CoinTiger
-  pair: SOLVE/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=solve_usdt
+    exchange_symbol: BTC
+  url: https://bitsdaq.com/exchange/SOLVE-BTC
 - base:
     currency_id: 3724
     currency_symbol: SOLVE
@@ -112,15 +112,29 @@ markets:
     currency_symbol: SOLVE
     currency_type: cryptocurrency
     exchange_symbol: SOLVE
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: SOLVE/BTC
+  exchange_id: 391
+  exchange_name: CoinTiger
+  pair: SOLVE/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/SOLVE-BTC
+    exchange_symbol: USDT
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=solve_usdt
+- base:
+    currency_id: 3724
+    currency_symbol: SOLVE
+    currency_type: cryptocurrency
+    exchange_symbol: SOLVE
+  exchange_id: 391
+  exchange_name: CoinTiger
+  pair: SOLVE/BITCNY
+  quote:
+    currency_id: 624
+    currency_symbol: BITCNY
+    currency_type: cryptocurrency
+    exchange_symbol: BITCNY
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=solve_bitcny
 - base:
     currency_id: 3724
     currency_symbol: SOLVE
@@ -142,20 +156,6 @@ markets:
     exchange_symbol: SOLVE
   exchange_id: 391
   exchange_name: CoinTiger
-  pair: SOLVE/BITCNY
-  quote:
-    currency_id: 624
-    currency_symbol: BITCNY
-    currency_type: cryptocurrency
-    exchange_symbol: BITCNY
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=solve_bitcny
-- base:
-    currency_id: 3724
-    currency_symbol: SOLVE
-    currency_type: cryptocurrency
-    exchange_symbol: SOLVE
-  exchange_id: 391
-  exchange_name: CoinTiger
   pair: SOLVE/BTC
   quote:
     currency_id: 1
@@ -163,6 +163,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.cointiger.com/en-us/#/trade_pro?coin=solve_btc
+- base:
+    currency_id: 3724
+    currency_symbol: SOLVE
+    currency_type: cryptocurrency
+    exchange_symbol: SOLVE
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: SOLVE/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-SOLVE
+- base:
+    currency_id: 3724
+    currency_symbol: SOLVE
+    currency_type: cryptocurrency
+    exchange_symbol: SOLVE
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: SOLVE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vcc.exchange/exchange/basic?currency=eth&coin=solve
 - base:
     currency_id: 3724
     currency_symbol: SOLVE
@@ -196,34 +224,6 @@ markets:
     currency_symbol: SOLVE
     currency_type: cryptocurrency
     exchange_symbol: SOLVE
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: SOLVE/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vcc.exchange/exchange/basic?currency=eth&coin=solve
-- base:
-    currency_id: 3724
-    currency_symbol: SOLVE
-    currency_type: cryptocurrency
-    exchange_symbol: SOLVE
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SOLVE/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/SOLVE-to-BTC
-- base:
-    currency_id: 3724
-    currency_symbol: SOLVE
-    currency_type: cryptocurrency
-    exchange_symbol: SOLVE
   exchange_id: 22
   exchange_name: Bittrex
   pair: SOLVE/ETH
@@ -238,15 +238,15 @@ markets:
     currency_symbol: SOLVE
     currency_type: cryptocurrency
     exchange_symbol: SOLVE
-  exchange_id: 351
-  exchange_name: Upbit
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: SOLVE/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-SOLVE
+  url: https://hitbtc.com/SOLVE-to-BTC
 - base:
     currency_id: 3724
     currency_symbol: SOLVE
@@ -304,7 +304,7 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/solve
 name: SOLVE
-rank: 115
+rank: 112
 slug: solve
 status: active
 symbol: SOLVE

@@ -45,20 +45,6 @@ markets:
     exchange_symbol: XYO
   exchange_id: 311
   exchange_name: KuCoin
-  pair: XYO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kucoin.com/XYO-BTC
-- base:
-    currency_id: 2765
-    currency_symbol: XYO
-    currency_type: cryptocurrency
-    exchange_symbol: XYO
-  exchange_id: 311
-  exchange_name: KuCoin
   pair: XYO/ETH
   quote:
     currency_id: 1027
@@ -66,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://trade.kucoin.com/XYO-ETH
+- base:
+    currency_id: 2765
+    currency_symbol: XYO
+    currency_type: cryptocurrency
+    exchange_symbol: XYO
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: XYO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.kucoin.com/XYO-BTC
 - base:
     currency_id: 2765
     currency_symbol: XYO
@@ -87,20 +87,6 @@ markets:
     exchange_symbol: XYO
   exchange_id: 100
   exchange_name: YoBit
-  pair: XYO/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://yobit.net/en/trade/XYO/USD
-- base:
-    currency_id: 2765
-    currency_symbol: XYO
-    currency_type: cryptocurrency
-    exchange_symbol: XYO
-  exchange_id: 100
-  exchange_name: YoBit
   pair: XYO/BTC
   quote:
     currency_id: 1
@@ -108,6 +94,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/XYO/BTC
+- base:
+    currency_id: 2765
+    currency_symbol: XYO
+    currency_type: cryptocurrency
+    exchange_symbol: XYO
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: XYO/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://yobit.net/en/trade/XYO/USD
 - base:
     currency_id: 2765
     currency_symbol: XYO
@@ -123,7 +123,7 @@ markets:
     exchange_symbol: ETH
   url: https://yobit.net/en/trade/XYO/ETH
 name: XYO
-rank: 533
+rank: 543
 slug: xyo
 status: active
 symbol: XYO

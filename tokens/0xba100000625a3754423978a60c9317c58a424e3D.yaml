@@ -28,20 +28,6 @@ markets:
     currency_symbol: BAL
     currency_type: cryptocurrency
     exchange_symbol: BAL
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: BAL/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bkex.com/trade/BAL_USDT
-- base:
-    currency_id: 5728
-    currency_symbol: BAL
-    currency_type: cryptocurrency
-    exchange_symbol: BAL
   exchange_id: 544
   exchange_name: MXC
   pair: BAL/USDT
@@ -56,15 +42,15 @@ markets:
     currency_symbol: BAL
     currency_type: cryptocurrency
     exchange_symbol: BAL
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: BAL/ETH
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: BAL/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bilaxy.com/trade/BAL_ETH
+    exchange_symbol: USDT
+  url: https://www.bkex.com/trade/BAL_USDT
 - base:
     currency_id: 5728
     currency_symbol: BAL
@@ -93,6 +79,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.biki.cc/en_US/trade/BAL_USDT
+- base:
+    currency_id: 5728
+    currency_symbol: BAL
+    currency_type: cryptocurrency
+    exchange_symbol: BAL
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: BAL/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/BAL_ETH
 - base:
     currency_id: 5728
     currency_symbol: BAL
@@ -128,20 +128,6 @@ markets:
     exchange_symbol: BAL
   exchange_id: 524
   exchange_name: FTX
-  pair: BAL/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://ftx.com/trade/BAL/USD
-- base:
-    currency_id: 5728
-    currency_symbol: BAL
-    currency_type: cryptocurrency
-    exchange_symbol: BAL
-  exchange_id: 524
-  exchange_name: FTX
   pair: BAL/USDT
   quote:
     currency_id: 825
@@ -149,6 +135,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://ftx.com/trade/BAL/USDT
+- base:
+    currency_id: 5728
+    currency_symbol: BAL
+    currency_type: cryptocurrency
+    exchange_symbol: BAL
+  exchange_id: 524
+  exchange_name: FTX
+  pair: BAL/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://ftx.com/trade/BAL/USD
 - base:
     currency_id: 5728
     currency_symbol: BAL
@@ -168,20 +168,6 @@ markets:
     currency_symbol: BAL
     currency_type: cryptocurrency
     exchange_symbol: BAL
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: BAL/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/bal
-- base:
-    currency_id: 5728
-    currency_symbol: BAL
-    currency_type: cryptocurrency
-    exchange_symbol: BAL
   exchange_id: 16
   exchange_name: Poloniex
   pair: BAL/ETH
@@ -191,6 +177,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://poloniex.com/exchange#eth_bal?c=H4QD8FNW
+- base:
+    currency_id: 5728
+    currency_symbol: BAL
+    currency_type: cryptocurrency
+    exchange_symbol: BAL
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: BAL/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/bal
 - base:
     currency_id: 5728
     currency_symbol: BAL
@@ -212,20 +212,6 @@ markets:
     exchange_symbol: BAL
   exchange_id: 424
   exchange_name: Hoo
-  pair: BAL/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hoo.com/trade/bal-usdt
-- base:
-    currency_id: 5728
-    currency_symbol: BAL
-    currency_type: cryptocurrency
-    exchange_symbol: BAL
-  exchange_id: 424
-  exchange_name: Hoo
   pair: BAL/ETH
   quote:
     currency_id: 1027
@@ -233,8 +219,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hoo.com/trade/bal-eth
+- base:
+    currency_id: 5728
+    currency_symbol: BAL
+    currency_type: cryptocurrency
+    exchange_symbol: BAL
+  exchange_id: 424
+  exchange_name: Hoo
+  pair: BAL/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hoo.com/trade/bal-usdt
 name: Balancer
-rank: 2111
+rank: 2112
 slug: balancer
 status: active
 symbol: BAL

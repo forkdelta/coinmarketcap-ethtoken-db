@@ -50,20 +50,6 @@ markets:
     currency_symbol: AIDOC
     currency_type: cryptocurrency
     exchange_symbol: AIDOC
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: AIDOC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/aidoc_eth/
-- base:
-    currency_id: 2357
-    currency_symbol: AIDOC
-    currency_type: cryptocurrency
-    exchange_symbol: AIDOC
   exchange_id: 300
   exchange_name: BitZ
   pair: AIDOC/BTC
@@ -87,6 +73,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.coinbene.com/exchange.html#/exchange?pairId=AIDOCBTC?hash=2NbmTq6
+- base:
+    currency_id: 2357
+    currency_symbol: AIDOC
+    currency_type: cryptocurrency
+    exchange_symbol: AIDOC
+  exchange_id: 312
+  exchange_name: BCEX
+  pair: AIDOC/CKUSD
+  quote:
+    currency_id: 2596
+    currency_symbol: CKUSD
+    currency_type: cryptocurrency
+    exchange_symbol: CKUSD
+  url: https://www.bcex.ca/trade/aidoc_ckusd
 - base:
     currency_id: 2357
     currency_symbol: AIDOC
@@ -120,15 +120,15 @@ markets:
     currency_symbol: AIDOC
     currency_type: cryptocurrency
     exchange_symbol: AIDOC
-  exchange_id: 312
-  exchange_name: BCEX
-  pair: AIDOC/CKUSD
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: AIDOC/ETH
   quote:
-    currency_id: 2596
-    currency_symbol: CKUSD
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: CKUSD
-  url: https://www.bcex.ca/trade/aidoc_ckusd
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/aidoc_eth/
 - base:
     currency_id: 2357
     currency_symbol: AIDOC
@@ -144,7 +144,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.allcoin.com/trade/aidoc2eth
 name: AI Doctor
-rank: 931
+rank: 938
 slug: aidoc
 status: active
 symbol: AIDOC
