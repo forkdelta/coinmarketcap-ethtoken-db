@@ -25,20 +25,6 @@ markets:
     currency_symbol: FNB
     currency_type: cryptocurrency
     exchange_symbol: FNB
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: FNB/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/FNBKRW
-- base:
-    currency_id: 3858
-    currency_symbol: FNB
-    currency_type: cryptocurrency
-    exchange_symbol: FNB
   exchange_id: 542
   exchange_name: Bitsonic
   pair: FNB/KRW
@@ -48,6 +34,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://bitsonic.co.kr/front/exchange/fnb-krw
+- base:
+    currency_id: 3858
+    currency_symbol: FNB
+    currency_type: cryptocurrency
+    exchange_symbol: FNB
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: FNB/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/FNBKRW
 - base:
     currency_id: 3858
     currency_symbol: FNB
@@ -105,7 +105,7 @@ markets:
     exchange_symbol: ETH
   url: https://allbit.com/exchange/FNB?market=ETH
 name: FNB Protocol
-rank: 455
+rank: 478
 slug: fnb-protocol
 status: active
 symbol: FNB

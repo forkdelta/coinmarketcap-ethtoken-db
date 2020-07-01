@@ -51,20 +51,6 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: ENG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=eng&tab=limit
-- base:
-    currency_id: 2044
-    currency_symbol: ENG
-    currency_type: cryptocurrency
-    exchange_symbol: ENG
   exchange_id: 270
   exchange_name: Binance
   pair: ENG/BTC
@@ -81,6 +67,20 @@ markets:
     exchange_symbol: ENG
   exchange_id: 350
   exchange_name: CoinEx
+  pair: ENG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=eng&tab=limit
+- base:
+    currency_id: 2044
+    currency_symbol: ENG
+    currency_type: cryptocurrency
+    exchange_symbol: ENG
+  exchange_id: 350
+  exchange_name: CoinEx
   pair: ENG/USDT
   quote:
     currency_id: 825
@@ -88,6 +88,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.coinex.com/trading?currency=usdt&dest=eng&tab=limit
+- base:
+    currency_id: 2044
+    currency_symbol: ENG
+    currency_type: cryptocurrency
+    exchange_symbol: ENG
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: ENG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://dex-trade.com/en?currencyIn=ENG&currencyTo=BTC
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -121,15 +135,15 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: ENG/BTC
+  exchange_id: 270
+  exchange_name: Binance
+  pair: ENG/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://dex-trade.com/en?currencyIn=ENG&currencyTo=BTC
+    exchange_symbol: ETH
+  url: https://www.binance.com/en/trade/ENG_ETH?ref=H31B921U
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -149,15 +163,15 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 270
-  exchange_name: Binance
+  exchange_id: 154
+  exchange_name: Dex-Trade
   pair: ENG/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.binance.com/en/trade/ENG_ETH?ref=H31B921U
+  url: https://dex-trade.com/en?currencyIn=ENG&currencyTo=ETH
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -191,34 +205,6 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: ENG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://dex-trade.com/en?currencyIn=ENG&currencyTo=ETH
-- base:
-    currency_id: 2044
-    currency_symbol: ENG
-    currency_type: cryptocurrency
-    exchange_symbol: ENG
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: ENG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 2044
-    currency_symbol: ENG
-    currency_type: cryptocurrency
-    exchange_symbol: ENG
   exchange_id: 481
   exchange_name: Alterdice
   pair: ENG/ETH
@@ -247,15 +233,29 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: ENG/ETH
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: ENG/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vcc.exchange/exchange/basic?currency=eth&coin=eng
+    exchange_symbol: BTC
+  url: https://www.fatbtc.com/
+- base:
+    currency_id: 2044
+    currency_symbol: ENG
+    currency_type: cryptocurrency
+    exchange_symbol: ENG
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: ENG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/ENGBTC
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -275,15 +275,15 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: ENG/BTC
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: ENG/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-ENG
+    exchange_symbol: ETH
+  url: https://vcc.exchange/exchange/basic?currency=eth&coin=eng
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -317,15 +317,43 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: ENG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitrue.com/trade/eng_eth?inviteCode=VQQLQV
+- base:
+    currency_id: 2044
+    currency_symbol: ENG
+    currency_type: cryptocurrency
+    exchange_symbol: ENG
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: ENG/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/ENGBTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-ENG
+- base:
+    currency_id: 2044
+    currency_symbol: ENG
+    currency_type: cryptocurrency
+    exchange_symbol: ENG
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: ENG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-ENG
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -345,29 +373,15 @@ markets:
     currency_symbol: ENG
     currency_type: cryptocurrency
     exchange_symbol: ENG
-  exchange_id: 433
-  exchange_name: Bitrue
+  exchange_id: 310
+  exchange_name: IDEX
   pair: ENG/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.bitrue.com/trade/eng_eth?inviteCode=VQQLQV
-- base:
-    currency_id: 2044
-    currency_symbol: ENG
-    currency_type: cryptocurrency
-    exchange_symbol: ENG
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: ENG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-ENG
+  url: https://idex.market/eth/eng
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -396,20 +410,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://crex24.com/exchange/ENG-BTC
-- base:
-    currency_id: 2044
-    currency_symbol: ENG
-    currency_type: cryptocurrency
-    exchange_symbol: ENG
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: ENG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/eng
 - base:
     currency_id: 2044
     currency_symbol: ENG
@@ -453,7 +453,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.huobi.com.ru/exchange/#s=eng_eth
 name: Enigma
-rank: 192
+rank: 195
 slug: enigma
 status: active
 symbol: ENG

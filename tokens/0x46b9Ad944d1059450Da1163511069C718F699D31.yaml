@@ -36,20 +36,6 @@ markets:
     currency_symbol: CS
     currency_type: cryptocurrency
     exchange_symbol: CS
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kucoin.com/CS-BTC
-- base:
-    currency_id: 2556
-    currency_symbol: CS
-    currency_type: cryptocurrency
-    exchange_symbol: CS
   exchange_id: 391
   exchange_name: CoinTiger
   pair: CS/ETH
@@ -59,6 +45,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.cointiger.com/en-us/#/trade_pro?coin=cs_eth
+- base:
+    currency_id: 2556
+    currency_symbol: CS
+    currency_type: cryptocurrency
+    exchange_symbol: CS
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.kucoin.com/CS-BTC
 - base:
     currency_id: 2556
     currency_symbol: CS
@@ -78,20 +78,6 @@ markets:
     currency_symbol: CS
     currency_type: cryptocurrency
     exchange_symbol: CS
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: CS/KCS
-  quote:
-    currency_id: 2087
-    currency_symbol: KCS
-    currency_type: cryptocurrency
-    exchange_symbol: KCS
-  url: https://trade.kucoin.com/CS-KCS
-- base:
-    currency_id: 2556
-    currency_symbol: CS
-    currency_type: cryptocurrency
-    exchange_symbol: CS
   exchange_id: 425
   exchange_name: WazirX
   pair: CS/USDT
@@ -101,6 +87,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://wazirx.com/exchange/CS-USDT
+- base:
+    currency_id: 2556
+    currency_symbol: CS
+    currency_type: cryptocurrency
+    exchange_symbol: CS
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: CS/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/CS:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 2556
+    currency_symbol: CS
+    currency_type: cryptocurrency
+    exchange_symbol: CS
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CS/KCS
+  quote:
+    currency_id: 2087
+    currency_symbol: KCS
+    currency_type: cryptocurrency
+    exchange_symbol: KCS
+  url: https://trade.kucoin.com/CS-KCS
 - base:
     currency_id: 2556
     currency_symbol: CS
@@ -129,20 +143,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/cs_eth
-- base:
-    currency_id: 2556
-    currency_symbol: CS
-    currency_type: cryptocurrency
-    exchange_symbol: CS
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: CS/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/CS:USD?refcode=H70YTMupQ
 - base:
     currency_id: 2556
     currency_symbol: CS
@@ -186,7 +186,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.cointiger.com/en-us/#/trade_pro?coin=cs_btc
 name: Credits
-rank: 481
+rank: 492
 slug: credits
 status: active
 symbol: CS
