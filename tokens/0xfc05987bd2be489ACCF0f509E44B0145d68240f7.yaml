@@ -65,20 +65,6 @@ markets:
     currency_symbol: ESS
     currency_type: cryptocurrency
     exchange_symbol: ESS
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: ESS/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/ESS:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2906
-    currency_symbol: ESS
-    currency_type: cryptocurrency
-    exchange_symbol: ESS
   exchange_id: 415
   exchange_name: Bilaxy
   pair: ESS/ETH
@@ -88,8 +74,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bilaxy.com/trade/ESS_ETH
+- base:
+    currency_id: 2906
+    currency_symbol: ESS
+    currency_type: cryptocurrency
+    exchange_symbol: ESS
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: ESS/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/ESS:USD?refcode=H70YTMupQ
 name: Essentia
-rank: 1294
+rank: 1311
 slug: essentia
 status: active
 symbol: ESS

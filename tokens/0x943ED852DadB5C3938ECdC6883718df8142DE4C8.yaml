@@ -45,34 +45,6 @@ markets:
     currency_symbol: FTI
     currency_type: cryptocurrency
     exchange_symbol: FTI
-  exchange_id: 328
-  exchange_name: CoinEgg
-  pair: FTI/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.coinegg.com/eth/fti/
-- base:
-    currency_id: 2901
-    currency_symbol: FTI
-    currency_type: cryptocurrency
-    exchange_symbol: FTI
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: FTI/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/fti_usdt
-- base:
-    currency_id: 2901
-    currency_symbol: FTI
-    currency_type: cryptocurrency
-    exchange_symbol: FTI
   exchange_id: 415
   exchange_name: Bilaxy
   pair: FTI/BTC
@@ -101,15 +73,29 @@ markets:
     currency_symbol: FTI
     currency_type: cryptocurrency
     exchange_symbol: FTI
-  exchange_id: 300
-  exchange_name: BitZ
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: FTI/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/fti_usdt
+- base:
+    currency_id: 2901
+    currency_symbol: FTI
+    currency_type: cryptocurrency
+    exchange_symbol: FTI
+  exchange_id: 328
+  exchange_name: CoinEgg
   pair: FTI/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.bit-z.com/exchange/fti_eth
+  url: https://www.coinegg.com/eth/fti/
 - base:
     currency_id: 2901
     currency_symbol: FTI
@@ -129,20 +115,6 @@ markets:
     currency_symbol: FTI
     currency_type: cryptocurrency
     exchange_symbol: FTI
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: FTI/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/fti_eth/
-- base:
-    currency_id: 2901
-    currency_symbol: FTI
-    currency_type: cryptocurrency
-    exchange_symbol: FTI
   exchange_id: 300
   exchange_name: BitZ
   pair: FTI/BTC
@@ -152,6 +124,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bit-z.com/exchange/fti_btc
+- base:
+    currency_id: 2901
+    currency_symbol: FTI
+    currency_type: cryptocurrency
+    exchange_symbol: FTI
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: FTI/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bit-z.com/exchange/fti_eth
+- base:
+    currency_id: 2901
+    currency_symbol: FTI
+    currency_type: cryptocurrency
+    exchange_symbol: FTI
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: FTI/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/fti_eth/
 - base:
     currency_id: 2901
     currency_symbol: FTI
@@ -167,7 +167,7 @@ markets:
     exchange_symbol: ETH
   url: https://gate.io/trade/fti_eth
 name: FansTime
-rank: 906
+rank: 953
 slug: fanstime
 status: active
 symbol: FTI

@@ -40,6 +40,20 @@ markets:
     currency_symbol: STPT
     currency_type: cryptocurrency
     exchange_symbol: STPT
+  exchange_id: 174
+  exchange_name: Coinone
+  pair: STPT/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://coinone.co.kr/exchange/trade/stpt/
+- base:
+    currency_id: 4006
+    currency_symbol: STPT
+    currency_type: cryptocurrency
+    exchange_symbol: STPT
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: STPT/USDT
@@ -54,15 +68,15 @@ markets:
     currency_symbol: STPT
     currency_type: cryptocurrency
     exchange_symbol: STPT
-  exchange_id: 174
-  exchange_name: Coinone
-  pair: STPT/KRW
+  exchange_id: 270
+  exchange_name: Binance
+  pair: STPT/USDT
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://coinone.co.kr/exchange/trade/stpt/
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/STPT_USDT?ref=H31B921U
 - base:
     currency_id: 4006
     currency_symbol: STPT
@@ -82,15 +96,15 @@ markets:
     currency_symbol: STPT
     currency_type: cryptocurrency
     exchange_symbol: STPT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: STPT/USDT
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: STPT/KRW
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/STPT_USDT?ref=H31B921U
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-STPT
 - base:
     currency_id: 4006
     currency_symbol: STPT
@@ -124,15 +138,29 @@ markets:
     currency_symbol: STPT
     currency_type: cryptocurrency
     exchange_symbol: STPT
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: STPT/KRW
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: STPT/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-STPT
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/STPTBTC
+- base:
+    currency_id: 4006
+    currency_symbol: STPT
+    currency_type: cryptocurrency
+    exchange_symbol: STPT
+  exchange_id: 542
+  exchange_name: Bitsonic
+  pair: STPT/BSC
+  quote:
+    currency_id: 5725
+    currency_symbol: BSC
+    currency_type: cryptocurrency
+    exchange_symbol: BSC
+  url: https://bitsonic.co.kr/front/exchange/stpt-bsc
 - base:
     currency_id: 4006
     currency_symbol: STPT
@@ -147,20 +175,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-STPT
-- base:
-    currency_id: 4006
-    currency_symbol: STPT
-    currency_type: cryptocurrency
-    exchange_symbol: STPT
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: STPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/STPTBTC
 - base:
     currency_id: 4006
     currency_symbol: STPT
@@ -182,20 +196,6 @@ markets:
     exchange_symbol: STPT
   exchange_id: 949
   exchange_name: CoinDCX
-  pair: STPT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/STPTUSDT
-- base:
-    currency_id: 4006
-    currency_symbol: STPT
-    currency_type: cryptocurrency
-    exchange_symbol: STPT
-  exchange_id: 949
-  exchange_name: CoinDCX
   pair: STPT/INR
   quote:
     currency_id: 2796
@@ -208,15 +208,15 @@ markets:
     currency_symbol: STPT
     currency_type: cryptocurrency
     exchange_symbol: STPT
-  exchange_id: 542
-  exchange_name: Bitsonic
-  pair: STPT/BSC
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: STPT/USDT
   quote:
-    currency_id: 5725
-    currency_symbol: BSC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BSC
-  url: https://bitsonic.co.kr/front/exchange/stpt-bsc
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/STPTUSDT
 - base:
     currency_id: 4006
     currency_symbol: STPT
@@ -232,7 +232,7 @@ markets:
     exchange_symbol: BNB
   url: https://www.binance.com/en/trade/STPT_BNB?ref=H31B921U
 name: Standard Tokenization Protocol
-rank: 395
+rank: 389
 slug: standard-tokenization-protocol
 status: active
 symbol: STPT

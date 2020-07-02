@@ -78,20 +78,6 @@ markets:
     exchange_symbol: KEY
   exchange_id: 400
   exchange_name: Hotbit
-  pair: KEY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=KEY_BTC
-- base:
-    currency_id: 2398
-    currency_symbol: KEY
-    currency_type: cryptocurrency
-    exchange_symbol: KEY
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: KEY/ETH
   quote:
     currency_id: 1027
@@ -99,6 +85,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=KEY_ETH
+- base:
+    currency_id: 2398
+    currency_symbol: KEY
+    currency_type: cryptocurrency
+    exchange_symbol: KEY
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: KEY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=KEY_BTC
 - base:
     currency_id: 2398
     currency_symbol: KEY
@@ -146,20 +146,6 @@ markets:
     currency_symbol: KEY
     currency_type: cryptocurrency
     exchange_symbol: KEY
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: KEY/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.kucoin.com/KEY-ETH
-- base:
-    currency_id: 2398
-    currency_symbol: KEY
-    currency_type: cryptocurrency
-    exchange_symbol: KEY
   exchange_id: 949
   exchange_name: CoinDCX
   pair: KEY/USDT
@@ -174,6 +160,20 @@ markets:
     currency_symbol: KEY
     currency_type: cryptocurrency
     exchange_symbol: KEY
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: KEY/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://trade.kucoin.com/KEY-ETH
+- base:
+    currency_id: 2398
+    currency_symbol: KEY
+    currency_type: cryptocurrency
+    exchange_symbol: KEY
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: KEY/BTC
@@ -183,6 +183,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.probit.com/app/exchange/KEY-BTC
+- base:
+    currency_id: 2398
+    currency_symbol: KEY
+    currency_type: cryptocurrency
+    exchange_symbol: KEY
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: KEY/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/KEY-KRW
 - base:
     currency_id: 2398
     currency_symbol: KEY
@@ -239,20 +253,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://serenity.exchange/trades?currencyPairId=KEY_USDT
-- base:
-    currency_id: 2398
-    currency_symbol: KEY
-    currency_type: cryptocurrency
-    exchange_symbol: KEY
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: KEY/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/KEY-KRW
 - base:
     currency_id: 2398
     currency_symbol: KEY
@@ -324,7 +324,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.idcm.io/trading/KEY_USDT
 name: Selfkey
-rank: 621
+rank: 631
 slug: selfkey
 status: active
 symbol: KEY

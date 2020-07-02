@@ -43,20 +43,6 @@ markets:
     currency_symbol: UBEX
     currency_type: cryptocurrency
     exchange_symbol: UBEX
-  exchange_id: 403
-  exchange_name: BitForex
-  pair: UBEX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitforex.com/en/spot/ubex_usdt
-- base:
-    currency_id: 3140
-    currency_symbol: UBEX
-    currency_type: cryptocurrency
-    exchange_symbol: UBEX
   exchange_id: 400
   exchange_name: Hotbit
   pair: UBEX/BTC
@@ -66,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=UBEX_BTC
+- base:
+    currency_id: 3140
+    currency_symbol: UBEX
+    currency_type: cryptocurrency
+    exchange_symbol: UBEX
+  exchange_id: 403
+  exchange_name: BitForex
+  pair: UBEX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitforex.com/en/spot/ubex_usdt
 - base:
     currency_id: 3140
     currency_symbol: UBEX
@@ -263,7 +263,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.catex.io/trading/UBEX/BTC
 name: Ubex
-rank: 1018
+rank: 986
 slug: ubex
 status: active
 symbol: UBEX

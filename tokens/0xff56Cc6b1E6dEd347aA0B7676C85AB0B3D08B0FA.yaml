@@ -55,6 +55,20 @@ markets:
     currency_symbol: ORBS
     currency_type: cryptocurrency
     exchange_symbol: ORBS
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: ORBS/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=orbs_usdt
+- base:
+    currency_id: 3835
+    currency_symbol: ORBS
+    currency_type: cryptocurrency
+    exchange_symbol: ORBS
   exchange_id: 415
   exchange_name: Bilaxy
   pair: ORBS/BTC
@@ -71,13 +85,13 @@ markets:
     exchange_symbol: ORBS
   exchange_id: 294
   exchange_name: OKEx
-  pair: ORBS/USDT
+  pair: ORBS/USDK
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 4064
+    currency_symbol: USDK
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=orbs_usdt
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=orbs_usdk
 - base:
     currency_id: 3835
     currency_symbol: ORBS
@@ -92,6 +106,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-ORBS
+- base:
+    currency_id: 3835
+    currency_symbol: ORBS
+    currency_type: cryptocurrency
+    exchange_symbol: ORBS
+  exchange_id: 174
+  exchange_name: Coinone
+  pair: ORBS/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://coinone.co.kr/exchange/trade/orbs/
 - base:
     currency_id: 3835
     currency_symbol: ORBS
@@ -153,20 +181,6 @@ markets:
     currency_symbol: ORBS
     currency_type: cryptocurrency
     exchange_symbol: ORBS
-  exchange_id: 174
-  exchange_name: Coinone
-  pair: ORBS/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://coinone.co.kr/exchange/trade/orbs/
-- base:
-    currency_id: 3835
-    currency_symbol: ORBS
-    currency_type: cryptocurrency
-    exchange_symbol: ORBS
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: ORBS/BTC
@@ -204,20 +218,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-ORBS
-- base:
-    currency_id: 3835
-    currency_symbol: ORBS
-    currency_type: cryptocurrency
-    exchange_symbol: ORBS
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: ORBS/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=orbs_usdk
 - base:
     currency_id: 3835
     currency_symbol: ORBS
@@ -289,7 +289,7 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/orbs
 name: Orbs
-rank: 140
+rank: 133
 slug: orbs
 status: active
 symbol: ORBS
