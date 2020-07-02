@@ -44,15 +44,15 @@ markets:
     currency_symbol: CND
     currency_type: cryptocurrency
     exchange_symbol: CND
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: CND/KRW
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: CND/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/cnd-krw
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/CNDBTC
 - base:
     currency_id: 2043
     currency_symbol: CND
@@ -74,13 +74,13 @@ markets:
     exchange_symbol: CND
   exchange_id: 37
   exchange_name: Bitfinex
-  pair: CND/ETH
+  pair: CND/USD
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitfinex.com/t/CND:ETH?refcode=H70YTMupQ
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/CND:USD?refcode=H70YTMupQ
 - base:
     currency_id: 2043
     currency_symbol: CND
@@ -100,15 +100,15 @@ markets:
     currency_symbol: CND
     currency_type: cryptocurrency
     exchange_symbol: CND
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: CND/USD
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: CND/ETH
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/CND:USD?refcode=H70YTMupQ
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/cnd
 - base:
     currency_id: 2043
     currency_symbol: CND
@@ -128,6 +128,20 @@ markets:
     currency_symbol: CND
     currency_type: cryptocurrency
     exchange_symbol: CND
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: CND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitfinex.com/t/CND:ETH?refcode=H70YTMupQ
+- base:
+    currency_id: 2043
+    currency_symbol: CND
+    currency_type: cryptocurrency
+    exchange_symbol: CND
   exchange_id: 335
   exchange_name: GOPAX
   pair: CND/BTC
@@ -142,6 +156,20 @@ markets:
     currency_symbol: CND
     currency_type: cryptocurrency
     exchange_symbol: CND
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: CND/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/cnd-krw
+- base:
+    currency_id: 2043
+    currency_symbol: CND
+    currency_type: cryptocurrency
+    exchange_symbol: CND
   exchange_id: 42
   exchange_name: HitBTC
   pair: CND/USDT
@@ -151,36 +179,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/CND-to-USDT
-- base:
-    currency_id: 2043
-    currency_symbol: CND
-    currency_type: cryptocurrency
-    exchange_symbol: CND
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: CND/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/cnd
-- base:
-    currency_id: 2043
-    currency_symbol: CND
-    currency_type: cryptocurrency
-    exchange_symbol: CND
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: CND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/CNDBTC
 name: Cindicator
-rank: 326
+rank: 331
 slug: cindicator
 status: active
 symbol: CND

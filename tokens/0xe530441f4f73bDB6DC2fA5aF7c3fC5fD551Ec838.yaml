@@ -37,20 +37,6 @@ markets:
     currency_symbol: GSE
     currency_type: cryptocurrency
     exchange_symbol: GSE
-  exchange_id: 300
-  exchange_name: BitZ
-  pair: GSE/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bit-z.com/exchange/gse_eth
-- base:
-    currency_id: 3123
-    currency_symbol: GSE
-    currency_type: cryptocurrency
-    exchange_symbol: GSE
   exchange_id: 302
   exchange_name: Gate.io
   pair: GSE/ETH
@@ -60,8 +46,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/gse_eth
+- base:
+    currency_id: 3123
+    currency_symbol: GSE
+    currency_type: cryptocurrency
+    exchange_symbol: GSE
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: GSE/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bit-z.com/exchange/gse_eth
 name: GSENetwork
-rank: 2365
+rank: 2379
 slug: gsenetwork
 status: active
 symbol: GSE

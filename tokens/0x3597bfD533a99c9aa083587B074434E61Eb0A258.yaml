@@ -39,6 +39,20 @@ markets:
     currency_symbol: DENT
     currency_type: cryptocurrency
     exchange_symbol: DENT
+  exchange_id: 355
+  exchange_name: Vebitcoin
+  pair: DENT/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.vebitcoin.com/
+- base:
+    currency_id: 1886
+    currency_symbol: DENT
+    currency_type: cryptocurrency
+    exchange_symbol: DENT
   exchange_id: 270
   exchange_name: Binance
   pair: DENT/USDT
@@ -67,20 +81,6 @@ markets:
     currency_symbol: DENT
     currency_type: cryptocurrency
     exchange_symbol: DENT
-  exchange_id: 355
-  exchange_name: Vebitcoin
-  pair: DENT/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.vebitcoin.com/
-- base:
-    currency_id: 1886
-    currency_symbol: DENT
-    currency_type: cryptocurrency
-    exchange_symbol: DENT
   exchange_id: 388
   exchange_name: Sistemkoin
   pair: DENT/TRY
@@ -104,34 +104,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://sistemkoin.com/#/
-- base:
-    currency_id: 1886
-    currency_symbol: DENT
-    currency_type: cryptocurrency
-    exchange_symbol: DENT
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: DENT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://sistemkoin.com/#/
-- base:
-    currency_id: 1886
-    currency_symbol: DENT
-    currency_type: cryptocurrency
-    exchange_symbol: DENT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: DENT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/DENT-to-BTC
 - base:
     currency_id: 1886
     currency_symbol: DENT
@@ -151,34 +123,6 @@ markets:
     currency_symbol: DENT
     currency_type: cryptocurrency
     exchange_symbol: DENT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: DENT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/DENT-to-ETH
-- base:
-    currency_id: 1886
-    currency_symbol: DENT
-    currency_type: cryptocurrency
-    exchange_symbol: DENT
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: DENT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/DENT-USDT
-- base:
-    currency_id: 1886
-    currency_symbol: DENT
-    currency_type: cryptocurrency
-    exchange_symbol: DENT
   exchange_id: 351
   exchange_name: Upbit
   pair: DENT/BTC
@@ -193,15 +137,15 @@ markets:
     currency_symbol: DENT
     currency_type: cryptocurrency
     exchange_symbol: DENT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: DENT/BTC
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: DENT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-DENT
+    exchange_symbol: ETH
+  url: https://sistemkoin.com/#/
 - base:
     currency_id: 1886
     currency_symbol: DENT
@@ -221,6 +165,62 @@ markets:
     currency_symbol: DENT
     currency_type: cryptocurrency
     exchange_symbol: DENT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: DENT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/DENT-to-ETH
+- base:
+    currency_id: 1886
+    currency_symbol: DENT
+    currency_type: cryptocurrency
+    exchange_symbol: DENT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: DENT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/DENT-to-USDT
+- base:
+    currency_id: 1886
+    currency_symbol: DENT
+    currency_type: cryptocurrency
+    exchange_symbol: DENT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: DENT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/DENT-to-BTC
+- base:
+    currency_id: 1886
+    currency_symbol: DENT
+    currency_type: cryptocurrency
+    exchange_symbol: DENT
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: DENT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/DENT-USDT
+- base:
+    currency_id: 1886
+    currency_symbol: DENT
+    currency_type: cryptocurrency
+    exchange_symbol: DENT
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: DENT/BTC
@@ -230,6 +230,48 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=dent
+- base:
+    currency_id: 1886
+    currency_symbol: DENT
+    currency_type: cryptocurrency
+    exchange_symbol: DENT
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: DENT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/dent
+- base:
+    currency_id: 1886
+    currency_symbol: DENT
+    currency_type: cryptocurrency
+    exchange_symbol: DENT
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: DENT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://alterdice.com/trading/DENTETH
+- base:
+    currency_id: 1886
+    currency_symbol: DENT
+    currency_type: cryptocurrency
+    exchange_symbol: DENT
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: DENT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://dex-trade.com/en?currencyIn=DENT&currencyTo=ETH
 - base:
     currency_id: 1886
     currency_symbol: DENT
@@ -263,43 +305,15 @@ markets:
     currency_symbol: DENT
     currency_type: cryptocurrency
     exchange_symbol: DENT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: DENT/USDT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: DENT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/DENT-to-USDT
-- base:
-    currency_id: 1886
-    currency_symbol: DENT
-    currency_type: cryptocurrency
-    exchange_symbol: DENT
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: DENT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://alterdice.com/trading/DENTETH
-- base:
-    currency_id: 1886
-    currency_symbol: DENT
-    currency_type: cryptocurrency
-    exchange_symbol: DENT
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: DENT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://dex-trade.com/en?currencyIn=DENT&currencyTo=ETH
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-DENT
 - base:
     currency_id: 1886
     currency_symbol: DENT
@@ -361,20 +375,6 @@ markets:
     currency_symbol: DENT
     currency_type: cryptocurrency
     exchange_symbol: DENT
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: DENT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/dent
-- base:
-    currency_id: 1886
-    currency_symbol: DENT
-    currency_type: cryptocurrency
-    exchange_symbol: DENT
   exchange_id: 343
   exchange_name: CoinBene
   pair: DENT/BTC
@@ -431,6 +431,20 @@ markets:
     currency_symbol: DENT
     currency_type: cryptocurrency
     exchange_symbol: DENT
+  exchange_id: 104
+  exchange_name: LiteBit.eu
+  pair: DENT/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://www.litebit.eu/en/buy/dent
+- base:
+    currency_id: 1886
+    currency_symbol: DENT
+    currency_type: cryptocurrency
+    exchange_symbol: DENT
   exchange_id: 201
   exchange_name: Lykke Exchange
   pair: DENT/BTC
@@ -468,22 +482,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://allbit.com/exchange/DENT?market=ETH
-- base:
-    currency_id: 1886
-    currency_symbol: DENT
-    currency_type: cryptocurrency
-    exchange_symbol: DENT
-  exchange_id: 104
-  exchange_name: LiteBit.eu
-  pair: DENT/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://www.litebit.eu/en/buy/dent
 name: Dent
-rank: 197
+rank: 199
 slug: dent
 status: active
 symbol: DENT

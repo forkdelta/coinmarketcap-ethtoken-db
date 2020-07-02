@@ -115,34 +115,6 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: NKN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/nkn_btc?invite_code=5kij5
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: NKN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/NKNBTC
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
   exchange_id: 380
   exchange_name: LATOKEN
   pair: NKN/BTC
@@ -152,6 +124,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://latoken.com/exchange/BTC-NKN
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: NKN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/nkn_btc?invite_code=5kij5
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -185,6 +171,20 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: NKN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/NKNBTC
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
   exchange_id: 302
   exchange_name: Gate.io
   pair: NKN/USDT
@@ -194,6 +194,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/nkn_usdt
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: NKN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=nkn
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -213,15 +227,15 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: NKN/BTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: NKN/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=nkn
+    exchange_symbol: ETH
+  url: https://gate.io/trade/nkn_eth
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -250,20 +264,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://coindcx.com/trade/NKNUSDT
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: NKN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/nkn_eth
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -335,7 +335,7 @@ markets:
     exchange_symbol: ETH
   url: https://switcheo.exchange/markets/NKN_ETH?referral_code=DFCA09
 name: NKN
-rank: 365
+rank: 379
 slug: nkn
 status: active
 symbol: NKN

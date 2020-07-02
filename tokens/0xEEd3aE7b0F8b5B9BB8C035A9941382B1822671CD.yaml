@@ -129,15 +129,43 @@ markets:
     currency_symbol: EVY
     currency_type: cryptocurrency
     exchange_symbol: EVY
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: EVY/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/EVY_USD
+- base:
+    currency_id: 3754
+    currency_symbol: EVY
+    currency_type: cryptocurrency
+    exchange_symbol: EVY
   exchange_id: 380
   exchange_name: LATOKEN
-  pair: EVY/LA
+  pair: EVY/BTC
   quote:
-    currency_id: 2090
-    currency_symbol: LA
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: LA
-  url: https://latoken.com/exchange/LA-EVY
+    exchange_symbol: BTC
+  url: https://latoken.com/exchange/BTC-EVY
+- base:
+    currency_id: 3754
+    currency_symbol: EVY
+    currency_type: cryptocurrency
+    exchange_symbol: EVY
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: EVY/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://latoken.com/exchange/USDT-EVY
 - base:
     currency_id: 3754
     currency_symbol: EVY
@@ -159,41 +187,13 @@ markets:
     exchange_symbol: EVY
   exchange_id: 380
   exchange_name: LATOKEN
-  pair: EVY/BTC
+  pair: EVY/LA
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 2090
+    currency_symbol: LA
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://latoken.com/exchange/BTC-EVY
-- base:
-    currency_id: 3754
-    currency_symbol: EVY
-    currency_type: cryptocurrency
-    exchange_symbol: EVY
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: EVY/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/EVY_USD
-- base:
-    currency_id: 3754
-    currency_symbol: EVY
-    currency_type: cryptocurrency
-    exchange_symbol: EVY
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: EVY/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://latoken.com/exchange/USDT-EVY
+    exchange_symbol: LA
+  url: https://latoken.com/exchange/LA-EVY
 - base:
     currency_id: 3754
     currency_symbol: EVY
@@ -223,7 +223,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.idcm.io/trading/EVY_USDT
 name: 'EveryCoin '
-rank: 492
+rank: 491
 slug: everycoin
 status: active
 symbol: EVY

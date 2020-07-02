@@ -34,20 +34,6 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: FXC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bilaxy.com/trade/FXC_ETH
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
   exchange_id: 310
   exchange_name: IDEX
   pair: FXC/ETH
@@ -62,6 +48,20 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: FXC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/FXC_ETH
+- base:
+    currency_id: 3812
+    currency_symbol: FXC
+    currency_type: cryptocurrency
+    exchange_symbol: FXC
   exchange_id: 22
   exchange_name: Bittrex
   pair: FXC/BTC
@@ -71,20 +71,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-FXC
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: FXC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_fxc?c=H4QD8FNW
 - base:
     currency_id: 3812
     currency_symbol: FXC
@@ -106,20 +92,6 @@ markets:
     exchange_symbol: FXC
   exchange_id: 400
   exchange_name: Hotbit
-  pair: FXC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=FXC_BTC
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: FXC/ETH
   quote:
     currency_id: 1027
@@ -127,6 +99,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=FXC_ETH
+- base:
+    currency_id: 3812
+    currency_symbol: FXC
+    currency_type: cryptocurrency
+    exchange_symbol: FXC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: FXC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=FXC_BTC
 - base:
     currency_id: 3812
     currency_symbol: FXC
@@ -162,13 +148,13 @@ markets:
     exchange_symbol: FXC
   exchange_id: 16
   exchange_name: Poloniex
-  pair: FXC/USDT
+  pair: FXC/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://poloniex.com/exchange#usdt_fxc?c=H4QD8FNW
+    exchange_symbol: BTC
+  url: https://poloniex.com/exchange#btc_fxc?c=H4QD8FNW
 - base:
     currency_id: 3812
     currency_symbol: FXC
@@ -176,13 +162,13 @@ markets:
     exchange_symbol: FXC
   exchange_id: 16
   exchange_name: Poloniex
-  pair: FXC/TRX
+  pair: FXC/USDT
   quote:
-    currency_id: 1958
-    currency_symbol: TRX
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: TRX
-  url: https://poloniex.com/exchange#trx_fxc?c=H4QD8FNW
+    exchange_symbol: USDT
+  url: https://poloniex.com/exchange#usdt_fxc?c=H4QD8FNW
 - base:
     currency_id: 3812
     currency_symbol: FXC
@@ -225,8 +211,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/fxc-eth
+- base:
+    currency_id: 3812
+    currency_symbol: FXC
+    currency_type: cryptocurrency
+    exchange_symbol: FXC
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: FXC/TRX
+  quote:
+    currency_id: 1958
+    currency_symbol: TRX
+    currency_type: cryptocurrency
+    exchange_symbol: TRX
+  url: https://poloniex.com/exchange#trx_fxc?c=H4QD8FNW
 name: Flexacoin
-rank: 83
+rank: 82
 slug: flexacoin
 status: active
 symbol: FXC

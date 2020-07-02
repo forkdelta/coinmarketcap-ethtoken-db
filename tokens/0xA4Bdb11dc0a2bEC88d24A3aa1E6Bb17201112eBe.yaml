@@ -46,19 +46,19 @@ markets:
     exchange_symbol: BTC
   url: https://vcc.exchange/exchange/basic?currency=btc&coin=usds
 - base:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 3854
+    currency_symbol: FUND
     currency_type: cryptocurrency
-    exchange_symbol: BNB
+    exchange_symbol: UND-EBC
   exchange_id: 486
   exchange_name: Binance DEX
-  pair: BNB/USDS
+  pair: FUND/USDS
   quote:
     currency_id: 3719
     currency_symbol: USDS
     currency_type: cryptocurrency
     exchange_symbol: USDSB-1AC
-  url: https://www.binance.org/en/trade/BNB_USDSB-1AC
+  url: https://www.binance.org/en/trade/UND-EBC_USDSB-1AC
 - base:
     currency_id: 4023
     currency_symbol: BTCB
@@ -74,47 +74,19 @@ markets:
     exchange_symbol: USDSB-1AC
   url: https://www.binance.org/en/trade/BTCB-1DE_USDSB-1AC
 - base:
-    currency_id: 4036
-    currency_symbol: COS
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: COS-2E4
+    exchange_symbol: BNB
   exchange_id: 486
   exchange_name: Binance DEX
-  pair: COS/USDS
+  pair: BNB/USDS
   quote:
     currency_id: 3719
     currency_symbol: USDS
     currency_type: cryptocurrency
     exchange_symbol: USDSB-1AC
-  url: https://www.binance.org/en/trade/COS-2E4_USDSB-1AC
-- base:
-    currency_id: 3854
-    currency_symbol: FUND
-    currency_type: cryptocurrency
-    exchange_symbol: UND-EBC
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: FUND/USDS
-  quote:
-    currency_id: 3719
-    currency_symbol: USDS
-    currency_type: cryptocurrency
-    exchange_symbol: USDSB-1AC
-  url: https://www.binance.org/en/trade/UND-EBC_USDSB-1AC
-- base:
-    currency_id: 3945
-    currency_symbol: ONE
-    currency_type: cryptocurrency
-    exchange_symbol: ONE-5F9
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: ONE/USDS
-  quote:
-    currency_id: 3719
-    currency_symbol: USDS
-    currency_type: cryptocurrency
-    exchange_symbol: USDSB-1AC
-  url: https://www.binance.org/en/trade/ONE-5F9_USDSB-1AC
+  url: https://www.binance.org/en/trade/BNB_USDSB-1AC
 - base:
     currency_id: 1
     currency_symbol: BTC
@@ -130,6 +102,34 @@ markets:
     exchange_symbol: USDS
   url: https://crex24.com/exchange/BTC-USDS
 - base:
+    currency_id: 4036
+    currency_symbol: COS
+    currency_type: cryptocurrency
+    exchange_symbol: COS-2E4
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: COS/USDS
+  quote:
+    currency_id: 3719
+    currency_symbol: USDS
+    currency_type: cryptocurrency
+    exchange_symbol: USDSB-1AC
+  url: https://www.binance.org/en/trade/COS-2E4_USDSB-1AC
+- base:
+    currency_id: 3945
+    currency_symbol: ONE
+    currency_type: cryptocurrency
+    exchange_symbol: ONE-5F9
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: ONE/USDS
+  quote:
+    currency_id: 3719
+    currency_symbol: USDS
+    currency_type: cryptocurrency
+    exchange_symbol: USDSB-1AC
+  url: https://www.binance.org/en/trade/ONE-5F9_USDSB-1AC
+- base:
     currency_id: 3719
     currency_symbol: USDS
     currency_type: cryptocurrency
@@ -144,7 +144,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/USDS_USDT?ref=H31B921U
 name: StableUSD
-rank: 1105
+rank: 1103
 slug: stableusd
 status: active
 symbol: USDS

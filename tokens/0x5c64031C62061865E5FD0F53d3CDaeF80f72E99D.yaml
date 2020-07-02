@@ -25,20 +25,6 @@ markets:
     currency_symbol: GARD
     currency_type: cryptocurrency
     exchange_symbol: GARD
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: GARD/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/gard_usdt
-- base:
-    currency_id: 2938
-    currency_symbol: GARD
-    currency_type: cryptocurrency
-    exchange_symbol: GARD
   exchange_id: 400
   exchange_name: Hotbit
   pair: GARD/ETH
@@ -53,15 +39,15 @@ markets:
     currency_symbol: GARD
     currency_type: cryptocurrency
     exchange_symbol: GARD
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: GARD/KRW
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: GARD/USDT
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/GARD-KRW
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/gard_usdt
 - base:
     currency_id: 2938
     currency_symbol: GARD
@@ -76,6 +62,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.probit.com/app/exchange/GARD-ETH
+- base:
+    currency_id: 2938
+    currency_symbol: GARD
+    currency_type: cryptocurrency
+    exchange_symbol: GARD
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: GARD/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/GARD-KRW
 - base:
     currency_id: 2938
     currency_symbol: GARD
@@ -189,7 +189,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.idcm.io/trading/GARD_USDT
 name: Hashgard
-rank: 939
+rank: 935
 slug: hashgard
 status: active
 symbol: GARD

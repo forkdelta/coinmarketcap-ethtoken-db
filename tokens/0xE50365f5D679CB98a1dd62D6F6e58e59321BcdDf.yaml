@@ -79,20 +79,6 @@ markets:
     exchange_symbol: LA
   exchange_id: 380
   exchange_name: LATOKEN
-  pair: LA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://latoken.com/exchange/BTC-LA
-- base:
-    currency_id: 2090
-    currency_symbol: LA
-    currency_type: cryptocurrency
-    exchange_symbol: LA
-  exchange_id: 380
-  exchange_name: LATOKEN
   pair: LA/USDT
   quote:
     currency_id: 825
@@ -100,8 +86,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://latoken.com/exchange/USDT-LA
+- base:
+    currency_id: 2090
+    currency_symbol: LA
+    currency_type: cryptocurrency
+    exchange_symbol: LA
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: LA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://latoken.com/exchange/BTC-LA
 name: LATOKEN
-rank: 413
+rank: 416
 slug: latoken
 status: active
 symbol: LA

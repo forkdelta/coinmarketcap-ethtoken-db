@@ -66,15 +66,15 @@ markets:
     currency_symbol: CVT
     currency_type: cryptocurrency
     exchange_symbol: CVT
-  exchange_id: 300
-  exchange_name: BitZ
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: CVT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.bit-z.com/exchange/cvt_btc
+  url: https://hitbtc.com/CVT-to-BTC
 - base:
     currency_id: 2642
     currency_symbol: CVT
@@ -96,27 +96,13 @@ markets:
     exchange_symbol: CVT
   exchange_id: 42
   exchange_name: HitBTC
-  pair: CVT/BTC
+  pair: CVT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/CVT-to-BTC
-- base:
-    currency_id: 2642
-    currency_symbol: CVT
-    currency_type: cryptocurrency
-    exchange_symbol: CVT
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: CVT/INR
-  quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/cvt
+    exchange_symbol: USDT
+  url: https://hitbtc.com/CVT-to-USDT
 - base:
     currency_id: 2642
     currency_symbol: CVT
@@ -150,17 +136,31 @@ markets:
     currency_symbol: CVT
     currency_type: cryptocurrency
     exchange_symbol: CVT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: CVT/USDT
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: CVT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/CVT-to-USDT
+    exchange_symbol: BTC
+  url: https://www.bit-z.com/exchange/cvt_btc
+- base:
+    currency_id: 2642
+    currency_symbol: CVT
+    currency_type: cryptocurrency
+    exchange_symbol: CVT
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: CVT/INR
+  quote:
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/cvt
 name: CyberVein
-rank: 121
+rank: 124
 slug: cybervein
 status: active
 symbol: CVT
