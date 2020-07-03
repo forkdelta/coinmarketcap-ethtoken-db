@@ -22,13 +22,13 @@ markets:
     exchange_symbol: ZLW
   exchange_id: 403
   exchange_name: BitForex
-  pair: ZLW/BTC
+  pair: ZLW/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitforex.com/en/spot/zlw_btc
+    exchange_symbol: ETH
+  url: https://www.bitforex.com/en/spot/zlw_eth
 - base:
     currency_id: 5614
     currency_symbol: ZLW
@@ -50,13 +50,13 @@ markets:
     exchange_symbol: ZLW
   exchange_id: 403
   exchange_name: BitForex
-  pair: ZLW/ETH
+  pair: ZLW/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitforex.com/en/spot/zlw_eth
+    exchange_symbol: BTC
+  url: https://www.bitforex.com/en/spot/zlw_btc
 - base:
     currency_id: 5614
     currency_symbol: ZLW
@@ -71,6 +71,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.probit.com/app/exchange/ZLW-BTC
+- base:
+    currency_id: 5614
+    currency_symbol: ZLW
+    currency_type: cryptocurrency
+    exchange_symbol: ZLW
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: ZLW/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/ZLW-KRW
+- base:
+    currency_id: 5614
+    currency_symbol: ZLW
+    currency_type: cryptocurrency
+    exchange_symbol: ZLW
+  exchange_id: 460
+  exchange_name: Coinsbit
+  pair: ZLW/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coinsbit.io/trade/ZLW_BTC
 - base:
     currency_id: 5614
     currency_symbol: ZLW
@@ -92,27 +120,13 @@ markets:
     exchange_symbol: ZLW
   exchange_id: 460
   exchange_name: Coinsbit
-  pair: ZLW/BTC
+  pair: ZLW/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coinsbit.io/trade/ZLW_BTC
-- base:
-    currency_id: 5614
-    currency_symbol: ZLW
-    currency_type: cryptocurrency
-    exchange_symbol: ZLW
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: ZLW/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/ZLW-KRW
+    exchange_symbol: ETH
+  url: https://coinsbit.io/trade/ZLW_ETH
 - base:
     currency_id: 5614
     currency_symbol: ZLW
@@ -127,22 +141,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.probit.com/app/exchange/ZLW-USDT
-- base:
-    currency_id: 5614
-    currency_symbol: ZLW
-    currency_type: cryptocurrency
-    exchange_symbol: ZLW
-  exchange_id: 460
-  exchange_name: Coinsbit
-  pair: ZLW/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://coinsbit.io/trade/ZLW_ETH
 name: Zelwin
-rank: 212
+rank: 210
 slug: zelwin
 status: active
 symbol: ZLW

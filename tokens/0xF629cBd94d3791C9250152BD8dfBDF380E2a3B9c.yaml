@@ -135,20 +135,6 @@ markets:
     currency_symbol: ENJ
     currency_type: cryptocurrency
     exchange_symbol: ENJ
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: ENJ/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-ENJ
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
   exchange_id: 200
   exchange_name: Bithumb
   pair: ENJ/KRW
@@ -163,6 +149,20 @@ markets:
     currency_symbol: ENJ
     currency_type: cryptocurrency
     exchange_symbol: ENJ
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: ENJ/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-ENJ
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
   exchange_id: 630
   exchange_name: Binance.US
   pair: ENJ/USD
@@ -172,6 +172,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.binance.us/en/trade/ENJ_USD
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 270
+  exchange_name: Binance
+  pair: ENJ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.binance.com/en/trade/ENJ_ETH?ref=H31B921U
 - base:
     currency_id: 2130
     currency_symbol: ENJ
@@ -233,15 +247,43 @@ markets:
     currency_symbol: ENJ
     currency_type: cryptocurrency
     exchange_symbol: ENJ
-  exchange_id: 270
-  exchange_name: Binance
+  exchange_id: 404
+  exchange_name: Kyber Network
   pair: ENJ/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.binance.com/en/trade/ENJ_ETH?ref=H31B921U
+  url: https://kyberswap.com/swap/enj-eth
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: ENJ/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/ENJ
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: ENJ/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://p2pb2b.io/trade/ENJ_USDT
 - base:
     currency_id: 2130
     currency_symbol: ENJ
@@ -289,29 +331,15 @@ markets:
     currency_symbol: ENJ
     currency_type: cryptocurrency
     exchange_symbol: ENJ
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: ENJ/BTC
+  exchange_id: 270
+  exchange_name: Binance
+  pair: ENJ/BUSD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 4687
+    currency_symbol: BUSD
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/ENJ-to-BTC
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: ENJ/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://p2pb2b.io/trade/ENJ_USDT
+    exchange_symbol: BUSD
+  url: https://www.binance.com/en/trade/ENJ_BUSD?ref=H31B921U
 - base:
     currency_id: 2130
     currency_symbol: ENJ
@@ -331,6 +359,20 @@ markets:
     currency_symbol: ENJ
     currency_type: cryptocurrency
     exchange_symbol: ENJ
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: ENJ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/ENJ-to-BTC
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
   exchange_id: 656
   exchange_name: Omgfin
   pair: ENJ/UQC
@@ -345,15 +387,29 @@ markets:
     currency_symbol: ENJ
     currency_type: cryptocurrency
     exchange_symbol: ENJ
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: ENJ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://p2pb2b.io/trade/ENJ_ETH
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 656
+  exchange_name: Omgfin
   pair: ENJ/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/ENJBTC
+  url: https://omgfin.com/exchange/trade/market/ENJBTC
 - base:
     currency_id: 2130
     currency_symbol: ENJ
@@ -375,90 +431,6 @@ markets:
     exchange_symbol: ENJ
   exchange_id: 270
   exchange_name: Binance
-  pair: ENJ/BUSD
-  quote:
-    currency_id: 4687
-    currency_symbol: BUSD
-    currency_type: cryptocurrency
-    exchange_symbol: BUSD
-  url: https://www.binance.com/en/trade/ENJ_BUSD?ref=H31B921U
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: ENJ/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/enj-eth
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: ENJ/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://p2pb2b.io/trade/ENJ_ETH
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: ENJ/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/ENJ
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: ENJ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://omgfin.com/exchange/trade/market/ENJBTC
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 539
-  exchange_name: BitAsset
-  pair: ENJ/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitasset.com/ktrade/ENJ-USDT
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 270
-  exchange_name: Binance
   pair: ENJ/BNB
   quote:
     currency_id: 1839
@@ -466,20 +438,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNB
   url: https://www.binance.com/en/trade/ENJ_BNB?ref=H31B921U
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: ENJ/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://vcc.exchange/exchange/basic?currency=usdt&coin=enj
 - base:
     currency_id: 2130
     currency_symbol: ENJ
@@ -499,6 +457,34 @@ markets:
     currency_symbol: ENJ
     currency_type: cryptocurrency
     exchange_symbol: ENJ
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: ENJ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-ENJ
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: ENJ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://trade.kucoin.com/ENJ-ETH
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
   exchange_id: 656
   exchange_name: Omgfin
   pair: ENJ/USDT
@@ -508,20 +494,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://omgfin.com/exchange/trade/market/ENJUSDT
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: ENJ/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://bittrex.com/Market/Index?MarketName=USD-ENJ
 - base:
     currency_id: 2130
     currency_symbol: ENJ
@@ -541,15 +513,15 @@ markets:
     currency_symbol: ENJ
     currency_type: cryptocurrency
     exchange_symbol: ENJ
-  exchange_id: 542
-  exchange_name: Bitsonic
-  pair: ENJ/BSC
+  exchange_id: 539
+  exchange_name: BitAsset
+  pair: ENJ/USDT
   quote:
-    currency_id: 5725
-    currency_symbol: BSC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BSC
-  url: https://bitsonic.co.kr/front/exchange/enj-bsc
+    exchange_symbol: USDT
+  url: https://www.bitasset.com/ktrade/ENJ-USDT
 - base:
     currency_id: 2130
     currency_symbol: ENJ
@@ -571,6 +543,20 @@ markets:
     exchange_symbol: ENJ
   exchange_id: 22
   exchange_name: Bittrex
+  pair: ENJ/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://bittrex.com/Market/Index?MarketName=USD-ENJ
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: ENJ/USDT
   quote:
     currency_id: 825
@@ -578,6 +564,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bittrex.com/Market/Index?MarketName=USDT-ENJ
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: ENJ/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://vcc.exchange/exchange/basic?currency=usdt&coin=enj
 - base:
     currency_id: 2130
     currency_symbol: ENJ
@@ -597,20 +597,6 @@ markets:
     currency_symbol: ENJ
     currency_type: cryptocurrency
     exchange_symbol: ENJ
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: ENJ/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.kucoin.com/ENJ-ETH
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
   exchange_id: 363
   exchange_name: Fatbtc
   pair: ENJ/USDT
@@ -625,57 +611,29 @@ markets:
     currency_symbol: ENJ
     currency_type: cryptocurrency
     exchange_symbol: ENJ
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: ENJ/ETH
+  exchange_id: 542
+  exchange_name: Bitsonic
+  pair: ENJ/BSC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 5725
+    currency_symbol: BSC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-ENJ
+    exchange_symbol: BSC
+  url: https://bitsonic.co.kr/front/exchange/enj-bsc
 - base:
     currency_id: 2130
     currency_symbol: ENJ
     currency_type: cryptocurrency
     exchange_symbol: ENJ
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: ENJ/ETH
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: ENJ/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: ENJ/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/ENJ-USDT
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 224
-  exchange_name: BTC Markets
-  pair: ENJ/AUD
-  quote:
-    currency_id: 2782
-    currency_symbol: AUD
-    currency_type: fiat
-    exchange_symbol: AUD
-  url: https://btcmarkets.net/
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/ENJBTC
 - base:
     currency_id: 2130
     currency_symbol: ENJ
@@ -695,57 +653,29 @@ markets:
     currency_symbol: ENJ
     currency_type: cryptocurrency
     exchange_symbol: ENJ
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: ENJ/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/ENJ-KRW
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: ENJ/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/ENJ:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: ENJ/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/enj
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 425
+  exchange_name: WazirX
   pair: ENJ/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://coindcx.com/trade/ENJUSDT
+  url: https://wazirx.com/exchange/ENJ-USDT
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: ENJ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-ENJ
 - base:
     currency_id: 2130
     currency_symbol: ENJ
@@ -760,6 +690,62 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.livecoin.net/en/trading/ENJ_BTC
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: ENJ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 224
+  exchange_name: BTC Markets
+  pair: ENJ/AUD
+  quote:
+    currency_id: 2782
+    currency_symbol: AUD
+    currency_type: fiat
+    exchange_symbol: AUD
+  url: https://btcmarkets.net/
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: ENJ/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/ENJ-KRW
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: ENJ/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/ENJUSDT
 - base:
     currency_id: 2130
     currency_symbol: ENJ
@@ -793,6 +779,20 @@ markets:
     currency_symbol: ENJ
     currency_type: cryptocurrency
     exchange_symbol: ENJ
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: ENJ/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/ENJ:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
   exchange_id: 335
   exchange_name: GOPAX
   pair: ENJ/KRW
@@ -816,6 +816,20 @@ markets:
     currency_type: fiat
     exchange_symbol: EUR
   url: https://go.coinmetro.com/#/trade
+- base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: ENJ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/enj
 - base:
     currency_id: 2130
     currency_symbol: ENJ
@@ -858,20 +872,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://btcmarkets.net/
-- base:
-    currency_id: 2130
-    currency_symbol: ENJ
-    currency_type: cryptocurrency
-    exchange_symbol: ENJ
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: ENJ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-ENJ
 - base:
     currency_id: 2130
     currency_symbol: ENJ

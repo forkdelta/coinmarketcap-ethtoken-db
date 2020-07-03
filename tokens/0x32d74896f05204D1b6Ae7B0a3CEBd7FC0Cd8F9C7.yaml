@@ -21,6 +21,20 @@ markets:
     currency_symbol: KCASH
     currency_type: cryptocurrency
     exchange_symbol: KCASH
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: KCASH/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=kcash_usdt
+- base:
+    currency_id: 2379
+    currency_symbol: KCASH
+    currency_type: cryptocurrency
+    exchange_symbol: KCASH
   exchange_id: 102
   exchange_name: Huobi Global
   pair: KCASH/BTC
@@ -44,20 +58,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/kcash_eth?invite_code=5kij5
-- base:
-    currency_id: 2379
-    currency_symbol: KCASH
-    currency_type: cryptocurrency
-    exchange_symbol: KCASH
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: KCASH/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=kcash_usdt
 - base:
     currency_id: 2379
     currency_symbol: KCASH
@@ -107,20 +107,6 @@ markets:
     exchange_symbol: KCASH
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: KCASH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/kcash_btc/
-- base:
-    currency_id: 2379
-    currency_symbol: KCASH
-    currency_type: cryptocurrency
-    exchange_symbol: KCASH
-  exchange_id: 463
-  exchange_name: Huobi Korea
   pair: KCASH/ETH
   quote:
     currency_id: 1027
@@ -142,8 +128,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: HT
   url: https://www.huobi.co.kr/en-US/exchange/kcash_ht/
+- base:
+    currency_id: 2379
+    currency_symbol: KCASH
+    currency_type: cryptocurrency
+    exchange_symbol: KCASH
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: KCASH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/kcash_btc/
 name: Kcash
-rank: 495
+rank: 465
 slug: kcash
 status: active
 symbol: KCASH

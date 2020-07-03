@@ -44,15 +44,15 @@ markets:
     currency_symbol: SAN
     currency_type: cryptocurrency
     exchange_symbol: SAN
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: SAN/USD
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: SAN/ETH
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/SAN:USD?refcode=H70YTMupQ
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/san-eth
 - base:
     currency_id: 1807
     currency_symbol: SAN
@@ -72,29 +72,15 @@ markets:
     currency_symbol: SAN
     currency_type: cryptocurrency
     exchange_symbol: SAN
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: SAN/ETH
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: SAN/USD
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/san-eth
-- base:
-    currency_id: 1807
-    currency_symbol: SAN
-    currency_type: cryptocurrency
-    exchange_symbol: SAN
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SAN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/SAN-to-ETH
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/SAN:USD?refcode=H70YTMupQ
 - base:
     currency_id: 1807
     currency_symbol: SAN
@@ -114,6 +100,20 @@ markets:
     currency_symbol: SAN
     currency_type: cryptocurrency
     exchange_symbol: SAN
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SAN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/SAN-to-ETH
+- base:
+    currency_id: 1807
+    currency_symbol: SAN
+    currency_type: cryptocurrency
+    exchange_symbol: SAN
   exchange_id: 310
   exchange_name: IDEX
   pair: SAN/ETH
@@ -124,7 +124,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/san
 name: Santiment Network Token
-rank: 400
+rank: 401
 slug: santiment
 status: active
 symbol: SAN

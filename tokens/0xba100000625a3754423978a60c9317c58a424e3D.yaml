@@ -100,20 +100,6 @@ markets:
     exchange_symbol: BAL
   exchange_id: 339
   exchange_name: Bibox
-  pair: BAL/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bibox.com/exchange?coinPair=BAL_ETH
-- base:
-    currency_id: 5728
-    currency_symbol: BAL
-    currency_type: cryptocurrency
-    exchange_symbol: BAL
-  exchange_id: 339
-  exchange_name: Bibox
   pair: BAL/USDT
   quote:
     currency_id: 825
@@ -121,6 +107,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bibox.com/exchange?coinPair=BAL_USDT
+- base:
+    currency_id: 5728
+    currency_symbol: BAL
+    currency_type: cryptocurrency
+    exchange_symbol: BAL
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: BAL/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bibox.com/exchange?coinPair=BAL_ETH
 - base:
     currency_id: 5728
     currency_symbol: BAL
@@ -168,20 +168,6 @@ markets:
     currency_symbol: BAL
     currency_type: cryptocurrency
     exchange_symbol: BAL
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: BAL/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://poloniex.com/exchange#eth_bal?c=H4QD8FNW
-- base:
-    currency_id: 5728
-    currency_symbol: BAL
-    currency_type: cryptocurrency
-    exchange_symbol: BAL
   exchange_id: 310
   exchange_name: IDEX
   pair: BAL/ETH
@@ -205,6 +191,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://switcheo.exchange/markets/BAL_ETH?referral_code=DFCA09
+- base:
+    currency_id: 5728
+    currency_symbol: BAL
+    currency_type: cryptocurrency
+    exchange_symbol: BAL
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: BAL/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://poloniex.com/exchange#eth_bal?c=H4QD8FNW
 - base:
     currency_id: 5728
     currency_symbol: BAL
@@ -234,7 +234,7 @@ markets:
     exchange_symbol: ETH
   url: https://hoo.com/trade/bal-eth
 name: Balancer
-rank: 2103
+rank: 2100
 slug: balancer
 status: active
 symbol: BAL

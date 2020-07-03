@@ -27,20 +27,6 @@ markets:
     exchange_symbol: PPP
   exchange_id: 112
   exchange_name: Liquid
-  pair: PPP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/PPPBTC?affiliate=eNgws23g761816
-- base:
-    currency_id: 2036
-    currency_symbol: PPP
-    currency_type: cryptocurrency
-    exchange_symbol: PPP
-  exchange_id: 112
-  exchange_name: Liquid
   pair: PPP/ETH
   quote:
     currency_id: 1027
@@ -48,8 +34,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://app.liquid.com/exchange/PPPETH?affiliate=eNgws23g761816
+- base:
+    currency_id: 2036
+    currency_symbol: PPP
+    currency_type: cryptocurrency
+    exchange_symbol: PPP
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: PPP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/PPPBTC?affiliate=eNgws23g761816
 name: PayPie
-rank: 1067
+rank: 1116
 slug: paypie
 status: active
 symbol: PPP

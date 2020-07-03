@@ -115,20 +115,6 @@ markets:
     currency_symbol: GET
     currency_type: cryptocurrency
     exchange_symbol: GET
-  exchange_id: 158
-  exchange_name: Nocks
-  pair: GET/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://nocks.com/
-- base:
-    currency_id: 2354
-    currency_symbol: GET
-    currency_type: cryptocurrency
-    exchange_symbol: GET
   exchange_id: 363
   exchange_name: Fatbtc
   pair: GET/USDT
@@ -138,8 +124,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/
+- base:
+    currency_id: 2354
+    currency_symbol: GET
+    currency_type: cryptocurrency
+    exchange_symbol: GET
+  exchange_id: 158
+  exchange_name: Nocks
+  pair: GET/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://nocks.com/
 name: GET Protocol
-rank: 603
+rank: 619
 slug: get-protocol
 status: active
 symbol: GET
