@@ -27,20 +27,6 @@ markets:
     exchange_symbol: GTX
   exchange_id: 514
   exchange_name: Finexbox
-  pair: GTX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.finexbox.com/market/pair/GTX-BTC.html
-- base:
-    currency_id: 5366
-    currency_symbol: GTX
-    currency_type: cryptocurrency
-    exchange_symbol: GTX
-  exchange_id: 514
-  exchange_name: Finexbox
   pair: GTX/ETH
   quote:
     currency_id: 1027
@@ -48,6 +34,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.finexbox.com/market/pair/GTX-ETH.html
+- base:
+    currency_id: 5366
+    currency_symbol: GTX
+    currency_type: cryptocurrency
+    exchange_symbol: GTX
+  exchange_id: 514
+  exchange_name: Finexbox
+  pair: GTX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.finexbox.com/market/pair/GTX-BTC.html
 - base:
     currency_id: 5366
     currency_symbol: GTX
@@ -63,7 +63,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.finexbox.com/market/pair/GTX-USDT.html
 name: GoalTime N
-rank: 2443
+rank: 2455
 slug: goaltime-n
 status: active
 symbol: GTX

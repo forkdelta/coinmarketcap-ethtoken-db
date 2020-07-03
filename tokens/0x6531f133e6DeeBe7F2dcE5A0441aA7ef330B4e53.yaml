@@ -39,6 +39,20 @@ markets:
     currency_symbol: TIME
     currency_type: cryptocurrency
     exchange_symbol: TIME
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: TIME/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/TIME/BTC
+- base:
+    currency_id: 1556
+    currency_symbol: TIME
+    currency_type: cryptocurrency
+    exchange_symbol: TIME
   exchange_id: 107
   exchange_name: Livecoin
   pair: TIME/BTC
@@ -67,34 +81,6 @@ markets:
     currency_symbol: TIME
     currency_type: cryptocurrency
     exchange_symbol: TIME
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: TIME/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/TIME/BTC
-- base:
-    currency_id: 1556
-    currency_symbol: TIME
-    currency_type: cryptocurrency
-    exchange_symbol: TIME
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: TIME/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.kucoin.com/TIME-ETH
-- base:
-    currency_id: 1556
-    currency_symbol: TIME
-    currency_type: cryptocurrency
-    exchange_symbol: TIME
   exchange_id: 363
   exchange_name: Fatbtc
   pair: TIME/ETH
@@ -109,15 +95,15 @@ markets:
     currency_symbol: TIME
     currency_type: cryptocurrency
     exchange_symbol: TIME
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: TIME/BTC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: TIME/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/TIME/BTC
+    exchange_symbol: ETH
+  url: https://trade.kucoin.com/TIME-ETH
 - base:
     currency_id: 1556
     currency_symbol: TIME
@@ -181,20 +167,6 @@ markets:
     exchange_symbol: TIME
   exchange_id: 201
   exchange_name: Lykke Exchange
-  pair: TIME/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://lykke.com/exchange.php
-- base:
-    currency_id: 1556
-    currency_symbol: TIME
-    currency_type: cryptocurrency
-    exchange_symbol: TIME
-  exchange_id: 201
-  exchange_name: Lykke Exchange
   pair: TIME/CHF
   quote:
     currency_id: 2785
@@ -216,8 +188,36 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://lykke.com/exchange.php
+- base:
+    currency_id: 1556
+    currency_symbol: TIME
+    currency_type: cryptocurrency
+    exchange_symbol: TIME
+  exchange_id: 201
+  exchange_name: Lykke Exchange
+  pair: TIME/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://lykke.com/exchange.php
+- base:
+    currency_id: 1556
+    currency_symbol: TIME
+    currency_type: cryptocurrency
+    exchange_symbol: TIME
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: TIME/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/TIME/BTC
 name: Chrono.tech
-rank: 843
+rank: 840
 slug: chrono-tech
 status: active
 symbol: TIME

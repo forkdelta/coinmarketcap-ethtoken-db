@@ -23,6 +23,20 @@ markets:
     currency_symbol: RET
     currency_type: cryptocurrency
     exchange_symbol: RET
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: RET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=ret
+- base:
+    currency_id: 3280
+    currency_symbol: RET
+    currency_type: cryptocurrency
+    exchange_symbol: RET
   exchange_id: 213
   exchange_name: Mercatox
   pair: RET/ETH
@@ -32,20 +46,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://mercatox.com/exchange/RET/ETH
-- base:
-    currency_id: 3280
-    currency_symbol: RET
-    currency_type: cryptocurrency
-    exchange_symbol: RET
-  exchange_id: 542
-  exchange_name: Bitsonic
-  pair: RET/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://bitsonic.co.kr/front/exchange/ret-krw
 - base:
     currency_id: 3280
     currency_symbol: RET
@@ -65,15 +65,15 @@ markets:
     currency_symbol: RET
     currency_type: cryptocurrency
     exchange_symbol: RET
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: RET/BTC
+  exchange_id: 542
+  exchange_name: Bitsonic
+  pair: RET/KRW
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=ret
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://bitsonic.co.kr/front/exchange/ret-krw
 - base:
     currency_id: 3280
     currency_symbol: RET
@@ -89,7 +89,7 @@ markets:
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/RET/BTC
 name: RealTract
-rank: 917
+rank: 925
 slug: realtract
 status: active
 symbol: RET

@@ -43,20 +43,6 @@ markets:
     currency_symbol: XLAB
     currency_type: cryptocurrency
     exchange_symbol: XLAB
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: XLAB/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://p2pb2b.io/trade/XLAB_ETH
-- base:
-    currency_id: 4709
-    currency_symbol: XLAB
-    currency_type: cryptocurrency
-    exchange_symbol: XLAB
   exchange_id: 400
   exchange_name: Hotbit
   pair: XLAB/USDT
@@ -73,13 +59,13 @@ markets:
     exchange_symbol: XLAB
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: XLAB/BTC
+  pair: XLAB/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/XLAB_BTC
+    exchange_symbol: ETH
+  url: https://p2pb2b.io/trade/XLAB_ETH
 - base:
     currency_id: 4709
     currency_symbol: XLAB
@@ -136,8 +122,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=XLAB_BTC
+- base:
+    currency_id: 4709
+    currency_symbol: XLAB
+    currency_type: cryptocurrency
+    exchange_symbol: XLAB
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: XLAB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/XLAB_BTC
 name: XcelToken Plus
-rank: 1342
+rank: 1402
 slug: xceltoken-plus
 status: active
 symbol: XLAB

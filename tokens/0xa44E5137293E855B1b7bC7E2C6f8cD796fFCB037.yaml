@@ -31,13 +31,13 @@ markets:
     exchange_symbol: SENT
   exchange_id: 400
   exchange_name: Hotbit
-  pair: SENT/BTC
+  pair: SENT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=SENT_BTC
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=SENT_USDT
 - base:
     currency_id: 2643
     currency_symbol: SENT
@@ -59,27 +59,13 @@ markets:
     exchange_symbol: SENT
   exchange_id: 400
   exchange_name: Hotbit
-  pair: SENT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=SENT_USDT
-- base:
-    currency_id: 2643
-    currency_symbol: SENT
-    currency_type: cryptocurrency
-    exchange_symbol: SENT
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: SENT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/SENT-to-BTC
+  url: https://www.hotbit.io/exchange?symbol=SENT_BTC
 - base:
     currency_id: 2643
     currency_symbol: SENT
@@ -99,15 +85,15 @@ markets:
     currency_symbol: SENT
     currency_type: cryptocurrency
     exchange_symbol: SENT
-  exchange_id: 100
-  exchange_name: YoBit
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: SENT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://yobit.net/en/trade/SENT/BTC
+  url: https://hitbtc.com/SENT-to-BTC
 - base:
     currency_id: 2643
     currency_symbol: SENT
@@ -164,8 +150,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.coinall.com/market?product=sent_eth
+- base:
+    currency_id: 2643
+    currency_symbol: SENT
+    currency_type: cryptocurrency
+    exchange_symbol: SENT
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: SENT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/SENT/BTC
 name: Sentinel
-rank: 710
+rank: 700
 slug: sentinel
 status: active
 symbol: SENT

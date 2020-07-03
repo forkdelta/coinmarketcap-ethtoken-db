@@ -28,20 +28,6 @@ markets:
     currency_symbol: EDI
     currency_type: cryptocurrency
     exchange_symbol: EDI
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: EDI/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/edi
-- base:
-    currency_id: 5165
-    currency_symbol: EDI
-    currency_type: cryptocurrency
-    exchange_symbol: EDI
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: EDI/USDT
@@ -70,15 +56,15 @@ markets:
     currency_symbol: EDI
     currency_type: cryptocurrency
     exchange_symbol: EDI
-  exchange_id: 849
-  exchange_name: Bidesk
-  pair: EDI/BTC
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: EDI/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bidesk.com/exchange/EDI/BTC
+    exchange_symbol: ETH
+  url: https://idex.market/eth/edi
 - base:
     currency_id: 5165
     currency_symbol: EDI
@@ -100,6 +86,20 @@ markets:
     exchange_symbol: EDI
   exchange_id: 849
   exchange_name: Bidesk
+  pair: EDI/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bidesk.com/exchange/EDI/BTC
+- base:
+    currency_id: 5165
+    currency_symbol: EDI
+    currency_type: cryptocurrency
+    exchange_symbol: EDI
+  exchange_id: 849
+  exchange_name: Bidesk
   pair: EDI/USDT
   quote:
     currency_id: 825
@@ -108,7 +108,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.bidesk.com/exchange/EDI/USDT
 name: Freight Trust & Clearing Network
-rank: 2273
+rank: 2310
 slug: freight-trust-clearing-network
 status: active
 symbol: EDI

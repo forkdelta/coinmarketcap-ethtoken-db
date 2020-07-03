@@ -78,29 +78,15 @@ markets:
     currency_symbol: OXT
     currency_type: cryptocurrency
     exchange_symbol: OXT
-  exchange_id: 151
-  exchange_name: Gemini
-  pair: OXT/USD
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: OXT/BTC
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://gemini.com/
-- base:
-    currency_id: 5026
-    currency_symbol: OXT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: OXT
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: OXT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=oxt&tab=limit
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=OXT_BTC
 - base:
     currency_id: 5026
     currency_symbol: OXT
@@ -115,6 +101,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://trade.kraken.com/markets/kraken/oxt/btc
+- base:
+    currency_id: 5026
+    currency_symbol: OXT
+    currency_type: cryptocurrency
+    exchange_symbol: OXT
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: OXT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=oxt&tab=limit
 - base:
     currency_id: 5026
     currency_symbol: OXT
@@ -148,20 +148,6 @@ markets:
     currency_symbol: OXT
     currency_type: cryptocurrency
     exchange_symbol: OXT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: OXT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=OXT_BTC
-- base:
-    currency_id: 5026
-    currency_symbol: OXT
-    currency_type: cryptocurrency
-    exchange_symbol: OXT
   exchange_id: 24
   exchange_name: Kraken
   pair: OXT/USD
@@ -171,6 +157,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://trade.kraken.com/markets/kraken/oxt/usd
+- base:
+    currency_id: 5026
+    currency_symbol: OXT
+    currency_type: cryptocurrency
+    exchange_symbol: OXT
+  exchange_id: 151
+  exchange_name: Gemini
+  pair: OXT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://gemini.com/
 - base:
     currency_id: 5026
     currency_symbol: OXT
@@ -232,15 +232,15 @@ markets:
     currency_symbol: OXT
     currency_type: cryptocurrency
     exchange_symbol: OXT
-  exchange_id: 22
-  exchange_name: Bittrex
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: OXT/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://bittrex.com/Market/Index?MarketName=USDT-OXT
+  url: https://www.hotbit.io/exchange?symbol=OXT_USDT
 - base:
     currency_id: 5026
     currency_symbol: OXT
@@ -260,20 +260,6 @@ markets:
     currency_symbol: OXT
     currency_type: cryptocurrency
     exchange_symbol: OXT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: OXT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=OXT_USDT
-- base:
-    currency_id: 5026
-    currency_symbol: OXT
-    currency_type: cryptocurrency
-    exchange_symbol: OXT
   exchange_id: 595
   exchange_name: Uniswap
   pair: OXT/ETH
@@ -283,6 +269,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://uniswap.exchange/
+- base:
+    currency_id: 5026
+    currency_symbol: OXT
+    currency_type: cryptocurrency
+    exchange_symbol: OXT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: OXT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bittrex.com/Market/Index?MarketName=USDT-OXT
 - base:
     currency_id: 5026
     currency_symbol: OXT
@@ -316,20 +316,6 @@ markets:
     currency_symbol: OXT
     currency_type: cryptocurrency
     exchange_symbol: OXT
-  exchange_id: 446
-  exchange_name: TOKOK
-  pair: OXT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.tokok.com/market?symbol=OXT_USDT
-- base:
-    currency_id: 5026
-    currency_symbol: OXT
-    currency_type: cryptocurrency
-    exchange_symbol: OXT
   exchange_id: 151
   exchange_name: Gemini
   pair: OXT/ETH
@@ -339,6 +325,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gemini.com/
+- base:
+    currency_id: 5026
+    currency_symbol: OXT
+    currency_type: cryptocurrency
+    exchange_symbol: OXT
+  exchange_id: 446
+  exchange_name: TOKOK
+  pair: OXT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.tokok.com/market?symbol=OXT_USDT
 - base:
     currency_id: 5026
     currency_symbol: OXT
@@ -396,7 +396,7 @@ markets:
     exchange_symbol: USDT
   url: https://hoo.com/trade/oxt-usdt
 name: Orchid
-rank: 374
+rank: 380
 slug: orchid
 status: active
 symbol: OXT
