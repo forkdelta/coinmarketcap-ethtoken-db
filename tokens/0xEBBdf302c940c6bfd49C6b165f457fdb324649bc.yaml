@@ -71,15 +71,15 @@ markets:
     currency_symbol: HYDRO
     currency_type: cryptocurrency
     exchange_symbol: HYDRO
-  exchange_id: 22
-  exchange_name: Bittrex
+  exchange_id: 545
+  exchange_name: Bitsdaq
   pair: HYDRO/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-HYDRO
+  url: https://bitsdaq.com/exchange/HYDRO-BTC
 - base:
     currency_id: 2698
     currency_symbol: HYDRO
@@ -99,29 +99,15 @@ markets:
     currency_symbol: HYDRO
     currency_type: cryptocurrency
     exchange_symbol: HYDRO
-  exchange_id: 545
-  exchange_name: Bitsdaq
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: HYDRO/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/HYDRO-BTC
-- base:
-    currency_id: 2698
-    currency_symbol: HYDRO
-    currency_type: cryptocurrency
-    exchange_symbol: HYDRO
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: HYDRO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/hydro
+  url: https://bittrex.com/Market/Index?MarketName=BTC-HYDRO
 - base:
     currency_id: 2698
     currency_symbol: HYDRO
@@ -150,8 +136,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://mercatox.com/exchange/HYDRO/BTC
+- base:
+    currency_id: 2698
+    currency_symbol: HYDRO
+    currency_type: cryptocurrency
+    exchange_symbol: HYDRO
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: HYDRO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/hydro
 name: Hydro
-rank: 683
+rank: 675
 slug: hydrogen
 status: active
 symbol: HYDRO

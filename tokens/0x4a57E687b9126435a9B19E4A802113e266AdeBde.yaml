@@ -48,29 +48,15 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: FXC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/fxc
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
-  exchange_id: 22
-  exchange_name: Bittrex
+  exchange_id: 16
+  exchange_name: Poloniex
   pair: FXC/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-FXC
+  url: https://poloniex.com/exchange#btc_fxc?c=H4QD8FNW
 - base:
     currency_id: 3812
     currency_symbol: FXC
@@ -90,15 +76,15 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: FXC/BTC
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: FXC/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_fxc?c=H4QD8FNW
+    exchange_symbol: ETH
+  url: https://idex.market/eth/fxc
 - base:
     currency_id: 3812
     currency_symbol: FXC
@@ -118,6 +104,20 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: FXC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.fatbtc.com/trading?currency=FXC%2FETH
+- base:
+    currency_id: 3812
+    currency_symbol: FXC
+    currency_type: cryptocurrency
+    exchange_symbol: FXC
   exchange_id: 400
   exchange_name: Hotbit
   pair: FXC/ETH
@@ -132,15 +132,15 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: FXC/ETH
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: FXC/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.fatbtc.com/
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-FXC
 - base:
     currency_id: 3812
     currency_symbol: FXC
@@ -174,6 +174,20 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
+  exchange_id: 401
+  exchange_name: Switcheo Network
+  pair: FXC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://switcheo.exchange/markets/FXC_ETH?referral_code=DFCA09
+- base:
+    currency_id: 3812
+    currency_symbol: FXC
+    currency_type: cryptocurrency
+    exchange_symbol: FXC
   exchange_id: 16
   exchange_name: Poloniex
   pair: FXC/TRX
@@ -202,20 +216,6 @@ markets:
     currency_symbol: FXC
     currency_type: cryptocurrency
     exchange_symbol: FXC
-  exchange_id: 401
-  exchange_name: Switcheo Network
-  pair: FXC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://switcheo.exchange/markets/FXC_ETH?referral_code=DFCA09
-- base:
-    currency_id: 3812
-    currency_symbol: FXC
-    currency_type: cryptocurrency
-    exchange_symbol: FXC
   exchange_id: 404
   exchange_name: Kyber Network
   pair: FXC/ETH
@@ -226,7 +226,7 @@ markets:
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/fxc-eth
 name: Flexacoin
-rank: 78
+rank: 76
 slug: flexacoin
 status: active
 symbol: FXC

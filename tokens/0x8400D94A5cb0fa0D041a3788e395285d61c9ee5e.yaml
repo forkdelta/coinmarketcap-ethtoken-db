@@ -42,20 +42,6 @@ markets:
     currency_symbol: UBT
     currency_type: cryptocurrency
     exchange_symbol: UBT
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: UBT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 2758
-    currency_symbol: UBT
-    currency_type: cryptocurrency
-    exchange_symbol: UBT
   exchange_id: 415
   exchange_name: Bilaxy
   pair: UBT/ETH
@@ -65,62 +51,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bilaxy.com/trade/UBT_ETH
-- base:
-    currency_id: 2758
-    currency_symbol: UBT
-    currency_type: cryptocurrency
-    exchange_symbol: UBT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: UBT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=UBT_ETH
-- base:
-    currency_id: 2758
-    currency_symbol: UBT
-    currency_type: cryptocurrency
-    exchange_symbol: UBT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: UBT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=UBT_USDT
-- base:
-    currency_id: 2758
-    currency_symbol: UBT
-    currency_type: cryptocurrency
-    exchange_symbol: UBT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: UBT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=UBT_BTC
-- base:
-    currency_id: 2758
-    currency_symbol: UBT
-    currency_type: cryptocurrency
-    exchange_symbol: UBT
-  exchange_id: 849
-  exchange_name: Bidesk
-  pair: UBT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bidesk.com/exchange/UBT/USDT
 - base:
     currency_id: 2758
     currency_symbol: UBT
@@ -154,15 +84,57 @@ markets:
     currency_symbol: UBT
     currency_type: cryptocurrency
     exchange_symbol: UBT
-  exchange_id: 404
-  exchange_name: Kyber Network
+  exchange_id: 849
+  exchange_name: Bidesk
+  pair: UBT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bidesk.com/exchange/UBT/USDT
+- base:
+    currency_id: 2758
+    currency_symbol: UBT
+    currency_type: cryptocurrency
+    exchange_symbol: UBT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: UBT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=UBT_BTC
+- base:
+    currency_id: 2758
+    currency_symbol: UBT
+    currency_type: cryptocurrency
+    exchange_symbol: UBT
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: UBT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://kyberswap.com/swap/ubt-eth
+  url: https://www.hotbit.io/exchange?symbol=UBT_ETH
+- base:
+    currency_id: 2758
+    currency_symbol: UBT
+    currency_type: cryptocurrency
+    exchange_symbol: UBT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: UBT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=UBT_USDT
 - base:
     currency_id: 2758
     currency_symbol: UBT
@@ -182,15 +154,15 @@ markets:
     currency_symbol: UBT
     currency_type: cryptocurrency
     exchange_symbol: UBT
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: UBT/BTC
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: UBT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/UBTBTC?affiliate=eNgws23g761816
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/ubt-eth
 - base:
     currency_id: 2758
     currency_symbol: UBT
@@ -205,6 +177,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bittrex.com/Market/Index?MarketName=ETH-UBT
+- base:
+    currency_id: 2758
+    currency_symbol: UBT
+    currency_type: cryptocurrency
+    exchange_symbol: UBT
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: UBT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/UBTBTC?affiliate=eNgws23g761816
 - base:
     currency_id: 2758
     currency_symbol: UBT
@@ -247,8 +233,22 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://bitsonic.co.kr/front/exchange/ubt-krw
+- base:
+    currency_id: 2758
+    currency_symbol: UBT
+    currency_type: cryptocurrency
+    exchange_symbol: UBT
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: UBT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/trading?currency=UBT%2FUSDT
 name: Unibright
-rank: 112
+rank: 104
 slug: unibright
 status: active
 symbol: UBT

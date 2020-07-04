@@ -53,20 +53,6 @@ markets:
     currency_symbol: AMB
     currency_type: cryptocurrency
     exchange_symbol: AMB
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: AMB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.probit.com/app/exchange/AMB-BTC
-- base:
-    currency_id: 2081
-    currency_symbol: AMB
-    currency_type: cryptocurrency
-    exchange_symbol: AMB
   exchange_id: 213
   exchange_name: Mercatox
   pair: AMB/BTC
@@ -81,15 +67,29 @@ markets:
     currency_symbol: AMB
     currency_type: cryptocurrency
     exchange_symbol: AMB
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 477
+  exchange_name: ProBit Exchange
   pair: AMB/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/AMBBTC
+  url: https://www.probit.com/app/exchange/AMB-BTC
+- base:
+    currency_id: 2081
+    currency_symbol: AMB
+    currency_type: cryptocurrency
+    exchange_symbol: AMB
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: AMB/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/AMB-KRW
 - base:
     currency_id: 2081
     currency_symbol: AMB
@@ -123,15 +123,15 @@ markets:
     currency_symbol: AMB
     currency_type: cryptocurrency
     exchange_symbol: AMB
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: AMB/KRW
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: AMB/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/AMB-KRW
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/AMBBTC
 - base:
     currency_id: 2081
     currency_symbol: AMB
@@ -217,7 +217,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.livecoin.net/en/trading/AMB_BTC
 name: Ambrosus
-rank: 580
+rank: 592
 slug: amber
 status: active
 symbol: AMB

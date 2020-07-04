@@ -40,20 +40,6 @@ markets:
     currency_symbol: PAXG
     currency_type: cryptocurrency
     exchange_symbol: PAXG
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: PAXG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kraken.com/markets/kraken/paxg/btc
-- base:
-    currency_id: 4705
-    currency_symbol: PAXG
-    currency_type: cryptocurrency
-    exchange_symbol: PAXG
   exchange_id: 537
   exchange_name: Virtuse Exchange
   pair: PAXG/PAX
@@ -96,15 +82,15 @@ markets:
     currency_symbol: PAXG
     currency_type: cryptocurrency
     exchange_symbol: PAXG
-  exchange_id: 524
-  exchange_name: FTX
-  pair: PAXG/USD
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: PAXG/BTC
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://ftx.com/trade/PAXG/USD
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.kraken.com/markets/kraken/paxg/btc
 - base:
     currency_id: 4705
     currency_symbol: PAXG
@@ -152,15 +138,15 @@ markets:
     currency_symbol: PAXG
     currency_type: cryptocurrency
     exchange_symbol: PAXG
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: PAXG/USDT
+  exchange_id: 524
+  exchange_name: FTX
+  pair: PAXG/USD
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.probit.com/app/exchange/PAXG-USDT
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://ftx.com/trade/PAXG/USD
 - base:
     currency_id: 4705
     currency_symbol: PAXG
@@ -175,6 +161,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://ftx.com/trade/PAXG/USDT
+- base:
+    currency_id: 4705
+    currency_symbol: PAXG
+    currency_type: cryptocurrency
+    exchange_symbol: PAXG
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: PAXG/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.probit.com/app/exchange/PAXG-USDT
 - base:
     currency_id: 4705
     currency_symbol: PAXG
@@ -196,12 +196,12 @@ markets:
     exchange_symbol: PAXG
   exchange_id: 292
   exchange_name: Braziliex
-  pair: PAXG/BTC
+  pair: PAXG/BRL
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
+    currency_id: 2783
+    currency_symbol: BRL
+    currency_type: fiat
+    exchange_symbol: BRL
   url: https://braziliex.com
 - base:
     currency_id: 4705
@@ -238,12 +238,12 @@ markets:
     exchange_symbol: PAXG
   exchange_id: 292
   exchange_name: Braziliex
-  pair: PAXG/BRL
+  pair: PAXG/BTC
   quote:
-    currency_id: 2783
-    currency_symbol: BRL
-    currency_type: fiat
-    exchange_symbol: BRL
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://braziliex.com
 - base:
     currency_id: 4705
@@ -274,7 +274,7 @@ markets:
     exchange_symbol: ETH
   url: https://uniswap.exchange/
 name: PAX Gold
-rank: 105
+rank: 122
 slug: pax-gold
 status: active
 symbol: PAXG

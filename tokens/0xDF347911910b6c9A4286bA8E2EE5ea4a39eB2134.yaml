@@ -53,20 +53,6 @@ markets:
     exchange_symbol: BOB
   exchange_id: 82
   exchange_name: BitBay
-  pair: BOB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitbay.net/en/exchange-rate/BOB-BTC
-- base:
-    currency_id: 2889
-    currency_symbol: BOB
-    currency_type: fiat
-    exchange_symbol: BOB
-  exchange_id: 82
-  exchange_name: BitBay
   pair: BOB/PLN
   quote:
     currency_id: 2805
@@ -74,6 +60,20 @@ markets:
     currency_type: fiat
     exchange_symbol: PLN
   url: https://bitbay.net/en/exchange-rate/BOB-PLN
+- base:
+    currency_id: 2889
+    currency_symbol: BOB
+    currency_type: fiat
+    exchange_symbol: BOB
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: BOB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitbay.net/en/exchange-rate/BOB-BTC
 - base:
     currency_id: 2889
     currency_symbol: BOB
@@ -89,7 +89,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.bitmart.com/trade?symbol=BOB_ETH
 name: Bob's Repair
-rank: 1186
+rank: 1190
 slug: bobs-repair
 status: active
 symbol: BOB

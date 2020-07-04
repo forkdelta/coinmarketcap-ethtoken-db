@@ -48,7 +48,7 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.fatbtc.com/
+  url: https://www.fatbtc.com/trading?currency=OAX%2FBTC
 - base:
     currency_id: 1853
     currency_symbol: OAX
@@ -68,20 +68,6 @@ markets:
     currency_symbol: OAX
     currency_type: cryptocurrency
     exchange_symbol: OAX
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: OAX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/oax_usdt
-- base:
-    currency_id: 1853
-    currency_symbol: OAX
-    currency_type: cryptocurrency
-    exchange_symbol: OAX
   exchange_id: 42
   exchange_name: HitBTC
   pair: OAX/BTC
@@ -96,20 +82,6 @@ markets:
     currency_symbol: OAX
     currency_type: cryptocurrency
     exchange_symbol: OAX
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: OAX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://gate.io/trade/oax_btc
-- base:
-    currency_id: 1853
-    currency_symbol: OAX
-    currency_type: cryptocurrency
-    exchange_symbol: OAX
   exchange_id: 42
   exchange_name: HitBTC
   pair: OAX/USDT
@@ -119,6 +91,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/OAX-to-USDT
+- base:
+    currency_id: 1853
+    currency_symbol: OAX
+    currency_type: cryptocurrency
+    exchange_symbol: OAX
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: OAX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/oax_usdt
+- base:
+    currency_id: 1853
+    currency_symbol: OAX
+    currency_type: cryptocurrency
+    exchange_symbol: OAX
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: OAX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://gate.io/trade/oax_btc
 - base:
     currency_id: 1853
     currency_symbol: OAX
@@ -162,7 +162,7 @@ markets:
     exchange_symbol: BTC
   url: https://app.liquid.com/exchange/OAXBTC?affiliate=eNgws23g761816
 name: OAX
-rank: 599
+rank: 562
 slug: oax
 status: active
 symbol: OAX
