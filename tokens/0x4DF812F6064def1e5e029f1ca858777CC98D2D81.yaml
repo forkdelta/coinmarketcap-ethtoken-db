@@ -26,20 +26,6 @@ markets:
     currency_symbol: XAUR
     currency_type: cryptocurrency
     exchange_symbol: XAUR
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: XAUR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/XAUR_BTC
-- base:
-    currency_id: 895
-    currency_symbol: XAUR
-    currency_type: cryptocurrency
-    exchange_symbol: XAUR
   exchange_id: 213
   exchange_name: Mercatox
   pair: XAUR/BTC
@@ -62,7 +48,21 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.fatbtc.com/
+  url: https://www.fatbtc.com/trading?currency=XAUR%2FUSDT
+- base:
+    currency_id: 895
+    currency_symbol: XAUR
+    currency_type: cryptocurrency
+    exchange_symbol: XAUR
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: XAUR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/XAUR_BTC
 - base:
     currency_id: 895
     currency_symbol: XAUR
@@ -92,7 +92,7 @@ markets:
     exchange_symbol: ETH
   url: https://hitbtc.com/XAUR-to-ETH
 name: Xaurum
-rank: 677
+rank: 667
 slug: xaurum
 status: active
 symbol: XAUR

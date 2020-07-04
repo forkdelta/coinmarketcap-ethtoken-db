@@ -25,6 +25,20 @@ markets:
     exchange_symbol: CEL
   exchange_id: 112
   exchange_name: Liquid
+  pair: CEL/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/CELBTC?affiliate=eNgws23g761816
+- base:
+    currency_id: 2700
+    currency_symbol: CEL
+    currency_type: cryptocurrency
+    exchange_symbol: CEL
+  exchange_id: 112
+  exchange_name: Liquid
   pair: CEL/ETH
   quote:
     currency_id: 1027
@@ -51,20 +65,6 @@ markets:
     currency_symbol: CEL
     currency_type: cryptocurrency
     exchange_symbol: CEL
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: CEL/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/CELBTC?affiliate=eNgws23g761816
-- base:
-    currency_id: 2700
-    currency_symbol: CEL
-    currency_type: cryptocurrency
-    exchange_symbol: CEL
   exchange_id: 415
   exchange_name: Bilaxy
   pair: CEL/ETH
@@ -74,20 +74,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bilaxy.com/trade/CEL_ETH
-- base:
-    currency_id: 2700
-    currency_symbol: CEL
-    currency_type: cryptocurrency
-    exchange_symbol: CEL
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: CEL/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/cel
 - base:
     currency_id: 2700
     currency_symbol: CEL
@@ -135,6 +121,20 @@ markets:
     currency_symbol: CEL
     currency_type: cryptocurrency
     exchange_symbol: CEL
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: CEL/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/cel
+- base:
+    currency_id: 2700
+    currency_symbol: CEL
+    currency_type: cryptocurrency
+    exchange_symbol: CEL
   exchange_id: 42
   exchange_name: HitBTC
   pair: CEL/BTC
@@ -176,7 +176,7 @@ name: Celsius
 notice: 'Celsius has issued a [statement](https://twitter.com/CelsiusNetwork/status/1265374004161859584)
   indicating that it is not affiliated with Bilaxy exchange and that it has not listed the $CEL token
   with them. '
-rank: 69
+rank: 68
 slug: celsius
 status: active
 symbol: CEL

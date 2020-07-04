@@ -74,20 +74,6 @@ markets:
     exchange_symbol: BOX
   exchange_id: 42
   exchange_name: HitBTC
-  pair: BOX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/BOX-to-BTC
-- base:
-    currency_id: 3475
-    currency_symbol: BOX
-    currency_type: cryptocurrency
-    exchange_symbol: BOX
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: BOX/ETH
   quote:
     currency_id: 1027
@@ -95,6 +81,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/BOX-to-ETH
+- base:
+    currency_id: 3475
+    currency_symbol: BOX
+    currency_type: cryptocurrency
+    exchange_symbol: BOX
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BOX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/BOX-to-BTC
 - base:
     currency_id: 3475
     currency_symbol: BOX
@@ -136,9 +136,9 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.fatbtc.com/
+  url: https://www.fatbtc.com/trading?currency=BOX%2FUSDT
 name: BOX Token
-rank: 632
+rank: 648
 slug: box-token
 status: active
 symbol: BOX

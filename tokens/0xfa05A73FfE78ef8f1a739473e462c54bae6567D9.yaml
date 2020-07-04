@@ -81,21 +81,7 @@ markets:
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 1658
-    currency_symbol: LUN
-    currency_type: cryptocurrency
-    exchange_symbol: LUN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: LUN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/LUNBTC
+  url: https://www.fatbtc.com/trading?currency=LUN%2FBTC
 - base:
     currency_id: 1658
     currency_symbol: LUN
@@ -110,6 +96,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/LUN-to-BTC
+- base:
+    currency_id: 1658
+    currency_symbol: LUN
+    currency_type: cryptocurrency
+    exchange_symbol: LUN
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: LUN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/LUNBTC
 - base:
     currency_id: 1658
     currency_symbol: LUN
@@ -195,7 +195,7 @@ markets:
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/LUN/BTC
 name: Lunyr
-rank: 681
+rank: 678
 slug: lunyr
 status: active
 symbol: LUN

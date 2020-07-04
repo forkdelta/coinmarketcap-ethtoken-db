@@ -26,6 +26,20 @@ markets:
     currency_symbol: LBA
     currency_type: cryptocurrency
     exchange_symbol: LBA
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: LBA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=lba_usdt
+- base:
+    currency_id: 2760
+    currency_symbol: LBA
+    currency_type: cryptocurrency
+    exchange_symbol: LBA
   exchange_id: 544
   exchange_name: MXC
   pair: LBA/USDT
@@ -56,34 +70,6 @@ markets:
     exchange_symbol: LBA
   exchange_id: 294
   exchange_name: OKEx
-  pair: LBA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=lba_usdt
-- base:
-    currency_id: 2760
-    currency_symbol: LBA
-    currency_type: cryptocurrency
-    exchange_symbol: LBA
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: LBA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/lba_usdt?invite_code=5kij5
-- base:
-    currency_id: 2760
-    currency_symbol: LBA
-    currency_type: cryptocurrency
-    exchange_symbol: LBA
-  exchange_id: 294
-  exchange_name: OKEx
   pair: LBA/BTC
   quote:
     currency_id: 1
@@ -105,6 +91,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: PAX
   url: https://virtuse.exchange/trading
+- base:
+    currency_id: 2760
+    currency_symbol: LBA
+    currency_type: cryptocurrency
+    exchange_symbol: LBA
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: LBA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/lba_usdt?invite_code=5kij5
 - base:
     currency_id: 2760
     currency_symbol: LBA
@@ -194,34 +194,6 @@ markets:
     currency_symbol: LBA
     currency_type: cryptocurrency
     exchange_symbol: LBA
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: LBA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=lba
-- base:
-    currency_id: 2760
-    currency_symbol: LBA
-    currency_type: cryptocurrency
-    exchange_symbol: LBA
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: LBA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-LBA
-- base:
-    currency_id: 2760
-    currency_symbol: LBA
-    currency_type: cryptocurrency
-    exchange_symbol: LBA
   exchange_id: 415
   exchange_name: Bilaxy
   pair: LBA/ETH
@@ -250,15 +222,29 @@ markets:
     currency_symbol: LBA
     currency_type: cryptocurrency
     exchange_symbol: LBA
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: LBA/BNB
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: LBA/BTC
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/LBA-340_BNB
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-LBA
+- base:
+    currency_id: 2760
+    currency_symbol: LBA
+    currency_type: cryptocurrency
+    exchange_symbol: LBA
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: LBA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=lba
 - base:
     currency_id: 2760
     currency_symbol: LBA
@@ -376,6 +362,20 @@ markets:
     currency_symbol: LBA
     currency_type: cryptocurrency
     exchange_symbol: LBA
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: LBA/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/LBA-340_BNB
+- base:
+    currency_id: 2760
+    currency_symbol: LBA
+    currency_type: cryptocurrency
+    exchange_symbol: LBA
   exchange_id: 490
   exchange_name: OKEx Korea
   pair: LBA/BTC
@@ -400,7 +400,7 @@ markets:
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=LBA&market=USDT
 name: Cred
-rank: 384
+rank: 379
 slug: libra-credit
 status: active
 symbol: LBA

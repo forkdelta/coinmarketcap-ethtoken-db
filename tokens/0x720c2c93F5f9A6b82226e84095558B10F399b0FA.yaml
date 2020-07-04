@@ -29,6 +29,20 @@ markets:
     currency_symbol: GC
     currency_type: cryptocurrency
     exchange_symbol: GC
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: GC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/GC_BTC
+- base:
+    currency_id: 5001
+    currency_symbol: GC
+    currency_type: cryptocurrency
+    exchange_symbol: GC
   exchange_id: 495
   exchange_name: Folgory
   pair: GC/ETH
@@ -38,20 +52,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://folgory.com/trade-crypto/GC_ETH
-- base:
-    currency_id: 5001
-    currency_symbol: GC
-    currency_type: cryptocurrency
-    exchange_symbol: GC
-  exchange_id: 215
-  exchange_name: P2PB2B
-  pair: GC/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/GC_USD
 - base:
     currency_id: 5001
     currency_symbol: GC
@@ -73,15 +73,15 @@ markets:
     exchange_symbol: GC
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: GC/BTC
+  pair: GC/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/GC_BTC
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/GC_USD
 name: Gric Coin
-rank: 2565
+rank: 2520
 slug: gric-coin
 status: active
 symbol: GC

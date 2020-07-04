@@ -25,6 +25,20 @@ markets:
     exchange_symbol: MLN
   exchange_id: 24
   exchange_name: Kraken
+  pair: MLN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://trade.kraken.com/markets/kraken/mln/eth
+- base:
+    currency_id: 1552
+    currency_symbol: MLN
+    currency_type: cryptocurrency
+    exchange_symbol: MLN
+  exchange_id: 24
+  exchange_name: Kraken
   pair: MLN/EUR
   quote:
     currency_id: 2790
@@ -46,20 +60,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/mln-eth
-- base:
-    currency_id: 1552
-    currency_symbol: MLN
-    currency_type: cryptocurrency
-    exchange_symbol: MLN
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: MLN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.kraken.com/markets/kraken/mln/eth
 - base:
     currency_id: 1552
     currency_symbol: MLN
@@ -109,20 +109,6 @@ markets:
     exchange_symbol: MLN
   exchange_id: 42
   exchange_name: HitBTC
-  pair: MLN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/MLN-to-ETH
-- base:
-    currency_id: 1552
-    currency_symbol: MLN
-    currency_type: cryptocurrency
-    exchange_symbol: MLN
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: MLN/BTC
   quote:
     currency_id: 1
@@ -130,6 +116,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/MLN-to-BTC
+- base:
+    currency_id: 1552
+    currency_symbol: MLN
+    currency_type: cryptocurrency
+    exchange_symbol: MLN
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: MLN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/MLN-to-ETH
 - base:
     currency_id: 1552
     currency_symbol: MLN
@@ -171,7 +171,7 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.fatbtc.com/
+  url: https://www.fatbtc.com/trading?currency=MLN%2FUSDT
 - base:
     currency_id: 1552
     currency_symbol: MLN
@@ -201,7 +201,7 @@ markets:
     exchange_symbol: ETH
   url: https://hoo.com/trade/mln-eth
 name: Melon
-rank: 193
+rank: 195
 slug: melon
 status: active
 symbol: MLN

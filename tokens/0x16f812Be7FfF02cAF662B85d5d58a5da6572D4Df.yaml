@@ -36,21 +36,7 @@ markets:
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.fatbtc.com/
-- base:
-    currency_id: 2371
-    currency_symbol: UTT
-    currency_type: cryptocurrency
-    exchange_symbol: UTT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: UTT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/UTT-to-BTC
+  url: https://www.fatbtc.com/trading?currency=UTT%2FUSDT
 - base:
     currency_id: 2371
     currency_symbol: UTT
@@ -72,6 +58,20 @@ markets:
     exchange_symbol: UTT
   exchange_id: 42
   exchange_name: HitBTC
+  pair: UTT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/UTT-to-BTC
+- base:
+    currency_id: 2371
+    currency_symbol: UTT
+    currency_type: cryptocurrency
+    exchange_symbol: UTT
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: UTT/ETH
   quote:
     currency_id: 1027
@@ -80,7 +80,7 @@ markets:
     exchange_symbol: ETH
   url: https://hitbtc.com/UTT-to-ETH
 name: United Traders Token
-rank: 500
+rank: 490
 slug: uttoken
 status: active
 symbol: UTT

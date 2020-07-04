@@ -39,43 +39,15 @@ markets:
     currency_symbol: UOS
     currency_type: cryptocurrency
     exchange_symbol: UOS
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: UOS/USD
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: UOS/USDT
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/UOS:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 4189
-    currency_symbol: UOS
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: UOS
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: UOS/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/UOS:BTC?refcode=H70YTMupQ
-- base:
-    currency_id: 4189
-    currency_symbol: UOS
-    currency_type: cryptocurrency
-    exchange_symbol: UOS
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: UOS/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.fatbtc.com/
+    exchange_symbol: USDT
+  url: https://www.bitrue.com/trade/uos_usdt?inviteCode=VQQLQV
 - base:
     currency_id: 4189
     currency_symbol: UOS
@@ -111,20 +83,6 @@ markets:
     exchange_symbol: UOS
   exchange_id: 433
   exchange_name: Bitrue
-  pair: UOS/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitrue.com/trade/uos_usdt?inviteCode=VQQLQV
-- base:
-    currency_id: 4189
-    currency_symbol: UOS
-    currency_type: cryptocurrency
-    exchange_symbol: UOS
-  exchange_id: 433
-  exchange_name: Bitrue
   pair: UOS/BTC
   quote:
     currency_id: 1
@@ -132,8 +90,50 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bitrue.com/trade/uos_btc?inviteCode=VQQLQV
+- base:
+    currency_id: 4189
+    currency_symbol: UOS
+    currency_type: cryptocurrency
+    exchange_symbol: UOS
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: UOS/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/UOS:BTC?refcode=H70YTMupQ
+- base:
+    currency_id: 4189
+    currency_symbol: UOS
+    currency_type: cryptocurrency
+    exchange_symbol: UOS
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: UOS/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/UOS:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 4189
+    currency_symbol: UOS
+    currency_type: cryptocurrency
+    exchange_symbol: UOS
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: UOS/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.fatbtc.com/trading?currency=UOS%2FETH
 name: Ultra
-rank: 339
+rank: 344
 slug: ultra
 status: active
 symbol: UOS

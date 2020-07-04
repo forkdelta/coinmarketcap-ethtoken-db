@@ -39,20 +39,6 @@ markets:
     exchange_symbol: ETH
   url: https://uniswap.exchange/
 - base:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  exchange_id: 348
-  exchange_name: Radar Relay
-  pair: USDC/WETH
-  quote:
-    currency_id: 2396
-    currency_symbol: WETH
-    currency_type: cryptocurrency
-    exchange_symbol: WETH
-  url: https://app.radarrelay.com/USDC/WETH
-- base:
     currency_id: 2396
     currency_symbol: WETH
     currency_type: cryptocurrency
@@ -67,19 +53,19 @@ markets:
     exchange_symbol: DAI
   url: https://app.radarrelay.com/WETH/DAI
 - base:
-    currency_id: 3631
-    currency_symbol: FOAM
+    currency_id: 3408
+    currency_symbol: USDC
     currency_type: cryptocurrency
-    exchange_symbol: FOAM
+    exchange_symbol: USDC
   exchange_id: 348
   exchange_name: Radar Relay
-  pair: FOAM/WETH
+  pair: USDC/WETH
   quote:
     currency_id: 2396
     currency_symbol: WETH
     currency_type: cryptocurrency
     exchange_symbol: WETH
-  url: https://app.radarrelay.com/FOAM/WETH
+  url: https://app.radarrelay.com/USDC/WETH
 - base:
     currency_id: 3717
     currency_symbol: WBTC
@@ -95,19 +81,33 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/WBTC/WETH
 - base:
-    currency_id: 2130
-    currency_symbol: ENJ
+    currency_id: 1697
+    currency_symbol: BAT
     currency_type: cryptocurrency
-    exchange_symbol: ENJ
+    exchange_symbol: BAT
   exchange_id: 348
   exchange_name: Radar Relay
-  pair: ENJ/WETH
+  pair: BAT/WETH
   quote:
     currency_id: 2396
     currency_symbol: WETH
     currency_type: cryptocurrency
     exchange_symbol: WETH
-  url: https://app.radarrelay.com/ENJ/WETH
+  url: https://app.radarrelay.com/BAT/WETH
+- base:
+    currency_id: 3631
+    currency_symbol: FOAM
+    currency_type: cryptocurrency
+    exchange_symbol: FOAM
+  exchange_id: 348
+  exchange_name: Radar Relay
+  pair: FOAM/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://app.radarrelay.com/FOAM/WETH
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -122,6 +122,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: WETH
   url: https://app.radarrelay.com/LINK/WETH
+- base:
+    currency_id: 1896
+    currency_symbol: ZRX
+    currency_type: cryptocurrency
+    exchange_symbol: ZRX
+  exchange_id: 348
+  exchange_name: Radar Relay
+  pair: ZRX/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://app.radarrelay.com/ZRX/WETH
 - base:
     currency_id: 2071
     currency_symbol: REQ
@@ -165,20 +179,6 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/STMX/WETH
 - base:
-    currency_id: 1896
-    currency_symbol: ZRX
-    currency_type: cryptocurrency
-    exchange_symbol: ZRX
-  exchange_id: 348
-  exchange_name: Radar Relay
-  pair: ZRX/WETH
-  quote:
-    currency_id: 2396
-    currency_symbol: WETH
-    currency_type: cryptocurrency
-    exchange_symbol: WETH
-  url: https://app.radarrelay.com/ZRX/WETH
-- base:
     currency_id: 1104
     currency_symbol: REP
     currency_type: cryptocurrency
@@ -192,20 +192,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: WETH
   url: https://app.radarrelay.com/REP/WETH
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 348
-  exchange_name: Radar Relay
-  pair: BAT/WETH
-  quote:
-    currency_id: 2396
-    currency_symbol: WETH
-    currency_type: cryptocurrency
-    exchange_symbol: WETH
-  url: https://app.radarrelay.com/BAT/WETH
 - base:
     currency_id: 1518
     currency_symbol: MKR
@@ -291,6 +277,20 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/LPT/WETH
 - base:
+    currency_id: 2130
+    currency_symbol: ENJ
+    currency_type: cryptocurrency
+    exchange_symbol: ENJ
+  exchange_id: 348
+  exchange_name: Radar Relay
+  pair: ENJ/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://app.radarrelay.com/ENJ/WETH
+- base:
     currency_id: 2563
     currency_symbol: TUSD
     currency_type: cryptocurrency
@@ -305,7 +305,7 @@ markets:
     exchange_symbol: WETH
   url: https://app.radarrelay.com/TUSD/WETH
 name: WETH
-rank: 2229
+rank: 2223
 slug: weth
 status: active
 symbol: WETH
