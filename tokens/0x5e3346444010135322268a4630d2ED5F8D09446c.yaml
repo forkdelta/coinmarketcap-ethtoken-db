@@ -80,6 +80,20 @@ markets:
     currency_symbol: LOC
     currency_type: cryptocurrency
     exchange_symbol: LOC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: LOC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/LOC-to-BTC
+- base:
+    currency_id: 2287
+    currency_symbol: LOC
+    currency_type: cryptocurrency
+    exchange_symbol: LOC
   exchange_id: 311
   exchange_name: KuCoin
   pair: LOC/ETH
@@ -96,13 +110,13 @@ markets:
     exchange_symbol: LOC
   exchange_id: 42
   exchange_name: HitBTC
-  pair: LOC/BTC
+  pair: LOC/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/LOC-to-BTC
+    exchange_symbol: ETH
+  url: https://hitbtc.com/LOC-to-ETH
 - base:
     currency_id: 2287
     currency_symbol: LOC
@@ -117,20 +131,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/LOC-to-USDT
-- base:
-    currency_id: 2287
-    currency_symbol: LOC
-    currency_type: cryptocurrency
-    exchange_symbol: LOC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: LOC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/LOC-to-ETH
 - base:
     currency_id: 2287
     currency_symbol: LOC
@@ -202,7 +202,7 @@ markets:
     exchange_symbol: ETH
   url: https://yobit.net/en/trade/LOC/ETH
 name: LockTrip
-rank: 615
+rank: 628
 slug: lockchain
 status: active
 symbol: LOC

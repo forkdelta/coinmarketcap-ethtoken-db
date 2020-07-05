@@ -32,20 +32,6 @@ markets:
     exchange_symbol: PMA
   exchange_id: 294
   exchange_name: OKEx
-  pair: PMA/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=pma_usdk
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 294
-  exchange_name: OKEx
   pair: PMA/BTC
   quote:
     currency_id: 1
@@ -58,43 +44,15 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: PMA/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/PMA-to-BTC
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: PMA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://vcc.exchange/exchange/basic?currency=usdt&coin=pma
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: PMA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bittrex.com/Market/Index?MarketName=USDT-PMA
+  url: https://bittrex.com/Market/Index?MarketName=BTC-PMA
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -114,6 +72,34 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: PMA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bittrex.com/Market/Index?MarketName=USDT-PMA
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: PMA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://vcc.exchange/exchange/basic?currency=usdt&coin=pma
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
   exchange_id: 545
   exchange_name: Bitsdaq
   pair: PMA/BTC
@@ -128,15 +114,15 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: PMA/BTC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: PMA/USDK
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 4064
+    currency_symbol: USDK
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-PMA
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=pma_usdk
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -158,13 +144,13 @@ markets:
     exchange_symbol: PMA
   exchange_id: 42
   exchange_name: HitBTC
-  pair: PMA/ETH
+  pair: PMA/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/PMA-to-ETH
+    exchange_symbol: BTC
+  url: https://hitbtc.com/PMA-to-BTC
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -172,13 +158,13 @@ markets:
     exchange_symbol: PMA
   exchange_id: 42
   exchange_name: HitBTC
-  pair: PMA/USDT
+  pair: PMA/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/PMA-to-USDT
+    exchange_symbol: ETH
+  url: https://hitbtc.com/PMA-to-ETH
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -207,6 +193,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/pma
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: PMA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/PMA-to-USDT
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -320,7 +320,7 @@ markets:
     exchange_symbol: USD
   url: https://yobit.net/en/trade/PMA/USD
 name: PumaPay
-rank: 699
+rank: 720
 slug: pumapay
 status: active
 symbol: PMA

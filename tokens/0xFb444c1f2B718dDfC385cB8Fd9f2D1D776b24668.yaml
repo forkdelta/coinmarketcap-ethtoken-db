@@ -77,20 +77,6 @@ markets:
     currency_symbol: ELAMA
     currency_type: cryptocurrency
     exchange_symbol: ELAMA
-  exchange_id: 407
-  exchange_name: DigiFinex
-  pair: ELAMA/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.digifinex.com/en-ww/trade/USDT/ELAMA
-- base:
-    currency_id: 3734
-    currency_symbol: ELAMA
-    currency_type: cryptocurrency
-    exchange_symbol: ELAMA
   exchange_id: 333
   exchange_name: LBank
   pair: ELAMA/BTC
@@ -100,6 +86,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.lbank.info/trading/elama/btc
+- base:
+    currency_id: 3734
+    currency_symbol: ELAMA
+    currency_type: cryptocurrency
+    exchange_symbol: ELAMA
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: ELAMA/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.digifinex.com/en-ww/trade/USDT/ELAMA
 - base:
     currency_id: 3734
     currency_symbol: ELAMA
@@ -135,13 +135,13 @@ markets:
     exchange_symbol: ELAMA
   exchange_id: 400
   exchange_name: Hotbit
-  pair: ELAMA/BTC
+  pair: ELAMA/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=ELAMA_BTC
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=ELAMA_USDT
 - base:
     currency_id: 3734
     currency_symbol: ELAMA
@@ -163,15 +163,15 @@ markets:
     exchange_symbol: ELAMA
   exchange_id: 400
   exchange_name: Hotbit
-  pair: ELAMA/USDT
+  pair: ELAMA/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=ELAMA_USDT
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=ELAMA_BTC
 name: Elamachain
-rank: 228
+rank: 230
 slug: elamachain
 status: active
 symbol: ELAMA

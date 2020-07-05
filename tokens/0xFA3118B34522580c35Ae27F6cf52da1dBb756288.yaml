@@ -124,20 +124,6 @@ markets:
     currency_symbol: LET
     currency_type: cryptocurrency
     exchange_symbol: LET
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: LET/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=let_btc
-- base:
-    currency_id: 2468
-    currency_symbol: LET
-    currency_type: cryptocurrency
-    exchange_symbol: LET
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: LET/USDT
@@ -154,20 +140,6 @@ markets:
     exchange_symbol: LET
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: LET/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/let_eth/
-- base:
-    currency_id: 2468
-    currency_symbol: LET
-    currency_type: cryptocurrency
-    exchange_symbol: LET
-  exchange_id: 463
-  exchange_name: Huobi Korea
   pair: LET/BTC
   quote:
     currency_id: 1
@@ -175,8 +147,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/let_btc/
+- base:
+    currency_id: 2468
+    currency_symbol: LET
+    currency_type: cryptocurrency
+    exchange_symbol: LET
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: LET/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=let_btc
+- base:
+    currency_id: 2468
+    currency_symbol: LET
+    currency_type: cryptocurrency
+    exchange_symbol: LET
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: LET/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/let_eth/
 name: LinkEye
-rank: 694
+rank: 702
 slug: linkeye
 status: active
 symbol: LET
