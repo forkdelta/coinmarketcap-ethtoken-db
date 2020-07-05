@@ -85,20 +85,6 @@ markets:
     currency_symbol: HYDRO
     currency_type: cryptocurrency
     exchange_symbol: HYDRO
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: HYDRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=hydro
-- base:
-    currency_id: 2698
-    currency_symbol: HYDRO
-    currency_type: cryptocurrency
-    exchange_symbol: HYDRO
   exchange_id: 22
   exchange_name: Bittrex
   pair: HYDRO/BTC
@@ -113,15 +99,15 @@ markets:
     currency_symbol: HYDRO
     currency_type: cryptocurrency
     exchange_symbol: HYDRO
-  exchange_id: 112
-  exchange_name: Liquid
+  exchange_id: 733
+  exchange_name: VCC Exchange
   pair: HYDRO/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/HYDROBTC?affiliate=eNgws23g761816
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=hydro
 - base:
     currency_id: 2698
     currency_symbol: HYDRO
@@ -150,8 +136,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/hydro
+- base:
+    currency_id: 2698
+    currency_symbol: HYDRO
+    currency_type: cryptocurrency
+    exchange_symbol: HYDRO
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: HYDRO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/HYDROBTC?affiliate=eNgws23g761816
 name: Hydro
-rank: 675
+rank: 683
 slug: hydrogen
 status: active
 symbol: HYDRO

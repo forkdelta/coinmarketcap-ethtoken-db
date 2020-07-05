@@ -57,20 +57,6 @@ markets:
     currency_symbol: PLG
     currency_type: cryptocurrency
     exchange_symbol: PLG
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: PLG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-PLG
-- base:
-    currency_id: 4196
-    currency_symbol: PLG
-    currency_type: cryptocurrency
-    exchange_symbol: PLG
   exchange_id: 294
   exchange_name: OKEx
   pair: PLG/USDT
@@ -80,6 +66,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.okex.com/market?product=plg_usdt
+- base:
+    currency_id: 4196
+    currency_symbol: PLG
+    currency_type: cryptocurrency
+    exchange_symbol: PLG
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: PLG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-PLG
 - base:
     currency_id: 4196
     currency_symbol: PLG
@@ -109,7 +109,7 @@ markets:
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=plg_usdk
 name: Pledge Coin
-rank: 2317
+rank: 2296
 slug: pledge-coin
 status: active
 symbol: PLG

@@ -41,20 +41,6 @@ markets:
     exchange_symbol: EXY
   exchange_id: 82
   exchange_name: BitBay
-  pair: EXY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitbay.net/en/exchange-rate/EXY-BTC
-- base:
-    currency_id: 2547
-    currency_symbol: EXY
-    currency_type: cryptocurrency
-    exchange_symbol: EXY
-  exchange_id: 82
-  exchange_name: BitBay
   pair: EXY/PLN
   quote:
     currency_id: 2805
@@ -62,6 +48,20 @@ markets:
     currency_type: fiat
     exchange_symbol: PLN
   url: https://bitbay.net/en/exchange-rate/EXY-PLN
+- base:
+    currency_id: 2547
+    currency_symbol: EXY
+    currency_type: cryptocurrency
+    exchange_symbol: EXY
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: EXY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitbay.net/en/exchange-rate/EXY-BTC
 - base:
     currency_id: 2547
     currency_symbol: EXY
@@ -105,7 +105,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/trading?currency=EXY%2FUSDT
 name: Experty
-rank: 1036
+rank: 1028
 slug: experty
 status: active
 symbol: EXY
