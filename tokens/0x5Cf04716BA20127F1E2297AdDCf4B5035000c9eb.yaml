@@ -115,20 +115,6 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: NKN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://latoken.com/exchange/BTC-NKN
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
   exchange_id: 102
   exchange_name: Huobi Global
   pair: NKN/BTC
@@ -143,15 +129,15 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: NKN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/NKNBTC
+  url: https://latoken.com/exchange/BTC-NKN
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -199,15 +185,15 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 949
+  exchange_name: CoinDCX
   pair: NKN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/nkn_btc/
+  url: https://coindcx.com/trade/NKNBTC
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -255,6 +241,20 @@ markets:
     currency_symbol: NKN
     currency_type: cryptocurrency
     exchange_symbol: NKN
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: NKN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.huobi.co.kr/en-US/exchange/nkn_usdt/
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
   exchange_id: 302
   exchange_name: Gate.io
   pair: NKN/ETH
@@ -264,6 +264,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://gate.io/trade/nkn_eth
+- base:
+    currency_id: 2780
+    currency_symbol: NKN
+    currency_type: cryptocurrency
+    exchange_symbol: NKN
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: NKN/HT
+  quote:
+    currency_id: 2502
+    currency_symbol: HT
+    currency_type: cryptocurrency
+    exchange_symbol: HT
+  url: https://www.huobi.co.kr/en-US/exchange/nkn_ht/
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -285,27 +299,13 @@ markets:
     exchange_symbol: NKN
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: NKN/USDT
+  pair: NKN/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/nkn_usdt/
-- base:
-    currency_id: 2780
-    currency_symbol: NKN
-    currency_type: cryptocurrency
-    exchange_symbol: NKN
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: NKN/HT
-  quote:
-    currency_id: 2502
-    currency_symbol: HT
-    currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.huobi.co.kr/en-US/exchange/nkn_ht/
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/nkn_btc/
 - base:
     currency_id: 2780
     currency_symbol: NKN
@@ -335,7 +335,7 @@ markets:
     exchange_symbol: ETH
   url: https://switcheo.exchange/markets/NKN_ETH?referral_code=DFCA09
 name: NKN
-rank: 389
+rank: 390
 slug: nkn
 status: active
 symbol: NKN

@@ -99,20 +99,6 @@ markets:
     exchange_symbol: MDT
   exchange_id: 407
   exchange_name: DigiFinex
-  pair: MDT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.digifinex.com/en-ww/trade/BTC/MDT
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
-  exchange_id: 407
-  exchange_name: DigiFinex
   pair: MDT/ETH
   quote:
     currency_id: 1027
@@ -120,6 +106,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.digifinex.com/en-ww/trade/ETH/MDT
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: MDT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.digifinex.com/en-ww/trade/BTC/MDT
 - base:
     currency_id: 2348
     currency_symbol: MDT
@@ -209,6 +209,20 @@ markets:
     currency_symbol: MDT
     currency_type: cryptocurrency
     exchange_symbol: MDT
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: MDT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://poloniex.com/exchange#usdt_mdt?c=H4QD8FNW
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
   exchange_id: 302
   exchange_name: Gate.io
   pair: MDT/BTC
@@ -232,20 +246,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://poloniex.com/exchange#btc_mdt?c=H4QD8FNW
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: MDT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://poloniex.com/exchange#usdt_mdt?c=H4QD8FNW
 - base:
     currency_id: 2348
     currency_symbol: MDT
@@ -293,20 +293,6 @@ markets:
     currency_symbol: MDT
     currency_type: cryptocurrency
     exchange_symbol: MDT
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: MDT/TRX
-  quote:
-    currency_id: 1958
-    currency_symbol: TRX
-    currency_type: cryptocurrency
-    exchange_symbol: TRX
-  url: https://poloniex.com/exchange#trx_mdt?c=H4QD8FNW
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
   exchange_id: 528
   exchange_name: BiKi
   pair: MDT/USDT
@@ -344,8 +330,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=MDT&market=USDT
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: MDT/TRX
+  quote:
+    currency_id: 1958
+    currency_symbol: TRX
+    currency_type: cryptocurrency
+    exchange_symbol: TRX
+  url: https://poloniex.com/exchange#trx_mdt?c=H4QD8FNW
 name: Measurable Data Token
-rank: 640
+rank: 633
 slug: measurable-data-token
 status: active
 symbol: MDT

@@ -20,20 +20,6 @@ links:
   - https://www.cryptoholding.com
 markets:
 - base:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  exchange_id: 594
-  exchange_name: Bitci
-  pair: BTC/CHFT
-  quote:
-    currency_id: 5513
-    currency_symbol: CHFT
-    currency_type: cryptocurrency
-    exchange_symbol: CHFT
-  url: https://www.bitci.com/Trans/Main#!/Order/BTC_CHFT
-- base:
     currency_id: 5513
     currency_symbol: CHFT
     currency_type: cryptocurrency
@@ -47,6 +33,20 @@ markets:
     currency_type: fiat
     exchange_symbol: TRY
   url: https://www.bitci.com/Trans/Main#!/Order/CHFT_TRY
+- base:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  exchange_id: 594
+  exchange_name: Bitci
+  pair: BTC/CHFT
+  quote:
+    currency_id: 5513
+    currency_symbol: CHFT
+    currency_type: cryptocurrency
+    exchange_symbol: CHFT
+  url: https://www.bitci.com/Trans/Main#!/Order/BTC_CHFT
 - base:
     currency_id: 1975
     currency_symbol: LINK
@@ -160,19 +160,19 @@ markets:
     exchange_symbol: CHFT
   url: https://www.bitci.com/Trans/Main#!/Order/NPXS_CHFT
 - base:
-    currency_id: 1896
-    currency_symbol: ZRX
+    currency_id: 2299
+    currency_symbol: ELF
     currency_type: cryptocurrency
-    exchange_symbol: ZRX
+    exchange_symbol: ELF
   exchange_id: 594
   exchange_name: Bitci
-  pair: ZRX/CHFT
+  pair: ELF/CHFT
   quote:
     currency_id: 5513
     currency_symbol: CHFT
     currency_type: cryptocurrency
     exchange_symbol: CHFT
-  url: https://www.bitci.com/Trans/Main#!/Order/ZRX_CHFT
+  url: https://www.bitci.com/Trans/Main#!/Order/ELF_CHFT
 - base:
     currency_id: 1437
     currency_symbol: ZEC
@@ -187,20 +187,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: CHFT
   url: https://www.bitci.com/Trans/Main#!/Order/ZEC_CHFT
-- base:
-    currency_id: 2299
-    currency_symbol: ELF
-    currency_type: cryptocurrency
-    exchange_symbol: ELF
-  exchange_id: 594
-  exchange_name: Bitci
-  pair: ELF/CHFT
-  quote:
-    currency_id: 5513
-    currency_symbol: CHFT
-    currency_type: cryptocurrency
-    exchange_symbol: CHFT
-  url: https://www.bitci.com/Trans/Main#!/Order/ELF_CHFT
 - base:
     currency_id: 2682
     currency_symbol: HOT
@@ -244,6 +230,20 @@ markets:
     exchange_symbol: CHFT
   url: https://www.bitci.com/Trans/Main#!/Order/DASH_CHFT
 - base:
+    currency_id: 1896
+    currency_symbol: ZRX
+    currency_type: cryptocurrency
+    exchange_symbol: ZRX
+  exchange_id: 594
+  exchange_name: Bitci
+  pair: ZRX/CHFT
+  quote:
+    currency_id: 5513
+    currency_symbol: CHFT
+    currency_type: cryptocurrency
+    exchange_symbol: CHFT
+  url: https://www.bitci.com/Trans/Main#!/Order/ZRX_CHFT
+- base:
     currency_id: 2083
     currency_symbol: BTG
     currency_type: cryptocurrency
@@ -258,7 +258,7 @@ markets:
     exchange_symbol: CHFT
   url: https://www.bitci.com/Trans/Main#!/Order/BTG_CHFT
 name: Crypto Holding Frank Token
-rank: 2190
+rank: 2211
 slug: crypto-holding-frank-token
 status: active
 symbol: CHFT

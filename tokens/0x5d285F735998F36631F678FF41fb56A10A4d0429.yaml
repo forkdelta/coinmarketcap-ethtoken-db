@@ -55,20 +55,6 @@ markets:
     exchange_symbol: MIX
   exchange_id: 400
   exchange_name: Hotbit
-  pair: MIX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=MIX_BTC
-- base:
-    currency_id: 4366
-    currency_symbol: MIX
-    currency_type: cryptocurrency
-    exchange_symbol: MIX
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: MIX/USDT
   quote:
     currency_id: 825
@@ -81,15 +67,15 @@ markets:
     currency_symbol: MIX
     currency_type: cryptocurrency
     exchange_symbol: MIX
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: MIX/USDT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: MIX/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/mix_usdt
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=MIX_BTC
 - base:
     currency_id: 4366
     currency_symbol: MIX
@@ -109,15 +95,15 @@ markets:
     currency_symbol: MIX
     currency_type: cryptocurrency
     exchange_symbol: MIX
-  exchange_id: 489
-  exchange_name: Bithumb Global
+  exchange_id: 302
+  exchange_name: Gate.io
   pair: MIX/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=MIX_USDT
+  url: https://gate.io/trade/mix_usdt
 - base:
     currency_id: 4366
     currency_symbol: MIX
@@ -132,6 +118,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=MIX_ETH
+- base:
+    currency_id: 4366
+    currency_symbol: MIX
+    currency_type: cryptocurrency
+    exchange_symbol: MIX
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: MIX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=MIX_USDT
 - base:
     currency_id: 4366
     currency_symbol: MIX

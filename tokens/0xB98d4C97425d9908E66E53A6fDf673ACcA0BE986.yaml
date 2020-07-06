@@ -44,20 +44,6 @@ markets:
     currency_symbol: ABT
     currency_type: cryptocurrency
     exchange_symbol: ABT
-  exchange_id: 398
-  exchange_name: DragonEX
-  pair: ABT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://dragonex.io
-- base:
-    currency_id: 2545
-    currency_symbol: ABT
-    currency_type: cryptocurrency
-    exchange_symbol: ABT
   exchange_id: 294
   exchange_name: OKEx
   pair: ABT/ETH
@@ -67,6 +53,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.okex.com/market?product=abt_eth
+- base:
+    currency_id: 2545
+    currency_symbol: ABT
+    currency_type: cryptocurrency
+    exchange_symbol: ABT
+  exchange_id: 398
+  exchange_name: DragonEX
+  pair: ABT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://dragonex.io
 - base:
     currency_id: 2545
     currency_symbol: ABT
@@ -128,6 +128,20 @@ markets:
     currency_symbol: ABT
     currency_type: cryptocurrency
     exchange_symbol: ABT
+  exchange_id: 673
+  exchange_name: UPEX
+  pair: ABT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upex.io/trade/ABT_BTC
+- base:
+    currency_id: 2545
+    currency_symbol: ABT
+    currency_type: cryptocurrency
+    exchange_symbol: ABT
   exchange_id: 302
   exchange_name: Gate.io
   pair: ABT/USDT
@@ -142,15 +156,15 @@ markets:
     currency_symbol: ABT
     currency_type: cryptocurrency
     exchange_symbol: ABT
-  exchange_id: 673
-  exchange_name: UPEX
-  pair: ABT/BTC
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: ABT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upex.io/trade/ABT_BTC
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/trading?currency=ABT%2FUSDT
 - base:
     currency_id: 2545
     currency_symbol: ABT
@@ -184,15 +198,15 @@ markets:
     currency_symbol: ABT
     currency_type: cryptocurrency
     exchange_symbol: ABT
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: ABT/USDT
+  exchange_id: 436
+  exchange_name: Bitkub
+  pair: ABT/THB
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.fatbtc.com/trading?currency=ABT%2FUSDT
+    currency_id: 2809
+    currency_symbol: THB
+    currency_type: fiat
+    exchange_symbol: THB
+  url: https://www.bitkub.com/signup?ref=250462
 - base:
     currency_id: 2545
     currency_symbol: ABT
@@ -212,15 +226,15 @@ markets:
     currency_symbol: ABT
     currency_type: cryptocurrency
     exchange_symbol: ABT
-  exchange_id: 436
-  exchange_name: Bitkub
-  pair: ABT/THB
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: ABT/ETH
   quote:
-    currency_id: 2809
-    currency_symbol: THB
-    currency_type: fiat
-    exchange_symbol: THB
-  url: https://www.bitkub.com/signup?ref=250462
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/abt_eth
 - base:
     currency_id: 2545
     currency_symbol: ABT
@@ -235,20 +249,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/abt_btc/
-- base:
-    currency_id: 2545
-    currency_symbol: ABT
-    currency_type: cryptocurrency
-    exchange_symbol: ABT
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: ABT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/abt_eth
 - base:
     currency_id: 2545
     currency_symbol: ABT
@@ -376,7 +376,7 @@ markets:
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/abt-eth
 name: Arcblock
-rank: 395
+rank: 397
 slug: arcblock
 status: active
 symbol: ABT

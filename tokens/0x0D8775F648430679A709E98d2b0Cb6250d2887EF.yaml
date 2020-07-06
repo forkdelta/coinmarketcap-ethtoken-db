@@ -88,20 +88,6 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: BAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=bat&tab=limit
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
   exchange_id: 270
   exchange_name: Binance
   pair: BAT/BTC
@@ -116,15 +102,15 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: BAT/USDC
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: BAT/BTC
   quote:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://pro.coinbase.com/trade/BAT-USDC
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=bat&tab=limit
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -144,62 +130,6 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 537
-  exchange_name: Virtuse Exchange
-  pair: BAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://virtuse.exchange/trading
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: BAT/BCH
-  quote:
-    currency_id: 1831
-    currency_symbol: BCH
-    currency_type: cryptocurrency
-    exchange_symbol: BCH
-  url: https://www.coinex.com/trading?currency=bch&dest=bat&tab=limit
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 497
-  exchange_name: Bione
-  pair: BAT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bione.cc/index/trade/index/market/bat_usdt
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 155
-  exchange_name: Exrates
-  pair: BAT/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://exrates.me/trading/BATUSD
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
   exchange_id: 350
   exchange_name: CoinEx
   pair: BAT/ETH
@@ -209,6 +139,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.coinex.com/trading?currency=eth&dest=bat&tab=limit
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 537
+  exchange_name: Virtuse Exchange
+  pair: BAT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://virtuse.exchange/trading
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -228,29 +172,57 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 350
-  exchange_name: CoinEx
+  exchange_id: 497
+  exchange_name: Bione
   pair: BAT/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=bat&tab=limit
+  url: https://www.bione.cc/index/trade/index/market/bat_usdt
 - base:
     currency_id: 1697
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: BAT/USDT
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: BAT/USDC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 3408
+    currency_symbol: USDC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bitrue.com/trade/bat_usdt?inviteCode=VQQLQV
+    exchange_symbol: USDC
+  url: https://pro.coinbase.com/trade/BAT-USDC
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: BAT/BCH
+  quote:
+    currency_id: 1831
+    currency_symbol: BCH
+    currency_type: cryptocurrency
+    exchange_symbol: BCH
+  url: https://www.coinex.com/trading?currency=bch&dest=bat&tab=limit
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: BAT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://exrates.me/trading/BATUSD
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -312,15 +284,29 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 155
-  exchange_name: Exrates
-  pair: BAT/BTC
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: BAT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exrates.me/trading/BATBTC
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=bat&tab=limit
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: BAT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bitrue.com/trade/bat_usdt?inviteCode=VQQLQV
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -340,6 +326,20 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: BAT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://dex-trade.com/en?currencyIn=BAT&currencyTo=BTC
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
   exchange_id: 497
   exchange_name: Bione
   pair: BAT/BTC
@@ -349,6 +349,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bione.cc/index/trade/index/market/bat_btc
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: BAT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitmart.com/trade?symbol=BAT_ETH
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -368,34 +382,6 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: BAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://dex-trade.com/en?currencyIn=BAT&currencyTo=BTC
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 501
-  exchange_name: WhiteBIT
-  pair: BAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://whitebit.com/trade/BAT_BTC
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
   exchange_id: 388
   exchange_name: Sistemkoin
   pair: BAT/BTC
@@ -410,15 +396,29 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: BAT/ETH
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: BAT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitmart.com/trade?symbol=BAT_ETH
+    exchange_symbol: BTC
+  url: https://exrates.me/trading/BATBTC
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 501
+  exchange_name: WhiteBIT
+  pair: BAT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://whitebit.com/trade/BAT_BTC
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -452,34 +452,6 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: BAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitrue.com/trade/bat_btc?inviteCode=VQQLQV
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BAT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.binance.com/en/trade/BAT_ETH?ref=H31B921U
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
   exchange_id: 294
   exchange_name: OKEx
   pair: BAT/BTC
@@ -494,15 +466,15 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: BAT/KRW
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: BAT/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-BAT
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitrue.com/trade/bat_btc?inviteCode=VQQLQV
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -522,6 +494,20 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: BAT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/bat_usdt?invite_code=5kij5
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
   exchange_id: 468
   exchange_name: OceanEx
   pair: BAT/VET
@@ -536,15 +522,15 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: BAT/USDT
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: BAT/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/bat_usdt?invite_code=5kij5
+    exchange_symbol: BTC
+  url: https://latoken.com/exchange/BTC-BAT
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -564,15 +550,15 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: BAT/ETH
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: BAT/KRW
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bkex.com/trade/BAT_ETH
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-BAT
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -592,15 +578,15 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 404
-  exchange_name: Kyber Network
+  exchange_id: 270
+  exchange_name: Binance
   pair: BAT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://kyberswap.com/swap/bat-eth
+  url: https://www.binance.com/en/trade/BAT_ETH?ref=H31B921U
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -615,62 +601,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://sistemkoin.com/#/
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: BAT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://pro.coinbase.com/trade/BAT-ETH
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 225
-  exchange_name: Paribu
-  pair: BAT/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.paribu.com/
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 537
-  exchange_name: Virtuse Exchange
-  pair: BAT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://virtuse.exchange/trading
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: BAT/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://alterdice.com/trading/BATUSD
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -704,29 +634,15 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 630
-  exchange_name: Binance.US
-  pair: BAT/USD
+  exchange_id: 537
+  exchange_name: Virtuse Exchange
+  pair: BAT/USDT
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.binance.us/en/trade/BAT_USD
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: BAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/bat_btc?invite_code=5kij5
+    exchange_symbol: USDT
+  url: https://virtuse.exchange/trading
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -760,29 +676,15 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 853
-  exchange_name: AAX
-  pair: BAT/BTC
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: BAT/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.aax.com/spot/trade/BAT:BTC
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 673
-  exchange_name: UPEX
-  pair: BAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upex.io/trade/BAT_BTC
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://alterdice.com/trading/BATUSD
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -802,43 +704,85 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 24
-  exchange_name: Kraken
-  pair: BAT/EUR
+  exchange_id: 853
+  exchange_name: AAX
+  pair: BAT/BTC
   quote:
-    currency_id: 2790
-    currency_symbol: EUR
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.aax.com/spot/trade/BAT:BTC
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 482
+  exchange_name: BKEX
+  pair: BAT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bkex.com/trade/BAT_ETH
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: BAT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/bat-eth
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 225
+  exchange_name: Paribu
+  pair: BAT/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
     currency_type: fiat
-    exchange_symbol: EUR
-  url: https://trade.kraken.com/markets/kraken/bat/eur
+    exchange_symbol: TRY
+  url: https://www.paribu.com/
 - base:
     currency_id: 1697
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: BAT/ETH
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: BAT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/bat_btc?invite_code=5kij5
 - base:
     currency_id: 1697
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: BAT/ETH
+  exchange_id: 473
+  exchange_name: Hubi
+  pair: BAT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://dex-trade.com/en?currencyIn=BAT&currencyTo=ETH
+    exchange_symbol: BTC
+  url: https://www.hubi.com/#/exchange/bat_btc
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -858,34 +802,6 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BAT/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/BAT_BNB?ref=H31B921U
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: BAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://latoken.com/exchange/BTC-BAT
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
   exchange_id: 723
   exchange_name: Rekeningku.com
   pair: BAT/IDR
@@ -900,15 +816,43 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: BAT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://pro.coinbase.com/trade/BAT-ETH
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 673
+  exchange_name: UPEX
+  pair: BAT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upex.io/trade/BAT_BTC
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
   exchange_id: 24
   exchange_name: Kraken
-  pair: BAT/USD
+  pair: BAT/EUR
   quote:
-    currency_id: 2781
-    currency_symbol: USD
+    currency_id: 2790
+    currency_symbol: EUR
     currency_type: fiat
-    exchange_symbol: USD
-  url: https://trade.kraken.com/markets/kraken/bat/usd
+    exchange_symbol: EUR
+  url: https://trade.kraken.com/markets/kraken/bat/eur
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -928,29 +872,43 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 155
-  exchange_name: Exrates
-  pair: BAT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://exrates.me/trading/BATETH
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 107
+  exchange_name: Livecoin
   pair: BAT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/BAT-to-BTC
+  url: https://www.livecoin.net/en/trading/BAT_BTC
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: BAT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 630
+  exchange_name: Binance.US
+  pair: BAT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.binance.us/en/trade/BAT_USD
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -970,6 +928,20 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
+  exchange_id: 24
+  exchange_name: Kraken
+  pair: BAT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://trade.kraken.com/markets/kraken/bat/usd
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
   exchange_id: 495
   exchange_name: Folgory
   pair: BAT/ETH
@@ -984,141 +956,29 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 433
-  exchange_name: Bitrue
+  exchange_id: 355
+  exchange_name: Vebitcoin
+  pair: BAT/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.vebitcoin.com/
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 154
+  exchange_name: Dex-Trade
   pair: BAT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.bitrue.com/trade/bat_eth?inviteCode=VQQLQV
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: BAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/BAT_BTC
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: BAT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/BATUSDT
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: BAT/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/BAT
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: BAT/XRP
-  quote:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://www.bitrue.com/trade/bat_xrp?inviteCode=VQQLQV
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: BAT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://alterdice.com/trading/BATETH
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: BAT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://omgfin.com/exchange/trade/market/BATETH
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: BAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/BAT/BTC
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BAT/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://www.binance.com/en/trade/BAT_USDC?ref=H31B921U
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: BAT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/BATUSDT
+  url: https://dex-trade.com/en?currencyIn=BAT&currencyTo=ETH
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -1138,6 +998,34 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: BAT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://omgfin.com/exchange/trade/market/BATETH
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: BAT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://omgfin.com/exchange/trade/market/BATUSDT
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
   exchange_id: 380
   exchange_name: LATOKEN
   pair: BAT/ETH
@@ -1152,29 +1040,85 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: BAT/BUSD
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: BAT/BTC
   quote:
-    currency_id: 4687
-    currency_symbol: BUSD
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BUSD
-  url: https://www.binance.com/en/trade/BAT_BUSD?ref=H31B921U
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/BAT/BTC
 - base:
     currency_id: 1697
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 630
-  exchange_name: Binance.US
-  pair: BAT/USDT
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: BAT/XRP
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 52
+    currency_symbol: XRP
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.us/en/trade/BAT_USDT
+    exchange_symbol: XRP
+  url: https://www.bitrue.com/trade/bat_xrp?inviteCode=VQQLQV
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: BAT/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/BAT
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: BAT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=bat
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: BAT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-BAT
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 545
+  exchange_name: Bitsdaq
+  pair: BAT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitsdaq.com/exchange/BAT-BTC
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -1208,29 +1152,15 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: BAT/BTC
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: BAT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/BAT-BTC
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: BAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-BAT
+    exchange_symbol: ETH
+  url: https://exrates.me/trading/BATETH
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -1250,29 +1180,29 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: BAT/BTC
+  exchange_id: 520
+  exchange_name: Bitvavo
+  pair: BAT/EUR
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=bat
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://account.bitvavo.com/markets/BAT-EUR
 - base:
     currency_id: 1697
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 355
-  exchange_name: Vebitcoin
-  pair: BAT/TRY
+  exchange_id: 270
+  exchange_name: Binance
+  pair: BAT/BUSD
   quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.vebitcoin.com/
+    currency_id: 4687
+    currency_symbol: BUSD
+    currency_type: cryptocurrency
+    exchange_symbol: BUSD
+  url: https://www.binance.com/en/trade/BAT_BUSD?ref=H31B921U
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -1292,15 +1222,29 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 645
-  exchange_name: BitUBU
-  pair: BAT/USDT
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: BAT/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitubu.com/trading/batusdt
+    exchange_symbol: ETH
+  url: https://www.bitrue.com/trade/bat_eth?inviteCode=VQQLQV
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 481
+  exchange_name: Alterdice
+  pair: BAT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://alterdice.com/trading/BATETH
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -1308,55 +1252,41 @@ markets:
     exchange_symbol: BAT
   exchange_id: 949
   exchange_name: CoinDCX
-  pair: BAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/BATBTC
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 370
-  exchange_name: Zebpay
-  pair: BAT/INR
-  quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://www.zebpay.com/
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 890
-  exchange_name: Bitay
-  pair: BAT/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.bitay.com/en/t/BATTRY
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
-  exchange_id: 425
-  exchange_name: WazirX
   pair: BAT/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://wazirx.com/exchange/BAT-USDT
+  url: https://coindcx.com/trade/BATUSDT
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: BAT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/BAT-to-BTC
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: BAT/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/BAT_BNB?ref=H31B921U
 - base:
     currency_id: 1697
     currency_symbol: BAT
@@ -1376,20 +1306,6 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 483
-  exchange_name: Hanbitco
-  pair: BAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hanbitco.com/exchange-basic/bat_btc
-- base:
-    currency_id: 1697
-    currency_symbol: BAT
-    currency_type: cryptocurrency
-    exchange_symbol: BAT
   exchange_id: 24
   exchange_name: Kraken
   pair: BAT/BTC
@@ -1404,29 +1320,113 @@ markets:
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 520
-  exchange_name: Bitvavo
-  pair: BAT/EUR
+  exchange_id: 645
+  exchange_name: BitUBU
+  pair: BAT/USDT
   quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://account.bitvavo.com/markets/BAT-EUR
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitubu.com/trading/batusdt
 - base:
     currency_id: 1697
     currency_symbol: BAT
     currency_type: cryptocurrency
     exchange_symbol: BAT
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: BAT/ETH
+  exchange_id: 483
+  exchange_name: Hanbitco
+  pair: BAT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/bat_eth?invite_code=5kij5
+    exchange_symbol: BTC
+  url: https://www.hanbitco.com/exchange-basic/bat_btc
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: BAT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/BATBTC
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 630
+  exchange_name: Binance.US
+  pair: BAT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.us/en/trade/BAT_USDT
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 151
+  exchange_name: Gemini
+  pair: BAT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://gemini.com/
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 485
+  exchange_name: CoinField
+  pair: BAT/XRP
+  quote:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  url: https://trade.coinfield.com/pro/trade/BAT-XRP
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: BAT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://omgfin.com/exchange/trade/market/BATBTC
+- base:
+    currency_id: 1697
+    currency_symbol: BAT
+    currency_type: cryptocurrency
+    exchange_symbol: BAT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: BAT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://bittrex.com/Market/Index?MarketName=USD-BAT
 name: Basic Attention Token
 rank: 32
 slug: basic-attention-token

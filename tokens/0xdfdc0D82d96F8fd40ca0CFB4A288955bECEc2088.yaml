@@ -21,20 +21,6 @@ markets:
     exchange_symbol: MTC
   exchange_id: 339
   exchange_name: Bibox
-  pair: MTC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bibox.com/exchange?coinPair=MTC_BTC
-- base:
-    currency_id: 2936
-    currency_symbol: MTC
-    currency_type: cryptocurrency
-    exchange_symbol: MTC
-  exchange_id: 339
-  exchange_name: Bibox
   pair: MTC/ETH
   quote:
     currency_id: 1027
@@ -42,6 +28,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bibox.com/exchange?coinPair=MTC_ETH
+- base:
+    currency_id: 2936
+    currency_symbol: MTC
+    currency_type: cryptocurrency
+    exchange_symbol: MTC
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: MTC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bibox.com/exchange?coinPair=MTC_BTC
 - base:
     currency_id: 2936
     currency_symbol: MTC
@@ -57,7 +57,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.bibox.com/exchange?coinPair=MTC_USDT
 name: MTC Mesh Network
-rank: 1505
+rank: 978
 slug: mtc-mesh-network
 status: active
 symbol: MTC

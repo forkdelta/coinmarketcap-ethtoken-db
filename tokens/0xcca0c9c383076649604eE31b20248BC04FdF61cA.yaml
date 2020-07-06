@@ -39,20 +39,6 @@ markets:
     exchange_symbol: BTMX
   exchange_id: 453
   exchange_name: BitMax
-  pair: BTMX/PAX
-  quote:
-    currency_id: 3330
-    currency_symbol: PAX
-    currency_type: cryptocurrency
-    exchange_symbol: PAX
-  url: https://bitmax.io/#/trade/pax/btmx
-- base:
-    currency_id: 3673
-    currency_symbol: BTMX
-    currency_type: cryptocurrency
-    exchange_symbol: BTMX
-  exchange_id: 453
-  exchange_name: BitMax
   pair: BTMX/BTC
   quote:
     currency_id: 1
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bitmax.io/#/trade/btc/btmx
+- base:
+    currency_id: 3673
+    currency_symbol: BTMX
+    currency_type: cryptocurrency
+    exchange_symbol: BTMX
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: BTMX/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://bitmax.io/#/trade/pax/btmx
 - base:
     currency_id: 3673
     currency_symbol: BTMX
@@ -117,7 +117,7 @@ markets:
     exchange_symbol: PERP
   url: https://ftx.com/trade/BTMX/USD
 name: BitMax Token
-rank: 265
+rank: 268
 slug: bitmax-token
 status: active
 symbol: BTMX
