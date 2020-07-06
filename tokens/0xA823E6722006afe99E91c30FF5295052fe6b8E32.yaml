@@ -57,6 +57,20 @@ markets:
     currency_symbol: NEU
     currency_type: cryptocurrency
     exchange_symbol: NEU
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: NEU/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://bitbay.net/en/exchange-rate/NEU-EUR
+- base:
+    currency_id: 2318
+    currency_symbol: NEU
+    currency_type: cryptocurrency
+    exchange_symbol: NEU
   exchange_id: 42
   exchange_name: HitBTC
   pair: NEU/BTC
@@ -73,13 +87,13 @@ markets:
     exchange_symbol: NEU
   exchange_id: 82
   exchange_name: BitBay
-  pair: NEU/EUR
+  pair: NEU/BTC
   quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://bitbay.net/en/exchange-rate/NEU-EUR
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitbay.net/en/exchange-rate/NEU-BTC
 - base:
     currency_id: 2318
     currency_symbol: NEU
@@ -129,20 +143,6 @@ markets:
     exchange_symbol: NEU
   exchange_id: 82
   exchange_name: BitBay
-  pair: NEU/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitbay.net/en/exchange-rate/NEU-BTC
-- base:
-    currency_id: 2318
-    currency_symbol: NEU
-    currency_type: cryptocurrency
-    exchange_symbol: NEU
-  exchange_id: 82
-  exchange_name: BitBay
   pair: NEU/USD
   quote:
     currency_id: 2781
@@ -165,7 +165,7 @@ markets:
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/NEU/BTC
 name: Neumark
-rank: 541
+rank: 527
 slug: neumark
 status: active
 symbol: NEU

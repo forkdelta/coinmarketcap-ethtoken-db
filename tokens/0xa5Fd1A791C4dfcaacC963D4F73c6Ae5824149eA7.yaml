@@ -29,20 +29,6 @@ markets:
     currency_symbol: JNT
     currency_type: cryptocurrency
     exchange_symbol: JNT
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: JNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-JNT
-- base:
-    currency_id: 2498
-    currency_symbol: JNT
-    currency_type: cryptocurrency
-    exchange_symbol: JNT
   exchange_id: 302
   exchange_name: Gate.io
   pair: JNT/USDT
@@ -85,6 +71,20 @@ markets:
     currency_symbol: JNT
     currency_type: cryptocurrency
     exchange_symbol: JNT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: JNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://gate.io/trade/jnt_btc
+- base:
+    currency_id: 2498
+    currency_symbol: JNT
+    currency_type: cryptocurrency
+    exchange_symbol: JNT
   exchange_id: 22
   exchange_name: Bittrex
   pair: JNT/BTC
@@ -99,15 +99,15 @@ markets:
     currency_symbol: JNT
     currency_type: cryptocurrency
     exchange_symbol: JNT
-  exchange_id: 302
-  exchange_name: Gate.io
+  exchange_id: 351
+  exchange_name: Upbit
   pair: JNT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://gate.io/trade/jnt_btc
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-JNT
 - base:
     currency_id: 2498
     currency_symbol: JNT
@@ -151,7 +151,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/trading?currency=JNT%2FUSDT
 name: Jibrel Network
-rank: 597
+rank: 569
 slug: jibrel-network
 status: active
 symbol: JNT

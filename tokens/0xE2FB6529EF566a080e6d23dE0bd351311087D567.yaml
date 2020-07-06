@@ -29,20 +29,6 @@ markets:
     currency_symbol: COV
     currency_type: cryptocurrency
     exchange_symbol: COV
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: COV/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kucoin.com/COV-BTC
-- base:
-    currency_id: 2342
-    currency_symbol: COV
-    currency_type: cryptocurrency
-    exchange_symbol: COV
   exchange_id: 363
   exchange_name: Fatbtc
   pair: COV/USDT
@@ -57,15 +43,15 @@ markets:
     currency_symbol: COV
     currency_type: cryptocurrency
     exchange_symbol: COV
-  exchange_id: 107
-  exchange_name: Livecoin
+  exchange_id: 311
+  exchange_name: KuCoin
   pair: COV/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/COV_BTC
+  url: https://trade.kucoin.com/COV-BTC
 - base:
     currency_id: 2342
     currency_symbol: COV
@@ -80,6 +66,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://trade.kucoin.com/COV-ETH
+- base:
+    currency_id: 2342
+    currency_symbol: COV
+    currency_type: cryptocurrency
+    exchange_symbol: COV
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: COV/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/COV_BTC
 - base:
     currency_id: 2342
     currency_symbol: COV
@@ -123,7 +123,7 @@ markets:
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/COV/BTC
 name: Covesting
-rank: 601
+rank: 607
 slug: covesting
 status: active
 symbol: COV

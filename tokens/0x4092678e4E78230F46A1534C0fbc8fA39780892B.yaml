@@ -57,20 +57,6 @@ markets:
     currency_symbol: OCN
     currency_type: cryptocurrency
     exchange_symbol: OCN
-  exchange_id: 391
-  exchange_name: CoinTiger
-  pair: OCN/BITCNY
-  quote:
-    currency_id: 624
-    currency_symbol: BITCNY
-    currency_type: cryptocurrency
-    exchange_symbol: BITCNY
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=ocn_bitcny
-- base:
-    currency_id: 2458
-    currency_symbol: OCN
-    currency_type: cryptocurrency
-    exchange_symbol: OCN
   exchange_id: 302
   exchange_name: Gate.io
   pair: OCN/USDT
@@ -80,6 +66,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/ocn_usdt
+- base:
+    currency_id: 2458
+    currency_symbol: OCN
+    currency_type: cryptocurrency
+    exchange_symbol: OCN
+  exchange_id: 391
+  exchange_name: CoinTiger
+  pair: OCN/BITCNY
+  quote:
+    currency_id: 624
+    currency_symbol: BITCNY
+    currency_type: cryptocurrency
+    exchange_symbol: BITCNY
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=ocn_bitcny
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -113,20 +113,6 @@ markets:
     currency_symbol: OCN
     currency_type: cryptocurrency
     exchange_symbol: OCN
-  exchange_id: 479
-  exchange_name: Dcoin
-  pair: OCN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.dcoin.com/currencyTrading/OCN_USDT
-- base:
-    currency_id: 2458
-    currency_symbol: OCN
-    currency_type: cryptocurrency
-    exchange_symbol: OCN
   exchange_id: 425
   exchange_name: WazirX
   pair: OCN/USDT
@@ -136,6 +122,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://wazirx.com/exchange/OCN-USDT
+- base:
+    currency_id: 2458
+    currency_symbol: OCN
+    currency_type: cryptocurrency
+    exchange_symbol: OCN
+  exchange_id: 479
+  exchange_name: Dcoin
+  pair: OCN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.dcoin.com/currencyTrading/OCN_USDT
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -155,15 +155,15 @@ markets:
     currency_symbol: OCN
     currency_type: cryptocurrency
     exchange_symbol: OCN
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 302
+  exchange_name: Gate.io
   pair: OCN/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/ocn_eth/
+  url: https://gate.io/trade/ocn_eth
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -183,43 +183,15 @@ markets:
     currency_symbol: OCN
     currency_type: cryptocurrency
     exchange_symbol: OCN
-  exchange_id: 302
-  exchange_name: Gate.io
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: OCN/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://gate.io/trade/ocn_eth
-- base:
-    currency_id: 2458
-    currency_symbol: OCN
-    currency_type: cryptocurrency
-    exchange_symbol: OCN
-  exchange_id: 300
-  exchange_name: BitZ
-  pair: OCN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bit-z.com/exchange/ocn_btc
-- base:
-    currency_id: 2458
-    currency_symbol: OCN
-    currency_type: cryptocurrency
-    exchange_symbol: OCN
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: OCN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/OCN-to-ETH
+  url: https://www.huobi.co.kr/en-US/exchange/ocn_eth/
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -248,6 +220,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://gate.io/trade/ocn_btc
+- base:
+    currency_id: 2458
+    currency_symbol: OCN
+    currency_type: cryptocurrency
+    exchange_symbol: OCN
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: OCN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bit-z.com/exchange/ocn_btc
+- base:
+    currency_id: 2458
+    currency_symbol: OCN
+    currency_type: cryptocurrency
+    exchange_symbol: OCN
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: OCN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/OCN-to-ETH
 - base:
     currency_id: 2458
     currency_symbol: OCN
@@ -291,7 +291,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.bit-z.com/exchange/ocn_eth
 name: Odyssey
-rank: 779
+rank: 772
 slug: odyssey
 status: active
 symbol: OCN
