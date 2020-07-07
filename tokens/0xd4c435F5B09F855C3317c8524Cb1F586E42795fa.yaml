@@ -72,20 +72,6 @@ markets:
     currency_symbol: CND
     currency_type: cryptocurrency
     exchange_symbol: CND
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: CND/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/CND-to-BTC
-- base:
-    currency_id: 2043
-    currency_symbol: CND
-    currency_type: cryptocurrency
-    exchange_symbol: CND
   exchange_id: 335
   exchange_name: GOPAX
   pair: CND/KRW
@@ -102,6 +88,20 @@ markets:
     exchange_symbol: CND
   exchange_id: 42
   exchange_name: HitBTC
+  pair: CND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/CND-to-BTC
+- base:
+    currency_id: 2043
+    currency_symbol: CND
+    currency_type: cryptocurrency
+    exchange_symbol: CND
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: CND/USDT
   quote:
     currency_id: 825
@@ -109,6 +109,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/CND-to-USDT
+- base:
+    currency_id: 2043
+    currency_symbol: CND
+    currency_type: cryptocurrency
+    exchange_symbol: CND
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: CND/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/CND:USD?refcode=H70YTMupQ
 - base:
     currency_id: 2043
     currency_symbol: CND
@@ -142,20 +156,6 @@ markets:
     currency_symbol: CND
     currency_type: cryptocurrency
     exchange_symbol: CND
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: CND/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/CND:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2043
-    currency_symbol: CND
-    currency_type: cryptocurrency
-    exchange_symbol: CND
   exchange_id: 335
   exchange_name: GOPAX
   pair: CND/BTC
@@ -180,7 +180,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/cnd
 name: Cindicator
-rank: 329
+rank: 320
 slug: cindicator
 status: active
 symbol: CND

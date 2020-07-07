@@ -73,6 +73,20 @@ markets:
     exchange_symbol: HDAO
   exchange_id: 483
   exchange_name: Hanbitco
+  pair: HDAO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hanbitco.com/exchange-basic/hdao_btc
+- base:
+    currency_id: 5299
+    currency_symbol: HDAO
+    currency_type: cryptocurrency
+    exchange_symbol: HDAO
+  exchange_id: 483
+  exchange_name: Hanbitco
   pair: HDAO/USDT
   quote:
     currency_id: 825
@@ -80,20 +94,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hanbitco.com/exchange-basic/hdao_usdt
-- base:
-    currency_id: 5299
-    currency_symbol: HDAO
-    currency_type: cryptocurrency
-    exchange_symbol: HDAO
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: HDAO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.fatbtc.com/trading?currency=HDAO%2FUSDT
 - base:
     currency_id: 5299
     currency_symbol: HDAO
@@ -113,15 +113,15 @@ markets:
     currency_symbol: HDAO
     currency_type: cryptocurrency
     exchange_symbol: HDAO
-  exchange_id: 483
-  exchange_name: Hanbitco
-  pair: HDAO/BTC
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: HDAO/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hanbitco.com/exchange-basic/hdao_btc
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/trading?currency=HDAO%2FUSDT
 - base:
     currency_id: 5299
     currency_symbol: HDAO
@@ -137,7 +137,7 @@ markets:
     exchange_symbol: USDT
   url: https://hoo.com/trade/hdao-usdt
 name: HyperDAO
-rank: 350
+rank: 360
 slug: hyperdao
 status: active
 symbol: HDAO

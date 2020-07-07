@@ -45,20 +45,6 @@ markets:
     currency_symbol: ARN
     currency_type: cryptocurrency
     exchange_symbol: ARN
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: ARN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bilaxy.com/trade/ARN_BTC
-- base:
-    currency_id: 2153
-    currency_symbol: ARN
-    currency_type: cryptocurrency
-    exchange_symbol: ARN
   exchange_id: 270
   exchange_name: Binance
   pair: ARN/BTC
@@ -68,6 +54,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.binance.com/en/trade/ARN_BTC?ref=H31B921U
+- base:
+    currency_id: 2153
+    currency_symbol: ARN
+    currency_type: cryptocurrency
+    exchange_symbol: ARN
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: ARN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bilaxy.com/trade/ARN_BTC
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -87,15 +87,15 @@ markets:
     currency_symbol: ARN
     currency_type: cryptocurrency
     exchange_symbol: ARN
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: ARN/KRW
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: ARN/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/ARN-KRW
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/ARNBTC
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -115,43 +115,15 @@ markets:
     currency_symbol: ARN
     currency_type: cryptocurrency
     exchange_symbol: ARN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: ARN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/ARNBTC
-- base:
-    currency_id: 2153
-    currency_symbol: ARN
-    currency_type: cryptocurrency
-    exchange_symbol: ARN
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: ARN/BTC
+  pair: ARN/KRW
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.probit.com/app/exchange/ARN-BTC
-- base:
-    currency_id: 2153
-    currency_symbol: ARN
-    currency_type: cryptocurrency
-    exchange_symbol: ARN
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: ARN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/ARN/BTC
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/ARN-KRW
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -166,6 +138,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://exrates.me/trading/ARNETH
+- base:
+    currency_id: 2153
+    currency_symbol: ARN
+    currency_type: cryptocurrency
+    exchange_symbol: ARN
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: ARN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/ARN/BTC
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -208,6 +194,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/ARN-to-BTC
+- base:
+    currency_id: 2153
+    currency_symbol: ARN
+    currency_type: cryptocurrency
+    exchange_symbol: ARN
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: ARN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.probit.com/app/exchange/ARN-BTC
 - base:
     currency_id: 2153
     currency_symbol: ARN
@@ -349,7 +349,7 @@ markets:
     exchange_symbol: ETH
   url: https://hitbtc.com/ARN-to-ETH
 name: Aeron
-rank: 621
+rank: 605
 slug: aeron
 status: active
 symbol: ARN

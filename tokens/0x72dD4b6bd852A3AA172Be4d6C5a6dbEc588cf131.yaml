@@ -135,20 +135,6 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/ngc
 - base:
-    currency_id: 1831
-    currency_symbol: BCH
-    currency_type: cryptocurrency
-    exchange_symbol: BCH
-  exchange_id: 484
-  exchange_name: NAGAX
-  pair: BCH/NGC
-  quote:
-    currency_id: 2305
-    currency_symbol: NGC
-    currency_type: cryptocurrency
-    exchange_symbol: NGC
-  url: https://nagax.com/exchange/BCHNGC
-- base:
     currency_id: 2305
     currency_symbol: NGC
     currency_type: cryptocurrency
@@ -176,6 +162,34 @@ markets:
     currency_type: fiat
     exchange_symbol: EUR
   url: https://nagax.com/exchange/NGCEUR
+- base:
+    currency_id: 2
+    currency_symbol: LTC
+    currency_type: cryptocurrency
+    exchange_symbol: LTC
+  exchange_id: 484
+  exchange_name: NAGAX
+  pair: LTC/NGC
+  quote:
+    currency_id: 2305
+    currency_symbol: NGC
+    currency_type: cryptocurrency
+    exchange_symbol: NGC
+  url: https://nagax.com/exchange/LTCNGC
+- base:
+    currency_id: 2305
+    currency_symbol: NGC
+    currency_type: cryptocurrency
+    exchange_symbol: NGC
+  exchange_id: 484
+  exchange_name: NAGAX
+  pair: NGC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://nagax.com/exchange/NGCBTC
 - base:
     currency_id: 2305
     currency_symbol: NGC
@@ -205,20 +219,6 @@ markets:
     exchange_symbol: NGC
   url: https://nagax.com/exchange/XRPNGC
 - base:
-    currency_id: 2305
-    currency_symbol: NGC
-    currency_type: cryptocurrency
-    exchange_symbol: NGC
-  exchange_id: 484
-  exchange_name: NAGAX
-  pair: NGC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://nagax.com/exchange/NGCBTC
-- base:
     currency_id: 131
     currency_symbol: DASH
     currency_type: cryptocurrency
@@ -233,21 +233,21 @@ markets:
     exchange_symbol: NGC
   url: https://nagax.com/exchange/DASHNGC
 - base:
-    currency_id: 2
-    currency_symbol: LTC
+    currency_id: 1831
+    currency_symbol: BCH
     currency_type: cryptocurrency
-    exchange_symbol: LTC
+    exchange_symbol: BCH
   exchange_id: 484
   exchange_name: NAGAX
-  pair: LTC/NGC
+  pair: BCH/NGC
   quote:
     currency_id: 2305
     currency_symbol: NGC
     currency_type: cryptocurrency
     exchange_symbol: NGC
-  url: https://nagax.com/exchange/LTCNGC
+  url: https://nagax.com/exchange/BCHNGC
 name: NAGA
-rank: 665
+rank: 688
 slug: naga
 status: active
 symbol: NGC
