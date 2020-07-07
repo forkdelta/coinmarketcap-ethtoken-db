@@ -90,20 +90,6 @@ markets:
     currency_symbol: FTM
     currency_type: cryptocurrency
     exchange_symbol: FTM
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: FTM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bilaxy.com/trade/FTM_ETH
-- base:
-    currency_id: 3513
-    currency_symbol: FTM
-    currency_type: cryptocurrency
-    exchange_symbol: FTM
   exchange_id: 544
   exchange_name: MXC
   pair: FTM/USDT
@@ -118,15 +104,15 @@ markets:
     currency_symbol: FTM
     currency_type: cryptocurrency
     exchange_symbol: FTM
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: FTM/BTC
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: FTM/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/FTMBTC
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/FTM_ETH
 - base:
     currency_id: 3513
     currency_symbol: FTM
@@ -160,6 +146,20 @@ markets:
     currency_symbol: FTM
     currency_type: cryptocurrency
     exchange_symbol: FTM
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: FTM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.kucoin.com/FTM-BTC
+- base:
+    currency_id: 3513
+    currency_symbol: FTM
+    currency_type: cryptocurrency
+    exchange_symbol: FTM
   exchange_id: 400
   exchange_name: Hotbit
   pair: FTM/BTC
@@ -174,15 +174,29 @@ markets:
     currency_symbol: FTM
     currency_type: cryptocurrency
     exchange_symbol: FTM
-  exchange_id: 311
-  exchange_name: KuCoin
+  exchange_id: 949
+  exchange_name: CoinDCX
   pair: FTM/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://trade.kucoin.com/FTM-BTC
+  url: https://coindcx.com/trade/FTMBTC
+- base:
+    currency_id: 3513
+    currency_symbol: FTM
+    currency_type: cryptocurrency
+    exchange_symbol: FTM
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: FTM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=FTM_ETH
 - base:
     currency_id: 3513
     currency_symbol: FTM
@@ -216,20 +230,6 @@ markets:
     currency_symbol: FTM
     currency_type: cryptocurrency
     exchange_symbol: FTM
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: FTM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=FTM_ETH
-- base:
-    currency_id: 3513
-    currency_symbol: FTM
-    currency_type: cryptocurrency
-    exchange_symbol: FTM
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: FTM/KRW
@@ -258,20 +258,6 @@ markets:
     currency_symbol: FTM
     currency_type: cryptocurrency
     exchange_symbol: FTM
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: FTM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/ftm
-- base:
-    currency_id: 3513
-    currency_symbol: FTM
-    currency_type: cryptocurrency
-    exchange_symbol: FTM
   exchange_id: 425
   exchange_name: WazirX
   pair: FTM/USDT
@@ -286,15 +272,15 @@ markets:
     currency_symbol: FTM
     currency_type: cryptocurrency
     exchange_symbol: FTM
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: FTM/USDT
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: FTM/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bibox.com/exchange?coinPair=FTM_USDT
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/ftm
 - base:
     currency_id: 3513
     currency_symbol: FTM
@@ -328,15 +314,15 @@ markets:
     currency_symbol: FTM
     currency_type: cryptocurrency
     exchange_symbol: FTM
-  exchange_id: 302
-  exchange_name: Gate.io
+  exchange_id: 339
+  exchange_name: Bibox
   pair: FTM/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://gate.io/trade/ftm_usdt
+  url: https://www.bibox.com/exchange?coinPair=FTM_USDT
 - base:
     currency_id: 3513
     currency_symbol: FTM
@@ -351,6 +337,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://omgfin.com/exchange/trade/market/FTMBTC
+- base:
+    currency_id: 3513
+    currency_symbol: FTM
+    currency_type: cryptocurrency
+    exchange_symbol: FTM
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: FTM/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/ftm_usdt
 - base:
     currency_id: 3513
     currency_symbol: FTM
@@ -379,20 +379,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://omgfin.com/exchange/trade/market/FTMUSDT
-- base:
-    currency_id: 3513
-    currency_symbol: FTM
-    currency_type: cryptocurrency
-    exchange_symbol: FTM
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: FTM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/ftm
 - base:
     currency_id: 3513
     currency_symbol: FTM
@@ -440,15 +426,15 @@ markets:
     currency_symbol: FTM
     currency_type: cryptocurrency
     exchange_symbol: FTM
-  exchange_id: 174
-  exchange_name: Coinone
-  pair: FTM/KRW
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: FTM/ETH
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://coinone.co.kr/exchange/trade/ftm/
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/ftm
 - base:
     currency_id: 3513
     currency_symbol: FTM
@@ -463,6 +449,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://chainx.kr/exchange/FTM-KRW
+- base:
+    currency_id: 3513
+    currency_symbol: FTM
+    currency_type: cryptocurrency
+    exchange_symbol: FTM
+  exchange_id: 174
+  exchange_name: Coinone
+  pair: FTM/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://coinone.co.kr/exchange/trade/ftm/
 - base:
     currency_id: 3513
     currency_symbol: FTM
@@ -520,7 +520,7 @@ markets:
     exchange_symbol: BTC
   url: https://exchange.beaxy.com/?pair=FTMBTC&tid=1589766588936
 name: Fantom
-rank: 182
+rank: 162
 slug: fantom
 status: active
 symbol: FTM

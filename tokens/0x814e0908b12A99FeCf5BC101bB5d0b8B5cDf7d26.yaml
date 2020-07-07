@@ -71,20 +71,6 @@ markets:
     exchange_symbol: MDT
   exchange_id: 294
   exchange_name: OKEx
-  pair: MDT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=mdt_btc
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
-  exchange_id: 294
-  exchange_name: OKEx
   pair: MDT/ETH
   quote:
     currency_id: 1027
@@ -92,6 +78,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.okex.com/market?product=mdt_eth
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: MDT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=mdt_btc
 - base:
     currency_id: 2348
     currency_symbol: MDT
@@ -195,20 +195,6 @@ markets:
     currency_symbol: MDT
     currency_type: cryptocurrency
     exchange_symbol: MDT
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: MDT/BNT
-  quote:
-    currency_id: 1727
-    currency_symbol: BNT
-    currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/MDT
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
   exchange_id: 16
   exchange_name: Poloniex
   pair: MDT/USDT
@@ -218,6 +204,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://poloniex.com/exchange#usdt_mdt?c=H4QD8FNW
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: MDT/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/MDT
 - base:
     currency_id: 2348
     currency_symbol: MDT
@@ -307,6 +307,20 @@ markets:
     currency_symbol: MDT
     currency_type: cryptocurrency
     exchange_symbol: MDT
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: MDT/TRX
+  quote:
+    currency_id: 1958
+    currency_symbol: TRX
+    currency_type: cryptocurrency
+    exchange_symbol: TRX
+  url: https://poloniex.com/exchange#trx_mdt?c=H4QD8FNW
+- base:
+    currency_id: 2348
+    currency_symbol: MDT
+    currency_type: cryptocurrency
+    exchange_symbol: MDT
   exchange_id: 490
   exchange_name: OKEx Korea
   pair: MDT/BTC
@@ -330,22 +344,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://okex.co.kr/kr/view/exchange?coin=MDT&market=USDT
-- base:
-    currency_id: 2348
-    currency_symbol: MDT
-    currency_type: cryptocurrency
-    exchange_symbol: MDT
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: MDT/TRX
-  quote:
-    currency_id: 1958
-    currency_symbol: TRX
-    currency_type: cryptocurrency
-    exchange_symbol: TRX
-  url: https://poloniex.com/exchange#trx_mdt?c=H4QD8FNW
 name: Measurable Data Token
-rank: 633
+rank: 640
 slug: measurable-data-token
 status: active
 symbol: MDT

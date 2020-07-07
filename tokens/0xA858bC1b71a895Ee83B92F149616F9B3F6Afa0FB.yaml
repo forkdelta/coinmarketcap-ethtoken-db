@@ -60,20 +60,6 @@ markets:
     exchange_symbol: KAT
   exchange_id: 400
   exchange_name: Hotbit
-  pair: KAT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=KAT_BTC
-- base:
-    currency_id: 3634
-    currency_symbol: KAT
-    currency_type: cryptocurrency
-    exchange_symbol: KAT
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: KAT/ETH
   quote:
     currency_id: 1027
@@ -86,15 +72,15 @@ markets:
     currency_symbol: KAT
     currency_type: cryptocurrency
     exchange_symbol: KAT
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: KAT/BNB
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: KAT/BTC
   quote:
-    currency_id: 1839
-    currency_symbol: BNB
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/KAT-7BB_BNB
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=KAT_BTC
 - base:
     currency_id: 3634
     currency_symbol: KAT
@@ -151,8 +137,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/kat
+- base:
+    currency_id: 3634
+    currency_symbol: KAT
+    currency_type: cryptocurrency
+    exchange_symbol: KAT
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: KAT/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/KAT-7BB_BNB
 name: Kambria
-rank: 839
+rank: 820
 slug: kambria
 status: active
 symbol: KAT

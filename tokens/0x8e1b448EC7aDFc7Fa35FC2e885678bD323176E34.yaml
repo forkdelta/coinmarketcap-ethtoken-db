@@ -67,6 +67,34 @@ markets:
     currency_symbol: EGT
     currency_type: cryptocurrency
     exchange_symbol: EGT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: EGT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=EGT_BTC
+- base:
+    currency_id: 2885
+    currency_symbol: EGT
+    currency_type: cryptocurrency
+    exchange_symbol: EGT
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: EGT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=egt&tab=limit
+- base:
+    currency_id: 2885
+    currency_symbol: EGT
+    currency_type: cryptocurrency
+    exchange_symbol: EGT
   exchange_id: 294
   exchange_name: OKEx
   pair: EGT/USDT
@@ -95,34 +123,6 @@ markets:
     currency_symbol: EGT
     currency_type: cryptocurrency
     exchange_symbol: EGT
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: EGT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=egt&tab=limit
-- base:
-    currency_id: 2885
-    currency_symbol: EGT
-    currency_type: cryptocurrency
-    exchange_symbol: EGT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: EGT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=EGT_BTC
-- base:
-    currency_id: 2885
-    currency_symbol: EGT
-    currency_type: cryptocurrency
-    exchange_symbol: EGT
   exchange_id: 102
   exchange_name: Huobi Global
   pair: EGT/BTC
@@ -132,20 +132,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hbg.com/en-us/exchange/egt_btc?invite_code=5kij5
-- base:
-    currency_id: 2885
-    currency_symbol: EGT
-    currency_type: cryptocurrency
-    exchange_symbol: EGT
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: EGT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.okex.com/market?product=egt_btc
 - base:
     currency_id: 2885
     currency_symbol: EGT
@@ -165,15 +151,29 @@ markets:
     currency_symbol: EGT
     currency_type: cryptocurrency
     exchange_symbol: EGT
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: EGT/HT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: EGT/ETH
   quote:
-    currency_id: 2502
-    currency_symbol: HT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.hbg.com/en-us/exchange/egt_ht?invite_code=5kij5
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=EGT_ETH
+- base:
+    currency_id: 2885
+    currency_symbol: EGT
+    currency_type: cryptocurrency
+    exchange_symbol: EGT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: EGT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=egt_btc
 - base:
     currency_id: 2885
     currency_symbol: EGT
@@ -193,15 +193,29 @@ markets:
     currency_symbol: EGT
     currency_type: cryptocurrency
     exchange_symbol: EGT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: EGT/ETH
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: EGT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=EGT_ETH
+    exchange_symbol: BTC
+  url: https://trade.kucoin.com/EGT-BTC
+- base:
+    currency_id: 2885
+    currency_symbol: EGT
+    currency_type: cryptocurrency
+    exchange_symbol: EGT
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: EGT/HT
+  quote:
+    currency_id: 2502
+    currency_symbol: HT
+    currency_type: cryptocurrency
+    exchange_symbol: HT
+  url: https://www.hbg.com/en-us/exchange/egt_ht?invite_code=5kij5
 - base:
     currency_id: 2885
     currency_symbol: EGT
@@ -237,13 +251,13 @@ markets:
     exchange_symbol: EGT
   exchange_id: 311
   exchange_name: KuCoin
-  pair: EGT/BTC
+  pair: EGT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kucoin.com/EGT-BTC
+    exchange_symbol: ETH
+  url: https://trade.kucoin.com/EGT-ETH
 - base:
     currency_id: 2885
     currency_symbol: EGT
@@ -277,20 +291,6 @@ markets:
     currency_symbol: EGT
     currency_type: cryptocurrency
     exchange_symbol: EGT
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: EGT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://trade.kucoin.com/EGT-ETH
-- base:
-    currency_id: 2885
-    currency_symbol: EGT
-    currency_type: cryptocurrency
-    exchange_symbol: EGT
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: EGT/BTC
@@ -300,20 +300,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/egt_btc/
-- base:
-    currency_id: 2885
-    currency_symbol: EGT
-    currency_type: cryptocurrency
-    exchange_symbol: EGT
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: EGT/HT
-  quote:
-    currency_id: 2502
-    currency_symbol: HT
-    currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.huobi.co.kr/en-US/exchange/egt_ht/
 - base:
     currency_id: 2885
     currency_symbol: EGT
@@ -333,15 +319,15 @@ markets:
     currency_symbol: EGT
     currency_type: cryptocurrency
     exchange_symbol: EGT
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: EGT/OKB
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: EGT/HT
   quote:
-    currency_id: 3897
-    currency_symbol: OKB
+    currency_id: 2502
+    currency_symbol: HT
     currency_type: cryptocurrency
-    exchange_symbol: OKB
-  url: https://www.okex.com/market?product=egt_okb
+    exchange_symbol: HT
+  url: https://www.huobi.co.kr/en-US/exchange/egt_ht/
 - base:
     currency_id: 2885
     currency_symbol: EGT
@@ -356,6 +342,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/egt
+- base:
+    currency_id: 2885
+    currency_symbol: EGT
+    currency_type: cryptocurrency
+    exchange_symbol: EGT
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: EGT/OKB
+  quote:
+    currency_id: 3897
+    currency_symbol: OKB
+    currency_type: cryptocurrency
+    exchange_symbol: OKB
+  url: https://www.okex.com/market?product=egt_okb
 - base:
     currency_id: 2885
     currency_symbol: EGT
@@ -413,7 +413,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.huobi.com.ru/exchange/#s=egt_usdt
 name: Egretia
-rank: 549
+rank: 558
 slug: egretia
 status: active
 symbol: EGT
