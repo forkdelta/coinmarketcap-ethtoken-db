@@ -66,20 +66,6 @@ markets:
     currency_id: 3625
     currency_symbol: EQUAD
     currency_type: cryptocurrency
-    exchange_symbol: eQUAD
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: EQUAD/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bilaxy.com/trade/EQUAD_ETH
-- base:
-    currency_id: 3625
-    currency_symbol: EQUAD
-    currency_type: cryptocurrency
     exchange_symbol: EQUAD
   exchange_id: 404
   exchange_name: Kyber Network
@@ -90,6 +76,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/equad-eth
+- base:
+    currency_id: 3625
+    currency_symbol: EQUAD
+    currency_type: cryptocurrency
+    exchange_symbol: eQUAD
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: EQUAD/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/EQUAD_ETH
 - base:
     currency_id: 3625
     currency_symbol: EQUAD
@@ -107,7 +107,7 @@ markets:
 name: QuadrantProtocol
 notice: We have received reports of impeded withdrawals for EQUAD on Coinbene. Please perform your own
   due diligence.
-rank: 1138
+rank: 1140
 slug: quadrantprotocol
 status: active
 symbol: EQUAD

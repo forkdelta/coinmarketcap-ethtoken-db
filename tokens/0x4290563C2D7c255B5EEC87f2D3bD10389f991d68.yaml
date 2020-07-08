@@ -33,20 +33,6 @@ markets:
     currency_symbol: UIP
     currency_type: cryptocurrency
     exchange_symbol: UIP
-  exchange_id: 330
-  exchange_name: BigONE
-  pair: UIP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://big.one/trade/UIP-BTC
-- base:
-    currency_id: 2454
-    currency_symbol: UIP
-    currency_type: cryptocurrency
-    exchange_symbol: UIP
   exchange_id: 102
   exchange_name: Huobi Global
   pair: UIP/ETH
@@ -56,6 +42,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hbg.com/en-us/exchange/uip_eth?invite_code=5kij5
+- base:
+    currency_id: 2454
+    currency_symbol: UIP
+    currency_type: cryptocurrency
+    exchange_symbol: UIP
+  exchange_id: 330
+  exchange_name: BigONE
+  pair: UIP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://big.one/trade/UIP-BTC
 - base:
     currency_id: 2454
     currency_symbol: UIP
@@ -141,7 +141,7 @@ markets:
     exchange_symbol: ETH
   url: https://big.one/trade/UIP-ETH
 name: UnlimitedIP
-rank: 545
+rank: 549
 slug: unlimitedip
 status: active
 symbol: UIP

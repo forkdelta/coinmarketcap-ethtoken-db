@@ -41,15 +41,15 @@ markets:
     currency_symbol: NGC
     currency_type: cryptocurrency
     exchange_symbol: NGC
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: NGC/BTC
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: NGC/TRY
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-NGC
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://sistemkoin.com/#/
 - base:
     currency_id: 2305
     currency_symbol: NGC
@@ -83,15 +83,15 @@ markets:
     currency_symbol: NGC
     currency_type: cryptocurrency
     exchange_symbol: NGC
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: NGC/TRY
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: NGC/BTC
   quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://sistemkoin.com/#/
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-NGC
 - base:
     currency_id: 2305
     currency_symbol: NGC
@@ -141,20 +141,6 @@ markets:
     exchange_symbol: NGC
   exchange_id: 484
   exchange_name: NAGAX
-  pair: NGC/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://nagax.com/exchange/NGCUSD
-- base:
-    currency_id: 2305
-    currency_symbol: NGC
-    currency_type: cryptocurrency
-    exchange_symbol: NGC
-  exchange_id: 484
-  exchange_name: NAGAX
   pair: NGC/EUR
   quote:
     currency_id: 2790
@@ -183,13 +169,13 @@ markets:
     exchange_symbol: NGC
   exchange_id: 484
   exchange_name: NAGAX
-  pair: NGC/BTC
+  pair: NGC/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://nagax.com/exchange/NGCBTC
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://nagax.com/exchange/NGCUSD
 - base:
     currency_id: 2305
     currency_symbol: NGC
@@ -219,6 +205,20 @@ markets:
     exchange_symbol: NGC
   url: https://nagax.com/exchange/XRPNGC
 - base:
+    currency_id: 2305
+    currency_symbol: NGC
+    currency_type: cryptocurrency
+    exchange_symbol: NGC
+  exchange_id: 484
+  exchange_name: NAGAX
+  pair: NGC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://nagax.com/exchange/NGCBTC
+- base:
     currency_id: 131
     currency_symbol: DASH
     currency_type: cryptocurrency
@@ -247,7 +247,7 @@ markets:
     exchange_symbol: NGC
   url: https://nagax.com/exchange/BCHNGC
 name: NAGA
-rank: 688
+rank: 680
 slug: naga
 status: active
 symbol: NGC
