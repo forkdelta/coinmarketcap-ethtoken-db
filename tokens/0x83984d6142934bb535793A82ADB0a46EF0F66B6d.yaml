@@ -121,20 +121,6 @@ markets:
     currency_symbol: REM
     currency_type: cryptocurrency
     exchange_symbol: REM
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: REM/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/REM-to-USDT
-- base:
-    currency_id: 2546
-    currency_symbol: REM
-    currency_type: cryptocurrency
-    exchange_symbol: REM
   exchange_id: 302
   exchange_name: Gate.io
   pair: REM/USDT
@@ -149,15 +135,15 @@ markets:
     currency_symbol: REM
     currency_type: cryptocurrency
     exchange_symbol: REM
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: REM/BNT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: REM/USDT
   quote:
-    currency_id: 1727
-    currency_symbol: BNT
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/REM
+    exchange_symbol: USDT
+  url: https://hitbtc.com/REM-to-USDT
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -172,6 +158,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://tidex.com/exchange/rem/btc
+- base:
+    currency_id: 2546
+    currency_symbol: REM
+    currency_type: cryptocurrency
+    exchange_symbol: REM
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: REM/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/REM
 - base:
     currency_id: 2546
     currency_symbol: REM
@@ -228,22 +228,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://whitebit.com/trade/REM_BTC
-- base:
-    currency_id: 2546
-    currency_symbol: REM
-    currency_type: cryptocurrency
-    exchange_symbol: REM
-  exchange_id: 209
-  exchange_name: Kuna
-  pair: REM/UAH
-  quote:
-    currency_id: 2824
-    currency_symbol: UAH
-    currency_type: fiat
-    exchange_symbol: UAH
-  url: https://kuna.io/markets/remuah
 name: Remme
-rank: 897
+rank: 900
 slug: remme
 status: active
 symbol: REM

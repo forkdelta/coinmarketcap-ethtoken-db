@@ -36,20 +36,6 @@ markets:
     exchange_symbol: CRO
   exchange_id: 294
   exchange_name: OKEx
-  pair: CRO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.okex.com/market?product=cro_usdt
-- base:
-    currency_id: 3635
-    currency_symbol: CRO
-    currency_type: cryptocurrency
-    exchange_symbol: CRO
-  exchange_id: 294
-  exchange_name: OKEx
   pair: CRO/USDK
   quote:
     currency_id: 4064
@@ -57,6 +43,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDK
   url: https://www.okex.com/market?product=cro_usdk
+- base:
+    currency_id: 3635
+    currency_symbol: CRO
+    currency_type: cryptocurrency
+    exchange_symbol: CRO
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: CRO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.okex.com/market?product=cro_usdt
 - base:
     currency_id: 3635
     currency_symbol: CRO
@@ -71,34 +71,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.digifinex.com/en-ww/trade/USDT/CRO
-- base:
-    currency_id: 3635
-    currency_symbol: CRO
-    currency_type: cryptocurrency
-    exchange_symbol: CRO
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: CRO/QC
-  quote:
-    currency_id: 2319
-    currency_symbol: QC
-    currency_type: cryptocurrency
-    exchange_symbol: QC
-  url: https://trans.zb.com/croqc?recommendCode=d0ip3b
-- base:
-    currency_id: 3635
-    currency_symbol: CRO
-    currency_type: cryptocurrency
-    exchange_symbol: CRO
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: CRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-CRO
 - base:
     currency_id: 3635
     currency_symbol: CRO
@@ -120,6 +92,20 @@ markets:
     exchange_symbol: CRO
   exchange_id: 22
   exchange_name: Bittrex
+  pair: CRO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-CRO
+- base:
+    currency_id: 3635
+    currency_symbol: CRO
+    currency_type: cryptocurrency
+    exchange_symbol: CRO
+  exchange_id: 22
+  exchange_name: Bittrex
   pair: CRO/USDT
   quote:
     currency_id: 825
@@ -134,13 +120,13 @@ markets:
     exchange_symbol: CRO
   exchange_id: 326
   exchange_name: ZB.COM
-  pair: CRO/USDT
+  pair: CRO/QC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 2319
+    currency_symbol: QC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trans.zb.com/crousdt?recommendCode=d0ip3b
+    exchange_symbol: QC
+  url: https://trans.zb.com/croqc?recommendCode=d0ip3b
 - base:
     currency_id: 3635
     currency_symbol: CRO
@@ -155,6 +141,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hbg.com/en-us/exchange/cro_usdt?invite_code=5kij5
+- base:
+    currency_id: 3635
+    currency_symbol: CRO
+    currency_type: cryptocurrency
+    exchange_symbol: CRO
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: CRO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://trans.zb.com/crousdt?recommendCode=d0ip3b
 - base:
     currency_id: 3635
     currency_symbol: CRO
@@ -188,20 +188,6 @@ markets:
     currency_symbol: CRO
     currency_type: cryptocurrency
     exchange_symbol: CRO
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: CRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/CRO-to-BTC
-- base:
-    currency_id: 3635
-    currency_symbol: CRO
-    currency_type: cryptocurrency
-    exchange_symbol: CRO
   exchange_id: 391
   exchange_name: CoinTiger
   pair: CRO/BTC
@@ -216,6 +202,20 @@ markets:
     currency_symbol: CRO
     currency_type: cryptocurrency
     exchange_symbol: CRO
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: CRO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/CRO-to-BTC
+- base:
+    currency_id: 3635
+    currency_symbol: CRO
+    currency_type: cryptocurrency
+    exchange_symbol: CRO
   exchange_id: 406
   exchange_name: BitMart
   pair: CRO/BTC
@@ -225,20 +225,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bitmart.com/trade?symbol=CRO_BTC
-- base:
-    currency_id: 3635
-    currency_symbol: CRO
-    currency_type: cryptocurrency
-    exchange_symbol: CRO
-  exchange_id: 489
-  exchange_name: Bithumb Global
-  pair: CRO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=CRO_USDT
 - base:
     currency_id: 3635
     currency_symbol: CRO
@@ -267,20 +253,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://sistemkoin.com/#/
-- base:
-    currency_id: 3635
-    currency_symbol: CRO
-    currency_type: cryptocurrency
-    exchange_symbol: CRO
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: CRO/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/CROKRW
 - base:
     currency_id: 3635
     currency_symbol: CRO
@@ -328,6 +300,20 @@ markets:
     currency_symbol: CRO
     currency_type: cryptocurrency
     exchange_symbol: CRO
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: CRO/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/CROKRW
+- base:
+    currency_id: 3635
+    currency_symbol: CRO
+    currency_type: cryptocurrency
+    exchange_symbol: CRO
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: CRO/BTC
@@ -342,6 +328,20 @@ markets:
     currency_symbol: CRO
     currency_type: cryptocurrency
     exchange_symbol: CRO
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: CRO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.kucoin.com/CRO-BTC
+- base:
+    currency_id: 3635
+    currency_symbol: CRO
+    currency_type: cryptocurrency
+    exchange_symbol: CRO
   exchange_id: 388
   exchange_name: Sistemkoin
   pair: CRO/USDT
@@ -351,6 +351,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://sistemkoin.com/#/
+- base:
+    currency_id: 3635
+    currency_symbol: CRO
+    currency_type: cryptocurrency
+    exchange_symbol: CRO
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: CRO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=CRO_USDT
+- base:
+    currency_id: 3635
+    currency_symbol: CRO
+    currency_type: cryptocurrency
+    exchange_symbol: CRO
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: CRO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/cro_usdt
 - base:
     currency_id: 3635
     currency_symbol: CRO
@@ -372,20 +400,6 @@ markets:
     exchange_symbol: CRO
   exchange_id: 311
   exchange_name: KuCoin
-  pair: CRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kucoin.com/CRO-BTC
-- base:
-    currency_id: 3635
-    currency_symbol: CRO
-    currency_type: cryptocurrency
-    exchange_symbol: CRO
-  exchange_id: 311
-  exchange_name: KuCoin
   pair: CRO/USDT
   quote:
     currency_id: 825
@@ -398,15 +412,15 @@ markets:
     currency_symbol: CRO
     currency_type: cryptocurrency
     exchange_symbol: CRO
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: CRO/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: CRO/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/cro_usdt
+    exchange_symbol: ETH
+  url: https://hitbtc.com/CRO-to-ETH
 - base:
     currency_id: 3635
     currency_symbol: CRO
@@ -426,15 +440,15 @@ markets:
     currency_symbol: CRO
     currency_type: cryptocurrency
     exchange_symbol: CRO
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: CRO/USDT
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: CRO/KRW
   quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/CROUSDT
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.gopax.co.kr/exchange/cro-krw
 - base:
     currency_id: 3635
     currency_symbol: CRO
@@ -468,6 +482,20 @@ markets:
     currency_symbol: CRO
     currency_type: cryptocurrency
     exchange_symbol: CRO
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: CRO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/cro_btc/
+- base:
+    currency_id: 3635
+    currency_symbol: CRO
+    currency_type: cryptocurrency
+    exchange_symbol: CRO
   exchange_id: 339
   exchange_name: Bibox
   pair: CRO/USDT
@@ -477,6 +505,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bibox.com/exchange?coinPair=CRO_USDT
+- base:
+    currency_id: 3635
+    currency_symbol: CRO
+    currency_type: cryptocurrency
+    exchange_symbol: CRO
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: CRO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/cro
 - base:
     currency_id: 3635
     currency_symbol: CRO
@@ -496,6 +538,34 @@ markets:
     currency_symbol: CRO
     currency_type: cryptocurrency
     exchange_symbol: CRO
+  exchange_id: 330
+  exchange_name: BigONE
+  pair: CRO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://big.one/trade/CRO-USDT
+- base:
+    currency_id: 3635
+    currency_symbol: CRO
+    currency_type: cryptocurrency
+    exchange_symbol: CRO
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: CRO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/CROUSDT
+- base:
+    currency_id: 3635
+    currency_symbol: CRO
+    currency_type: cryptocurrency
+    exchange_symbol: CRO
   exchange_id: 468
   exchange_name: OceanEx
   pair: CRO/BTC
@@ -505,62 +575,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://oceanex.pro/trades/crobtc?referral=GNWJRA&linkId=24150518
-- base:
-    currency_id: 3635
-    currency_symbol: CRO
-    currency_type: cryptocurrency
-    exchange_symbol: CRO
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: CRO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/CRO-to-ETH
-- base:
-    currency_id: 3635
-    currency_symbol: CRO
-    currency_type: cryptocurrency
-    exchange_symbol: CRO
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: CRO/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.gopax.co.kr/exchange/cro-krw
-- base:
-    currency_id: 3635
-    currency_symbol: CRO
-    currency_type: cryptocurrency
-    exchange_symbol: CRO
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: CRO/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/cro_btc/
-- base:
-    currency_id: 3635
-    currency_symbol: CRO
-    currency_type: cryptocurrency
-    exchange_symbol: CRO
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: CRO/HT
-  quote:
-    currency_id: 2502
-    currency_symbol: HT
-    currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.huobi.co.kr/en-US/exchange/cro_ht/
 - base:
     currency_id: 3635
     currency_symbol: CRO
@@ -594,29 +608,15 @@ markets:
     currency_symbol: CRO
     currency_type: cryptocurrency
     exchange_symbol: CRO
-  exchange_id: 330
-  exchange_name: BigONE
-  pair: CRO/USDT
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: CRO/HT
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 2502
+    currency_symbol: HT
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://big.one/trade/CRO-USDT
-- base:
-    currency_id: 3635
-    currency_symbol: CRO
-    currency_type: cryptocurrency
-    exchange_symbol: CRO
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: CRO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/cro
+    exchange_symbol: HT
+  url: https://www.huobi.co.kr/en-US/exchange/cro_ht/
 - base:
     currency_id: 3635
     currency_symbol: CRO

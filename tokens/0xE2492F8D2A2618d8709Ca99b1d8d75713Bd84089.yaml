@@ -23,34 +23,6 @@ markets:
     currency_symbol: HB
     currency_type: cryptocurrency
     exchange_symbol: HB
-  exchange_id: 50
-  exchange_name: EXMO
-  pair: HB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exmo.com/en/trade#?pair=HB_BTC
-- base:
-    currency_id: 3171
-    currency_symbol: HB
-    currency_type: cryptocurrency
-    exchange_symbol: HB
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: HB/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.livecoin.net/en/trading/HB_USD
-- base:
-    currency_id: 3171
-    currency_symbol: HB
-    currency_type: cryptocurrency
-    exchange_symbol: HB
   exchange_id: 107
   exchange_name: Livecoin
   pair: HB/ETH
@@ -74,6 +46,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.livecoin.net/en/trading/HB_BTC
+- base:
+    currency_id: 3171
+    currency_symbol: HB
+    currency_type: cryptocurrency
+    exchange_symbol: HB
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: HB/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.livecoin.net/en/trading/HB_USD
+- base:
+    currency_id: 3171
+    currency_symbol: HB
+    currency_type: cryptocurrency
+    exchange_symbol: HB
+  exchange_id: 50
+  exchange_name: EXMO
+  pair: HB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exmo.com/en/trade#?pair=HB_BTC
 - base:
     currency_id: 3171
     currency_symbol: HB
@@ -103,7 +103,7 @@ markets:
     exchange_symbol: ETH
   url: https://mercatox.com/exchange/HB/ETH
 name: HeartBout
-rank: 1548
+rank: 1545
 slug: heartbout
 status: active
 symbol: HB

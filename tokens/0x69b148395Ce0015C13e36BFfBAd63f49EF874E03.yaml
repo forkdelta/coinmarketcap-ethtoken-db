@@ -67,13 +67,13 @@ markets:
     exchange_symbol: DTA
   exchange_id: 463
   exchange_name: Huobi Korea
-  pair: DTA/USDT
+  pair: DTA/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/dta_usdt/
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/dta_btc/
 - base:
     currency_id: 2446
     currency_symbol: DTA
@@ -93,15 +93,15 @@ markets:
     currency_symbol: DTA
     currency_type: cryptocurrency
     exchange_symbol: DTA
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: DTA/BTC
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: DTA/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-DTA
+    exchange_symbol: USDT
+  url: https://www.huobi.co.kr/en-US/exchange/dta_usdt/
 - base:
     currency_id: 2446
     currency_symbol: DTA
@@ -121,6 +121,20 @@ markets:
     currency_symbol: DTA
     currency_type: cryptocurrency
     exchange_symbol: DTA
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: DTA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-DTA
+- base:
+    currency_id: 2446
+    currency_symbol: DTA
+    currency_type: cryptocurrency
+    exchange_symbol: DTA
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: DTA/ETH
@@ -130,20 +144,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.huobi.co.kr/en-US/exchange/dta_eth/
-- base:
-    currency_id: 2446
-    currency_symbol: DTA
-    currency_type: cryptocurrency
-    exchange_symbol: DTA
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: DTA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/dta_btc/
 - base:
     currency_id: 2446
     currency_symbol: DTA
@@ -187,7 +187,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.huobi.com.ru/exchange/#s=dta_usdt
 name: DATA
-rank: 630
+rank: 632
 slug: data
 status: active
 symbol: DTA

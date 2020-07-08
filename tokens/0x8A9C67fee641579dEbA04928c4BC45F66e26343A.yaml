@@ -31,20 +31,6 @@ markets:
     currency_symbol: JRT
     currency_type: cryptocurrency
     exchange_symbol: JRT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: JRT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=JRT_BTC
-- base:
-    currency_id: 5187
-    currency_symbol: JRT
-    currency_type: cryptocurrency
-    exchange_symbol: JRT
   exchange_id: 415
   exchange_name: Bilaxy
   pair: JRT/ETH
@@ -54,6 +40,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bilaxy.com/trade/JRT_ETH
+- base:
+    currency_id: 5187
+    currency_symbol: JRT
+    currency_type: cryptocurrency
+    exchange_symbol: JRT
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: JRT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=JRT_BTC
 - base:
     currency_id: 5187
     currency_symbol: JRT
@@ -125,7 +125,7 @@ markets:
     exchange_symbol: ETH
   url: https://hoo.com/trade/jrt-eth
 name: Jarvis Network
-rank: 580
+rank: 589
 slug: jarvis-network
 status: active
 symbol: JRT

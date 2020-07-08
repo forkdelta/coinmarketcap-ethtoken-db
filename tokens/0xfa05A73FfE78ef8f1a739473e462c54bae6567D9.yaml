@@ -59,20 +59,6 @@ markets:
     currency_symbol: LUN
     currency_type: cryptocurrency
     exchange_symbol: LUN
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: LUN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.fatbtc.com/trading?currency=LUN%2FBTC
-- base:
-    currency_id: 1658
-    currency_symbol: LUN
-    currency_type: cryptocurrency
-    exchange_symbol: LUN
   exchange_id: 102
   exchange_name: Huobi Global
   pair: LUN/BTC
@@ -82,6 +68,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hbg.com/en-us/exchange/lun_btc?invite_code=5kij5
+- base:
+    currency_id: 1658
+    currency_symbol: LUN
+    currency_type: cryptocurrency
+    exchange_symbol: LUN
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: LUN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.fatbtc.com/trading?currency=LUN%2FBTC
 - base:
     currency_id: 1658
     currency_symbol: LUN
@@ -128,6 +128,20 @@ markets:
     currency_id: 1658
     currency_symbol: LUN
     currency_type: cryptocurrency
+    exchange_symbol: LUNYR
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: LUN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/LUN/BTC
+- base:
+    currency_id: 1658
+    currency_symbol: LUN
+    currency_type: cryptocurrency
     exchange_symbol: LUN
   exchange_id: 302
   exchange_name: Gate.io
@@ -152,22 +166,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/lun_usdt
-- base:
-    currency_id: 1658
-    currency_symbol: LUN
-    currency_type: cryptocurrency
-    exchange_symbol: LUNYR
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: LUN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/LUN/BTC
 name: Lunyr
-rank: 694
+rank: 699
 slug: lunyr
 status: active
 symbol: LUN

@@ -19,29 +19,15 @@ markets:
     currency_symbol: DRG
     currency_type: cryptocurrency
     exchange_symbol: DRG
-  exchange_id: 112
-  exchange_name: Liquid
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: DRG/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://app.liquid.com/exchange/DRGETH?affiliate=eNgws23g761816
-- base:
-    currency_id: 2593
-    currency_symbol: DRG
-    currency_type: cryptocurrency
-    exchange_symbol: DRG
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: DRG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/DRGBTC?affiliate=eNgws23g761816
+  url: https://hitbtc.com/DRG-to-ETH
 - base:
     currency_id: 2593
     currency_symbol: DRG
@@ -61,15 +47,29 @@ markets:
     currency_symbol: DRG
     currency_type: cryptocurrency
     exchange_symbol: DRG
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: DRG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/DRGBTC?affiliate=eNgws23g761816
+- base:
+    currency_id: 2593
+    currency_symbol: DRG
+    currency_type: cryptocurrency
+    exchange_symbol: DRG
+  exchange_id: 112
+  exchange_name: Liquid
   pair: DRG/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://hitbtc.com/DRG-to-ETH
+  url: https://app.liquid.com/exchange/DRGETH?affiliate=eNgws23g761816
 - base:
     currency_id: 2593
     currency_symbol: DRG
@@ -99,7 +99,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/drg
 name: Dragon Coins
-rank: 326
+rank: 350
 slug: dragon-coins
 status: active
 symbol: DRG

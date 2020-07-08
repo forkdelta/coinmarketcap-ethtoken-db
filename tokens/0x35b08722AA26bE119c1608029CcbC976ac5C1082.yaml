@@ -23,20 +23,6 @@ markets:
     currency_symbol: EM
     currency_type: cryptocurrency
     exchange_symbol: EM
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: EM/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/EMKRW
-- base:
-    currency_id: 4215
-    currency_symbol: EM
-    currency_type: cryptocurrency
-    exchange_symbol: EM
   exchange_id: 102
   exchange_name: Huobi Global
   pair: EM/USDT
@@ -46,6 +32,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hbg.com/en-us/exchange/em_usdt?invite_code=5kij5
+- base:
+    currency_id: 4215
+    currency_symbol: EM
+    currency_type: cryptocurrency
+    exchange_symbol: EM
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: EM/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/EMKRW
 - base:
     currency_id: 4215
     currency_symbol: EM
@@ -107,20 +107,6 @@ markets:
     currency_symbol: EM
     currency_type: cryptocurrency
     exchange_symbol: EM
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: EM/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=em_usdk
-- base:
-    currency_id: 4215
-    currency_symbol: EM
-    currency_type: cryptocurrency
-    exchange_symbol: EM
   exchange_id: 463
   exchange_name: Huobi Korea
   pair: EM/USDT
@@ -158,8 +144,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.biki.cc/en_US/trade/EM_USDT
+- base:
+    currency_id: 4215
+    currency_symbol: EM
+    currency_type: cryptocurrency
+    exchange_symbol: EM
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: EM/USDK
+  quote:
+    currency_id: 4064
+    currency_symbol: USDK
+    currency_type: cryptocurrency
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=em_usdk
 name: Eminer
-rank: 511
+rank: 494
 slug: eminer
 status: active
 symbol: EM

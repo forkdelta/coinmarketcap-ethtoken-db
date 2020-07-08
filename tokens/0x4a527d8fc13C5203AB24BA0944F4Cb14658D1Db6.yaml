@@ -58,20 +58,6 @@ markets:
     exchange_symbol: MITx
   exchange_id: 400
   exchange_name: Hotbit
-  pair: MITX/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=MITX_USDT
-- base:
-    currency_id: 2709
-    currency_symbol: MITX
-    currency_type: cryptocurrency
-    exchange_symbol: MITx
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: MITX/BTC
   quote:
     currency_id: 1
@@ -97,16 +83,16 @@ markets:
     currency_id: 2709
     currency_symbol: MITX
     currency_type: cryptocurrency
-    exchange_symbol: MITX
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: MITX/BTC
+    exchange_symbol: MITx
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: MITX/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/MITX-to-BTC
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=MITX_USDT
 - base:
     currency_id: 2709
     currency_symbol: MITX
@@ -121,6 +107,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bitmax.io/#/trade/usdt/mitx
+- base:
+    currency_id: 2709
+    currency_symbol: MITX
+    currency_type: cryptocurrency
+    exchange_symbol: MITX
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: MITX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/MITX-to-BTC
 - base:
     currency_id: 2709
     currency_symbol: MITX
@@ -178,7 +178,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/trading?currency=MITX%2FUSDT
 name: Morpheus Labs
-rank: 663
+rank: 666
 slug: morpheus-labs
 status: active
 symbol: MITX

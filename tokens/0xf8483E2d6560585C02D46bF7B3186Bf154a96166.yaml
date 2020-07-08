@@ -62,20 +62,6 @@ markets:
     currency_symbol: ICH
     currency_type: cryptocurrency
     exchange_symbol: ICH
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: ICH/XRP
-  quote:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://international.indoex.io/trade/ICH_XRP
-- base:
-    currency_id: 5560
-    currency_symbol: ICH
-    currency_type: cryptocurrency
-    exchange_symbol: ICH
   exchange_id: 388
   exchange_name: Sistemkoin
   pair: ICH/BTC
@@ -92,6 +78,20 @@ markets:
     exchange_symbol: ICH
   exchange_id: 587
   exchange_name: IndoEx
+  pair: ICH/XRP
+  quote:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  url: https://international.indoex.io/trade/ICH_XRP
+- base:
+    currency_id: 5560
+    currency_symbol: ICH
+    currency_type: cryptocurrency
+    exchange_symbol: ICH
+  exchange_id: 587
+  exchange_name: IndoEx
   pair: ICH/USDT
   quote:
     currency_id: 825
@@ -99,20 +99,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://international.indoex.io/trade/ICH_USDT
-- base:
-    currency_id: 5560
-    currency_symbol: ICH
-    currency_type: cryptocurrency
-    exchange_symbol: ICH
-  exchange_id: 480
-  exchange_name: Cat.Ex
-  pair: ICH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.catex.io/trading/ICH/BTC
 - base:
     currency_id: 5560
     currency_symbol: ICH
@@ -134,13 +120,13 @@ markets:
     exchange_symbol: ICH
   exchange_id: 587
   exchange_name: IndoEx
-  pair: ICH/LTC
+  pair: ICH/USD
   quote:
-    currency_id: 2
-    currency_symbol: LTC
-    currency_type: cryptocurrency
-    exchange_symbol: LTC
-  url: https://international.indoex.io/trade/ICH_LTC
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://international.indoex.io/trade/ICH_USD
 - base:
     currency_id: 5560
     currency_symbol: ICH
@@ -162,13 +148,27 @@ markets:
     exchange_symbol: ICH
   exchange_id: 587
   exchange_name: IndoEx
-  pair: ICH/USD
+  pair: ICH/USDC
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://international.indoex.io/trade/ICH_USD
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://international.indoex.io/trade/ICH_USDC
+- base:
+    currency_id: 5560
+    currency_symbol: ICH
+    currency_type: cryptocurrency
+    exchange_symbol: ICH
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: ICH/LTC
+  quote:
+    currency_id: 2
+    currency_symbol: LTC
+    currency_type: cryptocurrency
+    exchange_symbol: LTC
+  url: https://international.indoex.io/trade/ICH_LTC
 - base:
     currency_id: 5560
     currency_symbol: ICH
@@ -188,15 +188,15 @@ markets:
     currency_symbol: ICH
     currency_type: cryptocurrency
     exchange_symbol: ICH
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: ICH/USDC
+  exchange_id: 480
+  exchange_name: Cat.Ex
+  pair: ICH/BTC
   quote:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://international.indoex.io/trade/ICH_USDC
+    exchange_symbol: BTC
+  url: https://www.catex.io/trading/ICH/BTC
 - base:
     currency_id: 5560
     currency_symbol: ICH
@@ -240,7 +240,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.etherflyer.com/trade.html?pairs=ICH-ETH
 name: Idea Chain Coin
-rank: 224
+rank: 226
 slug: idea-chain-coin
 status: active
 symbol: ICH
