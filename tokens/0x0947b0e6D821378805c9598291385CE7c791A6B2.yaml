@@ -27,20 +27,6 @@ markets:
     currency_symbol: LND
     currency_type: cryptocurrency
     exchange_symbol: LND
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: LND/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/lnd
-- base:
-    currency_id: 2686
-    currency_symbol: LND
-    currency_type: cryptocurrency
-    exchange_symbol: LND
   exchange_id: 415
   exchange_name: Bilaxy
   pair: LND/ETH
@@ -50,6 +36,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bilaxy.com/trade/LND_ETH
+- base:
+    currency_id: 2686
+    currency_symbol: LND
+    currency_type: cryptocurrency
+    exchange_symbol: LND
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: LND/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/lnd
 - base:
     currency_id: 2686
     currency_symbol: LND
@@ -79,7 +79,7 @@ markets:
     exchange_symbol: BTC
   url: https://app.liquid.com/exchange/LNDBTC?affiliate=eNgws23g761816
 name: Lendingblock
-rank: 1140
+rank: 1237
 slug: lendingblock
 status: active
 symbol: LND

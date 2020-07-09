@@ -31,20 +31,6 @@ markets:
     exchange_symbol: PNT
   exchange_id: 270
   exchange_name: Binance
-  pair: PNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/PNT_BTC?ref=H31B921U
-- base:
-    currency_id: 5794
-    currency_symbol: PNT
-    currency_type: cryptocurrency
-    exchange_symbol: PNT
-  exchange_id: 270
-  exchange_name: Binance
   pair: PNT/USDT
   quote:
     currency_id: 825
@@ -52,6 +38,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/PNT_USDT?ref=H31B921U
+- base:
+    currency_id: 5794
+    currency_symbol: PNT
+    currency_type: cryptocurrency
+    exchange_symbol: PNT
+  exchange_id: 270
+  exchange_name: Binance
+  pair: PNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/PNT_BTC?ref=H31B921U
 - base:
     currency_id: 5794
     currency_symbol: PNT
@@ -84,20 +84,6 @@ markets:
     currency_id: 5794
     currency_symbol: PNT
     currency_type: cryptocurrency
-    exchange_symbol: XPNT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: PNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/PNT-to-BTC
-- base:
-    currency_id: 5794
-    currency_symbol: PNT
-    currency_type: cryptocurrency
     exchange_symbol: PNT
   exchange_id: 983
   exchange_name: Loopring Exchange
@@ -108,8 +94,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://loopring.io/trade/PNT-USDT
+- base:
+    currency_id: 5794
+    currency_symbol: PNT
+    currency_type: cryptocurrency
+    exchange_symbol: XPNT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: PNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/PNT-to-BTC
 name: pNetwork
-rank: 268
+rank: 270
 slug: pnetwork
 status: active
 symbol: PNT

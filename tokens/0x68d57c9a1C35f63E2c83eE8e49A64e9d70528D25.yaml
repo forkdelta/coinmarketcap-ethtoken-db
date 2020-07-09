@@ -131,6 +131,34 @@ markets:
     currency_symbol: SRN
     currency_type: cryptocurrency
     exchange_symbol: SRN
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: SRN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/srn_btc/
+- base:
+    currency_id: 2313
+    currency_symbol: SRN
+    currency_type: cryptocurrency
+    exchange_symbol: SRN
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: SRN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/SRN/BTC
+- base:
+    currency_id: 2313
+    currency_symbol: SRN
+    currency_type: cryptocurrency
+    exchange_symbol: SRN
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: SRN/ETH
@@ -145,15 +173,15 @@ markets:
     currency_symbol: SRN
     currency_type: cryptocurrency
     exchange_symbol: SRN
-  exchange_id: 82
-  exchange_name: BitBay
-  pair: SRN/BTC
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: SRN/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitbay.net/en/exchange-rate/SRN-BTC
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/srn_eth/
 - base:
     currency_id: 2313
     currency_symbol: SRN
@@ -187,57 +215,15 @@ markets:
     currency_symbol: SRN
     currency_type: cryptocurrency
     exchange_symbol: SRN
-  exchange_id: 463
-  exchange_name: Huobi Korea
+  exchange_id: 82
+  exchange_name: BitBay
   pair: SRN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/srn_btc/
-- base:
-    currency_id: 2313
-    currency_symbol: SRN
-    currency_type: cryptocurrency
-    exchange_symbol: SRN
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: SRN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/srn_eth/
-- base:
-    currency_id: 2313
-    currency_symbol: SRN
-    currency_type: cryptocurrency
-    exchange_symbol: SRN
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SRN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/SRN-to-USDT
-- base:
-    currency_id: 2313
-    currency_symbol: SRN
-    currency_type: cryptocurrency
-    exchange_symbol: SRN
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: SRN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/SRN-to-ETH
+  url: https://bitbay.net/en/exchange-rate/SRN-BTC
 - base:
     currency_id: 2313
     currency_symbol: SRN
@@ -257,15 +243,29 @@ markets:
     currency_symbol: SRN
     currency_type: cryptocurrency
     exchange_symbol: SRN
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: SRN/BTC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SRN/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/SRN/BTC
+    exchange_symbol: ETH
+  url: https://hitbtc.com/SRN-to-ETH
+- base:
+    currency_id: 2313
+    currency_symbol: SRN
+    currency_type: cryptocurrency
+    exchange_symbol: SRN
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: SRN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/SRN-to-USDT
 - base:
     currency_id: 2313
     currency_symbol: SRN
@@ -281,7 +281,7 @@ markets:
     exchange_symbol: EUR
   url: https://www.litebit.eu/en/buy/sirin-labs-token
 name: SIRIN LABS Token
-rank: 535
+rank: 538
 slug: sirin-labs-token
 status: active
 symbol: SRN

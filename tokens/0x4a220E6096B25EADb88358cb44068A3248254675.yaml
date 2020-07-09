@@ -82,20 +82,6 @@ markets:
     currency_symbol: QNT
     currency_type: cryptocurrency
     exchange_symbol: QNT
-  exchange_id: 489
-  exchange_name: Bithumb Global
-  pair: QNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=QNT_USDT
-- base:
-    currency_id: 3155
-    currency_symbol: QNT
-    currency_type: cryptocurrency
-    exchange_symbol: QNT
   exchange_id: 400
   exchange_name: Hotbit
   pair: QNT/USDT
@@ -105,20 +91,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hotbit.io/exchange?symbol=QNT_USDT
-- base:
-    currency_id: 3155
-    currency_symbol: QNT
-    currency_type: cryptocurrency
-    exchange_symbol: QNT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: QNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=QNT_BTC
 - base:
     currency_id: 3155
     currency_symbol: QNT
@@ -138,15 +110,29 @@ markets:
     currency_symbol: QNT
     currency_type: cryptocurrency
     exchange_symbol: QNT
-  exchange_id: 733
-  exchange_name: VCC Exchange
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: QNT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=qnt
+  url: https://www.hotbit.io/exchange?symbol=QNT_BTC
+- base:
+    currency_id: 3155
+    currency_symbol: QNT
+    currency_type: cryptocurrency
+    exchange_symbol: QNT
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: QNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=QNT_USDT
 - base:
     currency_id: 3155
     currency_symbol: QNT
@@ -166,6 +152,20 @@ markets:
     currency_symbol: QNT
     currency_type: cryptocurrency
     exchange_symbol: QNT
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: QNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=qnt
+- base:
+    currency_id: 3155
+    currency_symbol: QNT
+    currency_type: cryptocurrency
+    exchange_symbol: QNT
   exchange_id: 404
   exchange_name: Kyber Network
   pair: QNT/ETH
@@ -180,20 +180,6 @@ markets:
     currency_symbol: QNT
     currency_type: cryptocurrency
     exchange_symbol: QNT
-  exchange_id: 488
-  exchange_name: CoinMetro
-  pair: QNT/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://go.coinmetro.com/#/trade
-- base:
-    currency_id: 3155
-    currency_symbol: QNT
-    currency_type: cryptocurrency
-    exchange_symbol: QNT
   exchange_id: 489
   exchange_name: Bithumb Global
   pair: QNT/BTC
@@ -203,6 +189,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.bithumb.pro/en-us/spot/trade;symbol=QNT_BTC
+- base:
+    currency_id: 3155
+    currency_symbol: QNT
+    currency_type: cryptocurrency
+    exchange_symbol: QNT
+  exchange_id: 488
+  exchange_name: CoinMetro
+  pair: QNT/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://go.coinmetro.com/#/trade
 - base:
     currency_id: 3155
     currency_symbol: QNT
@@ -224,20 +224,6 @@ markets:
     exchange_symbol: QNT
   exchange_id: 407
   exchange_name: DigiFinex
-  pair: QNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.digifinex.com/en-ww/trade/BTC/QNT
-- base:
-    currency_id: 3155
-    currency_symbol: QNT
-    currency_type: cryptocurrency
-    exchange_symbol: QNT
-  exchange_id: 407
-  exchange_name: DigiFinex
   pair: QNT/USDT
   quote:
     currency_id: 825
@@ -245,6 +231,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.digifinex.com/en-ww/trade/USDT/QNT
+- base:
+    currency_id: 3155
+    currency_symbol: QNT
+    currency_type: cryptocurrency
+    exchange_symbol: QNT
+  exchange_id: 407
+  exchange_name: DigiFinex
+  pair: QNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.digifinex.com/en-ww/trade/BTC/QNT
 - base:
     currency_id: 3155
     currency_symbol: QNT
@@ -288,7 +288,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.valr.com/buy/QNT/BTC
 name: Quant
-rank: 68
+rank: 70
 slug: quant
 status: active
 symbol: QNT

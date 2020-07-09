@@ -49,20 +49,6 @@ markets:
     currency_symbol: DACC
     currency_type: cryptocurrency
     exchange_symbol: DACC
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: DACC/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/DACC-KRW
-- base:
-    currency_id: 2986
-    currency_symbol: DACC
-    currency_type: cryptocurrency
-    exchange_symbol: DACC
   exchange_id: 310
   exchange_name: IDEX
   pair: DACC/ETH
@@ -72,6 +58,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/dacc
+- base:
+    currency_id: 2986
+    currency_symbol: DACC
+    currency_type: cryptocurrency
+    exchange_symbol: DACC
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: DACC/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/DACC-KRW
 - base:
     currency_id: 2986
     currency_symbol: DACC
@@ -101,7 +101,7 @@ markets:
     exchange_symbol: BTC
   url: https://bgogo.com/exchange/DACC/BTC
 name: DACC
-rank: 2406
+rank: 2428
 slug: dacc
 status: active
 symbol: DACC

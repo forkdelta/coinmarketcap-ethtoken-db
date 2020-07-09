@@ -24,20 +24,6 @@ markets:
     currency_symbol: ZB
     currency_type: cryptocurrency
     exchange_symbol: ZB
-  exchange_id: 430
-  exchange_name: ZBG
-  pair: ZB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.zbg.com/trade/zb_usdt
-- base:
-    currency_id: 3351
-    currency_symbol: ZB
-    currency_type: cryptocurrency
-    exchange_symbol: ZB
   exchange_id: 326
   exchange_name: ZB.COM
   pair: ZB/QC
@@ -52,6 +38,20 @@ markets:
     currency_symbol: ZB
     currency_type: cryptocurrency
     exchange_symbol: ZB
+  exchange_id: 430
+  exchange_name: ZBG
+  pair: ZB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.zbg.com/trade/zb_usdt
+- base:
+    currency_id: 3351
+    currency_symbol: ZB
+    currency_type: cryptocurrency
+    exchange_symbol: ZB
   exchange_id: 459
   exchange_name: BW.com
   pair: ZB/QC
@@ -61,6 +61,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: QC
   url: https://www.bw.com/trade/zb_qc
+- base:
+    currency_id: 3351
+    currency_symbol: ZB
+    currency_type: cryptocurrency
+    exchange_symbol: ZB
+  exchange_id: 326
+  exchange_name: ZB.COM
+  pair: ZB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://trans.zb.com/zbusdt?recommendCode=d0ip3b
 - base:
     currency_id: 3351
     currency_symbol: ZB
@@ -96,13 +110,13 @@ markets:
     exchange_symbol: ZB
   exchange_id: 326
   exchange_name: ZB.COM
-  pair: ZB/USDT
+  pair: ZB/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trans.zb.com/zbusdt?recommendCode=d0ip3b
+    exchange_symbol: BTC
+  url: https://trans.zb.com/zbbtc?recommendCode=d0ip3b
 - base:
     currency_id: 3351
     currency_symbol: ZB
@@ -149,20 +163,6 @@ markets:
     currency_id: 3351
     currency_symbol: ZB
     currency_type: cryptocurrency
-    exchange_symbol: ZB
-  exchange_id: 326
-  exchange_name: ZB.COM
-  pair: ZB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trans.zb.com/zbbtc?recommendCode=d0ip3b
-- base:
-    currency_id: 3351
-    currency_symbol: ZB
-    currency_type: cryptocurrency
     exchange_symbol: ZBT
   exchange_id: 37
   exchange_name: Bitfinex
@@ -174,7 +174,7 @@ markets:
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/ZB:USD?refcode=H70YTMupQ
 name: ZB Token
-rank: 74
+rank: 75
 slug: zb-token
 status: active
 symbol: ZB

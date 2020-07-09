@@ -29,20 +29,6 @@ markets:
     currency_symbol: TRAC
     currency_type: cryptocurrency
     exchange_symbol: TRAC
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: TRAC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-TRAC
-- base:
-    currency_id: 2467
-    currency_symbol: TRAC
-    currency_type: cryptocurrency
-    exchange_symbol: TRAC
   exchange_id: 311
   exchange_name: KuCoin
   pair: TRAC/BTC
@@ -52,6 +38,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://trade.kucoin.com/TRAC-BTC
+- base:
+    currency_id: 2467
+    currency_symbol: TRAC
+    currency_type: cryptocurrency
+    exchange_symbol: TRAC
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: TRAC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-TRAC
 - base:
     currency_id: 2467
     currency_symbol: TRAC
@@ -85,20 +85,6 @@ markets:
     currency_symbol: TRAC
     currency_type: cryptocurrency
     exchange_symbol: TRAC
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: TRAC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-TRAC
-- base:
-    currency_id: 2467
-    currency_symbol: TRAC
-    currency_type: cryptocurrency
-    exchange_symbol: TRAC
   exchange_id: 42
   exchange_name: HitBTC
   pair: TRAC/ETH
@@ -122,8 +108,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/trac
+- base:
+    currency_id: 2467
+    currency_symbol: TRAC
+    currency_type: cryptocurrency
+    exchange_symbol: TRAC
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: TRAC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-TRAC
 name: OriginTrail
-rank: 300
+rank: 310
 slug: origintrail
 status: active
 symbol: TRAC

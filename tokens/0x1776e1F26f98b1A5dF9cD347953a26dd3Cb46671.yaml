@@ -83,20 +83,6 @@ markets:
     exchange_symbol: NMR
   exchange_id: 22
   exchange_name: Bittrex
-  pair: NMR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-NMR
-- base:
-    currency_id: 1732
-    currency_symbol: NMR
-    currency_type: cryptocurrency
-    exchange_symbol: NMR
-  exchange_id: 22
-  exchange_name: Bittrex
   pair: NMR/USDT
   quote:
     currency_id: 825
@@ -104,6 +90,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bittrex.com/Market/Index?MarketName=USDT-NMR
+- base:
+    currency_id: 1732
+    currency_symbol: NMR
+    currency_type: cryptocurrency
+    exchange_symbol: NMR
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: NMR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-NMR
 - base:
     currency_id: 1732
     currency_symbol: NMR
@@ -203,7 +203,7 @@ markets:
     exchange_symbol: ETH
   url: https://hoo.com/trade/nmr-eth
 name: Numeraire
-rank: 101
+rank: 106
 slug: numeraire
 status: active
 symbol: NMR

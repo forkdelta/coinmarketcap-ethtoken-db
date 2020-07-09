@@ -87,15 +87,29 @@ markets:
     currency_symbol: EVY
     currency_type: cryptocurrency
     exchange_symbol: EVY
-  exchange_id: 452
-  exchange_name: Coineal
+  exchange_id: 421
+  exchange_name: IDCM
+  pair: EVY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.idcm.io/trading/EVY_BTC
+- base:
+    currency_id: 3754
+    currency_symbol: EVY
+    currency_type: cryptocurrency
+    exchange_symbol: EVY
+  exchange_id: 421
+  exchange_name: IDCM
   pair: EVY/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://hk.coineal.com/trade_center.html?s=evy-usdt#en_US
+  url: https://www.idcm.io/trading/EVY_USDT
 - base:
     currency_id: 3754
     currency_symbol: EVY
@@ -129,34 +143,6 @@ markets:
     currency_symbol: EVY
     currency_type: cryptocurrency
     exchange_symbol: EVY
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: EVY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://latoken.com/exchange/BTC-EVY
-- base:
-    currency_id: 3754
-    currency_symbol: EVY
-    currency_type: cryptocurrency
-    exchange_symbol: EVY
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: EVY/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://latoken.com/exchange/USDT-EVY
-- base:
-    currency_id: 3754
-    currency_symbol: EVY
-    currency_type: cryptocurrency
-    exchange_symbol: EVY
   exchange_id: 215
   exchange_name: P2PB2B
   pair: EVY/BTC
@@ -166,6 +152,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://p2pb2b.io/trade/EVY_BTC
+- base:
+    currency_id: 3754
+    currency_symbol: EVY
+    currency_type: cryptocurrency
+    exchange_symbol: EVY
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: EVY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://latoken.com/exchange/BTC-EVY
 - base:
     currency_id: 3754
     currency_symbol: EVY
@@ -187,6 +187,20 @@ markets:
     exchange_symbol: EVY
   exchange_id: 380
   exchange_name: LATOKEN
+  pair: EVY/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://latoken.com/exchange/USDT-EVY
+- base:
+    currency_id: 3754
+    currency_symbol: EVY
+    currency_type: cryptocurrency
+    exchange_symbol: EVY
+  exchange_id: 380
+  exchange_name: LATOKEN
   pair: EVY/LA
   quote:
     currency_id: 2090
@@ -199,31 +213,17 @@ markets:
     currency_symbol: EVY
     currency_type: cryptocurrency
     exchange_symbol: EVY
-  exchange_id: 421
-  exchange_name: IDCM
-  pair: EVY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.idcm.io/trading/EVY_BTC
-- base:
-    currency_id: 3754
-    currency_symbol: EVY
-    currency_type: cryptocurrency
-    exchange_symbol: EVY
-  exchange_id: 421
-  exchange_name: IDCM
+  exchange_id: 452
+  exchange_name: Coineal
   pair: EVY/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.idcm.io/trading/EVY_USDT
+  url: https://hk.coineal.com/trade_center.html?s=evy-usdt#en_US
 name: 'EveryCoin '
-rank: 486
+rank: 493
 slug: everycoin
 status: active
 symbol: EVY

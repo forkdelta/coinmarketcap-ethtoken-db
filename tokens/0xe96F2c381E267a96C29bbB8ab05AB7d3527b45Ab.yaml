@@ -30,6 +30,20 @@ markets:
     exchange_symbol: SATX
   exchange_id: 566
   exchange_name: SatoExchange
+  pair: SATX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.satoexchange.com/market/SATX/BTC/
+- base:
+    currency_id: 5430
+    currency_symbol: SATX
+    currency_type: cryptocurrency
+    exchange_symbol: SATX
+  exchange_id: 566
+  exchange_name: SatoExchange
   pair: SATX/ETH
   quote:
     currency_id: 1027
@@ -52,19 +66,19 @@ markets:
     exchange_symbol: SATX
   url: https://www.satoexchange.com/market/LTC/SATX/
 - base:
+    currency_id: 74
+    currency_symbol: DOGE
+    currency_type: cryptocurrency
+    exchange_symbol: DOGE
+  exchange_id: 566
+  exchange_name: SatoExchange
+  pair: DOGE/SATX
+  quote:
     currency_id: 5430
     currency_symbol: SATX
     currency_type: cryptocurrency
     exchange_symbol: SATX
-  exchange_id: 566
-  exchange_name: SatoExchange
-  pair: SATX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.satoexchange.com/market/SATX/BTC/
+  url: https://www.satoexchange.com/market/DOGE/SATX/
 - base:
     currency_id: 1274
     currency_symbol: WAVES
@@ -122,20 +136,6 @@ markets:
     exchange_symbol: SATX
   url: https://www.satoexchange.com/market/XRP/SATX/
 - base:
-    currency_id: 74
-    currency_symbol: DOGE
-    currency_type: cryptocurrency
-    exchange_symbol: DOGE
-  exchange_id: 566
-  exchange_name: SatoExchange
-  pair: DOGE/SATX
-  quote:
-    currency_id: 5430
-    currency_symbol: SATX
-    currency_type: cryptocurrency
-    exchange_symbol: SATX
-  url: https://www.satoexchange.com/market/DOGE/SATX/
-- base:
     currency_id: 1896
     currency_symbol: ZRX
     currency_type: cryptocurrency
@@ -164,7 +164,7 @@ markets:
     exchange_symbol: SATX
   url: https://www.satoexchange.com/market/XLM/SATX/
 name: SatoExchange Token
-rank: 2474
+rank: 2359
 slug: satoexchange-token
 status: active
 symbol: SATX
