@@ -75,20 +75,6 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: RDN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/RDNBTC
-- base:
-    currency_id: 2161
-    currency_symbol: RDN
-    currency_type: cryptocurrency
-    exchange_symbol: RDN
   exchange_id: 436
   exchange_name: Bitkub
   pair: RDN/THB
@@ -98,20 +84,6 @@ markets:
     currency_type: fiat
     exchange_symbol: THB
   url: https://www.bitkub.com/signup?ref=250462
-- base:
-    currency_id: 2161
-    currency_symbol: RDN
-    currency_type: cryptocurrency
-    exchange_symbol: RDN
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: RDN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
 - base:
     currency_id: 2161
     currency_symbol: RDN
@@ -131,20 +103,6 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: RDN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.fatbtc.com/trading?currency=RDN%2FBTC
-- base:
-    currency_id: 2161
-    currency_symbol: RDN
-    currency_type: cryptocurrency
-    exchange_symbol: RDN
   exchange_id: 267
   exchange_name: Bancor Network
   pair: RDN/BNT
@@ -159,15 +117,43 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: RDN/USDT
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: RDN/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/rdn_usdt
+    exchange_symbol: BTC
+  url: https://www.fatbtc.com/trading?currency=RDN%2FBTC
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
+    currency_type: cryptocurrency
+    exchange_symbol: RDN
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: RDN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
+    currency_type: cryptocurrency
+    exchange_symbol: RDN
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: RDN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/RDNBTC
 - base:
     currency_id: 2161
     currency_symbol: RDN
@@ -182,6 +168,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/RDN:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
+    currency_type: cryptocurrency
+    exchange_symbol: RDN
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: RDN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/rdn_usdt
 - base:
     currency_id: 2161
     currency_symbol: RDN
@@ -225,7 +225,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/rdn
 name: Raiden Network Token
-rank: 386
+rank: 368
 slug: raiden-network-token
 status: active
 symbol: RDN

@@ -40,15 +40,29 @@ markets:
     currency_symbol: FDZ
     currency_type: cryptocurrency
     exchange_symbol: FDZ
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: FDZ/ETH
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: FDZ/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/fdz
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/FDZ/BTC
+- base:
+    currency_id: 2626
+    currency_symbol: FDZ
+    currency_type: cryptocurrency
+    exchange_symbol: FDZ
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: FDZ/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/FDZ-to-BTC
 - base:
     currency_id: 2626
     currency_symbol: FDZ
@@ -63,6 +77,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/FDZ-to-USDT
+- base:
+    currency_id: 2626
+    currency_symbol: FDZ
+    currency_type: cryptocurrency
+    exchange_symbol: FDZ
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: FDZ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/fdz
 - base:
     currency_id: 2626
     currency_symbol: FDZ
@@ -105,36 +133,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/FDZ-to-ETH
-- base:
-    currency_id: 2626
-    currency_symbol: FDZ
-    currency_type: cryptocurrency
-    exchange_symbol: FDZ
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: FDZ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/FDZ-to-BTC
-- base:
-    currency_id: 2626
-    currency_symbol: FDZ
-    currency_type: cryptocurrency
-    exchange_symbol: FDZ
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: FDZ/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/FDZ/BTC
 name: Friendz
-rank: 1245
+rank: 1324
 slug: friends
 status: active
 symbol: FDZ

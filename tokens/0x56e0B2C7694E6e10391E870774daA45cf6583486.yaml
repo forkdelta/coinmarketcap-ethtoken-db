@@ -43,20 +43,6 @@ markets:
     exchange_symbol: DUO
   exchange_id: 400
   exchange_name: Hotbit
-  pair: DUO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=DUO_ETH
-- base:
-    currency_id: 3905
-    currency_symbol: DUO
-    currency_type: cryptocurrency
-    exchange_symbol: DUO
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: DUO/BTC
   quote:
     currency_id: 1
@@ -64,6 +50,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=DUO_BTC
+- base:
+    currency_id: 3905
+    currency_symbol: DUO
+    currency_type: cryptocurrency
+    exchange_symbol: DUO
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: DUO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=DUO_ETH
 - base:
     currency_id: 3905
     currency_symbol: DUO
@@ -79,7 +79,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.lbank.info/trading/duo/usdt
 name: DUO Network Token
-rank: 2275
+rank: 2271
 slug: duo-network-token
 status: active
 symbol: DUO

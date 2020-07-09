@@ -58,6 +58,20 @@ markets:
     currency_symbol: AUC
     currency_type: cryptocurrency
     exchange_symbol: AUC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: AUC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/AUC-to-BTC
+- base:
+    currency_id: 2653
+    currency_symbol: AUC
+    currency_type: cryptocurrency
+    exchange_symbol: AUC
   exchange_id: 37
   exchange_name: Bitfinex
   pair: AUC/USD
@@ -74,13 +88,13 @@ markets:
     exchange_symbol: AUC
   exchange_id: 42
   exchange_name: HitBTC
-  pair: AUC/BTC
+  pair: AUC/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/AUC-to-BTC
+    exchange_symbol: ETH
+  url: https://hitbtc.com/AUC-to-ETH
 - base:
     currency_id: 2653
     currency_symbol: AUC
@@ -95,22 +109,8 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/AUC-KRW
-- base:
-    currency_id: 2653
-    currency_symbol: AUC
-    currency_type: cryptocurrency
-    exchange_symbol: AUC
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: AUC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/AUC-to-ETH
 name: Auctus
-rank: 596
+rank: 577
 slug: auctus
 status: active
 symbol: AUC
