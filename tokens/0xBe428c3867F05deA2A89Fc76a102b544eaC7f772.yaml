@@ -66,6 +66,20 @@ markets:
     currency_symbol: CVT
     currency_type: cryptocurrency
     exchange_symbol: CVT
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: CVT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bit-z.com/exchange/cvt_btc
+- base:
+    currency_id: 2642
+    currency_symbol: CVT
+    currency_type: cryptocurrency
+    exchange_symbol: CVT
   exchange_id: 22
   exchange_name: Bittrex
   pair: CVT/BTC
@@ -75,6 +89,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-CVT
+- base:
+    currency_id: 2642
+    currency_symbol: CVT
+    currency_type: cryptocurrency
+    exchange_symbol: CVT
+  exchange_id: 300
+  exchange_name: BitZ
+  pair: CVT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bit-z.com/exchange/cvt_eth
+- base:
+    currency_id: 2642
+    currency_symbol: CVT
+    currency_type: cryptocurrency
+    exchange_symbol: CVT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: CVT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/CVT-to-BTC
 - base:
     currency_id: 2642
     currency_symbol: CVT
@@ -96,13 +138,13 @@ markets:
     exchange_symbol: CVT
   exchange_id: 42
   exchange_name: HitBTC
-  pair: CVT/BTC
+  pair: CVT/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/CVT-to-BTC
+    exchange_symbol: ETH
+  url: https://hitbtc.com/CVT-to-ETH
 - base:
     currency_id: 2642
     currency_symbol: CVT
@@ -117,50 +159,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/CVT-to-USDT
-- base:
-    currency_id: 2642
-    currency_symbol: CVT
-    currency_type: cryptocurrency
-    exchange_symbol: CVT
-  exchange_id: 300
-  exchange_name: BitZ
-  pair: CVT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bit-z.com/exchange/cvt_btc
-- base:
-    currency_id: 2642
-    currency_symbol: CVT
-    currency_type: cryptocurrency
-    exchange_symbol: CVT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: CVT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/CVT-to-ETH
-- base:
-    currency_id: 2642
-    currency_symbol: CVT
-    currency_type: cryptocurrency
-    exchange_symbol: CVT
-  exchange_id: 300
-  exchange_name: BitZ
-  pair: CVT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bit-z.com/exchange/cvt_eth
 name: CyberVein
-rank: 128
+rank: 126
 slug: cybervein
 status: active
 symbol: CVT

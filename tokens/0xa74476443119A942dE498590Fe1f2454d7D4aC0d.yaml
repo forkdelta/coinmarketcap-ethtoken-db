@@ -49,20 +49,6 @@ markets:
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 270
-  exchange_name: Binance
-  pair: GNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/GNT_BTC?ref=H31B921U
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
   exchange_id: 294
   exchange_name: OKEx
   pair: GNT/USDT
@@ -105,15 +91,43 @@ markets:
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 215
-  exchange_name: P2PB2B
+  exchange_id: 270
+  exchange_name: Binance
   pair: GNT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/GNT_BTC
+  url: https://www.binance.com/en/trade/GNT_BTC?ref=H31B921U
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: GNT/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-GNT
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: GNT/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/GNTKRW
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -147,15 +161,15 @@ markets:
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: GNT/KRW
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: GNT/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-GNT
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinex.com/trading?currency=btc&dest=gnt&tab=limit
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -175,43 +189,29 @@ markets:
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: GNT/BTC
+  exchange_id: 615
+  exchange_name: Binance JEX
+  pair: GNT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinex.com/trading?currency=btc&dest=gnt&tab=limit
+    exchange_symbol: USDT
+  url: https://www.jex.com/en/spot
 - base:
     currency_id: 1455
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: GNT/KRW
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: GNT/USDT
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/GNTKRW
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: GNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://alterdice.com/trading/GNTBTC
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/gnt_usdt?invite_code=5kij5
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -240,34 +240,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.coinex.com/trading?currency=eth&dest=gnt&tab=limit
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: GNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/gnt_usdt?invite_code=5kij5
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 615
-  exchange_name: Binance JEX
-  pair: GNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.jex.com/en/spot
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -315,29 +287,15 @@ markets:
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 388
-  exchange_name: Sistemkoin
-  pair: GNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://sistemkoin.com/#/
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 388
-  exchange_name: Sistemkoin
+  exchange_id: 215
+  exchange_name: P2PB2B
   pair: GNT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://sistemkoin.com/#/
+  url: https://p2pb2b.io/trade/GNT_BTC
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -352,62 +310,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.binance.com/en/trade/GNT_ETH?ref=H31B921U
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 355
-  exchange_name: Vebitcoin
-  pair: GNT/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.vebitcoin.com/
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: GNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://folgory.com/trade-crypto/GNT_BTC
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 487
-  exchange_name: VinDAX
-  pair: GNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vindax.com/exchange-base.html?symbol=GNT_ETH
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 487
-  exchange_name: VinDAX
-  pair: GNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vindax.com/exchange-base.html?symbol=GNT_BTC
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -441,43 +343,85 @@ markets:
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 102
-  exchange_name: Huobi Global
+  exchange_id: 388
+  exchange_name: Sistemkoin
+  pair: GNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://sistemkoin.com/#/
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 481
+  exchange_name: Alterdice
   pair: GNT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/gnt_btc?invite_code=5kij5
+  url: https://alterdice.com/trading/GNTBTC
 - base:
     currency_id: 1455
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 213
-  exchange_name: Mercatox
+  exchange_id: 355
+  exchange_name: Vebitcoin
+  pair: GNT/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.vebitcoin.com/
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 388
+  exchange_name: Sistemkoin
   pair: GNT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://mercatox.com/exchange/GNT/BTC
+  url: https://sistemkoin.com/#/
 - base:
     currency_id: 1455
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 574
-  exchange_name: WBF Exchange
-  pair: GNT/ETH
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: GNT/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.wbf.info/trade/GNT_ETH
+    exchange_symbol: BTC
+  url: https://folgory.com/trade-crypto/GNT_BTC
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: GNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vindax.com/exchange-base.html?symbol=GNT_BTC
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -497,29 +441,71 @@ markets:
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 574
-  exchange_name: WBF Exchange
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: GNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://dex-trade.com/en?currencyIn=GNT&currencyTo=ETH
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 213
+  exchange_name: Mercatox
   pair: GNT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.wbf.info/trade/GNT_BTC
+  url: https://mercatox.com/exchange/GNT/BTC
 - base:
     currency_id: 1455
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 89
-  exchange_name: Coinbase Pro
-  pair: GNT/USDC
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: GNT/BTC
   quote:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://pro.coinbase.com/trade/GNT-USDC
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/gnt_btc?invite_code=5kij5
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: GNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-GNT
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: GNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=gnt
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -553,43 +539,99 @@ markets:
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: GNT/BTC
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: GNT/PLN
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=gnt
+    currency_id: 2805
+    currency_symbol: PLN
+    currency_type: fiat
+    exchange_symbol: PLN
+  url: https://bitbay.net/en/exchange-rate/GNT-PLN
 - base:
     currency_id: 1455
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: GNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-GNT
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 154
-  exchange_name: Dex-Trade
+  exchange_id: 481
+  exchange_name: Alterdice
   pair: GNT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://dex-trade.com/en?currencyIn=GNT&currencyTo=ETH
+  url: https://alterdice.com/trading/GNTETH
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 574
+  exchange_name: WBF Exchange
+  pair: GNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.wbf.info/trade/GNT_ETH
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 574
+  exchange_name: WBF Exchange
+  pair: GNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.wbf.info/trade/GNT_BTC
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: GNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vindax.com/exchange-base.html?symbol=GNT_ETH
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: GNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://omgfin.com/exchange/trade/market/GNTBTC
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 89
+  exchange_name: Coinbase Pro
+  pair: GNT/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://pro.coinbase.com/trade/GNT-USDC
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -611,62 +653,6 @@ markets:
     exchange_symbol: GNT
   exchange_id: 656
   exchange_name: Omgfin
-  pair: GNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://omgfin.com/exchange/trade/market/GNTBTC
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: GNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hbg.com/en-us/exchange/gnt_eth?invite_code=5kij5
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: GNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/GNTBTC
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: GNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://poloniex.com/exchange#btc_gnt?c=H4QD8FNW
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 656
-  exchange_name: Omgfin
   pair: GNT/ETH
   quote:
     currency_id: 1027
@@ -674,76 +660,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://omgfin.com/exchange/trade/market/GNTETH
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: GNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/gnt_usdt
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 481
-  exchange_name: Alterdice
-  pair: GNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://alterdice.com/trading/GNTETH
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 82
-  exchange_name: BitBay
-  pair: GNT/PLN
-  quote:
-    currency_id: 2805
-    currency_symbol: PLN
-    currency_type: fiat
-    exchange_symbol: PLN
-  url: https://bitbay.net/en/exchange-rate/GNT-PLN
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: GNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitfinex.com/t/GNT:BTC?refcode=H70YTMupQ
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: GNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://poloniex.com/exchange#usdt_gnt?c=H4QD8FNW
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -763,15 +679,57 @@ markets:
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 495
-  exchange_name: Folgory
+  exchange_id: 224
+  exchange_name: BTC Markets
+  pair: GNT/AUD
+  quote:
+    currency_id: 2782
+    currency_symbol: AUD
+    currency_type: fiat
+    exchange_symbol: AUD
+  url: https://btcmarkets.net/
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 102
+  exchange_name: Huobi Global
   pair: GNT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://folgory.com/trade-crypto/GNT_ETH
+  url: https://www.hbg.com/en-us/exchange/gnt_eth?invite_code=5kij5
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: GNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/gnt_usdt
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: GNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://poloniex.com/exchange#btc_gnt?c=H4QD8FNW
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -791,15 +749,29 @@ markets:
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 50
-  exchange_name: EXMO
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: GNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/GNTBTC
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 495
+  exchange_name: Folgory
   pair: GNT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://exmo.com/en/trade#?pair=GNT_ETH
+  url: https://folgory.com/trade-crypto/GNT_ETH
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -819,29 +791,15 @@ markets:
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 154
-  exchange_name: Dex-Trade
-  pair: GNT/USDT
+  exchange_id: 50
+  exchange_name: EXMO
+  pair: GNT/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://dex-trade.com/en?currencyIn=GNT&currencyTo=USDT
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 224
-  exchange_name: BTC Markets
-  pair: GNT/AUD
-  quote:
-    currency_id: 2782
-    currency_symbol: AUD
-    currency_type: fiat
-    exchange_symbol: AUD
-  url: https://btcmarkets.net/
+    exchange_symbol: ETH
+  url: https://exmo.com/en/trade#?pair=GNT_ETH
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -856,48 +814,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bitay.com/en/t/GNTUSDT
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: GNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/GNTUSDT
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: GNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/GNT-USDT
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: GNT/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/GNT:USD?refcode=H70YTMupQ
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -931,15 +847,43 @@ markets:
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 376
-  exchange_name: Bitbns
-  pair: GNT/INR
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: GNT/USDT
   quote:
-    currency_id: 2796
-    currency_symbol: INR
-    currency_type: fiat
-    exchange_symbol: INR
-  url: https://bitbns.com/trade/#/gnt
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://omgfin.com/exchange/trade/market/GNTUSDT
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: GNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bitfinex.com/t/GNT:BTC?refcode=H70YTMupQ
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: GNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://poloniex.com/exchange#usdt_gnt?c=H4QD8FNW
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -954,118 +898,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bitso.com/trade/market/gnt/btc
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: GNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/GNT_BTC
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: GNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://wazirx.com/exchange/GNT-BTC
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: GNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/gnt_eth
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: GNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.huobi.co.kr/en-US/exchange/gnt_usdt/
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: GNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitrue.com/trade/gnt_eth?inviteCode=VQQLQV
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: GNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitfinex.com/t/GNT:ETH?refcode=H70YTMupQ
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 82
-  exchange_name: BitBay
-  pair: GNT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitbay.net/en/exchange-rate/GNT-BTC
-- base:
-    currency_id: 1455
-    currency_symbol: GNT
-    currency_type: cryptocurrency
-    exchange_symbol: GNT
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: GNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/gnt_eth/
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -1113,15 +945,113 @@ markets:
     currency_symbol: GNT
     currency_type: cryptocurrency
     exchange_symbol: GNT
-  exchange_id: 100
-  exchange_name: YoBit
+  exchange_id: 154
+  exchange_name: Dex-Trade
+  pair: GNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://dex-trade.com/en?currencyIn=GNT&currencyTo=USDT
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 107
+  exchange_name: Livecoin
   pair: GNT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://yobit.net/en/trade/GNT/BTC
+  url: https://www.livecoin.net/en/trading/GNT_BTC
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: GNT/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/GNT:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: GNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/GNT-USDT
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: GNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitrue.com/trade/gnt_eth?inviteCode=VQQLQV
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: GNT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.huobi.co.kr/en-US/exchange/gnt_usdt/
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: GNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://wazirx.com/exchange/GNT-BTC
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: GNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/gnt_eth/
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -1136,6 +1066,76 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.huobi.co.kr/en-US/exchange/gnt_btc/
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 376
+  exchange_name: Bitbns
+  pair: GNT/INR
+  quote:
+    currency_id: 2796
+    currency_symbol: INR
+    currency_type: fiat
+    exchange_symbol: INR
+  url: https://bitbns.com/trade/#/gnt
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: GNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitbay.net/en/exchange-rate/GNT-BTC
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: GNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/gnt_eth
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: GNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitfinex.com/t/GNT:ETH?refcode=H70YTMupQ
+- base:
+    currency_id: 1455
+    currency_symbol: GNT
+    currency_type: cryptocurrency
+    exchange_symbol: GNT
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: GNT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/GNT/BTC
 - base:
     currency_id: 1455
     currency_symbol: GNT
@@ -1277,7 +1277,7 @@ markets:
     exchange_symbol: ETH
   url: https://localtrade.pro
 name: Golem
-rank: 107
+rank: 108
 slug: golem-network-tokens
 status: active
 symbol: GNT

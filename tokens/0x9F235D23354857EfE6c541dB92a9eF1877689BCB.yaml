@@ -34,20 +34,6 @@ markets:
     exchange_symbol: BOLT
   exchange_id: 453
   exchange_name: BitMax
-  pair: BOLT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/bolt
-- base:
-    currency_id: 3843
-    currency_symbol: BOLT
-    currency_type: cryptocurrency
-    exchange_symbol: BOLT
-  exchange_id: 453
-  exchange_name: BitMax
   pair: BOLT/USDT
   quote:
     currency_id: 825
@@ -55,6 +41,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bitmax.io/#/trade/usdt/bolt
+- base:
+    currency_id: 3843
+    currency_symbol: BOLT
+    currency_type: cryptocurrency
+    exchange_symbol: BOLT
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: BOLT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/bolt
 - base:
     currency_id: 3843
     currency_symbol: BOLT
@@ -154,7 +154,7 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/bolt-bsc
 name: BOLT
-rank: 772
+rank: 775
 slug: bolt
 status: active
 symbol: BOLT

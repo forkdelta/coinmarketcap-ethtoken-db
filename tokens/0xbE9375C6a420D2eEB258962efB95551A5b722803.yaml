@@ -44,20 +44,6 @@ markets:
     currency_symbol: STMX
     currency_type: cryptocurrency
     exchange_symbol: STMX
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: STMX/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-STMX
-- base:
-    currency_id: 2297
-    currency_symbol: STMX
-    currency_type: cryptocurrency
-    exchange_symbol: STMX
   exchange_id: 270
   exchange_name: Binance
   pair: STMX/USDT
@@ -67,6 +53,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.binance.com/en/trade/STMX_USDT?ref=H31B921U
+- base:
+    currency_id: 2297
+    currency_symbol: STMX
+    currency_type: cryptocurrency
+    exchange_symbol: STMX
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: STMX/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-STMX
 - base:
     currency_id: 2297
     currency_symbol: STMX
@@ -180,7 +180,7 @@ markets:
     exchange_symbol: ETH
   url: https://bittrex.com/Market/Index?MarketName=ETH-STMX
 name: StormX
-rank: 311
+rank: 300
 slug: stormx
 status: active
 symbol: STMX

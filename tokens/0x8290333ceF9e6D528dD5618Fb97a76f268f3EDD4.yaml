@@ -66,20 +66,6 @@ markets:
     currency_symbol: ANKR
     currency_type: cryptocurrency
     exchange_symbol: ANKR
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: ANKR/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/ANKRKRW
-- base:
-    currency_id: 3783
-    currency_symbol: ANKR
-    currency_type: cryptocurrency
-    exchange_symbol: ANKR
   exchange_id: 351
   exchange_name: Upbit
   pair: ANKR/KRW
@@ -89,6 +75,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-ANKR
+- base:
+    currency_id: 3783
+    currency_symbol: ANKR
+    currency_type: cryptocurrency
+    exchange_symbol: ANKR
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: ANKR/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/ANKRKRW
 - base:
     currency_id: 3783
     currency_symbol: ANKR
@@ -110,12 +110,12 @@ markets:
     exchange_symbol: ANKR
   exchange_id: 388
   exchange_name: Sistemkoin
-  pair: ANKR/BTC
+  pair: ANKR/TRY
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
   url: https://sistemkoin.com/#/
 - base:
     currency_id: 3783
@@ -124,12 +124,12 @@ markets:
     exchange_symbol: ANKR
   exchange_id: 388
   exchange_name: Sistemkoin
-  pair: ANKR/TRY
+  pair: ANKR/BTC
   quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
   url: https://sistemkoin.com/#/
 - base:
     currency_id: 3783
@@ -150,6 +150,34 @@ markets:
     currency_symbol: ANKR
     currency_type: cryptocurrency
     exchange_symbol: ANKR
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: ANKR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/ANKRBTC
+- base:
+    currency_id: 3783
+    currency_symbol: ANKR
+    currency_type: cryptocurrency
+    exchange_symbol: ANKR
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: ANKR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/ankr
+- base:
+    currency_id: 3783
+    currency_symbol: ANKR
+    currency_type: cryptocurrency
+    exchange_symbol: ANKR
   exchange_id: 544
   exchange_name: MXC
   pair: ANKR/ETH
@@ -159,20 +187,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.mxc.com/trade/easy#ANKR_ETH
-- base:
-    currency_id: 3783
-    currency_symbol: ANKR
-    currency_type: cryptocurrency
-    exchange_symbol: ANKR
-  exchange_id: 174
-  exchange_name: Coinone
-  pair: ANKR/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://coinone.co.kr/exchange/trade/ankr/
 - base:
     currency_id: 3783
     currency_symbol: ANKR
@@ -206,6 +220,20 @@ markets:
     currency_symbol: ANKR
     currency_type: cryptocurrency
     exchange_symbol: ANKR
+  exchange_id: 174
+  exchange_name: Coinone
+  pair: ANKR/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://coinone.co.kr/exchange/trade/ankr/
+- base:
+    currency_id: 3783
+    currency_symbol: ANKR
+    currency_type: cryptocurrency
+    exchange_symbol: ANKR
   exchange_id: 425
   exchange_name: WazirX
   pair: ANKR/USDT
@@ -215,20 +243,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://wazirx.com/exchange/ANKR-USDT
-- base:
-    currency_id: 3783
-    currency_symbol: ANKR
-    currency_type: cryptocurrency
-    exchange_symbol: ANKR
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: ANKR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/ANKRBTC
 - base:
     currency_id: 3783
     currency_symbol: ANKR
@@ -248,29 +262,15 @@ markets:
     currency_symbol: ANKR
     currency_type: cryptocurrency
     exchange_symbol: ANKR
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: ANKR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coindcx.com/trade/ANKRUSDT
-- base:
-    currency_id: 3783
-    currency_symbol: ANKR
-    currency_type: cryptocurrency
-    exchange_symbol: ANKR
-  exchange_id: 453
-  exchange_name: BitMax
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: ANKR/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/ankr
+  url: https://www.hotbit.io/exchange?symbol=ANKR_BTC
 - base:
     currency_id: 3783
     currency_symbol: ANKR
@@ -290,20 +290,6 @@ markets:
     currency_symbol: ANKR
     currency_type: cryptocurrency
     exchange_symbol: ANKR
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: ANKR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=ANKR_BTC
-- base:
-    currency_id: 3783
-    currency_symbol: ANKR
-    currency_type: cryptocurrency
-    exchange_symbol: ANKR
   exchange_id: 528
   exchange_name: BiKi
   pair: ANKR/USDT
@@ -313,6 +299,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.biki.cc/en_US/trade/ANKR_USDT
+- base:
+    currency_id: 3783
+    currency_symbol: ANKR
+    currency_type: cryptocurrency
+    exchange_symbol: ANKR
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: ANKR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://coindcx.com/trade/ANKRUSDT
 - base:
     currency_id: 3783
     currency_symbol: ANKR
@@ -346,20 +346,6 @@ markets:
     currency_symbol: ANKR
     currency_type: cryptocurrency
     exchange_symbol: ANKR
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: ANKR/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/ANKR-E97_BNB
-- base:
-    currency_id: 3783
-    currency_symbol: ANKR
-    currency_type: cryptocurrency
-    exchange_symbol: ANKR
   exchange_id: 756
   exchange_name: ViteX
   pair: ANKR/BTC
@@ -369,20 +355,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://x.vite.net/trade?symbol=ANKR-000_BTC-000&category={{baseu}}
-- base:
-    currency_id: 3783
-    currency_symbol: ANKR
-    currency_type: cryptocurrency
-    exchange_symbol: ANKR
-  exchange_id: 453
-  exchange_name: BitMax
-  pair: ANKR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bitmax.io/#/trade/usdt/ankr
 - base:
     currency_id: 3783
     currency_symbol: ANKR
@@ -411,6 +383,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/ankr
+- base:
+    currency_id: 3783
+    currency_symbol: ANKR
+    currency_type: cryptocurrency
+    exchange_symbol: ANKR
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: ANKR/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/ANKR-E97_BNB
+- base:
+    currency_id: 3783
+    currency_symbol: ANKR
+    currency_type: cryptocurrency
+    exchange_symbol: ANKR
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: ANKR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bitmax.io/#/trade/usdt/ankr
 - base:
     currency_id: 3783
     currency_symbol: ANKR
@@ -482,7 +482,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/trading?currency=ANKR%2FUSDT
 name: Ankr
-rank: 200
+rank: 197
 slug: ankr
 status: active
 symbol: ANKR

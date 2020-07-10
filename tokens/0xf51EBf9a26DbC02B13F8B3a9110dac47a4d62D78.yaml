@@ -35,15 +35,15 @@ markets:
     currency_symbol: APIX
     currency_type: cryptocurrency
     exchange_symbol: APIX
-  exchange_id: 489
-  exchange_name: Bithumb Global
+  exchange_id: 294
+  exchange_name: OKEx
   pair: APIX/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=APIX_USDT
+  url: https://www.okex.com/market?product=apix_usdt
 - base:
     currency_id: 5258
     currency_symbol: APIX
@@ -77,6 +77,20 @@ markets:
     currency_symbol: APIX
     currency_type: cryptocurrency
     exchange_symbol: APIX
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: APIX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=APIX_USDT
+- base:
+    currency_id: 5258
+    currency_symbol: APIX
+    currency_type: cryptocurrency
+    exchange_symbol: APIX
   exchange_id: 22
   exchange_name: Bittrex
   pair: APIX/BTC
@@ -86,8 +100,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-APIX
+- base:
+    currency_id: 5258
+    currency_symbol: APIX
+    currency_type: cryptocurrency
+    exchange_symbol: APIX
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: APIX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.okex.com/market?product=apix_btc
 name: APIX
-rank: 244
+rank: 248
 slug: apix
 status: active
 symbol: APIX

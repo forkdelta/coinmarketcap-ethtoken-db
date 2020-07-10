@@ -57,20 +57,6 @@ markets:
     currency_symbol: FUEL
     currency_type: cryptocurrency
     exchange_symbol: FUEL
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: FUEL/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/fuel_usdt
-- base:
-    currency_id: 2120
-    currency_symbol: FUEL
-    currency_type: cryptocurrency
-    exchange_symbol: FUEL
   exchange_id: 425
   exchange_name: WazirX
   pair: FUEL/USDT
@@ -87,13 +73,13 @@ markets:
     exchange_symbol: FUEL
   exchange_id: 302
   exchange_name: Gate.io
-  pair: FUEL/ETH
+  pair: FUEL/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/fuel_eth
+    exchange_symbol: USDT
+  url: https://gate.io/trade/fuel_usdt
 - base:
     currency_id: 2120
     currency_symbol: FUEL
@@ -108,8 +94,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://acx.io/#/market
+- base:
+    currency_id: 2120
+    currency_symbol: FUEL
+    currency_type: cryptocurrency
+    exchange_symbol: FUEL
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: FUEL/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/fuel_eth
 name: Etherparty
-rank: 635
+rank: 638
 slug: etherparty
 status: active
 symbol: FUEL

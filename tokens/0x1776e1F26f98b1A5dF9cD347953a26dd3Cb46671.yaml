@@ -109,20 +109,6 @@ markets:
     currency_symbol: NMR
     currency_type: cryptocurrency
     exchange_symbol: NMR
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: NMR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/NMR-to-BTC
-- base:
-    currency_id: 1732
-    currency_symbol: NMR
-    currency_type: cryptocurrency
-    exchange_symbol: NMR
   exchange_id: 16
   exchange_name: Poloniex
   pair: NMR/BTC
@@ -132,6 +118,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://poloniex.com/exchange#btc_nmr?c=H4QD8FNW
+- base:
+    currency_id: 1732
+    currency_symbol: NMR
+    currency_type: cryptocurrency
+    exchange_symbol: NMR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: NMR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/NMR-to-BTC
 - base:
     currency_id: 1732
     currency_symbol: NMR
@@ -203,7 +203,7 @@ markets:
     exchange_symbol: ETH
   url: https://hoo.com/trade/nmr-eth
 name: Numeraire
-rank: 106
+rank: 107
 slug: numeraire
 status: active
 symbol: NMR

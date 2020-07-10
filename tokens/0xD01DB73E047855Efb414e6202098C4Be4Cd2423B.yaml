@@ -103,19 +103,19 @@ markets:
     exchange_symbol: UQC
   url: https://omgfin.com/exchange/trade/market/LINKUQC
 - base:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: USDC/UQC
-  quote:
     currency_id: 2273
     currency_symbol: UQC
     currency_type: cryptocurrency
     exchange_symbol: UQC
-  url: https://omgfin.com/exchange/trade/market/USDCUQC
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: UQC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://international.indoex.io/trade/UQC_USDT
 - base:
     currency_id: 2273
     currency_symbol: UQC
@@ -131,19 +131,19 @@ markets:
     exchange_symbol: BTC
   url: https://international.indoex.io/trade/UQC_BTC
 - base:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: USDC/UQC
+  quote:
     currency_id: 2273
     currency_symbol: UQC
     currency_type: cryptocurrency
     exchange_symbol: UQC
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: UQC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://international.indoex.io/trade/UQC_USDT
+  url: https://omgfin.com/exchange/trade/market/USDCUQC
 - base:
     currency_id: 2273
     currency_symbol: UQC
@@ -291,12 +291,12 @@ markets:
     exchange_symbol: UQC
   exchange_id: 402
   exchange_name: Coinsuper
-  pair: UQC/BTC
+  pair: UQC/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
+    exchange_symbol: USDT
   url: https://www.coinsuper.com/#/actionDeal
 - base:
     currency_id: 2273
@@ -305,12 +305,12 @@ markets:
     exchange_symbol: UQC
   exchange_id: 402
   exchange_name: Coinsuper
-  pair: UQC/USDT
+  pair: UQC/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
+    exchange_symbol: BTC
   url: https://www.coinsuper.com/#/actionDeal
 - base:
     currency_id: 2273
@@ -331,20 +331,6 @@ markets:
     currency_symbol: UQC
     currency_type: cryptocurrency
     exchange_symbol: UQC
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: UQC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.livecoin.net/en/trading/UQC_ETH
-- base:
-    currency_id: 2273
-    currency_symbol: UQC
-    currency_type: cryptocurrency
-    exchange_symbol: UQC
   exchange_id: 495
   exchange_name: Folgory
   pair: UQC/USDT
@@ -354,6 +340,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://folgory.com/trade-crypto/UQC_USDT
+- base:
+    currency_id: 2273
+    currency_symbol: UQC
+    currency_type: cryptocurrency
+    exchange_symbol: UQC
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: UQC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.livecoin.net/en/trading/UQC_ETH
 - base:
     currency_id: 2273
     currency_symbol: UQC
@@ -369,7 +369,7 @@ markets:
     exchange_symbol: BTC
   url: https://topbtc.com/home/Market/index/market/BTC/coin/UQC.html
 name: Uquid Coin
-rank: 293
+rank: 294
 slug: uquid-coin
 status: active
 symbol: UQC
