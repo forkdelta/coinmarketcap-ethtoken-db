@@ -47,20 +47,6 @@ markets:
     exchange_symbol: CRC
   exchange_id: 100
   exchange_name: YoBit
-  pair: CRC/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://yobit.net/en/trade/CRC/BTC
-- base:
-    currency_id: 2664
-    currency_symbol: CRC
-    currency_type: fiat
-    exchange_symbol: CRC
-  exchange_id: 100
-  exchange_name: YoBit
   pair: CRC/ETH
   quote:
     currency_id: 1027
@@ -68,6 +54,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://yobit.net/en/trade/CRC/ETH
+- base:
+    currency_id: 2664
+    currency_symbol: CRC
+    currency_type: fiat
+    exchange_symbol: CRC
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: CRC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://yobit.net/en/trade/CRC/BTC
 - base:
     currency_id: 2664
     currency_symbol: CRC
@@ -153,7 +153,7 @@ markets:
     exchange_symbol: USDT
   url: https://p2pb2b.io/trade/CRC_USDT
 name: CryCash
-rank: 1187
+rank: 1178
 slug: crycash
 status: active
 symbol: CRC

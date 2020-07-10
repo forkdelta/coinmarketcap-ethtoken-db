@@ -43,6 +43,20 @@ markets:
     exchange_symbol: BPC
   exchange_id: 535
   exchange_name: ExMarkets
+  pair: BPC/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exmarkets.com/trade/bpc-btc
+- base:
+    currency_id: 5796
+    currency_symbol: BPC
+    currency_type: cryptocurrency
+    exchange_symbol: BPC
+  exchange_id: 535
+  exchange_name: ExMarkets
   pair: BPC/ETH
   quote:
     currency_id: 1027
@@ -55,15 +69,15 @@ markets:
     currency_symbol: BPC
     currency_type: cryptocurrency
     exchange_symbol: BPC
-  exchange_id: 535
-  exchange_name: ExMarkets
-  pair: BPC/BTC
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: BPC/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exmarkets.com/trade/bpc-btc
+    exchange_symbol: USDT
+  url: https://crex24.com/exchange/BPC-USDT
 - base:
     currency_id: 5796
     currency_symbol: BPC
@@ -97,29 +111,15 @@ markets:
     currency_symbol: BPC
     currency_type: cryptocurrency
     exchange_symbol: BPC
-  exchange_id: 382
-  exchange_name: Crex24
+  exchange_id: 245
+  exchange_name: STEX
   pair: BPC/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://crex24.com/exchange/BPC-USDT
-- base:
-    currency_id: 5796
-    currency_symbol: BPC
-    currency_type: cryptocurrency
-    exchange_symbol: BPC
-  exchange_id: 245
-  exchange_name: STEX
-  pair: BPC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://app.stex.com/en/basic-trade/pair/ETH/BPC/1D
+  url: https://app.stex.com/en/basic-trade/pair/USDT/BPC/1D
 - base:
     currency_id: 5796
     currency_symbol: BPC
@@ -141,15 +141,15 @@ markets:
     exchange_symbol: BPC
   exchange_id: 245
   exchange_name: STEX
-  pair: BPC/USDT
+  pair: BPC/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://app.stex.com/en/basic-trade/pair/USDT/BPC/1D
+    exchange_symbol: ETH
+  url: https://app.stex.com/en/basic-trade/pair/ETH/BPC/1D
 name: BeautyPayCoin
-rank: 2079
+rank: 2081
 slug: beautypaycoin
 status: active
 symbol: BPC

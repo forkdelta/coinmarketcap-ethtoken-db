@@ -25,20 +25,6 @@ markets:
     exchange_symbol: CARD
   exchange_id: 400
   exchange_name: Hotbit
-  pair: CARD/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=CARD_ETH
-- base:
-    currency_id: 2891
-    currency_symbol: CARD
-    currency_type: cryptocurrency
-    exchange_symbol: CARD
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: CARD/BTC
   quote:
     currency_id: 1
@@ -51,15 +37,15 @@ markets:
     currency_symbol: CARD
     currency_type: cryptocurrency
     exchange_symbol: CARD
-  exchange_id: 310
-  exchange_name: IDEX
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: CARD/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://idex.market/eth/card
+  url: https://www.hotbit.io/exchange?symbol=CARD_ETH
 - base:
     currency_id: 2891
     currency_symbol: CARD
@@ -88,8 +74,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bibox.com/exchange?coinPair=CARD_ETH
+- base:
+    currency_id: 2891
+    currency_symbol: CARD
+    currency_type: cryptocurrency
+    exchange_symbol: CARD
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: CARD/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/card
 name: Cardstack
-rank: 801
+rank: 773
 slug: cardstack
 status: active
 symbol: CARD
