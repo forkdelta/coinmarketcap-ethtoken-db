@@ -63,6 +63,20 @@ markets:
     currency_symbol: CUR
     currency_type: cryptocurrency
     exchange_symbol: CUR
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: CUR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/cur
+- base:
+    currency_id: 5083
+    currency_symbol: CUR
+    currency_type: cryptocurrency
+    exchange_symbol: CUR
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: CUR/ETH
@@ -91,15 +105,15 @@ markets:
     currency_symbol: CUR
     currency_type: cryptocurrency
     exchange_symbol: CUR
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: CUR/ETH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: CUR/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/cur
+    exchange_symbol: BTC
+  url: https://hitbtc.com/CUR-to-BTC
 - base:
     currency_id: 5083
     currency_symbol: CUR
@@ -121,20 +135,6 @@ markets:
     exchange_symbol: CUR
   exchange_id: 42
   exchange_name: HitBTC
-  pair: CUR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/CUR-to-BTC
-- base:
-    currency_id: 5083
-    currency_symbol: CUR
-    currency_type: cryptocurrency
-    exchange_symbol: CUR
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: CUR/USDT
   quote:
     currency_id: 825
@@ -143,7 +143,7 @@ markets:
     exchange_symbol: USDT
   url: https://hitbtc.com/CUR-to-USDT
 name: Curio
-rank: 2296
+rank: 2336
 slug: curio
 status: active
 symbol: CUR

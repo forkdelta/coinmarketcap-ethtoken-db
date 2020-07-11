@@ -54,6 +54,20 @@ markets:
     currency_symbol: ITC
     currency_type: cryptocurrency
     exchange_symbol: ITC
+  exchange_id: 200
+  exchange_name: Bithumb
+  pair: ITC/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.bithumb.com/trade/order/ITCKRW
+- base:
+    currency_id: 2251
+    currency_symbol: ITC
+    currency_type: cryptocurrency
+    exchange_symbol: ITC
   exchange_id: 294
   exchange_name: OKEx
   pair: ITC/BTC
@@ -77,20 +91,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.hbg.com/en-us/exchange/itc_usdt?invite_code=5kij5
-- base:
-    currency_id: 2251
-    currency_symbol: ITC
-    currency_type: cryptocurrency
-    exchange_symbol: ITC
-  exchange_id: 200
-  exchange_name: Bithumb
-  pair: ITC/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.bithumb.com/trade/order/ITCKRW
 - base:
     currency_id: 2251
     currency_symbol: ITC
@@ -140,20 +140,6 @@ markets:
     exchange_symbol: ITC
   exchange_id: 311
   exchange_name: KuCoin
-  pair: ITC/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://trade.kucoin.com/ITC-USDT
-- base:
-    currency_id: 2251
-    currency_symbol: ITC
-    currency_type: cryptocurrency
-    exchange_symbol: ITC
-  exchange_id: 311
-  exchange_name: KuCoin
   pair: ITC/ETH
   quote:
     currency_id: 1027
@@ -161,6 +147,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://trade.kucoin.com/ITC-ETH
+- base:
+    currency_id: 2251
+    currency_symbol: ITC
+    currency_type: cryptocurrency
+    exchange_symbol: ITC
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: ITC/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://trade.kucoin.com/ITC-USDT
 - base:
     currency_id: 2251
     currency_symbol: ITC
@@ -246,7 +246,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.huobi.com.ru/exchange/#s=itc_usdt
 name: IoT Chain
-rank: 415
+rank: 405
 slug: iot-chain
 status: active
 symbol: ITC

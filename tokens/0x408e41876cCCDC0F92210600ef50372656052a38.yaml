@@ -13,6 +13,7 @@ links:
   explorer:
   - https://etherscan.io/token/0x408e41876cccdc0f92210600ef50372656052a38
   - https://ethplorer.io/address/0x408e41876cccdc0f92210600ef50372656052a38
+  - https://eth.tokenview.com/en/token/0x408e41876cccdc0f92210600ef50372656052a38
   message_board:
   - https://medium.com/renproject
   reddit:
@@ -59,20 +60,6 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: REN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hbg.com/en-us/exchange/ren_usdt?invite_code=5kij5
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
   exchange_id: 415
   exchange_name: Bilaxy
   pair: REN/USDT
@@ -89,13 +76,13 @@ markets:
     exchange_symbol: REN
   exchange_id: 102
   exchange_name: Huobi Global
-  pair: REN/BTC
+  pair: REN/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/ren_btc?invite_code=5kij5
+    exchange_symbol: USDT
+  url: https://www.hbg.com/en-us/exchange/ren_usdt?invite_code=5kij5
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -110,6 +97,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://exrates.me/trading/RENBTC
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: REN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/ren_btc?invite_code=5kij5
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -241,15 +242,15 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
-  exchange_id: 16
-  exchange_name: Poloniex
-  pair: REN/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: REN/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://poloniex.com/exchange#usdt_ren?c=H4QD8FNW
+    exchange_symbol: BTC
+  url: https://hitbtc.com/REN-to-BTC
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -283,15 +284,15 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: REN/BTC
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: REN/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/REN-to-BTC
+    exchange_symbol: USDT
+  url: https://poloniex.com/exchange#usdt_ren?c=H4QD8FNW
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -307,7 +308,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/ren
 name: Ren
-rank: 56
+rank: 58
 slug: ren
 status: active
 symbol: REN

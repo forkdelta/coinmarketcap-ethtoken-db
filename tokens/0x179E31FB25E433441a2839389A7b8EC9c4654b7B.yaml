@@ -46,20 +46,6 @@ markets:
     exchange_symbol: SNB
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: SNB/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.probit.com/app/exchange/SNB-BTC
-- base:
-    currency_id: 5277
-    currency_symbol: SNB
-    currency_type: cryptocurrency
-    exchange_symbol: SNB
-  exchange_id: 477
-  exchange_name: ProBit Exchange
   pair: SNB/USDT
   quote:
     currency_id: 825
@@ -67,6 +53,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.probit.com/app/exchange/SNB-USDT
+- base:
+    currency_id: 5277
+    currency_symbol: SNB
+    currency_type: cryptocurrency
+    exchange_symbol: SNB
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: SNB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.probit.com/app/exchange/SNB-BTC
 - base:
     currency_id: 5277
     currency_symbol: SNB
@@ -96,7 +96,7 @@ markets:
     exchange_symbol: BTC
   url: https://www.catex.io/trading/SNB/BTC
 name: SynchroBitcoin
-rank: 431
+rank: 435
 slug: synchrobitcoin
 status: active
 symbol: SNB

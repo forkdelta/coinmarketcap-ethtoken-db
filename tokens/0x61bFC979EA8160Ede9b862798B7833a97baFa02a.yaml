@@ -45,20 +45,6 @@ markets:
     exchange_symbol: REL
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: REL/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://p2pb2b.io/trade/REL_USD
-- base:
-    currency_id: 5807
-    currency_symbol: REL
-    currency_type: cryptocurrency
-    exchange_symbol: REL
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: REL/ETH
   quote:
     currency_id: 1027
@@ -66,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://p2pb2b.io/trade/REL_ETH
+- base:
+    currency_id: 5807
+    currency_symbol: REL
+    currency_type: cryptocurrency
+    exchange_symbol: REL
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: REL/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://p2pb2b.io/trade/REL_USD
 - base:
     currency_id: 5807
     currency_symbol: REL
@@ -81,7 +81,7 @@ markets:
     exchange_symbol: BTC
   url: https://p2pb2b.io/trade/REL_BTC
 name: Release Project
-rank: 2280
+rank: 2292
 slug: release-project
 status: active
 symbol: REL
