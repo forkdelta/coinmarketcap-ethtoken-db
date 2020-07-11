@@ -44,20 +44,6 @@ markets:
     currency_symbol: PNK
     currency_type: cryptocurrency
     exchange_symbol: PNK
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: PNK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/pnk
-- base:
-    currency_id: 3581
-    currency_symbol: PNK
-    currency_type: cryptocurrency
-    exchange_symbol: PNK
   exchange_id: 404
   exchange_name: Kyber Network
   pair: PNK/ETH
@@ -81,6 +67,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bitfinex.com/t/PNK:ETH?refcode=H70YTMupQ
+- base:
+    currency_id: 3581
+    currency_symbol: PNK
+    currency_type: cryptocurrency
+    exchange_symbol: PNK
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: PNK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/pnk
 - base:
     currency_id: 3581
     currency_symbol: PNK
@@ -116,20 +116,6 @@ markets:
     exchange_symbol: PNK
   exchange_id: 424
   exchange_name: Hoo
-  pair: PNK/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hoo.com/trade/pnk-eth
-- base:
-    currency_id: 3581
-    currency_symbol: PNK
-    currency_type: cryptocurrency
-    exchange_symbol: PNK
-  exchange_id: 424
-  exchange_name: Hoo
   pair: PNK/USDT
   quote:
     currency_id: 825
@@ -137,8 +123,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hoo.com/trade/pnk-usdt
+- base:
+    currency_id: 3581
+    currency_symbol: PNK
+    currency_type: cryptocurrency
+    exchange_symbol: PNK
+  exchange_id: 424
+  exchange_name: Hoo
+  pair: PNK/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hoo.com/trade/pnk-eth
 name: Kleros
-rank: 291
+rank: 300
 slug: kleros
 status: active
 symbol: PNK

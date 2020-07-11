@@ -111,16 +111,16 @@ markets:
     currency_id: 2709
     currency_symbol: MITX
     currency_type: cryptocurrency
-    exchange_symbol: MITX
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: MITX/BTC
+    exchange_symbol: MITX-CAA
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: MITX/BNB
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1839
+    currency_symbol: BNB
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/MITX-to-BTC
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/
 - base:
     currency_id: 2709
     currency_symbol: MITX
@@ -142,6 +142,20 @@ markets:
     exchange_symbol: MITX
   exchange_id: 42
   exchange_name: HitBTC
+  pair: MITX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/MITX-to-BTC
+- base:
+    currency_id: 2709
+    currency_symbol: MITX
+    currency_type: cryptocurrency
+    exchange_symbol: MITX
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: MITX/ETH
   quote:
     currency_id: 1027
@@ -149,20 +163,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/MITX-to-ETH
-- base:
-    currency_id: 2709
-    currency_symbol: MITX
-    currency_type: cryptocurrency
-    exchange_symbol: MITX-CAA
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: MITX/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/
 - base:
     currency_id: 2709
     currency_symbol: MITX
@@ -178,7 +178,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/trading?currency=MITX%2FUSDT
 name: Morpheus Labs
-rank: 670
+rank: 671
 slug: morpheus-labs
 status: active
 symbol: MITX

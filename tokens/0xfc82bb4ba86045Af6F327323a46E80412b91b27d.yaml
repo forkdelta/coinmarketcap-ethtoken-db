@@ -57,15 +57,15 @@ markets:
     currency_symbol: PROM
     currency_type: cryptocurrency
     exchange_symbol: PROM
-  exchange_id: 453
-  exchange_name: BitMax
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: PROM/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bitmax.io/#/trade/btc/prom
+  url: https://www.hotbit.io/exchange?symbol=PROM_BTC
 - base:
     currency_id: 4120
     currency_symbol: PROM
@@ -80,20 +80,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=PROM_ETH
-- base:
-    currency_id: 4120
-    currency_symbol: PROM
-    currency_type: cryptocurrency
-    exchange_symbol: PROM
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: PROM/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=PROM_BTC
 - base:
     currency_id: 4120
     currency_symbol: PROM
@@ -122,8 +108,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-PROM
+- base:
+    currency_id: 4120
+    currency_symbol: PROM
+    currency_type: cryptocurrency
+    exchange_symbol: PROM
+  exchange_id: 453
+  exchange_name: BitMax
+  pair: PROM/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitmax.io/#/trade/btc/prom
 name: Prometeus
-rank: 405
+rank: 412
 slug: prometeus
 status: active
 symbol: PROM

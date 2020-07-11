@@ -50,20 +50,6 @@ markets:
     exchange_symbol: ICH
   exchange_id: 587
   exchange_name: IndoEx
-  pair: ICH/XRP
-  quote:
-    currency_id: 52
-    currency_symbol: XRP
-    currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://international.indoex.io/trade/ICH_XRP
-- base:
-    currency_id: 5560
-    currency_symbol: ICH
-    currency_type: cryptocurrency
-    exchange_symbol: ICH
-  exchange_id: 587
-  exchange_name: IndoEx
   pair: ICH/BTC
   quote:
     currency_id: 1
@@ -71,6 +57,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://international.indoex.io/trade/ICH_BTC
+- base:
+    currency_id: 5560
+    currency_symbol: ICH
+    currency_type: cryptocurrency
+    exchange_symbol: ICH
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: ICH/XRP
+  quote:
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  url: https://international.indoex.io/trade/ICH_XRP
 - base:
     currency_id: 5560
     currency_symbol: ICH
@@ -120,20 +120,6 @@ markets:
     exchange_symbol: ICH
   exchange_id: 587
   exchange_name: IndoEx
-  pair: ICH/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://international.indoex.io/trade/ICH_EUR
-- base:
-    currency_id: 5560
-    currency_symbol: ICH
-    currency_type: cryptocurrency
-    exchange_symbol: ICH
-  exchange_id: 587
-  exchange_name: IndoEx
   pair: ICH/LTC
   quote:
     currency_id: 2
@@ -141,20 +127,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: LTC
   url: https://international.indoex.io/trade/ICH_LTC
-- base:
-    currency_id: 5560
-    currency_symbol: ICH
-    currency_type: cryptocurrency
-    exchange_symbol: ICH
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: ICH/USDC
-  quote:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://international.indoex.io/trade/ICH_USDC
 - base:
     currency_id: 5560
     currency_symbol: ICH
@@ -176,6 +148,20 @@ markets:
     exchange_symbol: ICH
   exchange_id: 587
   exchange_name: IndoEx
+  pair: ICH/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://international.indoex.io/trade/ICH_EUR
+- base:
+    currency_id: 5560
+    currency_symbol: ICH
+    currency_type: cryptocurrency
+    exchange_symbol: ICH
+  exchange_id: 587
+  exchange_name: IndoEx
   pair: ICH/USD
   quote:
     currency_id: 2781
@@ -183,6 +169,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://international.indoex.io/trade/ICH_USD
+- base:
+    currency_id: 5560
+    currency_symbol: ICH
+    currency_type: cryptocurrency
+    exchange_symbol: ICH
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: ICH/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://international.indoex.io/trade/ICH_USDC
 - base:
     currency_id: 5560
     currency_symbol: ICH
@@ -216,20 +216,6 @@ markets:
     currency_symbol: ICH
     currency_type: cryptocurrency
     exchange_symbol: ICH
-  exchange_id: 514
-  exchange_name: Finexbox
-  pair: ICH/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.finexbox.com/market/pair/ICH-BTC.html
-- base:
-    currency_id: 5560
-    currency_symbol: ICH
-    currency_type: cryptocurrency
-    exchange_symbol: ICH
   exchange_id: 470
   exchange_name: EtherFlyer
   pair: ICH/ETH
@@ -239,8 +225,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.etherflyer.com/trade.html?pairs=ICH-ETH
+- base:
+    currency_id: 5560
+    currency_symbol: ICH
+    currency_type: cryptocurrency
+    exchange_symbol: ICH
+  exchange_id: 514
+  exchange_name: Finexbox
+  pair: ICH/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.finexbox.com/market/pair/ICH-BTC.html
 name: Idea Chain Coin
-rank: 235
+rank: 226
 slug: idea-chain-coin
 status: active
 symbol: ICH

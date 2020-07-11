@@ -64,6 +64,20 @@ markets:
     exchange_symbol: TOP
   exchange_id: 400
   exchange_name: Hotbit
+  pair: TOP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=TOP_BTC
+- base:
+    currency_id: 3826
+    currency_symbol: TOP
+    currency_type: cryptocurrency
+    exchange_symbol: TOP
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: TOP/USDT
   quote:
     currency_id: 825
@@ -85,20 +99,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=TOP_ETH
-- base:
-    currency_id: 3826
-    currency_symbol: TOP
-    currency_type: cryptocurrency
-    exchange_symbol: TOP
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: TOP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=TOP_BTC
 - base:
     currency_id: 3826
     currency_symbol: TOP
@@ -187,20 +187,6 @@ markets:
     currency_id: 3826
     currency_symbol: TOP
     currency_type: cryptocurrency
-    exchange_symbol: TOP
-  exchange_id: 402
-  exchange_name: Coinsuper
-  pair: TOP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinsuper.com/#/actionDeal
-- base:
-    currency_id: 3826
-    currency_symbol: TOP
-    currency_type: cryptocurrency
     exchange_symbol: TOP-491
   exchange_id: 486
   exchange_name: Binance DEX
@@ -211,8 +197,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNB
   url: https://www.binance.org/en/trade/TOP-491_BNB
+- base:
+    currency_id: 3826
+    currency_symbol: TOP
+    currency_type: cryptocurrency
+    exchange_symbol: TOP
+  exchange_id: 402
+  exchange_name: Coinsuper
+  pair: TOP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.coinsuper.com/#/actionDeal
 name: TOP
-rank: 362
+rank: 372
 slug: top
 status: active
 symbol: TOP
