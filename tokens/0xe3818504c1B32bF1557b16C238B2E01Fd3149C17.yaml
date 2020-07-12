@@ -93,20 +93,6 @@ markets:
     exchange_symbol: PLR
   exchange_id: 42
   exchange_name: HitBTC
-  pair: PLR/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/PLR-to-USDT
-- base:
-    currency_id: 1834
-    currency_symbol: PLR
-    currency_type: cryptocurrency
-    exchange_symbol: PLR
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: PLR/ETH
   quote:
     currency_id: 1027
@@ -114,6 +100,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/PLR-to-ETH
+- base:
+    currency_id: 1834
+    currency_symbol: PLR
+    currency_type: cryptocurrency
+    exchange_symbol: PLR
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: PLR/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/PLR-to-USDT
 - base:
     currency_id: 1834
     currency_symbol: PLR
@@ -128,8 +128,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/plr
+- base:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: WETH/PLR
+  quote:
+    currency_id: 1834
+    currency_symbol: PLR
+    currency_type: cryptocurrency
+    exchange_symbol: PLR
+  url: https://uniswap.org/
 name: Pillar
-rank: 522
+rank: 480
 slug: pillar
 status: active
 symbol: PLR

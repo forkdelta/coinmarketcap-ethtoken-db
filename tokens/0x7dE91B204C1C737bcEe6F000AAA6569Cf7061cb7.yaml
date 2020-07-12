@@ -70,8 +70,36 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://coinsbit.io/trade/XRT_USD
+- base:
+    currency_id: 4757
+    currency_symbol: XRT
+    currency_type: cryptocurrency
+    exchange_symbol: XRT
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: XRT/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: DAI/XRT
+  quote:
+    currency_id: 4757
+    currency_symbol: XRT
+    currency_type: cryptocurrency
+    exchange_symbol: XRT
+  url: https://uniswap.org/
 name: Robonomics.network
-rank: 2299
+rank: 2305
 slug: robonomics-network
 status: active
 symbol: XRT

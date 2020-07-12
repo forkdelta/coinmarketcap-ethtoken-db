@@ -29,20 +29,6 @@ markets:
     currency_symbol: AMPL
     currency_type: cryptocurrency
     exchange_symbol: AMPL
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: AMPL/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bilaxy.com/trade/AMPL_USDT
-- base:
-    currency_id: 4056
-    currency_symbol: AMPL
-    currency_type: cryptocurrency
-    exchange_symbol: AMPL
   exchange_id: 311
   exchange_name: KuCoin
   pair: AMPL/USDT
@@ -66,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://trade.kucoin.com/AMPL-BTC
+- base:
+    currency_id: 4056
+    currency_symbol: AMPL
+    currency_type: cryptocurrency
+    exchange_symbol: AMPL
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: AMPL/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://bilaxy.com/trade/AMPL_USDT
 - base:
     currency_id: 4056
     currency_symbol: AMPL
@@ -99,6 +99,20 @@ markets:
     currency_symbol: AMPL
     currency_type: cryptocurrency
     exchange_symbol: AMPL
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: AMPL/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/ampl-eth
+- base:
+    currency_id: 4056
+    currency_symbol: AMPL
+    currency_type: cryptocurrency
+    exchange_symbol: AMPL
   exchange_id: 37
   exchange_name: Bitfinex
   pair: AMPL/BTC
@@ -109,19 +123,19 @@ markets:
     exchange_symbol: BTC
   url: https://www.bitfinex.com/t/AMPL:BTC?refcode=H70YTMupQ
 - base:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: WETH/AMPL
+  quote:
     currency_id: 4056
     currency_symbol: AMPL
     currency_type: cryptocurrency
     exchange_symbol: AMPL
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: AMPL/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/ampl-eth
+  url: https://uniswap.org/
 - base:
     currency_id: 4056
     currency_symbol: AMPL
@@ -164,8 +178,64 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/trading?currency=AMPL%2FUSDT
+- base:
+    currency_id: 4056
+    currency_symbol: AMPL
+    currency_type: cryptocurrency
+    exchange_symbol: AMPL
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: AMPL/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://uniswap.org/
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: DAI/AMPL
+  quote:
+    currency_id: 4056
+    currency_symbol: AMPL
+    currency_type: cryptocurrency
+    exchange_symbol: AMPL
+  url: https://uniswap.org/
+- base:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: USDC/AMPL
+  quote:
+    currency_id: 4056
+    currency_symbol: AMPL
+    currency_type: cryptocurrency
+    exchange_symbol: AMPL
+  url: https://uniswap.org/
+- base:
+    currency_id: 1975
+    currency_symbol: LINK
+    currency_type: cryptocurrency
+    exchange_symbol: LINK
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: LINK/AMPL
+  quote:
+    currency_id: 4056
+    currency_symbol: AMPL
+    currency_type: cryptocurrency
+    exchange_symbol: AMPL
+  url: https://uniswap.org/
 name: Ampleforth
-rank: 89
+rank: 79
 slug: ampleforth
 status: active
 symbol: AMPL

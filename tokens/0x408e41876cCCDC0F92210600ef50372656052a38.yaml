@@ -88,20 +88,6 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
-  exchange_id: 155
-  exchange_name: Exrates
-  pair: REN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exrates.me/trading/RENBTC
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
   exchange_id: 102
   exchange_name: Huobi Global
   pair: REN/BTC
@@ -111,6 +97,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hbg.com/en-us/exchange/ren_btc?invite_code=5kij5
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
+  exchange_id: 155
+  exchange_name: Exrates
+  pair: REN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://exrates.me/trading/RENBTC
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -200,6 +200,20 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: REN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/RENBTC
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
   exchange_id: 656
   exchange_name: Omgfin
   pair: REN/ETH
@@ -223,20 +237,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://omgfin.com/exchange/trade/market/RENBTC
-- base:
-    currency_id: 2539
-    currency_symbol: REN
-    currency_type: cryptocurrency
-    exchange_symbol: REN
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: REN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/RENBTC
 - base:
     currency_id: 2539
     currency_symbol: REN
@@ -284,6 +284,20 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: REN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/ren
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
   exchange_id: 16
   exchange_name: Poloniex
   pair: REN/USDT
@@ -298,17 +312,45 @@ markets:
     currency_symbol: REN
     currency_type: cryptocurrency
     exchange_symbol: REN
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: REN/ETH
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: REN/WETH
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 2396
+    currency_symbol: WETH
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/ren
+    exchange_symbol: WETH
+  url: https://uniswap.org/
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: REN/PAX
+  quote:
+    currency_id: 3330
+    currency_symbol: PAX
+    currency_type: cryptocurrency
+    exchange_symbol: PAX
+  url: https://uniswap.org/
+- base:
+    currency_id: 2539
+    currency_symbol: REN
+    currency_type: cryptocurrency
+    exchange_symbol: REN
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: REN/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://uniswap.org/
 name: Ren
-rank: 58
+rank: 57
 slug: ren
 status: active
 symbol: REN

@@ -79,20 +79,6 @@ markets:
     currency_symbol: 2KEY
     currency_type: cryptocurrency
     exchange_symbol: 2KEY
-  exchange_id: 489
-  exchange_name: Bithumb Global
-  pair: 2KEY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=2KEY_BTC
-- base:
-    currency_id: 5587
-    currency_symbol: 2KEY
-    currency_type: cryptocurrency
-    exchange_symbol: 2KEY
   exchange_id: 404
   exchange_name: Kyber Network
   pair: 2KEY/ETH
@@ -102,6 +88,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/2key-eth
+- base:
+    currency_id: 5587
+    currency_symbol: 2KEY
+    currency_type: cryptocurrency
+    exchange_symbol: 2KEY
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: 2KEY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=2KEY_BTC
 - base:
     currency_id: 5587
     currency_symbol: 2KEY
@@ -144,8 +144,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hoo.com/trade/2key-eth
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: DAI/2KEY
+  quote:
+    currency_id: 5587
+    currency_symbol: 2KEY
+    currency_type: cryptocurrency
+    exchange_symbol: 2KEY
+  url: https://uniswap.org/
+- base:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: WETH/2KEY
+  quote:
+    currency_id: 5587
+    currency_symbol: 2KEY
+    currency_type: cryptocurrency
+    exchange_symbol: 2KEY
+  url: https://uniswap.org/
 name: 2key.network
-rank: 989
+rank: 1005
 slug: 2key-network
 status: active
 symbol: 2KEY

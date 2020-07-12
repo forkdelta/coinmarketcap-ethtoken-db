@@ -31,20 +31,6 @@ markets:
     exchange_symbol: IOUX
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: IOUX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://p2pb2b.io/trade/IOUX_ETH
-- base:
-    currency_id: 3996
-    currency_symbol: IOUX
-    currency_type: cryptocurrency
-    exchange_symbol: IOUX
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: IOUX/BTC
   quote:
     currency_id: 1
@@ -52,6 +38,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://p2pb2b.io/trade/IOUX_BTC
+- base:
+    currency_id: 3996
+    currency_symbol: IOUX
+    currency_type: cryptocurrency
+    exchange_symbol: IOUX
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: IOUX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://p2pb2b.io/trade/IOUX_ETH
 - base:
     currency_id: 3996
     currency_symbol: IOUX
@@ -67,7 +67,7 @@ markets:
     exchange_symbol: USD
   url: https://p2pb2b.io/trade/IOUX_USD
 name: IOU
-rank: 2442
+rank: 2436
 slug: iou
 status: active
 symbol: IOUX

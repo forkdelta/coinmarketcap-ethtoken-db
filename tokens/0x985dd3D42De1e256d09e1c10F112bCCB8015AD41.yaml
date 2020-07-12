@@ -88,20 +88,6 @@ markets:
     currency_symbol: OCEAN
     currency_type: cryptocurrency
     exchange_symbol: OCEAN
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: OCEAN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=ocean
-- base:
-    currency_id: 3911
-    currency_symbol: OCEAN
-    currency_type: cryptocurrency
-    exchange_symbol: OCEAN
   exchange_id: 22
   exchange_name: Bittrex
   pair: OCEAN/BTC
@@ -116,15 +102,15 @@ markets:
     currency_symbol: OCEAN
     currency_type: cryptocurrency
     exchange_symbol: OCEAN
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: OCEAN/ETH
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: OCEAN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=OCEAN_ETH
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=ocean
 - base:
     currency_id: 3911
     currency_symbol: OCEAN
@@ -139,6 +125,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=OCEAN_BTC
+- base:
+    currency_id: 3911
+    currency_symbol: OCEAN
+    currency_type: cryptocurrency
+    exchange_symbol: OCEAN
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: OCEAN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=OCEAN_ETH
 - base:
     currency_id: 3911
     currency_symbol: OCEAN
@@ -167,8 +167,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bittrex.com/Market/Index?MarketName=USDT-OCEAN
+- base:
+    currency_id: 3911
+    currency_symbol: OCEAN
+    currency_type: cryptocurrency
+    exchange_symbol: OCEAN
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: OCEAN/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
 name: Ocean Protocol
-rank: 134
+rank: 125
 slug: ocean-protocol
 status: active
 symbol: OCEAN

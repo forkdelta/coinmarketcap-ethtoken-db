@@ -113,20 +113,6 @@ markets:
     currency_id: 4228
     currency_symbol: FRM
     currency_type: cryptocurrency
-    exchange_symbol: FRM
-  exchange_id: 849
-  exchange_name: Bidesk
-  pair: FRM/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bidesk.com/exchange/FRM/ETH
-- base:
-    currency_id: 4228
-    currency_symbol: FRM
-    currency_type: cryptocurrency
     exchange_symbol: FRM-001
   exchange_id: 756
   exchange_name: ViteX
@@ -137,6 +123,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://x.vite.net/trade?symbol=FRM-001_BTC-000
+- base:
+    currency_id: 4228
+    currency_symbol: FRM
+    currency_type: cryptocurrency
+    exchange_symbol: FRM
+  exchange_id: 849
+  exchange_name: Bidesk
+  pair: FRM/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bidesk.com/exchange/FRM/ETH
 - base:
     currency_id: 4228
     currency_symbol: FRM
@@ -165,8 +165,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/trading?currency=FRM%2FUSDT
+- base:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: WETH/FRM
+  quote:
+    currency_id: 4228
+    currency_symbol: FRM
+    currency_type: cryptocurrency
+    exchange_symbol: FRM
+  url: https://uniswap.org/
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: DAI/FRM
+  quote:
+    currency_id: 4228
+    currency_symbol: FRM
+    currency_type: cryptocurrency
+    exchange_symbol: FRM
+  url: https://uniswap.org/
 name: Ferrum Network
-rank: 538
+rank: 540
 slug: ferrum-network
 status: active
 symbol: FRM

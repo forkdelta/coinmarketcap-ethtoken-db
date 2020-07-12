@@ -37,20 +37,6 @@ markets:
     currency_symbol: CRPT
     currency_type: cryptocurrency
     exchange_symbol: CRPT
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: CRPT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/CRPTBTC?affiliate=eNgws23g761816
-- base:
-    currency_id: 2447
-    currency_symbol: CRPT
-    currency_type: cryptocurrency
-    exchange_symbol: CRPT
   exchange_id: 311
   exchange_name: KuCoin
   pair: CRPT/BTC
@@ -60,6 +46,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://trade.kucoin.com/CRPT-BTC
+- base:
+    currency_id: 2447
+    currency_symbol: CRPT
+    currency_type: cryptocurrency
+    exchange_symbol: CRPT
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: CRPT/QASH
+  quote:
+    currency_id: 2213
+    currency_symbol: QASH
+    currency_type: cryptocurrency
+    exchange_symbol: QASH
+  url: https://app.liquid.com/exchange/CRPTQASH?affiliate=eNgws23g761816
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -107,15 +107,15 @@ markets:
     currency_symbol: CRPT
     currency_type: cryptocurrency
     exchange_symbol: CRPT
-  exchange_id: 363
-  exchange_name: Fatbtc
+  exchange_id: 112
+  exchange_name: Liquid
   pair: CRPT/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.fatbtc.com/trading?currency=CRPT%2FBTC
+  url: https://app.liquid.com/exchange/CRPTBTC?affiliate=eNgws23g761816
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -135,15 +135,15 @@ markets:
     currency_symbol: CRPT
     currency_type: cryptocurrency
     exchange_symbol: CRPT
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: CRPT/QASH
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: CRPT/BTC
   quote:
-    currency_id: 2213
-    currency_symbol: QASH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: QASH
-  url: https://app.liquid.com/exchange/CRPTQASH?affiliate=eNgws23g761816
+    exchange_symbol: BTC
+  url: https://www.fatbtc.com/trading?currency=CRPT%2FBTC
 - base:
     currency_id: 2447
     currency_symbol: CRPT
@@ -173,7 +173,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/crpt
 name: Crypterium
-rank: 147
+rank: 150
 slug: crpt
 status: active
 symbol: CRPT

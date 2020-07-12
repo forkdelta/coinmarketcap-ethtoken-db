@@ -62,20 +62,6 @@ markets:
     exchange_symbol: DAWN
   exchange_id: 477
   exchange_name: ProBit Exchange
-  pair: DAWN/KRW
-  quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/DAWN-KRW
-- base:
-    currency_id: 5618
-    currency_symbol: DAWN
-    currency_type: cryptocurrency
-    exchange_symbol: DAWN
-  exchange_id: 477
-  exchange_name: ProBit Exchange
   pair: DAWN/BTC
   quote:
     currency_id: 1
@@ -83,6 +69,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.probit.com/app/exchange/DAWN-BTC
+- base:
+    currency_id: 5618
+    currency_symbol: DAWN
+    currency_type: cryptocurrency
+    exchange_symbol: DAWN
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: DAWN/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/DAWN-KRW
 - base:
     currency_id: 5618
     currency_symbol: DAWN
@@ -98,7 +98,7 @@ markets:
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-DAWN
 name: Dawn Protocol
-rank: 2202
+rank: 2214
 slug: dawn-protocol
 status: active
 symbol: DAWN

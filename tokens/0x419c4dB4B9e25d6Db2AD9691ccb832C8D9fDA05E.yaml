@@ -71,20 +71,6 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: DRGN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.fatbtc.com/trading?currency=DRGN%2FBTC
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
   exchange_id: 311
   exchange_name: KuCoin
   pair: DRGN/ETH
@@ -99,6 +85,20 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: DRGN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.fatbtc.com/trading?currency=DRGN%2FBTC
+- base:
+    currency_id: 2243
+    currency_symbol: DRGN
+    currency_type: cryptocurrency
+    exchange_symbol: DRGN
   exchange_id: 310
   exchange_name: IDEX
   pair: DRGN/ETH
@@ -108,20 +108,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/drgn
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
-  exchange_id: 523
-  exchange_name: Beaxy
-  pair: DRGN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://exchange.beaxy.com/?pair=DRGNBTC&tid=1589766588936
 - base:
     currency_id: 2243
     currency_symbol: DRGN
@@ -155,29 +141,15 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: DRGN/NEO
-  quote:
-    currency_id: 1376
-    currency_symbol: NEO
-    currency_type: cryptocurrency
-    exchange_symbol: NEO
-  url: https://trade.kucoin.com/DRGN-NEO
-- base:
-    currency_id: 2243
-    currency_symbol: DRGN
-    currency_type: cryptocurrency
-    exchange_symbol: DRGN
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 523
+  exchange_name: Beaxy
   pair: DRGN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/DRGN-to-BTC
+  url: https://exchange.beaxy.com/?pair=DRGNBTC&tid=1589766588936
 - base:
     currency_id: 2243
     currency_symbol: DRGN
@@ -197,15 +169,29 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: DRGN/ETH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: DRGN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/drgn_eth
+    exchange_symbol: BTC
+  url: https://hitbtc.com/DRGN-to-BTC
+- base:
+    currency_id: 2243
+    currency_symbol: DRGN
+    currency_type: cryptocurrency
+    exchange_symbol: DRGN
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: DRGN/NEO
+  quote:
+    currency_id: 1376
+    currency_symbol: NEO
+    currency_type: cryptocurrency
+    exchange_symbol: NEO
+  url: https://trade.kucoin.com/DRGN-NEO
 - base:
     currency_id: 2243
     currency_symbol: DRGN
@@ -225,6 +211,20 @@ markets:
     currency_symbol: DRGN
     currency_type: cryptocurrency
     exchange_symbol: DRGN
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: DRGN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/drgn_eth
+- base:
+    currency_id: 2243
+    currency_symbol: DRGN
+    currency_type: cryptocurrency
+    exchange_symbol: DRGN
   exchange_id: 267
   exchange_name: Bancor Network
   pair: DRGN/BNT
@@ -234,6 +234,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNT
   url: https://www.bancor.network/token/DRGN
+- base:
+    currency_id: 2243
+    currency_symbol: DRGN
+    currency_type: cryptocurrency
+    exchange_symbol: DRGN
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: DRGN/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
+- base:
+    currency_id: 2243
+    currency_symbol: DRGN
+    currency_type: cryptocurrency
+    exchange_symbol: DRGN
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: DRGN/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://uniswap.org/
 name: Dragonchain
 rank: 148
 slug: dragonchain

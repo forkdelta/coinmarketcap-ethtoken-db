@@ -110,20 +110,6 @@ markets:
     currency_symbol: SXP
     currency_type: cryptocurrency
     exchange_symbol: SXP
-  exchange_id: 270
-  exchange_name: Binance
-  pair: SXP/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.com/en/trade/SXP_BNB?ref=H31B921U
-- base:
-    currency_id: 4279
-    currency_symbol: SXP
-    currency_type: cryptocurrency
-    exchange_symbol: SXP
   exchange_id: 544
   exchange_name: MXC
   pair: SXP/USDT
@@ -133,6 +119,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.mxc.com/trade/easy#SXP_USDT
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: SXP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bilaxy.com/trade/SXP_BTC
 - base:
     currency_id: 4279
     currency_symbol: SXP
@@ -154,20 +154,6 @@ markets:
     exchange_symbol: SXP
   exchange_id: 415
   exchange_name: Bilaxy
-  pair: SXP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bilaxy.com/trade/SXP_BTC
-- base:
-    currency_id: 4279
-    currency_symbol: SXP
-    currency_type: cryptocurrency
-    exchange_symbol: SXP
-  exchange_id: 415
-  exchange_name: Bilaxy
   pair: SXP/USDT
   quote:
     currency_id: 825
@@ -175,6 +161,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bilaxy.com/trade/SXP_USDT
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 270
+  exchange_name: Binance
+  pair: SXP/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.com/en/trade/SXP_BNB?ref=H31B921U
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 391
+  exchange_name: CoinTiger
+  pair: SXP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=sxp_btc
 - base:
     currency_id: 4279
     currency_symbol: SXP
@@ -208,15 +222,15 @@ markets:
     currency_symbol: SXP
     currency_type: cryptocurrency
     exchange_symbol: SXP
-  exchange_id: 391
-  exchange_name: CoinTiger
+  exchange_id: 545
+  exchange_name: Bitsdaq
   pair: SXP/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=sxp_btc
+  url: https://bitsdaq.com/exchange/SXP-BTC
 - base:
     currency_id: 4279
     currency_symbol: SXP
@@ -245,20 +259,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-SXP
-- base:
-    currency_id: 4279
-    currency_symbol: SXP
-    currency_type: cryptocurrency
-    exchange_symbol: SXP
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: SXP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/SXP-BTC
 - base:
     currency_id: 4279
     currency_symbol: SXP
@@ -315,8 +315,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.fatbtc.com/trading?currency=SXP%2FETH
+- base:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: SXP/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: DAI/SXP
+  quote:
+    currency_id: 4279
+    currency_symbol: SXP
+    currency_type: cryptocurrency
+    exchange_symbol: SXP
+  url: https://uniswap.org/
 name: Swipe
-rank: 134
+rank: 133
 slug: swipe
 status: active
 symbol: SXP

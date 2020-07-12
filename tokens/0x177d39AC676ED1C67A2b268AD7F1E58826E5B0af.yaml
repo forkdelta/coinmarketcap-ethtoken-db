@@ -58,20 +58,6 @@ markets:
     currency_symbol: CDT
     currency_type: cryptocurrency
     exchange_symbol: CDT
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: CDT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/CDTBTC
-- base:
-    currency_id: 1864
-    currency_symbol: CDT
-    currency_type: cryptocurrency
-    exchange_symbol: CDT
   exchange_id: 213
   exchange_name: Mercatox
   pair: CDT/BTC
@@ -109,6 +95,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://mercatox.com/exchange/CDT/ETH
+- base:
+    currency_id: 1864
+    currency_symbol: CDT
+    currency_type: cryptocurrency
+    exchange_symbol: CDT
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: CDT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/CDTBTC
 - base:
     currency_id: 1864
     currency_symbol: CDT
@@ -156,20 +156,6 @@ markets:
     currency_symbol: CDT
     currency_type: cryptocurrency
     exchange_symbol: CDT
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: CDT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/CDT-to-ETH
-- base:
-    currency_id: 1864
-    currency_symbol: CDT
-    currency_type: cryptocurrency
-    exchange_symbol: CDT
   exchange_id: 302
   exchange_name: Gate.io
   pair: CDT/ETH
@@ -198,15 +184,15 @@ markets:
     currency_symbol: CDT
     currency_type: cryptocurrency
     exchange_symbol: CDT
-  exchange_id: 424
-  exchange_name: Hoo
-  pair: CDT/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: CDT/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hoo.com/trade/cdt-usdt
+    exchange_symbol: ETH
+  url: https://hitbtc.com/CDT-to-ETH
 - base:
     currency_id: 1864
     currency_symbol: CDT
@@ -221,8 +207,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hoo.com/trade/cdt-eth
+- base:
+    currency_id: 1864
+    currency_symbol: CDT
+    currency_type: cryptocurrency
+    exchange_symbol: CDT
+  exchange_id: 424
+  exchange_name: Hoo
+  pair: CDT/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hoo.com/trade/cdt-usdt
 name: Blox
-rank: 574
+rank: 579
 slug: blox
 status: active
 symbol: CDT

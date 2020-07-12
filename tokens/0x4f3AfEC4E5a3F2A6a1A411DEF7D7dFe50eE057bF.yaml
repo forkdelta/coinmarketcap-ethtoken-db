@@ -50,6 +50,20 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: DGX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/dgx-eth
+- base:
+    currency_id: 2739
+    currency_symbol: DGX
+    currency_type: cryptocurrency
+    exchange_symbol: DGX
   exchange_id: 68
   exchange_name: Indodax
   pair: DGX/IDR
@@ -78,34 +92,6 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
-  exchange_id: 404
-  exchange_name: Kyber Network
-  pair: DGX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://kyberswap.com/swap/dgx-eth
-- base:
-    currency_id: 2739
-    currency_symbol: DGX
-    currency_type: cryptocurrency
-    exchange_symbol: DGX
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: DGX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 2739
-    currency_symbol: DGX
-    currency_type: cryptocurrency
-    exchange_symbol: DGX
   exchange_id: 37
   exchange_name: Bitfinex
   pair: DGX/ETH
@@ -120,15 +106,15 @@ markets:
     currency_symbol: DGX
     currency_type: cryptocurrency
     exchange_symbol: DGX
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: DGX/BTC
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: DGX/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=DGX_BTC
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 - base:
     currency_id: 2739
     currency_symbol: DGX
@@ -171,8 +157,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kryptono.exchange/k/accounts/trade?s={{mainu}_{{baseu}
+- base:
+    currency_id: 2739
+    currency_symbol: DGX
+    currency_type: cryptocurrency
+    exchange_symbol: DGX
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: DGX/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=DGX_BTC
+- base:
+    currency_id: 2739
+    currency_symbol: DGX
+    currency_type: cryptocurrency
+    exchange_symbol: DGX
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: DGX/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://uniswap.org/
 name: Digix Gold Token
-rank: 472
+rank: 481
 slug: digix-gold-token
 status: active
 symbol: DGX

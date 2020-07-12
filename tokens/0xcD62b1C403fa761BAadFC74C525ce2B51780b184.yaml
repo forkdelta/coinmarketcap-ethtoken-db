@@ -40,20 +40,6 @@ markets:
     currency_symbol: ANJ
     currency_type: cryptocurrency
     exchange_symbol: ANJ
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: ANJ/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/anj
-- base:
-    currency_id: 5523
-    currency_symbol: ANJ
-    currency_type: cryptocurrency
-    exchange_symbol: ANJ
   exchange_id: 595
   exchange_name: Uniswap
   pair: ANJ/ETH
@@ -63,6 +49,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://uniswap.exchange/
+- base:
+    currency_id: 5523
+    currency_symbol: ANJ
+    currency_type: cryptocurrency
+    exchange_symbol: ANJ
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: ANJ/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/anj
 - base:
     currency_id: 5523
     currency_symbol: ANJ
@@ -91,8 +91,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hoo.com/trade/anj-usdt
+- base:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: WETH/ANJ
+  quote:
+    currency_id: 5523
+    currency_symbol: ANJ
+    currency_type: cryptocurrency
+    exchange_symbol: ANJ
+  url: https://uniswap.org/
 name: Aragon Court
-rank: 2262
+rank: 2272
 slug: aragon-court
 status: active
 symbol: ANJ

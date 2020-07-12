@@ -104,20 +104,6 @@ markets:
     currency_symbol: QSP
     currency_type: cryptocurrency
     exchange_symbol: QSP
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: QSP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/qsp_eth
-- base:
-    currency_id: 2212
-    currency_symbol: QSP
-    currency_type: cryptocurrency
-    exchange_symbol: QSP
   exchange_id: 335
   exchange_name: GOPAX
   pair: QSP/KRW
@@ -146,6 +132,20 @@ markets:
     currency_symbol: QSP
     currency_type: cryptocurrency
     exchange_symbol: QSP
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: QSP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/qsp_eth
+- base:
+    currency_id: 2212
+    currency_symbol: QSP
+    currency_type: cryptocurrency
+    exchange_symbol: QSP
   exchange_id: 310
   exchange_name: IDEX
   pair: QSP/ETH
@@ -155,8 +155,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/qsp
+- base:
+    currency_id: 2212
+    currency_symbol: QSP
+    currency_type: cryptocurrency
+    exchange_symbol: QSP
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: QSP/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
 name: Quantstamp
-rank: 306
+rank: 294
 slug: quantstamp
 status: active
 symbol: QSP

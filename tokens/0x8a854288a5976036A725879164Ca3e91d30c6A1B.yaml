@@ -124,8 +124,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.fatbtc.com/trading?currency=GET%2FUSDT
+- base:
+    currency_id: 2354
+    currency_symbol: GET
+    currency_type: cryptocurrency
+    exchange_symbol: GET
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: GET/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: DAI/GET
+  quote:
+    currency_id: 2354
+    currency_symbol: GET
+    currency_type: cryptocurrency
+    exchange_symbol: GET
+  url: https://uniswap.org/
 name: GET Protocol
-rank: 641
+rank: 647
 slug: get-protocol
 status: active
 symbol: GET

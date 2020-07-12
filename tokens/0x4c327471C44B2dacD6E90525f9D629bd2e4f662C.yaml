@@ -50,15 +50,15 @@ markets:
     currency_symbol: GHOST
     currency_type: cryptocurrency
     exchange_symbol: GHOST
-  exchange_id: 857
-  exchange_name: Bitcoin.com
-  pair: GHOST/ETH
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: GHOST/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: null
+    exchange_symbol: BTC
+  url: https://hitbtc.com/GHOST-to-BTC
 - base:
     currency_id: 5471
     currency_symbol: GHOST
@@ -94,20 +94,6 @@ markets:
     exchange_symbol: GHOST
   exchange_id: 42
   exchange_name: HitBTC
-  pair: GHOST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/GHOST-to-BTC
-- base:
-    currency_id: 5471
-    currency_symbol: GHOST
-    currency_type: cryptocurrency
-    exchange_symbol: GHOST
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: GHOST/USDT
   quote:
     currency_id: 825
@@ -115,6 +101,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hitbtc.com/GHOST-to-USDT
+- base:
+    currency_id: 5471
+    currency_symbol: GHOST
+    currency_type: cryptocurrency
+    exchange_symbol: GHOST
+  exchange_id: 857
+  exchange_name: Bitcoin.com
+  pair: GHOST/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: null
 - base:
     currency_id: 5471
     currency_symbol: GHOST
@@ -134,6 +134,20 @@ markets:
     currency_symbol: GHOST
     currency_type: cryptocurrency
     exchange_symbol: GHOST
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: GHOST/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
+- base:
+    currency_id: 5471
+    currency_symbol: GHOST
+    currency_type: cryptocurrency
+    exchange_symbol: GHOST
   exchange_id: 424
   exchange_name: Hoo
   pair: GHOST/ETH
@@ -143,8 +157,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hoo.com/trade/ghost-eth
+- base:
+    currency_id: 5471
+    currency_symbol: GHOST
+    currency_type: cryptocurrency
+    exchange_symbol: GHOST
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: GHOST/0xBTC
+  quote:
+    currency_id: 2837
+    currency_symbol: 0xBTC
+    currency_type: cryptocurrency
+    exchange_symbol: 0xBTC
+  url: https://uniswap.org/
 name: GHOST
-rank: 310
+rank: 320
 slug: ghost
 status: active
 symbol: GHOST
