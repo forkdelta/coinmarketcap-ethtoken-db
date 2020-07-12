@@ -33,20 +33,6 @@ markets:
     currency_symbol: XOR
     currency_type: cryptocurrency
     exchange_symbol: XOR
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: XOR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bilaxy.com/trade/XOR_ETH
-- base:
-    currency_id: 5802
-    currency_symbol: XOR
-    currency_type: cryptocurrency
-    exchange_symbol: XOR
   exchange_id: 544
   exchange_name: MXC
   pair: XOR/USDT
@@ -56,6 +42,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.mxc.com/trade/easy#XOR_USDT
+- base:
+    currency_id: 5802
+    currency_symbol: XOR
+    currency_type: cryptocurrency
+    exchange_symbol: XOR
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: XOR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/XOR_ETH
 - base:
     currency_id: 5802
     currency_symbol: XOR
@@ -98,8 +98,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hoo.com/trade/xor-eth
+- base:
+    currency_id: 5802
+    currency_symbol: XOR
+    currency_type: cryptocurrency
+    exchange_symbol: XOR
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: XOR/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
 name: Sora
-rank: 2264
+rank: 2250
 slug: sora
 status: active
 symbol: XOR

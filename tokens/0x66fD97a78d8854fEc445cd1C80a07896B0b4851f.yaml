@@ -32,34 +32,6 @@ markets:
     currency_symbol: LMY
     currency_type: cryptocurrency
     exchange_symbol: LMY
-  exchange_id: 121
-  exchange_name: SouthXchange
-  pair: LMY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.southxchange.com/Market/Book/LMY/BTC
-- base:
-    currency_id: 4577
-    currency_symbol: LMY
-    currency_type: cryptocurrency
-    exchange_symbol: LMY
-  exchange_id: 585
-  exchange_name: BITStorage
-  pair: LMY/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitstorage.finance/market/LMY-BTC
-- base:
-    currency_id: 4577
-    currency_symbol: LMY
-    currency_type: cryptocurrency
-    exchange_symbol: LMY
   exchange_id: 744
   exchange_name: Lukki Exchange
   pair: LMY/BTC
@@ -69,6 +41,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://app.lukki.io/?pair=LMY_BTC
+- base:
+    currency_id: 4577
+    currency_symbol: LMY
+    currency_type: cryptocurrency
+    exchange_symbol: LMY
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: LMY/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://folgory.com/trade-crypto/LMY_ETH
+- base:
+    currency_id: 4577
+    currency_symbol: LMY
+    currency_type: cryptocurrency
+    exchange_symbol: LMY
+  exchange_id: 121
+  exchange_name: SouthXchange
+  pair: LMY/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.southxchange.com/Market/Book/LMY/BTC
 - base:
     currency_id: 4577
     currency_symbol: LMY
@@ -88,17 +88,31 @@ markets:
     currency_symbol: LMY
     currency_type: cryptocurrency
     exchange_symbol: LMY
-  exchange_id: 495
-  exchange_name: Folgory
-  pair: LMY/ETH
+  exchange_id: 585
+  exchange_name: BITStorage
+  pair: LMY/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://folgory.com/trade-crypto/LMY_ETH
+    exchange_symbol: BTC
+  url: https://bitstorage.finance/market/LMY-BTC
+- base:
+    currency_id: 4577
+    currency_symbol: LMY
+    currency_type: cryptocurrency
+    exchange_symbol: LMY
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: LMY/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
 name: LunchMoney
-rank: 2522
+rank: 2314
 slug: lunchmoney
 status: active
 symbol: LMY

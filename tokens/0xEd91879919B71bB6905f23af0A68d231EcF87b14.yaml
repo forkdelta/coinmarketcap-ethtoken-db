@@ -82,20 +82,6 @@ markets:
     currency_symbol: DMG
     currency_type: cryptocurrency
     exchange_symbol: DMG
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: DMG/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/dmg
-- base:
-    currency_id: 5741
-    currency_symbol: DMG
-    currency_type: cryptocurrency
-    exchange_symbol: DMG
   exchange_id: 544
   exchange_name: MXC
   pair: DMG/ETH
@@ -105,6 +91,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.mxc.com/trade/easy#DMG_ETH
+- base:
+    currency_id: 5741
+    currency_symbol: DMG
+    currency_type: cryptocurrency
+    exchange_symbol: DMG
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: DMG/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/dmg
 - base:
     currency_id: 5741
     currency_symbol: DMG
@@ -134,6 +134,20 @@ markets:
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=DMG_ETH
 - base:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: WETH/DMG
+  quote:
+    currency_id: 5741
+    currency_symbol: DMG
+    currency_type: cryptocurrency
+    exchange_symbol: DMG
+  url: https://uniswap.org/
+- base:
     currency_id: 5741
     currency_symbol: DMG
     currency_type: cryptocurrency
@@ -161,8 +175,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hoo.com/trade/dmg-usdt
+- base:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: USDT/DMG
+  quote:
+    currency_id: 5741
+    currency_symbol: DMG
+    currency_type: cryptocurrency
+    exchange_symbol: DMG
+  url: https://uniswap.org/
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: DAI/DMG
+  quote:
+    currency_id: 5741
+    currency_symbol: DMG
+    currency_type: cryptocurrency
+    exchange_symbol: DMG
+  url: https://uniswap.org/
 name: 'DMM: Governance'
-rank: 2091
+rank: 2090
 slug: dmm-governance
 status: active
 symbol: DMG

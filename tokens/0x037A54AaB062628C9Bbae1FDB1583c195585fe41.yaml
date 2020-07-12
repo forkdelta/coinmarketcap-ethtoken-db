@@ -57,6 +57,20 @@ markets:
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
+  exchange_id: 487
+  exchange_name: VinDAX
+  pair: LCX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vindax.com/exchange-base.html?symbol=LCX_ETH
+- base:
+    currency_id: 4950
+    currency_symbol: LCX
+    currency_type: cryptocurrency
+    exchange_symbol: LCX
   exchange_id: 112
   exchange_name: Liquid
   pair: LCX/BTC
@@ -85,34 +99,6 @@ markets:
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
-  exchange_id: 487
-  exchange_name: VinDAX
-  pair: LCX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vindax.com/exchange-base.html?symbol=LCX_ETH
-- base:
-    currency_id: 4950
-    currency_symbol: LCX
-    currency_type: cryptocurrency
-    exchange_symbol: LCX
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: LCX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/LCX-to-BTC
-- base:
-    currency_id: 4950
-    currency_symbol: LCX
-    currency_type: cryptocurrency
-    exchange_symbol: LCX
   exchange_id: 42
   exchange_name: HitBTC
   pair: LCX/ETH
@@ -127,15 +113,15 @@ markets:
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: LCX/USDC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: LCX/BTC
   quote:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://idex.market/usdc/lcx
+    exchange_symbol: BTC
+  url: https://hitbtc.com/LCX-to-BTC
 - base:
     currency_id: 4950
     currency_symbol: LCX
@@ -157,20 +143,6 @@ markets:
     exchange_symbol: LCX
   exchange_id: 460
   exchange_name: Coinsbit
-  pair: LCX/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coinsbit.io/trade/LCX_BTC
-- base:
-    currency_id: 4950
-    currency_symbol: LCX
-    currency_type: cryptocurrency
-    exchange_symbol: LCX
-  exchange_id: 460
-  exchange_name: Coinsbit
   pair: LCX/ETH
   quote:
     currency_id: 1027
@@ -183,15 +155,43 @@ markets:
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
-  exchange_id: 645
-  exchange_name: BitUBU
+  exchange_id: 460
+  exchange_name: Coinsbit
   pair: LCX/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://bitubu.com/trading/lcxbtc
+  url: https://coinsbit.io/trade/LCX_BTC
+- base:
+    currency_id: 4950
+    currency_symbol: LCX
+    currency_type: cryptocurrency
+    exchange_symbol: LCX
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: LCX/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.fatbtc.com/trading?currency=LCX%2FUSDT
+- base:
+    currency_id: 4950
+    currency_symbol: LCX
+    currency_type: cryptocurrency
+    exchange_symbol: LCX
+  exchange_id: 645
+  exchange_name: BitUBU
+  pair: LCX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bitubu.com/trading/lcxeth
 - base:
     currency_id: 4950
     currency_symbol: LCX
@@ -213,27 +213,27 @@ markets:
     exchange_symbol: LCX
   exchange_id: 645
   exchange_name: BitUBU
-  pair: LCX/ETH
+  pair: LCX/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bitubu.com/trading/lcxeth
+    exchange_symbol: BTC
+  url: https://bitubu.com/trading/lcxbtc
 - base:
     currency_id: 4950
     currency_symbol: LCX
     currency_type: cryptocurrency
     exchange_symbol: LCX
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: LCX/USDT
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: LCX/USDC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 3408
+    currency_symbol: USDC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.fatbtc.com/trading?currency=LCX%2FUSDT
+    exchange_symbol: USDC
+  url: https://idex.market/usdc/lcx
 - base:
     currency_id: 4950
     currency_symbol: LCX
@@ -276,8 +276,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.bidesk.com/exchange/LCX/ETH
+- base:
+    currency_id: 4950
+    currency_symbol: LCX
+    currency_type: cryptocurrency
+    exchange_symbol: LCX
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: LCX/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
+- base:
+    currency_id: 4950
+    currency_symbol: LCX
+    currency_type: cryptocurrency
+    exchange_symbol: LCX
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: LCX/USDC
+  quote:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  url: https://uniswap.org/
 name: LCX
-rank: 493
+rank: 536
 slug: lcx
 status: active
 symbol: LCX

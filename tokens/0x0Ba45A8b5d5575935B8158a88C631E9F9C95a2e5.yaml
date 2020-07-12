@@ -31,20 +31,6 @@ markets:
     exchange_symbol: TRB
   exchange_id: 415
   exchange_name: Bilaxy
-  pair: TRB/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bilaxy.com/trade/TRB_ETH
-- base:
-    currency_id: 4944
-    currency_symbol: TRB
-    currency_type: cryptocurrency
-    exchange_symbol: TRB
-  exchange_id: 415
-  exchange_name: Bilaxy
   pair: TRB/USDT
   quote:
     currency_id: 825
@@ -52,6 +38,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bilaxy.com/trade/TRB_USDT
+- base:
+    currency_id: 4944
+    currency_symbol: TRB
+    currency_type: cryptocurrency
+    exchange_symbol: TRB
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: TRB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bilaxy.com/trade/TRB_ETH
 - base:
     currency_id: 4944
     currency_symbol: TRB
@@ -66,6 +66,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.biki.cc/en_US/trade/TRB_ETH
+- base:
+    currency_id: 4944
+    currency_symbol: TRB
+    currency_type: cryptocurrency
+    exchange_symbol: TRB
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: TRB/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hotbit.io/exchange?symbol=TRB_BTC
 - base:
     currency_id: 4944
     currency_symbol: TRB
@@ -87,13 +101,13 @@ markets:
     exchange_symbol: TRB
   exchange_id: 400
   exchange_name: Hotbit
-  pair: TRB/BTC
+  pair: TRB/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hotbit.io/exchange?symbol=TRB_BTC
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=TRB_USDT
 - base:
     currency_id: 4944
     currency_symbol: TRB
@@ -113,15 +127,15 @@ markets:
     currency_symbol: TRB
     currency_type: cryptocurrency
     exchange_symbol: TRB
-  exchange_id: 400
-  exchange_name: Hotbit
+  exchange_id: 482
+  exchange_name: BKEX
   pair: TRB/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=TRB_USDT
+  url: https://www.bkex.com/trade/TRB_USDT
 - base:
     currency_id: 4944
     currency_symbol: TRB
@@ -136,20 +150,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.hotbit.io/exchange?symbol=TRB_ETH
-- base:
-    currency_id: 4944
-    currency_symbol: TRB
-    currency_type: cryptocurrency
-    exchange_symbol: TRB
-  exchange_id: 482
-  exchange_name: BKEX
-  pair: TRB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bkex.com/trade/TRB_USDT
 - base:
     currency_id: 4944
     currency_symbol: TRB
@@ -183,20 +183,6 @@ markets:
     currency_symbol: TRB
     currency_type: cryptocurrency
     exchange_symbol: TRB
-  exchange_id: 849
-  exchange_name: Bidesk
-  pair: TRB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bidesk.com/exchange/TRB/USDT
-- base:
-    currency_id: 4944
-    currency_symbol: TRB
-    currency_type: cryptocurrency
-    exchange_symbol: TRB
   exchange_id: 756
   exchange_name: ViteX
   pair: TRB/BTC
@@ -206,6 +192,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://x.vite.net/trade?symbol=TRB-000_BTC-000&category={{baseu}}
+- base:
+    currency_id: 4944
+    currency_symbol: TRB
+    currency_type: cryptocurrency
+    exchange_symbol: TRB
+  exchange_id: 849
+  exchange_name: Bidesk
+  pair: TRB/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.bidesk.com/exchange/TRB/USDT
 - base:
     currency_id: 4944
     currency_symbol: TRB
@@ -234,8 +234,50 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://hoo.com/trade/trb-usdt
+- base:
+    currency_id: 4944
+    currency_symbol: TRB
+    currency_type: cryptocurrency
+    exchange_symbol: TRB
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: TRB/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
+- base:
+    currency_id: 4944
+    currency_symbol: TRB
+    currency_type: cryptocurrency
+    exchange_symbol: TRB
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: TRB/DAI
+  quote:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  url: https://uniswap.org/
+- base:
+    currency_id: 4944
+    currency_symbol: TRB
+    currency_type: cryptocurrency
+    exchange_symbol: TRB
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: TRB/VXV
+  quote:
+    currency_id: 4441
+    currency_symbol: VXV
+    currency_type: cryptocurrency
+    exchange_symbol: VXV
+  url: https://uniswap.org/
 name: Tellor
-rank: 395
+rank: 387
 slug: tellor
 status: active
 symbol: TRB

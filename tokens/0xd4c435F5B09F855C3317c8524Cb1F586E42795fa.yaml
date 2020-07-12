@@ -58,15 +58,15 @@ markets:
     currency_symbol: CND
     currency_type: cryptocurrency
     exchange_symbol: CND
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: CND/BTC
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: CND/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-CND
+    exchange_symbol: USDT
+  url: https://hitbtc.com/CND-to-USDT
 - base:
     currency_id: 2043
     currency_symbol: CND
@@ -81,6 +81,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/CND-to-BTC
+- base:
+    currency_id: 2043
+    currency_symbol: CND
+    currency_type: cryptocurrency
+    exchange_symbol: CND
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: CND/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-CND
 - base:
     currency_id: 2043
     currency_symbol: CND
@@ -156,20 +170,6 @@ markets:
     currency_symbol: CND
     currency_type: cryptocurrency
     exchange_symbol: CND
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: CND/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/CND-to-USDT
-- base:
-    currency_id: 2043
-    currency_symbol: CND
-    currency_type: cryptocurrency
-    exchange_symbol: CND
   exchange_id: 310
   exchange_name: IDEX
   pair: CND/ETH
@@ -179,8 +179,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/cnd
+- base:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: WETH/CND
+  quote:
+    currency_id: 2043
+    currency_symbol: CND
+    currency_type: cryptocurrency
+    exchange_symbol: CND
+  url: https://uniswap.org/
 name: Cindicator
-rank: 317
+rank: 311
 slug: cindicator
 status: active
 symbol: CND

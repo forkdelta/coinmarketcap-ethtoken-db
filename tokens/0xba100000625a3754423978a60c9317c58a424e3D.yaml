@@ -156,20 +156,6 @@ markets:
     exchange_symbol: BAL
   exchange_id: 16
   exchange_name: Poloniex
-  pair: BAL/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://poloniex.com/exchange#eth_bal?c=H4QD8FNW
-- base:
-    currency_id: 5728
-    currency_symbol: BAL
-    currency_type: cryptocurrency
-    exchange_symbol: BAL
-  exchange_id: 16
-  exchange_name: Poloniex
   pair: BAL/USDT
   quote:
     currency_id: 825
@@ -177,6 +163,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://poloniex.com/exchange#usdt_bal?c=H4QD8FNW
+- base:
+    currency_id: 5728
+    currency_symbol: BAL
+    currency_type: cryptocurrency
+    exchange_symbol: BAL
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: BAL/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://poloniex.com/exchange#eth_bal?c=H4QD8FNW
 - base:
     currency_id: 5728
     currency_symbol: BAL
@@ -233,8 +233,36 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hoo.com/trade/bal-eth
+- base:
+    currency_id: 5728
+    currency_symbol: BAL
+    currency_type: cryptocurrency
+    exchange_symbol: BAL
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: BAL/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
+- base:
+    currency_id: 4943
+    currency_symbol: DAI
+    currency_type: cryptocurrency
+    exchange_symbol: DAI
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: DAI/BAL
+  quote:
+    currency_id: 5728
+    currency_symbol: BAL
+    currency_type: cryptocurrency
+    exchange_symbol: BAL
+  url: https://uniswap.org/
 name: Balancer
-rank: 2103
+rank: 2096
 slug: balancer
 status: active
 symbol: BAL

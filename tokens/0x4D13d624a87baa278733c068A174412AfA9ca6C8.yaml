@@ -36,13 +36,13 @@ markets:
     exchange_symbol: XBASE
   exchange_id: 391
   exchange_name: CoinTiger
-  pair: XBASE/ETH
+  pair: XBASE/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=xbase_eth
+    exchange_symbol: BTC
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=xbase_btc
 - base:
     currency_id: 3815
     currency_symbol: XBASE
@@ -64,13 +64,13 @@ markets:
     exchange_symbol: XBASE
   exchange_id: 391
   exchange_name: CoinTiger
-  pair: XBASE/BTC
+  pair: XBASE/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.cointiger.com/en-us/#/trade_pro?coin=xbase_btc
+    exchange_symbol: ETH
+  url: https://www.cointiger.com/en-us/#/trade_pro?coin=xbase_eth
 - base:
     currency_id: 3815
     currency_symbol: XBASE
@@ -159,20 +159,6 @@ markets:
     currency_id: 3815
     currency_symbol: XBASE
     currency_type: cryptocurrency
-    exchange_symbol: XBASE-CD2
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: XBASE/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/XBASE-CD2_BNB
-- base:
-    currency_id: 3815
-    currency_symbol: XBASE
-    currency_type: cryptocurrency
     exchange_symbol: XBASE
   exchange_id: 213
   exchange_name: Mercatox
@@ -183,6 +169,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDC
   url: https://mercatox.com/exchange/XBASE/USDC
+- base:
+    currency_id: 3815
+    currency_symbol: XBASE
+    currency_type: cryptocurrency
+    exchange_symbol: XBASE-CD2
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: XBASE/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/XBASE-CD2_BNB
 - base:
     currency_id: 3815
     currency_symbol: XBASE
@@ -211,8 +211,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/xbase
+- base:
+    currency_id: 3815
+    currency_symbol: XBASE
+    currency_type: cryptocurrency
+    exchange_symbol: XBASE
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: XBASE/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
 name: Eterbase Coin
-rank: 850
+rank: 847
 slug: eterbase-coin
 status: active
 symbol: XBASE

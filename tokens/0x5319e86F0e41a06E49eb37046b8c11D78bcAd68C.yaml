@@ -78,13 +78,13 @@ markets:
     exchange_symbol: ZLW
   exchange_id: 460
   exchange_name: Coinsbit
-  pair: ZLW/USDT
+  pair: ZLW/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://coinsbit.io/trade/ZLW_USDT
+    exchange_symbol: BTC
+  url: https://coinsbit.io/trade/ZLW_BTC
 - base:
     currency_id: 5614
     currency_symbol: ZLW
@@ -106,27 +106,13 @@ markets:
     exchange_symbol: ZLW
   exchange_id: 460
   exchange_name: Coinsbit
-  pair: ZLW/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coinsbit.io/trade/ZLW_BTC
-- base:
-    currency_id: 5614
-    currency_symbol: ZLW
-    currency_type: cryptocurrency
-    exchange_symbol: ZLW
-  exchange_id: 477
-  exchange_name: ProBit Exchange
   pair: ZLW/USDT
   quote:
     currency_id: 825
     currency_symbol: USDT
     currency_type: cryptocurrency
     exchange_symbol: USDT
-  url: https://www.probit.com/app/exchange/ZLW-USDT
+  url: https://coinsbit.io/trade/ZLW_USDT
 - base:
     currency_id: 5614
     currency_symbol: ZLW
@@ -141,8 +127,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://coinsbit.io/trade/ZLW_ETH
+- base:
+    currency_id: 5614
+    currency_symbol: ZLW
+    currency_type: cryptocurrency
+    exchange_symbol: ZLW
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: ZLW/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.probit.com/app/exchange/ZLW-USDT
 name: Zelwin
-rank: 209
+rank: 210
 slug: zelwin
 status: active
 symbol: ZLW
