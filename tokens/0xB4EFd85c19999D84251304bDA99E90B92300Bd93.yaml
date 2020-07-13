@@ -40,20 +40,6 @@ markets:
     currency_symbol: RPL
     currency_type: cryptocurrency
     exchange_symbol: RPL
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: RPL/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 2943
-    currency_symbol: RPL
-    currency_type: cryptocurrency
-    exchange_symbol: RPL
   exchange_id: 363
   exchange_name: Fatbtc
   pair: RPL/USDT
@@ -68,6 +54,20 @@ markets:
     currency_symbol: RPL
     currency_type: cryptocurrency
     exchange_symbol: RPL
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: RPL/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 2943
+    currency_symbol: RPL
+    currency_type: cryptocurrency
+    exchange_symbol: RPL
   exchange_id: 310
   exchange_name: IDEX
   pair: RPL/ETH
@@ -77,6 +77,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/rpl
+- base:
+    currency_id: 2943
+    currency_symbol: RPL
+    currency_type: cryptocurrency
+    exchange_symbol: RPL
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: RPL/WETH
+  quote:
+    currency_id: 2396
+    currency_symbol: WETH
+    currency_type: cryptocurrency
+    exchange_symbol: WETH
+  url: https://uniswap.org/
 - base:
     currency_id: 2943
     currency_symbol: RPL
@@ -98,12 +112,12 @@ markets:
     exchange_symbol: RPL
   exchange_id: 1069
   exchange_name: Uniswap (V2)
-  pair: RPL/WETH
+  pair: RPL/BUIDL
   quote:
-    currency_id: 2396
-    currency_symbol: WETH
+    currency_id: 5704
+    currency_symbol: BUIDL
     currency_type: cryptocurrency
-    exchange_symbol: WETH
+    exchange_symbol: BUIDL
   url: https://uniswap.org/
 - base:
     currency_id: 4943
@@ -133,22 +147,8 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: RPL
   url: https://uniswap.org/
-- base:
-    currency_id: 2943
-    currency_symbol: RPL
-    currency_type: cryptocurrency
-    exchange_symbol: RPL
-  exchange_id: 1069
-  exchange_name: Uniswap (V2)
-  pair: RPL/BUIDL
-  quote:
-    currency_id: 5704
-    currency_symbol: BUIDL
-    currency_type: cryptocurrency
-    exchange_symbol: BUIDL
-  url: https://uniswap.org/
 name: Rocket Pool
-rank: 285
+rank: 286
 slug: rocket-pool
 status: active
 symbol: RPL

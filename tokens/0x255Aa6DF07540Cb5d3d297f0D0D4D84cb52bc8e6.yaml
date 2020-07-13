@@ -89,15 +89,29 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: RDN/USDT
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: RDN/ETH
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/rdn_usdt
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 2161
+    currency_symbol: RDN
+    currency_type: cryptocurrency
+    exchange_symbol: RDN
+  exchange_id: 267
+  exchange_name: Bancor Network
+  pair: RDN/BNT
+  quote:
+    currency_id: 1727
+    currency_symbol: BNT
+    currency_type: cryptocurrency
+    exchange_symbol: BNT
+  url: https://www.bancor.network/token/RDN
 - base:
     currency_id: 2161
     currency_symbol: RDN
@@ -131,29 +145,15 @@ markets:
     currency_symbol: RDN
     currency_type: cryptocurrency
     exchange_symbol: RDN
-  exchange_id: 267
-  exchange_name: Bancor Network
-  pair: RDN/BNT
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: RDN/USDT
   quote:
-    currency_id: 1727
-    currency_symbol: BNT
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BNT
-  url: https://www.bancor.network/token/RDN
-- base:
-    currency_id: 2161
-    currency_symbol: RDN
-    currency_type: cryptocurrency
-    exchange_symbol: RDN
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: RDN/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
+    exchange_symbol: USDT
+  url: https://gate.io/trade/rdn_usdt
 - base:
     currency_id: 2161
     currency_symbol: RDN
@@ -239,7 +239,7 @@ markets:
     exchange_symbol: WETH
   url: https://uniswap.org/
 name: Raiden Network Token
-rank: 356
+rank: 342
 slug: raiden-network-token
 status: active
 symbol: RDN

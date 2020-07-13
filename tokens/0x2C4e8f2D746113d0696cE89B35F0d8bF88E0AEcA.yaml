@@ -28,20 +28,6 @@ markets:
     currency_symbol: OST
     currency_type: cryptocurrency
     exchange_symbol: OST
-  exchange_id: 270
-  exchange_name: Binance
-  pair: OST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/OST_BTC?ref=H31B921U
-- base:
-    currency_id: 2296
-    currency_symbol: OST
-    currency_type: cryptocurrency
-    exchange_symbol: OST
   exchange_id: 351
   exchange_name: Upbit
   pair: OST/KRW
@@ -51,6 +37,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://upbit.com/exchange?code=CRIX.UPBIT.KRW-OST
+- base:
+    currency_id: 2296
+    currency_symbol: OST
+    currency_type: cryptocurrency
+    exchange_symbol: OST
+  exchange_id: 270
+  exchange_name: Binance
+  pair: OST/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/OST_BTC?ref=H31B921U
 - base:
     currency_id: 2296
     currency_symbol: OST
@@ -84,34 +84,6 @@ markets:
     currency_symbol: OST
     currency_type: cryptocurrency
     exchange_symbol: OST
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: OST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OST
-- base:
-    currency_id: 2296
-    currency_symbol: OST
-    currency_type: cryptocurrency
-    exchange_symbol: OST
-  exchange_id: 102
-  exchange_name: Huobi Global
-  pair: OST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hbg.com/en-us/exchange/ost_btc?invite_code=5kij5
-- base:
-    currency_id: 2296
-    currency_symbol: OST
-    currency_type: cryptocurrency
-    exchange_symbol: OST
   exchange_id: 733
   exchange_name: VCC Exchange
   pair: OST/BTC
@@ -135,6 +107,34 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://bittrex.com/Market/Index?MarketName=BTC-OST
+- base:
+    currency_id: 2296
+    currency_symbol: OST
+    currency_type: cryptocurrency
+    exchange_symbol: OST
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: OST/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-OST
+- base:
+    currency_id: 2296
+    currency_symbol: OST
+    currency_type: cryptocurrency
+    exchange_symbol: OST
+  exchange_id: 102
+  exchange_name: Huobi Global
+  pair: OST/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hbg.com/en-us/exchange/ost_btc?invite_code=5kij5
 - base:
     currency_id: 2296
     currency_symbol: OST
@@ -234,7 +234,7 @@ markets:
     exchange_symbol: ETH
   url: https://exchange.gbx.gi/trade?symbol=OST%2FETH
 name: OST
-rank: 462
+rank: 456
 slug: ost
 status: active
 symbol: OST

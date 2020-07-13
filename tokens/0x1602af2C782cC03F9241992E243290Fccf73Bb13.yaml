@@ -142,20 +142,6 @@ markets:
     exchange_symbol: QBIT
   exchange_id: 215
   exchange_name: P2PB2B
-  pair: QBIT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://p2pb2b.io/trade/QBIT_BTC
-- base:
-    currency_id: 3224
-    currency_symbol: QBIT
-    currency_type: cryptocurrency
-    exchange_symbol: QBIT
-  exchange_id: 215
-  exchange_name: P2PB2B
   pair: QBIT/USD
   quote:
     currency_id: 2781
@@ -163,6 +149,20 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://p2pb2b.io/trade/QBIT_USD
+- base:
+    currency_id: 3224
+    currency_symbol: QBIT
+    currency_type: cryptocurrency
+    exchange_symbol: QBIT
+  exchange_id: 215
+  exchange_name: P2PB2B
+  pair: QBIT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://p2pb2b.io/trade/QBIT_BTC
 - base:
     currency_id: 3224
     currency_symbol: QBIT
@@ -184,20 +184,6 @@ markets:
     exchange_symbol: QBIT
   exchange_id: 733
   exchange_name: VCC Exchange
-  pair: QBIT/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=qbit
-- base:
-    currency_id: 3224
-    currency_symbol: QBIT
-    currency_type: cryptocurrency
-    exchange_symbol: QBIT
-  exchange_id: 733
-  exchange_name: VCC Exchange
   pair: QBIT/ETH
   quote:
     currency_id: 1027
@@ -205,8 +191,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://vcc.exchange/exchange/basic?currency=eth&coin=qbit
+- base:
+    currency_id: 3224
+    currency_symbol: QBIT
+    currency_type: cryptocurrency
+    exchange_symbol: QBIT
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: QBIT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=qbit
 name: Qubitica
-rank: 259
+rank: 264
 slug: qubitica
 status: active
 symbol: QBIT

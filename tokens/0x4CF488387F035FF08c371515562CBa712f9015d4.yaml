@@ -58,20 +58,6 @@ markets:
     currency_symbol: WPR
     currency_type: cryptocurrency
     exchange_symbol: WPR
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: WPR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/WPRBTC
-- base:
-    currency_id: 2511
-    currency_symbol: WPR
-    currency_type: cryptocurrency
-    exchange_symbol: WPR
   exchange_id: 388
   exchange_name: Sistemkoin
   pair: WPR/ETH
@@ -100,15 +86,15 @@ markets:
     currency_symbol: WPR
     currency_type: cryptocurrency
     exchange_symbol: WPR
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: WPR/XRP
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: WPR/BTC
   quote:
-    currency_id: 52
-    currency_symbol: XRP
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://www.bitrue.com/trade/wpr_xrp?inviteCode=VQQLQV
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/WPRBTC
 - base:
     currency_id: 2511
     currency_symbol: WPR
@@ -128,15 +114,15 @@ markets:
     currency_symbol: WPR
     currency_type: cryptocurrency
     exchange_symbol: WPR
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: WPR/USD
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: WPR/XRP
   quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/WPR:USD?refcode=H70YTMupQ
+    currency_id: 52
+    currency_symbol: XRP
+    currency_type: cryptocurrency
+    exchange_symbol: XRP
+  url: https://www.bitrue.com/trade/wpr_xrp?inviteCode=VQQLQV
 - base:
     currency_id: 2511
     currency_symbol: WPR
@@ -156,6 +142,20 @@ markets:
     currency_symbol: WPR
     currency_type: cryptocurrency
     exchange_symbol: WPR
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: WPR/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/WPR:USD?refcode=H70YTMupQ
+- base:
+    currency_id: 2511
+    currency_symbol: WPR
+    currency_type: cryptocurrency
+    exchange_symbol: WPR
   exchange_id: 310
   exchange_name: IDEX
   pair: WPR/ETH
@@ -166,7 +166,7 @@ markets:
     exchange_symbol: ETH
   url: https://idex.market/eth/wpr
 name: WePower
-rank: 541
+rank: 552
 slug: wepower
 status: active
 symbol: WPR
