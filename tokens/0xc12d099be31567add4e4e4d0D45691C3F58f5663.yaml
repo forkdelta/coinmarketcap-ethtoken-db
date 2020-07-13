@@ -44,20 +44,6 @@ markets:
     currency_symbol: AUC
     currency_type: cryptocurrency
     exchange_symbol: AUC
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: AUC/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/AUC:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2653
-    currency_symbol: AUC
-    currency_type: cryptocurrency
-    exchange_symbol: AUC
   exchange_id: 310
   exchange_name: IDEX
   pair: AUC/ETH
@@ -86,15 +72,15 @@ markets:
     currency_symbol: AUC
     currency_type: cryptocurrency
     exchange_symbol: AUC
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: AUC/KRW
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: AUC/USD
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
+    currency_id: 2781
+    currency_symbol: USD
     currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/AUC-KRW
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/AUC:USD?refcode=H70YTMupQ
 - base:
     currency_id: 2653
     currency_symbol: AUC
@@ -110,6 +96,20 @@ markets:
     exchange_symbol: ETH
   url: https://hitbtc.com/AUC-to-ETH
 - base:
+    currency_id: 2653
+    currency_symbol: AUC
+    currency_type: cryptocurrency
+    exchange_symbol: AUC
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: AUC/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/AUC-KRW
+- base:
     currency_id: 2396
     currency_symbol: WETH
     currency_type: cryptocurrency
@@ -124,7 +124,7 @@ markets:
     exchange_symbol: AUC
   url: https://uniswap.org/
 name: Auctus
-rank: 604
+rank: 640
 slug: auctus
 status: active
 symbol: AUC

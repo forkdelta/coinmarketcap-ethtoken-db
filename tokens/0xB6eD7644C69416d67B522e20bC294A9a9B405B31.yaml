@@ -58,20 +58,6 @@ markets:
     exchange_symbol: 0xBTC
   exchange_id: 400
   exchange_name: Hotbit
-  pair: 0xBTC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=0XBTC_ETH
-- base:
-    currency_id: 2837
-    currency_symbol: 0xBTC
-    currency_type: cryptocurrency
-    exchange_symbol: 0xBTC
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: 0xBTC/BTC
   quote:
     currency_id: 1
@@ -79,6 +65,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.hotbit.io/exchange?symbol=0XBTC_BTC
+- base:
+    currency_id: 2837
+    currency_symbol: 0xBTC
+    currency_type: cryptocurrency
+    exchange_symbol: 0xBTC
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: 0xBTC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=0XBTC_ETH
 - base:
     currency_id: 2837
     currency_symbol: 0xBTC
@@ -136,20 +136,6 @@ markets:
     exchange_symbol: WETH
   url: https://uniswap.org/
 - base:
-    currency_id: 3408
-    currency_symbol: USDC
-    currency_type: cryptocurrency
-    exchange_symbol: USDC
-  exchange_id: 1069
-  exchange_name: Uniswap (V2)
-  pair: USDC/0xBTC
-  quote:
-    currency_id: 2837
-    currency_symbol: 0xBTC
-    currency_type: cryptocurrency
-    exchange_symbol: 0xBTC
-  url: https://uniswap.org/
-- base:
     currency_id: 5471
     currency_symbol: GHOST
     currency_type: cryptocurrency
@@ -177,8 +163,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: 0xBTC
   url: https://uniswap.org/
+- base:
+    currency_id: 3408
+    currency_symbol: USDC
+    currency_type: cryptocurrency
+    exchange_symbol: USDC
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: USDC/0xBTC
+  quote:
+    currency_id: 2837
+    currency_symbol: 0xBTC
+    currency_type: cryptocurrency
+    exchange_symbol: 0xBTC
+  url: https://uniswap.org/
 name: 0xBitcoin
-rank: 1099
+rank: 1098
 slug: 0xbtc
 status: active
 symbol: 0xBTC

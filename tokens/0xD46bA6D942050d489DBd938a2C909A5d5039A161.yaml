@@ -43,20 +43,6 @@ markets:
     currency_symbol: AMPL
     currency_type: cryptocurrency
     exchange_symbol: AMPL
-  exchange_id: 311
-  exchange_name: KuCoin
-  pair: AMPL/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://trade.kucoin.com/AMPL-BTC
-- base:
-    currency_id: 4056
-    currency_symbol: AMPL
-    currency_type: cryptocurrency
-    exchange_symbol: AMPL
   exchange_id: 415
   exchange_name: Bilaxy
   pair: AMPL/USDT
@@ -66,6 +52,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://bilaxy.com/trade/AMPL_USDT
+- base:
+    currency_id: 4056
+    currency_symbol: AMPL
+    currency_type: cryptocurrency
+    exchange_symbol: AMPL
+  exchange_id: 311
+  exchange_name: KuCoin
+  pair: AMPL/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://trade.kucoin.com/AMPL-BTC
 - base:
     currency_id: 4056
     currency_symbol: AMPL
@@ -85,20 +85,6 @@ markets:
     currency_symbol: AMPL
     currency_type: cryptocurrency
     exchange_symbol: AMPL
-  exchange_id: 37
-  exchange_name: Bitfinex
-  pair: AMPL/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://www.bitfinex.com/t/AMPL:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 4056
-    currency_symbol: AMPL
-    currency_type: cryptocurrency
-    exchange_symbol: AMPL
   exchange_id: 404
   exchange_name: Kyber Network
   pair: AMPL/ETH
@@ -108,6 +94,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/ampl-eth
+- base:
+    currency_id: 4056
+    currency_symbol: AMPL
+    currency_type: cryptocurrency
+    exchange_symbol: AMPL
+  exchange_id: 37
+  exchange_name: Bitfinex
+  pair: AMPL/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://www.bitfinex.com/t/AMPL:USD?refcode=H70YTMupQ
 - base:
     currency_id: 4056
     currency_symbol: AMPL
@@ -235,7 +235,7 @@ markets:
     exchange_symbol: AMPL
   url: https://uniswap.org/
 name: Ampleforth
-rank: 79
+rank: 63
 slug: ampleforth
 status: active
 symbol: AMPL

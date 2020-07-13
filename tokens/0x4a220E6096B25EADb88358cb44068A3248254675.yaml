@@ -40,6 +40,20 @@ markets:
     currency_symbol: QNT
     currency_type: cryptocurrency
     exchange_symbol: QNT
+  exchange_id: 363
+  exchange_name: Fatbtc
+  pair: QNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.fatbtc.com/trading?currency=QNT%2FETH
+- base:
+    currency_id: 3155
+    currency_symbol: QNT
+    currency_type: cryptocurrency
+    exchange_symbol: QNT
   exchange_id: 415
   exchange_name: Bilaxy
   pair: QNT/ETH
@@ -49,34 +63,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://bilaxy.com/trade/QNT_ETH
-- base:
-    currency_id: 3155
-    currency_symbol: QNT
-    currency_type: cryptocurrency
-    exchange_symbol: QNT
-  exchange_id: 489
-  exchange_name: Bithumb Global
-  pair: QNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.bithumb.pro/en-us/spot/trade;symbol=QNT_USDT
-- base:
-    currency_id: 3155
-    currency_symbol: QNT
-    currency_type: cryptocurrency
-    exchange_symbol: QNT
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: QNT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=QNT_USDT
 - base:
     currency_id: 3155
     currency_symbol: QNT
@@ -98,13 +84,13 @@ markets:
     exchange_symbol: QNT
   exchange_id: 400
   exchange_name: Hotbit
-  pair: QNT/ETH
+  pair: QNT/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=QNT_ETH
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=QNT_USDT
 - base:
     currency_id: 3155
     currency_symbol: QNT
@@ -124,29 +110,29 @@ markets:
     currency_symbol: QNT
     currency_type: cryptocurrency
     exchange_symbol: QNT
-  exchange_id: 404
-  exchange_name: Kyber Network
+  exchange_id: 400
+  exchange_name: Hotbit
   pair: QNT/ETH
   quote:
     currency_id: 1027
     currency_symbol: ETH
     currency_type: cryptocurrency
     exchange_symbol: ETH
-  url: https://kyberswap.com/swap/qnt-eth
+  url: https://www.hotbit.io/exchange?symbol=QNT_ETH
 - base:
     currency_id: 3155
     currency_symbol: QNT
     currency_type: cryptocurrency
     exchange_symbol: QNT
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: QNT/BTC
+  exchange_id: 489
+  exchange_name: Bithumb Global
+  pair: QNT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-QNT
+    exchange_symbol: USDT
+  url: https://www.bithumb.pro/en-us/spot/trade;symbol=QNT_USDT
 - base:
     currency_id: 3155
     currency_symbol: QNT
@@ -166,15 +152,29 @@ markets:
     currency_symbol: QNT
     currency_type: cryptocurrency
     exchange_symbol: QNT
-  exchange_id: 488
-  exchange_name: CoinMetro
-  pair: QNT/EUR
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: QNT/BTC
   quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://go.coinmetro.com/#/trade
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-QNT
+- base:
+    currency_id: 3155
+    currency_symbol: QNT
+    currency_type: cryptocurrency
+    exchange_symbol: QNT
+  exchange_id: 404
+  exchange_name: Kyber Network
+  pair: QNT/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://kyberswap.com/swap/qnt-eth
 - base:
     currency_id: 3155
     currency_symbol: QNT
@@ -250,6 +250,20 @@ markets:
     currency_symbol: QNT
     currency_type: cryptocurrency
     exchange_symbol: QNT
+  exchange_id: 488
+  exchange_name: CoinMetro
+  pair: QNT/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://go.coinmetro.com/#/trade
+- base:
+    currency_id: 3155
+    currency_symbol: QNT
+    currency_type: cryptocurrency
+    exchange_symbol: QNT
   exchange_id: 401
   exchange_name: Switcheo Network
   pair: QNT/ETH
@@ -278,20 +292,6 @@ markets:
     currency_symbol: QNT
     currency_type: cryptocurrency
     exchange_symbol: QNT
-  exchange_id: 363
-  exchange_name: Fatbtc
-  pair: QNT/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.fatbtc.com/trading?currency=QNT%2FETH
-- base:
-    currency_id: 3155
-    currency_symbol: QNT
-    currency_type: cryptocurrency
-    exchange_symbol: QNT
   exchange_id: 1069
   exchange_name: Uniswap (V2)
   pair: QNT/WETH
@@ -302,7 +302,7 @@ markets:
     exchange_symbol: WETH
   url: https://uniswap.org/
 name: Quant
-rank: 80
+rank: 77
 slug: quant
 status: active
 symbol: QNT

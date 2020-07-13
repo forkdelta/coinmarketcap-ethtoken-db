@@ -98,20 +98,6 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: REP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bitmart.com/trade?symbol=REP_ETH
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
   exchange_id: 42
   exchange_name: HitBTC
   pair: REP/BTC
@@ -140,6 +126,20 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
+  exchange_id: 406
+  exchange_name: BitMart
+  pair: REP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.bitmart.com/trade?symbol=REP_ETH
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
   exchange_id: 323
   exchange_name: RightBTC
   pair: REP/BTC
@@ -154,15 +154,15 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 406
-  exchange_name: BitMart
-  pair: REP/BTC
+  exchange_id: 339
+  exchange_name: Bibox
+  pair: REP/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.bitmart.com/trade?symbol=REP_BTC
+    exchange_symbol: ETH
+  url: https://www.bibox.com/exchange?coinPair=REP_ETH
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -177,20 +177,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.bibox.com/exchange?coinPair=REP_USDT
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 339
-  exchange_name: Bibox
-  pair: REP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.bibox.com/exchange?coinPair=REP_ETH
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -238,15 +224,15 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 495
-  exchange_name: Folgory
+  exchange_id: 406
+  exchange_name: BitMart
   pair: REP/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://folgory.com/trade-crypto/REP_BTC
+  url: https://www.bitmart.com/trade?symbol=REP_BTC
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -266,15 +252,29 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: REP/USDT
+  exchange_id: 495
+  exchange_name: Folgory
+  pair: REP/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://omgfin.com/exchange/trade/market/REPUSDT
+    exchange_symbol: BTC
+  url: https://folgory.com/trade-crypto/REP_BTC
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: REP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://latoken.com/exchange/BTC-REP
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -294,15 +294,43 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: REP/BTC
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: REP/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://latoken.com/exchange/BTC-REP
+    exchange_symbol: USDT
+  url: https://omgfin.com/exchange/trade/market/REPUSDT
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 270
+  exchange_name: Binance
+  pair: REP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.binance.com/en/trade/REP_ETH?ref=H31B921U
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: REP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://hitbtc.com/REP-to-ETH
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -336,20 +364,6 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: REP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://hitbtc.com/REP-to-ETH
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
   exchange_id: 323
   exchange_name: RightBTC
   pair: REP/USDT
@@ -359,34 +373,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.rightbtc.com/trade/REPUSDT
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 656
-  exchange_name: Omgfin
-  pair: REP/UQC
-  quote:
-    currency_id: 2273
-    currency_symbol: UQC
-    currency_type: cryptocurrency
-    exchange_symbol: UQC
-  url: https://omgfin.com/exchange/trade/market/REPUQC
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 350
-  exchange_name: CoinEx
-  pair: REP/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.coinex.com/trading?currency=usdt&dest=rep&tab=limit
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -406,6 +392,34 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
+  exchange_id: 350
+  exchange_name: CoinEx
+  pair: REP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.coinex.com/trading?currency=usdt&dest=rep&tab=limit
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 656
+  exchange_name: Omgfin
+  pair: REP/UQC
+  quote:
+    currency_id: 2273
+    currency_symbol: UQC
+    currency_type: cryptocurrency
+    exchange_symbol: UQC
+  url: https://omgfin.com/exchange/trade/market/REPUQC
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
   exchange_id: 630
   exchange_name: Binance.US
   pair: REP/USD
@@ -415,20 +429,6 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.binance.us/en/trade/REP_USD
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 270
-  exchange_name: Binance
-  pair: REP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.binance.com/en/trade/REP_ETH?ref=H31B921U
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -462,20 +462,6 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 483
-  exchange_name: Hanbitco
-  pair: REP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.hanbitco.com/exchange-basic/rep_btc
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
   exchange_id: 723
   exchange_name: Rekeningku.com
   pair: REP/IDR
@@ -490,29 +476,43 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 213
-  exchange_name: Mercatox
+  exchange_id: 733
+  exchange_name: VCC Exchange
   pair: REP/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://mercatox.com/exchange/REP/BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=rep
 - base:
     currency_id: 1104
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 477
-  exchange_name: ProBit Exchange
-  pair: REP/KRW
+  exchange_id: 545
+  exchange_name: Bitsdaq
+  pair: REP/BTC
   quote:
-    currency_id: 2798
-    currency_symbol: KRW
-    currency_type: fiat
-    exchange_symbol: KRW
-  url: https://www.probit.com/app/exchange/REP-KRW
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bitsdaq.com/exchange/REP-BTC
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: REP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://bittrex.com/Market/Index?MarketName=BTC-REP
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -546,6 +546,48 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
+  exchange_id: 477
+  exchange_name: ProBit Exchange
+  pair: REP/KRW
+  quote:
+    currency_id: 2798
+    currency_symbol: KRW
+    currency_type: fiat
+    exchange_symbol: KRW
+  url: https://www.probit.com/app/exchange/REP-KRW
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 483
+  exchange_name: Hanbitco
+  pair: REP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.hanbitco.com/exchange-basic/rep_btc
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 380
+  exchange_name: LATOKEN
+  pair: REP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://latoken.com/exchange/ETH-REP
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
   exchange_id: 498
   exchange_name: Polyx
   pair: REP/ETH
@@ -574,48 +616,6 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: REP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=rep
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: REP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bittrex.com/Market/Index?MarketName=BTC-REP
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: REP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://bitsdaq.com/exchange/REP-BTC
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
   exchange_id: 485
   exchange_name: CoinField
   pair: REP/XRP
@@ -625,20 +625,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: XRP
   url: https://trade.coinfield.com/pro/trade/REP-XRP
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 380
-  exchange_name: LATOKEN
-  pair: REP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://latoken.com/exchange/ETH-REP
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -658,6 +644,20 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: REP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
   exchange_id: 498
   exchange_name: Polyx
   pair: REP/USD
@@ -672,20 +672,6 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: REP/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://wazirx.com/exchange/REP-USDT
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
   exchange_id: 24
   exchange_name: Kraken
   pair: REP/ETH
@@ -695,6 +681,90 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://trade.kraken.com/markets/kraken/rep/eth
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 16
+  exchange_name: Poloniex
+  pair: REP/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://poloniex.com/exchange#usdt_rep?c=H4QD8FNW
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: REP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://vcc.exchange/exchange/basic?currency=eth&coin=rep
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 545
+  exchange_name: Bitsdaq
+  pair: REP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bitsdaq.com/exchange/REP-ETH
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 22
+  exchange_name: Bittrex
+  pair: REP/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://bittrex.com/Market/Index?MarketName=ETH-REP
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 68
+  exchange_name: Indodax
+  pair: REP/IDR
+  quote:
+    currency_id: 2794
+    currency_symbol: IDR
+    currency_type: fiat
+    exchange_symbol: IDR
+  url: https://indodax.com/market/REPIDR
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 82
+  exchange_name: BitBay
+  pair: REP/PLN
+  quote:
+    currency_id: 2805
+    currency_symbol: PLN
+    currency_type: fiat
+    exchange_symbol: PLN
+  url: https://bitbay.net/en/exchange-rate/REP-PLN
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -716,76 +786,6 @@ markets:
     exchange_symbol: REP
   exchange_id: 16
   exchange_name: Poloniex
-  pair: REP/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://poloniex.com/exchange#usdt_rep?c=H4QD8FNW
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 68
-  exchange_name: Indodax
-  pair: REP/IDR
-  quote:
-    currency_id: 2794
-    currency_symbol: IDR
-    currency_type: fiat
-    exchange_symbol: IDR
-  url: https://indodax.com/market/REPIDR
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: REP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://vcc.exchange/exchange/basic?currency=eth&coin=rep
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 22
-  exchange_name: Bittrex
-  pair: REP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bittrex.com/Market/Index?MarketName=ETH-REP
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 545
-  exchange_name: Bitsdaq
-  pair: REP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://bitsdaq.com/exchange/REP-ETH
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 16
-  exchange_name: Poloniex
   pair: REP/BTC
   quote:
     currency_id: 1
@@ -798,29 +798,15 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 166
-  exchange_name: Independent Reserve
-  pair: REP/AUD
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: REP/USDT
   quote:
-    currency_id: 2782
-    currency_symbol: AUD
-    currency_type: fiat
-    exchange_symbol: AUD
-  url: https://www.independentreserve.com/Market
-- base:
-    currency_id: 1104
-    currency_symbol: REP
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: REP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
+    exchange_symbol: USDT
+  url: https://wazirx.com/exchange/REP-USDT
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -854,6 +840,34 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
+  exchange_id: 630
+  exchange_name: Binance.US
+  pair: REP/BUSD
+  quote:
+    currency_id: 4687
+    currency_symbol: BUSD
+    currency_type: cryptocurrency
+    exchange_symbol: BUSD
+  url: https://www.binance.us/en/trade/REP_BUSD
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 166
+  exchange_name: Independent Reserve
+  pair: REP/AUD
+  quote:
+    currency_id: 2782
+    currency_symbol: AUD
+    currency_type: fiat
+    exchange_symbol: AUD
+  url: https://www.independentreserve.com/Market
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
   exchange_id: 37
   exchange_name: Bitfinex
   pair: REP/BTC
@@ -882,29 +896,15 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 630
-  exchange_name: Binance.US
-  pair: REP/BUSD
+  exchange_id: 335
+  exchange_name: GOPAX
+  pair: REP/BTC
   quote:
-    currency_id: 4687
-    currency_symbol: BUSD
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: BUSD
-  url: https://www.binance.us/en/trade/REP_BUSD
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 82
-  exchange_name: BitBay
-  pair: REP/PLN
-  quote:
-    currency_id: 2805
-    currency_symbol: PLN
-    currency_type: fiat
-    exchange_symbol: PLN
-  url: https://bitbay.net/en/exchange-rate/REP-PLN
+    exchange_symbol: BTC
+  url: https://www.gopax.co.kr/exchange/rep-btc
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -924,29 +924,15 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 335
-  exchange_name: GOPAX
-  pair: REP/BTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: REP/ETH
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 1027
+    currency_symbol: ETH
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.gopax.co.kr/exchange/rep-btc
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
-  exchange_id: 382
-  exchange_name: Crex24
-  pair: REP/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://crex24.com/exchange/REP-BTC
+    exchange_symbol: ETH
+  url: https://gate.io/trade/rep_eth
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -966,20 +952,6 @@ markets:
     currency_symbol: REP
     currency_type: cryptocurrency
     exchange_symbol: REP
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: REP/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/rep_eth
-- base:
-    currency_id: 1104
-    currency_symbol: REP
-    currency_type: cryptocurrency
-    exchange_symbol: REP
   exchange_id: 310
   exchange_name: IDEX
   pair: REP/ETH
@@ -989,6 +961,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://idex.market/eth/rep
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 382
+  exchange_name: Crex24
+  pair: REP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://crex24.com/exchange/REP-BTC
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -1031,6 +1017,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://www.valr.com/buy/REP/ETH
+- base:
+    currency_id: 1104
+    currency_symbol: REP
+    currency_type: cryptocurrency
+    exchange_symbol: REP
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: REP/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/REP/BTC
 - base:
     currency_id: 1104
     currency_symbol: REP
@@ -1089,7 +1089,7 @@ markets:
   url: https://app.radarrelay.com/REP/WETH
 name: Augur
 notice: Augur v2 will be launched on the Ethereum mainnet on [July 28th, 2020](https://www.augur.net/blog/v2-launch/).
-rank: 47
+rank: 44
 slug: augur
 status: active
 symbol: REP

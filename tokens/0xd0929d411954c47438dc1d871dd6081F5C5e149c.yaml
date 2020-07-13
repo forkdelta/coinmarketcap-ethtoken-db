@@ -41,20 +41,6 @@ markets:
     currency_symbol: RFR
     currency_type: cryptocurrency
     exchange_symbol: RFR
-  exchange_id: 733
-  exchange_name: VCC Exchange
-  pair: RFR/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://vcc.exchange/exchange/basic?currency=btc&coin=rfr
-- base:
-    currency_id: 2553
-    currency_symbol: RFR
-    currency_type: cryptocurrency
-    exchange_symbol: RFR
   exchange_id: 302
   exchange_name: Gate.io
   pair: RFR/USDT
@@ -64,6 +50,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://gate.io/trade/rfr_usdt
+- base:
+    currency_id: 2553
+    currency_symbol: RFR
+    currency_type: cryptocurrency
+    exchange_symbol: RFR
+  exchange_id: 733
+  exchange_name: VCC Exchange
+  pair: RFR/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://vcc.exchange/exchange/basic?currency=btc&coin=rfr
 - base:
     currency_id: 2553
     currency_symbol: RFR
@@ -111,6 +111,20 @@ markets:
     currency_symbol: RFR
     currency_type: cryptocurrency
     exchange_symbol: RFR
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: RFR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://gate.io/trade/rfr_eth
+- base:
+    currency_id: 2553
+    currency_symbol: RFR
+    currency_type: cryptocurrency
+    exchange_symbol: RFR
   exchange_id: 42
   exchange_name: HitBTC
   pair: RFR/BTC
@@ -134,6 +148,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: null
+- base:
+    currency_id: 2553
+    currency_symbol: RFR
+    currency_type: cryptocurrency
+    exchange_symbol: RFR
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: RFR/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/rfr
 - base:
     currency_id: 2553
     currency_symbol: RFR
@@ -167,34 +195,6 @@ markets:
     currency_symbol: RFR
     currency_type: cryptocurrency
     exchange_symbol: RFR
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: RFR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/rfr
-- base:
-    currency_id: 2553
-    currency_symbol: RFR
-    currency_type: cryptocurrency
-    exchange_symbol: RFR
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: RFR/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://gate.io/trade/rfr_eth
-- base:
-    currency_id: 2553
-    currency_symbol: RFR
-    currency_type: cryptocurrency
-    exchange_symbol: RFR
   exchange_id: 542
   exchange_name: Bitsonic
   pair: RFR/BSC
@@ -205,7 +205,7 @@ markets:
     exchange_symbol: BSC
   url: https://bitsonic.co.kr/front/exchange/rfr-bsc
 name: Refereum
-rank: 741
+rank: 745
 slug: refereum
 status: active
 symbol: RFR

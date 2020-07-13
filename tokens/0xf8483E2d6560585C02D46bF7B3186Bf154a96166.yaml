@@ -120,27 +120,13 @@ markets:
     exchange_symbol: ICH
   exchange_id: 587
   exchange_name: IndoEx
-  pair: ICH/LTC
+  pair: ICH/USDC
   quote:
-    currency_id: 2
-    currency_symbol: LTC
+    currency_id: 3408
+    currency_symbol: USDC
     currency_type: cryptocurrency
-    exchange_symbol: LTC
-  url: https://international.indoex.io/trade/ICH_LTC
-- base:
-    currency_id: 5560
-    currency_symbol: ICH
-    currency_type: cryptocurrency
-    exchange_symbol: ICH
-  exchange_id: 587
-  exchange_name: IndoEx
-  pair: ICH/EUR
-  quote:
-    currency_id: 2790
-    currency_symbol: EUR
-    currency_type: fiat
-    exchange_symbol: EUR
-  url: https://international.indoex.io/trade/ICH_EUR
+    exchange_symbol: USDC
+  url: https://international.indoex.io/trade/ICH_USDC
 - base:
     currency_id: 5560
     currency_symbol: ICH
@@ -162,13 +148,27 @@ markets:
     exchange_symbol: ICH
   exchange_id: 587
   exchange_name: IndoEx
-  pair: ICH/USDC
+  pair: ICH/LTC
   quote:
-    currency_id: 3408
-    currency_symbol: USDC
+    currency_id: 2
+    currency_symbol: LTC
     currency_type: cryptocurrency
-    exchange_symbol: USDC
-  url: https://international.indoex.io/trade/ICH_USDC
+    exchange_symbol: LTC
+  url: https://international.indoex.io/trade/ICH_LTC
+- base:
+    currency_id: 5560
+    currency_symbol: ICH
+    currency_type: cryptocurrency
+    exchange_symbol: ICH
+  exchange_id: 587
+  exchange_name: IndoEx
+  pair: ICH/EUR
+  quote:
+    currency_id: 2790
+    currency_symbol: EUR
+    currency_type: fiat
+    exchange_symbol: EUR
+  url: https://international.indoex.io/trade/ICH_EUR
 - base:
     currency_id: 5560
     currency_symbol: ICH
@@ -240,7 +240,7 @@ markets:
     exchange_symbol: ETH
   url: https://www.etherflyer.com/trade.html?pairs=ICH-ETH
 name: Idea Chain Coin
-rank: 226
+rank: 223
 slug: idea-chain-coin
 status: active
 symbol: ICH

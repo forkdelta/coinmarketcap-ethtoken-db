@@ -48,20 +48,6 @@ markets:
     currency_symbol: HIT
     currency_type: cryptocurrency
     exchange_symbol: HIT
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: HIT/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/hit_usdt
-- base:
-    currency_id: 3182
-    currency_symbol: HIT
-    currency_type: cryptocurrency
-    exchange_symbol: HIT
   exchange_id: 102
   exchange_name: Huobi Global
   pair: HIT/ETH
@@ -76,15 +62,15 @@ markets:
     currency_symbol: HIT
     currency_type: cryptocurrency
     exchange_symbol: HIT
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: HIT/BTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: HIT/USDT
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.huobi.co.kr/en-US/exchange/hit_btc/
+    exchange_symbol: USDT
+  url: https://gate.io/trade/hit_usdt
 - base:
     currency_id: 3182
     currency_symbol: HIT
@@ -99,6 +85,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: USDT
   url: https://www.huobi.co.kr/en-US/exchange/hit_usdt/
+- base:
+    currency_id: 3182
+    currency_symbol: HIT
+    currency_type: cryptocurrency
+    exchange_symbol: HIT
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: HIT/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.huobi.co.kr/en-US/exchange/hit_btc/
 - base:
     currency_id: 3182
     currency_symbol: HIT
@@ -128,7 +128,7 @@ markets:
     exchange_symbol: ETH
   url: https://gate.io/trade/hit_eth
 name: HitChain
-rank: 534
+rank: 538
 slug: hitchain
 status: active
 symbol: HIT

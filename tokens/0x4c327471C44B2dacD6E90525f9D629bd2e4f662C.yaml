@@ -50,20 +50,6 @@ markets:
     currency_symbol: GHOST
     currency_type: cryptocurrency
     exchange_symbol: GHOST
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: GHOST/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/GHOST-to-BTC
-- base:
-    currency_id: 5471
-    currency_symbol: GHOST
-    currency_type: cryptocurrency
-    exchange_symbol: GHOST
   exchange_id: 400
   exchange_name: Hotbit
   pair: GHOST/ETH
@@ -94,13 +80,13 @@ markets:
     exchange_symbol: GHOST
   exchange_id: 42
   exchange_name: HitBTC
-  pair: GHOST/USDT
+  pair: GHOST/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/GHOST-to-USDT
+    exchange_symbol: BTC
+  url: https://hitbtc.com/GHOST-to-BTC
 - base:
     currency_id: 5471
     currency_symbol: GHOST
@@ -115,6 +101,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: null
+- base:
+    currency_id: 5471
+    currency_symbol: GHOST
+    currency_type: cryptocurrency
+    exchange_symbol: GHOST
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: GHOST/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/GHOST-to-USDT
 - base:
     currency_id: 5471
     currency_symbol: GHOST
@@ -172,7 +172,7 @@ markets:
     exchange_symbol: 0xBTC
   url: https://uniswap.org/
 name: GHOST
-rank: 320
+rank: 307
 slug: ghost
 status: active
 symbol: GHOST

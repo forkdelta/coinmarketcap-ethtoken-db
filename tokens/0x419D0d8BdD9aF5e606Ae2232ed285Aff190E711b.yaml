@@ -46,34 +46,6 @@ markets:
     currency_symbol: FUN
     currency_type: cryptocurrency
     exchange_symbol: FUN
-  exchange_id: 270
-  exchange_name: Binance
-  pair: FUN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.binance.com/en/trade/FUN_BTC?ref=H31B921U
-- base:
-    currency_id: 1757
-    currency_symbol: FUN
-    currency_type: cryptocurrency
-    exchange_symbol: FUN
-  exchange_id: 270
-  exchange_name: Binance
-  pair: FUN/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.binance.com/en/trade/FUN_USDT?ref=H31B921U
-- base:
-    currency_id: 1757
-    currency_symbol: FUN
-    currency_type: cryptocurrency
-    exchange_symbol: FUN
   exchange_id: 294
   exchange_name: OKEx
   pair: FUN/BTC
@@ -83,6 +55,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://www.okex.com/market?product=fun_btc
+- base:
+    currency_id: 1757
+    currency_symbol: FUN
+    currency_type: cryptocurrency
+    exchange_symbol: FUN
+  exchange_id: 270
+  exchange_name: Binance
+  pair: FUN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.binance.com/en/trade/FUN_BTC?ref=H31B921U
 - base:
     currency_id: 1757
     currency_symbol: FUN
@@ -102,6 +88,20 @@ markets:
     currency_symbol: FUN
     currency_type: cryptocurrency
     exchange_symbol: FUN
+  exchange_id: 270
+  exchange_name: Binance
+  pair: FUN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://www.binance.com/en/trade/FUN_USDT?ref=H31B921U
+- base:
+    currency_id: 1757
+    currency_symbol: FUN
+    currency_type: cryptocurrency
+    exchange_symbol: FUN
   exchange_id: 380
   exchange_name: LATOKEN
   pair: FUN/ETH
@@ -111,6 +111,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://latoken.com/exchange/ETH-FUN
+- base:
+    currency_id: 1757
+    currency_symbol: FUN
+    currency_type: cryptocurrency
+    exchange_symbol: FUN
+  exchange_id: 355
+  exchange_name: Vebitcoin
+  pair: FUN/TRY
+  quote:
+    currency_id: 2810
+    currency_symbol: TRY
+    currency_type: fiat
+    exchange_symbol: TRY
+  url: https://www.vebitcoin.com/
 - base:
     currency_id: 1757
     currency_symbol: FUN
@@ -144,20 +158,6 @@ markets:
     currency_symbol: FUN
     currency_type: cryptocurrency
     exchange_symbol: FUN
-  exchange_id: 355
-  exchange_name: Vebitcoin
-  pair: FUN/TRY
-  quote:
-    currency_id: 2810
-    currency_symbol: TRY
-    currency_type: fiat
-    exchange_symbol: TRY
-  url: https://www.vebitcoin.com/
-- base:
-    currency_id: 1757
-    currency_symbol: FUN
-    currency_type: cryptocurrency
-    exchange_symbol: FUN
   exchange_id: 949
   exchange_name: CoinDCX
   pair: FUN/BTC
@@ -167,20 +167,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://coindcx.com/trade/FUNBTC
-- base:
-    currency_id: 1757
-    currency_symbol: FUN
-    currency_type: cryptocurrency
-    exchange_symbol: FUN
-  exchange_id: 254
-  exchange_name: C2CX
-  pair: FUN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.c2cx.com/in/trade_btc_fun
 - base:
     currency_id: 1757
     currency_symbol: FUN
@@ -214,15 +200,43 @@ markets:
     currency_symbol: FUN
     currency_type: cryptocurrency
     exchange_symbol: FUN
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 302
+  exchange_name: Gate.io
+  pair: FUN/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://gate.io/trade/fun_usdt
+- base:
+    currency_id: 1757
+    currency_symbol: FUN
+    currency_type: cryptocurrency
+    exchange_symbol: FUN
+  exchange_id: 254
+  exchange_name: C2CX
   pair: FUN/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/FUN-to-BTC
+  url: https://www.c2cx.com/in/trade_btc_fun
+- base:
+    currency_id: 1757
+    currency_symbol: FUN
+    currency_type: cryptocurrency
+    exchange_symbol: FUN
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: FUN/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 - base:
     currency_id: 1757
     currency_symbol: FUN
@@ -242,15 +256,29 @@ markets:
     currency_symbol: FUN
     currency_type: cryptocurrency
     exchange_symbol: FUN
-  exchange_id: 302
-  exchange_name: Gate.io
-  pair: FUN/USDT
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: FUN/BTC
   quote:
-    currency_id: 825
-    currency_symbol: USDT
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://gate.io/trade/fun_usdt
+    exchange_symbol: BTC
+  url: https://hitbtc.com/FUN-to-BTC
+- base:
+    currency_id: 1757
+    currency_symbol: FUN
+    currency_type: cryptocurrency
+    exchange_symbol: FUN
+  exchange_id: 107
+  exchange_name: Livecoin
+  pair: FUN/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://www.livecoin.net/en/trading/FUN_BTC
 - base:
     currency_id: 1757
     currency_symbol: FUN
@@ -284,34 +312,6 @@ markets:
     currency_symbol: FUN
     currency_type: cryptocurrency
     exchange_symbol: FUN
-  exchange_id: 425
-  exchange_name: WazirX
-  pair: FUN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://wazirx.com/exchange/FUN-BTC
-- base:
-    currency_id: 1757
-    currency_symbol: FUN
-    currency_type: cryptocurrency
-    exchange_symbol: FUN
-  exchange_id: 107
-  exchange_name: Livecoin
-  pair: FUN/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.livecoin.net/en/trading/FUN_BTC
-- base:
-    currency_id: 1757
-    currency_symbol: FUN
-    currency_type: cryptocurrency
-    exchange_symbol: FUN
   exchange_id: 37
   exchange_name: Bitfinex
   pair: FUN/ETH
@@ -326,15 +326,15 @@ markets:
     currency_symbol: FUN
     currency_type: cryptocurrency
     exchange_symbol: FUN
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: FUN/ETH
+  exchange_id: 425
+  exchange_name: WazirX
+  pair: FUN/BTC
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 1
+    currency_symbol: BTC
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
+    exchange_symbol: BTC
+  url: https://wazirx.com/exchange/FUN-BTC
 - base:
     currency_id: 1757
     currency_symbol: FUN
@@ -420,7 +420,7 @@ markets:
     exchange_symbol: USDC
   url: https://uniswap.org/
 name: FunFair
-rank: 168
+rank: 167
 slug: funfair
 status: active
 symbol: FUN

@@ -92,20 +92,6 @@ markets:
     exchange_symbol: NEXO
   exchange_id: 400
   exchange_name: Hotbit
-  pair: NEXO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://www.hotbit.io/exchange?symbol=NEXO_USDT
-- base:
-    currency_id: 2694
-    currency_symbol: NEXO
-    currency_type: cryptocurrency
-    exchange_symbol: NEXO
-  exchange_id: 400
-  exchange_name: Hotbit
   pair: NEXO/BTC
   quote:
     currency_id: 1
@@ -118,15 +104,15 @@ markets:
     currency_symbol: NEXO
     currency_type: cryptocurrency
     exchange_symbol: NEXO
-  exchange_id: 433
-  exchange_name: Bitrue
-  pair: NEXO/XRP
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: NEXO/USDT
   quote:
-    currency_id: 52
-    currency_symbol: XRP
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: XRP
-  url: https://www.bitrue.com/trade/nexo_xrp?inviteCode=VQQLQV
+    exchange_symbol: USDT
+  url: https://www.hotbit.io/exchange?symbol=NEXO_USDT
 - base:
     currency_id: 2694
     currency_symbol: NEXO
@@ -146,15 +132,15 @@ markets:
     currency_symbol: NEXO
     currency_type: cryptocurrency
     exchange_symbol: NEXO
-  exchange_id: 213
-  exchange_name: Mercatox
-  pair: NEXO/BTC
+  exchange_id: 433
+  exchange_name: Bitrue
+  pair: NEXO/XRP
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 52
+    currency_symbol: XRP
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://mercatox.com/exchange/NEXO/BTC
+    exchange_symbol: XRP
+  url: https://www.bitrue.com/trade/nexo_xrp?inviteCode=VQQLQV
 - base:
     currency_id: 2694
     currency_symbol: NEXO
@@ -169,6 +155,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://hitbtc.com/NEXO-to-BTC
+- base:
+    currency_id: 2694
+    currency_symbol: NEXO
+    currency_type: cryptocurrency
+    exchange_symbol: NEXO
+  exchange_id: 213
+  exchange_name: Mercatox
+  pair: NEXO/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://mercatox.com/exchange/NEXO/BTC
 - base:
     currency_id: 2694
     currency_symbol: NEXO
@@ -218,6 +218,34 @@ markets:
     exchange_symbol: NEXO
   exchange_id: 463
   exchange_name: Huobi Korea
+  pair: NEXO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.huobi.co.kr/en-US/exchange/nexo_eth/
+- base:
+    currency_id: 2694
+    currency_symbol: NEXO
+    currency_type: cryptocurrency
+    exchange_symbol: NEXO-A84
+  exchange_id: 486
+  exchange_name: Binance DEX
+  pair: NEXO/BNB
+  quote:
+    currency_id: 1839
+    currency_symbol: BNB
+    currency_type: cryptocurrency
+    exchange_symbol: BNB
+  url: https://www.binance.org/en/trade/
+- base:
+    currency_id: 2694
+    currency_symbol: NEXO
+    currency_type: cryptocurrency
+    exchange_symbol: NEXO
+  exchange_id: 463
+  exchange_name: Huobi Korea
   pair: NEXO/BTC
   quote:
     currency_id: 1
@@ -244,34 +272,6 @@ markets:
     currency_symbol: NEXO
     currency_type: cryptocurrency
     exchange_symbol: NEXO
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: NEXO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hitbtc.com/NEXO-to-USDT
-- base:
-    currency_id: 2694
-    currency_symbol: NEXO
-    currency_type: cryptocurrency
-    exchange_symbol: NEXO-A84
-  exchange_id: 486
-  exchange_name: Binance DEX
-  pair: NEXO/BNB
-  quote:
-    currency_id: 1839
-    currency_symbol: BNB
-    currency_type: cryptocurrency
-    exchange_symbol: BNB
-  url: https://www.binance.org/en/trade/
-- base:
-    currency_id: 2694
-    currency_symbol: NEXO
-    currency_type: cryptocurrency
-    exchange_symbol: NEXO
   exchange_id: 213
   exchange_name: Mercatox
   pair: NEXO/ETH
@@ -281,20 +281,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://mercatox.com/exchange/NEXO/ETH
-- base:
-    currency_id: 2694
-    currency_symbol: NEXO
-    currency_type: cryptocurrency
-    exchange_symbol: NEXO
-  exchange_id: 310
-  exchange_name: IDEX
-  pair: NEXO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://idex.market/eth/nexo
 - base:
     currency_id: 2694
     currency_symbol: NEXO
@@ -328,6 +314,34 @@ markets:
     currency_symbol: NEXO
     currency_type: cryptocurrency
     exchange_symbol: NEXO
+  exchange_id: 310
+  exchange_name: IDEX
+  pair: NEXO/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://idex.market/eth/nexo
+- base:
+    currency_id: 2694
+    currency_symbol: NEXO
+    currency_type: cryptocurrency
+    exchange_symbol: NEXO
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: NEXO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hitbtc.com/NEXO-to-USDT
+- base:
+    currency_id: 2694
+    currency_symbol: NEXO
+    currency_type: cryptocurrency
+    exchange_symbol: NEXO
   exchange_id: 100
   exchange_name: YoBit
   pair: NEXO/BTC
@@ -337,20 +351,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BTC
   url: https://yobit.net/en/trade/NEXO/BTC
-- base:
-    currency_id: 2694
-    currency_symbol: NEXO
-    currency_type: cryptocurrency
-    exchange_symbol: NEXO
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: NEXO/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.huobi.co.kr/en-US/exchange/nexo_eth/
 - base:
     currency_id: 2694
     currency_symbol: NEXO
@@ -386,20 +386,6 @@ markets:
     exchange_symbol: NEXO
   exchange_id: 424
   exchange_name: Hoo
-  pair: NEXO/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://hoo.com/trade/nexo-usdt
-- base:
-    currency_id: 2694
-    currency_symbol: NEXO
-    currency_type: cryptocurrency
-    exchange_symbol: NEXO
-  exchange_id: 424
-  exchange_name: Hoo
   pair: NEXO/ETH
   quote:
     currency_id: 1027
@@ -407,6 +393,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hoo.com/trade/nexo-eth
+- base:
+    currency_id: 2694
+    currency_symbol: NEXO
+    currency_type: cryptocurrency
+    exchange_symbol: NEXO
+  exchange_id: 424
+  exchange_name: Hoo
+  pair: NEXO/USDT
+  quote:
+    currency_id: 825
+    currency_symbol: USDT
+    currency_type: cryptocurrency
+    exchange_symbol: USDT
+  url: https://hoo.com/trade/nexo-usdt
 - base:
     currency_id: 2694
     currency_symbol: NEXO
@@ -450,7 +450,7 @@ markets:
     exchange_symbol: ETH
   url: https://allbit.com/exchange/NEXO?market=ETH
 name: Nexo
-rank: 65
+rank: 66
 slug: nexo
 status: active
 symbol: NEXO
