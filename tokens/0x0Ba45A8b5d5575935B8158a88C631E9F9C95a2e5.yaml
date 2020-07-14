@@ -43,20 +43,6 @@ markets:
     currency_symbol: TRB
     currency_type: cryptocurrency
     exchange_symbol: TRB
-  exchange_id: 415
-  exchange_name: Bilaxy
-  pair: TRB/USDT
-  quote:
-    currency_id: 825
-    currency_symbol: USDT
-    currency_type: cryptocurrency
-    exchange_symbol: USDT
-  url: https://bilaxy.com/trade/TRB_USDT
-- base:
-    currency_id: 4944
-    currency_symbol: TRB
-    currency_type: cryptocurrency
-    exchange_symbol: TRB
   exchange_id: 310
   exchange_name: IDEX
   pair: TRB/ETH
@@ -87,6 +73,20 @@ markets:
     exchange_symbol: TRB
   exchange_id: 528
   exchange_name: BiKi
+  pair: TRB/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.biki.cc/en_US/trade/TRB_ETH
+- base:
+    currency_id: 4944
+    currency_symbol: TRB
+    currency_type: cryptocurrency
+    exchange_symbol: TRB
+  exchange_id: 528
+  exchange_name: BiKi
   pair: TRB/USDT
   quote:
     currency_id: 825
@@ -99,15 +99,15 @@ markets:
     currency_symbol: TRB
     currency_type: cryptocurrency
     exchange_symbol: TRB
-  exchange_id: 528
-  exchange_name: BiKi
-  pair: TRB/ETH
+  exchange_id: 415
+  exchange_name: Bilaxy
+  pair: TRB/USDT
   quote:
-    currency_id: 1027
-    currency_symbol: ETH
+    currency_id: 825
+    currency_symbol: USDT
     currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.biki.cc/en_US/trade/TRB_ETH
+    exchange_symbol: USDT
+  url: https://bilaxy.com/trade/TRB_USDT
 - base:
     currency_id: 4944
     currency_symbol: TRB
@@ -277,7 +277,7 @@ markets:
     exchange_symbol: VXV
   url: https://uniswap.org/
 name: Tellor
-rank: 376
+rank: 317
 slug: tellor
 status: active
 symbol: TRB

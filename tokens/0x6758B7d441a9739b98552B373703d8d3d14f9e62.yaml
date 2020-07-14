@@ -46,6 +46,20 @@ markets:
     currency_id: 2548
     currency_symbol: POA
     currency_type: cryptocurrency
+    exchange_symbol: POA
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: POA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/POABTC
+- base:
+    currency_id: 2548
+    currency_symbol: POA
+    currency_type: cryptocurrency
     exchange_symbol: POA20
   exchange_id: 267
   exchange_name: Bancor Network
@@ -61,15 +75,15 @@ markets:
     currency_symbol: POA
     currency_type: cryptocurrency
     exchange_symbol: POA
-  exchange_id: 949
-  exchange_name: CoinDCX
+  exchange_id: 42
+  exchange_name: HitBTC
   pair: POA/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://coindcx.com/trade/POABTC
+  url: https://hitbtc.com/POA-to-BTC
 - base:
     currency_id: 2548
     currency_symbol: POA
@@ -84,20 +98,6 @@ markets:
     currency_type: fiat
     exchange_symbol: USD
   url: https://www.bitfinex.com/t/POA:USD?refcode=H70YTMupQ
-- base:
-    currency_id: 2548
-    currency_symbol: POA
-    currency_type: cryptocurrency
-    exchange_symbol: POA
-  exchange_id: 42
-  exchange_name: HitBTC
-  pair: POA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/POA-to-BTC
 - base:
     currency_id: 2548
     currency_symbol: POA
@@ -157,7 +157,7 @@ markets:
 name: POA
 notice: 'POA Network has launched POA Bridge & POA20 tokens. For more information please <a href="https://medium.com/poa-network/introducing-poa-bridge-and-poa20-55d8b78058ac">read
   the official blog post.</a> '
-rank: 617
+rank: 623
 slug: poa
 status: active
 symbol: POA

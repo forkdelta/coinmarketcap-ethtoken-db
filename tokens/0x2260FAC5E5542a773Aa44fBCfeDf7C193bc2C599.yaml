@@ -20,20 +20,6 @@ markets:
     currency_symbol: WBTC
     currency_type: cryptocurrency
     exchange_symbol: WBTC
-  exchange_id: 595
-  exchange_name: Uniswap
-  pair: WBTC/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://uniswap.exchange/
-- base:
-    currency_id: 3717
-    currency_symbol: WBTC
-    currency_type: cryptocurrency
-    exchange_symbol: WBTC
   exchange_id: 404
   exchange_name: Kyber Network
   pair: WBTC/ETH
@@ -43,6 +29,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://kyberswap.com/swap/wbtc-eth
+- base:
+    currency_id: 3717
+    currency_symbol: WBTC
+    currency_type: cryptocurrency
+    exchange_symbol: WBTC
+  exchange_id: 595
+  exchange_name: Uniswap
+  pair: WBTC/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://uniswap.exchange/
 - base:
     currency_id: 3717
     currency_symbol: WBTC
@@ -188,15 +188,15 @@ markets:
     currency_symbol: WBTC
     currency_type: cryptocurrency
     exchange_symbol: WBTC
-  exchange_id: 348
-  exchange_name: Radar Relay
-  pair: WBTC/WETH
+  exchange_id: 1069
+  exchange_name: Uniswap (V2)
+  pair: WBTC/DAI
   quote:
-    currency_id: 2396
-    currency_symbol: WETH
+    currency_id: 4943
+    currency_symbol: DAI
     currency_type: cryptocurrency
-    exchange_symbol: WETH
-  url: https://app.radarrelay.com/WBTC/WETH
+    exchange_symbol: DAI
+  url: https://uniswap.org/
 - base:
     currency_id: 3717
     currency_symbol: WBTC
@@ -216,15 +216,15 @@ markets:
     currency_symbol: WBTC
     currency_type: cryptocurrency
     exchange_symbol: WBTC
-  exchange_id: 1069
-  exchange_name: Uniswap (V2)
-  pair: WBTC/DAI
+  exchange_id: 348
+  exchange_name: Radar Relay
+  pair: WBTC/WETH
   quote:
-    currency_id: 4943
-    currency_symbol: DAI
+    currency_id: 2396
+    currency_symbol: WETH
     currency_type: cryptocurrency
-    exchange_symbol: DAI
-  url: https://uniswap.org/
+    exchange_symbol: WETH
+  url: https://app.radarrelay.com/WBTC/WETH
 - base:
     currency_id: 3717
     currency_symbol: WBTC
@@ -240,7 +240,7 @@ markets:
     exchange_symbol: USDT
   url: https://uniswap.org/
 name: Wrapped Bitcoin
-rank: 234
+rank: 216
 slug: wrapped-bitcoin
 status: active
 symbol: WBTC

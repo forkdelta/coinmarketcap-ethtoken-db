@@ -44,15 +44,15 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 351
-  exchange_name: Upbit
-  pair: PMA/BTC
+  exchange_id: 294
+  exchange_name: OKEx
+  pair: PMA/USDK
   quote:
-    currency_id: 1
-    currency_symbol: BTC
+    currency_id: 4064
+    currency_symbol: USDK
     currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-PMA
+    exchange_symbol: USDK
+  url: https://www.okex.com/market?product=pma_usdk
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -100,6 +100,20 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: PMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/PMA-to-BTC
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
   exchange_id: 22
   exchange_name: Bittrex
   pair: PMA/USDT
@@ -128,15 +142,43 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 42
-  exchange_name: HitBTC
+  exchange_id: 448
+  exchange_name: Coinall
   pair: PMA/BTC
   quote:
     currency_id: 1
     currency_symbol: BTC
     currency_type: cryptocurrency
     exchange_symbol: BTC
-  url: https://hitbtc.com/PMA-to-BTC
+  url: https://www.coinall.com/market?product=pma_btc
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
+  exchange_id: 351
+  exchange_name: Upbit
+  pair: PMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://upbit.com/exchange?code=CRIX.UPBIT.BTC-PMA
+- base:
+    currency_id: 3164
+    currency_symbol: PMA
+    currency_type: cryptocurrency
+    exchange_symbol: PMA
+  exchange_id: 112
+  exchange_name: Liquid
+  pair: PMA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://app.liquid.com/exchange/PMABTC?affiliate=eNgws23g761816
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -151,20 +193,6 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/PMA-to-ETH
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 100
-  exchange_name: YoBit
-  pair: PMA/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://yobit.net/en/trade/PMA/USD
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -212,20 +240,6 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 448
-  exchange_name: Coinall
-  pair: PMA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://www.coinall.com/market?product=pma_btc
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
   exchange_id: 100
   exchange_name: YoBit
   pair: PMA/BTC
@@ -268,29 +282,15 @@ markets:
     currency_symbol: PMA
     currency_type: cryptocurrency
     exchange_symbol: PMA
-  exchange_id: 112
-  exchange_name: Liquid
-  pair: PMA/BTC
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: PMA/USD
   quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://app.liquid.com/exchange/PMABTC?affiliate=eNgws23g761816
-- base:
-    currency_id: 3164
-    currency_symbol: PMA
-    currency_type: cryptocurrency
-    exchange_symbol: PMA
-  exchange_id: 294
-  exchange_name: OKEx
-  pair: PMA/USDK
-  quote:
-    currency_id: 4064
-    currency_symbol: USDK
-    currency_type: cryptocurrency
-    exchange_symbol: USDK
-  url: https://www.okex.com/market?product=pma_usdk
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://yobit.net/en/trade/PMA/USD
 - base:
     currency_id: 3164
     currency_symbol: PMA
@@ -320,7 +320,7 @@ markets:
     exchange_symbol: KRW
   url: https://chainx.kr/exchange/PMA-KRW
 name: PumaPay
-rank: 690
+rank: 718
 slug: pumapay
 status: active
 symbol: PMA

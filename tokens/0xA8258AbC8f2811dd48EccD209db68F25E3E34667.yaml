@@ -69,20 +69,6 @@ markets:
     exchange_symbol: DAG
   exchange_id: 42
   exchange_name: HitBTC
-  pair: DAG/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://hitbtc.com/DAG-to-BTC
-- base:
-    currency_id: 2868
-    currency_symbol: DAG
-    currency_type: cryptocurrency
-    exchange_symbol: DAG
-  exchange_id: 42
-  exchange_name: HitBTC
   pair: DAG/ETH
   quote:
     currency_id: 1027
@@ -90,6 +76,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://hitbtc.com/DAG-to-ETH
+- base:
+    currency_id: 2868
+    currency_symbol: DAG
+    currency_type: cryptocurrency
+    exchange_symbol: DAG
+  exchange_id: 42
+  exchange_name: HitBTC
+  pair: DAG/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://hitbtc.com/DAG-to-BTC
 - base:
     currency_id: 2868
     currency_symbol: DAG
@@ -133,7 +133,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/trading?currency=DAG%2FUSDT
 name: Constellation
-rank: 337
+rank: 346
 slug: constellation
 status: active
 symbol: DAG
