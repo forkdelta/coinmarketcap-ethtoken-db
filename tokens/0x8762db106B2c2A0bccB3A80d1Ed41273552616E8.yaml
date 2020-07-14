@@ -199,20 +199,6 @@ markets:
     currency_symbol: RSR
     currency_type: cryptocurrency
     exchange_symbol: RSR
-  exchange_id: 463
-  exchange_name: Huobi Korea
-  pair: RSR/HT
-  quote:
-    currency_id: 2502
-    currency_symbol: HT
-    currency_type: cryptocurrency
-    exchange_symbol: HT
-  url: https://www.huobi.co.kr/en-US/exchange/rsr_ht/
-- base:
-    currency_id: 3964
-    currency_symbol: RSR
-    currency_type: cryptocurrency
-    exchange_symbol: RSR
   exchange_id: 401
   exchange_name: Switcheo Network
   pair: RSR/ETH
@@ -222,6 +208,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://switcheo.exchange/markets/RSR_ETH?referral_code=DFCA09
+- base:
+    currency_id: 3964
+    currency_symbol: RSR
+    currency_type: cryptocurrency
+    exchange_symbol: RSR
+  exchange_id: 463
+  exchange_name: Huobi Korea
+  pair: RSR/HT
+  quote:
+    currency_id: 2502
+    currency_symbol: HT
+    currency_type: cryptocurrency
+    exchange_symbol: HT
+  url: https://www.huobi.co.kr/en-US/exchange/rsr_ht/
 - base:
     currency_id: 3964
     currency_symbol: RSR
@@ -237,7 +237,7 @@ markets:
     exchange_symbol: WETH
   url: https://uniswap.org/
 name: Reserve Rights
-rank: 102
+rank: 100
 slug: reserve-rights
 status: active
 symbol: RSR

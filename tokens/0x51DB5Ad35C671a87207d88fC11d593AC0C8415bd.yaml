@@ -69,20 +69,6 @@ markets:
     currency_symbol: MDA
     currency_type: cryptocurrency
     exchange_symbol: MDA
-  exchange_id: 949
-  exchange_name: CoinDCX
-  pair: MDA/BTC
-  quote:
-    currency_id: 1
-    currency_symbol: BTC
-    currency_type: cryptocurrency
-    exchange_symbol: BTC
-  url: https://coindcx.com/trade/MDABTC
-- base:
-    currency_id: 1954
-    currency_symbol: MDA
-    currency_type: cryptocurrency
-    exchange_symbol: MDA
   exchange_id: 477
   exchange_name: ProBit Exchange
   pair: MDA/KRW
@@ -92,6 +78,20 @@ markets:
     currency_type: fiat
     exchange_symbol: KRW
   url: https://www.probit.com/app/exchange/MDA-KRW
+- base:
+    currency_id: 1954
+    currency_symbol: MDA
+    currency_type: cryptocurrency
+    exchange_symbol: MDA
+  exchange_id: 949
+  exchange_name: CoinDCX
+  pair: MDA/BTC
+  quote:
+    currency_id: 1
+    currency_symbol: BTC
+    currency_type: cryptocurrency
+    exchange_symbol: BTC
+  url: https://coindcx.com/trade/MDABTC
 - base:
     currency_id: 1954
     currency_symbol: MDA
@@ -121,7 +121,7 @@ markets:
     exchange_symbol: USDT
   url: https://www.fatbtc.com/trading?currency=MDA%2FUSDT
 name: Moeda Loyalty Points
-rank: 430
+rank: 417
 slug: moeda-loyalty-points
 status: active
 symbol: MDA

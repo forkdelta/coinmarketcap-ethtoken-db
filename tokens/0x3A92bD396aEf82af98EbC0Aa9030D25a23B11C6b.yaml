@@ -27,20 +27,6 @@ markets:
     currency_symbol: TBX
     currency_type: cryptocurrency
     exchange_symbol: TBX
-  exchange_id: 400
-  exchange_name: Hotbit
-  pair: TBX/ETH
-  quote:
-    currency_id: 1027
-    currency_symbol: ETH
-    currency_type: cryptocurrency
-    exchange_symbol: ETH
-  url: https://www.hotbit.io/exchange?symbol=TBX_ETH
-- base:
-    currency_id: 2452
-    currency_symbol: TBX
-    currency_type: cryptocurrency
-    exchange_symbol: TBX
   exchange_id: 267
   exchange_name: Bancor Network
   pair: TBX/BNT
@@ -50,6 +36,20 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: BNT
   url: https://www.bancor.network/token/TBX
+- base:
+    currency_id: 2452
+    currency_symbol: TBX
+    currency_type: cryptocurrency
+    exchange_symbol: TBX
+  exchange_id: 400
+  exchange_name: Hotbit
+  pair: TBX/ETH
+  quote:
+    currency_id: 1027
+    currency_symbol: ETH
+    currency_type: cryptocurrency
+    exchange_symbol: ETH
+  url: https://www.hotbit.io/exchange?symbol=TBX_ETH
 - base:
     currency_id: 2452
     currency_symbol: TBX
@@ -71,20 +71,6 @@ markets:
     exchange_symbol: TBX
   exchange_id: 100
   exchange_name: YoBit
-  pair: TBX/USD
-  quote:
-    currency_id: 2781
-    currency_symbol: USD
-    currency_type: fiat
-    exchange_symbol: USD
-  url: https://yobit.net/en/trade/TBX/USD
-- base:
-    currency_id: 2452
-    currency_symbol: TBX
-    currency_type: cryptocurrency
-    exchange_symbol: TBX
-  exchange_id: 100
-  exchange_name: YoBit
   pair: TBX/ETH
   quote:
     currency_id: 1027
@@ -92,8 +78,22 @@ markets:
     currency_type: cryptocurrency
     exchange_symbol: ETH
   url: https://yobit.net/en/trade/TBX/ETH
+- base:
+    currency_id: 2452
+    currency_symbol: TBX
+    currency_type: cryptocurrency
+    exchange_symbol: TBX
+  exchange_id: 100
+  exchange_name: YoBit
+  pair: TBX/USD
+  quote:
+    currency_id: 2781
+    currency_symbol: USD
+    currency_type: fiat
+    exchange_symbol: USD
+  url: https://yobit.net/en/trade/TBX/USD
 name: Tokenbox
-rank: 1171
+rank: 1119
 slug: tokenbox
 status: active
 symbol: TBX
